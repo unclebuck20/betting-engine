@@ -27,7 +27,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Fetch
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODD_API_KEY }}
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: python scripts/fetch.py
       - name: Commit if changed
