@@ -13,8 +13,8 @@ ODDS_BOOKMAKERS = [
     "pinnacle",      # sharp anchor (public site, may lag slightly)
     "betonlineag",   # semi-sharp offshore
     "lowvig",        # low-vig offshore
-    "draftkings",    # default card book until Garrett names his
-    "fanduel",
+    "draftkings",    # Garrett's book
+    "fanduel",       # Garrett's book
     "betmgm",
     "bovada",
     "betrivers",
@@ -22,7 +22,7 @@ ODDS_BOOKMAKERS = [
     "hardrockbet",
 ]
 SHARP_BOOKS = ["pinnacle", "betonlineag", "lowvig"]
-CARD_BOOK = "draftkings"
+MY_BOOKS = ["draftkings", "fanduel"]  # books Garrett can bet; cards show the best price across these
 ODDS_MIN_CREDITS_LEFT = 40  # stop pulling odds below this to protect closing-line snapshots
 
 # Units: logged in units only. Dollar value lives in the UNIT_DOLLARS repo variable, not here.

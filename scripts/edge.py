@@ -165,7 +165,7 @@ def analyze(event, model, league):
             priced.append({"book": bk, "side": side, "home_line": L["home_line"], "price": price,
                            "ev": round(ev(dist, L["home_line"], side, price), 4)})
     best_any = max(priced, key=lambda x: x["ev"])
-    card = [x for x in priced if x["book"] == C.CARD_BOOK]
+    card = [x for x in priced if x["book"] in C.MY_BOOKS]
     best_card = max(card, key=lambda x: x["ev"]) if card else None
 
     def label(x):
@@ -207,7 +207,7 @@ def main():
                 r["odds_pulled_at"] = snap["pulled_at"]
                 results.append(r)
     OUT.mkdir(parents=True, exist_ok=True)
-    meta = {"built_at": now.isoformat(), "card_book": C.CARD_BOOK, "cfb_sd": CFB_SD,
+    meta = {"built_at": now.isoformat(), "my_books": C.MY_BOOKS, "cfb_sd": CFB_SD,
             "nfl_history_games": len(nfl.hist), "games": len(results)}
     (OUT / "latest.json").write_text(json.dumps({"meta": meta, "games": results}, indent=1))
     print(f"::notice::edges: {len(results)} games priced")
