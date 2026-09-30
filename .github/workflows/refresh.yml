@@ -53,7 +53,7 @@ jobs:
         run: |
           git config user.name "betting-engine-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw data/edges data/derived data/picks
+          git add data/raw data/edges data/derived data/picks docs/data
           if git diff --cached --quiet; then echo "::notice::no data changes"; exit 0; fi
           git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase --autostash origin main

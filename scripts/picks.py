@@ -229,9 +229,10 @@ def main():
                     mv = o["now_home"] - o["open_home"]
                     if abs(mv) >= 1:
                         to = hs if mv < 0 else as_
-                        why.append(f"Line has moved {abs(mv):g} pts toward {to} since opening "
-                                   f"({o['provider']} {fmt_line(-o['open_home'] if False else o['open_home'])} → "
-                                   f"{fmt_line(o['now_home'])}, home view).")
+                        open_side = o["open_home"] if side == "home" else -o["open_home"]
+                        pts = f"{abs(mv):g} pt{'s' if abs(mv) != 1 else ''}"
+                        why.append(f"The line has moved {pts} toward {to} since opening at "
+                                   f"{fmt_line(open_side)} for {team.split()[-1]}.")
             cards.append({
                 "id": e["id"], "league": league, "slot": slot, "tier": tier,
                 "matchup": f"{away} @ {home}", "kickoff_utc": e["commence_time"],
@@ -264,6 +265,9 @@ def main():
             "cfb_backtest": json.loads((DERIVED / "cfb_backtest.json").read_text())
             if (DERIVED / "cfb_backtest.json").exists() else None}
     (OUT / "latest.json").write_text(json.dumps({"meta": meta, "board": board, "all": cards}, indent=1))
+    page = ROOT / "docs" / "data"
+    page.mkdir(parents=True, exist_ok=True)
+    (page / "picks.json").write_text(json.dumps({"meta": {"built_at": meta["built_at"]}, "board": board}))
     log_new(cards, now)
     n = sum(len(b["picks"]) for b in board.values())
     print(f"::notice::picks: {n} on the board from {len(cards)} games")
