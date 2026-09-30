@@ -1,11 +1,11 @@
 {
  "meta": {
-  "built_at": "2026-09-30T05:08:42.010411+00:00",
+  "built_at": "2026-09-30T05:10:39.911320+00:00",
   "my_books": [
    "draftkings",
    "fanduel"
   ],
-  "cfb_model_weight": 0.25,
+  "cfb_model_weight": 0.15,
   "nfl_model_weight": 0.0,
   "play_ev": 0.025,
   "lean_ev": 0.01,
@@ -100,11 +100,11 @@
      "price": -110,
      "book": "fanduel",
      "pick_label": "New Mexico State Aggies -2.5 (-110)",
-     "confidence": 56.3,
-     "ev_pct": 7.44,
-     "units": 2.0,
-     "price_floor": -4.0,
-     "floor_text": "Good to -4 at -110",
+     "confidence": 54.2,
+     "ev_pct": 3.45,
+     "units": 1.0,
+     "price_floor": -3.0,
+     "floor_text": "Good to -3 at -110",
      "fair_source": "pinnacle",
      "market_home_margin": 2.9,
      "model_home_margin": 11.1,
@@ -112,7 +112,7 @@
      "flags": [
       "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     }
    ],
    "passed": 2,
@@ -149,7 +149,7 @@
      "model_home_margin": -0.1,
      "why": "Pinnacle makes this Panthers +4; FanDuel is dealing +3.5 (-105). Efficiency ratings with injuries have Panthers 4.0 pts better than the market. CAR is without Jaycee Horn (CB, out), worth ~0.9 pts by our injury model.",
      "flags": [],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     }
    ],
    "passed": 0,
@@ -181,7 +181,7 @@
      "model_home_margin": 1.5,
      "why": "Pinnacle makes this Falcons +3; DraftKings is dealing +3 (-118). Efficiency ratings with injuries have Falcons 1.4 pts better than the market.",
      "flags": [],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     }
    ],
    "passed": 0,
@@ -203,11 +203,11 @@
      "price": -114,
      "book": "fanduel",
      "pick_label": "Pittsburgh Panthers +3.5 (-114)",
-     "confidence": 56.5,
-     "ev_pct": 5.99,
-     "units": 1.5,
-     "price_floor": 2.0,
-     "floor_text": "Good to +2 at -110",
+     "confidence": 54.7,
+     "ev_pct": 2.69,
+     "units": 1.0,
+     "price_floor": 3.0,
+     "floor_text": "Good to +3 at -110",
      "fair_source": "pinnacle",
      "market_home_margin": 2.7,
      "model_home_margin": -4.2,
@@ -215,7 +215,7 @@
      "flags": [
       "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     }
    ],
    "passed": 2,
@@ -224,68 +224,10 @@
   "sat": {
    "picks": [
     {
-     "id": "94769faaa7a5aba0474291fc9c2d3d6d",
-     "league": "cfb",
-     "slot": "sat",
-     "tier": "lean",
-     "matchup": "Syracuse Orange @ UConn Huskies",
-     "kickoff_utc": "2026-10-03T16:00:00Z",
-     "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
-     "side": "UConn Huskies",
-     "opponent": "Syracuse Orange",
-     "line": 6.5,
-     "price": -110,
-     "book": "fanduel",
-     "pick_label": "UConn Huskies +6.5 (-110)",
-     "confidence": 63.2,
-     "ev_pct": 20.58,
-     "units": 0.5,
-     "price_floor": 2.5,
-     "floor_text": "Good to +2.5 at -110",
-     "fair_source": "pinnacle",
-     "market_home_margin": -6.8,
-     "model_home_margin": 15.2,
-     "why": "Pinnacle makes this Huskies +7; FanDuel is dealing +6.5 (-110). Power ratings have Huskies 22.0 pts better than the market.",
-     "flags": [
-      "college injury data incomplete",
-      "edge is suspiciously large; verify the price is live before betting"
-     ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
-    },
-    {
-     "id": "38e6b42c07f8da2e57e0b4dd09d6174c",
-     "league": "cfb",
-     "slot": "sat",
-     "tier": "lean",
-     "matchup": "Middle Tennessee Blue Raiders @ Kansas Jayhawks",
-     "kickoff_utc": "2026-10-03T16:00:00Z",
-     "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
-     "side": "Middle Tennessee Blue Raiders",
-     "opponent": "Kansas Jayhawks",
-     "line": 19.5,
-     "price": -114,
-     "book": "fanduel",
-     "pick_label": "Middle Tennessee Blue Raiders +19.5 (-114)",
-     "confidence": 59.7,
-     "ev_pct": 12.12,
-     "units": 0.5,
-     "price_floor": 17.0,
-     "floor_text": "Good to +17 at -110",
-     "fair_source": "pinnacle",
-     "market_home_margin": 18.4,
-     "model_home_margin": 7.5,
-     "why": "Pinnacle makes this Raiders +18.5; FanDuel is dealing +19.5 (-114). Power ratings have Raiders 10.9 pts better than the market. Line has moved 3 pts toward Middle Tennessee since opening (DraftKings -21.5 \u2192 -18.5, home view).",
-     "flags": [
-      "college injury data incomplete",
-      "edge is suspiciously large; verify the price is live before betting"
-     ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
-    },
-    {
      "id": "46e1be6476ed577d1b5194b46b27c643",
      "league": "cfb",
      "slot": "sat",
-     "tier": "lean",
+     "tier": "play",
      "matchup": "Vanderbilt Commodores @ Georgia Bulldogs",
      "kickoff_utc": "2026-10-03T16:45:00Z",
      "kickoff_pt": "Sat Oct 3, 9:45 AM PT",
@@ -295,84 +237,54 @@
      "price": -112,
      "book": "draftkings",
      "pick_label": "Vanderbilt Commodores +24.5 (-112)",
-     "confidence": 58.7,
-     "ev_pct": 11.2,
-     "units": 0.5,
-     "price_floor": 22.0,
-     "floor_text": "Good to +22 at -110",
+     "confidence": 56.3,
+     "ev_pct": 6.56,
+     "units": 2.0,
+     "price_floor": 23.0,
+     "floor_text": "Good to +23 at -110",
      "fair_source": "pinnacle",
      "market_home_margin": 23.5,
      "model_home_margin": 13.8,
      "why": "Pinnacle makes this Commodores +23.5; DraftKings is dealing +24.5 (-112). Power ratings have Commodores 9.7 pts better than the market. Line has moved 1 pts toward Georgia since opening (DraftKings -23.5 \u2192 -24.5, home view).",
      "flags": [
-      "college injury data incomplete",
-      "edge is suspiciously large; verify the price is live before betting"
+      "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     },
     {
-     "id": "031ad65ec032d459cda2cee30378e4a4",
+     "id": "38e6b42c07f8da2e57e0b4dd09d6174c",
      "league": "cfb",
      "slot": "sat",
-     "tier": "lean",
-     "matchup": "Western Michigan Broncos @ Buffalo Bulls",
-     "kickoff_utc": "2026-10-03T17:00:00Z",
-     "kickoff_pt": "Sat Oct 3, 10:00 AM PT",
-     "side": "Buffalo Bulls",
-     "opponent": "Western Michigan Broncos",
-     "line": 13.5,
-     "price": -108,
-     "book": "draftkings",
-     "pick_label": "Buffalo Bulls +13.5 (-108)",
-     "confidence": 57.5,
-     "ev_pct": 10.79,
-     "units": 0.5,
-     "price_floor": 11.5,
-     "floor_text": "Good to +11.5 at -110",
-     "fair_source": "pinnacle",
-     "market_home_margin": -13.6,
-     "model_home_margin": -1.4,
-     "why": "Pinnacle makes this Bulls +13.5; DraftKings is dealing +13.5 (-108). Power ratings have Bulls 12.2 pts better than the market. Line has moved 3 pts toward Buffalo since opening (DraftKings +16.5 \u2192 +13.5, home view).",
-     "flags": [
-      "college injury data incomplete",
-      "edge is suspiciously large; verify the price is live before betting"
-     ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
-    },
-    {
-     "id": "7bdd5ae18979fa3af61625a21d757987",
-     "league": "cfb",
-     "slot": "sat",
-     "tier": "lean",
-     "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+     "tier": "play",
+     "matchup": "Middle Tennessee Blue Raiders @ Kansas Jayhawks",
      "kickoff_utc": "2026-10-03T16:00:00Z",
      "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
-     "side": "Iowa State Cyclones",
-     "opponent": "West Virginia Mountaineers",
-     "line": -3.5,
-     "price": 100,
+     "side": "Middle Tennessee Blue Raiders",
+     "opponent": "Kansas Jayhawks",
+     "line": 19.5,
+     "price": -114,
      "book": "fanduel",
-     "pick_label": "Iowa State Cyclones -3.5 (+100)",
-     "confidence": 54.9,
-     "ev_pct": 9.89,
-     "units": 0.5,
-     "price_floor": -4.5,
-     "floor_text": "Good to -4.5 at -110",
+     "pick_label": "Middle Tennessee Blue Raiders +19.5 (-114)",
+     "confidence": 56.7,
+     "ev_pct": 6.36,
+     "units": 2.0,
+     "price_floor": 18.0,
+     "floor_text": "Good to +18 at -110",
      "fair_source": "pinnacle",
-     "market_home_margin": 2.9,
-     "model_home_margin": 13.0,
-     "why": "Pinnacle makes this Cyclones -3; FanDuel is dealing -3.5 (+100). Power ratings have Cyclones 10.1 pts better than the market. Line has moved 2 pts toward Iowa State since opening (DraftKings -1.5 \u2192 -3.5, home view).",
+     "market_home_margin": 18.4,
+     "model_home_margin": 7.5,
+     "why": "Pinnacle makes this Raiders +18.5; FanDuel is dealing +19.5 (-114). Power ratings have Raiders 10.9 pts better than the market. Line has moved 3 pts toward Middle Tennessee since opening (DraftKings -21.5 \u2192 -18.5, home view).",
      "flags": [
-      "college injury data incomplete",
-      "edge is suspiciously large; verify the price is live before betting"
+      "model far from market; ratings may be missing a roster or QB change",
+      "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     },
     {
      "id": "36357c80707ce0c3a645afe495b28bbd",
      "league": "cfb",
      "slot": "sat",
-     "tier": "lean",
+     "tier": "play",
      "matchup": "Boston College Eagles @ SMU Mustangs",
      "kickoff_utc": "2026-10-03T16:00:00Z",
      "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
@@ -382,76 +294,78 @@
      "price": -105,
      "book": "fanduel",
      "pick_label": "Boston College Eagles +20.5 (-105)",
-     "confidence": 56.3,
-     "ev_pct": 9.86,
-     "units": 0.5,
-     "price_floor": 19.0,
-     "floor_text": "Good to +19 at -110",
+     "confidence": 53.6,
+     "ev_pct": 4.64,
+     "units": 1.0,
+     "price_floor": 20.5,
+     "floor_text": "Good to +20.5 at -110",
      "fair_source": "pinnacle",
      "market_home_margin": 20.6,
      "model_home_margin": 10.4,
      "why": "Pinnacle makes this Eagles +20.5; FanDuel is dealing +20.5 (-105). Power ratings have Eagles 10.2 pts better than the market.",
      "flags": [
-      "college injury data incomplete",
-      "edge is suspiciously large; verify the price is live before betting"
+      "model far from market; ratings may be missing a roster or QB change",
+      "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     },
     {
-     "id": "2b8db5053d533b488c0d76f49382d219",
+     "id": "7bdd5ae18979fa3af61625a21d757987",
      "league": "cfb",
      "slot": "sat",
      "tier": "play",
-     "matchup": "Notre Dame Fighting Irish @ North Carolina Tar Heels",
+     "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
      "kickoff_utc": "2026-10-03T16:00:00Z",
      "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
-     "side": "Notre Dame Fighting Irish",
-     "opponent": "North Carolina Tar Heels",
-     "line": -21.5,
-     "price": -102,
+     "side": "Iowa State Cyclones",
+     "opponent": "West Virginia Mountaineers",
+     "line": -3.5,
+     "price": 100,
      "book": "fanduel",
-     "pick_label": "Notre Dame Fighting Irish -21.5 (-102)",
-     "confidence": 53.9,
-     "ev_pct": 6.73,
-     "units": 1.5,
-     "price_floor": -22.0,
-     "floor_text": "Good to -22 at -110",
+     "pick_label": "Iowa State Cyclones -3.5 (+100)",
+     "confidence": 52.3,
+     "ev_pct": 4.63,
+     "units": 1.0,
+     "price_floor": null,
+     "floor_text": "Only at -3.5 -110 or better",
      "fair_source": "pinnacle",
-     "market_home_margin": -20.7,
-     "model_home_margin": -30.1,
-     "why": "Pinnacle makes this Irish -20.5; FanDuel is dealing -21.5 (-102). Power ratings have Irish 9.4 pts better than the market. Line has moved 2.5 pts toward North Carolina since opening (DraftKings +23.5 \u2192 +21, home view).",
+     "market_home_margin": 2.9,
+     "model_home_margin": 13.0,
+     "why": "Pinnacle makes this Cyclones -3; FanDuel is dealing -3.5 (+100). Power ratings have Cyclones 10.1 pts better than the market. Line has moved 2 pts toward Iowa State since opening (DraftKings -1.5 \u2192 -3.5, home view).",
      "flags": [
+      "model far from market; ratings may be missing a roster or QB change",
       "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     },
     {
-     "id": "ff98b80b07e2f42c76c2c255e6611247",
+     "id": "031ad65ec032d459cda2cee30378e4a4",
      "league": "cfb",
      "slot": "sat",
      "tier": "play",
-     "matchup": "Arkansas Razorbacks @ Texas A&M Aggies",
-     "kickoff_utc": "2026-10-03T23:00:00Z",
-     "kickoff_pt": "Sat Oct 3, 4:00 PM PT",
-     "side": "Arkansas Razorbacks",
-     "opponent": "Texas A&M Aggies",
-     "line": 14.0,
-     "price": -110,
+     "matchup": "Western Michigan Broncos @ Buffalo Bulls",
+     "kickoff_utc": "2026-10-03T17:00:00Z",
+     "kickoff_pt": "Sat Oct 3, 10:00 AM PT",
+     "side": "Buffalo Bulls",
+     "opponent": "Western Michigan Broncos",
+     "line": 13.5,
+     "price": -108,
      "book": "draftkings",
-     "pick_label": "Arkansas Razorbacks +14 (-110)",
-     "confidence": 55.9,
-     "ev_pct": 6.57,
-     "units": 2.0,
-     "price_floor": 13.0,
-     "floor_text": "Good to +13 at -110",
+     "pick_label": "Buffalo Bulls +13.5 (-108)",
+     "confidence": 53.6,
+     "ev_pct": 3.23,
+     "units": 1.0,
+     "price_floor": 13.5,
+     "floor_text": "Good to +13.5 at -110",
      "fair_source": "pinnacle",
-     "market_home_margin": 13.8,
-     "model_home_margin": 5.6,
-     "why": "Pinnacle makes this Razorbacks +14; DraftKings is dealing +14 (-110). Power ratings have Razorbacks 8.2 pts better than the market.",
+     "market_home_margin": -13.6,
+     "model_home_margin": -1.4,
+     "why": "Pinnacle makes this Bulls +13.5; DraftKings is dealing +13.5 (-108). Power ratings have Bulls 12.2 pts better than the market. Line has moved 3 pts toward Buffalo since opening (DraftKings +16.5 \u2192 +13.5, home view).",
      "flags": [
+      "model far from market; ratings may be missing a roster or QB change",
       "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     },
     {
      "id": "f981648dba0e71d8517d47d31aa2633d",
@@ -467,11 +381,11 @@
      "price": -105,
      "book": "draftkings",
      "pick_label": "Washington Huskies +9.5 (-105)",
-     "confidence": 54.2,
-     "ev_pct": 5.9,
-     "units": 1.5,
-     "price_floor": 9.0,
-     "floor_text": "Good to +9 at -110",
+     "confidence": 52.5,
+     "ev_pct": 2.59,
+     "units": 1.0,
+     "price_floor": 9.5,
+     "floor_text": "Good to +9.5 at -110",
      "fair_source": "pinnacle",
      "market_home_margin": 9.5,
      "model_home_margin": 2.9,
@@ -479,38 +393,122 @@
      "flags": [
       "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     },
     {
-     "id": "a2f7df0b000c054abd3cbc6f4a4b2432",
+     "id": "ff98b80b07e2f42c76c2c255e6611247",
      "league": "cfb",
      "slot": "sat",
      "tier": "play",
-     "matchup": "Utah State Aggies @ Boise State Broncos",
-     "kickoff_utc": "2026-10-03T23:30:00Z",
-     "kickoff_pt": "Sat Oct 3, 4:30 PM PT",
-     "side": "Utah State Aggies",
-     "opponent": "Boise State Broncos",
-     "line": 20.5,
+     "matchup": "Arkansas Razorbacks @ Texas A&M Aggies",
+     "kickoff_utc": "2026-10-03T23:00:00Z",
+     "kickoff_pt": "Sat Oct 3, 4:00 PM PT",
+     "side": "Arkansas Razorbacks",
+     "opponent": "Texas A&M Aggies",
+     "line": 14.0,
      "price": -110,
      "book": "draftkings",
-     "pick_label": "Utah State Aggies +20.5 (-110)",
-     "confidence": 55.3,
-     "ev_pct": 5.51,
-     "units": 1.5,
-     "price_floor": 19.5,
-     "floor_text": "Good to +19.5 at -110",
+     "pick_label": "Arkansas Razorbacks +14 (-110)",
+     "confidence": 53.8,
+     "ev_pct": 2.58,
+     "units": 1.0,
+     "price_floor": 13.5,
+     "floor_text": "Good to +13.5 at -110",
      "fair_source": "pinnacle",
-     "market_home_margin": 20.6,
-     "model_home_margin": 12.0,
-     "why": "Pinnacle makes this Aggies +20.5; DraftKings is dealing +20.5 (-110). Power ratings have Aggies 8.6 pts better than the market.",
+     "market_home_margin": 13.8,
+     "model_home_margin": 5.6,
+     "why": "Pinnacle makes this Razorbacks +14; DraftKings is dealing +14 (-110). Power ratings have Razorbacks 8.2 pts better than the market.",
      "flags": [
       "college injury data incomplete"
      ],
-     "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
+    },
+    {
+     "id": "4fcb5b7ec04cad7acc5d048bdd24be4c",
+     "league": "cfb",
+     "slot": "sat",
+     "tier": "lean",
+     "matchup": "Navy Midshipmen @ Air Force Falcons",
+     "kickoff_utc": "2026-10-03T16:00:00Z",
+     "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
+     "side": "Air Force Falcons",
+     "opponent": "Navy Midshipmen",
+     "line": -3.5,
+     "price": 102,
+     "book": "fanduel",
+     "pick_label": "Air Force Falcons -3.5 (+102)",
+     "confidence": 50.5,
+     "ev_pct": 2.05,
+     "units": 0.5,
+     "price_floor": null,
+     "floor_text": "Only at -3.5 -102 or better",
+     "fair_source": "pinnacle",
+     "market_home_margin": 3.5,
+     "model_home_margin": 4.8,
+     "why": "Pinnacle makes this Falcons -3.5; FanDuel is dealing -3.5 (+102). Power ratings have Falcons 1.3 pts better than the market. Line has moved 1.5 pts toward Air Force since opening (DraftKings -1.5 \u2192 -3, home view).",
+     "flags": [
+      "college injury data incomplete"
+     ],
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
+    },
+    {
+     "id": "2b8db5053d533b488c0d76f49382d219",
+     "league": "cfb",
+     "slot": "sat",
+     "tier": "lean",
+     "matchup": "Notre Dame Fighting Irish @ North Carolina Tar Heels",
+     "kickoff_utc": "2026-10-03T16:00:00Z",
+     "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
+     "side": "Notre Dame Fighting Irish",
+     "opponent": "North Carolina Tar Heels",
+     "line": -21.5,
+     "price": -102,
+     "book": "fanduel",
+     "pick_label": "Notre Dame Fighting Irish -21.5 (-102)",
+     "confidence": 51.5,
+     "ev_pct": 1.97,
+     "units": 0.5,
+     "price_floor": null,
+     "floor_text": "Only at -21.5 -106 or better",
+     "fair_source": "pinnacle",
+     "market_home_margin": -20.7,
+     "model_home_margin": -30.1,
+     "why": "Pinnacle makes this Irish -20.5; FanDuel is dealing -21.5 (-102). Power ratings have Irish 9.4 pts better than the market. Line has moved 2.5 pts toward North Carolina since opening (DraftKings +23.5 \u2192 +21, home view).",
+     "flags": [
+      "college injury data incomplete"
+     ],
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
+    },
+    {
+     "id": "11c2108f1d7c8fb56c8a6c7fcd9b62bf",
+     "league": "cfb",
+     "slot": "sat",
+     "tier": "lean",
+     "matchup": "UCF Knights @ Houston Cougars",
+     "kickoff_utc": "2026-10-03T16:00:00Z",
+     "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
+     "side": "UCF Knights",
+     "opponent": "Houston Cougars",
+     "line": 12.5,
+     "price": -110,
+     "book": "fanduel",
+     "pick_label": "UCF Knights +12.5 (-110)",
+     "confidence": 53.2,
+     "ev_pct": 1.59,
+     "units": 0.5,
+     "price_floor": 12.5,
+     "floor_text": "Good to +12.5 at -110",
+     "fair_source": "pinnacle",
+     "market_home_margin": 12.2,
+     "model_home_margin": 5.9,
+     "why": "Pinnacle makes this Knights +12; FanDuel is dealing +12.5 (-110). Power ratings have Knights 6.3 pts better than the market.",
+     "flags": [
+      "college injury data incomplete"
+     ],
+     "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
     }
    ],
-   "passed": 27,
+   "passed": 36,
    "games": 54
   }
  },
@@ -539,7 +537,7 @@
    "model_home_margin": -1.7,
    "why": "Pinnacle makes this Steelers -2.5; FanDuel is dealing -2.5 (-112).",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "c9d8ed8aa4889486eaf10a630138ede0",
@@ -565,7 +563,7 @@
    "model_home_margin": 0.0,
    "why": "Pinnacle makes this Colts -4.5; DraftKings is dealing -3.5 (-108). Efficiency ratings with injuries have Colts 4.4 pts worse than the market.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "664e6bda5721dc63be16bcf7d962a436",
@@ -591,7 +589,7 @@
    "model_home_margin": 1.2,
    "why": "Pinnacle makes this Cardinals -0.5; DraftKings is dealing -1.5 (-110). Efficiency ratings with injuries have Cardinals 1.6 pts worse than the market. ARI is without Will Johnson (CB, injured reserve), worth ~0.5 pts by our injury model.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "f01589b0e7e6dd4f4ac1220a1db81f53",
@@ -617,7 +615,7 @@
    "model_home_margin": 8.7,
    "why": "Pinnacle makes this Ravens -11.5; DraftKings is dealing -11.5 (-108). Efficiency ratings with injuries have Ravens 2.8 pts worse than the market.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "573cc0ef39631a4f6673ec843a8bedd4",
@@ -643,7 +641,7 @@
    "model_home_margin": 1.3,
    "why": "Pinnacle makes this Patriots +7; DraftKings is dealing +7 (-115). Efficiency ratings with injuries have Patriots 5.7 pts better than the market. BUF is without Josh Allen (QB, questionable), worth ~1.1 pts by our injury model.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "164e6eb68f31bac190381903c3cccd31",
@@ -669,7 +667,7 @@
    "model_home_margin": 4.6,
    "why": "Pinnacle makes this Jets +4; DraftKings is dealing +3.5 (-118). CHI is without Caleb Williams (QB, doubtful), worth ~3.5 pts by our injury model.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "2ea94ddf20f66432b9024fe2e2eaba5f",
@@ -695,7 +693,7 @@
    "model_home_margin": -4.4,
    "why": "Pinnacle makes this Bengals -2.5; FanDuel is dealing -2.5 (-110). Efficiency ratings with injuries have Bengals 7.0 pts worse than the market. CIN is without Jalen Davis (CB, injured reserve), worth ~0.5 pts by our injury model.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "daf55e2df5341c007fee5a0fc5bbc2d4",
@@ -721,7 +719,7 @@
    "model_home_margin": 2.9,
    "why": "Pinnacle makes this Texans -3; DraftKings is dealing -2.5 (-115).",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "99a9bae4dc0dc2590496bd3102b211f2",
@@ -747,7 +745,7 @@
    "model_home_margin": -3.1,
    "why": "Pinnacle makes this Buccaneers +4; DraftKings is dealing +3.5 (+100). Efficiency ratings with injuries have Buccaneers 1.0 pts better than the market. TB is without Baker Mayfield (QB, out), worth ~4.1 pts by our injury model.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "1b4f2e60ce83fa1d63a5dff83769d27c",
@@ -773,7 +771,7 @@
    "model_home_margin": -2.0,
    "why": "Pinnacle makes this Rams -3; DraftKings is dealing -3 (-108). Efficiency ratings with injuries have Rams 1.1 pts worse than the market.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "c327223d76a3b7b0db8c6c104442f44b",
@@ -799,7 +797,7 @@
    "model_home_margin": 8.0,
    "why": "Pinnacle makes this Dolphins +11; FanDuel is dealing +10.5 (-105). Efficiency ratings with injuries have Dolphins 3.2 pts better than the market.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "a7e7efb75a9792ac63480ae6328dca18",
@@ -825,7 +823,7 @@
    "model_home_margin": 3.5,
    "why": "Pinnacle makes this Broncos +2.5; DraftKings is dealing +3 (-120).",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "e0cbd266dcf997089203a1b33ba0333d",
@@ -851,7 +849,7 @@
    "model_home_margin": 0.0,
    "why": "Pinnacle makes this Raiders +4.5; DraftKings is dealing +4.5 (-108). Efficiency ratings with injuries have Raiders 4.7 pts better than the market.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "96d2373cda647873b971f268482bced0",
@@ -877,7 +875,7 @@
    "model_home_margin": 8.0,
    "why": "Pinnacle makes this Chargers +7.5; DraftKings is dealing +7 (-105).",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "a73a76599a4f3422803e57bd8f61b626",
@@ -903,7 +901,7 @@
    "model_home_margin": -0.1,
    "why": "Pinnacle makes this Panthers +4; FanDuel is dealing +3.5 (-105). Efficiency ratings with injuries have Panthers 4.0 pts better than the market. CAR is without Jaycee Horn (CB, out), worth ~0.9 pts by our injury model.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "8bd90781e17e6d97df3941063cedae1e",
@@ -929,7 +927,7 @@
    "model_home_margin": 1.5,
    "why": "Pinnacle makes this Falcons +3; DraftKings is dealing +3 (-118). Efficiency ratings with injuries have Falcons 1.4 pts better than the market.",
    "flags": [],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "b0998b3474fea9dee080784b8da01048",
@@ -945,11 +943,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "New Mexico State Aggies -2.5 (-110)",
-   "confidence": 56.3,
-   "ev_pct": 7.44,
-   "units": 2.0,
-   "price_floor": -4.0,
-   "floor_text": "Good to -4 at -110",
+   "confidence": 54.2,
+   "ev_pct": 3.45,
+   "units": 1.0,
+   "price_floor": -3.0,
+   "floor_text": "Good to -3 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 2.9,
    "model_home_margin": 11.1,
@@ -957,13 +955,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "3c64f3dd8efd756a90f09303e5517006",
    "league": "cfb",
    "slot": "thu",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "North Texas Mean Green @ Tulsa Golden Hurricane",
    "kickoff_utc": "2026-10-02T01:00:00Z",
    "kickoff_pt": "Thu Oct 1, 6:00 PM PT",
@@ -973,11 +971,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "North Texas Mean Green +1.5 (-110)",
-   "confidence": 55.5,
-   "ev_pct": 6.02,
-   "units": 1.5,
-   "price_floor": 0.5,
-   "floor_text": "Good to +0.5 at -110",
+   "confidence": 53.6,
+   "ev_pct": 2.39,
+   "units": 0.5,
+   "price_floor": 1.0,
+   "floor_text": "Good to +1 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 1.2,
    "model_home_margin": -6.2,
@@ -985,7 +983,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "a39f3695781e9b2f76011e921d63b124",
@@ -1001,11 +999,11 @@
    "price": 100,
    "book": "fanduel",
    "pick_label": "Liberty Flames -7.5 (+100)",
-   "confidence": 48.9,
-   "ev_pct": -2.29,
+   "confidence": 49.1,
+   "ev_pct": -1.78,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -7.5 +105 or better",
+   "floor_text": "Only at -7.5 +104 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -7.3,
    "model_home_margin": -6.3,
@@ -1013,7 +1011,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "e61c74f0e28b46ad83270a6234b425f4",
@@ -1029,11 +1027,11 @@
    "price": -114,
    "book": "fanduel",
    "pick_label": "Pittsburgh Panthers +3.5 (-114)",
-   "confidence": 56.5,
-   "ev_pct": 5.99,
-   "units": 1.5,
-   "price_floor": 2.0,
-   "floor_text": "Good to +2 at -110",
+   "confidence": 54.7,
+   "ev_pct": 2.69,
+   "units": 1.0,
+   "price_floor": 3.0,
+   "floor_text": "Good to +3 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 2.7,
    "model_home_margin": -4.2,
@@ -1041,7 +1039,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "0469a451e58ca81723a7760d4bede173",
@@ -1057,11 +1055,11 @@
    "price": -115,
    "book": "fanduel",
    "pick_label": "Penn State Nittany Lions -2.5 (-115)",
-   "confidence": 53.0,
-   "ev_pct": -0.89,
+   "confidence": 51.8,
+   "ev_pct": -3.14,
    "units": 0.0,
-   "price_floor": -2.5,
-   "floor_text": "Good to -2.5 at -110",
+   "price_floor": null,
+   "floor_text": "Only at -2.5 -108 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -2.5,
    "model_home_margin": -7.2,
@@ -1069,13 +1067,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "4fcb5b7ec04cad7acc5d048bdd24be4c",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Navy Midshipmen @ Air Force Falcons",
    "kickoff_utc": "2026-10-03T16:00:00Z",
    "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
@@ -1085,11 +1083,11 @@
    "price": 102,
    "book": "fanduel",
    "pick_label": "Air Force Falcons -3.5 (+102)",
-   "confidence": 50.9,
-   "ev_pct": 2.75,
-   "units": 1.0,
+   "confidence": 50.5,
+   "ev_pct": 2.05,
+   "units": 0.5,
    "price_floor": null,
-   "floor_text": "Only at -3.5 -104 or better",
+   "floor_text": "Only at -3.5 -102 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 3.5,
    "model_home_margin": 4.8,
@@ -1097,7 +1095,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "6b22daf46195be6b3748584efe89dac1",
@@ -1113,11 +1111,11 @@
    "price": -102,
    "book": "fanduel",
    "pick_label": "Mississippi State Bulldogs +5.5 (-102)",
-   "confidence": 50.7,
-   "ev_pct": 0.44,
+   "confidence": 50.0,
+   "ev_pct": -0.94,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +5.5 -103 or better",
+   "floor_text": "Only at +5.5 -100 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -5.9,
    "model_home_margin": -3.2,
@@ -1125,13 +1123,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "36357c80707ce0c3a645afe495b28bbd",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "play",
    "matchup": "Boston College Eagles @ SMU Mustangs",
    "kickoff_utc": "2026-10-03T16:00:00Z",
    "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
@@ -1141,26 +1139,26 @@
    "price": -105,
    "book": "fanduel",
    "pick_label": "Boston College Eagles +20.5 (-105)",
-   "confidence": 56.3,
-   "ev_pct": 9.86,
-   "units": 0.5,
-   "price_floor": 19.0,
-   "floor_text": "Good to +19 at -110",
+   "confidence": 53.6,
+   "ev_pct": 4.64,
+   "units": 1.0,
+   "price_floor": 20.5,
+   "floor_text": "Good to +20.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 20.6,
    "model_home_margin": 10.4,
    "why": "Pinnacle makes this Eagles +20.5; FanDuel is dealing +20.5 (-105). Power ratings have Eagles 10.2 pts better than the market.",
    "flags": [
-    "college injury data incomplete",
-    "edge is suspiciously large; verify the price is live before betting"
+    "model far from market; ratings may be missing a roster or QB change",
+    "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "11c2108f1d7c8fb56c8a6c7fcd9b62bf",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "UCF Knights @ Houston Cougars",
    "kickoff_utc": "2026-10-03T16:00:00Z",
    "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
@@ -1170,11 +1168,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "UCF Knights +12.5 (-110)",
-   "confidence": 54.8,
-   "ev_pct": 4.69,
-   "units": 1.5,
-   "price_floor": 12.0,
-   "floor_text": "Good to +12 at -110",
+   "confidence": 53.2,
+   "ev_pct": 1.59,
+   "units": 0.5,
+   "price_floor": 12.5,
+   "floor_text": "Good to +12.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 12.2,
    "model_home_margin": 5.9,
@@ -1182,13 +1180,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "7bdd5ae18979fa3af61625a21d757987",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "play",
    "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
    "kickoff_utc": "2026-10-03T16:00:00Z",
    "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
@@ -1198,26 +1196,26 @@
    "price": 100,
    "book": "fanduel",
    "pick_label": "Iowa State Cyclones -3.5 (+100)",
-   "confidence": 54.9,
-   "ev_pct": 9.89,
-   "units": 0.5,
-   "price_floor": -4.5,
-   "floor_text": "Good to -4.5 at -110",
+   "confidence": 52.3,
+   "ev_pct": 4.63,
+   "units": 1.0,
+   "price_floor": null,
+   "floor_text": "Only at -3.5 -110 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 2.9,
    "model_home_margin": 13.0,
    "why": "Pinnacle makes this Cyclones -3; FanDuel is dealing -3.5 (+100). Power ratings have Cyclones 10.1 pts better than the market. Line has moved 2 pts toward Iowa State since opening (DraftKings -1.5 \u2192 -3.5, home view).",
    "flags": [
-    "college injury data incomplete",
-    "edge is suspiciously large; verify the price is live before betting"
+    "model far from market; ratings may be missing a roster or QB change",
+    "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "38e6b42c07f8da2e57e0b4dd09d6174c",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "play",
    "matchup": "Middle Tennessee Blue Raiders @ Kansas Jayhawks",
    "kickoff_utc": "2026-10-03T16:00:00Z",
    "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
@@ -1227,20 +1225,20 @@
    "price": -114,
    "book": "fanduel",
    "pick_label": "Middle Tennessee Blue Raiders +19.5 (-114)",
-   "confidence": 59.7,
-   "ev_pct": 12.12,
-   "units": 0.5,
-   "price_floor": 17.0,
-   "floor_text": "Good to +17 at -110",
+   "confidence": 56.7,
+   "ev_pct": 6.36,
+   "units": 2.0,
+   "price_floor": 18.0,
+   "floor_text": "Good to +18 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 18.4,
    "model_home_margin": 7.5,
    "why": "Pinnacle makes this Raiders +18.5; FanDuel is dealing +19.5 (-114). Power ratings have Raiders 10.9 pts better than the market. Line has moved 3 pts toward Middle Tennessee since opening (DraftKings -21.5 \u2192 -18.5, home view).",
    "flags": [
-    "college injury data incomplete",
-    "edge is suspiciously large; verify the price is live before betting"
+    "model far from market; ratings may be missing a roster or QB change",
+    "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "a2f01448219e39fd44e3d98ea5c7f482",
@@ -1256,11 +1254,11 @@
    "price": -110,
    "book": "draftkings",
    "pick_label": "Michigan Wolverines -5.5 (-110)",
-   "confidence": 52.3,
-   "ev_pct": -0.15,
+   "confidence": 51.3,
+   "ev_pct": -2.1,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -5.5 -110 or better",
+   "floor_text": "Only at -5.5 -105 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -5.4,
    "model_home_margin": -9.4,
@@ -1268,13 +1266,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "2b8db5053d533b488c0d76f49382d219",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Notre Dame Fighting Irish @ North Carolina Tar Heels",
    "kickoff_utc": "2026-10-03T16:00:00Z",
    "kickoff_pt": "Sat Oct 3, 9:00 AM PT",
@@ -1284,11 +1282,11 @@
    "price": -102,
    "book": "fanduel",
    "pick_label": "Notre Dame Fighting Irish -21.5 (-102)",
-   "confidence": 53.9,
-   "ev_pct": 6.73,
-   "units": 1.5,
-   "price_floor": -22.0,
-   "floor_text": "Good to -22 at -110",
+   "confidence": 51.5,
+   "ev_pct": 1.97,
+   "units": 0.5,
+   "price_floor": null,
+   "floor_text": "Only at -21.5 -106 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -20.7,
    "model_home_margin": -30.1,
@@ -1296,7 +1294,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "8ef32c906348e926ca0fabcc25635c11",
@@ -1312,11 +1310,11 @@
    "price": -105,
    "book": "fanduel",
    "pick_label": "Stanford Cardinal +12.5 (-105)",
-   "confidence": 49.5,
-   "ev_pct": -3.3,
+   "confidence": 49.3,
+   "ev_pct": -3.73,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +12.5 +102 or better",
+   "floor_text": "Only at +12.5 +103 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 12.9,
    "model_home_margin": 12.0,
@@ -1324,7 +1322,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "94769faaa7a5aba0474291fc9c2d3d6d",
@@ -1340,20 +1338,20 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "UConn Huskies +6.5 (-110)",
-   "confidence": 63.2,
-   "ev_pct": 20.58,
+   "confidence": 53.1,
+   "ev_pct": 1.34,
    "units": 0.5,
-   "price_floor": 2.5,
-   "floor_text": "Good to +2.5 at -110",
+   "price_floor": 6.5,
+   "floor_text": "Good to +6.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": -6.8,
    "model_home_margin": 15.2,
    "why": "Pinnacle makes this Huskies +7; FanDuel is dealing +6.5 (-110). Power ratings have Huskies 22.0 pts better than the market.",
    "flags": [
-    "college injury data incomplete",
-    "edge is suspiciously large; verify the price is live before betting"
+    "model far from market; ratings may be missing a roster or QB change",
+    "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "575f5abb1af3a81091ac5a1cf1f5f927",
@@ -1369,11 +1367,11 @@
    "price": -108,
    "book": "draftkings",
    "pick_label": "Michigan State Spartans +10 (-108)",
-   "confidence": 51.5,
-   "ev_pct": -0.74,
+   "confidence": 50.6,
+   "ev_pct": -2.48,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +10 -106 or better",
+   "floor_text": "Only at +10 -102 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 10.3,
    "model_home_margin": 6.8,
@@ -1381,13 +1379,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "46e1be6476ed577d1b5194b46b27c643",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "play",
    "matchup": "Vanderbilt Commodores @ Georgia Bulldogs",
    "kickoff_utc": "2026-10-03T16:45:00Z",
    "kickoff_pt": "Sat Oct 3, 9:45 AM PT",
@@ -1397,26 +1395,25 @@
    "price": -112,
    "book": "draftkings",
    "pick_label": "Vanderbilt Commodores +24.5 (-112)",
-   "confidence": 58.7,
-   "ev_pct": 11.2,
-   "units": 0.5,
-   "price_floor": 22.0,
-   "floor_text": "Good to +22 at -110",
+   "confidence": 56.3,
+   "ev_pct": 6.56,
+   "units": 2.0,
+   "price_floor": 23.0,
+   "floor_text": "Good to +23 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 23.5,
    "model_home_margin": 13.8,
    "why": "Pinnacle makes this Commodores +23.5; DraftKings is dealing +24.5 (-112). Power ratings have Commodores 9.7 pts better than the market. Line has moved 1 pts toward Georgia since opening (DraftKings -23.5 \u2192 -24.5, home view).",
    "flags": [
-    "college injury data incomplete",
-    "edge is suspiciously large; verify the price is live before betting"
+    "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "031ad65ec032d459cda2cee30378e4a4",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "play",
    "matchup": "Western Michigan Broncos @ Buffalo Bulls",
    "kickoff_utc": "2026-10-03T17:00:00Z",
    "kickoff_pt": "Sat Oct 3, 10:00 AM PT",
@@ -1426,20 +1423,20 @@
    "price": -108,
    "book": "draftkings",
    "pick_label": "Buffalo Bulls +13.5 (-108)",
-   "confidence": 57.5,
-   "ev_pct": 10.79,
-   "units": 0.5,
-   "price_floor": 11.5,
-   "floor_text": "Good to +11.5 at -110",
+   "confidence": 53.6,
+   "ev_pct": 3.23,
+   "units": 1.0,
+   "price_floor": 13.5,
+   "floor_text": "Good to +13.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": -13.6,
    "model_home_margin": -1.4,
    "why": "Pinnacle makes this Bulls +13.5; DraftKings is dealing +13.5 (-108). Power ratings have Bulls 12.2 pts better than the market. Line has moved 3 pts toward Buffalo since opening (DraftKings +16.5 \u2192 +13.5, home view).",
    "flags": [
-    "college injury data incomplete",
-    "edge is suspiciously large; verify the price is live before betting"
+    "model far from market; ratings may be missing a roster or QB change",
+    "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "c3437a49d4efdbca5669e7edfb5af569",
@@ -1449,31 +1446,31 @@
    "matchup": "Toledo Rockets @ Ball State Cardinals",
    "kickoff_utc": "2026-10-03T18:00:00Z",
    "kickoff_pt": "Sat Oct 3, 11:00 AM PT",
-   "side": "Toledo Rockets",
-   "opponent": "Ball State Cardinals",
-   "line": -19.5,
+   "side": "Ball State Cardinals",
+   "opponent": "Toledo Rockets",
+   "line": 19.5,
    "price": -108,
-   "book": "draftkings",
-   "pick_label": "Toledo Rockets -19.5 (-108)",
-   "confidence": 50.3,
-   "ev_pct": -3.17,
+   "book": "fanduel",
+   "pick_label": "Ball State Cardinals +19.5 (-108)",
+   "confidence": 50.2,
+   "ev_pct": -3.29,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -19.5 -101 or better",
+   "floor_text": "Only at +19.5 -101 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -19.1,
    "model_home_margin": -21.2,
-   "why": "Pinnacle makes this Rockets -19; DraftKings is dealing -19.5 (-108). Power ratings have Rockets 2.1 pts better than the market. Line has moved 2 pts toward Toledo since opening (DraftKings +17.5 \u2192 +19.5, home view).",
+   "why": "Pinnacle makes this Cardinals +19; FanDuel is dealing +19.5 (-108). Power ratings have Cardinals 2.1 pts worse than the market. Line has moved 2 pts toward Toledo since opening (DraftKings +17.5 \u2192 +19.5, home view).",
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "afbc95d529430ef9797b428b2a9db1ab",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "pass",
    "matchup": "Akron Zips @ Central Michigan Chippewas",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1483,11 +1480,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "Central Michigan Chippewas -6.5 (-110)",
-   "confidence": 53.2,
-   "ev_pct": 1.55,
-   "units": 0.5,
-   "price_floor": -6.5,
-   "floor_text": "Good to -6.5 at -110",
+   "confidence": 52.2,
+   "ev_pct": -0.3,
+   "units": 0.0,
+   "price_floor": null,
+   "floor_text": "Only at -6.5 -109 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 6.8,
    "model_home_margin": 10.6,
@@ -1495,7 +1492,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "f2defdeeb6cb3aa4a86b01a7a5b1ece4",
@@ -1511,11 +1508,11 @@
    "price": -108,
    "book": "draftkings",
    "pick_label": "Auburn Tigers +7 (-108)",
-   "confidence": 51.5,
-   "ev_pct": -0.72,
+   "confidence": 50.7,
+   "ev_pct": -2.27,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +7 -106 or better",
+   "floor_text": "Only at +7 -103 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 7.2,
    "model_home_margin": 4.1,
@@ -1523,7 +1520,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "766a0470521ac4a0fad476df45c1438b",
@@ -1539,11 +1536,11 @@
    "price": -105,
    "book": "draftkings",
    "pick_label": "Miami (OH) RedHawks -13.5 (-105)",
-   "confidence": 50.3,
-   "ev_pct": -1.78,
+   "confidence": 49.9,
+   "ev_pct": -2.63,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -13.5 -101 or better",
+   "floor_text": "Only at -13.5 +101 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 13.2,
    "model_home_margin": 14.9,
@@ -1551,13 +1548,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "f28938b05f7d4b4187e879917f6e583a",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "pass",
    "matchup": "California Golden Bears @ UNLV Rebels",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1567,11 +1564,11 @@
    "price": -112,
    "book": "fanduel",
    "pick_label": "UNLV Rebels -2.5 (-112)",
-   "confidence": 54.9,
-   "ev_pct": 3.97,
-   "units": 1.0,
-   "price_floor": -3.0,
-   "floor_text": "Good to -3 at -110",
+   "confidence": 52.9,
+   "ev_pct": 0.06,
+   "units": 0.0,
+   "price_floor": -2.5,
+   "floor_text": "Good to -2.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 2.4,
    "model_home_margin": 10.5,
@@ -1579,13 +1576,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "9b2bcb758c7d7f4cb25d5102e4e9068e",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Memphis Tigers @ Charlotte 49ers",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1595,11 +1592,11 @@
    "price": -112,
    "book": "draftkings",
    "pick_label": "Charlotte 49ers +20.5 (-112)",
-   "confidence": 54.9,
-   "ev_pct": 3.99,
-   "units": 1.0,
-   "price_floor": 20.0,
-   "floor_text": "Good to +20 at -110",
+   "confidence": 53.4,
+   "ev_pct": 1.04,
+   "units": 0.5,
+   "price_floor": 20.5,
+   "floor_text": "Good to +20.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": -20.1,
    "model_home_margin": -14.0,
@@ -1607,7 +1604,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "7e0abfe1077b7d41d61b918ef53d247b",
@@ -1636,7 +1633,7 @@
     "no model rating (team not rated yet)",
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "6d39ea01c532535edf756b8086656518",
@@ -1652,11 +1649,11 @@
    "price": -115,
    "book": "draftkings",
    "pick_label": "Missouri Tigers +5.5 (-115)",
-   "confidence": 53.9,
-   "ev_pct": 0.77,
+   "confidence": 52.1,
+   "ev_pct": -2.53,
    "units": 0.0,
-   "price_floor": 5.0,
-   "floor_text": "Good to +5 at -110",
+   "price_floor": null,
+   "floor_text": "Only at +5.5 -109 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -5.7,
    "model_home_margin": 1.2,
@@ -1664,7 +1661,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "296c3e1c69d11f640690b6f9bd37d424",
@@ -1680,8 +1677,8 @@
    "price": -114,
    "book": "fanduel",
    "pick_label": "Virginia Cavaliers -2.5 (-114)",
-   "confidence": 53.0,
-   "ev_pct": -0.53,
+   "confidence": 52.6,
+   "ev_pct": -1.23,
    "units": 0.0,
    "price_floor": -2.5,
    "floor_text": "Good to -2.5 at -110",
@@ -1692,13 +1689,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "e4f058459f5ee64f3cff3ac1aed79e64",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Old Dominion Monarchs @ Georgia State Panthers",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1708,11 +1705,11 @@
    "price": -112,
    "book": "draftkings",
    "pick_label": "Old Dominion Monarchs +2.5 (-112)",
-   "confidence": 54.5,
-   "ev_pct": 3.07,
-   "units": 1.0,
-   "price_floor": 2.0,
-   "floor_text": "Good to +2 at -110",
+   "confidence": 53.6,
+   "ev_pct": 1.46,
+   "units": 0.5,
+   "price_floor": 2.5,
+   "floor_text": "Good to +2.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 1.6,
    "model_home_margin": -1.7,
@@ -1720,13 +1717,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "b163da8a283ade5bd6428a3ca01da8b8",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "pass",
    "matchup": "Ohio State Buckeyes @ Iowa Hawkeyes",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1736,11 +1733,11 @@
    "price": -105,
    "book": "draftkings",
    "pick_label": "Iowa Hawkeyes +14 (-105)",
-   "confidence": 53.1,
-   "ev_pct": 3.64,
-   "units": 1.0,
-   "price_floor": 14.0,
-   "floor_text": "Good to +14 at -110",
+   "confidence": 51.4,
+   "ev_pct": 0.25,
+   "units": 0.0,
+   "price_floor": null,
+   "floor_text": "Only at +14 -106 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -14.5,
    "model_home_margin": -7.8,
@@ -1748,13 +1745,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "c1c548c80e674e3a37dcc2551beba599",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "pass",
    "matchup": "Ohio Bobcats @ Kent State Golden Flashes",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1764,11 +1761,11 @@
    "price": -102,
    "book": "fanduel",
    "pick_label": "Ohio Bobcats -3.5 (-102)",
-   "confidence": 51.1,
-   "ev_pct": 1.25,
-   "units": 0.5,
+   "confidence": 50.7,
+   "ev_pct": 0.36,
+   "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -3.5 -105 or better",
+   "floor_text": "Only at -3.5 -103 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -3.5,
    "model_home_margin": -5.3,
@@ -1776,13 +1773,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "a77fd3143159a9d16a75685528d9960b",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "pass",
    "matchup": "Louisville Cardinals @ NC State Wolfpack",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1792,11 +1789,11 @@
    "price": -105,
    "book": "draftkings",
    "pick_label": "Louisville Cardinals -4 (-105)",
-   "confidence": 53.0,
-   "ev_pct": 3.44,
-   "units": 1.0,
-   "price_floor": -4.0,
-   "floor_text": "Good to -4 at -110",
+   "confidence": 51.5,
+   "ev_pct": 0.53,
+   "units": 0.0,
+   "price_floor": null,
+   "floor_text": "Only at -4 -106 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -3.7,
    "model_home_margin": -9.5,
@@ -1804,13 +1801,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "b36c1d83299d019b7833660a29e9da9c",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "pass",
    "matchup": "Wyoming Cowboys @ North Dakota State Bison",
    "kickoff_utc": "2026-10-03T19:30:00Z",
    "kickoff_pt": "Sat Oct 3, 12:30 PM PT",
@@ -1820,11 +1817,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "Wyoming Cowboys +18.5 (-110)",
-   "confidence": 54.5,
-   "ev_pct": 4.09,
-   "units": 1.0,
-   "price_floor": 18.0,
-   "floor_text": "Good to +18 at -110",
+   "confidence": 52.7,
+   "ev_pct": 0.64,
+   "units": 0.0,
+   "price_floor": 18.5,
+   "floor_text": "Good to +18.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 18.5,
    "model_home_margin": 11.5,
@@ -1832,7 +1829,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "3086203ed472e204ff7f3ba6241bb43c",
@@ -1848,22 +1845,22 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "Samford Bulldogs +30.5 (-110)",
-   "confidence": 70.5,
-   "ev_pct": 34.66,
+   "confidence": 53.3,
+   "ev_pct": 1.83,
    "units": 0.0,
-   "price_floor": 23.5,
-   "floor_text": "Good to +23.5 at -110",
+   "price_floor": 30.5,
+   "floor_text": "Good to +30.5 at -110",
    "fair_source": "consensus",
    "market_home_margin": 30.7,
    "model_home_margin": -3.6,
    "why": "market consensus makes this Bulldogs +30.5; FanDuel is dealing +30.5 (-110). Power ratings have Bulldogs 34.3 pts better than the market.",
    "flags": [
+    "model far from market; ratings may be missing a roster or QB change",
     "college injury data incomplete",
     "no sharp book on this game; fair line is market consensus",
-    "edge is suspiciously large; verify the price is live before betting",
     "blowout spread; model and market are least reliable here"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "7e365956ef23823565a044a5af18736a",
@@ -1880,10 +1877,10 @@
    "book": "draftkings",
    "pick_label": "James Madison Dukes -18.5 (-105)",
    "confidence": 50.1,
-   "ev_pct": -2.09,
+   "ev_pct": -2.24,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -18.5 -101 or better",
+   "floor_text": "Only at -18.5 -100 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 18.5,
    "model_home_margin": 18.8,
@@ -1891,7 +1888,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "0e62429ed73f84f87f603d376477749c",
@@ -1907,11 +1904,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "Nebraska Cornhuskers -14.5 (-110)",
-   "confidence": 51.5,
-   "ev_pct": -1.71,
+   "confidence": 51.0,
+   "ev_pct": -2.66,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -14.5 -106 or better",
+   "floor_text": "Only at -14.5 -104 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 14.6,
    "model_home_margin": 16.5,
@@ -1919,13 +1916,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "e7e3e3bfc3fd7fca7550ecf48cb78666",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "UTEP Miners @ New Mexico Lobos",
    "kickoff_utc": "2026-10-03T20:00:00Z",
    "kickoff_pt": "Sat Oct 3, 1:00 PM PT",
@@ -1935,11 +1932,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "New Mexico Lobos -22.5 (-110)",
-   "confidence": 54.6,
-   "ev_pct": 4.3,
-   "units": 1.0,
-   "price_floor": -23.0,
-   "floor_text": "Good to -23 at -110",
+   "confidence": 53.1,
+   "ev_pct": 1.28,
+   "units": 0.5,
+   "price_floor": -22.5,
+   "floor_text": "Good to -22.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 22.8,
    "model_home_margin": 29.0,
@@ -1947,7 +1944,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "0cdf52fe0d6bfe0664b76a2102f8b605",
@@ -1957,25 +1954,25 @@
    "matchup": "Purdue Boilermakers @ Illinois Fighting Illini",
    "kickoff_utc": "2026-10-03T20:15:00Z",
    "kickoff_pt": "Sat Oct 3, 1:15 PM PT",
-   "side": "Purdue Boilermakers",
-   "opponent": "Illinois Fighting Illini",
-   "line": 10.0,
-   "price": -110,
-   "book": "draftkings",
-   "pick_label": "Purdue Boilermakers +10 (-110)",
-   "confidence": 50.7,
-   "ev_pct": -3.18,
+   "side": "Illinois Fighting Illini",
+   "opponent": "Purdue Boilermakers",
+   "line": -10.5,
+   "price": -102,
+   "book": "fanduel",
+   "pick_label": "Illinois Fighting Illini -10.5 (-102)",
+   "confidence": 48.6,
+   "ev_pct": -3.7,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +10 -103 or better",
+   "floor_text": "Only at -10.5 +106 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 10.3,
    "model_home_margin": 8.1,
-   "why": "Pinnacle makes this Boilermakers +10.5; DraftKings is dealing +10 (-110). Power ratings have Boilermakers 2.2 pts better than the market.",
+   "why": "Pinnacle makes this Illini -10.5; FanDuel is dealing -10.5 (-102). Power ratings have Illini 2.2 pts worse than the market.",
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "59abc1d6262d2ea6a72c4daad4c83af2",
@@ -1991,11 +1988,11 @@
    "price": -102,
    "book": "fanduel",
    "pick_label": "Kentucky Wildcats +2.5 (-102)",
-   "confidence": 50.6,
-   "ev_pct": 0.3,
+   "confidence": 50.4,
+   "ev_pct": -0.21,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +2.5 -103 or better",
+   "floor_text": "Only at +2.5 -102 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 2.5,
    "model_home_margin": 1.5,
@@ -2003,13 +2000,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "b30387175520051e2889230030365494",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Oregon State Beavers @ Colorado State Rams",
    "kickoff_utc": "2026-10-03T22:00:00Z",
    "kickoff_pt": "Sat Oct 3, 3:00 PM PT",
@@ -2019,11 +2016,11 @@
    "price": -104,
    "book": "fanduel",
    "pick_label": "Colorado State Rams +6.5 (-104)",
-   "confidence": 52.8,
-   "ev_pct": 3.56,
-   "units": 1.0,
-   "price_floor": 6.5,
-   "floor_text": "Good to +6.5 at -110",
+   "confidence": 51.7,
+   "ev_pct": 1.37,
+   "units": 0.5,
+   "price_floor": null,
+   "floor_text": "Only at +6.5 -107 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -6.5,
    "model_home_margin": -2.1,
@@ -2031,7 +2028,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "b3c132063b4d14cf750801c633237b9e",
@@ -2047,22 +2044,22 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "Texas Southern Tigers +44.5 (-110)",
-   "confidence": 77.2,
-   "ev_pct": 47.45,
+   "confidence": 52.6,
+   "ev_pct": 0.36,
    "units": 0.0,
-   "price_floor": 34.0,
-   "floor_text": "Good to +34 at -110",
+   "price_floor": 44.5,
+   "floor_text": "Good to +44.5 at -110",
    "fair_source": "consensus",
    "market_home_margin": 45.0,
    "model_home_margin": -3.3,
    "why": "market consensus makes this Tigers +45; FanDuel is dealing +44.5 (-110). Power ratings have Tigers 48.3 pts better than the market.",
    "flags": [
+    "model far from market; ratings may be missing a roster or QB change",
     "college injury data incomplete",
     "no sharp book on this game; fair line is market consensus",
-    "edge is suspiciously large; verify the price is live before betting",
     "blowout spread; model and market are least reliable here"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "ff98b80b07e2f42c76c2c255e6611247",
@@ -2078,11 +2075,11 @@
    "price": -110,
    "book": "draftkings",
    "pick_label": "Arkansas Razorbacks +14 (-110)",
-   "confidence": 55.9,
-   "ev_pct": 6.57,
-   "units": 2.0,
-   "price_floor": 13.0,
-   "floor_text": "Good to +13 at -110",
+   "confidence": 53.8,
+   "ev_pct": 2.58,
+   "units": 1.0,
+   "price_floor": 13.5,
+   "floor_text": "Good to +13.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 13.8,
    "model_home_margin": 5.6,
@@ -2090,7 +2087,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "b58c0d24e66471e6095c0a5f9afb7ce3",
@@ -2106,8 +2103,8 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "BYU Cougars -6.5 (-110)",
-   "confidence": 50.4,
-   "ev_pct": -3.75,
+   "confidence": 50.6,
+   "ev_pct": -3.48,
    "units": 0.0,
    "price_floor": null,
    "floor_text": "Only at -6.5 -102 or better",
@@ -2118,13 +2115,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "5efdb3515c882453d9abcd27db28f78b",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "pass",
    "matchup": "Georgia Southern Eagles @ Coastal Carolina Chanticleers",
    "kickoff_utc": "2026-10-03T23:00:00Z",
    "kickoff_pt": "Sat Oct 3, 4:00 PM PT",
@@ -2134,11 +2131,11 @@
    "price": -110,
    "book": "draftkings",
    "pick_label": "Coastal Carolina Chanticleers +2.5 (-110)",
-   "confidence": 53.3,
-   "ev_pct": 1.71,
-   "units": 0.5,
-   "price_floor": 2.5,
-   "floor_text": "Good to +2.5 at -110",
+   "confidence": 51.8,
+   "ev_pct": -1.18,
+   "units": 0.0,
+   "price_floor": null,
+   "floor_text": "Only at +2.5 -107 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -2.7,
    "model_home_margin": 3.2,
@@ -2146,7 +2143,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "279230b2d38c4e97187c3f065501a4cf",
@@ -2162,11 +2159,11 @@
    "price": -105,
    "book": "fanduel",
    "pick_label": "Rice Owls +11.5 (-105)",
-   "confidence": 50.3,
-   "ev_pct": -1.83,
+   "confidence": 50.1,
+   "ev_pct": -2.25,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +11.5 -101 or better",
+   "floor_text": "Only at +11.5 -100 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -11.6,
    "model_home_margin": -10.8,
@@ -2174,7 +2171,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "4c84a699496b71ee1e626e3c7f5689c9",
@@ -2190,11 +2187,11 @@
    "price": -105,
    "book": "fanduel",
    "pick_label": "UL Monroe Warhawks +13.5 (-105)",
-   "confidence": 50.9,
-   "ev_pct": -0.6,
+   "confidence": 50.2,
+   "ev_pct": -1.91,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +13.5 -104 or better",
+   "floor_text": "Only at +13.5 -101 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 13.8,
    "model_home_margin": 11.2,
@@ -2202,7 +2199,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "6246661a676eeaa850a3e36e311fce63",
@@ -2218,11 +2215,11 @@
    "price": -105,
    "book": "fanduel",
    "pick_label": "Army Black Knights -2.5 (-105)",
-   "confidence": 49.6,
-   "ev_pct": -3.17,
+   "confidence": 49.8,
+   "ev_pct": -2.85,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -2.5 +102 or better",
+   "floor_text": "Only at -2.5 +101 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -2.5,
    "model_home_margin": -1.9,
@@ -2230,13 +2227,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "a2f7df0b000c054abd3cbc6f4a4b2432",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Utah State Aggies @ Boise State Broncos",
    "kickoff_utc": "2026-10-03T23:30:00Z",
    "kickoff_pt": "Sat Oct 3, 4:30 PM PT",
@@ -2246,11 +2243,11 @@
    "price": -110,
    "book": "draftkings",
    "pick_label": "Utah State Aggies +20.5 (-110)",
-   "confidence": 55.3,
-   "ev_pct": 5.51,
-   "units": 1.5,
-   "price_floor": 19.5,
-   "floor_text": "Good to +19.5 at -110",
+   "confidence": 53.1,
+   "ev_pct": 1.31,
+   "units": 0.5,
+   "price_floor": 20.5,
+   "floor_text": "Good to +20.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 20.6,
    "model_home_margin": 12.0,
@@ -2258,13 +2255,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "932c7f6dfe06be77192fe000e9f3ac9d",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "pass",
    "matchup": "Miami Hurricanes @ Clemson Tigers",
    "kickoff_utc": "2026-10-03T23:30:00Z",
    "kickoff_pt": "Sat Oct 3, 4:30 PM PT",
@@ -2274,11 +2271,11 @@
    "price": -104,
    "book": "fanduel",
    "pick_label": "Clemson Tigers +16.5 (-104)",
-   "confidence": 52.4,
-   "ev_pct": 2.75,
-   "units": 1.0,
+   "confidence": 51.2,
+   "ev_pct": 0.48,
+   "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +16.5 -110 or better",
+   "floor_text": "Only at +16.5 -105 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -16.7,
    "model_home_margin": -12.2,
@@ -2286,7 +2283,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "6338f8a71aba32414791add2d358472d",
@@ -2296,25 +2293,25 @@
    "matchup": "Temple Owls @ South Florida Bulls",
    "kickoff_utc": "2026-10-03T23:30:00Z",
    "kickoff_pt": "Sat Oct 3, 4:30 PM PT",
-   "side": "South Florida Bulls",
-   "opponent": "Temple Owls",
-   "line": -6.5,
-   "price": -108,
-   "book": "draftkings",
-   "pick_label": "South Florida Bulls -6.5 (-108)",
-   "confidence": 50.7,
-   "ev_pct": -2.33,
+   "side": "Temple Owls",
+   "opponent": "South Florida Bulls",
+   "line": 6.5,
+   "price": -104,
+   "book": "fanduel",
+   "pick_label": "Temple Owls +6.5 (-104)",
+   "confidence": 49.9,
+   "ev_pct": -2.16,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -6.5 -103 or better",
+   "floor_text": "Only at +6.5 +100 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 6.2,
    "model_home_margin": 8.5,
-   "why": "Pinnacle makes this Bulls -6; DraftKings is dealing -6.5 (-108). Power ratings have Bulls 2.3 pts better than the market.",
+   "why": "Pinnacle makes this Owls +6; FanDuel is dealing +6.5 (-104). Power ratings have Owls 2.3 pts worse than the market.",
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "f981648dba0e71d8517d47d31aa2633d",
@@ -2330,11 +2327,11 @@
    "price": -105,
    "book": "draftkings",
    "pick_label": "Washington Huskies +9.5 (-105)",
-   "confidence": 54.2,
-   "ev_pct": 5.9,
-   "units": 1.5,
-   "price_floor": 9.0,
-   "floor_text": "Good to +9 at -110",
+   "confidence": 52.5,
+   "ev_pct": 2.59,
+   "units": 1.0,
+   "price_floor": 9.5,
+   "floor_text": "Good to +9.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 9.5,
    "model_home_margin": 2.9,
@@ -2342,7 +2339,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "253e389201e449a2984a194e3eebf7f8",
@@ -2358,11 +2355,11 @@
    "price": -112,
    "book": "draftkings",
    "pick_label": "Texas Tech Red Raiders -12.5 (-112)",
-   "confidence": 52.8,
-   "ev_pct": 0.02,
+   "confidence": 52.3,
+   "ev_pct": -0.97,
    "units": 0.0,
-   "price_floor": -12.5,
-   "floor_text": "Good to -12.5 at -110",
+   "price_floor": null,
+   "floor_text": "Only at -12.5 -110 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -13.1,
    "model_home_margin": -15.1,
@@ -2370,7 +2367,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "833bd3a9f5a0da5b303a6a4304e2c6a3",
@@ -2386,28 +2383,29 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "McNeese State Cowboys +48.5 (-110)",
-   "confidence": 74.1,
-   "ev_pct": 41.43,
+   "confidence": 62.6,
+   "ev_pct": 19.6,
    "units": 0.0,
-   "price_floor": 39.5,
-   "floor_text": "Good to +39.5 at -110",
+   "price_floor": 44.5,
+   "floor_text": "Good to +44.5 at -110",
    "fair_source": "consensus",
    "market_home_margin": 45.0,
    "model_home_margin": 19.0,
    "why": "market consensus makes this Cowboys +45; FanDuel is dealing +48.5 (-110). Power ratings have Cowboys 26.0 pts better than the market.",
    "flags": [
+    "model far from market; ratings may be missing a roster or QB change",
     "college injury data incomplete",
     "no sharp book on this game; fair line is market consensus",
     "edge is suspiciously large; verify the price is live before betting",
     "blowout spread; model and market are least reliable here"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "1d3756ab74c013c39510958b5a632b74",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Arkansas State Red Wolves @ Louisiana Ragin Cajuns",
    "kickoff_utc": "2026-10-04T00:00:00Z",
    "kickoff_pt": "Sat Oct 3, 5:00 PM PT",
@@ -2417,11 +2415,11 @@
    "price": -110,
    "book": "fanduel",
    "pick_label": "Louisiana Ragin Cajuns -6.5 (-110)",
-   "confidence": 54.4,
-   "ev_pct": 3.92,
-   "units": 1.0,
-   "price_floor": -7.0,
-   "floor_text": "Good to -7 at -110",
+   "confidence": 53.2,
+   "ev_pct": 1.52,
+   "units": 0.5,
+   "price_floor": -6.5,
+   "floor_text": "Good to -6.5 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 7.0,
    "model_home_margin": 11.9,
@@ -2429,13 +2427,13 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "9dcccf34095cde7b0fe36250bb5be6f6",
    "league": "cfb",
    "slot": "sat",
-   "tier": "lean",
+   "tier": "pass",
    "matchup": "Indiana Hoosiers @ Rutgers Scarlet Knights",
    "kickoff_utc": "2026-10-04T00:00:00Z",
    "kickoff_pt": "Sat Oct 3, 5:00 PM PT",
@@ -2445,11 +2443,11 @@
    "price": -115,
    "book": "draftkings",
    "pick_label": "Rutgers Scarlet Knights +24.5 (-115)",
-   "confidence": 54.1,
-   "ev_pct": 1.2,
-   "units": 0.5,
-   "price_floor": 24.0,
-   "floor_text": "Good to +24 at -110",
+   "confidence": 52.3,
+   "ev_pct": -2.27,
+   "units": 0.0,
+   "price_floor": null,
+   "floor_text": "Only at +24.5 -110 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -24.7,
    "model_home_margin": -17.5,
@@ -2457,7 +2455,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "23025b717a93bdd8f30424e90a97d68f",
@@ -2467,31 +2465,31 @@
    "matchup": "Fresno State Bulldogs @ Washington State Cougars",
    "kickoff_utc": "2026-10-04T01:30:00Z",
    "kickoff_pt": "Sat Oct 3, 6:30 PM PT",
-   "side": "Fresno State Bulldogs",
-   "opponent": "Washington State Cougars",
-   "line": 2.5,
-   "price": -110,
-   "book": "draftkings",
-   "pick_label": "Fresno State Bulldogs +2.5 (-110)",
-   "confidence": 50.7,
-   "ev_pct": -3.19,
+   "side": "Washington State Cougars",
+   "opponent": "Fresno State Bulldogs",
+   "line": -2.5,
+   "price": -105,
+   "book": "fanduel",
+   "pick_label": "Washington State Cougars -2.5 (-105)",
+   "confidence": 50.1,
+   "ev_pct": -2.21,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +2.5 -103 or better",
+   "floor_text": "Only at -2.5 -100 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 3.0,
    "model_home_margin": -0.1,
-   "why": "Pinnacle makes this Bulldogs +3; DraftKings is dealing +2.5 (-110). Power ratings have Bulldogs 3.1 pts better than the market. Line has moved 1 pts toward Washington State since opening (DraftKings -1.5 \u2192 -2.5, home view).",
+   "why": "Pinnacle makes this Cougars -3; FanDuel is dealing -2.5 (-105). Power ratings have Cougars 3.1 pts worse than the market. Line has moved 1 pts toward Washington State since opening (DraftKings -1.5 \u2192 -2.5, home view).",
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "4ec93b02d04c2a019ebd6f4ccd9f7af5",
    "league": "cfb",
    "slot": "sat",
-   "tier": "play",
+   "tier": "lean",
    "matchup": "Baylor Bears @ Arizona State Sun Devils",
    "kickoff_utc": "2026-10-04T02:30:00Z",
    "kickoff_pt": "Sat Oct 3, 7:30 PM PT",
@@ -2501,11 +2499,11 @@
    "price": -115,
    "book": "fanduel",
    "pick_label": "Baylor Bears +4.5 (-115)",
-   "confidence": 55.8,
-   "ev_pct": 4.28,
-   "units": 1.0,
-   "price_floor": 3.5,
-   "floor_text": "Good to +3.5 at -110",
+   "confidence": 54.3,
+   "ev_pct": 1.51,
+   "units": 0.5,
+   "price_floor": 4.0,
+   "floor_text": "Good to +4 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": 3.7,
    "model_home_margin": -2.1,
@@ -2513,7 +2511,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "f73081099f845f23ea7f41ef09128cdd",
@@ -2529,11 +2527,11 @@
    "price": -105,
    "book": "fanduel",
    "pick_label": "Texas State Bobcats -4.5 (-105)",
-   "confidence": 49.5,
-   "ev_pct": -3.37,
+   "confidence": 49.0,
+   "ev_pct": -4.38,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -4.5 +102 or better",
+   "floor_text": "Only at -4.5 +104 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -3.8,
    "model_home_margin": -5.8,
@@ -2541,7 +2539,7 @@
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "63dded0ee467d6f6d03c41673569238d",
@@ -2551,25 +2549,25 @@
    "matchup": "Cincinnati Bearcats @ Arizona Wildcats",
    "kickoff_utc": "2026-10-04T03:00:00Z",
    "kickoff_pt": "Sat Oct 3, 8:00 PM PT",
-   "side": "Cincinnati Bearcats",
-   "opponent": "Arizona Wildcats",
-   "line": 7.0,
-   "price": -108,
-   "book": "draftkings",
-   "pick_label": "Cincinnati Bearcats +7 (-108)",
-   "confidence": 51.5,
-   "ev_pct": -0.87,
+   "side": "Arizona Wildcats",
+   "opponent": "Cincinnati Bearcats",
+   "line": -7.5,
+   "price": 108,
+   "book": "fanduel",
+   "pick_label": "Arizona Wildcats -7.5 (+108)",
+   "confidence": 48.2,
+   "ev_pct": 0.19,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at +7 -106 or better",
+   "floor_text": "Only at -7.5 +108 or better",
    "fair_source": "pinnacle",
    "market_home_margin": 7.3,
    "model_home_margin": 3.9,
-   "why": "Pinnacle makes this Bearcats +7.5; DraftKings is dealing +7 (-108). Power ratings have Bearcats 3.4 pts better than the market. Line has moved 1.5 pts toward Cincinnati since opening (DraftKings -8.5 \u2192 -7, home view).",
+   "why": "Pinnacle makes this Wildcats -7.5; FanDuel is dealing -7.5 (+108). Power ratings have Wildcats 3.4 pts worse than the market. Line has moved 1.5 pts toward Cincinnati since opening (DraftKings -8.5 \u2192 -7, home view).",
    "flags": [
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   },
   {
    "id": "4d9e59b57798afb31927c84e1f6dc25e",
@@ -2598,7 +2596,7 @@
     "no model rating (team not rated yet)",
     "college injury data incomplete"
    ],
-   "odds_pulled_at": "2026-09-30T05:08:28.303595+00:00"
+   "odds_pulled_at": "2026-09-30T05:10:31.001045+00:00"
   }
  ]
 }
