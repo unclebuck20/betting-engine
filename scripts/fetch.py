@@ -150,6 +150,34 @@ def fetch_cfbd():
                                   "fbs_games": len(fbs), "games_with_lines": with_lines, "calls": 3}
     writes[f"cfbd/week_{week:02d}_games.json"] = games
     writes[f"cfbd/week_{week:02d}_lines.json"] = lines
+
+    # current-season per-game efficiency for the college ratings (only weeks not yet saved)
+    ppa_path = RAW / "cfbd" / f"ppa_{C.SEASON}.json"
+    have = json.loads(ppa_path.read_text()) if ppa_path.exists() else []
+    have_weeks = {p["week"] for p in have}
+    new = []
+    for w in range(1, week):
+        if w in have_weeks:
+            continue
+        part = get(f"{base}/ppa/games", params={"year": C.SEASON, "week": w, "seasonType": "regular",
+                                                "excludeGarbageTime": "true"}, headers=auth).json()
+        new.extend(part)
+        summary["sources"]["cfbd"]["calls"] += 1
+    if new or not ppa_path.exists():
+        writes[f"cfbd/ppa_{C.SEASON}.json"] = have + new
+    # team names (school + mascot) to match the odds feed; pulled once
+    if not (RAW / "cfbd" / "teams.json").exists():
+        writes["cfbd/teams.json"] = get(f"{base}/teams", headers=auth).json()
+        summary["sources"]["cfbd"]["calls"] += 1
+    # past weeks' games (final scores) for the ratings, pulled once per week
+    for w in range(1, week):
+        p = RAW / "cfbd" / f"week_{w:02d}_games.json"
+        fbs = [g for g in json.loads(p.read_text()) if g.get("homeClassification") == "fbs"] if p.exists() else []
+        done = bool(fbs) and sum(g.get("homePoints") is not None for g in fbs) >= 0.95 * len(fbs)
+        if not done:
+            writes[f"cfbd/week_{w:02d}_games.json"] = get(
+                f"{base}/games", params={"year": C.SEASON, "week": w, "seasonType": "regular"}, headers=auth).json()
+            summary["sources"]["cfbd"]["calls"] += 1
     notices.append(f"cfbd: week {week} ({stype}) {len(fbs)} FBS games, {with_lines} with lines")
 
 

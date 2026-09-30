@@ -1,0 +1,46 @@
+{
+ "games": 1756,
+ "hfa": 2.39,
+ "beta": 56.8,
+ "rmse_model": 15.97,
+ "rmse_open": 15.41,
+ "rmse_close": 15.17,
+ "weight_model_vs_close": 0.085,
+ "weight_model_vs_open": 0.296,
+ "line_move_per_point_of_model_gap": 0.237,
+ "move_toward_model_when_gap_ge_3": "568/803",
+ "ats_vs_open": {
+  "3": {
+   "w": 545,
+   "l": 458,
+   "pct": 0.543
+  },
+  "5": {
+   "w": 370,
+   "l": 271,
+   "pct": 0.577
+  },
+  "7": {
+   "w": 211,
+   "l": 144,
+   "pct": 0.594
+  }
+ },
+ "ats_vs_close": {
+  "3": {
+   "w": 477,
+   "l": 458,
+   "pct": 0.51
+  },
+  "5": {
+   "w": 279,
+   "l": 248,
+   "pct": 0.529
+  },
+  "7": {
+   "w": 141,
+   "l": 142,
+   "pct": 0.498
+  }
+ }
+}
