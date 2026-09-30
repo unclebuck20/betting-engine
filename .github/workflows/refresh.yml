@@ -56,5 +56,5 @@ jobs:
           git add data/raw data/edges data/derived data/picks
           if git diff --cached --quiet; then echo "::notice::no data changes"; exit 0; fi
           git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
