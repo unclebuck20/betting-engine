@@ -7,12 +7,16 @@ import os
 import sys
 from pathlib import Path
 
+import time
+
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "raw" / "cfbd_history"
 BASE = "https://api.collegefootballdata.com"
-SEASONS = range(2019, 2026)
+SEASONS = range(2021, 2026)
+WEEKS = range(1, 17)
+calls = 0
 
 
 def main():
@@ -22,19 +26,39 @@ def main():
     h = {"Authorization": f"Bearer {key}"}
     OUT.mkdir(parents=True, exist_ok=True)
     for y in SEASONS:
-        for name, path, params in (
-            ("games", "/games", {"year": y, "seasonType": "both"}),
-            ("lines", "/lines", {"year": y, "seasonType": "both"}),
-            ("ppa", "/ppa/games", {"year": y, "excludeGarbageTime": "true"}),
+        for name, path, extra in (
+            ("games", "/games", {}),
+            ("lines", "/lines", {}),
+            ("ppa", "/ppa/games", {"excludeGarbageTime": "true"}),
         ):
-            r = requests.get(BASE + path, params=params, headers=h, timeout=90)
-            if r.status_code != 200:
-                print(f"::warning::{name} {y}: HTTP {r.status_code} {r.text[:150]}")
+            dest = OUT / f"{name}_{y}.json"
+            if dest.exists():
                 continue
-            data = r.json()
-            (OUT / f"{name}_{y}.json").write_text(json.dumps(data))
+            base = {"year": y, "seasonType": "regular", **extra}
+            data = get(path, base, h)
+            if data is None:  # whole season too big -> week by week
+                data = []
+                for w in WEEKS:
+                    part = get(path, {**base, "week": w}, h)
+                    if part is None:
+                        print(f"::warning::{name} {y} wk{w}: failed")
+                        continue
+                    data.extend(part)
+            dest.write_text(json.dumps(data))
             print(f"::notice::{name} {y}: {len(data)} rows")
+    print(f"::notice::CFBD calls used: {calls}")
 
+
+def get(path, params, h):
+    global calls
+    for attempt in range(2):
+        calls += 1
+        r = requests.get(BASE + path, params=params, headers=h, timeout=90)
+        if r.status_code == 200:
+            time.sleep(1)
+            return r.json()
+        time.sleep(5)
+    return None
 
 if __name__ == "__main__":
     main()
