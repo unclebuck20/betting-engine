@@ -16,6 +16,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
 import config as C  # noqa: E402
+from common import compact_events  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
@@ -69,7 +70,7 @@ def fetch_odds():
     for name, sport in C.ODDS_SPORTS.items():
         r = get(f"{base}/sports/{sport}/odds", params={
             "apiKey": key, "markets": ",".join(C.ODDS_MARKETS),
-            "bookmakers": ",".join(C.ODDS_BOOKMAKERS), "oddsFormat": "american",
+            "bookmakers": ",".join(C.ODDS_BOOKMAKERS), "oddsFormat": "american", "includeLinks": "true",
         })
         events = r.json()
         books = {b["key"] for e in events for b in e.get("bookmakers", [])}
@@ -80,7 +81,7 @@ def fetch_odds():
         if len(events) < C.MIN_ODDS_EVENTS[name]:
             warnings.append(f"odds/{name}: only {len(events)} events (offseason or bye?)")
             continue
-        snap = {"pulled_at": NOW.isoformat(), "sport": sport, "events": events}
+        snap = {"pulled_at": NOW.isoformat(), "sport": sport, "events": compact_events(events)}
         writes[f"odds/{name}/{STAMP}.json"] = snap
         writes[f"odds/{name}/latest.json"] = snap
         notices.append(f"odds/{name}: {len(events)} events, {len(books)} books, Pinnacle on {with_pin}")
@@ -123,6 +124,9 @@ def fetch_injuries():
         if league == "nfl" and len(teams) < C.MIN_NFL_INJURY_TEAMS:
             errors.append(f"injuries/nfl: only {len(teams)} teams (min {C.MIN_NFL_INJURY_TEAMS})")
             continue
+        prev = RAW / "injuries" / league / "latest.json"
+        if prev.exists():
+            writes[f"injuries/{league}/previous.json"] = json.loads(prev.read_text())
         writes[f"injuries/{league}/latest.json"] = {"pulled_at": NOW.isoformat(), "rows": rows}
         notices.append(f"injuries/{league}: {len(rows)} entries across {len(teams)} teams, newest {newest}")
 
@@ -169,6 +173,16 @@ def fetch_cfbd():
     if not (RAW / "cfbd" / "teams.json").exists():
         writes["cfbd/teams.json"] = get(f"{base}/teams", headers=auth).json()
         summary["sources"]["cfbd"]["calls"] += 1
+    # preseason inputs (once per season) and SP+ as a second opinion (once per week)
+    for name, path, params in (("talent", "/talent", {"year": C.SEASON}),
+                               ("returning", "/player/returning", {"year": C.SEASON})):
+        if not (RAW / "cfbd" / f"{name}_{C.SEASON}.json").exists():
+            writes[f"cfbd/{name}_{C.SEASON}.json"] = get(f"{base}{path}", params=params, headers=auth).json()
+            summary["sources"]["cfbd"]["calls"] += 1
+    if not (RAW / "cfbd" / f"sp_{C.SEASON}_wk{week:02d}.json").exists():
+        writes[f"cfbd/sp_{C.SEASON}_wk{week:02d}.json"] = get(
+            f"{base}/ratings/sp", params={"year": C.SEASON}, headers=auth).json()
+        summary["sources"]["cfbd"]["calls"] += 1
     # past weeks' games (final scores) for the ratings, pulled once per week
     for w in range(1, week):
         p = RAW / "cfbd" / f"week_{w:02d}_games.json"
@@ -200,7 +214,9 @@ def main():
     for rel, obj in writes.items():
         p = RAW / rel
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(obj if isinstance(obj, str) else json.dumps(obj, indent=1))
+        compact = rel.startswith(("odds/", "cfbd/"))
+        p.write_text(obj if isinstance(obj, str) else
+                     json.dumps(obj, separators=(",", ":")) if compact else json.dumps(obj, indent=1))
     (RAW / "_last_run.json").write_text(json.dumps(summary, indent=1))
     for n in notices:
         print(f"::notice::{n}")

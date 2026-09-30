@@ -10,7 +10,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CSV = ROOT / "data" / "bets.csv"
 PAGE = ROOT / "docs" / "data" / "bets.json"
 FIELDS = ["logged_at", "issue", "pick_key", "pick", "matchup", "kickoff_utc", "league", "book", "line", "price",
-          "units", "model_tier", "model_ev_pct", "closing_line", "clv_pts", "result", "units_won"]
+          "units", "model_tier", "model_ev_pct", "close_fair_line", "close_line", "clv_pts", "clv_ev_pct",
+          "home_score", "away_score", "result", "units_won"]  # keep in sync with grade.BET_FIELDS
 
 
 def parse(body):
@@ -42,7 +43,7 @@ def main():
         w.writerows(rows)
     PAGE.parent.mkdir(parents=True, exist_ok=True)
     PAGE.write_text(json.dumps([{k: r.get(k, "") for k in FIELDS} for r in rows]))
-    print(f"::notice::logged {row['pick']} ({row.get('units')}u at {row.get('book')})")
+    print(f"::notice::logged {row.get('pick', row['pick_key'])} ({row.get('units')}u at {row.get('book')})")
 
 
 if __name__ == "__main__":

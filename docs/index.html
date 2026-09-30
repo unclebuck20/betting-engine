@@ -3,78 +3,111 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f5f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
 <title>Picks</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
 <style>
 :root{
   --bg:#f6f5f2;--card:#ffffff;--ink:#16181d;--muted:#667085;--line:#e4e2dc;
   --accent:#1f6f4a;--accent-ink:#ffffff;--lean:#8a6a12;--lean-bg:#fbf3dc;--pass:#8a8f98;
-  --play-bg:#e3f2ea;--chip:#efeee9;--danger:#a33a2b;--shadow:0 1px 2px rgba(16,24,40,.06);
+  --play-bg:#e3f2ea;--chip:#efeee9;--danger:#a33a2b;--danger-bg:#fbe9e6;--shadow:0 1px 2px rgba(16,24,40,.06);
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0f1115;--card:#171a20;--ink:#e8e9ec;--muted:#98a0ad;--line:#262a33;
   --accent:#3fb37f;--accent-ink:#0b1410;--lean:#e2bd5a;--lean-bg:#2a2414;--pass:#6b7280;
-  --play-bg:#13281e;--chip:#20242c;--danger:#e0725f;--shadow:none;}}
+  --play-bg:#13281e;--chip:#20242c;--danger:#e0725f;--danger-bg:#2c1714;--shadow:none;}}
 :root[data-theme="dark"]{
   --bg:#0f1115;--card:#171a20;--ink:#e8e9ec;--muted:#98a0ad;--line:#262a33;
   --accent:#3fb37f;--accent-ink:#0b1410;--lean:#e2bd5a;--lean-bg:#2a2414;--pass:#6b7280;
-  --play-bg:#13281e;--chip:#20242c;--danger:#e0725f;--shadow:none;}
+  --play-bg:#13281e;--chip:#20242c;--danger:#e0725f;--danger-bg:#2c1714;--shadow:none;}
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+button,input{font:inherit}
 .wrap{max-width:760px;margin:0 auto;padding:16px 16px 60px}
-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:4px 0 14px}
+header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:4px 0 14px}
 h1{font-size:22px;margin:0;letter-spacing:-.01em}
 .updated{color:var(--muted);font-size:12.5px;text-align:right}
+.updated.stale{color:var(--danger)}
+.hdr-btns{display:flex;gap:6px;justify-content:flex-end;margin-top:5px}
+.mini{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:8px;padding:3px 9px;font-size:12px;cursor:pointer}
+.mini[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
 .views{display:flex;gap:6px;margin-bottom:12px}
 .views button{flex:1;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:9px;border-radius:10px;font-weight:600;font-size:14px;cursor:pointer}
 .views button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin-bottom:14px;scrollbar-width:none}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin-bottom:12px;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
 .tab{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 13px;font-size:13.5px;font-weight:600;cursor:pointer;white-space:nowrap}
 .tab small{color:var(--muted);font-weight:500;margin-left:5px}
 .tab[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .tab[aria-selected="true"] small{color:inherit;opacity:.8}
-.slotnote{color:var(--muted);font-size:13px;margin:-4px 0 12px}
+.slatebar{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:0 0 12px;font-size:13px;color:var(--muted)}
+.slatebar b{color:var(--ink)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px 12px;margin-bottom:12px;box-shadow:var(--shadow)}
-.card.pass{opacity:.72}
+.card.dim{opacity:.7}
 .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
 .matchup{font-size:13px;color:var(--muted)}
 .time{font-size:12.5px;color:var(--muted);white-space:nowrap}
 .pick{font-size:19px;font-weight:700;margin:6px 0 2px;letter-spacing:-.01em}
-.book{font-size:12.5px;color:var(--muted)}
-.tier{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:6px;margin-right:6px;vertical-align:2px}
+.sub{font-size:12.5px;color:var(--muted)}
+.tier,.status{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:6px;vertical-align:2px}
+.tier{margin-right:6px}
 .tier.play{background:var(--play-bg);color:var(--accent)}
 .tier.lean{background:var(--lean-bg);color:var(--lean)}
 .tier.pass{background:var(--chip);color:var(--pass)}
+.status{margin-left:6px;background:var(--chip);color:var(--muted);letter-spacing:.03em;text-transform:none;font-weight:600}
+.status.moved,.status.faded,.status.trimmed{background:var(--danger-bg);color:var(--danger)}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0 10px}
-.stat{background:var(--chip);border-radius:10px;padding:8px 10px}
-.stat b{display:block;font-size:17px;font-variant-numeric:tabular-nums}
+.stat{background:var(--chip);border-radius:10px;padding:8px 10px;min-width:0}
+.stat b{display:block;font-size:17px;font-variant-numeric:tabular-nums;white-space:nowrap}
 .stat span{font-size:11.5px;color:var(--muted)}
+.prices{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);margin:0 0 10px;font-variant-numeric:tabular-nums}
+.prices b{color:var(--ink);font-weight:600}
+.moves{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:12px;color:var(--muted);margin:0 0 10px;font-variant-numeric:tabular-nums}
+.moves .pt{background:var(--chip);border-radius:6px;padding:2px 6px;color:var(--ink)}
 .why{font-size:14px;margin:0 0 8px}
-.floor{font-size:12.5px;color:var(--muted);margin-bottom:8px}
 .flags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
 .flag{font-size:11.5px;color:var(--muted);background:var(--chip);border-radius:6px;padding:2px 7px}
-.flag.warn{color:var(--danger)}
-.actions{display:flex;gap:8px;align-items:center}
-.took{flex:1;border:0;border-radius:10px;padding:11px;font-weight:700;font-size:14.5px;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
-.took[disabled]{background:var(--chip);color:var(--muted);cursor:default}
+.flag.warn{color:var(--danger);background:var(--danger-bg)}
+.actions{display:flex;gap:8px;align-items:stretch}
+.btn{flex:1;border:0;border-radius:10px;padding:11px;font-weight:700;font-size:14.5px;cursor:pointer;background:var(--accent);color:var(--accent-ink);text-align:center;text-decoration:none}
+.btn.ghost{flex:0 0 auto;background:var(--chip);color:var(--ink);font-weight:600;padding:11px 13px}
+.btn[disabled]{background:var(--chip);color:var(--muted);cursor:default}
+.undo{background:none;border:0;color:var(--muted);text-decoration:underline;font-size:12.5px;cursor:pointer;padding:0 4px}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:22px;text-align:center;color:var(--muted)}
+.section-label{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:18px 0 8px}
 table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line)}
+th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
 th{font-size:11.5px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
-td.num{text-align:right;font-variant-numeric:tabular-nums}
-.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.cmp{display:grid;grid-template-columns:auto 1fr 1fr;gap:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13.5px}
+.cmp div{padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.cmp .h{font-size:11.5px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.cmp .k{color:var(--muted)}
+.cmp .v{text-align:right;font-weight:600}
+.learn{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:13.5px}
+.learn li{margin:4px 0}
+.note{color:var(--muted);font-size:12.5px;margin:6px 0 0}
 .foot{color:var(--muted);font-size:12px;margin-top:24px}
 .foot a{color:inherit}
-.theme{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:8px;padding:3px 8px;font-size:12px;cursor:pointer;margin-top:4px}
-@media (max-width:420px){.pick{font-size:17px}.stat b{font-size:15.5px}}
+.unitset{display:none;gap:6px;align-items:center;justify-content:flex-end;margin-top:6px;font-size:12px;color:var(--muted)}
+.unitset input{width:64px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
+@media (max-width:420px){.pick{font-size:17px}.stat b{font-size:15px}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>Picks</h1>
-    <div class="updated"><div id="updated">Loading…</div><button class="theme" id="theme">Theme</button></div>
+    <div>
+      <div class="updated" id="updated">Loading…</div>
+      <div class="hdr-btns">
+        <button class="mini" id="money" aria-pressed="false" title="Show dollars instead of units">$</button>
+        <button class="mini" id="theme">Theme</button>
+      </div>
+      <div class="unitset" id="unitset"><label for="unitval">$ per unit</label><input id="unitval" inputmode="decimal" type="number" min="1" step="1"></div>
+    </div>
   </header>
   <div class="views">
     <button id="v-picks" aria-pressed="true">Picks</button>
@@ -82,36 +115,51 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
   </div>
   <section id="picks-view">
     <nav class="tabs" id="tabs" role="tablist"></nav>
-    <p class="slotnote" id="slotnote"></p>
+    <div class="slatebar" id="slatebar"></div>
     <div id="cards"></div>
   </section>
-  <section id="bets-view" hidden>
-    <div class="summary" id="bet-summary"></div>
-    <div id="bets"></div>
-  </section>
-  <p class="foot">Lines from The Odds API; fair line from the sharpest available book with the vig removed. College model: PPA power ratings (CollegeFootballData). NFL: nflverse efficiency + ESPN injury reports. Confidence = chance this side covers at the listed number. <a href="https://github.com/unclebuck20/betting-engine">Source</a></p>
+  <section id="bets-view" hidden></section>
+  <p class="foot">Fair line = the sharpest available book (Pinnacle first) with the bookmaker's cut removed. Confidence = chance this side covers at the listed number, capped at the best rate the model has shown in backtests. College picks use in-season power ratings (CollegeFootballData); NFL picks come from price gaps and injury news the sharp line hasn't absorbed (nflverse, ESPN). Closing-line value (CLV) = how your number compares with the fair line at kickoff; it's the fastest honest read on whether picks are good. <a href="https://github.com/unclebuck20/betting-engine">Source</a></p>
 </div>
 <script>
 const REPO = "unclebuck20/betting-engine";
 const SLOTS = [
-  ["thu","Thursday","TNF or Thursday college: best single pick"],
-  ["fri","Friday","Friday college: best single pick"],
+  ["thu","Thursday","TNF or Thursday college: one pick"],
+  ["fri","Friday","Friday college: one pick"],
   ["sat","Saturday","College: up to 10 best bets"],
   ["sun","Sunday","NFL early + afternoon: up to 10 best bets"],
   ["snf","SNF","Sunday night: one pick"],
   ["mnf","MNF","Monday night: one pick"],
 ];
 const BOOK = {draftkings:"DraftKings", fanduel:"FanDuel"};
+const STATUS = {live:"Still good", faded:"Edge gone at today's price", moved:"Line moved past the number", trimmed:"Cut to keep the slate under its cap", off_board:"Off the board"};
 const store = {
-  get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+  get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},
   set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
 };
-let DATA=null, BETS=[], slot=null;
+let DATA=null, BETS=[], REC=null, slot=null;
 const $=s=>document.querySelector(s);
 const fmtLine=x=>x===0?"PK":(x>0?"+":"")+x;
 const fmtPrice=p=>(p>0?"+":"")+p;
-const ago=iso=>{const m=Math.round((Date.now()-new Date(iso))/60000);return m<60?`${m} min ago`:m<1440?`${Math.round(m/60)} hr ago`:`${Math.round(m/1440)} d ago`};
+const ago=iso=>{const m=Math.max(0,Math.round((Date.now()-new Date(iso))/60000));return m<60?`${m} min ago`:m<1440?`${Math.round(m/60)} hr ago`:`${Math.round(m/1440)} d ago`};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const started=p=>new Date(p.kickoff_utc).getTime()<=Date.now();
+const fmtTime=iso=>new Date(iso).toLocaleString("en-US",{weekday:"short",hour:"numeric",minute:"2-digit",timeZone:"America/Los_Angeles"});
+
+// ---- money
+const moneyOn=()=>store.get("money",false)&&store.get("unit",null);
+function amt(u){ if(u===null||u===undefined||u==="") return "—"; const n=+u; const d=store.get("unit",null);
+  return moneyOn()? `$${Math.round(n*d)}` : `${n%1?n.toFixed(1):n}u`; }
+function moneySetup(){
+  const btn=$("#money"), set=$("#unitset"), inp=$("#unitval");
+  const sync=()=>{btn.setAttribute("aria-pressed",!!moneyOn());};
+  inp.value=store.get("unit","")||"";
+  btn.onclick=()=>{ if(!store.get("unit",null)){ set.style.display="flex"; inp.focus(); return; }
+    store.set("money",!store.get("money",false)); sync(); rerender(); };
+  inp.onchange=()=>{const v=parseFloat(inp.value); if(v>0){store.set("unit",v);store.set("money",true);set.style.display="none";sync();rerender();}};
+  btn.oncontextmenu=e=>{e.preventDefault();set.style.display="flex"};
+  sync();
+}
 
 function theme(){
   const t=store.get("theme",null); if(t) document.documentElement.dataset.theme=t;
@@ -119,113 +167,161 @@ function theme(){
     const nx=cur==="dark"?"light":"dark";document.documentElement.dataset.theme=nx;store.set("theme",nx)};
 }
 
+// ---- bet state: confirmed (bets.json) > pending (tapped, not yet confirmed)
+const key=p=>p.pick_key;
+const confirmed=p=>BETS.find(b=>b.pick_key===key(p));
+function pending(p){const x=store.get("pending",{})[key(p)];return x&&!confirmed(p)?x:null}
+function setPending(p,v){const x=store.get("pending",{}); if(v) x[key(p)]=Date.now(); else delete x[key(p)]; store.set("pending",x)}
+
+function visible(b){ return (b?.picks||[]).filter(p=>!started(p)) }
+function liveUnits(b){ return visible(b).filter(p=>p.status==="live").reduce((s,p)=>s+(+p.units||0),0) }
+
 function defaultSlot(){
-  const now=Date.now();
-  let best=null;
-  for(const [k] of SLOTS){const b=DATA.board[k];if(!b)continue;
-    const times=(b.picks.length?b.picks:[]).map(p=>+new Date(p.kickoff_utc)).filter(t=>t>now);
-    const t=times.length?Math.min(...times):null; if(t&&(!best||t<best.t)) best={k,t};}
-  return best?best.k:(SLOTS.find(([k])=>DATA.board[k])||["thu"])[0];
+  const now=Date.now(); let best=null;
+  for(const [k] of SLOTS){const b=DATA.board[k]; if(!b) continue;
+    const ts=[...visible(b),...(b.best_pass?[b.best_pass]:[])].map(p=>+new Date(p.kickoff_utc)).filter(t=>t>now);
+    if(ts.length){const t=Math.min(...ts); if(!best||t<best.t) best={k,t};}}
+  return best?best.k:"thu";
 }
 
 function renderTabs(){
   $("#tabs").innerHTML=SLOTS.map(([k,label])=>{
-    const b=DATA.board[k]; const n=b?b.picks.filter(p=>p.tier!=="pass").length:0;
+    const b=DATA.board[k]; const n=visible(b).filter(p=>p.status==="live").length;
     return `<button class="tab" role="tab" aria-selected="${k===slot}" data-k="${k}">${label}<small>${b?n:"–"}</small></button>`}).join("");
   document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{slot=b.dataset.k;store.set("slot",slot);render()});
 }
 
-function takenKey(c){return `${c.id}|${c.side}`}
-function isTaken(c){return BETS.some(b=>b.pick_key===takenKey(c)) || store.get("taken",{})[takenKey(c)]}
+function moves(p){
+  const pts=[];
+  if(p.open_line!==null&&p.open_line!==undefined) pts.push(`<span>Open</span><span class="pt">${fmtLine(p.open_line)}</span>`);
+  (p.history||[]).slice(-4).forEach((h,i)=>pts.push(`${pts.length?"→":""}<span title="${esc(fmtTime(h[0]))} · ${esc(BOOK[h[3]]||h[3])}">${i===0&&p.history.length<=4?"Posted":fmtTime(h[0]).replace(/,.*/,"")}</span><span class="pt">${fmtLine(h[1])} (${fmtPrice(h[2])})</span>`));
+  return pts.length>1?`<div class="moves">${pts.join(" ")}</div>`:"";
+}
 
-function card(c){
-  const flags=(c.flags||[]).map(f=>`<span class="flag ${/suspicious|verify|disagree|missing/.test(f)?"warn":""}">${esc(f)}</span>`).join("");
-  const taken=isTaken(c);
-  const btn=c.tier==="pass"?`<button class="took" disabled>No bet</button>`
-    :taken?`<button class="took" disabled>✓ Logged</button>`
-    :`<button class="took" data-id="${esc(c.id)}">Took it</button>`;
-  return `<article class="card ${c.tier}">
-    <div class="top"><div class="matchup">${esc(c.matchup)}</div><div class="time">${esc(c.kickoff_pt)}</div></div>
-    <div class="pick"><span class="tier ${c.tier}">${c.tier}</span>${esc(c.side)} ${fmtLine(c.line)} <span style="font-weight:600">(${fmtPrice(c.price)})</span></div>
-    <div class="book">at ${BOOK[c.book]||esc(c.book)}${c.floor_text?` · ${esc(c.floor_text)}`:""}</div>
+function card(p){
+  const L=p.latest||p, cur=p.current||{line:p.line,price:p.price,book:p.book,link:p.link};
+  const isPass=p.status==="pass";
+  const dim=p.status!=="live"&&!isPass;
+  const conf=(cur.confidence??L.confidence), ev=(cur.ev_pct??L.ev_pct);
+  const flags=(L.flags||p.flags||[]).map(f=>`<span class="flag ${/stale|live before|disagree|roster|other way|against|far better|unusually/.test(f)?"warn":""}">${esc(f)}</span>`).join("");
+  const c=confirmed(p), pend=pending(p);
+  let action;
+  if(isPass) action=`<button class="btn" disabled>No bet</button>`;
+  else if(c) action=`<button class="btn" disabled>✓ Logged ${esc(c.pick)}</button>`;
+  else if(pend) action=`<button class="btn" disabled>Pending — submit on GitHub</button><button class="undo" data-undo="${esc(key(p))}">Undo</button>`;
+  else if(p.status!=="live") action=`<button class="btn" disabled>${esc(STATUS[p.status]||"No longer a bet")}</button>`;
+  else action=`<button class="btn" data-took="${esc(key(p))}">Took it</button>`;
+  const open=cur.link&&!isPass&&p.status==="live"?`<a class="btn ghost" href="${esc(cur.link)}" target="_blank" rel="noopener">Open ${esc(BOOK[cur.book]||cur.book)}</a>`:"";
+  const changed=cur.line!==p.line||cur.price!==p.price;
+  return `<article class="card ${dim?"dim":""}">
+    <div class="top"><div class="matchup">${esc(p.matchup)}</div><div class="time">${esc(p.kickoff_pt)}</div></div>
+    <div class="pick"><span class="tier ${isPass?"pass":L.tier}">${isPass?"no bet":L.tier}</span>${esc(p.side)} ${fmtLine(cur.line)} <span style="font-weight:600">(${fmtPrice(cur.price)})</span>${!isPass&&p.status!=="live"?`<span class="status ${p.status}">${esc(STATUS[p.status])}</span>`:""}</div>
+    <div class="sub">at ${esc(BOOK[cur.book]||cur.book)}${changed?` · posted at ${fmtLine(p.line)} (${fmtPrice(p.price)})`:""}${p.floor_text&&!isPass?` · ${esc(p.floor_text)}`:""}</div>
     <div class="stats">
-      <div class="stat"><b>${c.confidence.toFixed(1)}%</b><span>Confidence</span></div>
-      <div class="stat"><b>${c.units?c.units.toFixed(1)+"u":"—"}</b><span>Units</span></div>
-      <div class="stat"><b>${c.ev_pct>0?"+":""}${c.ev_pct.toFixed(1)}%</b><span>Edge (EV)</span></div>
+      <div class="stat"><b>${(+conf).toFixed(1)}%</b><span>Confidence</span></div>
+      <div class="stat"><b>${isPass?"—":amt(p.units)}</b><span>${p.units_uncapped&&+p.units_uncapped!==+p.units&&!isPass?`Size (cut from ${amt(p.units_uncapped)})`:"Size"}</span></div>
+      <div class="stat"><b>${ev>0?"+":""}${(+ev).toFixed(1)}%</b><span>Edge (EV)</span></div>
     </div>
-    <p class="why">${esc(c.why)}</p>
+    <div class="prices"><span>Fair <b>${fmtLine(p.fair_line)}</b></span><span>Yours <b>${fmtLine(cur.line)} (${fmtPrice(cur.price)})</b></span></div>
+    ${moves(p)}
+    <p class="why">${esc(L.why||p.why)}</p>
     ${flags?`<div class="flags">${flags}</div>`:""}
-    <div class="actions">${btn}</div>
+    <div class="actions">${action}${open}</div>
   </article>`;
 }
 
 function render(){
   renderTabs();
   const meta=SLOTS.find(([k])=>k===slot); const b=DATA.board[slot];
-  $("#slotnote").textContent=meta[2]+(b?` · ${b.games} games checked, ${b.picks.filter(p=>p.tier!=="pass").length} bet${b.picks.filter(p=>p.tier!=="pass").length===1?"":"s"}`:"");
-  if(!b||!b.picks.length){$("#cards").innerHTML=`<div class="empty">${b?"No game on this slate is priced wrong enough to bet. Passing is a position.":"No games on the board for this slot yet. Lines usually post by Sunday night."}</div>`;return}
-  $("#cards").innerHTML=b.picks.map(card).join("");
-  document.querySelectorAll(".took[data-id]").forEach(btn=>btn.onclick=()=>took(b.picks.find(p=>p.id===btn.dataset.id)));
+  const vis=visible(b), live=vis.filter(p=>p.status==="live");
+  const u=liveUnits(b);
+  $("#slatebar").innerHTML=`<span>${esc(meta[2])}${b?` · ${b.games} games checked`:""}</span><span>${live.length?`<b>${live.length} bet${live.length>1?"s":""} · ${amt(u)}</b>${b?.cap_applied_from?` <span title="Slate total capped at ${DATA.meta.slate_cap_units}u">(capped)</span>`:""}`:""}</span>`;
+  let html="";
+  if(vis.length) html+=vis.map(card).join("");
+  if(!live.length&&b?.best_pass&&!started(b.best_pass)){
+    html+=`<div class="section-label">Nothing worth betting · closest game</div>`+card({...b.best_pass,status:"pass",history:[]});
+  }
+  if(!html) html=`<div class="empty">${b?"No game on this slate is priced wrong enough to bet. Passing is a position.":"No games posted for this slot yet. Lines usually go up Sunday night."}</div>`;
+  $("#cards").innerHTML=html;
+  document.querySelectorAll("[data-took]").forEach(btn=>btn.onclick=()=>took(vis.find(p=>key(p)===btn.dataset.took)));
+  document.querySelectorAll("[data-undo]").forEach(btn=>btn.onclick=()=>{setPending({pick_key:btn.dataset.undo},false);render()});
 }
 
-function took(c){
-  const key=takenKey(c);
+function took(p){
+  const cur=p.current||{line:p.line,price:p.price,book:p.book};
   const body=[
-    "Edit line / price / units below if you got a different number, then click Submit.",
+    "Change line / price / units below if you got a different number, then tap Submit.",
     "",
-    `pick_key: ${key}`,
-    `pick: ${c.side} ${fmtLine(c.line)} (${fmtPrice(c.price)})`,
-    `matchup: ${c.matchup}`,
-    `kickoff_utc: ${c.kickoff_utc}`,
-    `league: ${c.league}`,
-    `book: ${c.book}`,
-    `line: ${c.line}`,
-    `price: ${c.price}`,
-    `units: ${c.units||0.5}`,
-    `model_tier: ${c.tier}`,
-    `model_ev_pct: ${c.ev_pct}`,
+    `pick_key: ${key(p)}`,
+    `pick: ${p.side} ${fmtLine(cur.line)} (${fmtPrice(cur.price)})`,
+    `matchup: ${p.matchup}`,
+    `kickoff_utc: ${p.kickoff_utc}`,
+    `league: ${p.league}`,
+    `book: ${cur.book}`,
+    `line: ${cur.line}`,
+    `price: ${cur.price}`,
+    `units: ${p.units||0.5}`,
+    `model_tier: ${(p.latest||p).tier}`,
+    `model_ev_pct: ${(p.current&&p.current.ev_pct)??p.ev_pct}`,
   ].join("\n");
-  const url=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("BET: "+c.side+" "+fmtLine(c.line))}&body=${encodeURIComponent(body)}`;
-  const t=store.get("taken",{});t[key]=Date.now();store.set("taken",t);
+  const url=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("BET: "+p.side+" "+fmtLine(cur.line))}&body=${encodeURIComponent(body)}`;
+  setPending(p,true);
   window.open(url,"_blank","noopener");
   render();
 }
 
+// ---- My bets
+function cmpRow(label,a,b){return `<div class="k">${label}</div><div class="v">${a}</div><div class="v">${b}</div>`}
+function rec(s){return s&&s.graded?`${s.w}-${s.l}${s.p?"-"+s.p:""}`:"—"}
+function clv(s){return s&&s.clv_n?`${s.avg_clv_ev_pct>0?"+":""}${s.avg_clv_ev_pct.toFixed(1)}%`:"—"}
 function renderBets(){
-  const settled=BETS.filter(b=>b.result&&b.result!=="pending");
-  const u=settled.reduce((s,b)=>s+(+b.units_won||0),0);
-  const clv=BETS.filter(b=>b.clv_pts!==undefined&&b.clv_pts!=="");
-  const avgClv=clv.length?clv.reduce((s,b)=>s+ +b.clv_pts,0)/clv.length:null;
-  const w=settled.filter(b=>b.result==="win").length,l=settled.filter(b=>b.result==="loss").length;
-  $("#bet-summary").innerHTML=`
-    <div class="stat"><b>${w}-${l}</b><span>Record</span></div>
-    <div class="stat"><b>${u>=0?"+":""}${u.toFixed(1)}u</b><span>Units won</span></div>
-    <div class="stat"><b>${avgClv===null?"—":(avgClv>=0?"+":"")+avgClv.toFixed(1)}</b><span>Avg CLV (pts)</span></div>`;
-  if(!BETS.length){$("#bets").innerHTML=`<div class="empty">No bets logged yet. Tap <b>Took it</b> on a card, then Submit on the GitHub page that opens.</div>`;return}
-  $("#bets").innerHTML=`<table><thead><tr><th>Bet</th><th>Book</th><th class="num">Units</th><th class="num">Result</th></tr></thead><tbody>${
-    BETS.slice().reverse().map(b=>`<tr><td>${esc(b.pick)}<br><span class="book">${esc(b.matchup)}</span></td><td>${BOOK[b.book]||esc(b.book)}</td><td class="num">${esc(b.units)}</td><td class="num">${esc(b.result||"pending")}</td></tr>`).join("")
+  const me=REC?.mine?.all, mdl=REC?.model?.plays;
+  let h=`<div class="cmp"><div class="h"></div><div class="h v">You</div><div class="h v">Model plays</div>
+    ${cmpRow("Record",rec(me),rec(mdl))}
+    ${cmpRow("Units",me&&me.graded?amt(me.units_won):"—",mdl&&mdl.graded?amt(mdl.units_won):"—")}
+    ${cmpRow("ROI",me?.roi_pct!=null?me.roi_pct+"%":"—",mdl?.roi_pct!=null?mdl.roi_pct+"%":"—")}
+    ${cmpRow("Avg CLV",clv(me),clv(mdl))}
+    ${cmpRow("Beat the close",me?.beat_close_pct!=null?me.beat_close_pct+"%":"—",mdl?.beat_close_pct!=null?mdl.beat_close_pct+"%":"—")}
+  </div><p class="note">CLV is the early signal: positive CLV over 50+ bets means the picks are good even before the record shows it.${REC?.model?.you_passed?.graded?` Model plays you skipped: ${rec(REC.model.you_passed)}, ${amt(REC.model.you_passed.units_won)}.`:""}</p>`;
+  if(REC?.model){
+    const r=REC.model;
+    h+=`<div class="section-label">Model by type</div><table><thead><tr><th></th><th class="num">Record</th><th class="num">Units</th><th class="num">CLV</th></tr></thead><tbody>${
+      [["College",r.cfb],["NFL",r.nfl],["Plays",r.plays],["Leans",r.leans]].map(([n,s])=>`<tr><td>${n}</td><td class="num">${rec(s)}</td><td class="num">${s?.graded?amt(s.units_won):"—"}</td><td class="num">${clv(s)}</td></tr>`).join("")
+    }</tbody></table>`;
+  }
+  const L=REC?.learned||[];
+  h+=`<div class="section-label">What the model learned</div><div class="learn">${
+    L.length?`<ul style="margin:0;padding-left:18px">${L.slice().reverse().map(c=>`<li><b>${esc(c.param)}</b> ${c.from} → ${c.to} <span class="note">(${esc(c.date)}: ${esc(c.evidence)})</span></li>`).join("")}</ul>`
+    :`No changes yet. ${esc(REC?.calibration_note||"Calibration runs weekly once enough picks are graded.")}`}</div>`;
+  h+=`<div class="section-label">Your bets</div>`;
+  if(!BETS.length) h+=`<div class="empty">No bets logged yet. Tap <b>Took it</b> on a card, then Submit on the GitHub page that opens.</div>`;
+  else h+=`<table><thead><tr><th>Bet</th><th class="num">Size</th><th class="num">CLV</th><th class="num">Result</th></tr></thead><tbody>${
+    BETS.slice().reverse().map(b=>`<tr><td>${esc(b.pick)}<br><span class="sub">${esc(BOOK[b.book]||b.book)} · ${esc(b.matchup)}</span></td><td class="num">${amt(b.units)}</td><td class="num">${b.clv_pts!==""&&b.clv_pts!=null?fmtLine(+b.clv_pts):"—"}</td><td class="num">${esc(b.result||"pending")}${b.units_won!==""&&b.units_won!=null&&b.result&&b.result!=="pending"?`<br><span class="sub">${+b.units_won>=0?"+":""}${amt(b.units_won)}</span>`:""}</td></tr>`).join("")
   }</tbody></table>`;
+  $("#bets-view").innerHTML=h;
 }
 
+let view="picks";
+function rerender(){ if(view==="picks") render(); else renderBets(); }
 function views(){
-  const set=v=>{$("#picks-view").hidden=v!=="picks";$("#bets-view").hidden=v!=="bets";
-    $("#v-picks").setAttribute("aria-pressed",v==="picks");$("#v-bets").setAttribute("aria-pressed",v==="bets");if(v==="bets")renderBets()};
+  const set=v=>{view=v;$("#picks-view").hidden=v!=="picks";$("#bets-view").hidden=v!=="bets";
+    $("#v-picks").setAttribute("aria-pressed",v==="picks");$("#v-bets").setAttribute("aria-pressed",v==="bets");rerender()};
   $("#v-picks").onclick=()=>set("picks");$("#v-bets").onclick=()=>set("bets");
 }
 
 async function load(){
-  theme();views();
-  try{
-    const [p,b]=await Promise.all([fetch("data/picks.json",{cache:"no-store"}),fetch("data/bets.json",{cache:"no-store"}).catch(()=>null)]);
-    DATA=await p.json();
-    BETS=b&&b.ok?await b.json():[];
-  }catch(e){$("#cards").innerHTML=`<div class="empty">Couldn't load picks (${esc(e.message)}).</div>`;$("#updated").textContent="";return}
-  $("#updated").textContent=`Updated ${ago(DATA.meta.built_at)}`;
-  const saved=store.get("slot",null);
+  theme();views();moneySetup();
+  const get=async(u,d)=>{try{const r=await fetch(u,{cache:"no-store"});return r.ok?await r.json():d}catch(e){return d}};
+  [DATA,BETS,REC]=await Promise.all([get("data/picks.json",null),get("data/bets.json",[]),get("data/record.json",null)]);
+  if(!DATA){$("#cards").innerHTML=`<div class="empty">Couldn't load picks. Try again in a minute.</div>`;$("#updated").textContent="";return}
+  const odds=Object.values(DATA.meta.odds_pulled_at||{}).sort()[0]||DATA.meta.built_at;
+  const hrs=(Date.now()-new Date(odds))/36e5;
+  const u=$("#updated"); u.textContent=`Odds ${ago(odds)}`; if(hrs>12){u.classList.add("stale");u.textContent+=" · check prices"}
+  // clear pendings older than a day, and ones now confirmed
+  const pend=store.get("pending",{}); for(const k in pend){ if(Date.now()-pend[k]>864e5||BETS.some(b=>b.pick_key===k)) delete pend[k]; } store.set("pending",pend);
   slot=defaultSlot();
-  if(saved&&DATA.board[saved]&&sessionStorage.getItem("visited"))slot=saved;
-  try{sessionStorage.setItem("visited","1")}catch(e){}
   render();
+  setInterval(()=>{ if(view==="picks") render(); },60000);   // hide games as they kick off
 }
 load();
 </script>

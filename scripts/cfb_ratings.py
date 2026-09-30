@@ -60,14 +60,50 @@ def load(seasons):
     return games, ppa
 
 
-def run(games, ppa):
+# Preseason prior from returning production + roster talent: TESTED AND REJECTED for betting.
+# It makes the ratings more accurate (early-week RMSE 18.3 -> 17.1 on 2024-25) but less useful: the market
+# already prices talent and returning production, so the prior pulls the model toward the line and cuts
+# ATS vs the opener at 5+ pts from 56.9% to 53.9% (weeks 4-6) and 58.1% to 56.4% (weeks 7+).
+# The betting edge comes from in-season efficiency the market underweights. Kept for reference; off.
+PRIOR = {"c0": 0.5, "c1": 0.0, "k": 0.0}
+MODEL_FIRST_WEEK = 4   # weeks 1-3: 49% ATS vs the opener in backtest -> no model weight
+
+
+def load_priors(seasons, current=None):
+    """{season: {team: (carry, prior_net)}} from returning production and roster talent."""
+    out = {}
+    for y in seasons:
+        src = CURRENT if y == current else HIST
+        rp, tp = src / f"returning_{y}.json", src / f"talent_{y}.json"
+        ret = {r["team"]: r.get("percentPPA") for r in json.loads(rp.read_text())} if rp.exists() else {}
+        tal = {t["team"]: float(t["talent"]) for t in json.loads(tp.read_text())} if tp.exists() else {}
+        vals = list(tal.values())
+        mu = sum(vals) / len(vals) if vals else 0
+        sd = (sum((v - mu) ** 2 for v in vals) / len(vals)) ** 0.5 if vals else 1
+        out[y] = {"ret": ret, "tal_z": {t: (v - mu) / sd for t, v in tal.items()}}
+    return out
+
+
+def season_reset(off, dfn, teams, info, prior):
+    for t in teams:
+        r = (info or {}).get("ret", {}).get(t)
+        carry = prior["c0"] + prior["c1"] * ((r if r is not None else 0.5) - 0.5)
+        carry = max(0.1, min(0.9, carry))
+        z = (info or {}).get("tal_z", {}).get(t, 0.0)
+        net_prior = prior["k"] * z
+        off[t] = carry * off[t] + net_prior / 2
+        dfn[t] = carry * dfn[t] - net_prior / 2
+
+
+def run(games, ppa, priors=None, prior=None):
+    prior = prior or PRIOR
     off, dfn = defaultdict(float), defaultdict(float)
     season, rows = None, []
+    teams_all = {g["home"] for g in games} | {g["away"] for g in games}
     for g in games:
         if g["season"] != season:
-            for t in list(off):
-                off[t] *= SEASON_CARRY; dfn[t] *= SEASON_CARRY
             season = g["season"]
+            season_reset(off, dfn, teams_all, (priors or {}).get(season), prior)
         h, a = g["home"], g["away"]
         rows.append({**g, "diff": (off[h] - dfn[h]) - (off[a] - dfn[a])})
         ph, pa = ppa.get((g["id"], h)), ppa.get((g["id"], a))
@@ -95,11 +131,13 @@ CURRENT = ROOT / "data" / "raw" / "cfbd"
 
 def live_ratings(season):
     """History + this season's completed games -> (hfa, beta, rating fn, odds-name -> school)."""
-    games, ppa = load(sorted(FIT_SEASONS | TEST_SEASONS))
-    fit = run(games, ppa)[0]
+    hist_seasons = sorted(FIT_SEASONS | TEST_SEASONS)
+    games, ppa = load(hist_seasons)
+    priors = load_priors(hist_seasons + [season], current=season)
+    fit = run(games, ppa, priors)[0]
     fit = [r for r in fit if r["season"] in FIT_SEASONS and r["fbs_both"] and r["result"] is not None
            and r["week"] >= 4 and not r["neutral"]]
-    hfa, beta = ols([r["diff"] for r in fit], [r["result"] for r in fit])
+    hfa, beta = ols([r["diff"] for r in fit], [r["result"] for r in fit]) if len(fit) > 50 else (2.4, 56.8)
     for f in sorted(CURRENT.glob("week_*_games.json")):
         for g in json.loads(f.read_text()):
             hp, ap = g.get("homePoints"), g.get("awayPoints")
@@ -113,26 +151,14 @@ def live_ratings(season):
         for p in json.loads(pp.read_text()):
             ppa[(p["gameId"], p["team"])] = (p["offense"]["overall"], p["defense"]["overall"])
     games.sort(key=lambda g: (g["season"], g["week"], g["start"]))
-    _, off, dfn = run(games, ppa)
-    names = {}
-    tp = CURRENT / "teams.json"
-    if tp.exists():
-        for t in json.loads(tp.read_text()):
-            if t.get("mascot"):
-                names[f"{t['school']} {t['mascot']}"] = t["school"]
+    _, off, dfn = run(games, ppa, priors)
     current_season_teams = {g["home"] for g in games if g["season"] == season} | \
                            {g["away"] for g in games if g["season"] == season}
-    return {"hfa": hfa, "beta": beta, "off": off, "dfn": dfn, "names": names,
-            "played": current_season_teams}
+    return {"hfa": hfa, "beta": beta, "off": off, "dfn": dfn, "played": current_season_teams}
 
 
-def live_margin(L, home_odds_name, away_odds_name, neutral=False):
-    def school(n):
-        if n in L["names"]:
-            return L["names"][n]
-        cands = [s for s in set(L["names"].values()) if n.startswith(s + " ")]
-        return max(cands, key=len) if cands else None
-    h, a = school(home_odds_name), school(away_odds_name)
+def live_margin(L, home_odds_name, away_odds_name, neutral=False, h=None, a=None):
+    """Model home margin for an upcoming game; h/a are CollegeFootballData school names."""
     if not h or not a or h not in L["played"] or a not in L["played"]:
         return None, h, a
     diff = (L["off"][h] - L["dfn"][h]) - (L["off"][a] - L["dfn"][a])
@@ -141,8 +167,8 @@ def live_margin(L, home_odds_name, away_odds_name, neutral=False):
 
 def main():
     games, ppa = load(sorted(FIT_SEASONS | TEST_SEASONS))
-    rows, off, dfn = run(games, ppa)
-    usable = [r for r in rows if r["fbs_both"] and r["result"] is not None and r["week"] >= 4]
+    rows, off, dfn = run(games, ppa, load_priors(sorted(FIT_SEASONS | TEST_SEASONS)))
+    usable = [r for r in rows if r["fbs_both"] and r["result"] is not None and r["week"] >= MODEL_FIRST_WEEK]
     fit = [r for r in usable if r["season"] in FIT_SEASONS and not r["neutral"]]
     hfa, beta = ols([r["diff"] for r in fit], [r["result"] for r in fit])
     test = [r for r in usable if r["season"] in TEST_SEASONS and r["close"] is not None and r["open"] is not None]

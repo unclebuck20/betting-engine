@@ -69,12 +69,9 @@ def starters(snaps):
     return {k: info[k] for k, c in hits.items() if c >= 2}, qb
 
 
-def build(season):
-    snaps = load_snaps(season)
-    st, qbs = starters(snaps)
-    inj = json.loads((RAW / "injuries" / "nfl" / "latest.json").read_text())
+def team_adjustments(rows, st, qbs):
     teams = defaultdict(lambda: {"adj_points": 0.0, "qb_out": False, "absences": []})
-    for r in inj["rows"]:
+    for r in rows:
         w = STATUS_WEIGHT.get(r["status"])
         if not w:
             continue
@@ -86,7 +83,7 @@ def build(season):
         is_qb = qbs.get(team) == key[1]
         val = (QB_VALUE if is_qb else POS_VALUE.get(pos, 0.2)) * w
         t = teams[team]
-        t["absences"].append({"player": r["player"], "pos": pos, "status": r["status"],
+        t["absences"].append({"player": r["player"], "pos": "QB" if is_qb else pos, "status": r["status"],
                               "points": round(val, 2), "updated": r["updated"], "note": r["note"]})
         if is_qb and w >= 0.85:
             t["qb_out"] = True
@@ -97,8 +94,31 @@ def build(season):
         t["adj_points"] = round(qb_pts + other, 2)
         t["absences"].sort(key=lambda a: -a["points"])
         out[team] = t
+    return out
+
+
+def build(season):
+    snaps = load_snaps(season)
+    st, qbs = starters(snaps)
+    inj = json.loads((RAW / "injuries" / "nfl" / "latest.json").read_text())
+    out = team_adjustments(inj["rows"], st, qbs)
+    prev_path = RAW / "injuries" / "nfl" / "previous.json"
+    prev = json.loads(prev_path.read_text()) if prev_path.exists() else None
+    prev_adj = team_adjustments(prev["rows"], st, qbs) if prev else {}
+    for team in set(out) | set(prev_adj):
+        if prev is None:          # first run: no baseline, so nothing counts as "new"
+            out.setdefault(team, {"adj_points": 0.0, "qb_out": False, "absences": []})
+            out[team]["delta_since_last_pull"], out[team]["new_absences"] = 0.0, []
+            continue
+        now_pts = out.get(team, {}).get("adj_points", 0.0)
+        was = prev_adj.get(team, {}).get("adj_points", 0.0)
+        t = out.setdefault(team, {"adj_points": 0.0, "qb_out": False, "absences": []})
+        t["delta_since_last_pull"] = round(now_pts - was, 2)
+        before = {a["player"] for a in prev_adj.get(team, {}).get("absences", [])}
+        t["new_absences"] = [a for a in t["absences"] if a["player"] not in before]
     meta = {"season": season, "starters_identified": len(st), "teams_with_qb": len(qbs),
-            "injury_pull": inj["pulled_at"], "matched_absences": sum(len(t["absences"]) for t in out.values())}
+            "injury_pull": inj["pulled_at"], "previous_pull": prev["pulled_at"] if prev else None,
+            "matched_absences": sum(len(t["absences"]) for t in out.values())}
     DERIVED.mkdir(parents=True, exist_ok=True)
     (DERIVED / "nfl_injuries.json").write_text(json.dumps({"meta": meta, "teams": out}, indent=1))
     return meta, out

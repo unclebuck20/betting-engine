@@ -4,10 +4,6 @@ on:
   issues:
     types: [opened]
 
-concurrency:
-  group: refresh
-  cancel-in-progress: false
-
 permissions:
   contents: write
   issues: write
@@ -26,14 +22,19 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: python scripts/log_bet.py
-      - name: Commit
+      - name: Commit (retries if a refresh pushed at the same moment)
+        env:
+          TITLE: ${{ github.event.issue.title }}
         run: |
           git config user.name "betting-engine-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/bets.csv docs/data/bets.json
-          git commit -m "bet: ${{ github.event.issue.title }}"
-          git pull --rebase --autostash origin main
-          git push
+          git commit -m "bet: issue #${{ github.event.issue.number }}" -m "$TITLE"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
       - name: Close issue
         env:
           GH_TOKEN: ${{ github.token }}
