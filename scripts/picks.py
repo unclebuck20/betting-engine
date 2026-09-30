@@ -23,7 +23,8 @@ import cfb_ratings as CR  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 RAW, DERIVED, OUT = ROOT / "data" / "raw", ROOT / "data" / "derived", ROOT / "data" / "picks"
 
-CFB_MODEL_WEIGHT = 0.25
+CFB_MODEL_WEIGHT = 0.15   # backtest: 0.30 vs the opener, 0.085 vs the close; midweek sits between
+CFB_GAP_CLIP = 10.0       # beyond this the ratings are usually missing a roster/QB change
 NFL_MODEL_WEIGHT = 0.0
 PLAY_EV, LEAN_EV = 0.025, 0.01
 KELLY_FRACTION = 0.25
@@ -142,7 +143,10 @@ def main():
                 ks = [k for k in neutral if home.startswith(k[0] + " ") and away.startswith(k[1] + " ")]
                 is_neutral = neutral[ks[0]] if ks else False
                 mu_model, hs, as_ = CR.live_margin(cfb_L, home, away, is_neutral)
-                mu = mu_mkt + (CFB_MODEL_WEIGHT * (mu_model - mu_mkt) if mu_model is not None else 0)
+                gap = 0.0 if mu_model is None else max(-CFB_GAP_CLIP, min(CFB_GAP_CLIP, mu_model - mu_mkt))
+                mu = mu_mkt + CFB_MODEL_WEIGHT * gap
+                if mu_model is not None and abs(mu_model - mu_mkt) > CFB_GAP_CLIP:
+                    flags.append("model far from market; ratings may be missing a roster or QB change")
                 if mu_model is None:
                     flags.append("no model rating (team not rated yet)")
                 o = opens.get((hs, as_)) if hs and as_ else None
