@@ -30,11 +30,13 @@ def main():
             ("games", "/games", {}),
             ("lines", "/lines", {}),
             ("ppa", "/ppa/games", {"excludeGarbageTime": "true"}),
+            ("talent", "/talent", {}),
+            ("returning", "/player/returning", {}),
         ):
             dest = OUT / f"{name}_{y}.json"
             if dest.exists():
                 continue
-            base = {"year": y, "seasonType": "regular", **extra}
+            base = {"year": y, **({} if name in ("talent", "returning") else {"seasonType": "regular"}), **extra}
             data = get(path, base, h)
             if data is None:  # whole season too big -> week by week
                 data = []
