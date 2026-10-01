@@ -639,7 +639,14 @@ def log_model(cards, now):
     seen = set()
     if path.exists():
         with open(path) as f:
-            seen = {r["pick_key"] for r in csv.DictReader(f)}
+            rd = csv.DictReader(f)
+            old_rows, header = list(rd), rd.fieldnames
+        if header != LOG_FIELDS:                 # columns changed: rewrite once with the new header
+            with open(path, "w", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=LOG_FIELDS, extrasaction="ignore")
+                w.writeheader()
+                w.writerows({**r, "market": r.get("market") or "spread"} for r in old_rows)
+        seen = {r["pick_key"] for r in old_rows}
     new = [{**{k: c.get(k) for k in LOG_FIELDS}, "logged_at": now.isoformat(), "game_id": c["id"],
             "signals": "|".join(c["signals"])}
            for c in cards if c["tier"] != "pass" and c["pick_key"] not in seen]
