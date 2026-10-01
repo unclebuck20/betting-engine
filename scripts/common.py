@@ -25,6 +25,7 @@ DEFAULT_PARAMS = {
     "slate_cap_units": 8.0,
     "veto_points": 3.0,
     "max_confidence": 0.59,       # best backtested cover rate (college, model gap 7+ vs the opener)
+    "max_confidence_nfl": 0.56,   # best NFL bucket in the 2017-25 walk-forward vs closing lines
     "stale_price_ev": 0.06,       # a pure price edge this big vs the sharp line is usually a stale quote
 }
 
@@ -79,22 +80,27 @@ class CFBNames:
 
 # ------------------------------------------------------------ compact odds snapshots
 def compact_events(events):
-    """Keep only what the engine uses: spreads per book, update time, and bet-slip links."""
+    """Keep only what the engine uses: spreads and totals per book, update time, bet-slip links."""
     out = []
     for e in events:
         books = {}
         for b in e.get("bookmakers", []):
             for m in b.get("markets", []):
-                if m["key"] != "spreads":
-                    continue
                 o = {x["name"]: x for x in m["outcomes"]}
-                h, a = o.get(e["home_team"]), o.get(e["away_team"])
-                if not h or not a or h.get("point") is None:
-                    continue
-                books[b["key"]] = {
-                    "hl": h["point"], "hp": h["price"], "ap": a["price"], "u": m.get("last_update"),
-                    "hlink": h.get("link"), "alink": a.get("link"), "link": m.get("link") or b.get("link"),
-                }
+                if m["key"] == "spreads":
+                    h, a = o.get(e["home_team"]), o.get(e["away_team"])
+                    if not h or not a or h.get("point") is None:
+                        continue
+                    books.setdefault(b["key"], {}).update({
+                        "hl": h["point"], "hp": h["price"], "ap": a["price"], "u": m.get("last_update"),
+                        "hlink": h.get("link"), "alink": a.get("link"), "link": m.get("link") or b.get("link")})
+                elif m["key"] == "totals":
+                    ov, un = o.get("Over"), o.get("Under")
+                    if not ov or not un or ov.get("point") is None:
+                        continue
+                    books.setdefault(b["key"], {})["tot"] = {
+                        "l": ov["point"], "op": ov["price"], "up": un["price"], "u": m.get("last_update"),
+                        "olink": ov.get("link") or m.get("link"), "ulink": un.get("link") or m.get("link")}
         out.append({"id": e["id"], "t": e["commence_time"], "home": e["home_team"], "away": e["away_team"],
                     "books": books})
     return out

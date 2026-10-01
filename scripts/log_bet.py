@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CSV = ROOT / "data" / "bets.csv"
 PAGE = ROOT / "docs" / "data" / "bets.json"
-FIELDS = ["logged_at", "issue", "pick_key", "pick", "matchup", "kickoff_utc", "league", "book", "line", "price",
+FIELDS = ["logged_at", "issue", "pick_key", "market", "pick", "matchup", "kickoff_utc", "league", "book", "line", "price",
           "units", "model_tier", "model_ev_pct", "close_fair_line", "close_line", "clv_pts", "clv_ev_pct",
           "home_score", "away_score", "result", "units_won"]  # keep in sync with grade.BET_FIELDS
 

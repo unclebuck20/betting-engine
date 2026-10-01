@@ -69,7 +69,7 @@ def fetch_odds():
         return
     for name, sport in C.ODDS_SPORTS.items():
         r = get(f"{base}/sports/{sport}/odds", params={
-            "apiKey": key, "markets": ",".join(C.ODDS_MARKETS),
+            "apiKey": key, "markets": ",".join(C.ODDS_MARKETS[name]),
             "bookmakers": ",".join(C.ODDS_BOOKMAKERS), "oddsFormat": "american", "includeLinks": "true",
         })
         events = r.json()

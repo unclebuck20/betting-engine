@@ -7,7 +7,7 @@ on:
     paths: ["scripts/**", "requirements.txt", ".github/workflows/refresh.yml"]
   schedule:
     # All times UTC (PT labels are daylight time; after Nov 1 each run lands an hour earlier in PT).
-    # ~17 runs/week x 2 odds credits = ~150 of 500 monthly credits.
+    # ~17 runs/week x 3 odds credits (NFL spreads + totals, college spreads) = ~220 of 500 monthly credits.
     - cron: "0 14 * * *"      # daily 7:00 AM PT: overnight injuries, openers
     - cron: "0 23 * * 4"      # Thu 4:00 PM PT: TNF / Thursday college close
     - cron: "0 22 * * 5"      # Fri 3:00 PM PT: Friday college close
@@ -46,12 +46,15 @@ jobs:
       - name: Price edges
         continue-on-error: true
         run: python scripts/edge.py
-      - name: NFL ratings (current season rebuild)
-        continue-on-error: true
-        run: python scripts/nfl_ratings.py refresh 2026
       - name: NFL injuries
         continue-on-error: true
         run: python scripts/injuries.py
+      - name: NFL play-by-play features (current season)
+        continue-on-error: true
+        run: python scripts/nfl_features.py refresh 2026
+      - name: NFL model (ratings, QBs, spreads, totals)
+        continue-on-error: true
+        run: python scripts/nfl_model.py live 2026
       - name: Picks
         continue-on-error: true
         run: python scripts/picks.py

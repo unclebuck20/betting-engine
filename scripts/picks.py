@@ -69,6 +69,21 @@ def round_half(x):
     return round(x * 2) / 2
 
 
+def nonqb_injury(t, P):
+    if not t:
+        return 0.0
+    pts = sum(a["points"] for a in t.get("absences", []) if a["pos"] != "QB")
+    return min(3.0, pts) * P["nfl_injury_scale"]
+
+
+def trusted_shift(gap, trust):
+    """Points to move the fair line toward the model (calibrated in nfl_model.py's walk-forward)."""
+    a = abs(gap)
+    if a <= trust["floor"]:
+        return 0.0
+    return math.copysign(min(trust["cap"], trust["slope"] * (a - trust["floor"])), gap)
+
+
 # ------------------------------------------------------------ inputs
 def cfb_week_info(names):
     """open lines + neutral-site flags keyed by (home school, away school)."""
@@ -138,12 +153,14 @@ def evaluate(e, league, ctx, now):
     # ---- league-specific model layer
     if league == "nfl":
         ha, aa = NFL_ABBR.get(home), NFL_ABBR.get(away)
-        g = ctx["nfl_games"].get((ha, aa))
+        g = ctx["nfl_live"].get((ha, aa))
         inj = ctx["inj"]
-        ih = inj.get(ha, {}).get("adj_points", 0) * P["nfl_injury_scale"]
-        ia = inj.get(aa, {}).get("adj_points", 0) * P["nfl_injury_scale"]
+        # QBs are inside the model (starter-specific ratings); other injuries adjust it here
+        ih, ia = nonqb_injury(inj.get(ha), P), nonqb_injury(inj.get(aa), P)
         if g:
-            mu_model = g["model_home_margin"] - ih + ia
+            mu_model = g["model_margin"] - ih + ia
+            for n in g.get("notes", []):
+                notes.append(("matchup", n))
         # injury news since the last pull that the sharp line hasn't absorbed
         dh = inj.get(ha, {}).get("delta_since_last_pull", 0) * P["nfl_injury_scale"]
         da = inj.get(aa, {}).get("delta_since_last_pull", 0) * P["nfl_injury_scale"]
@@ -157,10 +174,11 @@ def evaluate(e, league, ctx, now):
                 signals.append(("injury_news", adj, who, news))
         for abbr in (ha, aa):
             t = inj.get(abbr)
-            if t and t.get("absences") and t["absences"][0]["points"] >= 0.5:
-                notes.append(("inj", abbr, t["absences"][0], t["adj_points"] * P["nfl_injury_scale"]))
-        mu = mu_mkt + adj
-        weight = 0.0
+            if t and t.get("absences") and t["absences"][0]["points"] >= 0.5 and t["absences"][0]["pos"] != "QB":
+                notes.append(("inj", abbr, t["absences"][0], nonqb_injury(t, P)))
+        shift = trusted_shift(mu_model - mu_mkt, ctx["nfl_trust"]) if mu_model is not None else 0.0
+        mu = mu_mkt + shift + adj
+        weight = round(shift / (mu_model - mu_mkt), 3) if mu_model is not None and mu_model != mu_mkt else 0.0
     else:
         hs, as_ = ctx["names"].school(home), ctx["names"].school(away)
         is_neutral = ctx["neutral"].get((hs, as_), False)
@@ -228,18 +246,17 @@ def evaluate(e, league, ctx, now):
     line = best["home_line"] * sgn
     w, _, l = E.outcome(dist, best["home_line"], side)
     cover = w / (w + l)
-    if cover > P["max_confidence"]:          # never claim more than the backtest has shown
-        cover = P["max_confidence"]
+    cap = P["max_confidence_nfl"] if league == "nfl" else P["max_confidence"]
+    if cover > cap:                          # never claim more than the backtest has shown
+        cover = cap
         w, l = cover * (w + l), (1 - cover) * (w + l)
         best["ev"] = w * (E.dec(best["price"]) - 1) - l
     ev_price_only = E.ev(m.dist(mu_mkt), best["home_line"], side, best["price"])
 
     # ---- tiering and rails
     tier = "play" if best["ev"] >= P["play_ev"] else "lean" if best["ev"] >= P["lean_ev"] else "pass"
-    if league == "nfl" and mu_model is not None and tier != "pass":
-        lean_pts = (mu_model - mu_mkt) * sgn
-        if lean_pts <= -P["veto_points"]:
-            cap_reasons.append(f"efficiency ratings + injuries point the other way by {abs(lean_pts):.1f} pts")
+    if league == "nfl" and mu_model is not None and tier != "pass" and (mu_model - mu_mkt) * sgn <= -2:
+        cap_reasons.append(f"our NFL model leans the other way by {abs(mu_model - mu_mkt):.1f} pts")
     if ctx.pop("_far", False):
         cap_reasons.append("our ratings are 10+ pts off the market; they may be missing a roster or QB change")
     if league == "cfb" and mu_model is not None and weight > 0 and tier == "play" and (mu_model - mu_mkt) * sgn < 0:
@@ -303,24 +320,27 @@ def evaluate(e, league, ctx, now):
             _, abbr, top, pts = n
             why.append(f"{abbr} is without {top['player']} ({top['pos']}, {top['status'].lower()}); "
                        f"injuries are worth ~{pts:.1f} pts to them by our injury model.")
+        elif n[0] == "matchup":
+            continue                      # shown as the card's matchup-edges list instead
         elif n[0] == "open":
             o = n[1]
             open_side = o["open_home"] * sgn
             if abs(open_side - line) >= 1:
                 toward = tn if line < open_side else on
                 why.append(f"The line opened {fmt_line(open_side)} and has moved toward {toward}.")
-    if league == "nfl" and mu_model is not None and len(why) < 3:
+    if league == "nfl" and mu_model is not None:
         g = (mu_model - mu_mkt) * sgn
-        if abs(g) >= 2:
-            why.append(f"Efficiency ratings with injuries have {tn} {abs(g):.1f} pts "
-                       f"{'better' if g > 0 else 'worse'} than the market (informational for NFL).")
+        if abs(g) >= 1:
+            why.insert(1, f"Our NFL model makes {tn} {fmt_line(round_half(-mu_model * sgn))}, "
+                          f"{abs(g):.1f} pts {'better' if g > 0 else 'worse'} than the market.")
 
     open_line = None
     if league == "cfb":
         o = ctx["opens"].get((ctx["names"].school(home), ctx["names"].school(away)))
         open_line = o["open_home"] * sgn if o else None
     return {
-        "id": e["id"], "pick_key": f"{e['id']}|{team}", "league": league, "slot": slot, "tier": tier,
+        "id": e["id"], "pick_key": f"{e['id']}|{team}", "market": "spread", "league": league, "slot": slot,
+        "tier": tier, "edges": [n[1] for n in notes if n[0] == "matchup"][:3],
         "matchup": f"{away} @ {home}", "kickoff_utc": e["t"],
         "kickoff_pt": kick_pt.strftime("%a %b %-d, %-I:%M %p %Z"),
         "side": team, "opponent": opp, "side_is_home": side == "home",
@@ -336,9 +356,107 @@ def evaluate(e, league, ctx, now):
     }
 
 
+def evaluate_total(e, ctx, now):
+    """NFL totals: fair total from the sharp books vs our model total (pace x efficiency + weather)."""
+    P, m = ctx["P"], ctx["models"]["nfl_total"]
+    kick = parse_ts(e["t"])
+    kick_pt = kick.astimezone(PT)
+    slot = slot_for("nfl", kick_pt)
+    if not slot or kick <= now or (kick - now).days > 6:
+        return None
+    tl = E.total_lines(e)
+    mine = {b: L for b, L in tl.items() if b in C.MY_BOOKS}
+    if not mine:
+        return None
+    src, books = E.fair_source(tl)
+    mkt = E.fair_total(m, tl, books)
+    home, away = e["home"], e["away"]
+    g = ctx["nfl_live"].get((NFL_ABBR.get(home), NFL_ABBR.get(away)))
+    trust = ctx["nfl_trust"]
+    model_total = g["model_total"] if g else None
+    cap_reasons, flags = [], []
+    gap = (model_total - mkt) if model_total is not None else 0.0
+    shift = trusted_shift(gap, trust)
+    if abs(gap) > trust["total_max_gap"]:
+        cap_reasons.append(f"model total is {abs(gap):.1f} pts off the market; usually missing weather or injury news")
+        cap_reasons.append("totals backtest: 6+ pt disagreements went 45-54")
+    mu = mkt + shift
+    dist = m.dist(mu)
+    best = None
+    for b, L in mine.items():
+        for side, price, link in (("Over", L["over"], L["olink"]), ("Under", L["under"], L["ulink"])):
+            v = E.ev(dist, -L["line"], "home" if side == "Over" else "away", price)
+            if best is None or v > best["ev"]:
+                best = {"book": b, "side": side, "line": L["line"], "price": price, "ev": v, "link": link}
+    hs = "home" if best["side"] == "Over" else "away"
+    w, _, l = E.outcome(dist, -best["line"], hs)
+    cover = w / (w + l)
+    if cover > P["max_confidence_nfl"]:
+        cover = P["max_confidence_nfl"]
+        w, l = cover * (w + l), (1 - cover) * (w + l)
+        best["ev"] = w * (E.dec(best["price"]) - 1) - l
+    ev_price_only = E.ev(m.dist(mkt), -best["line"], hs, best["price"])
+    if ev_price_only > P["stale_price_ev"]:
+        cap_reasons.append("price is far better than the sharp total; confirm it's live before betting")
+    if src == "consensus":
+        cap_reasons.append("no sharp book has this total, so the fair number is a market average")
+    tier = "play" if best["ev"] >= P["play_ev"] else "lean" if best["ev"] >= P["lean_ev"] else "pass"
+    if len(cap_reasons) >= 2:
+        tier = "pass"
+    elif cap_reasons and tier == "play":
+        tier = "lean"
+    if tier == "play":
+        f = best["ev"] / (E.dec(best["price"]) - 1)
+        units = max(1.0, min(P["max_units_nfl"], round_half(100 * f * P["kelly_fraction"])))
+    else:
+        units = 0.5 if tier == "lean" else 0.0
+    fl = E.price_floor(m, mu, hs, -best["line"])
+    floor_total = None if fl is None else -fl
+    be = E.breakeven_price(dist, -best["line"], hs)
+    floor_text = (f"Good to {best['side'].lower()} {floor_total:g} at -110" if floor_total is not None
+                  else f"Only at {best['line']:g} {be:+d} or better" if be is not None else None)
+    src_name = {"pinnacle": "Pinnacle", "sharp": "BetOnline/LowVig", "consensus": "The market average"}[src]
+    why = [f"{src_name}'s fair total is {round_half(mkt):g}; {BOOK_NAMES.get(best['book'], best['book'])} has "
+           f"{best['side']} {best['line']:g} ({best['price']:+d})."]
+    if model_total is not None and abs(gap) >= 1:
+        why.append(f"Our model projects {model_total:.1f} points from both offenses' efficiency and pace"
+                   f"{' and ' + str(int(g['wind'])) + ' mph wind' if g and not g['dome'] and g['wind'] >= 12 else ''}.")
+    if g and g["dome"] and len(why) < 3:
+        why.append("Indoors, so no weather adjustment.")
+    flags = cap_reasons + flags
+    return {
+        "id": e["id"], "pick_key": f"{e['id']}|{best['side']}", "market": "total", "league": "nfl", "slot": slot,
+        "tier": tier, "edges": (g or {}).get("notes", [])[:3],
+        "matchup": f"{away} @ {home}", "kickoff_utc": e["t"], "kickoff_pt": kick_pt.strftime("%a %b %-d, %-I:%M %p %Z"),
+        "side": best["side"], "opponent": "", "side_is_home": best["side"] == "Over",
+        "line": best["line"], "price": best["price"], "book": best["book"], "link": best["link"],
+        "fair_line": round_half(mkt), "open_line": None,
+        "confidence": round(cover * 100, 1), "ev_pct": round(best["ev"] * 100, 2), "units": units,
+        "price_floor": floor_total, "floor_text": floor_text, "fair_source": src,
+        "market_home_margin": round(mkt, 1), "model_home_margin": round(model_total, 1) if model_total else None,
+        "model_weight": round(shift / gap, 3) if gap else 0.0, "hours_to_kick": round((kick - now).total_seconds() / 3600, 1),
+        "signals": [], "why": " ".join(why[:3]), "flags": flags,
+    }
+
+
 # ------------------------------------------------------------ published picks
-def current_price(card_side, lines, mine_books):
+def current_price(card_side, lines, mine_books, event=None):
     """Best current line/price for a given side across my books (ties go to the book it was published at)."""
+    if card_side.get("market") == "total":
+        tl = E.total_lines(event) if event else {}
+        over = card_side["side"] == "Over"
+        best = None
+        for b in [card_side["book"]] + [x for x in mine_books if x != card_side["book"]]:
+            L = tl.get(b)
+            if not L:
+                continue
+            pr = L["over"] if over else L["under"]
+            key = (-L["line"] if over else L["line"]) + (E.dec(pr) - 1.909) * 2.5
+            if best is None or key > best["_k"] + 1e-9:
+                best = {"line": L["line"], "price": pr, "book": b, "link": L["olink"] if over else L["ulink"], "_k": key}
+        if best:
+            best.pop("_k")
+        return best
     best = None
     order = [card_side["book"]] + [b for b in mine_books if b != card_side["book"]]
     for b in order:
@@ -367,7 +485,7 @@ def update_published(pub, cards, events, ctx, now):
             p["status"] = "off_board"
             continue
         lines = E.book_lines(ev_)
-        cur = current_price(p, lines, C.MY_BOOKS)
+        cur = current_price(p, lines, C.MY_BOOKS, ev_)
         if cur:
             last = p["history"][-1] if p["history"] else None
             if not last or (last[1], last[2], last[3]) != (cur["line"], cur["price"], cur["book"]):
@@ -377,7 +495,8 @@ def update_published(pub, cards, events, ctx, now):
         floor = p.get("price_floor")
         if c and c["tier"] != "pass":
             p["status"] = "live"
-        elif cur and floor is not None and cur["line"] < floor:
+        elif cur and floor is not None and (cur["line"] > floor if p.get("market") == "total" and p["side"] == "Over"
+                                            else cur["line"] < floor):
             p["status"] = "moved"
         else:
             p["status"] = "faded"
@@ -415,12 +534,17 @@ def main():
     P = params()
     names = CFBNames()
     opens, neutral = cfb_week_info(names)
-    nfl_r = json.loads((DERIVED / "nfl_ratings.json").read_text())
+    live_path = DERIVED / "nfl_model_live.json"
+    nfl_live = json.loads(live_path.read_text()) if live_path.exists() else {"games": {}, "trust": None}
+    nfl_by_teams = {}
+    for gid, g in sorted(nfl_live["games"].items(), key=lambda kv: kv[1]["week"]):
+        nfl_by_teams.setdefault((g["home"], g["away"]), g)
     inj_path = DERIVED / "nfl_injuries.json"
     cfb_games = [json.loads(f.read_text()) for f in sorted((RAW / "cfbd").glob("week_*_games.json"))]
     ctx = {
         "P": P, "models": E.models(), "names": names, "opens": opens, "neutral": neutral,
-        "nfl_games": {(g["home"], g["away"]): g for g in nfl_r["games"].values()},
+        "nfl_live": nfl_by_teams,
+        "nfl_trust": nfl_live.get("trust") or {"floor": 2.0, "slope": 0.5, "cap": 1.75, "total_max_gap": 6.0},
         "inj": json.loads(inj_path.read_text())["teams"] if inj_path.exists() else {},
         "cfb_L": CR.live_ratings(C.SEASON), "sp": sp_ratings(),
         "cfb_week": max((g[0]["week"] for g in cfb_games if g), default=0),
@@ -438,10 +562,11 @@ def main():
         ctx["prev_at"][league] = prev["pulled_at"] if prev else None
         for e in snap["events"]:
             events_by_id[e["id"]] = e
-            c = evaluate(e, league, ctx, now)
-            if c:
-                c["odds_pulled_at"] = snap["pulled_at"]
-                cards.append(c)
+            for c in (evaluate(e, league, ctx, now) if any("hl" in b for b in e["books"].values()) else None,
+                      evaluate_total(e, ctx, now) if league == "nfl" else None):
+                if c:
+                    c["odds_pulled_at"] = snap["pulled_at"]
+                    cards.append(c)
 
     if names.misses:
         miss = sorted(names.misses)
@@ -501,7 +626,7 @@ def main():
     return board
 
 
-LOG_FIELDS = ["logged_at", "pick_key", "game_id", "league", "slot", "tier", "kickoff_utc", "matchup", "side",
+LOG_FIELDS = ["logged_at", "pick_key", "game_id", "market", "league", "slot", "tier", "kickoff_utc", "matchup", "side",
               "side_is_home", "line", "price", "book", "confidence", "ev_pct", "units", "fair_source", "fair_line",
               "market_home_margin", "model_home_margin", "model_weight", "hours_to_kick", "signals",
               "close_fair_line", "close_line", "clv_pts", "clv_ev_pct", "home_score", "away_score", "result",

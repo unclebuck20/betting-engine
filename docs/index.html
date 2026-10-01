@@ -66,6 +66,8 @@ h1{font-size:22px;margin:0;letter-spacing:-.01em}
 .moves{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:12px;color:var(--muted);margin:0 0 10px;font-variant-numeric:tabular-nums}
 .moves .pt{background:var(--chip);border-radius:6px;padding:2px 6px;color:var(--ink)}
 .why{font-size:14px;margin:0 0 8px}
+.edges{margin:-2px 0 10px;padding-left:18px;font-size:12.5px;color:var(--muted)}
+.edges li{margin:2px 0}
 .flags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
 .flag{font-size:11.5px;color:var(--muted);background:var(--chip);border-radius:6px;padding:2px 7px}
 .flag.warn{color:var(--danger);background:var(--danger-bg)}
@@ -119,7 +121,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
     <div id="cards"></div>
   </section>
   <section id="bets-view" hidden></section>
-  <p class="foot">Fair line = the sharpest available book (Pinnacle first) with the bookmaker's cut removed. Confidence = chance this side covers at the listed number, capped at the best rate the model has shown in backtests. College picks use in-season power ratings (CollegeFootballData); NFL picks come from price gaps and injury news the sharp line hasn't absorbed (nflverse, ESPN). Closing-line value (CLV) = how your number compares with the fair line at kickoff; it's the fastest honest read on whether picks are good. <a href="https://github.com/unclebuck20/betting-engine">Source</a></p>
+  <p class="foot">Fair line = the sharpest available book (Pinnacle first) with the bookmaker's cut removed. Confidence = chance this side covers at the listed number, capped at the best rate the model has shown in backtests. College picks use in-season power ratings (CollegeFootballData); NFL picks use opponent-adjusted unit and QB ratings from every play since 2013 (nflverse), trusted only where the 2017-25 backtest beat the closing line (4+ pt disagreements), plus injury news the sharp line hasn't absorbed (ESPN). Closing-line value (CLV) = how your number compares with the fair line at kickoff; it's the fastest honest read on whether picks are good. <a href="https://github.com/unclebuck20/betting-engine">Source</a></p>
 </div>
 <script>
 const REPO = "unclebuck20/betting-engine";
@@ -141,6 +143,8 @@ let DATA=null, BETS=[], REC=null, slot=null;
 const $=s=>document.querySelector(s);
 const fmtLine=x=>x===0?"PK":(x>0?"+":"")+x;
 const fmtPrice=p=>(p>0?"+":"")+p;
+const isTot=p=>p.market==="total";
+const lineTxt=(p,x)=>isTot(p)?String(x):fmtLine(x);
 const ago=iso=>{const m=Math.max(0,Math.round((Date.now()-new Date(iso))/60000));return m<60?`${m} min ago`:m<1440?`${Math.round(m/60)} hr ago`:`${Math.round(m/1440)} d ago`};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const started=p=>new Date(p.kickoff_utc).getTime()<=Date.now();
@@ -194,7 +198,7 @@ function renderTabs(){
 function moves(p){
   const pts=[];
   if(p.open_line!==null&&p.open_line!==undefined) pts.push(`<span>Open</span><span class="pt">${fmtLine(p.open_line)}</span>`);
-  (p.history||[]).slice(-4).forEach((h,i)=>pts.push(`${pts.length?"→":""}<span title="${esc(fmtTime(h[0]))} · ${esc(BOOK[h[3]]||h[3])}">${i===0&&p.history.length<=4?"Posted":fmtTime(h[0]).replace(/,.*/,"")}</span><span class="pt">${fmtLine(h[1])} (${fmtPrice(h[2])})</span>`));
+  (p.history||[]).slice(-4).forEach((h,i)=>pts.push(`${pts.length?"→":""}<span title="${esc(fmtTime(h[0]))} · ${esc(BOOK[h[3]]||h[3])}">${i===0&&p.history.length<=4?"Posted":fmtTime(h[0]).replace(/,.*/,"")}</span><span class="pt">${lineTxt(p,h[1])} (${fmtPrice(h[2])})</span>`));
   return pts.length>1?`<div class="moves">${pts.join(" ")}</div>`:"";
 }
 
@@ -215,16 +219,17 @@ function card(p){
   const changed=cur.line!==p.line||cur.price!==p.price;
   return `<article class="card ${dim?"dim":""}">
     <div class="top"><div class="matchup">${esc(p.matchup)}</div><div class="time">${esc(p.kickoff_pt)}</div></div>
-    <div class="pick"><span class="tier ${isPass?"pass":L.tier}">${isPass?"no bet":L.tier}</span>${esc(p.side)} ${fmtLine(cur.line)} <span style="font-weight:600">(${fmtPrice(cur.price)})</span>${!isPass&&p.status!=="live"?`<span class="status ${p.status}">${esc(STATUS[p.status])}</span>`:""}</div>
-    <div class="sub">at ${esc(BOOK[cur.book]||cur.book)}${changed?` · posted at ${fmtLine(p.line)} (${fmtPrice(p.price)})`:""}${p.floor_text&&!isPass?` · ${esc(p.floor_text)}`:""}</div>
+    <div class="pick"><span class="tier ${isPass?"pass":L.tier}">${isPass?"no bet":L.tier}</span>${esc(p.side)} ${lineTxt(p,cur.line)} <span style="font-weight:600">(${fmtPrice(cur.price)})</span>${isTot(p)?` <span class="sub" style="font-weight:500">total</span>`:""}${!isPass&&p.status!=="live"?`<span class="status ${p.status}">${esc(STATUS[p.status])}</span>`:""}</div>
+    <div class="sub">at ${esc(BOOK[cur.book]||cur.book)}${changed?` · posted at ${lineTxt(p,p.line)} (${fmtPrice(p.price)})`:""}${p.floor_text&&!isPass?` · ${esc(p.floor_text)}`:""}</div>
     <div class="stats">
       <div class="stat"><b>${(+conf).toFixed(1)}%</b><span>Confidence</span></div>
       <div class="stat"><b>${isPass?"—":amt(p.units)}</b><span>${p.units_uncapped&&+p.units_uncapped!==+p.units&&!isPass?`Size (cut from ${amt(p.units_uncapped)})`:"Size"}</span></div>
       <div class="stat"><b>${ev>0?"+":""}${(+ev).toFixed(1)}%</b><span>Edge (EV)</span></div>
     </div>
-    <div class="prices"><span>Fair <b>${fmtLine(p.fair_line)}</b></span><span>Yours <b>${fmtLine(cur.line)} (${fmtPrice(cur.price)})</b></span></div>
+    <div class="prices"><span>Fair <b>${lineTxt(p,p.fair_line)}</b></span><span>Yours <b>${lineTxt(p,cur.line)} (${fmtPrice(cur.price)})</b></span>${p.model_home_margin!=null&&p.league==="nfl"?`<span>Model <b>${isTot(p)?p.model_home_margin:fmtLine(Math.round(-p.model_home_margin*(p.side_is_home?1:-1)*2)/2)}</b></span>`:""}</div>
     ${moves(p)}
     <p class="why">${esc(L.why||p.why)}</p>
+    ${(p.edges||[]).length?`<ul class="edges">${p.edges.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
     ${flags?`<div class="flags">${flags}</div>`:""}
     <div class="actions">${action}${open}</div>
   </article>`;
@@ -253,7 +258,8 @@ function took(p){
     "Change line / price / units below if you got a different number, then tap Submit.",
     "",
     `pick_key: ${key(p)}`,
-    `pick: ${p.side} ${fmtLine(cur.line)} (${fmtPrice(cur.price)})`,
+    `market: ${p.market||"spread"}`,
+    `pick: ${p.side} ${lineTxt(p,cur.line)} (${fmtPrice(cur.price)})`,
     `matchup: ${p.matchup}`,
     `kickoff_utc: ${p.kickoff_utc}`,
     `league: ${p.league}`,
@@ -264,7 +270,7 @@ function took(p){
     `model_tier: ${(p.latest||p).tier}`,
     `model_ev_pct: ${(p.current&&p.current.ev_pct)??p.ev_pct}`,
   ].join("\n");
-  const url=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("BET: "+p.side+" "+fmtLine(cur.line))}&body=${encodeURIComponent(body)}`;
+  const url=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("BET: "+p.side+" "+lineTxt(p,cur.line)+(isTot(p)?" ("+p.matchup+")":""))}&body=${encodeURIComponent(body)}`;
   setPending(p,true);
   window.open(url,"_blank","noopener");
   render();
@@ -296,7 +302,7 @@ function renderBets(){
   h+=`<div class="section-label">Your bets</div>`;
   if(!BETS.length) h+=`<div class="empty">No bets logged yet. Tap <b>Took it</b> on a card, then Submit on the GitHub page that opens.</div>`;
   else h+=`<table><thead><tr><th>Bet</th><th class="num">Size</th><th class="num">CLV</th><th class="num">Result</th></tr></thead><tbody>${
-    BETS.slice().reverse().map(b=>`<tr><td>${esc(b.pick)}<br><span class="sub">${esc(BOOK[b.book]||b.book)} · ${esc(b.matchup)}</span></td><td class="num">${amt(b.units)}</td><td class="num">${b.clv_pts!==""&&b.clv_pts!=null?fmtLine(+b.clv_pts):"—"}</td><td class="num">${esc(b.result||"pending")}${b.units_won!==""&&b.units_won!=null&&b.result&&b.result!=="pending"?`<br><span class="sub">${+b.units_won>=0?"+":""}${amt(b.units_won)}</span>`:""}</td></tr>`).join("")
+    BETS.slice().reverse().map(b=>`<tr><td>${esc(b.pick)}<br><span class="sub">${esc(BOOK[b.book]||b.book)} · ${esc(b.matchup)}</span></td><td class="num">${amt(b.units)}</td><td class="num">${b.clv_pts!==""&&b.clv_pts!=null?(+b.clv_pts>0?"+":"")+(+b.clv_pts)+" pts":"—"}</td><td class="num">${esc(b.result||"pending")}${b.units_won!==""&&b.units_won!=null&&b.result&&b.result!=="pending"?`<br><span class="sub">${+b.units_won>=0?"+":""}${amt(b.units_won)}</span>`:""}</td></tr>`).join("")
   }</tbody></table>`;
   $("#bets-view").innerHTML=h;
 }

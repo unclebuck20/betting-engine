@@ -99,8 +99,30 @@ class MarginModel:
         return self._cache[key]
 
 
+def load_nfl_total_history():
+    rows = []
+    with open(RAW / "nflverse" / "games.csv") as f:
+        for r in csv.DictReader(f):
+            if r["total"] and r["total_line"] and int(r["season"]) >= NFL_HISTORY_FROM:
+                rows.append((float(r["total_line"]), int(float(r["total"]))))
+    return rows
+
+
 def models():
-    return {"nfl": MarginModel(load_nfl_history(), 1.0), "cfb": MarginModel(load_cfb_history(), 1.5)}
+    return {"nfl": MarginModel(load_nfl_history(), 1.0), "cfb": MarginModel(load_cfb_history(), 1.5),
+            "nfl_total": MarginModel(load_nfl_total_history(), 1.0)}
+
+
+# Totals reuse the spread machinery: "over L" wins when total - L > 0, i.e. side "home" with home_line = -L.
+def total_lines(event):
+    return {k: {"line": b["tot"]["l"], "over": b["tot"]["op"], "under": b["tot"]["up"],
+                "olink": b["tot"].get("olink"), "ulink": b["tot"].get("ulink")}
+            for k, b in event["books"].items() if "tot" in b}
+
+
+def fair_total(model, tl, books):
+    mus = [solve_mu(model, -tl[b]["line"], devig(tl[b]["over"], tl[b]["under"])) for b in books]
+    return sum(mus) / len(mus)
 
 
 def outcome(dist, home_line, side):
@@ -144,10 +166,10 @@ def breakeven_price(dist, home_line, side):
 
 # ------------------------------------------------------------ per-game
 def book_lines(event):
-    """compact event -> {book: {home_line, home_price, away_price, updated, links}}"""
+    """compact event -> {book: {home_line, home_price, away_price, updated, links}} (spreads)"""
     return {k: {"home_line": b["hl"], "home_price": b["hp"], "away_price": b["ap"], "updated": b.get("u"),
                 "hlink": b.get("hlink") or b.get("link"), "alink": b.get("alink") or b.get("link")}
-            for k, b in event["books"].items()}
+            for k, b in event["books"].items() if "hl" in b}
 
 
 def fair_source(lines):

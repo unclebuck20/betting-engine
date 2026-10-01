@@ -24,7 +24,7 @@ MODEL_LOG = ROOT / "data" / "picks" / "model_log.csv"
 BETS = ROOT / "data" / "bets.csv"
 PAGE = ROOT / "docs" / "data"
 ET = ZoneInfo("America/New_York")
-BET_FIELDS = ["logged_at", "issue", "pick_key", "pick", "matchup", "kickoff_utc", "league", "book", "line", "price",
+BET_FIELDS = ["logged_at", "issue", "pick_key", "market", "pick", "matchup", "kickoff_utc", "league", "book", "line", "price",
               "units", "model_tier", "model_ev_pct", "close_fair_line", "close_line", "clv_pts", "clv_ev_pct",
               "home_score", "away_score", "result", "units_won"]
 
@@ -55,7 +55,7 @@ class Closer:
             self._cache[key] = load_snapshot(self.snaps[league][i][0])
         return self._cache[key]
 
-    def closing(self, league, event_id, kickoff):
+    def closing(self, league, event_id, kickoff, totals=False):
         """last snapshot before kickoff that has this game -> (lines, pulled_at)"""
         for i in range(len(self.snaps[league]) - 1, -1, -1):
             name = self.snaps[league][i][0].stem          # 20261003T1500Z
@@ -67,7 +67,9 @@ class Closer:
             s = self._snap(league, i)
             e = next((x for x in s["events"] if x["id"] == event_id), None)
             if e and e["books"]:
-                return E.book_lines(e), s["pulled_at"]
+                lines = E.total_lines(e) if totals else E.book_lines(e)
+                if lines:
+                    return lines, s["pulled_at"]
         return None, None
 
 
@@ -111,29 +113,44 @@ def grade_row(r, closer, sc, names, models, now):
         return False
     league = r["league"]
     away, home = r["matchup"].split(" @ ")
-    team = r.get("side") or r["pick"].rsplit(" ", 2)[0]
-    is_home = str(r.get("side_is_home", "")).lower() == "true" if r.get("side_is_home") else team == home
-    sgn = 1 if is_home else -1
+    pick_side = r.get("side") or r["pick"].rsplit(" ", 2)[0]
+    is_total = r.get("market") == "total" or pick_side in ("Over", "Under")
     line, price = float(r["line"]), int(float(r["price"]))
     changed = False
+    if is_total:
+        over = pick_side == "Over"
+        hs, home_line, m = ("home" if over else "away"), -line, models["nfl_total"]
+    else:
+        is_home = (str(r.get("side_is_home", "")).lower() == "true") if r.get("side_is_home") else pick_side == home
+        sgn = 1 if is_home else -1
+        hs, home_line, m = ("home" if is_home else "away"), line * sgn, models[league]
     if not r.get("close_fair_line"):
-        lines, _ = closer.closing(league, r["pick_key"].split("|")[0], kickoff)
+        lines, _ = closer.closing(league, r["pick_key"].split("|")[0], kickoff, totals=is_total)
         if lines:
-            m = models[league]
             _, books = E.fair_source(lines)
-            mu = E.fair_mu(m, lines, books)
-            close_fair = -mu * sgn
-            r["close_fair_line"] = round(close_fair, 1)
-            bl = lines.get(r["book"])
-            r["close_line"] = (bl["home_line"] * sgn) if bl else ""
-            r["clv_pts"] = round(line - close_fair, 1)
-            r["clv_ev_pct"] = round(100 * E.ev(m.dist(mu), line * sgn, "home" if is_home else "away", price), 2)
+            if is_total:
+                mu = E.fair_total(m, lines, books)
+                r["close_fair_line"] = round(mu, 1)
+                bl = lines.get(r["book"])
+                r["close_line"] = bl["line"] if bl else ""
+                r["clv_pts"] = round((mu - line) if over else (line - mu), 1)
+            else:
+                mu = E.fair_mu(m, lines, books)
+                close_fair = -mu * sgn
+                r["close_fair_line"] = round(close_fair, 1)
+                bl = lines.get(r["book"])
+                r["close_line"] = (bl["home_line"] * sgn) if bl else ""
+                r["clv_pts"] = round(line - close_fair, 1)
+            r["clv_ev_pct"] = round(100 * E.ev(m.dist(mu), home_line, hs, price), 2)
             changed = True
     s = find_score(sc, league, r["matchup"], kickoff, names)
     if s:
         hp, ap = s
         r["home_score"], r["away_score"] = hp, ap
-        v = (hp - ap) * sgn + line
+        if is_total:
+            v = (hp + ap - line) * (1 if over else -1)
+        else:
+            v = (hp - ap) * sgn + line
         units = float(r.get("units") or 0)
         r["result"] = "win" if v > 0 else "push" if v == 0 else "loss"
         r["units_won"] = round(units * (E.dec(price) - 1), 2) if v > 0 else 0.0 if v == 0 else -units

@@ -8,7 +8,7 @@ ODDS_SPORTS = {
     "nfl": "americanfootball_nfl",
     "cfb": "americanfootball_ncaaf",
 }
-ODDS_MARKETS = ["spreads"]  # 1 credit per sport per snapshot
+ODDS_MARKETS = {"nfl": ["spreads", "totals"], "cfb": ["spreads"]}  # 1 credit per market per sport per pull
 ODDS_BOOKMAKERS = [
     "pinnacle",      # sharp anchor (public site, may lag slightly)
     "betonlineag",   # semi-sharp offshore
