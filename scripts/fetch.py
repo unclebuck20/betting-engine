@@ -204,30 +204,37 @@ def fetch_cfbd():
 
 # ---------------------------------------------------------------- main
 def main():
-    for fn in (fetch_nflverse, fetch_odds, fetch_injuries, fetch_cfbd):
+    """Each source succeeds or fails on its own: one outage must never discard another source's data
+    (especially odds, which cost credits and can't be re-pulled after kickoff)."""
+    failed = []
+    for fn in (fetch_odds, fetch_nflverse, fetch_injuries, fetch_cfbd):
+        before_w, before_e = set(writes), len(errors)
         try:
             fn()
         except Exception as e:  # noqa: BLE001
-            errors.append(f"{fn.__name__}: {type(e).__name__}: {e}")
+            errors.append(f"{fn.__name__}: {type(e).__name__}: {str(e)[:200]}")
+        if len(errors) > before_e:                 # this source failed its guard or crashed
+            for k in set(writes) - before_w:
+                writes.pop(k)
+            failed.append(fn.__name__)
 
     for w in warnings:
         print(f"::warning::{w}")
-    if errors:
-        for e in errors:
-            print(f"::error::{e}")
-        print("::error::Guards failed; nothing written. Last good data stays live.")
-        sys.exit(1)
-
+    for e in errors:
+        print(f"::error::{e}")
     for rel, obj in writes.items():
         p = RAW / rel
         p.parent.mkdir(parents=True, exist_ok=True)
         compact = rel.startswith(("odds/", "cfbd/", "injuries/"))
         p.write_text(obj if isinstance(obj, str) else
                      json.dumps(obj, separators=(",", ":")) if compact else json.dumps(obj, indent=1))
+    summary["failed_sources"] = failed
     (RAW / "_last_run.json").write_text(json.dumps(summary, indent=1))
     for n in notices:
         print(f"::notice::{n}")
-    print(f"::notice::wrote {len(writes)} files")
+    print(f"::notice::wrote {len(writes)} files" + (f"; failed: {', '.join(failed)} (last good data kept)" if failed else ""))
+    if failed and not writes:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
