@@ -84,5 +84,5 @@ jobs:
           git add data docs/data
           if git diff --cached --quiet; then echo "::notice::no data changes"; exit 0; fi
           git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3 4; do git pull --rebase --autostash origin main && git push && exit 0; sleep $((i * 10)); done
+          for i in 1 2 3 4; do git pull --rebase -X theirs --autostash origin main && git push && exit 0; sleep $((i * 10)); done
           exit 1

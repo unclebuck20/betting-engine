@@ -31,7 +31,7 @@ jobs:
           git add data/bets.csv docs/data/bets.json
           git commit -m "bet: issue #${{ github.event.issue.number }}" -m "$TITLE"
           for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main && git push && exit 0
+            git pull --rebase -X theirs --autostash origin main && git push && exit 0
             sleep $((i * 10))
           done
           exit 1
