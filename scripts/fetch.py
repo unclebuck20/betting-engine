@@ -58,6 +58,11 @@ def fetch_odds():
     if not key:
         warnings.append("odds: ODDS_API_KEY not set; skipped")
         return
+    wanted = os.environ.get("ODDS_PULL", "nfl,cfb")
+    if wanted == "false":
+        notices.append("odds: not due this run (scheduler); keeping the last pull")
+        return
+    wanted = set(wanted.split(","))
     base = C.SOURCES["odds_base"]
     # /sports is free and returns quota headers
     r = get(f"{base}/sports", params={"apiKey": key})
@@ -68,6 +73,8 @@ def fetch_odds():
         warnings.append(f"odds: only {left} credits left; skipping to protect closing snapshots")
         return
     for name, sport in C.ODDS_SPORTS.items():
+        if name not in wanted:
+            continue
         r = get(f"{base}/sports/{sport}/odds", params={
             "apiKey": key, "markets": ",".join(C.ODDS_MARKETS[name]),
             "bookmakers": ",".join(C.ODDS_BOOKMAKERS), "oddsFormat": "american", "includeLinks": "true",
@@ -104,7 +111,7 @@ def _flatten_espn_injuries(data):
                 "detail": inj.get("details", {}).get("type"),
                 "return_date": inj.get("details", {}).get("returnDate"),
                 "updated": inj.get("date"),
-                "note": inj.get("shortComment"),
+                "note": (inj.get("shortComment") or "")[:160],
             })
     return out
 
@@ -214,7 +221,7 @@ def main():
     for rel, obj in writes.items():
         p = RAW / rel
         p.parent.mkdir(parents=True, exist_ok=True)
-        compact = rel.startswith(("odds/", "cfbd/"))
+        compact = rel.startswith(("odds/", "cfbd/", "injuries/"))
         p.write_text(obj if isinstance(obj, str) else
                      json.dumps(obj, separators=(",", ":")) if compact else json.dumps(obj, indent=1))
     (RAW / "_last_run.json").write_text(json.dumps(summary, indent=1))

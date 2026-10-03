@@ -1,4 +1,4 @@
-# betting-engine
+# Ballard Syndicate
 
 College football and NFL picks, built sharp-first and graded on closing line value.
 

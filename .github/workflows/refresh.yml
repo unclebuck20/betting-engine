@@ -2,23 +2,19 @@ name: refresh
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Pull odds now even if not due"
+        type: boolean
+        default: true
   push:
     branches: [main]
     paths: ["scripts/**", "requirements.txt", ".github/workflows/refresh.yml"]
   schedule:
-    # All times UTC (PT labels are daylight time; after Nov 1 each run lands an hour earlier in PT).
-    # ~17 runs/week x 3 odds credits (NFL spreads + totals, college spreads) = ~220 of 500 monthly credits.
-    - cron: "0 14 * * *"      # daily 7:00 AM PT: overnight injuries, openers
-    - cron: "0 23 * * 4"      # Thu 4:00 PM PT: TNF / Thursday college close
-    - cron: "0 22 * * 5"      # Fri 3:00 PM PT: Friday college close
-    - cron: "30 15 * * 6"     # Sat 8:30 AM PT: early college close
-    - cron: "0 19 * * 6"      # Sat 12:00 PM PT: afternoon college close
-    - cron: "30 22 * * 6"     # Sat 3:30 PM PT: evening college close (before 4 PM kickoffs)
-    - cron: "0 2 * * 0"       # Sat 7:00 PM PT: late-night college close
-    - cron: "30 16 * * 0"     # Sun 9:30 AM PT: early NFL close, inactives
-    - cron: "45 19 * * 0"     # Sun 12:45 PM PT: late NFL close
-    - cron: "45 23 * * 0"     # Sun 4:45 PM PT: SNF close
-    - cron: "45 23 * * 1"     # Mon 4:45 PM PT: MNF close
+    # GitHub starts scheduled jobs late (often by hours at :00), so wake every 30 minutes at odd minutes
+    # and let scripts/schedule.py decide what's due. Odds (3 credits) are pulled once each morning and
+    # before each kickoff window, only for the league kicking off: ~200-250 of the 500 monthly credits.
+    - cron: "11,41 * * * *"
 
 concurrency:
   group: refresh
@@ -28,49 +24,65 @@ permissions:
   contents: write
 
 jobs:
-  fetch:
+  refresh:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install -r requirements.txt
+      - name: Decide what's due
+        id: decide
+        env:
+          FORCE: ${{ github.event_name == 'push' || inputs.force == true }}
+        run: python scripts/schedule.py
+      - name: Install
+        if: steps.decide.outputs.run == 'true'
+        run: pip install -r requirements.txt
       - name: Fetch
+        if: steps.decide.outputs.run == 'true'
         env:
           ODDS_API_KEY: ${{ secrets.ODD_API_KEY }}
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+          ODDS_PULL: ${{ steps.decide.outputs.odds }}
         run: python scripts/fetch.py
       - name: Price edges
+        if: steps.decide.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/edge.py
       - name: NFL injuries
+        if: steps.decide.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/injuries.py
       - name: NFL play-by-play features (current season)
+        if: steps.decide.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/nfl_features.py refresh 2026
       - name: NFL model (ratings, QBs, spreads, totals)
+        if: steps.decide.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/nfl_model.py live 2026
       - name: Picks
+        if: steps.decide.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/picks.py
       - name: Grade (closing lines, results, CLV)
+        if: steps.decide.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/grade.py
       - name: Calibrate (weekly; skips if run in the last 6 days)
+        if: steps.decide.outputs.run == 'true'
         continue-on-error: true
         run: python scripts/calibrate.py
       - name: Commit if changed (always, so paid odds snapshots are never lost)
-        if: always()
+        if: always() && steps.decide.outputs.run == 'true'
         run: |
           git config user.name "betting-engine-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data docs/data
           if git diff --cached --quiet; then echo "::notice::no data changes"; exit 0; fi
           git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase --autostash origin main
-          git push
+          for i in 1 2 3 4; do git pull --rebase --autostash origin main && git push && exit 0; sleep $((i * 10)); done
+          exit 1
