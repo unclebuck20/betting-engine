@@ -4,7 +4,7 @@
 - **Site:** unclebuck20.github.io/betting-engine (add to home screen). Tap **$** once and enter 15 to see dollars.
 - **Betting a card:** confirm the price is at or better than the "Good to" floor → place it → tap **Took it** → change line/price/units on the GitHub form if you got a different number → **Submit**. The card shows Pending, then ✓ Logged within ~1 minute.
 - **Status chips:** *Still good* · *Edge gone at today's price* · *Line moved past the number* (don't chase) · *Cut to keep the slate under its cap*.
-- **College injuries:** a scheduled Claude session checks news and availability reports before each college slate (Thu/Fri 12:45 PM, Sat 6:45 and 11:45 AM PT; see `CFB_INJURY_CHECK.md`). Each checked card shows an **Injury check** line; a pick whose key starter is out and unpriced shows **Held: key starter out** and isn't a bet. Cards that say "college injuries not checked yet" haven't been covered: check the QB yourself.
+- **College injuries:** a scheduled Claude session checks news and availability reports before each college slate (a morning sweep, then hourly runs that check each pick 45-105 minutes before its kickoff; see `CFB_INJURY_CHECK.md`). **Bet a college pick only once its card shows the Injury check line from about an hour before kickoff.** A pick whose key starter is out and unpriced shows **Held: key starter out** and isn't a bet.
 
 ## Schedule (`refresh.yml` + `schedule.py`)
 The workflow wakes at :11 and :41 every hour (GitHub delays jobs scheduled at :00 by hours) and decides:
