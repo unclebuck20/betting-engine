@@ -17,6 +17,7 @@
 | `data/derived/nfl_features.parquet` | Pre-game ratings/features for every game 2015-2025 (walk-forward) |
 | `data/derived/nfl_model_live.json` | Upcoming NFL games: model spread, total, starters, matchup notes; team table; QB ratings |
 | `data/derived/nfl_injuries.json` | Team injury points, absences, change since last pull |
+| `data/manual/cfb_injury_check.json` | Pre-slate college injury check: absences with sources, holds, one-line summary per game (written by the scheduled check) |
 | `data/picks/published.json` | Picks that reached the page, with status and price history |
 | `data/picks/model_log.csv` | Every non-pass card (the model's record) + grading columns |
 | `data/bets.csv` | Garrett's logged bets + grading columns |

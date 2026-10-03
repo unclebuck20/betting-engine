@@ -36,6 +36,7 @@ Bets: **Took it** opens a pre-filled `BET:` GitHub issue → `log-bet.yml` → `
 - Size: quarter Kelly on EV, 0.5u steps, 2u college / 3u NFL; slate cap 8u (scale, then trim weakest).
 - Slots: Thu, Fri = best single; Sat (college) and Sun (NFL early/late) = up to 10; SNF, MNF = best single.
 - Signals: steam (sharp moved ≥1 pt since the last snapshot, your book hasn't), stale sharp price, NFL injury news not yet in the sharp line.
+- College injury check: a scheduled Claude session writes `data/manual/cfb_injury_check.json` before each slate (`CFB_INJURY_CHECK.md`); a key starter out on our side, not yet priced, holds the pick (status *held*).
 - Published picks stay on the page until kickoff with a live status (still good / edge gone / line moved past floor / trimmed).
 
 ## Learning loop

@@ -8,6 +8,9 @@ Layer 2 (model)   College: in-season PPA power ratings. Backtest 2023-25 (weeks 
                   NFL: efficiency ratings add nothing beyond the closing line in backtests, so they only
                   veto. NFL edge comes from price and from injury news the sharp line hasn't absorbed yet.
 Signals           Steam (sharp line moved, your book hasn't), stale sharp price, SP+ disagreement.
+College injuries  No feed exists. A scheduled Claude session (handbook/CFB_INJURY_CHECK.md) searches news and
+                  conference availability reports before each slate and writes data/manual/cfb_injury_check.json;
+                  a key starter out on our side that the line hasn't absorbed holds the pick.
 Sizing            Quarter Kelly on EV, 0.5u steps, per-league cap, per-slate exposure cap.
 Tracking          Every non-pass card goes to data/picks/model_log.csv (the model's record, graded on CLV).
                   Picks that reach the page are "published" and stay visible with a live status until kickoff.
@@ -104,6 +107,18 @@ def sp_ratings():
     if not files:
         return {}
     return {r["team"]: r["rating"] for r in json.loads(files[-1].read_text()) if r.get("rating") is not None}
+
+
+def cfb_injury_check():
+    """{odds event id: check} from the pre-slate college injury check (handbook/CFB_INJURY_CHECK.md)."""
+    p = ROOT / "data" / "manual" / "cfb_injury_check.json"
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text()).get("games", {})
+    except (json.JSONDecodeError, AttributeError) as e:
+        print(f"::warning::cfb_injury_check.json unreadable ({e}); ignoring it")
+        return {}
 
 
 def previous_snapshot(league, now_pulled):
@@ -225,7 +240,8 @@ def evaluate(e, league, ctx, now):
         mu = mu_mkt + shift
         if o:
             notes.append(("open", o))
-        flags.append("college injury reports not included")
+        if e["id"] not in ctx["cfb_inj"]:
+            flags.append("college injuries not checked yet")
 
     # ---- best side at my books
     dist = m.dist(mu)
@@ -267,11 +283,22 @@ def evaluate(e, league, ctx, now):
         cap_reasons.append("price is far better than the sharp line; confirm it's live before betting")
     if abs(line) > 28:
         cap_reasons.append("blowout spread; model and market are least reliable here")
+    inj_check, held = None, False
+    chk = ctx["cfb_inj"].get(e["id"]) if league == "cfb" else None
+    if chk:
+        hold = set(chk.get("hold") or [])
+        held = bool(hold & {team, nm[team]})
+        opp_held = bool(hold & {opp, nm[opp]})
+        inj_check = {"at": chk.get("checked_at"), "text": chk.get("summary") or "No key starters out.",
+                     "hold": held, "opp_out": opp_held,
+                     "sources": [a["source"] for a in chk.get("absences", []) if a.get("source")][:3]}
     if len(cap_reasons) >= 2:
         tier = "pass"
     elif cap_reasons and tier == "play":
         tier = "lean"
     flags = cap_reasons + flags
+    if held:                                  # key starter out on our side, line hasn't absorbed it
+        tier = "pass"                         # the card's injury-check line says why
 
     # ---- units (before the slate cap)
     if tier == "play":
@@ -352,7 +379,7 @@ def evaluate(e, league, ctx, now):
         "model_home_margin": round(mu_model, 1) if mu_model is not None else None,
         "model_weight": round(weight, 3), "hours_to_kick": round(hours, 1),
         "signals": sorted({s[0] for s in signals}),
-        "why": " ".join(why[:3]), "flags": flags,
+        "why": " ".join(why[:3]), "flags": flags, "inj_check": inj_check, "held": held,
     }
 
 
@@ -493,7 +520,11 @@ def update_published(pub, cards, events, ctx, now):
             p["current"] = {**cur, "ev_pct": c["ev_pct"] if c else None,
                             "confidence": c["confidence"] if c else None}
         floor = p.get("price_floor")
-        if c and c["tier"] != "pass":
+        if c:
+            p["inj_check"] = c.get("inj_check")
+        if c and c.get("held"):
+            p["status"] = "held"
+        elif c and c["tier"] != "pass":
             p["status"] = "live"
         elif cur and floor is not None and (cur["line"] > floor if p.get("market") == "total" and p["side"] == "Over"
                                             else cur["line"] < floor):
@@ -546,7 +577,7 @@ def main():
         "nfl_live": nfl_by_teams,
         "nfl_trust": nfl_live.get("trust") or {"floor": 2.0, "slope": 0.5, "cap": 1.75, "total_max_gap": 6.0},
         "inj": json.loads(inj_path.read_text())["teams"] if inj_path.exists() else {},
-        "cfb_L": CR.live_ratings(C.SEASON), "sp": sp_ratings(),
+        "cfb_L": CR.live_ratings(C.SEASON), "sp": sp_ratings(), "cfb_inj": cfb_injury_check(),
         "cfb_week": max((g[0]["week"] for g in cfb_games if g), default=0),
         "prev": {}, "prev_at": {},
     }
@@ -607,7 +638,7 @@ def main():
         board[slot]["cap_applied_from"] = apply_slate_cap(mine, P["slate_cap_units"])
         board[slot]["picks"] = sorted(
             mine,
-            key=lambda p: ({"live": 0, "faded": 1, "moved": 2, "trimmed": 3, "off_board": 4}.get(p["status"], 5),
+            key=lambda p: ({"live": 0, "held": 1, "faded": 2, "moved": 3, "trimmed": 4, "off_board": 5}.get(p["status"], 5),
                            0 if (p.get("latest") or p)["tier"] == "play" else 1, -p["ev_pct"]))
         board[slot]["units_live"] = sum(p["units"] for p in mine if p["status"] == "live")
     pub_path.write_text(json.dumps(pub, indent=1))

@@ -4,7 +4,7 @@
 - **Site:** unclebuck20.github.io/betting-engine (add to home screen). Tap **$** once and enter 15 to see dollars.
 - **Betting a card:** confirm the price is at or better than the "Good to" floor → place it → tap **Took it** → change line/price/units on the GitHub form if you got a different number → **Submit**. The card shows Pending, then ✓ Logged within ~1 minute.
 - **Status chips:** *Still good* · *Edge gone at today's price* · *Line moved past the number* (don't chase) · *Cut to keep the slate under its cap*.
-- **College injuries:** no feed. Before a college slate, check each pick's starting QB and key starters; pass if one is newly out and the line hasn't moved.
+- **College injuries:** a scheduled Claude session checks news and availability reports before each college slate (Thu/Fri 12:45 PM, Sat 6:45 and 11:45 AM PT; see `CFB_INJURY_CHECK.md`). Each checked card shows an **Injury check** line; a pick whose key starter is out and unpriced shows **Held: key starter out** and isn't a bet. Cards that say "college injuries not checked yet" haven't been covered: check the QB yourself.
 
 ## Schedule (`refresh.yml` + `schedule.py`)
 The workflow wakes at :11 and :41 every hour (GitHub delays jobs scheduled at :00 by hours) and decides:
@@ -35,6 +35,7 @@ A push to `scripts/` or a manual run (Actions → refresh → Run workflow) forc
 | Credits running low | Fetch notice "credits left" | Lower pre-kickoff pulls or drop NFL totals temporarily |
 | Runs stopped happening | Actions tab: no runs for hours | Check the cron-job.org job's history and that the token hasn't expired |
 | A source is down (e.g. CFBD 525) | `::error::` for that source; others still written | Nothing to do; last good data for that source stays live |
+| College cards say "not checked yet" right before kickoff | Scheduled tasks list: did the injury check run? | Run it now from the scheduled task; or check the QB yourself |
 | Kickoff times off by an hour | Should not happen (zoneinfo) | Cron runs shift an hour in PT after Nov 1; the scheduler doesn't care |
 
 ## Making changes

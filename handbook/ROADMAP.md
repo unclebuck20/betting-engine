@@ -1,14 +1,13 @@
 # Roadmap
 
 ## Live now (as of Oct 3, 2026)
-College spreads (power ratings), NFL spreads and totals (unit + QB ratings), market fair lines with key-number pricing, steam / stale-price / injury-news signals, slate caps, published-pick tracking, bet logging, grading on closing-line value, weekly calibration, half-hourly scheduler, Ballard Syndicate dashboard.
+College spreads (power ratings), NFL spreads and totals (unit + QB ratings), market fair lines with key-number pricing, steam / stale-price / injury-news signals, pre-slate college injury check, slate caps, published-pick tracking, bet logging, grading on closing-line value, weekly calibration, half-hourly scheduler, Ballard Syndicate dashboard.
 
 ## Next
-1. **College injury check before each slate.** A scheduled Claude session searches news and conference availability reports for each college pick's teams and flags or holds picks with a key starter out. Proposed, not yet approved.
-2. **First calibration review** once ~50 picks are graded: CLV by league, play vs lean, model-driven vs price-driven; decide whether to keep half-size betting.
-3. **NFL vs-opener test.** After 6-8 weeks of our own opening-line snapshots, re-test the NFL model against openers (the line actually bet) instead of only closing lines.
-4. **Conference availability reports** (Big Ten, SEC first) as a real college injury feed, if the check in item 1 shows injury-driven misses.
-5. **More sportsbooks** if other legal Washington books become available to Garrett: free edge on every pick.
+1. **First calibration review** once ~50 picks are graded: CLV by league, play vs lean, model-driven vs price-driven; decide whether to keep half-size betting.
+2. **NFL vs-opener test.** After 6-8 weeks of our own opening-line snapshots, re-test the NFL model against openers (the line actually bet) instead of only closing lines.
+3. **Conference availability reports** as a scraped college injury feed, if the injury check misses things.
+4. **More sportsbooks** if other legal Washington books become available to Garrett: free edge on every pick.
 
 ## Parked (not now)
 - Line-movement model trained on purchased historical openers ($30 one-month Odds API plan): Garrett declined.

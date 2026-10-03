@@ -70,10 +70,19 @@ def decide(now, force=False):
         leagues = sorted({lg for lg, _ in soon if since[lg] >= timedelta(minutes=50)})  # only leagues kicking off
         reasons.append(f"{len(soon)} game(s) kicking off within 2 hours: closing-line pull ({', '.join(leagues)})")
     odds = bool(leagues)
+    chk = ROOT / "data" / "manual" / "cfb_injury_check.json"
+    new_check = False
+    if chk.exists():
+        try:
+            at = json.loads(chk.read_text()).get("checked_at")
+            new_check = bool(at) and (last_run is None or parse_ts(at) > last_run)
+        except (ValueError, AttributeError):
+            pass
     grade_n = waiting_to_grade(now)
-    run = odds or since_run >= timedelta(hours=3) or (grade_n and since_run >= timedelta(minutes=50))
+    run = odds or new_check or since_run >= timedelta(hours=3) or (grade_n and since_run >= timedelta(minutes=50))
     if not odds and run:
-        reasons.append(f"{grade_n} pick(s) to grade" if grade_n else "3-hour refresh (injuries, page)")
+        reasons.append("new college injury check" if new_check else
+                       f"{grade_n} pick(s) to grade" if grade_n else "3-hour refresh (injuries, page)")
     return {"run": bool(run), "odds": ",".join(leagues) if leagues else "false",
             "reason": "; ".join(reasons) or "nothing due"}
 

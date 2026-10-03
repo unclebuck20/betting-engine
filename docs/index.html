@@ -56,7 +56,7 @@ h1{font-size:22px;margin:0;letter-spacing:-.01em}
 .tier.lean{background:var(--lean-bg);color:var(--lean)}
 .tier.pass{background:var(--chip);color:var(--pass)}
 .status{margin-left:6px;background:var(--chip);color:var(--muted);letter-spacing:.03em;text-transform:none;font-weight:600}
-.status.moved,.status.faded,.status.trimmed{background:var(--danger-bg);color:var(--danger)}
+.status.moved,.status.faded,.status.trimmed,.status.held{background:var(--danger-bg);color:var(--danger)}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0 10px}
 .stat{background:var(--chip);border-radius:10px;padding:8px 10px;min-width:0}
 .stat b{display:block;font-size:17px;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -69,6 +69,7 @@ h1{font-size:22px;margin:0;letter-spacing:-.01em}
 .edges{margin:-2px 0 10px;padding-left:18px;font-size:12.5px;color:var(--muted)}
 .edges li{margin:2px 0}
 .flags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.inj{font-size:13px;color:var(--muted);margin:6px 0 0}.inj b{color:var(--ink);font-weight:600}.inj.hold,.inj.hold b{color:var(--danger)}
 .flag{font-size:11.5px;color:var(--muted);background:var(--chip);border-radius:6px;padding:2px 7px}
 .flag.warn{color:var(--danger);background:var(--danger-bg)}
 .actions{display:flex;gap:8px;align-items:stretch}
@@ -134,7 +135,7 @@ const SLOTS = [
   ["mnf","MNF","Monday night: one pick"],
 ];
 const BOOK = {draftkings:"DraftKings", fanduel:"FanDuel"};
-const STATUS = {live:"Still good", faded:"Edge gone at today's price", moved:"Line moved past the number", trimmed:"Cut to keep the slate under its cap", off_board:"Off the board"};
+const STATUS = {live:"Still good", faded:"Edge gone at today's price", moved:"Line moved past the number", trimmed:"Cut to keep the slate under its cap", off_board:"Off the board", held:"Held: key starter out"};
 const store = {
   get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},
   set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
@@ -202,12 +203,18 @@ function moves(p){
   return pts.length>1?`<div class="moves">${pts.join(" ")}</div>`:"";
 }
 
+function injLine(p){
+  const c=p.inj_check; if(!c||p.league!=="cfb") return "";
+  const src=(c.sources||[]).map((u,i)=>` <a href="${esc(u)}" target="_blank" rel="noopener">[${i+1}]</a>`).join("");
+  return `<p class="inj ${c.hold?"hold":""}"><b>Injury check${c.at?" "+esc(fmtTime(c.at)):""}:</b> ${esc(c.text)}${src}</p>`;
+}
+
 function card(p){
   const L=p.latest||p, cur=p.current||{line:p.line,price:p.price,book:p.book,link:p.link};
   const isPass=p.status==="pass";
   const dim=p.status!=="live"&&!isPass;
   const conf=(cur.confidence??L.confidence), ev=(cur.ev_pct??L.ev_pct);
-  const flags=(L.flags||p.flags||[]).map(f=>`<span class="flag ${/stale|live before|disagree|roster|other way|against|far better|unusually/.test(f)?"warn":""}">${esc(f)}</span>`).join("");
+  const flags=(L.flags||p.flags||[]).map(f=>`<span class="flag ${/held|stale|live before|disagree|roster|other way|against|far better|unusually/.test(f)?"warn":""}">${esc(f)}</span>`).join("");
   const c=confirmed(p), pend=pending(p);
   let action;
   if(isPass) action=`<button class="btn" disabled>No bet</button>`;
@@ -223,12 +230,13 @@ function card(p){
     <div class="sub">at ${esc(BOOK[cur.book]||cur.book)}${changed?` · posted at ${lineTxt(p,p.line)} (${fmtPrice(p.price)})`:""}${p.floor_text&&!isPass?` · ${esc(p.floor_text)}`:""}</div>
     <div class="stats">
       <div class="stat"><b>${(+conf).toFixed(1)}%</b><span>Confidence</span></div>
-      <div class="stat"><b>${isPass?"—":amt(p.units)}</b><span>${p.units_uncapped&&+p.units_uncapped!==+p.units&&!isPass?`Size (cut from ${amt(p.units_uncapped)})`:"Size"}</span></div>
+      <div class="stat"><b>${isPass||p.status==="held"?"—":amt(p.units)}</b><span>${p.units_uncapped&&+p.units_uncapped!==+p.units&&!isPass?`Size (cut from ${amt(p.units_uncapped)})`:"Size"}</span></div>
       <div class="stat"><b>${ev>0?"+":""}${(+ev).toFixed(1)}%</b><span>Edge (EV)</span></div>
     </div>
     <div class="prices"><span>Fair <b>${lineTxt(p,p.fair_line)}</b></span><span>Yours <b>${lineTxt(p,cur.line)} (${fmtPrice(cur.price)})</b></span>${p.model_home_margin!=null&&p.league==="nfl"?`<span>Model <b>${isTot(p)?p.model_home_margin:fmtLine(Math.round(-p.model_home_margin*(p.side_is_home?1:-1)*2)/2)}</b></span>`:""}</div>
     ${moves(p)}
     <p class="why">${esc(L.why||p.why)}</p>
+    ${injLine(p)}
     ${(p.edges||[]).length?`<ul class="edges">${p.edges.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
     ${flags?`<div class="flags">${flags}</div>`:""}
     <div class="actions">${action}${open}</div>
