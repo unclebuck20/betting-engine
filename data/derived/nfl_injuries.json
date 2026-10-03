@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-02T19:05:54.024814+00:00",
-  "previous_pull": "2026-10-02T01:51:22.441045+00:00",
-  "matched_absences": 81
+  "injury_pull": "2026-10-03T00:49:59.188461+00:00",
+  "previous_pull": "2026-10-02T19:05:54.024814+00:00",
+  "matched_absences": 59
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.77,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -19,39 +19,23 @@
      "points": 0.5,
      "updated": "2026-09-23T22:14Z",
      "note": "The Cardinals placed Johnson (neck) on injured reserve  Wednesday, Darren Urban of the team's official site reports."
-    },
-    {
-     "player": "Roy Lopez",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-01T00:14Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Walter Nolen III",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-01T00:14Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Hjalte Froholdt",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-01T00:13Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.27,
    "new_absences": []
   },
   "ATL": {
-   "adj_points": 0.06,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Kendal Daniels",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-02T21:19Z",
+     "note": "questionable"
+    },
     {
      "player": "Divine Deablo",
      "pos": "LB",
@@ -61,8 +45,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Kendal Daniels",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-02T21:19Z",
+     "note": "questionable"
+    }
+   ]
   },
   "BAL": {
    "adj_points": 0.72,
@@ -93,21 +86,13 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "BUF": {
-   "adj_points": 0.24,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
-    {
-     "player": "DJ Moore",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-02T17:03Z",
-     "note": "Moore (shoulder) is practicing in a non-contact jersey Friday, Sal Capaccio of WGR Sports Radio 550 Buffalo reports."
-    },
     {
      "player": "Christian Benford",
      "pos": "CB",
@@ -117,7 +102,7 @@
      "note": "Benford (toe) did not participate in practice Wednesday or Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "CAR": {
@@ -161,7 +146,7 @@
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 4.37,
+   "adj_points": 4.35,
    "qb_out": true,
    "absences": [
     {
@@ -175,25 +160,17 @@
     {
      "player": "Braxton Jones",
      "pos": "OL",
-     "status": "Doubtful",
-     "points": 0.3,
-     "updated": "2026-10-01T01:08Z",
-     "note": "Jones is week-to-week with a knee injury, Courtney Cronin of ESPN.com reports."
-    },
-    {
-     "player": "D'Andre Swift",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-02T16:54Z",
-     "note": "Swift (knee) is expected to practice Friday, Brad Biggs of the Chicago Tribune reports."
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-02T19:09Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.6,
+   "delta_since_last_pull": -0.02,
    "new_absences": []
   },
   "CIN": {
-   "adj_points": 0.83,
+   "adj_points": 0.64,
    "qb_out": false,
    "absences": [
     {
@@ -205,12 +182,12 @@
      "note": "The Bengals placed Davis (hamstring) on injured reserve Tuesday."
     },
     {
-     "player": "DJ Turner II",
-     "pos": "CB",
+     "player": "Bryan Cook",
+     "pos": "S",
      "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-01T20:33Z",
-     "note": "questionable"
+     "points": 0.07,
+     "updated": "2026-10-02T22:50Z",
+     "note": "Cook (ankle) is listed as questionable for Sunday's game against the Jaguars."
     },
     {
      "player": "Dalton Risner",
@@ -219,25 +196,9 @@
      "points": 0.07,
      "updated": "2026-09-30T20:19Z",
      "note": "questionable"
-    },
-    {
-     "player": "Bryan Cook",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-09-30T20:19Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jordan Battle",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-09-30T20:18Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   },
   "CLE": {
@@ -257,8 +218,8 @@
      "pos": "DT",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-02T04:10Z",
-     "note": "Graham exited the Cleveland locker room on crutches and with a brace on his left knee following Thursday's 27-24 win over Pittsburgh, Chris Easterling of the Akron Beacon Journal reports."
+     "updated": "2026-10-02T19:22Z",
+     "note": "Graham underwent an MRI on Friday that revealed he sustained an MCL and ankle sprain in Thursday night's game, Ian Rapoport of NFL Network reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -281,80 +242,64 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.21,
+   "adj_points": 0.47,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Ben Bartch",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-02T20:51Z",
+     "note": "out"
+    },
     {
      "player": "D.J. Reed",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-09-30T23:15Z",
-     "note": "Reed (ribs) was a limited participant in Wednesday's practice."
-    },
-    {
-     "player": "Ben Bartch",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-09-29T16:45Z",
-     "note": "questionable"
+     "updated": "2026-10-02T23:23Z",
+     "note": "Reed (ribs) is listed as questionable ahead of Sunday's game against the Panthers."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.35,
+   "adj_points": 0.46,
    "qb_out": false,
    "absences": [
     {
-     "player": "Lukas Van Ness",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-02T00:11Z",
-     "note": "Van Ness (shoulder) was limited in practice Thursday."
-    },
-    {
      "player": "Jacob Monk",
      "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-09-25T22:59Z",
-     "note": "Monk picked up an undisclosed injury toward the tail end of the Packers' 35-14 loss to the Falcons on Thursday, Rob Demovsky of ESPN.com reports."
-    },
-    {
-     "player": "Karl Brooks",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-09-30T21:11Z",
-     "note": "questionable"
+     "status": "Out",
+     "points": 0.4,
+     "updated": "2026-10-02T19:39Z",
+     "note": "out"
     },
     {
      "player": "Edgerrin Cooper",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-02T00:03Z",
-     "note": "Cooper (concussion/shoulder) practiced in a limited capacity Thursday."
+     "updated": "2026-10-02T22:23Z",
+     "note": "Cooper (concussion/shoulder) is listed as questionable for Sunday's game against the Buccaneers, Wes Hodkiewicz of the Packers' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.11,
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 0.39,
+   "adj_points": 0.43,
    "qb_out": false,
    "absences": [
     {
      "player": "Azeez Al-Shaair",
      "pos": "LB",
-     "status": "Doubtful",
-     "points": 0.21,
-     "updated": "2026-09-30T23:07Z",
-     "note": "Coach DeMeco Ryans said Wednesday that Al-Shaair is \"week-to-week\" with the groin injury he suffered during Sunday's game at Indianapolis, Jonathan M. Alexander of the Houston Chronicle reports."
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-02T23:06Z",
+     "note": "Al-Shaair (groin) is listed as out for Sunday's game against Dallas."
     },
     {
      "player": "Trent Brown",
@@ -373,7 +318,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.04,
    "new_absences": []
   },
   "IND": {
@@ -393,17 +338,9 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.33,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jakobi Meyers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-01T20:26Z",
-     "note": "Meyers (thumb) was a limited participant in Thursday's practice."
-    },
     {
      "player": "Montaric Brown",
      "pos": "CB",
@@ -411,85 +348,53 @@
      "points": 0.12,
      "updated": "2026-09-30T20:14Z",
      "note": "questionable"
-    },
-    {
-     "player": "Cole Van Lanen",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-09-30T20:15Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "KC": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "L'Jarius Sneed",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-09-30T21:05Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.21,
    "new_absences": []
   },
   "LV": {
-   "adj_points": 0.07,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Jackson Powers-Johnson",
      "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-09-29T00:31Z",
-     "note": "Powers-Johnson (groin) is being evaluated to reveal the extent of his injury, Ryan McFadden of ESPN.com reports."
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-02T19:51Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 0.23,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
     {
-     "player": "Justin Eboigbe",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-09-30T22:27Z",
-     "note": "questionable"
+     "player": "Kayode Awosika",
+     "pos": "G",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-02T20:37Z",
+     "note": "out"
     },
     {
      "player": "Derwin James Jr.",
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-02T01:00Z",
-     "note": "James (hamstring) was a non-participant in practice Thursday."
-    },
-    {
-     "player": "Kayode Awosika",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-09-29T16:45Z",
-     "note": "questionable"
+     "updated": "2026-10-02T22:55Z",
+     "note": "James (hamstring) is questionable for Sunday's game against the Seahawks."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.14,
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.69,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
@@ -497,31 +402,23 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-02T18:37Z",
-     "note": "out"
-    },
-    {
-     "player": "Josh Wallace",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-09-30T23:56Z",
-     "note": "questionable"
+     "updated": "2026-10-02T21:12Z",
+     "note": "Watson (shoulder) has been ruled out for Sunday's game against the Eagles, Nate Atkins of The Athletic reports."
     },
     {
      "player": "Colby Parkinson",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-01T23:31Z",
-     "note": "Parkinson (knee/shoulder) remained sidelined at Thursday's practice, Adam Grosbard of The Orange County Register reports."
+     "updated": "2026-10-02T19:41Z",
+     "note": "Parkinson (shoulder/knee) is questionable for Sunday's game against the Eagles, Stu Jackson of the Rams' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.08,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 0.9,
+   "adj_points": 0.8,
    "qb_out": false,
    "absences": [
     {
@@ -539,21 +436,13 @@
      "points": 0.3,
      "updated": "2026-09-28T20:10Z",
      "note": "The Dolphins placed Achane (knee) on injured reserve Monday."
-    },
-    {
-     "player": "Aaron Brewer",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-10-01T21:15Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": -0.1,
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.86,
+   "adj_points": 0.8,
    "qb_out": false,
    "absences": [
     {
@@ -571,17 +460,9 @@
      "points": 0.3,
      "updated": "2026-09-30T00:26Z",
      "note": "The Vikings placed Oliver (biceps) on injured reserve Tuesday, Craig Peters of the team's official site reports."
-    },
-    {
-     "player": "Blake Cashman",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-02T00:19Z",
-     "note": "Cashman (elbow) was limited in Thursday's practice session."
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   },
   "NE": {
@@ -593,8 +474,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-02T17:33Z",
-     "note": "out"
+     "updated": "2026-10-02T19:43Z",
+     "note": "Gonzalez (shoulder) has been ruled out for Sunday's game against the Bills, Mike Reiss of ESPN.com reports."
     },
     {
      "player": "Morgan Moses",
@@ -609,8 +490,8 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-09-29T16:45Z",
-     "note": "questionable"
+     "updated": "2026-10-02T22:02Z",
+     "note": "Woodson (shoulder) is listed as questionable for Sunday's game against Buffalo, Phil Perry of NBC Sports Boston reports."
     },
     {
      "player": "Christian Elliss",
@@ -621,11 +502,11 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.25,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
     {
@@ -637,27 +518,19 @@
      "note": "questionable"
     },
     {
-     "player": "Julian Blackmon",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-02T00:11Z",
-     "note": "Blackmon (calf) was a limited participant at the Saints' practice Thursday."
-    },
-    {
      "player": "Kaden Elliss",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-02T00:04Z",
-     "note": "Elliss (calf) did not participate at the Saints' practice Thursday."
+     "updated": "2026-10-02T23:42Z",
+     "note": "Elliss (calf) did not participate in Friday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.44,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
     {
@@ -667,25 +540,9 @@
      "points": 0.25,
      "updated": "2026-09-29T23:44Z",
      "note": "The Giants placed Burns (knee) on injured reserve Tuesday, Dan Salomone of the team's official site reports."
-    },
-    {
-     "player": "Andrew Thomas",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-02T01:23Z",
-     "note": "Thomas (groin) did not participate at the Giants' practice Thursday, Dan Salomone of the team's official site reports."
-    },
-    {
-     "player": "Tyler Nubin",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-01T23:43Z",
-     "note": "Nubin (calf) was a limited participant in Thursday's practice session, Dan Salomone of the Giants' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   },
   "NYJ": {
@@ -717,47 +574,39 @@
      "note": "Enagbare (knee) was unable to participate in practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.13,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.32,
+   "adj_points": 1.05,
    "qb_out": false,
    "absences": [
     {
      "player": "DeVonta Smith",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
+     "status": "Out",
+     "points": 0.5,
      "updated": "2026-10-02T16:28Z",
      "note": "Smith (hamstring) remained sidelined for Friday's practice, Zach Berman of The Athletic reports."
     },
     {
      "player": "Marcus Epps",
      "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-01T22:01Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Moro Ojomo",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-09-30T23:33Z",
-     "note": "questionable"
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-03T00:03Z",
+     "note": "Epps (groin) is listed as out for Sunday's game against the Rams."
     },
     {
      "player": "Zack Baun",
      "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-02T00:40Z",
-     "note": "Baun (concussion) did not practice Thursday."
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-02T23:49Z",
+     "note": "Baun (concussion) won't play in Sunday's game against the Rams."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.73,
    "new_absences": []
   },
   "PIT": {
@@ -777,17 +626,9 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.18,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Trent Williams",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-09-27T22:20Z",
-     "note": "Williams (neck) is questionable to return to Sunday's game against the Cardinals, Adam Schefter of ESPN reports."
-    },
     {
      "player": "Dre Greenlaw",
      "pos": "LB",
@@ -797,27 +638,11 @@
      "note": "Greenlaw (quadriceps) did not practice Thursday, Nick Wagoner of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "SEA": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Julian Love",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-01T00:17Z",
-     "note": "Love (calf) was a limited participant in Wednesday's practice, John Boyle of the team's official site reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "TB": {
-   "adj_points": 4.88,
+   "adj_points": 4.75,
    "qb_out": true,
    "absences": [
     {
@@ -842,30 +667,14 @@
      "status": "Out",
      "points": 0.25,
      "updated": "2026-10-02T18:10Z",
-     "note": "Bain (groin) has been ruled out for Sunday's games against the Packers, Scott Smith of the Buccaneers' official site reports."
-    },
-    {
-     "player": "Bucky Irving",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-01T20:34Z",
-     "note": "Irving (glute) remained limited at Thursday's practice."
-    },
-    {
-     "player": "Yaya Diaby",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-09-30T21:45Z",
-     "note": "questionable"
+     "note": "Bain (groin) has been ruled out for Sunday's game against the Packers, Scott Smith of the Buccaneers' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.57,
+   "delta_since_last_pull": -0.13,
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.3,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
     {
@@ -875,10 +684,27 @@
      "points": 0.3,
      "updated": "2026-09-30T00:57Z",
      "note": "The Titans placed Carmona (ankle) on injured reserve Tuesday, Jim Wyatt of the team's official site reports."
+    },
+    {
+     "player": "Kevin Winston Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-02T23:09Z",
+     "note": "Winston (shoulder) is questionable for Sunday's game against the Ravens."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Kevin Winston Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-02T23:09Z",
+     "note": "Winston (shoulder) is questionable for Sunday's game against the Ravens."
+    }
+   ]
   },
   "WAS": {
    "adj_points": 0.42,
@@ -901,17 +727,22 @@
      "note": "McLaurin (hamstring) was added to the injury report Friday and is listed as questionable for Sunday's game against the Colts, Nicki Jhabvala of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.02,
-   "new_absences": [
-    {
-     "player": "Terry McLaurin",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-02T17:06Z",
-     "note": "McLaurin (hamstring) was added to the injury report Friday and is listed as questionable for Sunday's game against the Colts, Nicki Jhabvala of The Athletic reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "SEA": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
+   "new_absences": []
+  },
+  "KC": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.12,
+   "new_absences": []
   }
  }
 }
