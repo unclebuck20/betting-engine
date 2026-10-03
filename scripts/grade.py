@@ -207,6 +207,11 @@ def main():
                                            and r["tier"] == "play"])},
         "learned": [],
     }
+    # the scout's record: every model pick it reviewed, graded as if bet (vetoes too), by verdict
+    sp = ROOT / "data" / "manual" / "scout.json"
+    verdicts = json.loads(sp.read_text()).get("picks", {}) if sp.exists() else {}
+    record["scout"] = {v: summarize([r for r in model_rows if verdicts.get(r["pick_key"], {}).get("verdict") == v])
+                       for v in ("agree", "caution", "veto")}
     pf = MODEL_DIR / "params.json"
     if pf.exists():
         st = json.loads(pf.read_text())

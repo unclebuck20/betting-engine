@@ -8,9 +8,10 @@ Layer 2 (model)   College: in-season PPA power ratings. Backtest 2023-25 (weeks 
                   NFL: efficiency ratings add nothing beyond the closing line in backtests, so they only
                   veto. NFL edge comes from price and from injury news the sharp line hasn't absorbed yet.
 Signals           Steam (sharp line moved, your book hasn't), stale sharp price, SP+ disagreement.
-College injuries  No feed exists. A scheduled Claude session (handbook/CFB_INJURY_CHECK.md) searches news and
-                  conference availability reports before each slate and writes data/manual/cfb_injury_check.json;
-                  a key starter out on our side that the line hasn't absorbed holds the pick.
+Slate review      A scheduled Claude session (handbook/SLATE_REVIEW.md) adds judgment the numbers can't:
+                  scout verdicts on every published pick (agree / caution = half size / veto = no bet; never adds
+                  a bet; graded separately) in data/manual/scout.json, and the college injury check (no feed
+                  exists) in data/manual/cfb_injury_check.json: a key starter out on our side, unpriced, holds it.
 Sizing            Quarter Kelly on EV, 0.5u steps, per-league cap, per-slate exposure cap.
 Tracking          Every non-pass card goes to data/picks/model_log.csv (the model's record, graded on CLV).
                   Picks that reach the page are "published" and stay visible with a live status until kickoff.
@@ -110,7 +111,7 @@ def sp_ratings():
 
 
 def cfb_injury_check():
-    """{odds event id: check} from the pre-slate college injury check (handbook/CFB_INJURY_CHECK.md)."""
+    """{odds event id: check} from the college injury check (handbook/SLATE_REVIEW.md)."""
     p = ROOT / "data" / "manual" / "cfb_injury_check.json"
     if not p.exists():
         return {}
@@ -119,6 +120,27 @@ def cfb_injury_check():
     except (json.JSONDecodeError, AttributeError) as e:
         print(f"::warning::cfb_injury_check.json unreadable ({e}); ignoring it")
         return {}
+
+
+def apply_scout(cards):
+    """Scout verdicts (handbook/SLATE_REVIEW.md): caution halves the size, veto makes it no bet. Never adds."""
+    p = ROOT / "data" / "manual" / "scout.json"
+    try:
+        scout = json.loads(p.read_text()).get("picks", {}) if p.exists() else {}
+    except (json.JSONDecodeError, AttributeError) as e:
+        print(f"::warning::scout.json unreadable ({e}); ignoring it")
+        return
+    for c in cards:
+        s = scout.get(c["pick_key"])
+        if not s or s.get("verdict") not in ("agree", "caution", "veto"):
+            continue
+        c["scout"] = {"verdict": s["verdict"], "reason": s.get("reason", ""), "at": s.get("scouted_at"),
+                      "sources": [u for u in s.get("sources", []) if str(u).startswith("http")][:3]}
+        if s["verdict"] == "veto":
+            c["vetoed"], c["tier"], c["units"] = True, "pass", 0.0
+        elif s["verdict"] == "caution" and c["units"] > 0:
+            c["units_pre_scout"] = c["units"]
+            c["units"] = max(0.5, round_half(c["units"] / 2))
 
 
 def previous_snapshot(league, now_pulled):
@@ -521,9 +543,11 @@ def update_published(pub, cards, events, ctx, now):
                             "confidence": c["confidence"] if c else None}
         floor = p.get("price_floor")
         if c:
-            p["inj_check"] = c.get("inj_check")
+            p["inj_check"], p["scout"] = c.get("inj_check"), c.get("scout")
         if c and c.get("held"):
             p["status"] = "held"
+        elif c and c.get("vetoed"):
+            p["status"] = "vetoed"
         elif c and c["tier"] != "pass":
             p["status"] = "live"
         elif cur and floor is not None and (cur["line"] > floor if p.get("market") == "total" and p["side"] == "Over"
@@ -599,6 +623,8 @@ def main():
                     c["odds_pulled_at"] = snap["pulled_at"]
                     cards.append(c)
 
+    apply_scout(cards)
+
     if names.misses:
         miss = sorted(names.misses)
         n_cfb = sum(1 for c in cards if c["league"] == "cfb")
@@ -638,7 +664,7 @@ def main():
         board[slot]["cap_applied_from"] = apply_slate_cap(mine, P["slate_cap_units"])
         board[slot]["picks"] = sorted(
             mine,
-            key=lambda p: ({"live": 0, "held": 1, "faded": 2, "moved": 3, "trimmed": 4, "off_board": 5}.get(p["status"], 5),
+            key=lambda p: ({"live": 0, "held": 1, "vetoed": 2, "faded": 3, "moved": 4, "trimmed": 5, "off_board": 6}.get(p["status"], 5),
                            0 if (p.get("latest") or p)["tier"] == "play" else 1, -p["ev_pct"]))
         board[slot]["units_live"] = sum(p["units"] for p in mine if p["status"] == "live")
     pub_path.write_text(json.dumps(pub, indent=1))

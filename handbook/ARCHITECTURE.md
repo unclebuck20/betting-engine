@@ -10,6 +10,7 @@ nfl_features.py  current-season play-by-play -> per-game team and QB tables
 nfl_model.py  weekly ratings + QB ratings -> model spread and total for upcoming games
 picks.py      cards: market + model + signals + rails + sizing; published-pick tracking; model log
 grade.py      closing line, CLV, result, units for model picks and logged bets; record.json
+review.py     (scheduled Claude session, not the Action) scout verdicts + college injury check -> data/manual/
 calibrate.py  weekly: nudge weights/thresholds from CLV (min samples, small steps, bounds)
 commit        data + docs/data -> GitHub Pages redeploys the site
 ```
@@ -36,7 +37,7 @@ Bets: **Took it** opens a pre-filled `BET:` GitHub issue → `log-bet.yml` → `
 - Size: quarter Kelly on EV, 0.5u steps, 2u college / 3u NFL; slate cap 8u (scale, then trim weakest).
 - Slots: Thu, Fri = best single; Sat (college) and Sun (NFL early/late) = up to 10; SNF, MNF = best single.
 - Signals: steam (sharp moved ≥1 pt since the last snapshot, your book hasn't), stale sharp price, NFL injury news not yet in the sharp line.
-- College injury check: a scheduled Claude session writes `data/manual/cfb_injury_check.json` before each slate (`CFB_INJURY_CHECK.md`); a key starter out on our side, not yet priced, holds the pick (status *held*).
+- Slate review (`SLATE_REVIEW.md`), a scheduled Claude session: **scout** verdicts on every published pick (agree / caution = half size / veto = no bet; never adds; graded separately on CLV) and the **college injury check** (key starter out on our side, not yet priced → *held*). Files in `data/manual/`.
 - Published picks stay on the page until kickoff with a live status (still good / edge gone / line moved past floor / trimmed).
 
 ## Learning loop
