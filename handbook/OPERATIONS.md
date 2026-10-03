@@ -13,6 +13,13 @@ The workflow wakes at :11 and :41 every hour (GitHub delays jobs scheduled at :0
 - **Nothing due:** the run exits in seconds.
 A push to `scripts/` or a manual run (Actions → refresh → Run workflow) forces a full pull.
 
+**GitHub's own scheduler is unreliable** (on Oct 1-3 it skipped or delayed most scheduled runs by hours), so an outside service pokes the workflow every 30 minutes:
+- cron-job.org job, every 30 min: `POST https://api.github.com/repos/unclebuck20/betting-engine/actions/workflows/refresh.yml/dispatches`
+- Headers: `Accept: application/vnd.github+json`, `Authorization: Bearer <fine-grained token>`, `X-GitHub-Api-Version: 2022-11-28`
+- Body: `{"ref":"main","inputs":{"force":"false"}}`
+- Token: GitHub → Settings → Developer settings → Fine-grained tokens; only the `betting-engine` repo; permission **Actions: Read and write**. Renew before it expires.
+- The scheduler still decides what's due, so extra pokes cost nothing.
+
 ## Secrets and settings
 - Repo secrets: `ODD_API_KEY` (The Odds API), `CFBD_API_KEY`.
 - Pages: Settings → Pages → Deploy from branch → `main` / `/docs`.
@@ -26,6 +33,8 @@ A push to `scripts/` or a manual run (Actions → refresh → Run workflow) forc
 | College game with no model rating | Annotation "college names not matched" | Add the name to CFBD alternate names handling in `common.py` |
 | Bet didn't log | Issue still open on GitHub | Title must start with `BET:` and be opened by the repo owner; re-submit or close and re-tap |
 | Credits running low | Fetch notice "credits left" | Lower pre-kickoff pulls or drop NFL totals temporarily |
+| Runs stopped happening | Actions tab: no runs for hours | Check the cron-job.org job's history and that the token hasn't expired |
+| A source is down (e.g. CFBD 525) | `::error::` for that source; others still written | Nothing to do; last good data for that source stays live |
 | Kickoff times off by an hour | Should not happen (zoneinfo) | Cron runs shift an hour in PT after Nov 1; the scheduler doesn't care |
 
 ## Making changes
