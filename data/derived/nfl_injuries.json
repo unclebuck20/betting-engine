@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-04T17:30:28.720798+00:00",
-  "previous_pull": "2026-10-04T16:00:32.216017+00:00",
-  "matched_absences": 51
+  "injury_pull": "2026-10-04T18:22:06.521968+00:00",
+  "previous_pull": "2026-10-04T17:30:28.720798+00:00",
+  "matched_absences": 55
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.5,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
@@ -19,10 +19,27 @@
      "points": 0.5,
      "updated": "2026-09-23T22:14Z",
      "note": "The Cardinals placed Johnson (neck) on injured reserve  Wednesday, Darren Urban of the team's official site reports."
+    },
+    {
+     "player": "Andrew Wingard",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-04T17:34Z",
+     "note": "Wingard suffered a knee injury during Sunday's Week 4 matchup against the Giants and is questionable to return."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Andrew Wingard",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-04T17:34Z",
+     "note": "Wingard suffered a knee injury during Sunday's Week 4 matchup against the Giants and is questionable to return."
+    }
+   ]
   },
   "ATL": {
    "adj_points": 0.06,
@@ -41,7 +58,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.6,
+   "adj_points": 0.72,
    "qb_out": false,
    "absences": [
     {
@@ -59,13 +76,30 @@
      "points": 0.25,
      "updated": "2026-10-04T15:58Z",
      "note": "Hendrickson (finger) is inactive for Sunday's game against the Titans."
+    },
+    {
+     "player": "Marlon Humphrey",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T17:55Z",
+     "note": "Humphrey (calf) is questionable to return to Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Marlon Humphrey",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T17:55Z",
+     "note": "Humphrey (calf) is questionable to return to Sunday's game against the Titans."
+    }
+   ]
   },
   "BUF": {
-   "adj_points": 0.5,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
@@ -75,10 +109,27 @@
      "points": 0.5,
      "updated": "2026-10-04T16:13Z",
      "note": "Benford (toe) is inactive for Sunday's game against the Patriots."
+    },
+    {
+     "player": "DJ Moore",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T18:13Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "DJ Moore",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T18:13Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.92,
@@ -137,7 +188,7 @@
    "new_absences": []
   },
   "CIN": {
-   "adj_points": 0.8,
+   "adj_points": 0.92,
    "qb_out": false,
    "absences": [
     {
@@ -155,10 +206,27 @@
      "points": 0.3,
      "updated": "2026-10-04T15:53Z",
      "note": "Cook (ankle) is inactive for Sunday's Week 4 tilt against Jacksonville."
+    },
+    {
+     "player": "Ja'Marr Chase",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T17:57Z",
+     "note": "Chase is under evaluation for a possible concussion during Sunday's game versus the Jaguars."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Ja'Marr Chase",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T17:57Z",
+     "note": "Chase is under evaluation for a possible concussion during Sunday's game versus the Jaguars."
+    }
+   ]
   },
   "CLE": {
    "adj_points": 0.47,
@@ -529,21 +597,12 @@
      "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-04T17:19Z",
-     "note": "Barkley (lower body) made his way to the sideline slowly and then entered the medical tent during the first quarter of Sunday's game against the Rams, Olivia Re"
+     "updated": "2026-10-04T17:26Z",
+     "note": "Barkley suffered a hamstring injury during Sunday's game against the Rams, Olivia Reiner of the Philadelphia Inquirer reports."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Saquon Barkley",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T17:19Z",
-     "note": "Barkley (lower body) made his way to the sideline slowly and then entered the medical tent during the first quarter of Sunday's game against the Rams, Olivia Re"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PIT": {
    "adj_points": 0.42,
@@ -634,8 +693,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-04T12:02Z",
-     "note": "McLaurin (hamstring) is inactive for Sunday's game against the Colts in London."
+     "updated": "2026-10-04T17:47Z",
+     "note": "Head coach Dan Quinn said McLaurin (hamstring) \"pushed to play\" before being deemed inactive for Sunday's game against the Colts in London, Tashan Reed of The W"
     },
     {
      "player": "Nick Cross",
@@ -654,17 +713,8 @@
      "note": "Reaves (finger) is questionable to return to Sunday's game against the Colts."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Jeremy Reaves",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T16:02Z",
-     "note": "Reaves (finger) is questionable to return to Sunday's game against the Colts."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   }
  }
 }
