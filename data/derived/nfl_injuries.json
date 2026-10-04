@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-04T22:30:23.601135+00:00",
-  "previous_pull": "2026-10-04T21:00:29.112923+00:00",
-  "matched_absences": 71
+  "injury_pull": "2026-10-04T23:30:30.419401+00:00",
+  "previous_pull": "2026-10-04T22:30:23.601135+00:00",
+  "matched_absences": 72
  },
  "teams": {
   "ARI": {
@@ -101,17 +101,8 @@
      "note": "Humphrey (calf) has been ruled out for the rest of Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Ronnie Stanley",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T21:22Z",
-     "note": "Stanley (toe) was able to complete Sunday's 24-18 win over Tennessee, Jonas Shaffer of TheBaltimoreBanner.com reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "BUF": {
    "adj_points": 0.62,
@@ -134,13 +125,21 @@
      "note": "Moore (shoulder) is considered doubtful to return to Sunday's contest versus the Patriots."
     }
    ],
-   "delta_since_last_pull": -0.3,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 0.92,
+   "adj_points": 1.3,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Jalen Coker",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-04T23:00Z",
+     "note": "Coker (quadriceps) is inactive for Sunday's game against the Lions, Darin Gantt of the Panthers' official site reports."
+    },
     {
      "player": "Jaycee Horn",
      "pos": "CB",
@@ -154,19 +153,11 @@
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-03T00:58Z",
-     "note": "Lewis (elbow) has been ruled out for Sunday's game against the Lions, Alex Zietlow of The Charlotte Observer reports."
-    },
-    {
-     "player": "Jalen Coker",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T11:26Z",
-     "note": "Coker (quadriceps) is unlikely to suit up for Sunday night's game against the Lions, Adam Schefter of ESPN reports."
+     "updated": "2026-10-04T23:01Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "CHI": {
@@ -274,32 +265,40 @@
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 0.12,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
      "player": "Riley Moss",
      "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-04T22:52Z",
+     "note": "Moss (ribs) won't return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
+    },
+    {
+     "player": "Pat Bryant",
+     "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-04T22:21Z",
-     "note": "questionable"
+     "updated": "2026-10-04T23:12Z",
+     "note": "Bryant (ankle) is questionable to return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
+   "delta_since_last_pull": 0.5,
    "new_absences": [
     {
-     "player": "Riley Moss",
-     "pos": "CB",
+     "player": "Pat Bryant",
+     "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-04T22:21Z",
-     "note": "questionable"
+     "updated": "2026-10-04T23:12Z",
+     "note": "Bryant (ankle) is questionable to return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
     }
    ]
   },
   "DET": {
-   "adj_points": 0.47,
+   "adj_points": 0.35,
    "qb_out": false,
    "absences": [
     {
@@ -307,19 +306,11 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-03T01:20Z",
-     "note": "Bartch (foot) has been ruled out for Sunday's game against the Panthers."
-    },
-    {
-     "player": "D.J. Reed",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-02T23:23Z",
-     "note": "Reed (ribs) is listed as questionable ahead of Sunday's game against the Panthers."
+     "updated": "2026-10-04T23:05Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "GB": {
@@ -447,17 +438,8 @@
      "note": "Nailor (concussion) has been ruled out for the remainder of Sunday's contest against the Chiefs."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Jalen Nailor",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T22:16Z",
-     "note": "Nailor (concussion) has been ruled out for the remainder of Sunday's contest against the Chiefs."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LAC": {
    "adj_points": 0.72,
@@ -484,21 +466,12 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-04T21:57Z",
-     "note": "Alt (neck) is questionable to return to Sunday's contest against Seattle."
+     "updated": "2026-10-04T22:33Z",
+     "note": "Alt (neck) has been ruled out for the remainder of Sunday's matchup with the Seahawks."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Joe Alt",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T21:57Z",
-     "note": "Alt (neck) is questionable to return to Sunday's contest against Seattle."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.8,
@@ -553,20 +526,11 @@
      "note": "Trader (knee) is questionable to return to Sunday's game against Minnesota."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Dante Trader Jr.",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T21:13Z",
-     "note": "Trader (knee) is questionable to return to Sunday's game against Minnesota."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.87,
+   "adj_points": 0.99,
    "qb_out": false,
    "absences": [
     {
@@ -586,6 +550,14 @@
      "note": "The Vikings placed Oliver (biceps) on injured reserve Tuesday, Craig Peters of the team's official site reports."
     },
     {
+     "player": "Christian Darrisaw",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T22:39Z",
+     "note": "Darrisaw (head) is questionable to return to Sunday's game against Miami."
+    },
+    {
      "player": "Donovan Jackson",
      "pos": "G",
      "status": "Questionable",
@@ -594,8 +566,17 @@
      "note": "Jackson (knee) has been ruled out for the rest of Sunday's contest against the Dolphins."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Christian Darrisaw",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T22:39Z",
+     "note": "Darrisaw (head) is questionable to return to Sunday's game against Miami."
+    }
+   ]
   },
   "NE": {
    "adj_points": 0.62,
