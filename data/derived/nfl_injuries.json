@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-04T18:22:06.521968+00:00",
-  "previous_pull": "2026-10-04T17:30:28.720798+00:00",
-  "matched_absences": 55
+  "injury_pull": "2026-10-04T19:30:26.652513+00:00",
+  "previous_pull": "2026-10-04T18:22:06.521968+00:00",
+  "matched_absences": 61
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.57,
+   "adj_points": 0.66,
    "qb_out": false,
    "absences": [
     {
@@ -21,6 +21,14 @@
      "note": "The Cardinals placed Johnson (neck) on injured reserve  Wednesday, Darren Urban of the team's official site reports."
     },
     {
+     "player": "Isaiah Adams",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-04T18:56Z",
+     "note": "questionable"
+    },
+    {
      "player": "Andrew Wingard",
      "pos": "S",
      "status": "Questionable",
@@ -29,15 +37,15 @@
      "note": "Wingard suffered a knee injury during Sunday's Week 4 matchup against the Giants and is questionable to return."
     }
    ],
-   "delta_since_last_pull": 0.07,
+   "delta_since_last_pull": 0.09,
    "new_absences": [
     {
-     "player": "Andrew Wingard",
-     "pos": "S",
+     "player": "Isaiah Adams",
+     "pos": "OL",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T17:34Z",
-     "note": "Wingard suffered a knee injury during Sunday's Week 4 matchup against the Giants and is questionable to return."
+     "points": 0.09,
+     "updated": "2026-10-04T18:56Z",
+     "note": "questionable"
     }
    ]
   },
@@ -58,9 +66,17 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.72,
+   "adj_points": 1.72,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Lamar Jackson",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-10-04T18:53Z",
+     "note": "Jackson sustained an ankle injury during Sunday's game against the Titans, Ryan Mink of the Ravens' official site reports."
+    },
     {
      "player": "Jovaughn Gwyn",
      "pos": "OL",
@@ -82,24 +98,24 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-04T17:55Z",
-     "note": "Humphrey (calf) is questionable to return to Sunday's game against the Titans."
+     "updated": "2026-10-04T19:18Z",
+     "note": "Humphrey (calf) has been ruled out for the rest of Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.12,
+   "delta_since_last_pull": 1.0,
    "new_absences": [
     {
-     "player": "Marlon Humphrey",
-     "pos": "CB",
+     "player": "Lamar Jackson",
+     "pos": "QB",
      "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T17:55Z",
-     "note": "Humphrey (calf) is questionable to return to Sunday's game against the Titans."
+     "points": 1.0,
+     "updated": "2026-10-04T18:53Z",
+     "note": "Jackson sustained an ankle injury during Sunday's game against the Titans, Ryan Mink of the Ravens' official site reports."
     }
    ]
   },
   "BUF": {
-   "adj_points": 0.62,
+   "adj_points": 0.92,
    "qb_out": false,
    "absences": [
     {
@@ -113,23 +129,14 @@
     {
      "player": "DJ Moore",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T18:13Z",
-     "note": "questionable"
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-10-04T18:45Z",
+     "note": "Moore (shoulder) is considered doubtful to return to Sunday's contest versus the Patriots."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "DJ Moore",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T18:13Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.3,
+   "new_absences": []
   },
   "CAR": {
    "adj_points": 0.92,
@@ -188,9 +195,17 @@
    "new_absences": []
   },
   "CIN": {
-   "adj_points": 0.92,
+   "adj_points": 1.3,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Ja'Marr Chase",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-04T18:47Z",
+     "note": "Chase (concussion) has been ruled out for the rest of Sunday's game against the Jaguars."
+    },
     {
      "player": "Jalen Davis",
      "pos": "CB",
@@ -206,27 +221,10 @@
      "points": 0.3,
      "updated": "2026-10-04T15:53Z",
      "note": "Cook (ankle) is inactive for Sunday's Week 4 tilt against Jacksonville."
-    },
-    {
-     "player": "Ja'Marr Chase",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T17:57Z",
-     "note": "Chase is under evaluation for a possible concussion during Sunday's game versus the Jaguars."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Ja'Marr Chase",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T17:57Z",
-     "note": "Chase is under evaluation for a possible concussion during Sunday's game versus the Jaguars."
-    }
-   ]
+   "delta_since_last_pull": 0.38,
+   "new_absences": []
   },
   "CLE": {
    "adj_points": 0.47,
@@ -293,7 +291,7 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.4,
+   "adj_points": 0.46,
    "qb_out": false,
    "absences": [
     {
@@ -303,10 +301,27 @@
      "points": 0.4,
      "updated": "2026-10-04T15:31Z",
      "note": "inactive"
+    },
+    {
+     "player": "Edgerrin Cooper",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-04T19:07Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Edgerrin Cooper",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-04T19:07Z",
+     "note": "questionable"
+    }
+   ]
   },
   "HOU": {
    "adj_points": 0.25,
@@ -341,7 +356,7 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.5,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
@@ -351,10 +366,27 @@
      "points": 0.5,
      "updated": "2026-10-04T16:16Z",
      "note": "Brown (hamstring) is inactive for Sunday's game against the Bengals."
+    },
+    {
+     "player": "Eric Murray",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-04T18:59Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Eric Murray",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-04T18:59Z",
+     "note": "questionable"
+    }
+   ]
   },
   "LV": {
    "adj_points": 0.3,
@@ -365,35 +397,35 @@
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-02T19:51Z",
-     "note": "out"
+     "updated": "2026-10-04T18:58Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 0.37,
+   "adj_points": 0.6,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Derwin James Jr.",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-04T19:02Z",
+     "note": "inactive"
+    },
     {
      "player": "Kayode Awosika",
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-02T20:37Z",
-     "note": "out"
-    },
-    {
-     "player": "Derwin James Jr.",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-02T22:55Z",
-     "note": "James (hamstring) is questionable for Sunday's game against the Seahawks."
+     "updated": "2026-10-04T19:02Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "LA": {
@@ -429,8 +461,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-02T15:08Z",
-     "note": "Douglas (ankle) has been ruled out for Sunday's game against the Vikings, Marcel Louis-Jacques of ESPN.com reports."
+     "updated": "2026-10-04T18:38Z",
+     "note": "inactive"
     },
     {
      "player": "De'Von Achane",
@@ -453,8 +485,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-03T13:33Z",
-     "note": "Jefferson (ankle) has been already been ruled out for Sunday's game against the Dolphins, but the Vikings are hopeful that the superstar wide receiver will retu"
+     "updated": "2026-10-04T18:39Z",
+     "note": "inactive"
     },
     {
      "player": "Josh Oliver",
@@ -469,7 +501,7 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.5,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
@@ -479,10 +511,27 @@
      "points": 0.5,
      "updated": "2026-10-04T15:45Z",
      "note": "inactive"
+    },
+    {
+     "player": "Mack Hollins",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T19:01Z",
+     "note": "Hollins (calf) is questionable to return to Sunday's game against the Bills."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Mack Hollins",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T19:01Z",
+     "note": "Hollins (calf) is questionable to return to Sunday's game against the Bills."
+    }
+   ]
   },
   "NO": {
    "adj_points": 0.75,
@@ -525,7 +574,7 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 1.35,
+   "adj_points": 1.44,
    "qb_out": false,
    "absences": [
     {
@@ -551,13 +600,30 @@
      "points": 0.35,
      "updated": "2026-10-04T15:35Z",
      "note": "inactive"
+    },
+    {
+     "player": "Jarvis Brownlee Jr.",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-04T19:19Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Jarvis Brownlee Jr.",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-04T19:19Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PHI": {
-   "adj_points": 1.62,
+   "adj_points": 1.97,
    "qb_out": false,
    "absences": [
     {
@@ -577,6 +643,14 @@
      "note": "Smith (hamstring), who has been ruled out for Sunday's game against the Rams, is viewed \"at very best, questionable\" for the Eagles' Week 5 game versus the Jagu"
     },
     {
+     "player": "Saquon Barkley",
+     "pos": "RB",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-04T18:23Z",
+     "note": "Barkley (hamstring) has been ruled out for the rest of Sunday's game against the Rams, Zach Berman of The Athletic reports."
+    },
+    {
      "player": "Marcus Epps",
      "pos": "S",
      "status": "Out",
@@ -593,16 +667,25 @@
      "note": "inactive"
     },
     {
-     "player": "Saquon Barkley",
-     "pos": "RB",
+     "player": "Quinyon Mitchell",
+     "pos": "CB",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T17:26Z",
-     "note": "Barkley suffered a hamstring injury during Sunday's game against the Rams, Olivia Reiner of the Philadelphia Inquirer reports."
+     "points": 0.12,
+     "updated": "2026-10-04T19:06Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.35,
+   "new_absences": [
+    {
+     "player": "Quinyon Mitchell",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T19:06Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.42,
@@ -615,22 +698,6 @@
      "points": 0.42,
      "updated": "2026-10-04T13:10Z",
      "note": "The Steelers could be without Dean for \"a couple of weeks\" after he exited Thursday's 27-24 loss to the Browns due to an ankle injury, Ian Rapoport of NFL Netwo"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "SF": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Dre Greenlaw",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-04T14:15Z",
-     "note": "Greenlaw (quadriceps) is expected to play against the Broncos on Sunday, Jeremy Fowler of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -714,6 +781,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "SF": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
