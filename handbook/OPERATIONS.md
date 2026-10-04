@@ -45,4 +45,4 @@ Open a Claude Code session on `unclebuck20/betting-engine`. Rules that keep the 
 3. Don't commit locally built data files; let the Action build what ships.
 4. Run `tests/smoke_test.py` after page changes.
 5. Update this handbook when behavior changes.
-6. The Claude Project reads the handbook live from GitHub, so handbook edits need nothing else. If `PROJECT_INSTRUCTIONS.md` changes, tell Garrett to re-paste it into the Project's instructions.
+6. The Claude Project reads `handbook/INDEX.md` live from GitHub. When adding, renaming or removing a handbook or data file, update INDEX.md in the same commit. Avoid changing `PROJECT_INSTRUCTIONS.md`; if it must change, tell Garrett to re-paste it.
