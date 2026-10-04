@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-10-04T00:48:08.302822+00:00",
+  "built_at": "2026-10-04T01:30:58.371748+00:00",
   "nfl_history_games": 5480,
   "cfb_history_games": 3730,
-  "games": 39
+  "games": 38
  },
  "games": [
   {
@@ -876,63 +876,32 @@
   },
   {
    "league": "cfb",
-   "id": "23025b717a93bdd8f30424e90a97d68f",
-   "matchup": "Fresno State Bulldogs @ Washington State Cougars",
-   "kickoff_pt": "Sat Oct 3 6:30 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 1.0,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -2.0,
-     "price": -101,
-     "ev": -0.0016
-    },
-    {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -2.5,
-     "price": -105,
-     "ev": -0.0083
-    },
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -2.5,
-     "price": 100,
-     "ev": -0.0159
-    }
-   ]
-  },
-  {
-   "league": "cfb",
    "id": "4ec93b02d04c2a019ebd6f4ccd9f7af5",
    "matchup": "Baylor Bears @ Arizona State Sun Devils",
    "kickoff_pt": "Sat Oct 3 7:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 3.9,
+   "fair_home_margin": 4.2,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -3.5,
      "price": -111,
-     "ev": 0.0049
+     "ev": -0.0143
+    },
+    {
+     "book": "betmgm",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -112,
+     "ev": -0.0184
     },
     {
      "book": "fanduel",
      "side": "away",
      "home_line": -3.5,
      "price": -114,
-     "ev": -0.0076
-    },
-    {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -3.5,
-     "price": -115,
-     "ev": -0.0117
+     "ev": -0.0266
     }
    ]
   },
@@ -942,28 +911,28 @@
    "matchup": "Texas State Bobcats @ San Diego State Aztecs",
    "kickoff_pt": "Sat Oct 3 7:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -9.7,
+   "fair_home_margin": -12.8,
    "best": [
     {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": 10.5,
+     "price": 100,
+     "ev": -0.0036
+    },
+    {
      "book": "lowvig",
-     "side": "home",
+     "side": "away",
      "home_line": 10.0,
      "price": -106,
-     "ev": 0.0142
+     "ev": -0.0085
     },
     {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": 8.5,
-     "price": 105,
-     "ev": 0.0095
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": 10.0,
-     "price": -110,
-     "ev": -0.0029
+     "book": "fanduel",
+     "side": "away",
+     "home_line": 9.5,
+     "price": -115,
+     "ev": -0.025
     }
    ]
   },
@@ -1004,28 +973,28 @@
    "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
    "kickoff_pt": "Sat Oct 3 8:59 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 3.3,
+   "fair_home_margin": 2.8,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -3.0,
-     "price": 101,
-     "ev": -0.001
-    },
     {
      "book": "espnbet",
      "side": "away",
      "home_line": -3.5,
      "price": -120,
-     "ev": -0.0027
+     "ev": 0.0141
     },
     {
-     "book": "hardrockbet",
+     "book": "betmgm",
+     "side": "away",
+     "home_line": -3.0,
+     "price": -110,
+     "ev": -0.0158
+    },
+    {
+     "book": "lowvig",
      "side": "home",
-     "home_line": -2.5,
-     "price": -120,
-     "ev": -0.0128
+     "home_line": -3.0,
+     "price": 101,
+     "ev": -0.0229
     }
    ]
   },
