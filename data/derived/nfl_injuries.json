@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-04T06:30:28.150564+00:00",
-  "previous_pull": "2026-10-04T04:30:28.097307+00:00",
-  "matched_absences": 56
+  "injury_pull": "2026-10-04T10:00:28.875591+00:00",
+  "previous_pull": "2026-10-04T06:30:28.150564+00:00",
+  "matched_absences": 57
  },
  "teams": {
   "ARI": {
@@ -50,7 +50,7 @@
      "status": "Injured Reserve",
      "points": 0.35,
      "updated": "2026-10-04T00:38Z",
-     "note": "The Ravens moved Gwyn (lower leg) to injured reserve Saturday."
+     "note": "The Ravens moved Gwyn (ankle) to injured reserve Saturday."
     },
     {
      "player": "Trey Hendrickson",
@@ -361,7 +361,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.57,
+   "adj_points": 0.63,
    "qb_out": false,
    "absences": [
     {
@@ -379,10 +379,27 @@
      "points": 0.07,
      "updated": "2026-10-02T19:41Z",
      "note": "Parkinson (shoulder/knee) is questionable for Sunday's game against the Eagles, Stu Jackson of the Rams' official site reports."
+    },
+    {
+     "player": "Josaiah Stewart",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-04T07:36Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Josaiah Stewart",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-04T07:36Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIA": {
    "adj_points": 0.8,
@@ -665,17 +682,9 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.72,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Terry McLaurin",
-     "pos": "WR",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-10-03T14:42Z",
-     "note": "McLaurin (hamstring) is expected to miss Sunday's game against the Colts in London, Ben Standig of The Team 980 Washington D.C. reports."
-    },
     {
      "player": "Nick Cross",
      "pos": "S",
@@ -683,9 +692,17 @@
      "points": 0.3,
      "updated": "2026-09-30T02:02Z",
      "note": "Cross (illness) won't travel to London with the Commanders and has been ruled out for Sunday's matchup against the Colts."
+    },
+    {
+     "player": "Terry McLaurin",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-03T14:42Z",
+     "note": "McLaurin (hamstring) is expected to miss Sunday's game against the Colts in London, Ben Standig of The Team 980 Washington D.C. reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.3,
    "new_absences": []
   }
  }
