@@ -3,15 +3,23 @@
   "season": 2026,
   "starters_identified": 597,
   "teams_with_qb": 29,
-  "injury_pull": "2026-10-05T20:40:41.279985+00:00",
-  "previous_pull": "2026-10-05T17:30:33.898277+00:00",
-  "matched_absences": 47
+  "injury_pull": "2026-10-05T22:30:31.379203+00:00",
+  "previous_pull": "2026-10-05T20:40:41.279985+00:00",
+  "matched_absences": 48
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.25,
+   "adj_points": 0.51,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Paris Johnson Jr.",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-05T21:42Z",
+     "note": "out"
+    },
     {
      "player": "Isaiah Adams",
      "pos": "OL",
@@ -19,14 +27,6 @@
      "points": 0.09,
      "updated": "2026-10-05T00:47Z",
      "note": "Adams suffered an ankle injury in Sunday's loss to the Giants, Theo Mackie of The Arizona Republic reports."
-    },
-    {
-     "player": "Paris Johnson Jr.",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-04T21:01Z",
-     "note": "Cardinals coach Mike LaFleur said that Johnson is dealing with a biceps injury after Sunday's 36-24 loss to the Giants, Darren Urban of the team's official site"
     },
     {
      "player": "Andrew Wingard",
@@ -37,7 +37,7 @@
      "note": "Wingard (knee) has been ruled out for the rest of Sunday's game against the Giants."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "ATL": {
@@ -65,8 +65,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-10-05T13:52Z",
-     "note": "Jackson (ankle) will undergo an MRI on Monday and is considered day-to-day after exiting Sunday's 24-18 win over the Titans, but the Ravens are hopeful he'll be"
+     "updated": "2026-10-05T20:57Z",
+     "note": "Head coach Jesse Minter said Monday that he's uncertain whether Jackson (ankle) will be ready to play in Sunday's game against the Falcons, Jamison Hensley of E"
     },
     {
      "player": "Jovaughn Gwyn",
@@ -313,16 +313,16 @@
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 0.93,
+   "adj_points": 1.01,
    "qb_out": false,
    "absences": [
     {
      "player": "Rashawn Slater",
      "pos": "T",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-10-05T16:40Z",
-     "note": "doubtful"
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-04T23:28Z",
+     "note": "Slater (ankle) is questionable to return to Sunday's game against the Seahawks."
     },
     {
      "player": "Derwin James Jr.",
@@ -349,8 +349,33 @@
      "note": "Penning (head) exited Sunday's contest against Seattle in the fourth quarter."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.08,
    "new_absences": []
+  },
+  "LA": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Konata Mumpfield",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-05T21:25Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Konata Mumpfield",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-05T21:25Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIA": {
    "adj_points": 0.07,
@@ -389,7 +414,7 @@
      "note": "Darrisaw (head) is questionable to return to Sunday's game against Miami."
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NE": {
@@ -497,19 +522,19 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.07,
+   "adj_points": 0.26,
    "qb_out": false,
    "absences": [
     {
      "player": "Marques Sigle",
      "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
+     "status": "Doubtful",
+     "points": 0.26,
      "updated": "2026-10-05T00:10Z",
      "note": "Sigle suffered an ankle injury during Sunday's 24-14 win over the Broncos."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
   },
   "SEA": {
@@ -545,11 +570,11 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-04T20:44Z",
-     "note": "Winfield exited Sunday's 17-14 loss to the Packers with an abdomen/ribs injury, Scott Smith of the Buccaneers' official site reports."
+     "updated": "2026-10-05T22:02Z",
+     "note": "Buccaneers head coach Todd Bowles said that Winfield was diagnosed Monday with a \"slight rib fracture\" and will miss 2-to-4 weeks, Jenna Laine of ESPN.com repor"
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "WAS": {
