@@ -3861,18 +3861,18 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695697N350_1",
-   "ev_pct": 5.5,
-   "confidence": 54.0
+   "ev_pct": 6.48,
+   "confidence": 54.5
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 5.5,
-   "confidence": 54.0,
+   "ev_pct": 6.48,
+   "confidence": 54.5,
    "line": -3.5,
    "price": -105,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Jaguars -5; DraftKings has -3.5 (-105). Our NFL model makes Jaguars -8.5, 3.3 pts better than the market. JAX is without Montaric Brown (CB, out); injuries are worth ~0.6 pts to them by our injury model.",
+   "why": "BetOnline/LowVig makes Jaguars -5; DraftKings has -3.5 (-105). Our NFL model makes Jaguars -8.5, 3.4 pts better than the market. JAX is without Montaric Brown (CB, out); injuries are worth ~0.6 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -4881,18 +4881,18 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695554P550_1",
-   "ev_pct": 5.65,
-   "confidence": 55.3
+   "ev_pct": 6.91,
+   "confidence": 56.0
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 5.65,
-   "confidence": 55.3,
+   "ev_pct": 6.91,
+   "confidence": 56.0,
    "line": 5.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average makes Cardinals +5.5; DraftKings has +5.5 (-110). Our NFL model makes Cardinals +1.5, 4.0 pts better than the market. DET is without Rock Ya-Sin (CB, out); injuries are worth ~0.8 pts to them by our injury model.",
+   "why": "The market average makes Cardinals +5.5; DraftKings has +5.5 (-110). Our NFL model makes Cardinals +0.5, 4.9 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
    ]
@@ -4964,7 +4964,7 @@
    "line": 3.5,
    "price": -110,
    "book": "fanduel",
-   "why": "The market average makes Giants +4.5; FanDuel has +3.5 (-110). Our NFL model makes Giants +1, 3.3 pts better than the market. WAS is without Terry McLaurin (WR, out); injuries are worth ~0.9 pts to them by our injury model.",
+   "why": "The market average makes Giants +4.5; FanDuel has +3.5 (-110). Our NFL model makes Giants +1, 3.2 pts better than the market. WAS is without Terry McLaurin (WR, out); injuries are worth ~0.9 pts to them by our injury model.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
    ]
@@ -5035,7 +5035,7 @@
    "line": 45.5,
    "price": -110,
    "book": "draftkings",
-   "why": "BetOnline/LowVig's fair total is 44; DraftKings has Under 45.5 (-110). Our model projects 45.1 points from both offenses' efficiency and pace.",
+   "why": "BetOnline/LowVig's fair total is 44; DraftKings has Under 45.5 (-110). Our model projects 45.2 points from both offenses' efficiency and pace.",
    "flags": [
     "price is far better than the sharp total; confirm it's live before betting"
    ]
@@ -5244,7 +5244,7 @@
    "line": 44.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average's fair total is 45; DraftKings has Under 44.5 (-110). Our model projects 42.4 points from both offenses' efficiency and pace.",
+   "why": "The market average's fair total is 45; DraftKings has Under 44.5 (-110). Our model projects 42.3 points from both offenses' efficiency and pace.",
    "flags": [
     "no sharp book has this total, so the fair number is a market average"
    ]
@@ -5388,7 +5388,7 @@
    "line": -3.0,
    "price": 100,
    "book": "draftkings",
-   "why": "The market average makes Seahawks -4; DraftKings has -3 (+100). Our NFL model makes Seahawks -3, 1.1 pts worse than the market.",
+   "why": "The market average makes Seahawks -4; DraftKings has -3 (+100).",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
    ]
@@ -5447,21 +5447,158 @@
    "price": -118,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291267&selectionId=50199",
-   "ev_pct": 2.59,
-   "confidence": 55.5
+   "ev_pct": 3.13,
+   "confidence": 55.8
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.59,
-   "confidence": 55.5,
+   "ev_pct": 3.13,
+   "confidence": 55.8,
    "line": 4.5,
    "price": -118,
    "book": "fanduel",
-   "why": "The market average makes Falcons +4.5; FanDuel has +4.5 (-118). Our NFL model makes Falcons +0.5, 3.8 pts better than the market.",
+   "why": "The market average makes Falcons +4.5; FanDuel has +4.5 (-118). Our NFL model makes Falcons +0.5, 3.9 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
    ]
+  }
+ },
+ "f8e7f43f73aa983c5c99c189587f0118|Under": {
+  "id": "f8e7f43f73aa983c5c99c189587f0118",
+  "pick_key": "f8e7f43f73aa983c5c99c189587f0118|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "DET passing vs ARI pass D: +0.09 EPA/play vs average"
+  ],
+  "matchup": "Detroit Lions @ Arizona Cardinals",
+  "kickoff_utc": "2026-10-11T20:25:00Z",
+  "kickoff_pt": "Sun Oct 11, 1:25 PM PDT",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 53.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695554U5350_3",
+  "fair_line": 53.5,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 6.9,
+  "units": 0.5,
+  "price_floor": 52.0,
+  "floor_text": "Good to under 52 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 53.3,
+  "model_home_margin": 47.4,
+  "model_weight": 0.298,
+  "hours_to_kick": 159.4,
+  "signals": [],
+  "why": "The market average's fair total is 53.5; DraftKings has Under 53.5 (-110). Our model projects 47.4 points from both offenses' efficiency and pace.",
+  "flags": [
+   "no sharp book has this total, so the fair number is a market average"
+  ],
+  "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
+  "published_at": "2026-10-05T05:00:37.781940+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-05T05:00:37.781940+00:00",
+    53.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 53.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695554U5350_3",
+   "ev_pct": 6.9,
+   "confidence": 56.0
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 6.9,
+   "confidence": 56.0,
+   "line": 53.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average's fair total is 53.5; DraftKings has Under 53.5 (-110). Our model projects 47.4 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
+  }
+ },
+ "6b024bad1abb54f597225e4ab9b39d89|New England Patriots": {
+  "id": "6b024bad1abb54f597225e4ab9b39d89",
+  "pick_key": "6b024bad1abb54f597225e4ab9b39d89|New England Patriots",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Las Vegas Raiders @ New England Patriots",
+  "kickoff_utc": "2026-10-11T17:00:00Z",
+  "kickoff_pt": "Sun Oct 11, 10:00 AM PDT",
+  "side": "New England Patriots",
+  "opponent": "Las Vegas Raiders",
+  "side_is_home": true,
+  "line": -3.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695656N350_1",
+  "fair_line": -5.0,
+  "open_line": null,
+  "confidence": 53.0,
+  "ev_pct": 1.24,
+  "units": 0.5,
+  "price_floor": -3.5,
+  "floor_text": "Good to -3.5 at -110",
+  "fair_source": "sharp",
+  "market_home_margin": 5.2,
+  "model_home_margin": 7.5,
+  "model_weight": 0.074,
+  "hours_to_kick": 156.0,
+  "signals": [],
+  "why": "BetOnline/LowVig makes Patriots -5; DraftKings has -3.5 (-110). Our NFL model makes Patriots -7.5, 2.3 pts better than the market. NE is without Christian Gonzalez (CB, out); injuries are worth ~0.6 pts to them by our injury model.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
+  "published_at": "2026-10-05T05:00:37.781940+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-05T05:00:37.781940+00:00",
+    -3.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": -3.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695656N350_1",
+   "ev_pct": 1.24,
+   "confidence": 53.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 1.24,
+   "confidence": 53.0,
+   "line": -3.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "BetOnline/LowVig makes Patriots -5; DraftKings has -3.5 (-110). Our NFL model makes Patriots -7.5, 2.3 pts better than the market. NE is without Christian Gonzalez (CB, out); injuries are worth ~0.6 pts to them by our injury model.",
+   "flags": []
   }
  }
 }

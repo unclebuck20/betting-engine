@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-05T04:00:30.715597+00:00",
-  "previous_pull": "2026-10-05T00:30:26.518586+00:00",
+  "injury_pull": "2026-10-05T05:00:27.967664+00:00",
+  "previous_pull": "2026-10-05T04:00:30.715597+00:00",
   "matched_absences": 77
  },
  "teams": {
@@ -173,25 +173,8 @@
      "note": "Phillips (back) is questionable to return to Sunday night's contest against Detroit, Mike Kaye of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.18,
-   "new_absences": [
-    {
-     "player": "Monroe Freeling",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-05T02:56Z",
-     "note": "Freeling (knee) has been ruled out for the remainder of Sunday night's contest against the Lions, Mike Kaye of ESPN.com reports."
-    },
-    {
-     "player": "Jaelan Phillips",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-05T03:33Z",
-     "note": "Phillips (back) is questionable to return to Sunday night's contest against Detroit, Mike Kaye of ESPN.com reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CHI": {
    "adj_points": 4.35,
@@ -318,21 +301,13 @@
      "note": "Moss (ribs) won't return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
     }
    ],
-   "delta_since_last_pull": -0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.85,
+   "adj_points": 0.47,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Rock Ya-Sin",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-05T02:47Z",
-     "note": "Ya-Sin (hamstring) has been ruled out for the rest of Sunday night's contest against the Panthers."
-    },
     {
      "player": "Ben Bartch",
      "pos": "OL",
@@ -340,19 +315,18 @@
      "points": 0.35,
      "updated": "2026-10-04T23:05Z",
      "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.5,
-   "new_absences": [
+    },
     {
      "player": "Rock Ya-Sin",
      "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
+     "status": "Questionable",
+     "points": 0.12,
      "updated": "2026-10-05T02:47Z",
      "note": "Ya-Sin (hamstring) has been ruled out for the rest of Sunday night's contest against the Panthers."
     }
-   ]
+   ],
+   "delta_since_last_pull": -0.38,
+   "new_absences": []
   },
   "GB": {
    "adj_points": 0.73,
@@ -383,7 +357,7 @@
      "note": "Cisse suffered a neck injury and was also evaluated for a concussion in Sunday's 17-14 win over the Buccaneers, Zach Jacobson of the team's official site report"
     }
    ],
-   "delta_since_last_pull": 0.15,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "HOU": {
@@ -703,7 +677,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.26,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PHI": {
