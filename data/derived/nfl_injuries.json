@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 597,
   "teams_with_qb": 29,
-  "injury_pull": "2026-10-05T22:30:31.379203+00:00",
-  "previous_pull": "2026-10-05T20:40:41.279985+00:00",
-  "matched_absences": 48
+  "injury_pull": "2026-10-05T23:30:30.386185+00:00",
+  "previous_pull": "2026-10-05T22:30:31.379203+00:00",
+  "matched_absences": 49
  },
  "teams": {
   "ARI": {
@@ -35,22 +35,6 @@
      "points": 0.07,
      "updated": "2026-10-04T19:42Z",
      "note": "Wingard (knee) has been ruled out for the rest of Sunday's game against the Giants."
-    }
-   ],
-   "delta_since_last_pull": 0.26,
-   "new_absences": []
-  },
-  "ATL": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Divine Deablo",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-03T17:10Z",
-     "note": "Deablo (hamstring) is listed as questionable for Monday's game against the Saints, Tori McElhaney of the Falcons' official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -264,6 +248,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "IND": {
+   "adj_points": 0.5,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Arden Key",
+     "pos": "DE",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-05T23:02Z",
+     "note": "out"
+    }
+   ],
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Arden Key",
+     "pos": "DE",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-05T23:02Z",
+     "note": "out"
+    }
+   ]
+  },
   "JAX": {
    "adj_points": 0.07,
    "qb_out": false,
@@ -321,8 +330,8 @@
      "pos": "T",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-04T23:28Z",
-     "note": "Slater (ankle) is questionable to return to Sunday's game against the Seahawks."
+     "updated": "2026-10-05T23:24Z",
+     "note": "Slater suffered a high-ankle sprain Sunday against the Seahawks, and he is expected to miss 4-to-6 weeks, Ian Rapoport of NFL Network reports."
     },
     {
      "player": "Derwin James Jr.",
@@ -349,7 +358,7 @@
      "note": "Penning (head) exited Sunday's contest against Seattle in the fourth quarter."
     }
    ],
-   "delta_since_last_pull": 0.08,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LA": {
@@ -365,17 +374,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Konata Mumpfield",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-05T21:25Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "MIA": {
    "adj_points": 0.07,
@@ -450,16 +450,16 @@
      "pos": "DE",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-03T18:43Z",
-     "note": "Granderson (ankle) has been ruled out for Monday's game against Atlanta, Matthew Paras of The New Orleans Times-Picayune reports."
+     "updated": "2026-10-05T22:47Z",
+     "note": "inactive"
     },
     {
      "player": "Kaden Elliss",
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-10-03T18:33Z",
-     "note": "Elliss (calf) has been ruled out for Monday's game against the Falcons, Matthew Paras of The New Orleans Times-Picayune reports."
+     "updated": "2026-10-05T22:47Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -534,7 +534,7 @@
      "note": "Sigle suffered an ankle injury during Sunday's 24-14 win over the Broncos."
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SEA": {
@@ -554,7 +554,7 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 4.3,
+   "adj_points": 4.36,
    "qb_out": true,
    "absences": [
     {
@@ -572,10 +572,27 @@
      "points": 0.3,
      "updated": "2026-10-05T22:02Z",
      "note": "Buccaneers head coach Todd Bowles said that Winfield was diagnosed Monday with a \"slight rib fracture\" and will miss 2-to-4 weeks, Jenna Laine of ESPN.com repor"
+    },
+    {
+     "player": "Josiah Trotter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-05T22:25Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Josiah Trotter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-05T22:25Z",
+     "note": "questionable"
+    }
+   ]
   },
   "WAS": {
    "adj_points": 0.57,
@@ -586,8 +603,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-05T19:09Z",
-     "note": "out"
+     "updated": "2026-10-05T22:36Z",
+     "note": "Coach Dan Quinn said Monday that the Commanders continue to assess what McLaurin (hamstring) may be able to do at Wednesday's practice, John Keim of ESPN.com re"
     },
     {
      "player": "Jeremy Reaves",
@@ -599,6 +616,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "ATL": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
