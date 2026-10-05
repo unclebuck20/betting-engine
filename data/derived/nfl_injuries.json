@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-04T23:30:30.419401+00:00",
-  "previous_pull": "2026-10-04T22:30:23.601135+00:00",
-  "matched_absences": 72
+  "injury_pull": "2026-10-05T00:30:26.518586+00:00",
+  "previous_pull": "2026-10-04T23:30:30.419401+00:00",
+  "matched_absences": 74
  },
  "teams": {
   "ARI": {
@@ -157,7 +157,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CHI": {
@@ -285,17 +285,8 @@
      "note": "Bryant (ankle) is questionable to return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
     }
    ],
-   "delta_since_last_pull": 0.5,
-   "new_absences": [
-    {
-     "player": "Pat Bryant",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T23:12Z",
-     "note": "Bryant (ankle) is questionable to return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DET": {
    "adj_points": 0.35,
@@ -310,7 +301,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "GB": {
@@ -442,7 +433,7 @@
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 0.72,
+   "adj_points": 0.84,
    "qb_out": false,
    "absences": [
     {
@@ -462,6 +453,14 @@
      "note": "James (hamstring) is listed as out for Sunday's game versus the Seahawks."
     },
     {
+     "player": "Rashawn Slater",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T23:28Z",
+     "note": "Slater (ankle) is questionable to return to Sunday's game against the Seahawks."
+    },
+    {
      "player": "Joe Alt",
      "pos": "T",
      "status": "Questionable",
@@ -470,8 +469,17 @@
      "note": "Alt (neck) has been ruled out for the remainder of Sunday's matchup with the Seahawks."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Rashawn Slater",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T23:28Z",
+     "note": "Slater (ankle) is questionable to return to Sunday's game against the Seahawks."
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.8,
@@ -566,17 +574,8 @@
      "note": "Jackson (knee) has been ruled out for the rest of Sunday's contest against the Dolphins."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Christian Darrisaw",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T22:39Z",
-     "note": "Darrisaw (head) is questionable to return to Sunday's game against Miami."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 0.62,
@@ -621,22 +620,6 @@
      "points": 0.25,
      "updated": "2026-10-03T18:33Z",
      "note": "Elliss (calf) has been ruled out for Monday's game against the Falcons, Matthew Paras of The New Orleans Times-Picayune reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "NYG": {
-   "adj_points": 0.25,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Brian Burns",
-     "pos": "LB",
-     "status": "Injured Reserve",
-     "points": 0.25,
-     "updated": "2026-09-29T23:44Z",
-     "note": "The Giants placed Burns (knee) on injured reserve Tuesday, Dan Salomone of the team's official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -754,6 +737,56 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "SF": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Marques Sigle",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-05T00:10Z",
+     "note": "Sigle suffered an ankle injury during Sunday's 24-14 win over the Broncos."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Marques Sigle",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-05T00:10Z",
+     "note": "Sigle suffered an ankle injury during Sunday's 24-14 win over the Broncos."
+    }
+   ]
+  },
+  "SEA": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Leonard Williams",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-04T23:26Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Leonard Williams",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-04T23:26Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "TB": {
    "adj_points": 4.82,
    "qb_out": true,
@@ -840,6 +873,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "NYG": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.25,
    "new_absences": []
   }
  }
