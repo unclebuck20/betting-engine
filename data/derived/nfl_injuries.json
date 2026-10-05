@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-05T00:30:26.518586+00:00",
-  "previous_pull": "2026-10-04T23:30:30.419401+00:00",
-  "matched_absences": 74
+  "injury_pull": "2026-10-05T04:00:30.715597+00:00",
+  "previous_pull": "2026-10-05T00:30:26.518586+00:00",
+  "matched_absences": 77
  },
  "teams": {
   "ARI": {
@@ -13,20 +13,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Isaiah Adams",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-05T00:47Z",
+     "note": "Adams suffered an ankle injury in Sunday's loss to the Giants, Theo Mackie of The Arizona Republic reports."
+    },
+    {
      "player": "Paris Johnson Jr.",
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
      "updated": "2026-10-04T21:01Z",
      "note": "Cardinals coach Mike LaFleur said that Johnson is dealing with a biceps injury after Sunday's 36-24 loss to the Giants, Darren Urban of the team's official site"
-    },
-    {
-     "player": "Isaiah Adams",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-04T18:56Z",
-     "note": "questionable"
     },
     {
      "player": "Andrew Wingard",
@@ -121,15 +121,15 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-04T18:45Z",
-     "note": "Moore (shoulder) is considered doubtful to return to Sunday's contest versus the Patriots."
+     "updated": "2026-10-05T00:42Z",
+     "note": "Moore (shoulder) is dealing with an injury that isn't considered long-term, Adam Schefter of ESPN reports."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 1.3,
+   "adj_points": 1.48,
    "qb_out": false,
    "absences": [
     {
@@ -155,10 +155,43 @@
      "points": 0.3,
      "updated": "2026-10-04T23:01Z",
      "note": "inactive"
+    },
+    {
+     "player": "Monroe Freeling",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-05T02:56Z",
+     "note": "Freeling (knee) has been ruled out for the remainder of Sunday night's contest against the Lions, Mike Kaye of ESPN.com reports."
+    },
+    {
+     "player": "Jaelan Phillips",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-05T03:33Z",
+     "note": "Phillips (back) is questionable to return to Sunday night's contest against Detroit, Mike Kaye of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.18,
+   "new_absences": [
+    {
+     "player": "Monroe Freeling",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-05T02:56Z",
+     "note": "Freeling (knee) has been ruled out for the remainder of Sunday night's contest against the Lions, Mike Kaye of ESPN.com reports."
+    },
+    {
+     "player": "Jaelan Phillips",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-05T03:33Z",
+     "note": "Phillips (back) is questionable to return to Sunday night's contest against Detroit, Mike Kaye of ESPN.com reports."
+    }
+   ]
   },
   "CHI": {
    "adj_points": 4.35,
@@ -265,17 +298,9 @@
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 0.62,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Riley Moss",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-04T22:52Z",
-     "note": "Moss (ribs) won't return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
-    },
     {
      "player": "Pat Bryant",
      "pos": "WR",
@@ -283,15 +308,31 @@
      "points": 0.12,
      "updated": "2026-10-04T23:12Z",
      "note": "Bryant (ankle) is questionable to return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
+    },
+    {
+     "player": "Riley Moss",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-04T22:52Z",
+     "note": "Moss (ribs) won't return to Sunday's game against the 49ers, Chris Tomasson of The Denver Gazette reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.35,
+   "adj_points": 0.85,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Rock Ya-Sin",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-05T02:47Z",
+     "note": "Ya-Sin (hamstring) has been ruled out for the rest of Sunday night's contest against the Panthers."
+    },
     {
      "player": "Ben Bartch",
      "pos": "OL",
@@ -301,11 +342,20 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Rock Ya-Sin",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-05T02:47Z",
+     "note": "Ya-Sin (hamstring) has been ruled out for the rest of Sunday night's contest against the Panthers."
+    }
+   ]
   },
   "GB": {
-   "adj_points": 0.58,
+   "adj_points": 0.73,
    "qb_out": false,
    "absences": [
     {
@@ -317,23 +367,23 @@
      "note": "inactive"
     },
     {
+     "player": "Edgerrin Cooper",
+     "pos": "LB",
+     "status": "Doubtful",
+     "points": 0.21,
+     "updated": "2026-10-04T20:39Z",
+     "note": "Cooper is feared to have suffered a torn Achilles in Sunday's 17-14 win over Tampa Bay, Matt Schneidman of The Athletic reports."
+    },
+    {
      "player": "Brandon Cisse",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-04T20:52Z",
      "note": "Cisse suffered a neck injury and was also evaluated for a concussion in Sunday's 17-14 win over the Buccaneers, Zach Jacobson of the team's official site report"
-    },
-    {
-     "player": "Edgerrin Cooper",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-04T20:39Z",
-     "note": "Cooper is feared to have suffered a torn Achilles in Sunday's 17-14 win over Tampa Bay, Matt Schneidman of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.15,
    "new_absences": []
   },
   "HOU": {
@@ -469,17 +519,8 @@
      "note": "Alt (neck) has been ruled out for the remainder of Sunday's matchup with the Seahawks."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Rashawn Slater",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-04T23:28Z",
-     "note": "Slater (ankle) is questionable to return to Sunday's game against the Seahawks."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.8,
@@ -626,7 +667,7 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 1.7,
+   "adj_points": 1.44,
    "qb_out": false,
    "absences": [
     {
@@ -646,23 +687,23 @@
      "note": "inactive"
     },
     {
-     "player": "Jarvis Brownlee Jr.",
-     "pos": "DB",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-10-04T20:28Z",
-     "note": "Brownlee (concussion) did not return to Sunday's 23-12 loss to the Bears."
-    },
-    {
      "player": "Dylan Parham",
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
      "updated": "2026-10-04T15:35Z",
      "note": "inactive"
+    },
+    {
+     "player": "Jarvis Brownlee Jr.",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-05T03:25Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.26,
    "new_absences": []
   },
   "PHI": {
@@ -750,17 +791,8 @@
      "note": "Sigle suffered an ankle injury during Sunday's 24-14 win over the Broncos."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Marques Sigle",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-05T00:10Z",
-     "note": "Sigle suffered an ankle injury during Sunday's 24-14 win over the Broncos."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "SEA": {
    "adj_points": 0.07,
@@ -771,21 +803,12 @@
      "pos": "DT",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-04T23:26Z",
-     "note": "questionable"
+     "updated": "2026-10-04T23:24Z",
+     "note": "Williams (ankle) is questionable to return to Sunday's game against the Chargers."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Leonard Williams",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T23:26Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "TB": {
    "adj_points": 4.82,
@@ -873,13 +896,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "NYG": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.25,
    "new_absences": []
   }
  }
