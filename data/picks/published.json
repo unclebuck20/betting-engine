@@ -3842,7 +3842,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-04T14:00:31.791898+00:00",
   "published_at": "2026-10-04T14:01:24.957113+00:00",
-  "status": "live",
+  "status": "moved",
   "history": [
    [
     "2026-10-04T14:01:24.957113+00:00",
@@ -3886,8 +3886,8 @@
    "price": -108,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347295&selectionId=50207",
-   "ev_pct": 1.66,
-   "confidence": 52.8
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -5135,7 +5135,7 @@
    "line": 4.5,
    "price": -120,
    "book": "fanduel",
-   "why": "Pinnacle makes Giants +4.5; FanDuel has +4.5 (-120). Our NFL model makes Giants +1.5, 3.1 pts better than the market. WAS is without Terry McLaurin (WR, out); injuries are worth ~0.6 pts to them by our injury model.",
+   "why": "Pinnacle makes Giants +4.5; FanDuel has +4.5 (-120). Our NFL model makes Giants +1.5, 2.7 pts better than the market.",
    "flags": []
   }
  },
@@ -5875,18 +5875,18 @@
    "price": -112,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695656N350_1",
-   "ev_pct": -2.51,
-   "confidence": 51.5
+   "ev_pct": -1.55,
+   "confidence": 52.0
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -2.51,
-   "confidence": 51.5,
+   "ev_pct": -1.55,
+   "confidence": 52.0,
    "line": -3.5,
    "price": -112,
    "book": "draftkings",
-   "why": "Pinnacle makes Patriots -5; DraftKings has -3.5 (-112). Our NFL model makes Patriots -7.5, 2.6 pts better than the market. NE is without Christian Gonzalez (CB, out); injuries are worth ~0.6 pts to them by our injury model.",
+   "why": "Pinnacle makes Patriots -5; DraftKings has -3.5 (-112). Our NFL model makes Patriots -7.5, 2.7 pts better than the market.",
    "flags": []
   }
  },
@@ -7336,6 +7336,74 @@
    "flags": [
     "college injuries not checked yet"
    ]
+  }
+ },
+ "21b26266f3d78af02eb672e606275d95|Philadelphia Eagles": {
+  "id": "21b26266f3d78af02eb672e606275d95",
+  "pick_key": "21b26266f3d78af02eb672e606275d95|Philadelphia Eagles",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Philadelphia Eagles @ Jacksonville Jaguars",
+  "kickoff_utc": "2026-10-11T13:30:00Z",
+  "kickoff_pt": "Sun Oct 11, 6:30 AM PDT",
+  "side": "Philadelphia Eagles",
+  "opponent": "Jacksonville Jaguars",
+  "side_is_home": false,
+  "line": 6.5,
+  "price": -105,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695697P650_3",
+  "fair_line": 7.5,
+  "open_line": null,
+  "confidence": 52.2,
+  "ev_pct": 1.86,
+  "units": 0.5,
+  "price_floor": null,
+  "floor_text": "Only at +6.5 -109 or better",
+  "fair_source": "pinnacle",
+  "market_home_margin": 7.4,
+  "model_home_margin": 7.4,
+  "model_weight": 0.0,
+  "hours_to_kick": 112.5,
+  "signals": [
+   "injury_news"
+  ],
+  "why": "Pinnacle makes Eagles +7.5; DraftKings has +6.5 (-105). PHI: new injury news since our last check is worth ~1.1 pts the sharp line hasn't absorbed yet.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-06T14:00:36.414426+00:00",
+  "published_at": "2026-10-06T21:01:14.774521+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-06T21:01:14.774521+00:00",
+    6.5,
+    -105,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 6.5,
+   "price": -105,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695697P650_3",
+   "ev_pct": 1.86,
+   "confidence": 52.2
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 1.86,
+   "confidence": 52.2,
+   "line": 6.5,
+   "price": -105,
+   "book": "draftkings",
+   "why": "Pinnacle makes Eagles +7.5; DraftKings has +6.5 (-105). PHI: new injury news since our last check is worth ~1.1 pts the sharp line hasn't absorbed yet.",
+   "flags": []
   }
  }
 }
