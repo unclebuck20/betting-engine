@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-07T22:00:34.103032+00:00",
-  "previous_pull": "2026-10-07T21:00:28.512246+00:00",
-  "matched_absences": 76
+  "injury_pull": "2026-10-07T23:00:31.646259+00:00",
+  "previous_pull": "2026-10-07T22:00:34.103032+00:00",
+  "matched_absences": 86
  },
  "teams": {
   "ARI": {
@@ -41,9 +41,17 @@
    "new_absences": []
   },
   "ATL": {
-   "adj_points": 0.12,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Cameron Thomas",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:58Z",
+     "note": "questionable"
+    },
     {
      "player": "Jake Matthews",
      "pos": "T",
@@ -53,8 +61,17 @@
      "note": "Matthews (groin) has been downgraded to out for the rest of Monday's game against the Saints, Tori McElhaney of the Falcons' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Cameron Thomas",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:58Z",
+     "note": "questionable"
+    }
+   ]
   },
   "BAL": {
    "adj_points": 1.5,
@@ -109,33 +126,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.09,
-   "new_absences": [
-    {
-     "player": "Rashod Bateman",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:28Z",
-     "note": "Bateman (shoulder) was limited in Wednesday's practice."
-    },
-    {
-     "player": "John Simpson",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T21:23Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Kyle Hamilton",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T21:22Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "BUF": {
    "adj_points": 0.12,
@@ -214,33 +206,8 @@
      "note": "Swift didn't practice Thursday due to hip and knee injuries."
     }
    ],
-   "delta_since_last_pull": 0.27,
-   "new_absences": [
-    {
-     "player": "Joe Thuney",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-07T20:55Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Darnell Wright",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-07T20:55Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jonah Jackson",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-07T20:55Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CIN": {
    "adj_points": 0.51,
@@ -354,8 +321,33 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "DET": {
+   "adj_points": 0.09,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Tyleik Williams",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T21:52Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Tyleik Williams",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T21:52Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "GB": {
-   "adj_points": 0.47,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
     {
@@ -367,12 +359,20 @@
      "note": "Cooper (Achilles) was placed on injured reserve by the Packers on Tuesday."
     },
     {
-     "player": "Brandon Cisse",
-     "pos": "CB",
+     "player": "Lukas Van Ness",
+     "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-05T23:50Z",
-     "note": "Packers head coach Matt LaFleur said that Cisse isn't in the concussion protocol but is tending to what is believed to be a short-term neck injury coming out of"
+     "updated": "2026-10-07T21:47Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Anthony Belton",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:47Z",
+     "note": "questionable"
     },
     {
      "player": "Jacob Monk",
@@ -383,8 +383,25 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Lukas Van Ness",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:47Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Anthony Belton",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:47Z",
+     "note": "questionable"
+    }
+   ]
   },
   "HOU": {
    "adj_points": 0.18,
@@ -407,17 +424,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Will Anderson Jr.",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:31Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "IND": {
    "adj_points": 0.72,
@@ -492,9 +500,25 @@
    "new_absences": []
   },
   "LV": {
-   "adj_points": 0.07,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Spencer Burford",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T22:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Brock Bowers",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:54Z",
+     "note": "Bowers (knee) was listed as a limited participant in Wednesday's practice, Anthony Galaviz of The Fresno Bee reports."
+    },
     {
      "player": "Jackson Powers-Johnson",
      "pos": "G",
@@ -504,8 +528,25 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.14,
+   "new_absences": [
+    {
+     "player": "Spencer Burford",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T22:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Brock Bowers",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:54Z",
+     "note": "Bowers (knee) was listed as a limited participant in Wednesday's practice, Anthony Galaviz of The Fresno Bee reports."
+    }
+   ]
   },
   "LAC": {
    "adj_points": 0.78,
@@ -596,7 +637,7 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.54,
+   "adj_points": 0.66,
    "qb_out": false,
    "absences": [
     {
@@ -606,6 +647,14 @@
      "points": 0.3,
      "updated": "2026-10-07T00:34Z",
      "note": "Jackson (knee) was placed on injured reserve by the Vikings on Tuesday."
+    },
+    {
+     "player": "Brian O'Neill",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T22:05Z",
+     "note": "questionable"
     },
     {
      "player": "Jordan Addison",
@@ -624,13 +673,38 @@
      "note": "Darrisaw is in concussion protocol following Sunday's game versus the Dolphins, Dane Mizutani of the St. Paul Pioneer Press reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Brian O'Neill",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T22:05Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NE": {
-   "adj_points": 0.24,
+   "adj_points": 0.61,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Morgan Moses",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Carlton Davis III",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:52Z",
+     "note": "questionable"
+    },
     {
      "player": "Mack Hollins",
      "pos": "WR",
@@ -646,10 +720,59 @@
      "points": 0.12,
      "updated": "2026-10-06T18:21Z",
      "note": "questionable"
+    },
+    {
+     "player": "Craig Woodson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:56Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Christian Elliss",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-07T21:54Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.37,
+   "new_absences": [
+    {
+     "player": "Morgan Moses",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Carlton Davis III",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:52Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Craig Woodson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:56Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Christian Elliss",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-07T21:54Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NO": {
    "adj_points": 1.13,
@@ -680,25 +803,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 1.07,
-   "new_absences": [
-    {
-     "player": "Tyler Shough",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-10-07T20:45Z",
-     "note": "Shough was limited with a non-throwing hand injury Wednesday, Mike Triplett of NewOrleans.Football reports."
-    },
-    {
-     "player": "Julian Blackmon",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T21:37Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYG": {
    "adj_points": 0.38,
@@ -737,17 +843,8 @@
      "note": "Skattebo was limited at Wednesday's practice due to a shoulder injury, Dan Salomone of the Giants' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Andrew Thomas",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:29Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PHI": {
    "adj_points": 0.3,
@@ -862,8 +959,8 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-05T22:02Z",
-     "note": "Buccaneers head coach Todd Bowles said that Winfield was diagnosed Monday with a \"slight rib fracture\" and will miss 2-to-4 weeks, Jenna Laine of ESPN.com repor"
+     "updated": "2026-10-07T22:26Z",
+     "note": "The Buccaneers have ruled out Winfield (ribs) for Thursday's game against the Cowboys."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -874,32 +971,13 @@
    "qb_out": false,
    "absences": [
     {
-     "player": "Jeffery Simmons",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T20:59Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Kevin Winston Jr.",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T20:58Z",
-     "note": "questionable"
-    },
-    {
      "player": "Amani Hooker",
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-07T16:31Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.14,
-   "new_absences": [
+     "updated": "2026-10-07T22:14Z",
+     "note": "Hooker is in the league's concussion protocol and did not practice Wednesday, Easton Freeze of AtoZSports.com reports."
+    },
     {
      "player": "Jeffery Simmons",
      "pos": "DT",
@@ -916,7 +994,9 @@
      "updated": "2026-10-07T20:58Z",
      "note": "questionable"
     }
-   ]
+   ],
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "WAS": {
    "adj_points": 0.28,
@@ -947,25 +1027,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Nick Allegretti",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-10-07T21:21Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Sonny Styles",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-07T21:21Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   }
  }
 }
