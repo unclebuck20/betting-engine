@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-07T20:36:49.159033+00:00",
-  "previous_pull": "2026-10-07T17:30:35.456718+00:00",
-  "matched_absences": 59
+  "injury_pull": "2026-10-07T21:00:28.512246+00:00",
+  "previous_pull": "2026-10-07T20:36:49.159033+00:00",
+  "matched_absences": 64
  },
  "teams": {
   "ARI": {
@@ -149,22 +149,21 @@
      "note": "Swift didn't practice Thursday due to hip and knee injuries."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "D'Andre Swift",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T19:58Z",
-     "note": "Swift didn't practice Thursday due to hip and knee injuries."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CIN": {
-   "adj_points": 0.45,
+   "adj_points": 0.51,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Tee Higgins",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T20:38Z",
+     "note": "Higgins (groin/neck) did not practice Wednesday, Jay Morrison of SI.com reports."
+    },
     {
      "player": "Ja'Marr Chase",
      "pos": "WR",
@@ -174,14 +173,6 @@
      "note": "Chase remains in the league's concussion protocol Wednesday, Ben Baby of ESPN.com reports."
     },
     {
-     "player": "Tee Higgins",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T17:21Z",
-     "note": "Higgins (adductor) will be limited in practice Wednesday, Ben Baby of ESPN.com reports."
-    },
-    {
      "player": "Dalton Risner",
      "pos": "G",
      "status": "Questionable",
@@ -204,38 +195,30 @@
      "points": 0.07,
      "updated": "2026-10-07T20:26Z",
      "note": "questionable"
+    },
+    {
+     "player": "Barrett Carter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-07T02:18Z",
+     "note": "Carter posted 11 tackles (five solo) and one pass defense during Sunday's 22-17 loss to the Jaguars."
     }
    ],
-   "delta_since_last_pull": 0.21,
+   "delta_since_last_pull": 0.06,
    "new_absences": [
     {
-     "player": "Dalton Risner",
-     "pos": "G",
+     "player": "Barrett Carter",
+     "pos": "LB",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T20:28Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Dexter Lawrence II",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T20:27Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jordan Battle",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T20:26Z",
-     "note": "questionable"
+     "points": 0.06,
+     "updated": "2026-10-07T02:18Z",
+     "note": "Carter posted 11 tackles (five solo) and one pass defense during Sunday's 22-17 loss to the Jaguars."
     }
    ]
   },
   "CLE": {
-   "adj_points": 0.36,
+   "adj_points": 0.43,
    "qb_out": false,
    "absences": [
     {
@@ -253,10 +236,27 @@
      "points": 0.1,
      "updated": "2026-10-06T18:21Z",
      "note": "questionable"
+    },
+    {
+     "player": "Grant Delpit",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T20:51Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Grant Delpit",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T20:51Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.54,
@@ -367,25 +367,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.16,
-   "new_absences": [
-    {
-     "player": "Tanor Bortolini",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-10-07T20:24Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Akeem Davis-Gaither",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-07T02:50Z",
-     "note": "Davis-Gaither tallied eight tackles (five solo) during the Colts' 30-13 win over the Commanders on Sunday in London."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "JAX": {
    "adj_points": 0.07,
@@ -492,9 +475,25 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 0.07,
+   "adj_points": 0.31,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Chris Bell",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T20:41Z",
+     "note": "Bell (knee) was limited in Wednesday's practice, C. Isaiah Smalls II of the Miami Herald reports."
+    },
+    {
+     "player": "Austin Jackson",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T20:35Z",
+     "note": "questionable"
+    },
     {
      "player": "Dante Trader Jr.",
      "pos": "S",
@@ -504,8 +503,25 @@
      "note": "Trader (knee) is considered day-to-day ahead of Week 5, C. Isaiah Smalls II of the Miami Herald reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.24,
+   "new_absences": [
+    {
+     "player": "Chris Bell",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T20:41Z",
+     "note": "Bell (knee) was limited in Wednesday's practice, C. Isaiah Smalls II of the Miami Herald reports."
+    },
+    {
+     "player": "Austin Jackson",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T20:35Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIN": {
    "adj_points": 0.54,
@@ -536,17 +552,8 @@
      "note": "Darrisaw is in concussion protocol following Sunday's game versus the Dolphins, Dane Mizutani of the St. Paul Pioneer Press reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Jordan Addison",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T18:32Z",
-     "note": "Addison (hamstring) won't practice Wednesday, Alec Lewis of The Athletic reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 0.24,
@@ -589,7 +596,7 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.19,
+   "adj_points": 0.26,
    "qb_out": false,
    "absences": [
     {
@@ -601,31 +608,31 @@
      "note": "Nabers didn't practice Wednesday due to a knee injury, Dan Salomone of the Giants' official site reports."
     },
     {
-     "player": "Cam Skattebo",
-     "pos": "RB",
+     "player": "Isaiah Likely",
+     "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-07T20:28Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.19,
-   "new_absences": [
-    {
-     "player": "Malik Nabers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T20:26Z",
-     "note": "Nabers didn't practice Wednesday due to a knee injury, Dan Salomone of the Giants' official site reports."
+     "updated": "2026-10-07T20:39Z",
+     "note": "Likely (knee/groin) practiced in a limited capacity Wednesday, Dan Salomone of the Giants' official site reports."
     },
     {
      "player": "Cam Skattebo",
      "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-07T20:28Z",
-     "note": "questionable"
+     "updated": "2026-10-07T20:32Z",
+     "note": "Skattebo was limited at Wednesday's practice due to a shoulder injury, Dan Salomone of the Giants' official site reports."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Isaiah Likely",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T20:39Z",
+     "note": "Likely (knee/groin) practiced in a limited capacity Wednesday, Dan Salomone of the Giants' official site reports."
     }
    ]
   },
@@ -690,25 +697,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.24,
-   "new_absences": [
-    {
-     "player": "Michael Pittman Jr.",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T20:16Z",
-     "note": "Pittman (foot) was a limited participant in Wednesday's practice, Brooke Pryor of ESPN.com reports."
-    },
-    {
-     "player": "Jalen Ramsey",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T20:10Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "SF": {
    "adj_points": 0.3,
@@ -723,7 +713,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.04,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SEA": {
