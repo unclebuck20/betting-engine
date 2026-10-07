@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-07T21:00:28.512246+00:00",
-  "previous_pull": "2026-10-07T20:36:49.159033+00:00",
-  "matched_absences": 64
+  "injury_pull": "2026-10-07T22:00:34.103032+00:00",
+  "previous_pull": "2026-10-07T21:00:28.512246+00:00",
+  "matched_absences": 76
  },
  "teams": {
   "ARI": {
@@ -57,7 +57,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 1.59,
+   "adj_points": 1.5,
    "qb_out": false,
    "absences": [
     {
@@ -65,16 +65,16 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-10-07T17:19Z",
-     "note": "Jackson (ankle) wasn't participating in the media-access portion of Wednesday's practice, Jamison Hensley of ESPN.com reports."
+     "updated": "2026-10-07T21:15Z",
+     "note": "The Ravens listed Jackson (ankle) as a non-participant in Wednesday's practice."
     },
     {
-     "player": "Jovaughn Gwyn",
-     "pos": "OL",
-     "status": "Injured Reserve",
-     "points": 0.35,
-     "updated": "2026-10-04T00:38Z",
-     "note": "The Ravens moved Gwyn (ankle) to injured reserve Saturday."
+     "player": "Rashod Bateman",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:28Z",
+     "note": "Bateman (shoulder) was limited in Wednesday's practice."
     },
     {
      "player": "Ronnie Stanley",
@@ -91,10 +91,51 @@
      "points": 0.12,
      "updated": "2026-10-04T19:18Z",
      "note": "Humphrey (calf) has been ruled out for the rest of Sunday's game against the Titans."
+    },
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:23Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kyle Hamilton",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:22Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.09,
+   "new_absences": [
+    {
+     "player": "Rashod Bateman",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:28Z",
+     "note": "Bateman (shoulder) was limited in Wednesday's practice."
+    },
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:23Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kyle Hamilton",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:22Z",
+     "note": "questionable"
+    }
+   ]
   },
   "BUF": {
    "adj_points": 0.12,
@@ -137,9 +178,33 @@
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.07,
+   "adj_points": 0.34,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Joe Thuney",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T20:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Darnell Wright",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T20:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jonah Jackson",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T20:55Z",
+     "note": "questionable"
+    },
     {
      "player": "D'Andre Swift",
      "pos": "RB",
@@ -149,8 +214,33 @@
      "note": "Swift didn't practice Thursday due to hip and knee injuries."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.27,
+   "new_absences": [
+    {
+     "player": "Joe Thuney",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T20:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Darnell Wright",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T20:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jonah Jackson",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T20:55Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CIN": {
    "adj_points": 0.51,
@@ -205,17 +295,8 @@
      "note": "Carter posted 11 tackles (five solo) and one pass defense during Sunday's 22-17 loss to the Jaguars."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Barrett Carter",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-07T02:18Z",
-     "note": "Carter posted 11 tackles (five solo) and one pass defense during Sunday's 22-17 loss to the Jaguars."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CLE": {
    "adj_points": 0.43,
@@ -246,17 +327,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Grant Delpit",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T20:51Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DEN": {
    "adj_points": 0.54,
@@ -315,9 +387,17 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 0.06,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Will Anderson Jr.",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:31Z",
+     "note": "questionable"
+    },
     {
      "player": "Azeez Al-Shaair",
      "pos": "LB",
@@ -327,8 +407,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Will Anderson Jr.",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:31Z",
+     "note": "questionable"
+    }
+   ]
   },
   "IND": {
    "adj_points": 0.72,
@@ -503,25 +592,8 @@
      "note": "Trader (knee) is considered day-to-day ahead of Week 5, C. Isaiah Smalls II of the Miami Herald reports."
     }
    ],
-   "delta_since_last_pull": 0.24,
-   "new_absences": [
-    {
-     "player": "Chris Bell",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T20:41Z",
-     "note": "Bell (knee) was limited in Wednesday's practice, C. Isaiah Smalls II of the Miami Herald reports."
-    },
-    {
-     "player": "Austin Jackson",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T20:35Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "MIN": {
    "adj_points": 0.54,
@@ -580,9 +652,25 @@
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.06,
+   "adj_points": 1.13,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Tyler Shough",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-10-07T20:45Z",
+     "note": "Shough was limited with a non-throwing hand injury Wednesday, Mike Triplett of NewOrleans.Football reports."
+    },
+    {
+     "player": "Julian Blackmon",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:37Z",
+     "note": "questionable"
+    },
     {
      "player": "Kaden Elliss",
      "pos": "LB",
@@ -592,13 +680,38 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 1.07,
+   "new_absences": [
+    {
+     "player": "Tyler Shough",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-10-07T20:45Z",
+     "note": "Shough was limited with a non-throwing hand injury Wednesday, Mike Triplett of NewOrleans.Football reports."
+    },
+    {
+     "player": "Julian Blackmon",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T21:37Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NYG": {
-   "adj_points": 0.26,
+   "adj_points": 0.38,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Andrew Thomas",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T21:29Z",
+     "note": "questionable"
+    },
     {
      "player": "Malik Nabers",
      "pos": "WR",
@@ -624,15 +737,15 @@
      "note": "Skattebo was limited at Wednesday's practice due to a shoulder injury, Dan Salomone of the Giants' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.07,
+   "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Isaiah Likely",
-     "pos": "TE",
+     "player": "Andrew Thomas",
+     "pos": "T",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T20:39Z",
-     "note": "Likely (knee/groin) practiced in a limited capacity Wednesday, Dan Salomone of the Giants' official site reports."
+     "points": 0.12,
+     "updated": "2026-10-07T21:29Z",
+     "note": "questionable"
     }
    ]
   },
@@ -757,9 +870,25 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.07,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Jeffery Simmons",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T20:59Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kevin Winston Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T20:58Z",
+     "note": "questionable"
+    },
     {
      "player": "Amani Hooker",
      "pos": "S",
@@ -769,11 +898,28 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.14,
+   "new_absences": [
+    {
+     "player": "Jeffery Simmons",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T20:59Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kevin Winston Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-07T20:58Z",
+     "note": "questionable"
+    }
+   ]
   },
   "WAS": {
-   "adj_points": 0.19,
+   "adj_points": 0.28,
    "qb_out": false,
    "absences": [
     {
@@ -785,16 +931,41 @@
      "note": "McLaurin (hamstring) won't practice Wednesday, Tashan Reed of The Washington Post reports."
     },
     {
-     "player": "Jeremy Reaves",
-     "pos": "S",
+     "player": "Nick Allegretti",
+     "pos": "C",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T16:02Z",
-     "note": "Reaves (finger) is questionable to return to Sunday's game against the Colts."
+     "points": 0.1,
+     "updated": "2026-10-07T21:21Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Sonny Styles",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-07T21:21Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Nick Allegretti",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-07T21:21Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Sonny Styles",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-07T21:21Z",
+     "note": "questionable"
+    }
+   ]
   }
  }
 }
