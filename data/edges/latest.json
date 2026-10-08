@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-10-08T23:01:19.880640+00:00",
+  "built_at": "2026-10-08T23:30:43.884677+00:00",
   "nfl_history_games": 5495,
   "cfb_history_games": 3730,
-  "games": 102
+  "games": 98
  },
  "games": [
   {
@@ -15,6 +15,13 @@
    "fair_home_margin": 9.1,
    "best": [
     {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -8.5,
+     "price": 100,
+     "ev": -0.0074
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": -8.5,
@@ -22,18 +29,11 @@
      "ev": -0.0074
     },
     {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": -9.5,
-     "price": -106,
-     "ev": -0.0219
-    },
-    {
-     "book": "betmgm",
+     "book": "fanduel",
      "side": "home",
-     "home_line": -9.0,
-     "price": -105,
-     "ev": -0.0233
+     "home_line": -9.5,
+     "price": -102,
+     "ev": -0.0164
     }
    ]
   },
@@ -105,28 +105,28 @@
    "matchup": "Cincinnati Bengals @ Miami Dolphins",
    "kickoff_pt": "Sun Oct 11 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -6.4,
+   "fair_home_margin": -6.6,
    "best": [
     {
      "book": "draftkings",
      "side": "home",
      "home_line": 6.5,
      "price": 100,
-     "ev": -0.0066
+     "ev": -0.0117
     },
     {
      "book": "fanduel",
      "side": "home",
      "home_line": 6.5,
      "price": 100,
-     "ev": -0.0066
+     "ev": -0.0117
     },
     {
      "book": "hardrockbet",
      "side": "home",
      "home_line": 6.5,
      "price": 100,
-     "ev": -0.0066
+     "ev": -0.0117
     }
    ]
   },
@@ -229,28 +229,28 @@
    "matchup": "Las Vegas Raiders @ New England Patriots",
    "kickoff_pt": "Sun Oct 11 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 4.9,
+   "fair_home_margin": 4.8,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -3.5,
      "price": -101,
-     "ev": -0.0148
+     "ev": -0.005
     },
     {
      "book": "pinnacle",
      "side": "away",
      "home_line": -4.0,
-     "price": -110,
-     "ev": -0.0243
+     "price": -112,
+     "ev": -0.0233
     },
     {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": -4.0,
-     "price": -102,
-     "ev": -0.03
+     "book": "fanduel",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -105,
+     "ev": -0.0238
     }
    ]
   },
@@ -291,28 +291,28 @@
    "matchup": "New York Giants @ Washington Commanders",
    "kickoff_pt": "Sun Oct 11 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 5.2,
+   "fair_home_margin": 5.0,
    "best": [
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -4.0,
+     "price": -107,
+     "ev": -0.021
+    },
+    {
+     "book": "pinnacle",
+     "side": "away",
+     "home_line": -4.0,
+     "price": -107,
+     "ev": -0.021
+    },
     {
      "book": "lowvig",
      "side": "home",
      "home_line": -4.0,
-     "price": 100,
-     "ev": 0.0086
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -4.0,
-     "price": -105,
-     "ev": -0.0147
-    },
-    {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": -4.0,
-     "price": -106,
-     "ev": -0.0191
+     "price": -103,
+     "ev": -0.0251
     }
    ]
   },
@@ -322,28 +322,28 @@
    "matchup": "Denver Broncos @ Los Angeles Chargers",
    "kickoff_pt": "Sun Oct 11 1:05 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -3.7,
+   "fair_home_margin": -3.9,
    "best": [
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 3.5,
+     "price": 101,
+     "ev": -0.0154
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": 3.5,
+     "price": -109,
+     "ev": -0.0218
+    },
     {
      "book": "draftkings",
      "side": "home",
      "home_line": 3.5,
      "price": -112,
-     "ev": -0.0217
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -112,
-     "ev": -0.0217
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -112,
-     "ev": -0.0217
+     "ev": -0.0344
     }
    ]
   },
@@ -902,130 +902,6 @@
      "home_line": -7.0,
      "price": -122,
      "ev": -0.0335
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "b274da111dc9826f36e5fa238998dd69",
-   "matchup": "Sam Houston State Bearkats @ Liberty Flames",
-   "kickoff_pt": "Thu Oct 8 4:05 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 13.4,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -14.5,
-     "price": 120,
-     "ev": -0.009
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -13.5,
-     "price": -106,
-     "ev": -0.0162
-    },
-    {
-     "book": "betmgm",
-     "side": "away",
-     "home_line": -13.5,
-     "price": -108,
-     "ev": -0.025
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "561884d0d63e91b022e96bc6c415accd",
-   "matchup": "Missouri State Bears @ Western Kentucky Hilltoppers",
-   "kickoff_pt": "Thu Oct 8 4:05 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": -1.5,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 1.0,
-     "price": 104,
-     "ev": -0.0209
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": 2.0,
-     "price": -103,
-     "ev": -0.0269
-    },
-    {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": 2.0,
-     "price": -109,
-     "ev": -0.0277
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "52f2d012fe3e686087077b0d7083159a",
-   "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
-   "kickoff_pt": "Thu Oct 8 4:30 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 3.7,
-   "best": [
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -3.5,
-     "price": -115,
-     "ev": -0.0009
-    },
-    {
-     "book": "espnbet",
-     "side": "away",
-     "home_line": -3.5,
-     "price": -115,
-     "ev": -0.0009
-    },
-    {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -3.5,
-     "price": -120,
-     "ev": -0.0202
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "2a637494f07611db6ba822fb84218d58",
-   "matchup": "South Florida Bulls @ UTSA Roadrunners",
-   "kickoff_pt": "Thu Oct 8 4:30 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 5.4,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -5.5,
-     "price": -102,
-     "ev": 0.0046
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -5.5,
-     "price": -105,
-     "ev": -0.0097
-    },
-    {
-     "book": "bovada",
-     "side": "away",
-     "home_line": -5.5,
-     "price": -105,
-     "ev": -0.0097
     }
    ]
   },

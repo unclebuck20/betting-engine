@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-08T23:00:26.283642+00:00",
-  "previous_pull": "2026-10-08T22:30:30.464165+00:00",
-  "matched_absences": 89
+  "injury_pull": "2026-10-08T23:30:37.896276+00:00",
+  "previous_pull": "2026-10-08T23:00:26.283642+00:00",
+  "matched_absences": 90
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.77,
+   "adj_points": 0.86,
    "qb_out": false,
    "absences": [
     {
@@ -29,6 +29,14 @@
      "note": "The Cardinals placed Johnson (biceps) on injured reserve Tuesday."
     },
     {
+     "player": "Walter Nolen III",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-08T23:20Z",
+     "note": "questionable"
+    },
+    {
      "player": "Andrew Wingard",
      "pos": "S",
      "status": "Questionable",
@@ -37,8 +45,17 @@
      "note": "Wingard (knee) did not practice Wednesday, Bo Brack of GoPHNX.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Walter Nolen III",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-08T23:20Z",
+     "note": "questionable"
+    }
+   ]
   },
   "ATL": {
    "adj_points": 0.18,
@@ -873,16 +890,16 @@
      "pos": "QB",
      "status": "Out",
      "points": 4.0,
-     "updated": "2026-10-05T19:07Z",
-     "note": "out"
+     "updated": "2026-10-08T22:48Z",
+     "note": "inactive"
     },
     {
      "player": "Antoine Winfield Jr.",
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-07T22:26Z",
-     "note": "The Buccaneers have ruled out Winfield (ribs) for Thursday's game against the Cowboys."
+     "updated": "2026-10-08T22:48Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
