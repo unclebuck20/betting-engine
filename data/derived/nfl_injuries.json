@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-08T22:00:32.559550+00:00",
-  "previous_pull": "2026-10-08T21:48:07.352676+00:00",
+  "injury_pull": "2026-10-08T22:30:30.464165+00:00",
+  "previous_pull": "2026-10-08T22:00:32.559550+00:00",
   "matched_absences": 89
  },
  "teams": {
@@ -313,9 +313,17 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 0.18,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Aireontae Ersery",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-08T21:53Z",
+     "note": "questionable"
+    },
     {
      "player": "Will Anderson Jr.",
      "pos": "DE",
@@ -333,8 +341,17 @@
      "note": "Al-Shaair (groin) was a limited participant in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Aireontae Ersery",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-08T21:53Z",
+     "note": "questionable"
+    }
+   ]
   },
   "IND": {
    "adj_points": 0.78,
@@ -929,7 +946,7 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.28,
+   "adj_points": 0.22,
    "qb_out": false,
    "absences": [
     {
@@ -947,17 +964,9 @@
      "points": 0.1,
      "updated": "2026-10-07T21:21Z",
      "note": "questionable"
-    },
-    {
-     "player": "Sonny Styles",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-07T23:32Z",
-     "note": "Styles (groin) was a limited participant in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
