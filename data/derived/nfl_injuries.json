@@ -3,15 +3,23 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-07T23:00:31.646259+00:00",
-  "previous_pull": "2026-10-07T22:00:34.103032+00:00",
-  "matched_absences": 86
+  "injury_pull": "2026-10-08T02:30:27.481918+00:00",
+  "previous_pull": "2026-10-07T23:00:31.646259+00:00",
+  "matched_absences": 94
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.51,
+   "adj_points": 0.77,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Isaiah Adams",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-08T00:38Z",
+     "note": "Adams (ankle) won't play in Sunday's game against Detroit, Darren Urban of the Cardinals' official site reports."
+    },
     {
      "player": "Paris Johnson Jr.",
      "pos": "OL",
@@ -21,23 +29,15 @@
      "note": "The Cardinals placed Johnson (biceps) on injured reserve Tuesday."
     },
     {
-     "player": "Isaiah Adams",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-05T00:47Z",
-     "note": "Adams suffered an ankle injury in Sunday's loss to the Giants, Theo Mackie of The Arizona Republic reports."
-    },
-    {
      "player": "Andrew Wingard",
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-05T23:51Z",
-     "note": "Wingard suffered a bone bruise in his knee during Sunday's 36-24 loss to the Giants, Jeremy Fowler of ESPN.com reports."
+     "updated": "2026-10-08T00:46Z",
+     "note": "Wingard (knee) did not practice Wednesday, Bo Brack of GoPHNX.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "ATL": {
@@ -61,17 +61,8 @@
      "note": "Matthews (groin) has been downgraded to out for the rest of Monday's game against the Saints, Tori McElhaney of the Falcons' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Cameron Thomas",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:58Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "BAL": {
    "adj_points": 1.5,
@@ -203,7 +194,7 @@
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-10-07T19:58Z",
-     "note": "Swift didn't practice Thursday due to hip and knee injuries."
+     "note": "Swift didn't practice Wednesday due to hip and knee injuries."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -219,7 +210,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-07T20:38Z",
-     "note": "Higgins (groin/neck) did not practice Wednesday, Jay Morrison of SI.com reports."
+     "note": "Higgins didn't practice Wednesday due to groin and neck injuries, Jay Morrison of SI.com reports."
     },
     {
      "player": "Ja'Marr Chase",
@@ -227,7 +218,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-07T17:45Z",
-     "note": "Chase remains in the league's concussion protocol Wednesday, Ben Baby of ESPN.com reports."
+     "note": "Bengals head coach Zac Taylor said that Chase remains in concussion protocol and won't practice Wednesday, Paul Dehner Jr. of The Athletic reports."
     },
     {
      "player": "Dalton Risner",
@@ -282,8 +273,8 @@
      "pos": "C",
      "status": "Questionable",
      "points": 0.1,
-     "updated": "2026-10-06T18:21Z",
-     "note": "questionable"
+     "updated": "2026-10-08T00:38Z",
+     "note": "Head coach Todd Monken said Wednesday that Jenkins has cleared the league's concussion protocol, Tom Withers of The Associated Press reports."
     },
     {
      "player": "Grant Delpit",
@@ -306,8 +297,8 @@
      "pos": "WR",
      "status": "Doubtful",
      "points": 0.42,
-     "updated": "2026-10-06T14:49Z",
-     "note": "The Broncos are confident that Bryant avoided a long-term right ankle injury after an MRI on Monday yielded good news, Ian Rapoport of NFL Network reports."
+     "updated": "2026-10-07T22:54Z",
+     "note": "Bryant (ankle) did not participate in Wednesday's practice, Aric DiLalla of the Broncos' official site reports."
     },
     {
      "player": "Riley Moss",
@@ -334,17 +325,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Tyleik Williams",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-07T21:52Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "GB": {
    "adj_points": 0.59,
@@ -363,8 +345,8 @@
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-07T21:47Z",
-     "note": "questionable"
+     "updated": "2026-10-07T23:36Z",
+     "note": "Van Ness (shoulder) was a limited participant in Wednesday's practice."
     },
     {
      "player": "Anthony Belton",
@@ -383,25 +365,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Lukas Van Ness",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:47Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Anthony Belton",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:47Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "HOU": {
    "adj_points": 0.18,
@@ -412,16 +377,16 @@
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-07T21:31Z",
-     "note": "questionable"
+     "updated": "2026-10-08T01:29Z",
+     "note": "Anderson logged five tackles (three solo), including 0.5 sacks, in the Texans' 34-30 loss to the Cowboys on Sunday."
     },
     {
      "player": "Azeez Al-Shaair",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-06T18:21Z",
-     "note": "questionable"
+     "updated": "2026-10-07T23:31Z",
+     "note": "Al-Shaair (groin) was a limited participant in Wednesday's practice."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -452,36 +417,109 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-07T02:50Z",
-     "note": "Davis-Gaither tallied eight tackles (five solo) during the Colts' 30-13 win over the Commanders on Sunday in London."
+     "updated": "2026-10-07T23:16Z",
+     "note": "Davis-Gaither was a non-participant in Wednesday's practice due to a knee injury."
     },
     {
      "player": "Jaylon Carlies",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-07T02:45Z",
-     "note": "questionable"
+     "updated": "2026-10-07T02:44Z",
+     "note": "Carlies logged five tackles (three solo) and an interception during Sunday's 30-13 win over the Commanders in London before exiting with a rib injury in the thi"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.07,
+   "adj_points": 0.54,
    "qb_out": false,
    "absences": [
     {
-     "player": "Eric Murray",
-     "pos": "S",
+     "player": "Jarrian Jones",
+     "pos": "CB",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-04T19:56Z",
-     "note": "Murray (concussion) has been ruled out for the rest of Sunday's game against the Bengals, Demetrius Harvey of The Florida Times-Union reports."
+     "points": 0.12,
+     "updated": "2026-10-07T23:15Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Josh Hines-Allen",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T23:15Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jourdan Lewis",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T02:07Z",
+     "note": "Lewis registered five tackles (three solo) and an interception during the Jaguars' 22-17 win over the Bengals on Sunday."
+    },
+    {
+     "player": "Cole Van Lanen",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T23:16Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Anton Harrison",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T23:14Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.47,
+   "new_absences": [
+    {
+     "player": "Jarrian Jones",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T23:15Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Josh Hines-Allen",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T23:15Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jourdan Lewis",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T02:07Z",
+     "note": "Lewis registered five tackles (three solo) and an interception during the Jaguars' 22-17 win over the Bengals on Sunday."
+    },
+    {
+     "player": "Cole Van Lanen",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T23:16Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Anton Harrison",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-07T23:14Z",
+     "note": "questionable"
+    }
+   ]
   },
   "KC": {
    "adj_points": 0.12,
@@ -528,28 +566,11 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.14,
-   "new_absences": [
-    {
-     "player": "Spencer Burford",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T22:14Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Brock Bowers",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T21:54Z",
-     "note": "Bowers (knee) was listed as a limited participant in Wednesday's practice, Anthony Galaviz of The Fresno Bee reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LAC": {
-   "adj_points": 0.78,
+   "adj_points": 1.02,
    "qb_out": false,
    "absences": [
     {
@@ -565,16 +586,32 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-04T22:33Z",
-     "note": "Alt (neck) has been ruled out for the remainder of Sunday's matchup with the Seahawks."
+     "updated": "2026-10-08T00:38Z",
+     "note": "Alt (neck) did not participate in Wednesday's practice."
+    },
+    {
+     "player": "Cam Hart",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T23:35Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Quentin Johnston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T23:03Z",
+     "note": "Johnston was limited at Wednesday's practice due to a chest injury."
     },
     {
      "player": "Trevor Penning",
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-04T23:31Z",
-     "note": "Penning (head) exited Sunday's contest against Seattle in the fourth quarter."
+     "updated": "2026-10-08T00:22Z",
+     "note": "Penning (concussion) did not participate in Wednesday's practice, Kris Rhim of ESPN.com reports."
     },
     {
      "player": "Derwin James Jr.",
@@ -585,8 +622,25 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.24,
+   "new_absences": [
+    {
+     "player": "Cam Hart",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T23:35Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Quentin Johnston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-07T23:03Z",
+     "note": "Johnston was limited at Wednesday's practice due to a chest injury."
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.12,
@@ -673,17 +727,8 @@
      "note": "Darrisaw is in concussion protocol following Sunday's game versus the Dolphins, Dane Mizutani of the St. Paul Pioneer Press reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Brian O'Neill",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T22:05Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 0.61,
@@ -711,7 +756,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-07T17:56Z",
-     "note": "Hollins (calf) isn't expected to practice Wednesday, Evan Lazar of the Patriots' official site reports."
+     "note": "Patriots head coach Mike Vrabel said that he doesn't anticipate Hollins (calf) practicing Wednesday, Evan Lazar of the Patriots' official site reports."
     },
     {
      "player": "Christian Gonzalez",
@@ -738,41 +783,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.37,
-   "new_absences": [
-    {
-     "player": "Morgan Moses",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:55Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Carlton Davis III",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:52Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Craig Woodson",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-07T21:56Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Christian Elliss",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-07T21:54Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NO": {
    "adj_points": 1.13,
@@ -791,16 +803,16 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-07T21:37Z",
-     "note": "questionable"
+     "updated": "2026-10-08T01:00Z",
+     "note": "Blackmon logged 10 tackles (five solo) in the Saints' 45-24 loss to the Falcons on Monday."
     },
     {
      "player": "Kaden Elliss",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-06T18:22Z",
-     "note": "questionable"
+     "updated": "2026-10-07T23:34Z",
+     "note": "Elliss (calf) was estimated as a non-participant at practice Wednesday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -823,8 +835,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-07T20:26Z",
-     "note": "Nabers didn't practice Wednesday due to a knee injury, Dan Salomone of the Giants' official site reports."
+     "updated": "2026-10-07T19:26Z",
+     "note": "Nabers said he took on \"as much as I could\" at Wednesday's practice, after which he noted he's dealing with soreness, Connor Hughes of SNY.tv reports."
     },
     {
      "player": "Isaiah Likely",
@@ -847,9 +859,17 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.3,
+   "adj_points": 0.46,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Quinyon Mitchell",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-08T00:32Z",
+     "note": "Mitchell (knee) was limited in practice Wednesday."
+    },
     {
      "player": "DeVonta Smith",
      "pos": "WR",
@@ -859,24 +879,49 @@
      "note": "Smith (hamstring) isn't taking part in Wednesday's practice, Brooks Kubena of The Athletic reports."
     },
     {
-     "player": "Quinyon Mitchell",
-     "pos": "CB",
+     "player": "Drew Kendall",
+     "pos": "C",
      "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-05T14:20Z",
-     "note": "Mitchell is scheduled to undergo testing on his knee Monday after he was forced out of Sunday's 24-20 loss to the Rams, Ian Rapoport of NFL Network reports."
+     "points": 0.1,
+     "updated": "2026-10-07T23:08Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jihaad Campbell",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-08T00:13Z",
+     "note": "Campbell (knee) did not practice Wednesday."
     },
     {
      "player": "Zack Baun",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-06T18:21Z",
-     "note": "questionable"
+     "updated": "2026-10-08T00:03Z",
+     "note": "Baun (concussion) was limited during practice Wednesday."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.16,
+   "new_absences": [
+    {
+     "player": "Drew Kendall",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-07T23:08Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jihaad Campbell",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-08T00:13Z",
+     "note": "Campbell (knee) did not practice Wednesday."
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.66,
@@ -976,7 +1021,7 @@
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-10-07T22:14Z",
-     "note": "Hooker is in the league's concussion protocol and did not practice Wednesday, Easton Freeze of AtoZSports.com reports."
+     "note": "Hooker reported concussion symptoms following Sunday's 24-18 loss to the Ravens and won't practice Wednesday, Jim Wyatt of the Titans' official site reports."
     },
     {
      "player": "Jeffery Simmons",
@@ -1023,8 +1068,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-07T21:21Z",
-     "note": "questionable"
+     "updated": "2026-10-07T23:32Z",
+     "note": "Styles (groin) was a limited participant in Wednesday's practice."
     }
    ],
    "delta_since_last_pull": 0.0,
