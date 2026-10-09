@@ -3443,7 +3443,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-03T19:35:53.127828+00:00",
   "published_at": "2026-10-03T19:36:27.438910+00:00",
-  "status": "live",
+  "status": "moved",
   "history": [
    [
     "2026-10-03T19:36:27.438910+00:00",
@@ -3462,30 +3462,36 @@
     11.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    10.5,
+    -106,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 11.5,
-   "price": -110,
+   "line": 10.5,
+   "price": -106,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612085588&selectionId=662042",
-   "ev_pct": 7.43,
-   "confidence": 56.3
+   "ev_pct": 0.47,
+   "confidence": 51.7
   },
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 7.43,
-   "confidence": 56.3,
-   "line": 11.5,
-   "price": -110,
+   "tier": "pass",
+   "ev_pct": 0.47,
+   "confidence": 51.7,
+   "line": 10.5,
+   "price": -106,
    "book": "fanduel",
-   "why": "Pinnacle makes UCLA +13; FanDuel has +11.5 (-110). Our in-season power ratings have UCLA 8.9 pts better than the market. The line opened +12.5 and has moved toward UCLA.",
+   "why": "Pinnacle makes UCLA +11.5; FanDuel has +10.5 (-106). Sharp money moved this 1.3 pts toward UCLA since Fri 7:00 AM; your book hasn't fully followed. The line opened +12.5 and has moved toward UCLA.",
    "flags": [
+    "our ratings disagree with SP+ and the market by 8 pts; likely a roster or QB change, so no model weight",
     "college injuries not checked yet"
    ]
-  },
-  "units_uncapped": 2.0
+  }
  },
  "5efdb3515c882453d9abcd27db28f78b|Coastal Carolina Chanticleers": {
   "id": "5efdb3515c882453d9abcd27db28f78b",
@@ -3915,7 +3921,7 @@
    "line": -7.5,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle makes Jaguars -8.5; DraftKings has -7.5 (-108). Our NFL model makes Jaguars -7, 1.5 pts worse than the market.",
+   "why": "Pinnacle makes Jaguars -8.5; DraftKings has -7.5 (-108). PHI is without DeVonta Smith (WR, out); injuries are worth ~0.7 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -4366,13 +4372,19 @@
     7.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    7.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 7.5,
-   "price": -110,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612645364&selectionId=70350",
+   "price": -105,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517894P750_1",
    "ev_pct": null,
    "confidence": null
   },
@@ -4493,18 +4505,18 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517900P1050_3",
-   "ev_pct": 6.24,
-   "confidence": 55.2
+   "ev_pct": 7.67,
+   "confidence": 55.9
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 6.24,
-   "confidence": 55.2,
+   "ev_pct": 7.67,
+   "confidence": 55.9,
    "line": 10.5,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle makes UCF +12; DraftKings has +10.5 (-108). Our in-season power ratings have UCF 11.7 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes UCF +11.5; DraftKings has +10.5 (-108). Our in-season power ratings have UCF 11.2 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
     "college injuries not checked yet"
@@ -4589,25 +4601,31 @@
     -3.5,
     -105,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    -3.5,
+    -106,
+    "fanduel"
    ]
   ],
   "current": {
    "line": -3.5,
-   "price": -105,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517990N350_1",
-   "ev_pct": -1.04,
-   "confidence": 50.7
+   "price": -106,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612659226&selectionId=662060",
+   "ev_pct": 0.39,
+   "confidence": 51.7
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.04,
-   "confidence": 50.7,
+   "ev_pct": 0.39,
+   "confidence": 51.7,
    "line": -3.5,
-   "price": -105,
-   "book": "draftkings",
-   "why": "Pinnacle makes Missouri -4.5; DraftKings has -3.5 (-105). Our in-season power ratings have Missouri 4.1 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "price": -106,
+   "book": "fanduel",
+   "why": "Pinnacle makes Missouri -4.5; FanDuel has -3.5 (-106). Our in-season power ratings have Missouri 3.9 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -4696,30 +4714,36 @@
     -3.0,
     -112,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    -3.0,
+    -115,
+    "draftkings"
    ]
   ],
   "current": {
    "line": -3.0,
-   "price": -112,
+   "price": -115,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517898N300_3",
-   "ev_pct": 7.39,
-   "confidence": 57.0
+   "ev_pct": 6.86,
+   "confidence": 53.4
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 7.39,
-   "confidence": 57.0,
-   "line": -3.0,
-   "price": -112,
-   "book": "draftkings",
-   "why": "Pinnacle makes Arizona -4; DraftKings has -3 (-112). Our in-season power ratings have Arizona 7.9 pts better than the market.",
+   "ev_pct": 6.86,
+   "confidence": 53.4,
+   "line": -3.5,
+   "price": 100,
+   "book": "fanduel",
+   "why": "Pinnacle makes Arizona -4; FanDuel has -3.5 (+100). Our in-season power ratings have Arizona 7.9 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
   },
-  "units_uncapped": 2.0
+  "units_uncapped": 1.5
  },
  "4462f1fa168ab2a5a25fe2807ebec8ac|Penn State Nittany Lions": {
   "id": "4462f1fa168ab2a5a25fe2807ebec8ac",
@@ -4805,14 +4829,14 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612669776&selectionId=1303222",
-   "ev_pct": -1.94,
-   "confidence": 51.4
+   "ev_pct": -2.27,
+   "confidence": 51.2
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.94,
-   "confidence": 51.4,
+   "ev_pct": -2.27,
+   "confidence": 51.2,
    "line": -1.5,
    "price": -110,
    "book": "fanduel",
@@ -4951,7 +4975,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-04T14:00:31.791898+00:00",
   "published_at": "2026-10-04T14:01:24.957113+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-04T14:01:24.957113+00:00",
@@ -4995,24 +5019,24 @@
    "price": -122,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612663495&selectionId=2129030",
-   "ev_pct": 7.36,
-   "confidence": 59.0
+   "ev_pct": 0.03,
+   "confidence": 55.0
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 7.36,
-   "confidence": 59.0,
+   "tier": "pass",
+   "ev_pct": 0.03,
+   "confidence": 55.0,
    "line": 10.5,
    "price": -122,
    "book": "fanduel",
-   "why": "Pinnacle makes Vanderbilt +9.5; FanDuel has +10.5 (-122). Our in-season power ratings have Vanderbilt 12.7 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Vanderbilt +12.5; FanDuel has +10.5 (-122). Our in-season power ratings have Vanderbilt 15.6 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
-    "college injuries not checked yet"
+    "college injuries not checked yet",
+    "sharp line moved 2.9 pts against this side recently"
    ]
-  },
-  "units_uncapped": 0.5
+  }
  },
  "234d9123fdc010716a5a844efaf7ab43|Purdue Boilermakers": {
   "id": "234d9123fdc010716a5a844efaf7ab43",
@@ -5079,25 +5103,31 @@
     2.5,
     -106,
     "fanduel"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    2.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 2.5,
-   "price": -106,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612670278&selectionId=673400",
-   "ev_pct": -0.02,
-   "confidence": 51.4
+   "price": -105,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518128P250_1",
+   "ev_pct": -1.54,
+   "confidence": 50.4
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -0.02,
-   "confidence": 51.4,
+   "ev_pct": -1.54,
+   "confidence": 50.4,
    "line": 2.5,
-   "price": -106,
-   "book": "fanduel",
-   "why": "Pinnacle makes Purdue +2.5; FanDuel has +2.5 (-106). Our in-season power ratings have Purdue 1.9 pts better than the market.",
+   "price": -105,
+   "book": "draftkings",
+   "why": "Pinnacle makes Purdue +3.5; DraftKings has +2.5 (-105). Our in-season power ratings have Purdue 2.7 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -5413,7 +5443,7 @@
   "open_line": null,
   "confidence": 55.1,
   "ev_pct": 5.12,
-  "units": 0.5,
+  "units": 1.0,
   "price_floor": 3.5,
   "floor_text": "Good to +3.5 at -110",
   "fair_source": "consensus",
@@ -5474,18 +5504,18 @@
    "price": -102,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291194&selectionId=50185",
-   "ev_pct": 1.84,
-   "confidence": 51.4
+   "ev_pct": 2.74,
+   "confidence": 51.9
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 1.84,
-   "confidence": 51.4,
+   "tier": "play",
+   "ev_pct": 2.74,
+   "confidence": 51.9,
    "line": 3.5,
    "price": -102,
    "book": "draftkings",
-   "why": "Pinnacle makes Giants +5; DraftKings has +3.5 (-102). Our NFL model makes Giants +2, 3.0 pts better than the market.",
+   "why": "Pinnacle makes Giants +5; DraftKings has +3.5 (-102). Our NFL model makes Giants +2, 3.2 pts better than the market.",
    "flags": []
   }
  },
@@ -6143,7 +6173,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
   "published_at": "2026-10-05T00:30:48.287185+00:00",
-  "status": "live",
+  "status": "moved",
   "history": [
    [
     "2026-10-05T00:30:48.287185+00:00",
@@ -6199,8 +6229,8 @@
    "price": -120,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695532N300_1",
-   "ev_pct": 12.0,
-   "confidence": 56.0
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -6554,11 +6584,17 @@
     4.5,
     -112,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    4.5,
+    -115,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 4.5,
-   "price": -112,
+   "price": -115,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517891P450_3",
    "ev_pct": null,
@@ -6618,7 +6654,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-05T10:30:29.286314+00:00",
   "published_at": "2026-10-05T10:30:48.946676+00:00",
-  "status": "moved",
+  "status": "live",
   "history": [
    [
     "2026-10-05T10:30:48.946676+00:00",
@@ -6650,23 +6686,24 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612670900&selectionId=484739",
-   "ev_pct": -0.43,
-   "confidence": 52.2
+   "ev_pct": 2.75,
+   "confidence": 53.8
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": -0.43,
-   "confidence": 52.2,
+   "tier": "lean",
+   "ev_pct": 2.75,
+   "confidence": 53.8,
    "line": 33.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Maryland +32; FanDuel has +33.5 (-110). Our in-season power ratings have Maryland 4.3 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Maryland +31.5; FanDuel has +33.5 (-110). Our in-season power ratings have Maryland 3.9 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "blowout spread; model and market are least reliable here",
     "college injuries not checked yet"
    ]
-  }
+  },
+  "units_uncapped": 0.5
  },
  "2168132b20b82bf78e08f1787b6f83cc|Charlotte 49ers": {
   "id": "2168132b20b82bf78e08f1787b6f83cc",
@@ -6817,25 +6854,31 @@
     20.5,
     -105,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    21.0,
+    -112,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 20.5,
-   "price": -105,
+   "line": 21.0,
+   "price": -112,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518130P2050_3",
-   "ev_pct": 4.41,
-   "confidence": 53.5
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518130P2100_3",
+   "ev_pct": 7.11,
+   "confidence": 56.8
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 4.41,
-   "confidence": 53.5,
-   "line": 20.5,
-   "price": -105,
-   "book": "fanduel",
-   "why": "Pinnacle makes Hawai'i +22; FanDuel has +20.5 (-105). Our in-season power ratings have Hawai'i 17.4 pts better than the market.",
+   "ev_pct": 7.11,
+   "confidence": 56.8,
+   "line": 21.0,
+   "price": -112,
+   "book": "draftkings",
+   "why": "Pinnacle makes Hawai'i +22; DraftKings has +21 (-112). Our in-season power ratings have Hawai'i 17.4 pts better than the market.",
    "flags": [
     "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
     "college injuries not checked yet"
@@ -6926,25 +6969,31 @@
     7.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    7.5,
+    -115,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 7.5,
-   "price": -110,
+   "price": -115,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969925&selectionId=484724",
-   "ev_pct": -3.66,
-   "confidence": 50.5
+   "ev_pct": -3.54,
+   "confidence": 51.6
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -3.66,
-   "confidence": 50.5,
+   "ev_pct": -3.54,
+   "confidence": 51.6,
    "line": 7.5,
-   "price": -110,
+   "price": -115,
    "book": "fanduel",
-   "why": "Pinnacle makes Oklahoma +9; FanDuel has +7.5 (-110). The line opened +6 and has moved toward Texas.",
+   "why": "Pinnacle makes Oklahoma +8.5; FanDuel has +7.5 (-115). The line opened +6 and has moved toward Texas.",
    "flags": [
     "our ratings disagree with SP+ and the market by 8 pts; likely a roster or QB change, so no model weight",
     "college injuries not checked yet"
@@ -7116,8 +7165,8 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518031P1000_1",
-   "ev_pct": -3.38,
-   "confidence": 50.5
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -7185,30 +7234,36 @@
     3.5,
     -122,
     "fanduel"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    3.5,
+    -115,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 3.5,
-   "price": -122,
+   "price": -115,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612660275&selectionId=2137018",
-   "ev_pct": 1.22,
-   "confidence": 55.6
+   "ev_pct": 3.1,
+   "confidence": 55.1
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 1.22,
-   "confidence": 55.6,
+   "tier": "play",
+   "ev_pct": 3.1,
+   "confidence": 55.1,
    "line": 3.5,
-   "price": -122,
+   "price": -115,
    "book": "fanduel",
-   "why": "Pinnacle makes Tulane +4; FanDuel has +3.5 (-122). Our in-season power ratings have Tulane 4.4 pts better than the market.",
+   "why": "Pinnacle makes Tulane +4.5; FanDuel has +3.5 (-115). Our in-season power ratings have Tulane 4.8 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
   },
-  "units_uncapped": 0.5
+  "units_uncapped": 1.0
  },
  "cc52bba56e74f5cddbe9011046181c3d|Houston Texans": {
   "id": "cc52bba56e74f5cddbe9011046181c3d",
@@ -7300,7 +7355,7 @@
    "line": -7.5,
    "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Texans -10; DraftKings has -7.5 (-105). Our NFL model makes Texans -8.5, 1.5 pts worse than the market.",
+   "why": "Pinnacle makes Texans -10; DraftKings has -7.5 (-105). Our NFL model makes Texans -9, 1.1 pts worse than the market.",
    "flags": []
   }
  },
@@ -7642,25 +7697,31 @@
     13.5,
     100,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    13.5,
+    -102,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 13.5,
-   "price": 100,
+   "price": -102,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518009P1350_3",
-   "ev_pct": 6.71,
-   "confidence": 53.4
+   "ev_pct": 4.93,
+   "confidence": 53.0
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 6.71,
-   "confidence": 53.4,
+   "ev_pct": 4.93,
+   "confidence": 53.0,
    "line": 13.5,
-   "price": 100,
+   "price": -102,
    "book": "draftkings",
-   "why": "Pinnacle makes Kent State +14.5; DraftKings has +13.5 (+100). Our in-season power ratings have Kent State 5.9 pts better than the market.",
+   "why": "Pinnacle makes Kent State +14.5; DraftKings has +13.5 (-102). Our in-season power ratings have Kent State 6.0 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -7820,30 +7881,37 @@
     14.5,
     -122,
     "fanduel"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    14.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 14.5,
-   "price": -122,
+   "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612659444&selectionId=975023",
-   "ev_pct": 4.74,
+   "ev_pct": 3.98,
    "confidence": 54.5
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 4.74,
+   "ev_pct": 3.98,
    "confidence": 54.5,
-   "line": 14.0,
-   "price": -108,
-   "book": "draftkings",
-   "why": "Pinnacle makes UAB +15; DraftKings has +14 (-108). Our in-season power ratings have UAB 6.6 pts better than the market.",
+   "line": 14.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "Pinnacle makes UAB +16; FanDuel has +14.5 (-110). Our in-season power ratings have UAB 7.6 pts better than the market.",
    "flags": [
-    "college injuries not checked yet"
+    "college injuries not checked yet",
+    "sharp line moved 1.0 pts against this side recently"
    ]
   },
-  "units_uncapped": 1.5
+  "units_uncapped": 1.0
  },
  "6e4d435e9afc8a6db1162d2057d74acb|San Diego State Aztecs": {
   "id": "6e4d435e9afc8a6db1162d2057d74acb",
@@ -7923,30 +7991,36 @@
     15.5,
     -108,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    16.5,
+    -112,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 15.5,
-   "price": -108,
+   "line": 16.5,
+   "price": -112,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518106P1550_3",
-   "ev_pct": 3.1,
-   "confidence": 53.5
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518106P1650_3",
+   "ev_pct": 5.74,
+   "confidence": 53.9
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 3.1,
-   "confidence": 53.5,
+   "ev_pct": 5.74,
+   "confidence": 53.9,
    "line": 15.5,
-   "price": -108,
-   "book": "draftkings",
-   "why": "Pinnacle makes San Diego State +17; DraftKings has +15.5 (-108). Our in-season power ratings have San Diego State 8.4 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "price": -104,
+   "book": "fanduel",
+   "why": "Pinnacle makes San Diego State +16.5; FanDuel has +15.5 (-104). Our in-season power ratings have San Diego State 8.1 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
   },
-  "units_uncapped": 1.0
+  "units_uncapped": 1.5
  },
  "837b4ddbdcd5e8e3a68a7c954208ff40|Louisiana Ragin Cajuns": {
   "id": "837b4ddbdcd5e8e3a68a7c954208ff40",
@@ -8006,30 +8080,36 @@
     3.0,
     -112,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    3.0,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 3.0,
-   "price": -112,
+   "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518126P300_3",
-   "ev_pct": 3.51,
-   "confidence": 54.8
+   "ev_pct": 5.38,
+   "confidence": 54.2
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 3.51,
-   "confidence": 54.8,
+   "ev_pct": 5.38,
+   "confidence": 54.2,
    "line": 3.0,
-   "price": -112,
+   "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Louisiana +3.5; DraftKings has +3 (-112). Our in-season power ratings have Louisiana 8.1 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Louisiana +4; DraftKings has +3 (-105). Our in-season power ratings have Louisiana 8.5 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
   },
-  "units_uncapped": 1.0
+  "units_uncapped": 1.5
  },
  "2ec27bbe3b14c521ba8a3f3f6e46f4ac|Utah State Aggies": {
   "id": "2ec27bbe3b14c521ba8a3f3f6e46f4ac",
@@ -8053,7 +8133,7 @@
   "open_line": -5.5,
   "confidence": 53.6,
   "ev_pct": 1.47,
-  "units": 1.0,
+  "units": 2.0,
   "price_floor": -6.5,
   "floor_text": "Good to -6.5 at -110",
   "fair_source": "pinnacle",
@@ -8107,15 +8187,21 @@
     -5.5,
     -108,
     "fanduel"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    -3.5,
+    -115,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": -5.5,
-   "price": -108,
+   "line": -3.5,
+   "price": -115,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612658324&selectionId=602740",
-   "ev_pct": 4.02,
-   "confidence": 54.0
+   "ev_pct": 7.02,
+   "confidence": 54.9
   },
   "scout": {
    "verdict": "agree",
@@ -8128,12 +8214,12 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 4.02,
-   "confidence": 54.0,
-   "line": -5.5,
-   "price": -108,
-   "book": "fanduel",
-   "why": "Pinnacle makes Utah State -5.5; FanDuel has -5.5 (-108). Our in-season power ratings have Utah State 2.8 pts better than the market.",
+   "ev_pct": 7.02,
+   "confidence": 54.9,
+   "line": -4.0,
+   "price": -105,
+   "book": "draftkings",
+   "why": "Pinnacle makes Utah State -5; DraftKings has -4 (-105). Our in-season power ratings have Utah State 3.7 pts better than the market. The line opened -5.5 and has moved toward Washington State.",
    "flags": []
   }
  },
@@ -8269,25 +8355,31 @@
     9.5,
     -105,
     "draftkings"
+   ],
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    10.0,
+    -112,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 9.5,
-   "price": -105,
+   "line": 10.0,
+   "price": -112,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517974P950_3",
-   "ev_pct": 6.02,
-   "confidence": 54.3
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517974P1000_3",
+   "ev_pct": 5.73,
+   "confidence": 56.0
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 6.02,
-   "confidence": 54.3,
-   "line": 9.5,
-   "price": -105,
+   "ev_pct": 5.73,
+   "confidence": 56.0,
+   "line": 10.0,
+   "price": -112,
    "book": "draftkings",
-   "why": "Pinnacle makes Old Dominion +9; DraftKings has +9.5 (-105). Our in-season power ratings have Old Dominion 6.2 pts better than the market.",
+   "why": "Pinnacle makes Old Dominion +9.5; DraftKings has +10 (-112). Our in-season power ratings have Old Dominion 6.8 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -8355,18 +8447,18 @@
    "price": -122,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291267&selectionId=50205",
-   "ev_pct": null,
-   "confidence": null
+   "ev_pct": -0.19,
+   "confidence": 49.9
   },
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.78,
-   "confidence": 52.1,
+   "tier": "pass",
+   "ev_pct": -0.19,
+   "confidence": 49.9,
    "line": 3.0,
    "price": 100,
    "book": "draftkings",
-   "why": "Pinnacle makes Ravens +4.5; DraftKings has +3 (+100). Our NFL model makes Ravens PK, 4.5 pts better than the market.",
+   "why": "Pinnacle makes Ravens +4.5; DraftKings has +3 (+100). Our NFL model makes Ravens +1, 3.2 pts better than the market.",
    "flags": []
   }
  },
@@ -8530,7 +8622,7 @@
    "line": -2.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Steelers -3; FanDuel has -2.5 (-110). PIT is without Michael Pittman Jr. (WR, out); injuries are worth ~1.0 pts to them by our injury model. IND is without Arden Key (DE, out); injuries are worth ~0.8 pts to them by our injury model.",
+   "why": "Pinnacle makes Steelers -3; FanDuel has -2.5 (-110). PIT is without Jamel Dean (CB, out); injuries are worth ~1.1 pts to them by our injury model. IND is without Arden Key (DE, out); injuries are worth ~0.9 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -8587,18 +8679,18 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612660483&selectionId=20446517",
-   "ev_pct": 3.19,
-   "confidence": 54.1
+   "ev_pct": 3.79,
+   "confidence": 54.4
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 3.19,
-   "confidence": 54.1,
+   "ev_pct": 3.79,
+   "confidence": 54.4,
    "line": 8.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Sacramento State +8; FanDuel has +8.5 (-110). Our in-season power ratings have Sacramento State 3.4 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Sacramento State +8; FanDuel has +8.5 (-110). Our in-season power ratings have Sacramento State 3.3 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -8659,18 +8751,18 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695720N150_3",
-   "ev_pct": 1.36,
-   "confidence": 53.1
+   "ev_pct": 1.68,
+   "confidence": 53.3
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 1.36,
-   "confidence": 53.1,
+   "ev_pct": 1.68,
+   "confidence": 53.3,
    "line": -1.5,
    "price": -110,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Seahawks PK; DraftKings has -1.5 (-110). Our NFL model makes Seahawks -4.5, 4.7 pts better than the market.",
+   "why": "BetOnline/LowVig makes Seahawks PK; DraftKings has -1.5 (-110). Our NFL model makes Seahawks -4.5, 4.8 pts better than the market. DEN is without Pat Bryant (WR, out); injuries are worth ~0.6 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -8738,8 +8830,79 @@
    "line": 3.5,
    "price": -105,
    "book": "fanduel",
-   "why": "Pinnacle makes Raiders +5; FanDuel has +3.5 (-105). Our NFL model makes Raiders +6, 1.3 pts worse than the market. NE is without Mack Hollins (WR, out); injuries are worth ~1.8 pts to them by our injury model.",
+   "why": "Pinnacle makes Raiders +5; FanDuel has +3.5 (-105). Our NFL model makes Raiders +6, 1.2 pts worse than the market. NE is without Mack Hollins (WR, out); injuries are worth ~1.8 pts to them by our injury model.",
    "flags": []
   }
+ },
+ "416ce0307b7b9d97f5365a29c1729339|Wake Forest Demon Deacons": {
+  "id": "416ce0307b7b9d97f5365a29c1729339",
+  "pick_key": "416ce0307b7b9d97f5365a29c1729339|Wake Forest Demon Deacons",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "sat",
+  "tier": "play",
+  "edges": [],
+  "matchup": "Wake Forest Demon Deacons @ NC State Wolfpack",
+  "kickoff_utc": "2026-10-10T16:00:00Z",
+  "kickoff_pt": "Sat Oct 10, 9:00 AM PDT",
+  "side": "Wake Forest Demon Deacons",
+  "opponent": "NC State Wolfpack",
+  "side_is_home": false,
+  "line": -3.5,
+  "price": 102,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517899N350_3",
+  "fair_line": -4.5,
+  "open_line": -4,
+  "confidence": 52.3,
+  "ev_pct": 5.69,
+  "units": 0.5,
+  "price_floor": null,
+  "floor_text": "Only at -3.5 -110 or better",
+  "fair_source": "pinnacle",
+  "market_home_margin": -4.4,
+  "model_home_margin": -8.6,
+  "model_weight": 0.234,
+  "hours_to_kick": 19.0,
+  "signals": [],
+  "why": "Pinnacle makes Wake Forest -4.5; DraftKings has -3.5 (+102). Our in-season power ratings have Wake Forest 4.2 pts better than the market.",
+  "flags": [
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-09T21:00:33.232843+00:00",
+  "published_at": "2026-10-09T21:01:21.658411+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-09T21:01:21.658411+00:00",
+    -3.5,
+    102,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": -3.5,
+   "price": 102,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86517899N350_3",
+   "ev_pct": 5.69,
+   "confidence": 52.3
+  },
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 5.69,
+   "confidence": 52.3,
+   "line": -3.5,
+   "price": 102,
+   "book": "draftkings",
+   "why": "Pinnacle makes Wake Forest -4.5; DraftKings has -3.5 (+102). Our in-season power ratings have Wake Forest 4.2 pts better than the market.",
+   "flags": [
+    "college injuries not checked yet"
+   ]
+  },
+  "units_uncapped": 1.5
  }
 }
