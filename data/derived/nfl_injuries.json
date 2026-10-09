@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-09T23:00:28.251100+00:00",
-  "previous_pull": "2026-10-09T22:00:36.553746+00:00",
+  "injury_pull": "2026-10-09T23:49:00.928601+00:00",
+  "previous_pull": "2026-10-09T23:00:28.251100+00:00",
   "matched_absences": 57
  },
  "teams": {
@@ -365,6 +365,14 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Rashawn Slater",
+     "pos": "T",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-10-09T23:10Z",
+     "note": "ir"
+    },
+    {
      "player": "Quentin Johnston",
      "pos": "WR",
      "status": "Out",
@@ -379,14 +387,6 @@
      "points": 0.5,
      "updated": "2026-10-09T00:59Z",
      "note": "Alt (neck) did not participate at the Chargers' practice Thursday."
-    },
-    {
-     "player": "Rashawn Slater",
-     "pos": "T",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-05T23:24Z",
-     "note": "Slater suffered a high-ankle sprain Sunday against the Seahawks, and he is expected to miss 4-to-6 weeks, Ian Rapoport of NFL Network reports."
     },
     {
      "player": "Trevor Penning",
@@ -477,28 +477,28 @@
    "qb_out": false,
    "absences": [
     {
-     "player": "Mack Hollins",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-09T17:14Z",
-     "note": "Hollins (calf) is ruled out for Sunday's game against the Raiders."
-    },
-    {
      "player": "Christian Gonzalez",
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-09T00:01Z",
-     "note": "Gonzalez (shoulder) did not participate at the Patriots' practice Thursday."
+     "updated": "2026-10-09T23:08Z",
+     "note": "Gonzalez (shoulder) has been ruled out for Sunday's game against Las Vegas."
     },
     {
      "player": "Carlton Davis III",
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-08T23:51Z",
-     "note": "Davis (neck) did not participate at the Patriots' practice Thursday."
+     "updated": "2026-10-09T23:03Z",
+     "note": "Davis (neck) has been ruled out for Sunday's game against the Raiders."
+    },
+    {
+     "player": "Mack Hollins",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-09T17:14Z",
+     "note": "Hollins (calf) is ruled out for Sunday's game against the Raiders."
     },
     {
      "player": "Morgan Moses",
@@ -513,16 +513,16 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-07T21:56Z",
-     "note": "questionable"
+     "updated": "2026-10-09T23:36Z",
+     "note": "Woodson (shoulder) is listed as questionable for Sunday's game against Las Vegas."
     },
     {
      "player": "Christian Elliss",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-07T21:54Z",
-     "note": "questionable"
+     "updated": "2026-10-09T23:26Z",
+     "note": "Elliss (chest) is listed as questionable against the Raiders on Sunday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -585,8 +585,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-09T19:11Z",
-     "note": "out"
+     "updated": "2026-10-09T23:27Z",
+     "note": "Dean (ankle) has been ruled out ahead of Sunday's game against the Colts, Mark Kaboly of 93.7 The Fan Pittsburgh reports."
     },
     {
      "player": "Michael Pittman Jr.",
@@ -601,8 +601,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-07T20:10Z",
-     "note": "questionable"
+     "updated": "2026-10-09T23:20Z",
+     "note": "Ramsey (wrist) is listed as questionable ahead of Sunday's game against the Colts, Mark Kaboly of 93.7 The Fan Pittsburgh reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -678,13 +678,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "SEA": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
