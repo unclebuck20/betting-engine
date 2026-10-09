@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-09T17:30:32.029899+00:00",
-  "previous_pull": "2026-10-09T14:00:32.942102+00:00",
-  "matched_absences": 91
+  "injury_pull": "2026-10-09T18:48:06.744231+00:00",
+  "previous_pull": "2026-10-09T17:30:32.029899+00:00",
+  "matched_absences": 90
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.86,
+   "adj_points": 1.09,
    "qb_out": false,
    "absences": [
     {
@@ -29,23 +29,23 @@
      "note": "The Cardinals placed Johnson (biceps) on injured reserve Tuesday."
     },
     {
+     "player": "Andrew Wingard",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-09T17:49Z",
+     "note": "out"
+    },
+    {
      "player": "Walter Nolen III",
      "pos": "DL",
      "status": "Questionable",
      "points": 0.09,
      "updated": "2026-10-08T23:20Z",
      "note": "questionable"
-    },
-    {
-     "player": "Andrew Wingard",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-08T00:46Z",
-     "note": "Wingard (knee) did not practice Wednesday, Bo Brack of GoPHNX.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "ATL": {
@@ -73,16 +73,16 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 1.19,
-   "qb_out": false,
+   "adj_points": 4.19,
+   "qb_out": true,
    "absences": [
     {
      "player": "Lamar Jackson",
      "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-10-09T16:30Z",
-     "note": "Jackson (ankle) was not present for Friday's practice, Jamison Hensley of ESPN.com reports."
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-10-09T17:34Z",
+     "note": "Jackson (ankle) has been ruled out for Sunday night's game against the Falcons, Cordell Woodland of 105.7 The Fan Baltimore reports."
     },
     {
      "player": "Marlon Humphrey",
@@ -101,7 +101,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 3.0,
    "new_absences": []
   },
   "BUF": {
@@ -225,19 +225,19 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.26,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Mason Graham",
      "pos": "DT",
-     "status": "Doubtful",
-     "points": 0.26,
-     "updated": "2026-10-07T16:12Z",
-     "note": "doubtful"
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-09T17:35Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.04,
    "new_absences": []
   },
   "DAL": {
@@ -497,8 +497,8 @@
      "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-09T16:37Z",
-     "note": "Jeanty (ankle/foot) is not on the field during Friday's media viewing period of practice, Ryan McFadden of ESPN.com reports."
+     "updated": "2026-10-09T18:02Z",
+     "note": "Jeanty (ankle/foot) is questionable for Sunday's game against the Patriots, with Raiders coach Klint Kubiak saying Friday that the running back will \"do his bes"
     },
     {
      "player": "Spencer Burford",
@@ -625,9 +625,17 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.66,
+   "adj_points": 1.04,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Christian Darrisaw",
+     "pos": "T",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-09T00:55Z",
+     "note": "Darrisaw (concussion) didn't practice Wednesday or Thursday."
+    },
     {
      "player": "Donovan Jackson",
      "pos": "G",
@@ -641,8 +649,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-09T17:09Z",
-     "note": "Addison (hamstring) was at Friday's practice, Kevin Seifert of ESPN.com reports."
+     "updated": "2026-10-09T18:15Z",
+     "note": "Addison (hamstring) is listed as questionable for Sunday's game in New Orleans, Alec Lewis of The Athletic reports."
     },
     {
      "player": "Brian O'Neill",
@@ -651,17 +659,9 @@
      "points": 0.12,
      "updated": "2026-10-09T01:01Z",
      "note": "O'Neill (knee) was a limited practice participant Thursday."
-    },
-    {
-     "player": "Christian Darrisaw",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-09T00:55Z",
-     "note": "Darrisaw (concussion) didn't practice Wednesday or Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "NE": {
@@ -717,20 +717,20 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 1.14,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.25,
+   "adj_points": 0.32,
    "qb_out": false,
    "absences": [
     {
-     "player": "Chris Olave",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-08T20:28Z",
-     "note": "Olave (rest/foot) practiced in a limited capacity Thursday."
+     "player": "Kaden Elliss",
+     "pos": "LB",
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-09T18:37Z",
+     "note": "out"
     },
     {
      "player": "Julian Blackmon",
@@ -739,17 +739,9 @@
      "points": 0.07,
      "updated": "2026-10-09T00:14Z",
      "note": "Blackmon (shoulder) was a limited practice participant Thursday."
-    },
-    {
-     "player": "Kaden Elliss",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-09T00:04Z",
-     "note": "Elliss (calf) did not participate in practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.07,
    "new_absences": []
   },
   "NYG": {
@@ -761,8 +753,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-09T16:14Z",
-     "note": "Nabers (knee) was on the field for Friday's practice, Ryan Dunleavy of the New York Post reports."
+     "updated": "2026-10-09T17:34Z",
+     "note": "Head coach John Harbaugh said Friday that Nabers (knee) will \"be ready to play Sunday\" at Washington, Pat Leonard of the New York Daily News reports."
     },
     {
      "player": "Andrew Thomas",
@@ -837,7 +829,7 @@
      "note": "Baun (concussion) was limited during practice Wednesday."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PIT": {
@@ -957,7 +949,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "WAS": {
