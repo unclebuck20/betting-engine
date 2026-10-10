@@ -5328,18 +5328,18 @@
    "price": -104,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612670278&selectionId=673400",
-   "ev_pct": -2.23,
-   "confidence": 49.8
+   "ev_pct": -1.83,
+   "confidence": 50.0
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -2.23,
-   "confidence": 49.8,
+   "ev_pct": -1.83,
+   "confidence": 50.0,
    "line": 2.5,
    "price": -104,
    "book": "fanduel",
-   "why": "Pinnacle makes Purdue +3.5; FanDuel has +2.5 (-104). Our in-season power ratings have Purdue 3.1 pts better than the market.",
+   "why": "Pinnacle makes Purdue +3.5; FanDuel has +2.5 (-104). Our in-season power ratings have Purdue 3.0 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -8313,7 +8313,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-06T07:00:29.674406+00:00",
   "published_at": "2026-10-06T07:00:55.688509+00:00",
-  "status": "live",
+  "status": "started",
   "history": [
    [
     "2026-10-06T07:00:55.688509+00:00",
@@ -8631,8 +8631,8 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86518126P300_3",
-   "ev_pct": 4.05,
-   "confidence": 54.2
+   "ev_pct": 4.41,
+   "confidence": 54.4
   },
   "scout": {
    "verdict": "agree",
@@ -8645,12 +8645,12 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 4.05,
-   "confidence": 54.2,
+   "ev_pct": 4.41,
+   "confidence": 54.4,
    "line": 3.0,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle makes Louisiana +4; DraftKings has +3 (-108). Our in-season power ratings have Louisiana 8.6 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Louisiana +3.5; DraftKings has +3 (-108). Our in-season power ratings have Louisiana 8.4 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": []
   }
  },
@@ -9972,7 +9972,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-10T22:00:30.277437+00:00",
   "published_at": "2026-10-10T22:00:35.595403+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-10T22:00:35.595403+00:00",
@@ -9986,18 +9986,100 @@
    "price": 100,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612669873&selectionId=962159",
-   "ev_pct": 1.25,
-   "confidence": 50.6
+   "ev_pct": -2.41,
+   "confidence": 48.8
   },
-  "scout": null,
+  "scout": {
+   "verdict": "caution",
+   "reason": "Syracuse QB Angeli ruled out Fri, backup Odom doubtful; 3rd-stringer Nelson starts. Line moved only 11.5 to 13.5 on it; ratings don't know.",
+   "at": "2026-10-10T22:50:00Z",
+   "sources": [
+    "https://sports.yahoo.com/articles/syracuse-football-qb-malachi-nelson-012721676.html",
+    "https://www.si.com/college/virginia/virginia-football-vs-syracuse-live-updates-notes-and-more-01m4k69tgyrm",
+    "https://www.bleachernation.com/picks/2026/10/07/virginia-vs-syracuse-prediction-picks-live-odds-and-moneyline-october-10-2026/"
+   ]
+  },
   "latest": {
-   "tier": "lean",
-   "ev_pct": 1.25,
-   "confidence": 50.6,
+   "tier": "pass",
+   "ev_pct": -2.41,
+   "confidence": 48.8,
    "line": 13.5,
    "price": 100,
    "book": "fanduel",
-   "why": "Pinnacle makes Syracuse +14; FanDuel has +13.5 (+100). Our in-season power ratings have Syracuse 2.1 pts better than the market. The line opened +9.5 and has moved toward Virginia.",
+   "why": "Pinnacle makes Syracuse +15; FanDuel has +13.5 (+100). Our in-season power ratings have Syracuse 3.3 pts better than the market. The line opened +9.5 and has moved toward Virginia.",
+   "flags": [
+    "college injuries not checked yet",
+    "sharp line moved 1.2 pts against this side recently"
+   ]
+  }
+ },
+ "a3ce49a66d513b6bd1772b8696863ee1|Nevada Wolf Pack": {
+  "id": "a3ce49a66d513b6bd1772b8696863ee1",
+  "pick_key": "a3ce49a66d513b6bd1772b8696863ee1|Nevada Wolf Pack",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "sat",
+  "tier": "play",
+  "edges": [],
+  "matchup": "Nevada Wolf Pack @ UTEP Miners",
+  "kickoff_utc": "2026-10-10T23:05:00Z",
+  "kickoff_pt": "Sat Oct 10, 4:05 PM PDT",
+  "side": "Nevada Wolf Pack",
+  "opponent": "UTEP Miners",
+  "side_is_home": false,
+  "line": -9.5,
+  "price": -114,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668316&selectionId=1339616",
+  "fair_line": -13.0,
+  "open_line": -9.5,
+  "confidence": 54.9,
+  "ev_pct": 3.0,
+  "units": 1.0,
+  "price_floor": -10.5,
+  "floor_text": "Good to -10.5 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": -12.9,
+  "model_home_margin": -15.5,
+  "model_weight": 0.085,
+  "hours_to_kick": 0.1,
+  "signals": [
+   "steam"
+  ],
+  "why": "Pinnacle makes Nevada -13; FanDuel has -9.5 (-114). Sharp money moved this 2.6 pts toward Nevada since Sat 3:00 PM; your book hasn't fully followed. Our in-season power ratings have Nevada 2.6 pts better than the market.",
+  "flags": [
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-10T23:00:31.595062+00:00",
+  "published_at": "2026-10-10T23:01:21.217652+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-10T23:01:21.217652+00:00",
+    -9.5,
+    -114,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": -9.5,
+   "price": -114,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668316&selectionId=1339616",
+   "ev_pct": 3.0,
+   "confidence": 54.9
+  },
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 3.0,
+   "confidence": 54.9,
+   "line": -9.5,
+   "price": -114,
+   "book": "fanduel",
+   "why": "Pinnacle makes Nevada -13; FanDuel has -9.5 (-114). Sharp money moved this 2.6 pts toward Nevada since Sat 3:00 PM; your book hasn't fully followed. Our in-season power ratings have Nevada 2.6 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
