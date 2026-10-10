@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-10T19:00:32.662844+00:00",
-  "previous_pull": "2026-10-10T18:00:29.276660+00:00",
-  "matched_absences": 58
+  "injury_pull": "2026-10-10T20:00:28.641804+00:00",
+  "previous_pull": "2026-10-10T19:00:32.662844+00:00",
+  "matched_absences": 57
  },
  "teams": {
   "ARI": {
@@ -99,22 +99,6 @@
      "points": 0.12,
      "updated": "2026-10-10T00:07Z",
      "note": "Humphrey (calf/hamstring) is listed as questionable for Sunday's game against the Falcons, Adam Caplan of SiriusXM NFL Radio reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "BUF": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Christian Benford",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-09T00:24Z",
-     "note": "Benford (toe) practiced in a limited capacity Thursday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -589,20 +573,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Michael Pittman Jr.",
+     "pos": "WR",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-10-10T19:52Z",
+     "note": "The Steelers placed Pittman (foot) on injured reserve Saturday."
+    },
+    {
      "player": "Jamel Dean",
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
      "updated": "2026-10-09T23:27Z",
      "note": "Dean (ankle) has been ruled out ahead of Sunday's game against the Colts, Mark Kaboly of 93.7 The Fan Pittsburgh reports."
-    },
-    {
-     "player": "Michael Pittman Jr.",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-08T15:52Z",
-     "note": "Pittman is expected to miss multiple weeks after aggravating his foot injury, Ray Fittipaldo of the Pittsburgh Post-Gazette reports Thursday."
     },
     {
      "player": "Jalen Ramsey",
@@ -686,6 +670,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "BUF": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
