@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-10T20:00:28.641804+00:00",
-  "previous_pull": "2026-10-10T19:00:32.662844+00:00",
+  "injury_pull": "2026-10-10T20:46:35.235706+00:00",
+  "previous_pull": "2026-10-10T20:00:28.641804+00:00",
   "matched_absences": 57
  },
  "teams": {
@@ -383,7 +383,7 @@
     {
      "player": "Trevor Penning",
      "pos": "OL",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.35,
      "updated": "2026-10-10T02:19Z",
      "note": "Penning (concussion) was been ruled out ahead of Sunday's game against Denver."
@@ -469,6 +469,14 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Mack Hollins",
+     "pos": "WR",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-10-10T20:09Z",
+     "note": "The Patriots placed Hollins (calf) on injured reserve, Doug Kyed of the Boston Herald reports."
+    },
+    {
      "player": "Christian Gonzalez",
      "pos": "CB",
      "status": "Out",
@@ -483,14 +491,6 @@
      "points": 0.5,
      "updated": "2026-10-09T23:03Z",
      "note": "Davis (neck) has been ruled out for Sunday's game against the Raiders."
-    },
-    {
-     "player": "Mack Hollins",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-09T17:14Z",
-     "note": "Hollins (calf) is ruled out for Sunday's game against the Raiders."
     },
     {
      "player": "Morgan Moses",
@@ -670,13 +670,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "BUF": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
