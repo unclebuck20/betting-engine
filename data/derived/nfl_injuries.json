@@ -3,23 +3,15 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-11T19:30:31.472729+00:00",
-  "previous_pull": "2026-10-11T18:28:16.869285+00:00",
-  "matched_absences": 55
+  "injury_pull": "2026-10-11T21:00:30.942049+00:00",
+  "previous_pull": "2026-10-11T19:30:31.472729+00:00",
+  "matched_absences": 59
  },
  "teams": {
   "ARI": {
-   "adj_points": 1.5,
+   "adj_points": 1.0,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Marvin Harrison Jr.",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-11T18:57Z",
-     "note": "inactive"
-    },
     {
      "player": "Isaiah Adams",
      "pos": "OL",
@@ -45,7 +37,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.09,
+   "delta_since_last_pull": -0.5,
    "new_absences": []
   },
   "ATL": {
@@ -125,20 +117,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Dayo Odeyingbo",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-11T20:03Z",
+     "note": "Odeyingbo (quadriceps) is doubtful to return to Sunday's game against the Packers."
+    },
+    {
      "player": "Tyrique Stevenson Sr.",
      "pos": "DB",
      "status": "Questionable",
      "points": 0.09,
      "updated": "2026-10-11T19:00Z",
      "note": "Stevenson (hamstring) is doubtful to return to Sunday's game against the Packers."
-    },
-    {
-     "player": "Dayo Odeyingbo",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-11T18:56Z",
-     "note": "Odeyingbo (quadriceps) is questionable to return to Sunday's game against Green Bay."
     },
     {
      "player": "T.J. Edwards",
@@ -149,38 +141,13 @@
      "note": "Edwards (hamstring) has been ruled out for the remainder of Sunday's game against the Packers."
     }
    ],
-   "delta_since_last_pull": 0.18,
-   "new_absences": [
-    {
-     "player": "Tyrique Stevenson Sr.",
-     "pos": "DB",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-11T19:00Z",
-     "note": "Stevenson (hamstring) is doubtful to return to Sunday's game against the Packers."
-    },
-    {
-     "player": "Dayo Odeyingbo",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-11T18:56Z",
-     "note": "Odeyingbo (quadriceps) is questionable to return to Sunday's game against Green Bay."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.8,
+   "adj_points": 0.54,
    "qb_out": false,
    "absences": [
-    {
-     "player": "KC Concepcion",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-11T17:37Z",
-     "note": "Concepcion (head) has been ruled out for the rest of Sunday's game at the Jets."
-    },
     {
      "player": "Mason Graham",
      "pos": "DT",
@@ -188,10 +155,35 @@
      "points": 0.3,
      "updated": "2026-10-11T15:43Z",
      "note": "inactive"
+    },
+    {
+     "player": "Tytus Howard",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T19:52Z",
+     "note": "Howard (knee) is questionable to return to Sunday's game against the Jets."
+    },
+    {
+     "player": "KC Concepcion",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T17:37Z",
+     "note": "Concepcion (head) has been ruled out for the rest of Sunday's game at the Jets."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.26,
+   "new_absences": [
+    {
+     "player": "Tytus Howard",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T19:52Z",
+     "note": "Howard (knee) is questionable to return to Sunday's game against the Jets."
+    }
+   ]
   },
   "DAL": {
    "adj_points": 0.24,
@@ -264,6 +256,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "HOU": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jalen Pitre",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T20:09Z",
+     "note": "Pitre departed with a shoulder injury and never returned during Sunday's 40-20 win over the Cardinals."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Jalen Pitre",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T20:09Z",
+     "note": "Pitre departed with a shoulder injury and never returned during Sunday's 40-20 win over the Cardinals."
+    }
+   ]
   },
   "IND": {
    "adj_points": 0.75,
@@ -430,20 +447,11 @@
      "note": "Savaiinaea is questionable to return to Sunday's game against the Bengals due to an ankle injury."
     }
    ],
-   "delta_since_last_pull": 0.01,
-   "new_absences": [
-    {
-     "player": "Michael Taaffe",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T19:04Z",
-     "note": "Taaffe (chest) is questionable to return to Sunday's game against the Bengals."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "MIN": {
-   "adj_points": 1.6,
+   "adj_points": 1.37,
    "qb_out": false,
    "absences": [
     {
@@ -463,23 +471,23 @@
      "note": "Addison (hamstring) is inactive for Sunday's game at New Orleans, Ben Goessling of The Minnesota Star Tribune reports."
     },
     {
-     "player": "T.J. Hockenson",
-     "pos": "TE",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-11T17:42Z",
-     "note": "The Vikings downgraded Hockenson to out for Sunday's game against the Saints due to a concussion."
-    },
-    {
      "player": "Donovan Jackson",
      "pos": "G",
      "status": "Injured Reserve",
      "points": 0.3,
      "updated": "2026-10-07T00:34Z",
      "note": "Jackson (knee) was placed on injured reserve by the Vikings on Tuesday."
+    },
+    {
+     "player": "T.J. Hockenson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T17:42Z",
+     "note": "The Vikings downgraded Hockenson to out for Sunday's game against the Saints due to a concussion."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "NE": {
@@ -515,8 +523,8 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-11T18:04Z",
-     "note": "Campbell (knee) is questionable to return to Sunday's game against the Raiders."
+     "updated": "2026-10-11T19:32Z",
+     "note": "Campbell (knee) has been ruled out for the remainder of Sunday's game against the Raiders."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -545,6 +553,63 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "NYG": {
+   "adj_points": 0.28,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Colton Hood",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T19:58Z",
+     "note": "Hood (concussion) has been ruled out for the remainder of Sunday's game against the Commanders, Dan Salomone of the Giants' official site reports."
+    },
+    {
+     "player": "Jermaine Eluemunor",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-11T20:37Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Tyler Nubin",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T19:50Z",
+     "note": "Nubin (neck) is questionable to return to Sunday's game against the Commanders, Dan Salomone of the Giants' official site reports."
+    }
+   ],
+   "delta_since_last_pull": 0.28,
+   "new_absences": [
+    {
+     "player": "Colton Hood",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T19:58Z",
+     "note": "Hood (concussion) has been ruled out for the remainder of Sunday's game against the Commanders, Dan Salomone of the Giants' official site reports."
+    },
+    {
+     "player": "Jermaine Eluemunor",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-11T20:37Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Tyler Nubin",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T19:50Z",
+     "note": "Nubin (neck) is questionable to return to Sunday's game against the Commanders, Dan Salomone of the Giants' official site reports."
+    }
+   ]
   },
   "PHI": {
    "adj_points": 0.96,
@@ -651,35 +716,19 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-11T18:26Z",
-     "note": "Flott (chest) returned to Sunday's game against Houston, Turron Davenport of ESPN.com reports."
+     "updated": "2026-10-11T19:25Z",
+     "note": "Flott (chest) has been ruled out for the remainder of Sunday's game against the Texans."
     },
     {
      "player": "Kevin Winston Jr.",
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-11T17:19Z",
-     "note": "Winston (quad) is questionable to return to Sunday's matchup against the Texans."
+     "updated": "2026-10-11T20:20Z",
+     "note": "Winston (quadriceps) will undergo an MRI, Terry McCormick of TitanInsider.com reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Cor'Dale Flott",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T18:26Z",
-     "note": "Flott (chest) returned to Sunday's game against Houston, Turron Davenport of ESPN.com reports."
-    }
-   ]
-  },
-  "DET": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.09,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
