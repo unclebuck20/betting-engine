@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-11T15:00:31.580620+00:00",
-  "previous_pull": "2026-10-11T14:00:32.586547+00:00",
-  "matched_absences": 57
+  "injury_pull": "2026-10-11T16:00:33.083615+00:00",
+  "previous_pull": "2026-10-11T15:00:31.580620+00:00",
+  "matched_absences": 50
  },
  "teams": {
   "ARI": {
@@ -128,30 +128,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "CIN": {
-   "adj_points": 0.24,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Tee Higgins",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T14:45Z",
-     "note": "Higgins (groin/neck) is expected to play Sunday in Miami, Adam Schefter of ESPN reports."
-    },
-    {
-     "player": "Ja'Marr Chase",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T14:41Z",
-     "note": "Chase (concussion) is slated to play Sunday at Miami, Adam Schefter of ESPN reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "CLE": {
    "adj_points": 0.3,
    "qb_out": false,
@@ -161,8 +137,8 @@
      "pos": "DT",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-10T00:17Z",
-     "note": "Graham (knee/ankle) has been ruled out ahead of Sunday's game against the Jets, Daniel Oyefusi of ESPN.com reports."
+     "updated": "2026-10-11T15:43Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -233,16 +209,16 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.59,
+   "adj_points": 0.65,
    "qb_out": false,
    "absences": [
     {
      "player": "Jacob Monk",
      "pos": "C",
-     "status": "Doubtful",
-     "points": 0.34,
-     "updated": "2026-10-10T02:27Z",
-     "note": "Monk (quadriceps) is doubtful to play against the Bears on Sunday."
+     "status": "Out",
+     "points": 0.4,
+     "updated": "2026-10-11T15:33Z",
+     "note": "inactive"
     },
     {
      "player": "Edgerrin Cooper",
@@ -253,7 +229,7 @@
      "note": "Cooper (Achilles) was placed on injured reserve by the Packers on Tuesday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.06,
    "new_absences": []
   },
   "HOU": {
@@ -273,7 +249,7 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.87,
+   "adj_points": 0.75,
    "qb_out": false,
    "absences": [
     {
@@ -289,19 +265,11 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-10-10T02:08Z",
-     "note": "Carlies (ribs) has been ruled out ahead of Sunday's game against the Steelers."
-    },
-    {
-     "player": "Charvarius Ward",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-10T01:36Z",
-     "note": "Ward (groin) is listed as questionable for Sunday's game against the Steelers."
+     "updated": "2026-10-11T15:38Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "JAX": {
@@ -331,22 +299,6 @@
      "points": 0.12,
      "updated": "2026-10-05T19:09Z",
      "note": "Rice (hamstring) is believed to have sustained a \"relatively minor\" injury in Sunday's win over the Raiders and could be ready to play following the Chiefs' Wee"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "LV": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Ashton Jeanty",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T11:11Z",
-     "note": "Jeanty (ankle/foot) is hopeful to play Sunday at New England, but he'll go through a pregame workout before a final determination is made, Ian Rapoport of NFL N"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -417,7 +369,7 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 1.04,
+   "adj_points": 1.3,
    "qb_out": false,
    "absences": [
     {
@@ -425,8 +377,16 @@
      "pos": "T",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-10T01:48Z",
-     "note": "Darrisaw (concussion) has been ruled out for Sunday's game against the Saints."
+     "updated": "2026-10-11T15:52Z",
+     "note": "inactive"
+    },
+    {
+     "player": "Jordan Addison",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-11T15:44Z",
+     "note": "Addison (hamstring) is inactive for Sunday's game at New Orleans, Ben Goessling of The Minnesota Star Tribune reports."
     },
     {
      "player": "Donovan Jackson",
@@ -435,25 +395,9 @@
      "points": 0.3,
      "updated": "2026-10-07T00:34Z",
      "note": "Jackson (knee) was placed on injured reserve by the Vikings on Tuesday."
-    },
-    {
-     "player": "Jordan Addison",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T11:55Z",
-     "note": "Addison (hamstring) will work out pregame before the Vikings make a call on his availability for Sunday's contest in New Orleans, Ian Rapoport of NFL Network re"
-    },
-    {
-     "player": "Brian O'Neill",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-10T01:49Z",
-     "note": "O'Neill (knee) is questionable against the Saints on Sunday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "NE": {
@@ -461,28 +405,28 @@
    "qb_out": false,
    "absences": [
     {
-     "player": "Mack Hollins",
-     "pos": "WR",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-10-10T20:09Z",
-     "note": "The Patriots placed Hollins (calf) on injured reserve Saturday, Doug Kyed of the Boston Herald reports."
-    },
-    {
      "player": "Christian Gonzalez",
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-09T23:08Z",
-     "note": "Gonzalez (shoulder) has been ruled out for Sunday's game against Las Vegas."
+     "updated": "2026-10-11T15:43Z",
+     "note": "inactive"
     },
     {
      "player": "Carlton Davis III",
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-09T23:03Z",
-     "note": "Davis (neck) has been ruled out for Sunday's game against the Raiders."
+     "updated": "2026-10-11T15:43Z",
+     "note": "inactive"
+    },
+    {
+     "player": "Mack Hollins",
+     "pos": "WR",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-10-10T20:09Z",
+     "note": "The Patriots placed Hollins (calf) on injured reserve Saturday, Doug Kyed of the Boston Herald reports."
     },
     {
      "player": "Morgan Moses",
@@ -513,9 +457,17 @@
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.41,
+   "adj_points": 0.67,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Nathan Shepherd",
+     "pos": "DL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-11T01:36Z",
+     "note": "Shepherd (illness) is now questionable for Sunday's game against the Vikings."
+    },
     {
      "player": "Kaden Elliss",
      "pos": "LB",
@@ -523,14 +475,6 @@
      "points": 0.25,
      "updated": "2026-10-09T22:30Z",
      "note": "Elliss (calf) has been ruled out for Sunday's game against the Vikings, Emily Leiker of The Minnesota Star Tribune reports."
-    },
-    {
-     "player": "Nathan Shepherd",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-11T01:36Z",
-     "note": "Shepherd (illness) is now questionable for Sunday's game against the Vikings."
     },
     {
      "player": "Julian Blackmon",
@@ -541,11 +485,11 @@
      "note": "Blackmon (shoulder) is listed as questionable against the Vikings on Sunday, Emily Leiker of The Minnesota Star Tribune reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.9,
+   "adj_points": 0.96,
    "qb_out": false,
    "absences": [
     {
@@ -563,15 +507,40 @@
      "points": 0.4,
      "updated": "2026-10-11T12:03Z",
      "note": "inactive"
+    },
+    {
+     "player": "Jalyx Hunt",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T15:20Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Jalyx Hunt",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T15:20Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PIT": {
-   "adj_points": 1.12,
+   "adj_points": 1.0,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Jamel Dean",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-11T15:40Z",
+     "note": "inactive"
+    },
     {
      "player": "Michael Pittman Jr.",
      "pos": "WR",
@@ -579,25 +548,9 @@
      "points": 0.5,
      "updated": "2026-10-10T19:52Z",
      "note": "The Steelers placed Pittman (foot) on injured reserve Saturday."
-    },
-    {
-     "player": "Jamel Dean",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-09T23:27Z",
-     "note": "Dean (ankle) has been ruled out ahead of Sunday's game against the Colts, Mark Kaboly of 93.7 The Fan Pittsburgh reports."
-    },
-    {
-     "player": "Jalen Ramsey",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-09T23:20Z",
-     "note": "Ramsey (wrist) is listed as questionable ahead of Sunday's game against the Colts, Mark Kaboly of 93.7 The Fan Pittsburgh reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "SF": {
@@ -633,7 +586,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.42,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
@@ -641,35 +594,32 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-09T23:43Z",
-     "note": "Hooker (concussion) has been ruled out for Sunday's game against the Texans, Jim Wyatt of the Titans' official site reports."
-    },
-    {
-     "player": "Carnell Tate",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T12:14Z",
-     "note": "Tate (back), who is listed as questionable for Sunday's game against the Texans, is \"definitely trending\" toward playing, a source tells Jeremy Fowler of ESPN.c"
+     "updated": "2026-10-11T15:34Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.12,
+   "adj_points": 0.0,
    "qb_out": false,
-   "absences": [
-    {
-     "player": "Terry McLaurin",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T00:32Z",
-     "note": "McLaurin (hamstring) remains a game-time decision for Sunday's game against the Giants, with a \"slight lean\" toward him playing, John Keim of ESPN.com reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
+   "absences": [],
+   "delta_since_last_pull": -0.12,
+   "new_absences": []
+  },
+  "LV": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
+   "new_absences": []
+  },
+  "CIN": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.24,
    "new_absences": []
   }
  }
