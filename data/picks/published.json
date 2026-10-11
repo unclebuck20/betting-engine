@@ -5396,7 +5396,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-04T16:00:32.216017+00:00",
   "published_at": "2026-10-04T17:30:44.158907+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-04T17:30:44.158907+00:00",
@@ -5518,7 +5518,7 @@
   ],
   "odds_pulled_at": "2026-10-04T16:00:32.216017+00:00",
   "published_at": "2026-10-04T17:30:44.158907+00:00",
-  "status": "live",
+  "status": "started",
   "history": [
    [
     "2026-10-04T17:30:44.158907+00:00",
@@ -5734,7 +5734,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-04T22:30:23.601135+00:00",
   "published_at": "2026-10-04T22:30:34.786089+00:00",
-  "status": "live",
+  "status": "started",
   "history": [
    [
     "2026-10-04T22:30:34.786089+00:00",
@@ -5859,7 +5859,7 @@
   ],
   "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
   "published_at": "2026-10-04T23:30:41.193100+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-04T23:30:41.193100+00:00",
@@ -5980,7 +5980,7 @@
   ],
   "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
   "published_at": "2026-10-04T23:30:41.193100+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-04T23:30:41.193100+00:00",
@@ -6192,7 +6192,7 @@
   ],
   "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
   "published_at": "2026-10-04T23:30:41.193100+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-04T23:30:41.193100+00:00",
@@ -6788,7 +6788,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
   "published_at": "2026-10-05T05:00:37.781940+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-05T05:00:37.781940+00:00",
@@ -7855,7 +7855,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-05T22:30:31.379203+00:00",
   "published_at": "2026-10-05T22:30:39.026398+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-05T22:30:39.026398+00:00",
@@ -7979,7 +7979,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-05T22:30:31.379203+00:00",
   "published_at": "2026-10-05T22:30:39.026398+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-05T22:30:39.026398+00:00",
@@ -9320,7 +9320,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-07T10:30:28.294977+00:00",
   "published_at": "2026-10-07T22:00:49.478754+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-07T22:00:49.478754+00:00",
@@ -9424,7 +9424,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-08T06:39:39.571384+00:00",
   "published_at": "2026-10-08T06:39:45.203186+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-08T06:39:45.203186+00:00",
@@ -9677,7 +9677,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-09T14:00:32.942102+00:00",
   "published_at": "2026-10-09T17:30:44.366869+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-09T17:30:44.366869+00:00",
@@ -10532,14 +10532,14 @@
    "price": 102,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613677166&selectionId=36229138",
-   "ev_pct": -0.34,
-   "confidence": 49.3
+   "ev_pct": -0.69,
+   "confidence": 49.2
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -0.34,
-   "confidence": 49.3,
+   "ev_pct": -0.69,
+   "confidence": 49.2,
    "line": 2.5,
    "price": 102,
    "book": "fanduel",
@@ -11216,6 +11216,217 @@
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
+   ]
+  }
+ },
+ "7c312fdf24fb35f58b0e07c2932cc997|Under": {
+  "id": "7c312fdf24fb35f58b0e07c2932cc997",
+  "pick_key": "7c312fdf24fb35f58b0e07c2932cc997|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Chicago Bears @ Atlanta Falcons",
+  "kickoff_utc": "2026-10-18T17:00:00Z",
+  "kickoff_pt": "Sun Oct 18, 10:00 AM PDT",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 48.5,
+  "price": -110,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614182883&selectionId=7017917",
+  "fair_line": 49.0,
+  "open_line": null,
+  "confidence": 55.4,
+  "ev_pct": 5.76,
+  "units": 0.5,
+  "price_floor": 47.5,
+  "floor_text": "Good to under 47.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 48.8,
+  "model_home_margin": 43.0,
+  "model_weight": 0.305,
+  "hours_to_kick": 167.5,
+  "signals": [],
+  "why": "The market average's fair total is 49; FanDuel has Under 48.5 (-110). Our model projects 43.0 points from both offenses' efficiency and pace.",
+  "flags": [
+   "no sharp book has this total, so the fair number is a market average"
+  ],
+  "odds_pulled_at": "2026-10-11T16:00:33.083615+00:00",
+  "published_at": "2026-10-11T17:30:43.663401+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-11T17:30:43.663401+00:00",
+    48.5,
+    -110,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 48.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614182883&selectionId=7017917",
+   "ev_pct": 5.76,
+   "confidence": 55.4
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 5.76,
+   "confidence": 55.4,
+   "line": 48.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "The market average's fair total is 49; FanDuel has Under 48.5 (-110). Our model projects 43.0 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
+  }
+ },
+ "84aa9e190e625d7e9cd67e1f157a45b4|Under": {
+  "id": "84aa9e190e625d7e9cd67e1f157a45b4",
+  "pick_key": "84aa9e190e625d7e9cd67e1f157a45b4|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "TEN passing vs IND pass D: -0.15 EPA/play vs average"
+  ],
+  "matchup": "Tennessee Titans @ Indianapolis Colts",
+  "kickoff_utc": "2026-10-18T17:00:00Z",
+  "kickoff_pt": "Sun Oct 18, 10:00 AM PDT",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 44.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695708U4450_3",
+  "fair_line": 44.5,
+  "open_line": null,
+  "confidence": 53.0,
+  "ev_pct": 1.12,
+  "units": 0.5,
+  "price_floor": 44.5,
+  "floor_text": "Good to under 44.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 44.4,
+  "model_home_margin": 42.2,
+  "model_weight": 0.038,
+  "hours_to_kick": 167.5,
+  "signals": [],
+  "why": "The market average's fair total is 44.5; DraftKings has Under 44.5 (-110). Our model projects 42.2 points from both offenses' efficiency and pace.",
+  "flags": [
+   "no sharp book has this total, so the fair number is a market average"
+  ],
+  "odds_pulled_at": "2026-10-11T16:00:33.083615+00:00",
+  "published_at": "2026-10-11T17:30:43.663401+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-11T17:30:43.663401+00:00",
+    44.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 44.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695708U4450_3",
+   "ev_pct": 1.12,
+   "confidence": 53.0
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 1.12,
+   "confidence": 53.0,
+   "line": 44.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average's fair total is 44.5; DraftKings has Under 44.5 (-110). Our model projects 42.2 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
+  }
+ },
+ "1cf74afd313e9fd300e1462012b174cb|Under": {
+  "id": "1cf74afd313e9fd300e1462012b174cb",
+  "pick_key": "1cf74afd313e9fd300e1462012b174cb|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "NYG passing vs NO pass D: -0.09 EPA/play vs average"
+  ],
+  "matchup": "New Orleans Saints @ New York Giants",
+  "kickoff_utc": "2026-10-18T17:00:00Z",
+  "kickoff_pt": "Sun Oct 18, 10:00 AM PDT",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 45.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695541U4550_3",
+  "fair_line": 45.5,
+  "open_line": null,
+  "confidence": 53.0,
+  "ev_pct": 1.12,
+  "units": 0.5,
+  "price_floor": 45.5,
+  "floor_text": "Good to under 45.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 45.5,
+  "model_home_margin": 42.6,
+  "model_weight": 0.149,
+  "hours_to_kick": 167.5,
+  "signals": [],
+  "why": "The market average's fair total is 45.5; DraftKings has Under 45.5 (-110). Our model projects 42.6 points from both offenses' efficiency and pace.",
+  "flags": [
+   "no sharp book has this total, so the fair number is a market average"
+  ],
+  "odds_pulled_at": "2026-10-11T16:00:33.083615+00:00",
+  "published_at": "2026-10-11T17:30:43.663401+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-11T17:30:43.663401+00:00",
+    45.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 45.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695541U4550_3",
+   "ev_pct": 1.12,
+   "confidence": 53.0
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 1.12,
+   "confidence": 53.0,
+   "line": 45.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average's fair total is 45.5; DraftKings has Under 45.5 (-110). Our model projects 42.6 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
    ]
   }
  }

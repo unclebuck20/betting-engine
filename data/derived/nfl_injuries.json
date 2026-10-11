@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-11T16:00:33.083615+00:00",
-  "previous_pull": "2026-10-11T15:00:31.580620+00:00",
-  "matched_absences": 50
+  "injury_pull": "2026-10-11T17:30:30.581463+00:00",
+  "previous_pull": "2026-10-11T16:00:33.083615+00:00",
+  "matched_absences": 48
  },
  "teams": {
   "ARI": {
@@ -217,8 +217,8 @@
      "pos": "C",
      "status": "Out",
      "points": 0.4,
-     "updated": "2026-10-11T15:33Z",
-     "note": "inactive"
+     "updated": "2026-10-11T16:19Z",
+     "note": "Monk (quad) is inactive Week 5 against Chicago."
     },
     {
      "player": "Edgerrin Cooper",
@@ -227,22 +227,6 @@
      "points": 0.25,
      "updated": "2026-10-06T23:22Z",
      "note": "Cooper (Achilles) was placed on injured reserve by the Packers on Tuesday."
-    }
-   ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": []
-  },
-  "HOU": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Aireontae Ersery",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-08T21:53Z",
-     "note": "questionable"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -269,11 +253,11 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.3,
+   "adj_points": 0.39,
    "qb_out": false,
    "absences": [
     {
@@ -283,10 +267,27 @@
      "points": 0.3,
      "updated": "2026-10-11T12:11Z",
      "note": "Murray (concussion) is inactive for Sunday's game against the Eagles in London."
+    },
+    {
+     "player": "Anton Harrison",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-11T16:31Z",
+     "note": "Harrison has been ruled out for the remainder of Sunday's game against the Eagles in London due to a knee injury."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Anton Harrison",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-11T16:31Z",
+     "note": "Harrison has been ruled out for the remainder of Sunday's game against the Eagles in London due to a knee injury."
+    }
+   ]
   },
   "KC": {
    "adj_points": 0.12,
@@ -369,7 +370,7 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 1.3,
+   "adj_points": 1.37,
    "qb_out": false,
    "absences": [
     {
@@ -395,13 +396,30 @@
      "points": 0.3,
      "updated": "2026-10-07T00:34Z",
      "note": "Jackson (knee) was placed on injured reserve by the Vikings on Tuesday."
+    },
+    {
+     "player": "T.J. Hockenson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T17:18Z",
+     "note": "Hockenson is under evaluation for a possible concussion and is considered questionable to return to Sunday's game at New Orleans."
     }
    ],
-   "delta_since_last_pull": 0.26,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "T.J. Hockenson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T17:18Z",
+     "note": "Hockenson is under evaluation for a possible concussion and is considered questionable to return to Sunday's game at New Orleans."
+    }
+   ]
   },
   "NE": {
-   "adj_points": 1.75,
+   "adj_points": 1.5,
    "qb_out": false,
    "absences": [
     {
@@ -427,37 +445,13 @@
      "points": 0.5,
      "updated": "2026-10-10T20:09Z",
      "note": "The Patriots placed Hollins (calf) on injured reserve Saturday, Doug Kyed of the Boston Herald reports."
-    },
-    {
-     "player": "Morgan Moses",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-07T21:55Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Craig Woodson",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-09T23:36Z",
-     "note": "Woodson (shoulder) is listed as questionable for Sunday's game against Las Vegas."
-    },
-    {
-     "player": "Christian Elliss",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-09T23:26Z",
-     "note": "Elliss (chest) is listed as questionable against the Raiders on Sunday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.25,
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.67,
+   "adj_points": 0.6,
    "qb_out": false,
    "absences": [
     {
@@ -465,27 +459,19 @@
      "pos": "DL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-11T01:36Z",
-     "note": "Shepherd (illness) is now questionable for Sunday's game against the Vikings."
+     "updated": "2026-10-11T16:40Z",
+     "note": "Shepherd (illness) is inactive for Sunday's game against the Vikings."
     },
     {
      "player": "Kaden Elliss",
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-10-09T22:30Z",
-     "note": "Elliss (calf) has been ruled out for Sunday's game against the Vikings, Emily Leiker of The Minnesota Star Tribune reports."
-    },
-    {
-     "player": "Julian Blackmon",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-09T22:37Z",
-     "note": "Blackmon (shoulder) is listed as questionable against the Vikings on Sunday, Emily Leiker of The Minnesota Star Tribune reports."
+     "updated": "2026-10-11T15:54Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.26,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "PHI": {
@@ -513,21 +499,12 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-11T15:20Z",
-     "note": "questionable"
+     "updated": "2026-10-11T16:29Z",
+     "note": "Hunt (ankle/knee) has been ruled out for the remainder of Sunday's game against the Jaguars in London."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Jalyx Hunt",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-11T15:20Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PIT": {
    "adj_points": 1.0,
@@ -550,7 +527,7 @@
      "note": "The Steelers placed Pittman (foot) on injured reserve Saturday."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SF": {
@@ -586,7 +563,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.3,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
     {
@@ -596,30 +573,33 @@
      "points": 0.3,
      "updated": "2026-10-11T15:34Z",
      "note": "inactive"
+    },
+    {
+     "player": "Kevin Winston Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T17:19Z",
+     "note": "Winston (quad) is questionable to return to Sunday's matchup against the Texans."
     }
    ],
-   "delta_since_last_pull": -0.12,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Kevin Winston Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T17:19Z",
+     "note": "Winston (quad) is questionable to return to Sunday's matchup against the Texans."
+    }
+   ]
   },
-  "WAS": {
+  "HOU": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
    "delta_since_last_pull": -0.12,
-   "new_absences": []
-  },
-  "LV": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
-   "new_absences": []
-  },
-  "CIN": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.24,
    "new_absences": []
   }
  }
