@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-10-11T17:30:40.133729+00:00",
+  "built_at": "2026-10-11T18:28:19.173189+00:00",
   "nfl_history_games": 5497,
   "cfb_history_games": 3730,
-  "games": 54
+  "games": 44
  },
  "games": [
   {
@@ -22,18 +22,18 @@
      "ev": 0.0054
     },
     {
-     "book": "espnbet",
+     "book": "betmgm",
      "side": "home",
      "home_line": 3.5,
      "price": -105,
      "ev": -0.004
     },
     {
-     "book": "betonlineag",
+     "book": "espnbet",
      "side": "home",
      "home_line": 3.5,
-     "price": -108,
-     "ev": -0.0175
+     "price": -105,
+     "ev": -0.004
     }
    ]
   },
@@ -45,6 +45,13 @@
    "fair_source": "pinnacle",
    "fair_home_margin": -5.2,
    "best": [
+    {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": 5.5,
+     "price": -105,
+     "ev": -0.0114
+    },
     {
      "book": "pinnacle",
      "side": "away",
@@ -58,13 +65,6 @@
      "home_line": 5.5,
      "price": -102,
      "ev": -0.0224
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 5.5,
-     "price": -108,
-     "ev": -0.0248
     }
    ]
   },
@@ -74,28 +74,28 @@
    "matchup": "San Francisco 49ers @ Seattle Seahawks",
    "kickoff_pt": "Sun Oct 11 1:25 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 4.2,
+   "fair_home_margin": 3.7,
    "best": [
     {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": -3.5,
-     "price": 107,
-     "ev": -0.0219
-    },
-    {
-     "book": "draftkings",
-     "side": "home",
+     "book": "betmgm",
+     "side": "away",
      "home_line": -3.0,
-     "price": -115,
-     "ev": -0.022
+     "price": 100,
+     "ev": -0.0019
     },
     {
      "book": "lowvig",
-     "side": "home",
+     "side": "away",
      "home_line": -3.0,
-     "price": -115,
-     "ev": -0.022
+     "price": -102,
+     "ev": -0.0108
+    },
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -125,
+     "ev": -0.0158
     }
    ]
   },
@@ -111,8 +111,8 @@
      "book": "lowvig",
      "side": "away",
      "home_line": -3.5,
-     "price": -112,
-     "ev": -0.0097
+     "price": -115,
+     "ev": -0.0219
     },
     {
      "book": "espnbet",
@@ -122,7 +122,7 @@
      "ev": -0.0219
     },
     {
-     "book": "hardrockbet",
+     "book": "pinnacle",
      "side": "away",
      "home_line": -3.5,
      "price": -115,
@@ -158,316 +158,6 @@
      "home_line": -3.5,
      "price": -115,
      "ev": -0.0139
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "855f58fad5f0f14b239f4f63df27998b",
-   "matchup": "Seattle Seahawks @ Denver Broncos",
-   "kickoff_pt": "Thu Oct 15 5:15 PM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": -0.6666666666666666,
-   "best": [
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": 1.5,
-     "price": -110,
-     "ev": -0.0011
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 2.5,
-     "price": -110,
-     "ev": -0.0332
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": 2.5,
-     "price": -112,
-     "ev": -0.0414
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "7c312fdf24fb35f58b0e07c2932cc997",
-   "matchup": "Chicago Bears @ Atlanta Falcons",
-   "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": -0.06666666666666667,
-   "best": [
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 1.5,
-     "price": -105,
-     "ev": -0.0321
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": 1.5,
-     "price": -110,
-     "ev": -0.0374
-    },
-    {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": 1.5,
-     "price": -110,
-     "ev": -0.0374
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "e86227938fd3cf008fc5648fb5128344",
-   "matchup": "Baltimore Ravens @ Cleveland Browns",
-   "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": -4.266666666666667,
-   "best": [
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": 3.5,
-     "price": -108,
-     "ev": -0.0272
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -105,
-     "ev": -0.0337
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -108,
-     "ev": -0.0468
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "84aa9e190e625d7e9cd67e1f157a45b4",
-   "matchup": "Tennessee Titans @ Indianapolis Colts",
-   "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": 6.866666666666667,
-   "best": [
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -110,
-     "ev": -0.0342
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -110,
-     "ev": -0.0342
-    },
-    {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": -6.5,
-     "price": -106,
-     "ev": -0.0398
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "0b0b582b32b09ab6ff6664ffae0c9653",
-   "matchup": "New York Jets @ New England Patriots",
-   "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": 7.400000000000001,
-   "best": [
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -7.0,
-     "price": -105,
-     "ev": -0.0342
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -7.0,
-     "price": -105,
-     "ev": -0.0342
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -7.0,
-     "price": -106,
-     "ev": -0.0383
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "1cf74afd313e9fd300e1462012b174cb",
-   "matchup": "New Orleans Saints @ New York Giants",
-   "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": 0.20000000000000004,
-   "best": [
-    {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": 1.0,
-     "price": -110,
-     "ev": -0.0371
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": 1.5,
-     "price": -105,
-     "ev": -0.0401
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": 1.5,
-     "price": -105,
-     "ev": -0.0401
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "3729ac6d2a66b642850caf2044cdc658",
-   "matchup": "Arizona Cardinals @ Los Angeles Rams",
-   "kickoff_pt": "Sun Oct 18 1:05 PM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": 11.300000000000002,
-   "best": [
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -11.5,
-     "price": -115,
-     "ev": -0.0373
-    },
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -10.5,
-     "price": -110,
-     "ev": -0.0453
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -10.5,
-     "price": -110,
-     "ev": -0.0453
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "45b2690b350ed45145c7a716b18e8e66",
-   "matchup": "Buffalo Bills @ Las Vegas Raiders",
-   "kickoff_pt": "Sun Oct 18 1:25 PM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": -5.066666666666666,
-   "best": [
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 4.5,
-     "price": -102,
-     "ev": -0.0276
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": 4.5,
-     "price": -110,
-     "ev": -0.0283
-    },
-    {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": 4.5,
-     "price": -113,
-     "ev": -0.0405
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "20fefae8c296247460ba5773caa42218",
-   "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
-   "kickoff_pt": "Sun Oct 18 1:25 PM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": 8.333333333333334,
-   "best": [
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -108,
-     "ev": -0.0382
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": -7.5,
-     "price": -110,
-     "ev": -0.0443
-    },
-    {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": -7.5,
-     "price": -110,
-     "ev": -0.0443
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "f122527f003276d3bca19efa48c902c1",
-   "matchup": "Washington Commanders @ San Francisco 49ers",
-   "kickoff_pt": "Mon Oct 19 5:15 PM PDT",
-   "fair_source": "consensus",
-   "fair_home_margin": 8.166666666666666,
-   "best": [
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": -7.5,
-     "price": -110,
-     "ev": -0.0357
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -7.0,
-     "price": -122,
-     "ev": -0.0357
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -108,
-     "ev": -0.0468
     }
    ]
   },

@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-11T17:30:30.581463+00:00",
-  "previous_pull": "2026-10-11T16:00:33.083615+00:00",
-  "matched_absences": 48
+  "injury_pull": "2026-10-11T18:28:16.869285+00:00",
+  "previous_pull": "2026-10-11T17:30:30.581463+00:00",
+  "matched_absences": 54
  },
  "teams": {
   "ARI": {
@@ -128,10 +128,43 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "CLE": {
-   "adj_points": 0.3,
+  "CHI": {
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
+    {
+     "player": "T.J. Edwards",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T17:56Z",
+     "note": "Edwards (hamstring) is questionable to return to Sunday's game against the Packers, Chris Emma of WBBM NewsRadio reports."
+    }
+   ],
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "T.J. Edwards",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T17:56Z",
+     "note": "Edwards (hamstring) is questionable to return to Sunday's game against the Packers, Chris Emma of WBBM NewsRadio reports."
+    }
+   ]
+  },
+  "CLE": {
+   "adj_points": 0.8,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "KC Concepcion",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-11T17:37Z",
+     "note": "Concepcion (head) has been ruled out for the rest of Sunday's game at the Jets."
+    },
     {
      "player": "Mason Graham",
      "pos": "DT",
@@ -141,8 +174,17 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "KC Concepcion",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-11T17:37Z",
+     "note": "Concepcion (head) has been ruled out for the rest of Sunday's game at the Jets."
+    }
+   ]
   },
   "DAL": {
    "adj_points": 0.24,
@@ -277,17 +319,8 @@
      "note": "Harrison has been ruled out for the remainder of Sunday's game against the Eagles in London due to a knee injury."
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Anton Harrison",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-11T16:31Z",
-     "note": "Harrison has been ruled out for the remainder of Sunday's game against the Eagles in London due to a knee injury."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "KC": {
    "adj_points": 0.12,
@@ -304,6 +337,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "LV": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Tonka Hemingway",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T18:14Z",
+     "note": "Hemingway (neck) has been ruled out for the remainder of Sunday's game against the Patriots."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Tonka Hemingway",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T18:14Z",
+     "note": "Hemingway (neck) has been ruled out for the remainder of Sunday's game against the Patriots."
+    }
+   ]
   },
   "LAC": {
    "adj_points": 2.15,
@@ -369,8 +427,49 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "MIA": {
+   "adj_points": 0.13,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jonah Savaiinaea",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T18:19Z",
+     "note": "Savaiinaea (ankle) is questionable to return to Sunday's game against the Bengals."
+    },
+    {
+     "player": "Jordyn Brooks",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T17:58Z",
+     "note": "Brooks (foot) is questionable to return to Sunday's game against the Bengals."
+    }
+   ],
+   "delta_since_last_pull": 0.13,
+   "new_absences": [
+    {
+     "player": "Jonah Savaiinaea",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T18:19Z",
+     "note": "Savaiinaea (ankle) is questionable to return to Sunday's game against the Bengals."
+    },
+    {
+     "player": "Jordyn Brooks",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T17:58Z",
+     "note": "Brooks (foot) is questionable to return to Sunday's game against the Bengals."
+    }
+   ]
+  },
   "MIN": {
-   "adj_points": 1.37,
+   "adj_points": 1.6,
    "qb_out": false,
    "absences": [
     {
@@ -390,36 +489,27 @@
      "note": "Addison (hamstring) is inactive for Sunday's game at New Orleans, Ben Goessling of The Minnesota Star Tribune reports."
     },
     {
+     "player": "T.J. Hockenson",
+     "pos": "TE",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-11T17:42Z",
+     "note": "The Vikings downgraded Hockenson to out for Sunday's game against the Saints due to a concussion."
+    },
+    {
      "player": "Donovan Jackson",
      "pos": "G",
      "status": "Injured Reserve",
      "points": 0.3,
      "updated": "2026-10-07T00:34Z",
      "note": "Jackson (knee) was placed on injured reserve by the Vikings on Tuesday."
-    },
-    {
-     "player": "T.J. Hockenson",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T17:18Z",
-     "note": "Hockenson is under evaluation for a possible concussion and is considered questionable to return to Sunday's game at New Orleans."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "T.J. Hockenson",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T17:18Z",
-     "note": "Hockenson is under evaluation for a possible concussion and is considered questionable to return to Sunday's game at New Orleans."
-    }
-   ]
+   "delta_since_last_pull": 0.23,
+   "new_absences": []
   },
   "NE": {
-   "adj_points": 1.5,
+   "adj_points": 1.62,
    "qb_out": false,
    "absences": [
     {
@@ -445,10 +535,27 @@
      "points": 0.5,
      "updated": "2026-10-10T20:09Z",
      "note": "The Patriots placed Hollins (calf) on injured reserve Saturday, Doug Kyed of the Boston Herald reports."
+    },
+    {
+     "player": "Will Campbell",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T18:04Z",
+     "note": "Campbell (knee) is questionable to return to Sunday's game against the Raiders."
     }
    ],
-   "delta_since_last_pull": -0.25,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Will Campbell",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T18:04Z",
+     "note": "Campbell (knee) is questionable to return to Sunday's game against the Raiders."
+    }
+   ]
   },
   "NO": {
    "adj_points": 0.6,
@@ -471,7 +578,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PHI": {
@@ -499,8 +606,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-11T16:29Z",
-     "note": "Hunt (ankle/knee) has been ruled out for the remainder of Sunday's game against the Jaguars in London."
+     "updated": "2026-10-11T17:37Z",
+     "note": "Hunt (ankle/knee) was seen wearing a walking boot on his left leg after the Eagles' 19-17 loss to the Jaguars on Sunday, Jeff McLane of The Philadelphia Inquire"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -583,23 +690,7 @@
      "note": "Winston (quad) is questionable to return to Sunday's matchup against the Texans."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Kevin Winston Jr.",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T17:19Z",
-     "note": "Winston (quad) is questionable to return to Sunday's matchup against the Texans."
-    }
-   ]
-  },
-  "HOU": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
