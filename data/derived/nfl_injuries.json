@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-11T22:28:24.549832+00:00",
-  "previous_pull": "2026-10-11T22:00:29.754037+00:00",
-  "matched_absences": 63
+  "injury_pull": "2026-10-11T23:30:32.013414+00:00",
+  "previous_pull": "2026-10-11T22:28:24.549832+00:00",
+  "matched_absences": 62
  },
  "teams": {
   "ARI": {
@@ -40,32 +40,8 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "ATL": {
-   "adj_points": 0.18,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Jake Matthews",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-10T02:07Z",
-     "note": "Matthews (groin) is questionable for Sunday's game against the Ravens."
-    },
-    {
-     "player": "Divine Deablo",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-09T23:39Z",
-     "note": "Deablo (hamstring) is listed as questionable ahead of Sunday's game against the Ravens, Will McFadden of the Falcons' official site  reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "BAL": {
-   "adj_points": 4.12,
+   "adj_points": 4.0,
    "qb_out": true,
    "absences": [
     {
@@ -73,19 +49,11 @@
      "pos": "QB",
      "status": "Out",
      "points": 4.0,
-     "updated": "2026-10-11T12:34Z",
-     "note": "Jackson (ankle), who has been ruled out for Sunday's game against the Falcons, has a \"real chance\" to return to action next week against Cleveland, pending how "
-    },
-    {
-     "player": "Marlon Humphrey",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-10T00:07Z",
-     "note": "Humphrey (calf/hamstring) is listed as questionable for Sunday's game against the Falcons, Adam Caplan of SiriusXM NFL Radio reports."
+     "updated": "2026-10-11T23:05Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "CAR": {
@@ -189,17 +157,8 @@
      "note": "Schwesinger (lower leg) was seen in a walking boot after the Browns' 17-12 loss to the Jets on Sunday, Mary Kay Cabot of The Cleveland Plain Dealer reports."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Carson Schwesinger",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-11T22:10Z",
-     "note": "Schwesinger (lower leg) was seen in a walking boot after the Browns' 17-12 loss to the Jets on Sunday, Mary Kay Cabot of The Cleveland Plain Dealer reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DAL": {
    "adj_points": 0.24,
@@ -226,7 +185,7 @@
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 1.0,
+   "adj_points": 1.07,
    "qb_out": false,
    "absences": [
     {
@@ -244,10 +203,27 @@
      "points": 0.5,
      "updated": "2026-10-09T21:47Z",
      "note": "Bryant (ankle) was placed on the Broncos' injured reserve Friday."
+    },
+    {
+     "player": "Talanoa Hufanga",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T22:42Z",
+     "note": "Hufanga (ankle) has been ruled out for the rest of Sunday's contest against the Chargers, Parker Gabriel of The Denver Post reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Talanoa Hufanga",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-11T22:42Z",
+     "note": "Hufanga (ankle) has been ruled out for the rest of Sunday's contest against the Chargers, Parker Gabriel of The Denver Post reports."
+    }
+   ]
   },
   "GB": {
    "adj_points": 0.65,
@@ -422,17 +398,8 @@
      "note": "Harris (hamstring) is questionable to return to Sunday's contest against the Broncos."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Tre' Harris",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T22:11Z",
-     "note": "Harris (hamstring) is questionable to return to Sunday's contest against the Broncos."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.07,
@@ -595,7 +562,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-11T22:16Z",
+     "updated": "2026-10-11T23:16Z",
      "note": "questionable"
     },
     {
@@ -667,9 +634,17 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.3,
+   "adj_points": 0.8,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-11T23:06Z",
+     "note": "Samuel (hamstring) has been ruled out for the remainder of Sunday's game against the Seahawks, Ian Rapoport of NFL Network reports."
+    },
     {
      "player": "Marques Sigle",
      "pos": "S",
@@ -679,8 +654,17 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-11T23:06Z",
+     "note": "Samuel (hamstring) has been ruled out for the remainder of Sunday's game against the Seahawks, Ian Rapoport of NFL Network reports."
+    }
+   ]
   },
   "SEA": {
    "adj_points": 0.06,
@@ -695,17 +679,8 @@
      "note": "Thomas (ankle) is questionable to return to Sunday's contest against the 49ers, Curtis Crabtree of Fox 13 Seattle reports."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Drake Thomas",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-11T22:04Z",
-     "note": "Thomas (ankle) is questionable to return to Sunday's contest against the 49ers, Curtis Crabtree of Fox 13 Seattle reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "TB": {
    "adj_points": 0.3,
@@ -753,6 +728,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "ATL": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.18,
    "new_absences": []
   }
  }
