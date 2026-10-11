@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-11T22:00:29.754037+00:00",
-  "previous_pull": "2026-10-11T21:00:30.942049+00:00",
-  "matched_absences": 60
+  "injury_pull": "2026-10-11T22:28:24.549832+00:00",
+  "previous_pull": "2026-10-11T22:00:29.754037+00:00",
+  "matched_absences": 63
  },
  "teams": {
   "ARI": {
@@ -145,7 +145,7 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.61,
+   "adj_points": 0.67,
    "qb_out": false,
    "absences": [
     {
@@ -179,17 +179,25 @@
      "points": 0.07,
      "updated": "2026-10-11T21:13Z",
      "note": "Judkins was wearing a walking boot on his right foot after Sunday's 17-12 loss at the Jets, Chris Easterling of the Akron Beacon Journal reports."
+    },
+    {
+     "player": "Carson Schwesinger",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T22:10Z",
+     "note": "Schwesinger (lower leg) was seen in a walking boot after the Browns' 17-12 loss to the Jets on Sunday, Mary Kay Cabot of The Cleveland Plain Dealer reports."
     }
    ],
-   "delta_since_last_pull": 0.07,
+   "delta_since_last_pull": 0.06,
    "new_absences": [
     {
-     "player": "Quinshon Judkins",
-     "pos": "RB",
+     "player": "Carson Schwesinger",
+     "pos": "LB",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T21:13Z",
-     "note": "Judkins was wearing a walking boot on his right foot after Sunday's 17-12 loss at the Jets, Chris Easterling of the Akron Beacon Journal reports."
+     "points": 0.06,
+     "updated": "2026-10-11T22:10Z",
+     "note": "Schwesinger (lower leg) was seen in a walking boot after the Browns' 17-12 loss to the Jets on Sunday, Mary Kay Cabot of The Cleveland Plain Dealer reports."
     }
    ]
   },
@@ -362,7 +370,7 @@
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 2.15,
+   "adj_points": 2.27,
    "qb_out": false,
    "absences": [
     {
@@ -404,10 +412,27 @@
      "points": 0.3,
      "updated": "2026-10-11T18:52Z",
      "note": "inactive"
+    },
+    {
+     "player": "Tre' Harris",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T22:11Z",
+     "note": "Harris (hamstring) is questionable to return to Sunday's contest against the Broncos."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Tre' Harris",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-11T22:11Z",
+     "note": "Harris (hamstring) is questionable to return to Sunday's contest against the Broncos."
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.07,
@@ -570,7 +595,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-11T21:14Z",
+     "updated": "2026-10-11T22:16Z",
      "note": "questionable"
     },
     {
@@ -656,6 +681,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "SEA": {
+   "adj_points": 0.06,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Drake Thomas",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T22:04Z",
+     "note": "Thomas (ankle) is questionable to return to Sunday's contest against the 49ers, Curtis Crabtree of Fox 13 Seattle reports."
+    }
+   ],
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Drake Thomas",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-11T22:04Z",
+     "note": "Thomas (ankle) is questionable to return to Sunday's contest against the 49ers, Curtis Crabtree of Fox 13 Seattle reports."
+    }
+   ]
   },
   "TB": {
    "adj_points": 0.3,
