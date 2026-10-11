@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-11T11:30:41.392930+00:00",
+  "built_at": "2026-10-11T12:30:34.632787+00:00",
   "nfl_history_games": 5496,
   "cfb_history_games": 3730,
   "games": 63
@@ -15,6 +15,13 @@
    "fair_home_margin": 8.6,
    "best": [
     {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": -8.0,
+     "price": -102,
+     "ev": -0.0111
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": -8.0,
@@ -23,17 +30,10 @@
     },
     {
      "book": "pinnacle",
-     "side": "away",
-     "home_line": -7.5,
-     "price": 102,
-     "ev": -0.0173
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": -7.5,
-     "price": 100,
-     "ev": -0.027
+     "side": "home",
+     "home_line": -8.0,
+     "price": -104,
+     "ev": -0.0202
     }
    ]
   },
@@ -84,18 +84,18 @@
      "ev": 0.0162
     },
     {
-     "book": "betrivers",
+     "book": "bovada",
      "side": "away",
      "home_line": 7.0,
-     "price": -107,
-     "ev": 0.0073
+     "price": -105,
+     "ev": 0.0162
     },
     {
-     "book": "betmgm",
+     "book": "pinnacle",
      "side": "away",
-     "home_line": 7.0,
-     "price": -108,
-     "ev": 0.0031
+     "home_line": 6.5,
+     "price": -117,
+     "ev": 0.0078
     }
    ]
   },
@@ -142,8 +142,8 @@
      "book": "pinnacle",
      "side": "away",
      "home_line": 7.0,
-     "price": -103,
-     "ev": 0.0254
+     "price": 100,
+     "ev": 0.0398
     },
     {
      "book": "lowvig",
@@ -177,18 +177,18 @@
      "ev": 0.0063
     },
     {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": -3.0,
+     "price": -105,
+     "ev": -0.0033
+    },
+    {
      "book": "betonlineag",
      "side": "home",
      "home_line": -2.5,
-     "price": -117,
-     "ev": -0.0017
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -2.5,
-     "price": -117,
-     "ev": -0.0017
+     "price": -120,
+     "ev": -0.0132
     }
    ]
   },
@@ -204,22 +204,22 @@
      "book": "lowvig",
      "side": "away",
      "home_line": -3.5,
-     "price": -106,
-     "ev": -0.0006
+     "price": -109,
+     "ev": -0.0139
+    },
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -110,
+     "ev": -0.0182
     },
     {
      "book": "betonlineag",
      "side": "away",
      "home_line": -3.5,
-     "price": -107,
-     "ev": -0.0051
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": -3.5,
-     "price": -108,
-     "ev": -0.0096
+     "price": -110,
+     "ev": -0.0182
     }
    ]
   },
@@ -239,7 +239,7 @@
      "ev": -0.0202
     },
     {
-     "book": "draftkings",
+     "book": "lowvig",
      "side": "away",
      "home_line": 2.5,
      "price": 100,
@@ -247,10 +247,10 @@
     },
     {
      "book": "lowvig",
-     "side": "away",
+     "side": "home",
      "home_line": 2.5,
-     "price": 100,
-     "ev": -0.0213
+     "price": -110,
+     "ev": -0.0251
     }
    ]
   },
@@ -263,25 +263,25 @@
    "fair_home_margin": 4.7,
    "best": [
     {
-     "book": "betrivers",
+     "book": "draftkings",
      "side": "away",
-     "home_line": -4.0,
-     "price": -113,
-     "ev": -0.0186
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
      "home_line": -3.5,
-     "price": -102,
-     "ev": -0.0194
+     "price": -105,
+     "ev": -0.0143
     },
     {
      "book": "pinnacle",
      "side": "home",
      "home_line": -3.5,
-     "price": -102,
-     "ev": -0.0194
+     "price": -101,
+     "ev": -0.0146
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -4.0,
+     "price": -113,
+     "ev": -0.0186
     }
    ]
   },
@@ -291,28 +291,28 @@
    "matchup": "Denver Broncos @ Los Angeles Chargers",
    "kickoff_pt": "Sun Oct 11 1:05 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -4.3,
+   "fair_home_margin": -3.9,
    "best": [
     {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": 3.5,
-     "price": -105,
-     "ev": -0.0139
-    },
-    {
-     "book": "pinnacle",
+     "book": "lowvig",
      "side": "home",
      "home_line": 3.5,
-     "price": -102,
-     "ev": -0.0199
+     "price": -103,
+     "ev": 0.0054
     },
     {
-     "book": "lowvig",
-     "side": "away",
+     "book": "fanduel",
+     "side": "home",
      "home_line": 3.5,
-     "price": -107,
-     "ev": -0.0229
+     "price": -105,
+     "ev": -0.004
+    },
+    {
+     "book": "espnbet",
+     "side": "home",
+     "home_line": 3.5,
+     "price": -105,
+     "ev": -0.004
     }
    ]
   },
@@ -394,14 +394,14 @@
      "ev": -0.0097
     },
     {
-     "book": "hardrockbet",
+     "book": "espnbet",
      "side": "away",
      "home_line": -3.5,
      "price": -115,
      "ev": -0.0219
     },
     {
-     "book": "pinnacle",
+     "book": "hardrockbet",
      "side": "away",
      "home_line": -3.5,
      "price": -115,
@@ -476,29 +476,29 @@
    "id": "57418b2cf5aca558b3c98eafac1e264a",
    "matchup": "Houston Texans @ Jacksonville Jaguars",
    "kickoff_pt": "Sun Oct 18 6:30 AM PDT",
-   "fair_source": "sharp",
-   "fair_home_margin": 4.4,
+   "fair_source": "consensus",
+   "fair_home_margin": 3.9,
    "best": [
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -3.0,
+     "price": -102,
+     "ev": -0.0252
+    },
     {
      "book": "betrivers",
      "side": "home",
      "home_line": -3.0,
      "price": -110,
-     "ev": 0.0121
+     "ev": -0.0253
     },
     {
      "book": "fanduel",
-     "side": "home",
-     "home_line": -3.0,
-     "price": -115,
-     "ev": -0.007
-    },
-    {
-     "book": "lowvig",
      "side": "away",
      "home_line": -3.0,
-     "price": 110,
-     "ev": -0.0133
+     "price": -105,
+     "ev": -0.0377
     }
    ]
   },
@@ -539,28 +539,28 @@
    "matchup": "Baltimore Ravens @ Cleveland Browns",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
    "fair_source": "sharp",
-   "fair_home_margin": -3.2,
+   "fair_home_margin": -4.4,
    "best": [
     {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -105,
-     "ev": 0.0398
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
+     "book": "betrivers",
+     "side": "away",
      "home_line": 3.0,
-     "price": 100,
-     "ev": -0.0175
+     "price": -117,
+     "ev": 0.0361
     },
     {
      "book": "draftkings",
      "side": "away",
-     "home_line": 3.0,
-     "price": -110,
-     "ev": -0.025
+     "home_line": 3.5,
+     "price": -108,
+     "ev": -0.0189
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 3.5,
+     "price": 100,
+     "ev": -0.0189
     }
    ]
   },
@@ -569,29 +569,29 @@
    "id": "caca2d752fe1a1779029082e95332fcc",
    "matchup": "Carolina Panthers @ Philadelphia Eagles",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
-   "fair_source": "sharp",
-   "fair_home_margin": 0.9,
+   "fair_source": "consensus",
+   "fair_home_margin": 1.5,
    "best": [
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": -1.5,
+     "price": -110,
+     "ev": -0.0294
+    },
     {
      "book": "draftkings",
      "side": "away",
      "home_line": -2.5,
      "price": -115,
-     "ev": -0.001
+     "ev": -0.0302
     },
     {
      "book": "betrivers",
      "side": "away",
      "home_line": -2.0,
      "price": -110,
-     "ev": -0.0019
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -1.5,
-     "price": 100,
-     "ev": -0.0203
+     "ev": -0.0344
     }
    ]
   },
