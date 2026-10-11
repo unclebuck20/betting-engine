@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-10-11T00:01:14.446268+00:00",
+  "built_at": "2026-10-11T00:31:01.642637+00:00",
   "nfl_history_games": 5496,
   "cfb_history_games": 3730,
-  "games": 32
+  "games": 33
  },
  "games": [
   {
@@ -823,23 +823,23 @@
     {
      "book": "lowvig",
      "side": "away",
-     "home_line": -20.0,
-     "price": 106,
-     "ev": 0.0166
+     "home_line": -20.5,
+     "price": 101,
+     "ev": 0.0133
     },
     {
-     "book": "fanduel",
+     "book": "espnbet",
      "side": "away",
      "home_line": -20.5,
-     "price": -104,
-     "ev": -0.0111
+     "price": 100,
+     "ev": 0.0083
     },
     {
-     "book": "pinnacle",
+     "book": "betonlineag",
      "side": "away",
-     "home_line": -21.0,
-     "price": -115,
-     "ev": -0.0152
+     "home_line": -20.5,
+     "price": -103,
+     "ev": -0.0064
     }
    ]
   },
@@ -848,21 +848,21 @@
    "id": "c4db3412210ed8e1045807c73f69b377",
    "matchup": "Boise State Broncos @ Fresno State Bulldogs",
    "kickoff_pt": "Sat Oct 10 7:30 PM PDT",
-   "fair_source": "pinnacle",
+   "fair_source": "sharp",
    "fair_home_margin": -9.6,
    "best": [
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": 9.5,
-     "price": -104,
-     "ev": -0.0233
-    },
     {
      "book": "lowvig",
      "side": "away",
      "home_line": 8.5,
      "price": -108,
+     "ev": -0.0278
+    },
+    {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": 9.5,
+     "price": -105,
      "ev": -0.0278
     },
     {
@@ -988,6 +988,30 @@
      "home_line": -21.0,
      "price": -110,
      "ev": -0.0562
+    }
+   ]
+  },
+  {
+   "league": "cfb",
+   "id": "bd2d52fadefed8a6174e73c84cca9ce3",
+   "matchup": "Notre Dame Fighting Irish @ BYU Cougars",
+   "kickoff_pt": "Sat Oct 17 4:30 PM PDT",
+   "fair_source": "consensus",
+   "fair_home_margin": -13.6,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": 12.5,
+     "price": -105,
+     "ev": -0.0445
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 12.5,
+     "price": -115,
+     "ev": -0.0454
     }
    ]
   }
