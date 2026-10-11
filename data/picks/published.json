@@ -3878,7 +3878,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-04T14:00:31.791898+00:00",
   "published_at": "2026-10-04T14:01:24.957113+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-04T14:01:24.957113+00:00",
@@ -5497,7 +5497,7 @@
   "open_line": null,
   "confidence": 54.6,
   "ev_pct": 2.02,
-  "units": 1.5,
+  "units": 1.0,
   "price_floor": 39.0,
   "floor_text": "Good to over 39 at -110",
   "fair_source": "consensus",
@@ -5562,8 +5562,8 @@
    "price": -115,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695672O3750_1",
-   "ev_pct": 4.7,
-   "confidence": 56.0
+   "ev_pct": 4.07,
+   "confidence": 55.7
   },
   "inj_check": null,
   "scout": {
@@ -5577,8 +5577,8 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 4.7,
-   "confidence": 56.0,
+   "ev_pct": 4.07,
+   "confidence": 55.7,
    "line": 37.5,
    "price": -115,
    "book": "draftkings",
@@ -6057,7 +6057,7 @@
   "flags": [],
   "odds_pulled_at": "2026-10-04T23:30:30.419401+00:00",
   "published_at": "2026-10-04T23:30:41.193100+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-04T23:30:41.193100+00:00",
@@ -6683,26 +6683,32 @@
     54.5,
     -105,
     "draftkings"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    54.5,
+    -102,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 54.5,
-   "price": -105,
+   "price": -102,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695554U5450_3",
-   "ev_pct": 4.41,
+   "ev_pct": 5.91,
    "confidence": 53.5
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 4.41,
+   "ev_pct": 5.91,
    "confidence": 53.5,
    "line": 54.5,
-   "price": -105,
+   "price": -102,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 55.5; DraftKings has Under 54.5 (-105). Our model projects 47.5 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 55.5; DraftKings has Under 54.5 (-102). Our model projects 47.5 points from both offenses' efficiency and pace.",
    "flags": [
     "model total is 8.0 pts off the market; usually missing weather or injury news",
     "totals backtest: 6+ pt disagreements went 45-54"
@@ -6795,25 +6801,31 @@
     -3.5,
     -108,
     "draftkings"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    -3.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": -3.5,
-   "price": -108,
+   "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695656N350_1",
-   "ev_pct": null,
-   "confidence": null
+   "ev_pct": -2.38,
+   "confidence": 50.0
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -2.64,
-   "confidence": 51.0,
+   "ev_pct": -2.38,
+   "confidence": 50.0,
    "line": -3.5,
-   "price": -110,
+   "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Patriots -5; DraftKings has -3.5 (-110). Our NFL model makes Patriots -7, 2.4 pts better than the market.",
+   "why": "Pinnacle makes Patriots -5; DraftKings has -3.5 (-105). Our NFL model makes Patriots -6, 1.2 pts better than the market. NE is without Mack Hollins (WR, injured reserve); injuries are worth ~1.8 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -7807,7 +7819,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-05T22:30:31.379203+00:00",
   "published_at": "2026-10-05T22:30:39.026398+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-10-05T22:30:39.026398+00:00",
@@ -7850,25 +7862,31 @@
     -7.0,
     -108,
     "draftkings"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    -6.5,
+    -115,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": -7.0,
-   "price": -108,
+   "line": -6.5,
+   "price": -115,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695672N700_3",
-   "ev_pct": 0.31,
-   "confidence": 52.1
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695672N650_3",
+   "ev_pct": 1.59,
+   "confidence": 54.3
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 0.31,
-   "confidence": 52.1,
-   "line": -7.0,
-   "price": -108,
+   "tier": "lean",
+   "ev_pct": 1.59,
+   "confidence": 54.3,
+   "line": -6.5,
+   "price": -115,
    "book": "draftkings",
-   "why": "Pinnacle makes Texans -9; DraftKings has -7 (-108).",
+   "why": "Pinnacle makes Texans -9; DraftKings has -6.5 (-115).",
    "flags": []
   }
  },
@@ -8953,7 +8971,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-06T14:00:36.414426+00:00",
   "published_at": "2026-10-06T21:01:14.774521+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-06T21:01:14.774521+00:00",
@@ -9365,25 +9383,31 @@
     -2.5,
     -115,
     "fanduel"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    -2.5,
+    -122,
+    "fanduel"
    ]
   ],
   "current": {
    "line": -2.5,
-   "price": -115,
+   "price": -122,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291171&selectionId=50208",
-   "ev_pct": 0.63,
-   "confidence": 53.8
+   "ev_pct": -0.79,
+   "confidence": 54.5
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.63,
-   "confidence": 53.8,
+   "ev_pct": -0.79,
+   "confidence": 54.5,
    "line": -2.5,
-   "price": -115,
+   "price": -122,
    "book": "fanduel",
-   "why": "Pinnacle makes Steelers -3.5; FanDuel has -2.5 (-115). PIT is without Michael Pittman Jr. (WR, injured reserve); injuries are worth ~1.1 pts to them by our injury model. IND is without Arden Key (DE, injured reserve); injuries are worth ~0.9 pts to them by our injury model.",
+   "why": "Pinnacle makes Steelers -3.5; FanDuel has -2.5 (-122). PIT is without Michael Pittman Jr. (WR, injured reserve); injuries are worth ~1.1 pts to them by our injury model. IND is without Arden Key (DE, injured reserve); injuries are worth ~0.9 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -9617,8 +9641,8 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291118&selectionId=27443341",
-   "ev_pct": -1.82,
-   "confidence": 51.4
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -9900,18 +9924,18 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84998460P850_3",
-   "ev_pct": 6.96,
-   "confidence": 56.0
+   "ev_pct": 7.64,
+   "confidence": 56.4
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 6.96,
-   "confidence": 56.0,
+   "ev_pct": 7.64,
+   "confidence": 56.4,
    "line": 8.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average makes Kansas +8; DraftKings has +8.5 (-110). Our in-season power ratings have Kansas 7.7 pts better than the market.",
+   "why": "The market average makes Kansas +8; DraftKings has +8.5 (-110). Our in-season power ratings have Kansas 7.6 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
@@ -9971,25 +9995,31 @@
     6.5,
     -105,
     "fanduel"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    6.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 6.5,
-   "price": -105,
+   "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741267&selectionId=1303222",
-   "ev_pct": 8.86,
+   "ev_pct": 6.45,
    "confidence": 55.8
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 8.86,
+   "ev_pct": 6.45,
    "confidence": 55.8,
    "line": 6.5,
-   "price": -105,
+   "price": -110,
    "book": "fanduel",
-   "why": "The market average makes Penn State +5.5; FanDuel has +6.5 (-105). Our in-season power ratings have Penn State 5.3 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "The market average makes Penn State +5.5; FanDuel has +6.5 (-110). Our in-season power ratings have Penn State 5.3 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
@@ -10362,18 +10392,18 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84998524P400_1",
-   "ev_pct": 2.0,
-   "confidence": 52.3
+   "ev_pct": 2.73,
+   "confidence": 52.7
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.0,
-   "confidence": 52.3,
+   "ev_pct": 2.73,
+   "confidence": 52.7,
    "line": 4.0,
    "price": -105,
    "book": "draftkings",
-   "why": "The market average makes Indiana +5.5; DraftKings has +4 (-105). Our in-season power ratings have Indiana 4.3 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "The market average makes Indiana +5.5; DraftKings has +4 (-105). Our in-season power ratings have Indiana 4.1 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
@@ -10420,7 +10450,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-11T07:00:33.575338+00:00",
   "published_at": "2026-10-11T07:01:15.070757+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-11T07:01:15.070757+00:00",
@@ -10434,19 +10464,20 @@
    "price": 102,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613677166&selectionId=36229138",
-   "ev_pct": 2.61,
-   "confidence": 50.8
+   "ev_pct": -0.34,
+   "confidence": 49.3
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.61,
-   "confidence": 50.8,
+   "tier": "pass",
+   "ev_pct": -0.34,
+   "confidence": 49.3,
    "line": 2.5,
    "price": 102,
    "book": "fanduel",
-   "why": "The market average makes Washington +3; FanDuel has +2.5 (+102). Our in-season power ratings have Washington 9.8 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "The market average makes Washington +3.5; FanDuel has +2.5 (+102). Our in-season power ratings have Washington 10.6 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
+    "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
    ]
@@ -10499,25 +10530,31 @@
     6.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    6.5,
+    -114,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 6.5,
-   "price": -110,
+   "price": -114,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613681729&selectionId=662060",
-   "ev_pct": 11.83,
-   "confidence": 58.6
+   "ev_pct": 10.89,
+   "confidence": 58.2
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 11.83,
-   "confidence": 58.6,
-   "line": 6.5,
+   "ev_pct": 10.89,
+   "confidence": 58.2,
+   "line": 6.0,
    "price": -110,
-   "book": "fanduel",
-   "why": "The market average makes Missouri +6; FanDuel has +6.5 (-110). Our in-season power ratings have Missouri 9.0 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "book": "draftkings",
+   "why": "The market average makes Missouri +5.5; DraftKings has +6 (-110). Our in-season power ratings have Missouri 8.9 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
@@ -10650,18 +10687,18 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613688600&selectionId=2129030",
-   "ev_pct": 8.7,
-   "confidence": 56.9
+   "ev_pct": 9.15,
+   "confidence": 57.2
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 8.7,
-   "confidence": 56.9,
+   "ev_pct": 9.15,
+   "confidence": 57.2,
    "line": -6.5,
    "price": -110,
    "book": "fanduel",
-   "why": "The market average makes Vanderbilt -6; FanDuel has -6.5 (-110). Our in-season power ratings have Vanderbilt 9.1 pts better than the market.",
+   "why": "The market average makes Vanderbilt -6; FanDuel has -6.5 (-110). Our in-season power ratings have Vanderbilt 9.0 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
@@ -10722,18 +10759,18 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84998435P1250_1",
-   "ev_pct": 3.94,
-   "confidence": 53.2
+   "ev_pct": 4.51,
+   "confidence": 53.5
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 3.94,
-   "confidence": 53.2,
+   "ev_pct": 4.51,
+   "confidence": 53.5,
    "line": 12.5,
    "price": -105,
    "book": "draftkings",
-   "why": "The market average makes BYU +13.5; DraftKings has +12.5 (-105). Our in-season power ratings have BYU 2.6 pts better than the market.",
+   "why": "The market average makes BYU +13; DraftKings has +12.5 (-105). Our in-season power ratings have BYU 2.5 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
@@ -10780,32 +10817,38 @@
   "held": false,
   "odds_pulled_at": "2026-10-11T07:00:33.575338+00:00",
   "published_at": "2026-10-11T07:01:15.070757+00:00",
-  "status": "live",
+  "status": "moved",
   "history": [
    [
     "2026-10-11T07:01:15.070757+00:00",
     5.5,
     -114,
     "fanduel"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    3.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 5.5,
-   "price": -114,
+   "line": 3.5,
+   "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613678353&selectionId=662059",
-   "ev_pct": 2.74,
-   "confidence": 54.7
+   "ev_pct": -1.72,
+   "confidence": 51.5
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.74,
-   "confidence": 54.7,
-   "line": 5.5,
-   "price": -114,
+   "tier": "pass",
+   "ev_pct": -1.72,
+   "confidence": 51.5,
+   "line": 3.5,
+   "price": -110,
    "book": "fanduel",
-   "why": "The market average makes Wisconsin +5.5; FanDuel has +5.5 (-114). Our in-season power ratings have Wisconsin 4.0 pts better than the market.",
+   "why": "The market average makes Wisconsin +5; FanDuel has +3.5 (-110). Our in-season power ratings have Wisconsin 3.6 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
@@ -10859,25 +10902,249 @@
     -14.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    -15.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": -14.5,
+   "line": -15.5,
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613683342&selectionId=532780",
-   "ev_pct": 2.08,
-   "confidence": 53.5
+   "ev_pct": 1.94,
+   "confidence": 53.4
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.08,
-   "confidence": 53.5,
-   "line": -14.5,
+   "ev_pct": 1.94,
+   "confidence": 53.4,
+   "line": -15.5,
    "price": -110,
    "book": "fanduel",
-   "why": "The market average makes Utah -14.5; FanDuel has -14.5 (-110). Our in-season power ratings have Utah 4.8 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "The market average makes Utah -15; FanDuel has -15.5 (-110). Our in-season power ratings have Utah 4.5 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average",
+    "college injuries not checked yet"
+   ]
+  }
+ },
+ "55f376873e3cd0c2bb7cc9aa26e47235|Tulane Green Wave": {
+  "id": "55f376873e3cd0c2bb7cc9aa26e47235",
+  "pick_key": "55f376873e3cd0c2bb7cc9aa26e47235|Tulane Green Wave",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "fri",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Memphis Tigers @ Tulane Green Wave",
+  "kickoff_utc": "2026-10-16T23:30:00Z",
+  "kickoff_pt": "Fri Oct 16, 4:30 PM PDT",
+  "side": "Tulane Green Wave",
+  "opponent": "Memphis Tigers",
+  "side_is_home": true,
+  "line": 7.5,
+  "price": -115,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676997&selectionId=2137018",
+  "fair_line": 8.0,
+  "open_line": null,
+  "confidence": 54.1,
+  "ev_pct": 1.07,
+  "units": 0.5,
+  "price_floor": 7.5,
+  "floor_text": "Good to +7.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": -7.9,
+  "model_home_margin": 1.3,
+  "model_weight": 0.0,
+  "hours_to_kick": 129.5,
+  "signals": [],
+  "why": "The market average makes Tulane +8; FanDuel has +7.5 (-115).",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average",
+   "our ratings disagree with SP+ and the market by 9 pts; likely a roster or QB change, so no model weight",
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-11T14:00:32.586547+00:00",
+  "published_at": "2026-10-11T14:00:55.506196+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    7.5,
+    -115,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 7.5,
+   "price": -115,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676997&selectionId=2137018",
+   "ev_pct": 1.07,
+   "confidence": 54.1
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 1.07,
+   "confidence": 54.1,
+   "line": 7.5,
+   "price": -115,
+   "book": "fanduel",
+   "why": "The market average makes Tulane +8; FanDuel has +7.5 (-115).",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average",
+    "our ratings disagree with SP+ and the market by 9 pts; likely a roster or QB change, so no model weight",
+    "college injuries not checked yet"
+   ]
+  }
+ },
+ "490b66058b6c826a08589c471698ce50|Texas Longhorns": {
+  "id": "490b66058b6c826a08589c471698ce50",
+  "pick_key": "490b66058b6c826a08589c471698ce50|Texas Longhorns",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "sat",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Florida Gators @ Texas Longhorns",
+  "kickoff_utc": "2026-10-17T16:00:00Z",
+  "kickoff_pt": "Sat Oct 17, 9:00 AM PDT",
+  "side": "Texas Longhorns",
+  "opponent": "Florida Gators",
+  "side_is_home": true,
+  "line": -9.5,
+  "price": 102,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613679363&selectionId=484725",
+  "fair_line": -10.0,
+  "open_line": null,
+  "confidence": 50.7,
+  "ev_pct": 2.41,
+  "units": 0.5,
+  "price_floor": null,
+  "floor_text": "Only at -9.5 -103 or better",
+  "fair_source": "consensus",
+  "market_home_margin": 9.8,
+  "model_home_margin": 7.5,
+  "model_weight": 0.193,
+  "hours_to_kick": 146.0,
+  "signals": [],
+  "why": "The market average makes Texas -10; FanDuel has -9.5 (+102). Our in-season power ratings have Texas 2.3 pts worse than the market.",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average",
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-11T14:00:32.586547+00:00",
+  "published_at": "2026-10-11T14:00:55.506196+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    -9.5,
+    102,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": -9.5,
+   "price": 102,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613679363&selectionId=484725",
+   "ev_pct": 2.41,
+   "confidence": 50.7
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.41,
+   "confidence": 50.7,
+   "line": -9.5,
+   "price": 102,
+   "book": "fanduel",
+   "why": "The market average makes Texas -10; FanDuel has -9.5 (+102). Our in-season power ratings have Texas 2.3 pts worse than the market.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average",
+    "college injuries not checked yet"
+   ]
+  }
+ },
+ "b5e637cf502d6d5f408af440ea2d591d|Wake Forest Demon Deacons": {
+  "id": "b5e637cf502d6d5f408af440ea2d591d",
+  "pick_key": "b5e637cf502d6d5f408af440ea2d591d|Wake Forest Demon Deacons",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "sat",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Wake Forest Demon Deacons @ California Golden Bears",
+  "kickoff_utc": "2026-10-17T19:30:00Z",
+  "kickoff_pt": "Sat Oct 17, 12:30 PM PDT",
+  "side": "Wake Forest Demon Deacons",
+  "opponent": "California Golden Bears",
+  "side_is_home": false,
+  "line": -7.5,
+  "price": -110,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741158&selectionId=2147633",
+  "fair_line": -9.5,
+  "open_line": null,
+  "confidence": 53.3,
+  "ev_pct": 1.76,
+  "units": 0.5,
+  "price_floor": -8.0,
+  "floor_text": "Good to -8 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": -9.3,
+  "model_home_margin": -15.7,
+  "model_weight": 0.193,
+  "hours_to_kick": 149.5,
+  "signals": [],
+  "why": "The market average makes Wake Forest -9.5; FanDuel has -7.5 (-110). Our in-season power ratings have Wake Forest 6.4 pts better than the market.",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average",
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-11T14:00:32.586547+00:00",
+  "published_at": "2026-10-11T14:00:55.506196+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-11T14:00:55.506196+00:00",
+    -7.5,
+    -110,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": -7.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741158&selectionId=2147633",
+   "ev_pct": 1.76,
+   "confidence": 53.3
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 1.76,
+   "confidence": 53.3,
+   "line": -7.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "The market average makes Wake Forest -9.5; FanDuel has -7.5 (-110). Our in-season power ratings have Wake Forest 6.4 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
