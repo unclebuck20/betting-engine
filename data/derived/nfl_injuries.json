@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-12T00:30:30.054217+00:00",
-  "previous_pull": "2026-10-11T23:30:32.013414+00:00",
-  "matched_absences": 62
+  "injury_pull": "2026-10-12T04:00:28.063389+00:00",
+  "previous_pull": "2026-10-12T00:30:30.054217+00:00",
+  "matched_absences": 64
  },
  "teams": {
   "ARI": {
@@ -39,6 +39,47 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "ATL": {
+   "adj_points": 1.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Michael Penix Jr.",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-10-12T03:45Z",
+     "note": "questionable"
+    },
+    {
+     "player": "C.J. Henderson",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-12T03:38Z",
+     "note": "Henderson (groin) is questionable to return to Sunday night's contest against the Ravens, Josh Kendall of The Athletic reports."
+    }
+   ],
+   "delta_since_last_pull": 1.12,
+   "new_absences": [
+    {
+     "player": "Michael Penix Jr.",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-10-12T03:45Z",
+     "note": "questionable"
+    },
+    {
+     "player": "C.J. Henderson",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-12T03:38Z",
+     "note": "Henderson (groin) is questionable to return to Sunday night's contest against the Ravens, Josh Kendall of The Athletic reports."
+    }
+   ]
   },
   "BAL": {
    "adj_points": 4.0,
@@ -130,7 +171,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-11T20:48Z",
-     "note": "Conception has entered the NFL's concussion protocol, Daniel Oyefusi of ESPN.com reported Sunday."
+     "note": "Concepcion has entered the NFL's concussion protocol, Daniel Oyefusi of ESPN.com reported Sunday."
     },
     {
      "player": "Tytus Howard",
@@ -329,8 +370,8 @@
      "pos": "DT",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-11T18:14Z",
-     "note": "Hemingway (neck) has been ruled out for the remainder of Sunday's game against the Patriots."
+     "updated": "2026-10-11T17:53Z",
+     "note": "Hemingway (neck) is questionable to return to Sunday's game against the Patriots."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -505,8 +546,8 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-11T19:32Z",
-     "note": "Campbell (knee) has been ruled out for the remainder of Sunday's game against the Raiders."
+     "updated": "2026-10-11T18:04Z",
+     "note": "Campbell (knee) is questionable to return to Sunday's game against the Raiders."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -545,15 +586,15 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-11T19:58Z",
-     "note": "Hood (concussion) has been ruled out for the remainder of Sunday's game against the Commanders, Dan Salomone of the Giants' official site reports."
+     "updated": "2026-10-11T19:38Z",
+     "note": "Hood is being evaluated for a concussion and is questionable to return to Sunday's game against the Commanders, Pat Leonard of the New York Daily News reports."
     },
     {
      "player": "Jermaine Eluemunor",
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-12T00:01Z",
+     "updated": "2026-10-12T03:47Z",
      "note": "questionable"
     },
     {
@@ -593,8 +634,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-11T17:37Z",
-     "note": "Hunt (ankle/knee) was seen wearing a walking boot on his left leg after the Eagles' 19-17 loss to the Jaguars on Sunday, Jeff McLane of The Philadelphia Inquire"
+     "updated": "2026-10-11T16:29Z",
+     "note": "Hunt (ankle/knee) has been ruled out for the remainder of Sunday's game against the Jaguars in London."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -645,7 +686,7 @@
      "note": "Samuel (hamstring) has been ruled out for the remainder of Sunday's game against the Seahawks, Ian Rapoport of NFL Network reports."
     }
    ],
-   "delta_since_last_pull": -0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SEA": {
