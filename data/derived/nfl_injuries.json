@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-11T23:30:32.013414+00:00",
-  "previous_pull": "2026-10-11T22:28:24.549832+00:00",
+  "injury_pull": "2026-10-12T00:30:30.054217+00:00",
+  "previous_pull": "2026-10-11T23:30:32.013414+00:00",
   "matched_absences": 62
  },
  "teams": {
@@ -53,7 +53,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
@@ -213,17 +213,8 @@
      "note": "Hufanga (ankle) has been ruled out for the rest of Sunday's contest against the Chargers, Parker Gabriel of The Denver Post reports."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Talanoa Hufanga",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T22:42Z",
-     "note": "Hufanga (ankle) has been ruled out for the rest of Sunday's contest against the Chargers, Parker Gabriel of The Denver Post reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "GB": {
    "adj_points": 0.65,
@@ -562,7 +553,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-11T23:16Z",
+     "updated": "2026-10-12T00:01Z",
      "note": "questionable"
     },
     {
@@ -634,17 +625,9 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.8,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Deebo Samuel Sr.",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-11T23:06Z",
-     "note": "Samuel (hamstring) has been ruled out for the remainder of Sunday's game against the Seahawks, Ian Rapoport of NFL Network reports."
-    },
     {
      "player": "Marques Sigle",
      "pos": "S",
@@ -652,19 +635,18 @@
      "points": 0.3,
      "updated": "2026-10-11T18:59Z",
      "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.5,
-   "new_absences": [
+    },
     {
      "player": "Deebo Samuel Sr.",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
+     "status": "Questionable",
+     "points": 0.12,
      "updated": "2026-10-11T23:06Z",
      "note": "Samuel (hamstring) has been ruled out for the remainder of Sunday's game against the Seahawks, Ian Rapoport of NFL Network reports."
     }
-   ]
+   ],
+   "delta_since_last_pull": -0.38,
+   "new_absences": []
   },
   "SEA": {
    "adj_points": 0.06,
@@ -728,13 +710,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "ATL": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.18,
    "new_absences": []
   }
  }
