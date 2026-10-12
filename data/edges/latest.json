@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-12T22:30:41.275208+00:00",
+  "built_at": "2026-10-12T23:30:28.586847+00:00",
   "nfl_history_games": 5509,
   "cfb_history_games": 3730,
   "games": 74
@@ -18,22 +18,22 @@
      "book": "betmgm",
      "side": "away",
      "home_line": -3.5,
-     "price": -108,
-     "ev": 0.008
+     "price": -110,
+     "ev": -0.0008
     },
     {
-     "book": "pinnacle",
+     "book": "betonlineag",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -112,
+     "ev": -0.0093
+    },
+    {
+     "book": "lowvig",
      "side": "away",
      "home_line": -3.5,
      "price": -114,
      "ev": -0.0175
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": -3.5,
-     "price": -115,
-     "ev": -0.0215
     }
    ]
   },
@@ -43,28 +43,28 @@
    "matchup": "Seattle Seahawks @ Denver Broncos",
    "kickoff_pt": "Thu Oct 15 5:15 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -2.7,
+   "fair_home_margin": -2.6,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 3.0,
-     "price": 100,
-     "ev": -0.0124
-    },
     {
      "book": "betrivers",
      "side": "home",
      "home_line": 3.0,
      "price": -107,
-     "ev": -0.0181
+     "ev": -0.012
     },
     {
-     "book": "draftkings",
+     "book": "lowvig",
      "side": "away",
      "home_line": 3.0,
-     "price": -102,
-     "ev": -0.0212
+     "price": 100,
+     "ev": -0.0186
+    },
+    {
+     "book": "pinnacle",
+     "side": "away",
+     "home_line": 3.0,
+     "price": -101,
+     "ev": -0.023
     }
    ]
   },
@@ -80,8 +80,8 @@
      "book": "betrivers",
      "side": "away",
      "home_line": -3.0,
-     "price": -117,
-     "ev": 0.0003
+     "price": -118,
+     "ev": -0.0032
     },
     {
      "book": "draftkings",
@@ -239,14 +239,14 @@
      "ev": 0.0005
     },
     {
-     "book": "espnbet",
+     "book": "hardrockbet",
      "side": "away",
-     "home_line": -7.0,
-     "price": -105,
-     "ev": -0.0183
+     "home_line": -7.5,
+     "price": -115,
+     "ev": 0.0005
     },
     {
-     "book": "bovada",
+     "book": "espnbet",
      "side": "away",
      "home_line": -7.0,
      "price": -105,
@@ -260,28 +260,28 @@
    "matchup": "New Orleans Saints @ New York Giants",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 0.4,
+   "fair_home_margin": 0.6,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": 1.0,
      "price": 101,
-     "ev": -0.0048
+     "ev": -0.0209
     },
     {
      "book": "pinnacle",
-     "side": "home",
-     "home_line": 1.0,
-     "price": -107,
-     "ev": -0.0226
-    },
-    {
-     "book": "betonlineag",
      "side": "away",
      "home_line": 1.0,
-     "price": -105,
-     "ev": -0.0326
+     "price": 100,
+     "ev": -0.0256
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 1.0,
+     "price": -112,
+     "ev": -0.028
     }
    ]
   },
@@ -321,29 +321,29 @@
    "id": "3729ac6d2a66b642850caf2044cdc658",
    "matchup": "Arizona Cardinals @ Los Angeles Rams",
    "kickoff_pt": "Sun Oct 18 1:05 PM PDT",
-   "fair_source": "sharp",
-   "fair_home_margin": 12.3,
+   "fair_source": "consensus",
+   "fair_home_margin": 11.916666666666666,
    "best": [
     {
-     "book": "draftkings",
-     "side": "home",
+     "book": "fanduel",
+     "side": "away",
      "home_line": -12.5,
-     "price": -110,
-     "ev": -0.0055
+     "price": -105,
+     "ev": -0.0228
     },
     {
      "book": "betmgm",
-     "side": "home",
+     "side": "away",
      "home_line": -12.5,
-     "price": -110,
-     "ev": -0.0055
+     "price": -108,
+     "ev": -0.036
     },
     {
-     "book": "espnbet",
-     "side": "home",
+     "book": "betrivers",
+     "side": "away",
      "home_line": -12.5,
-     "price": -110,
-     "ev": -0.0055
+     "price": -109,
+     "ev": -0.0403
     }
    ]
   },
@@ -352,29 +352,29 @@
    "id": "45b2690b350ed45145c7a716b18e8e66",
    "matchup": "Buffalo Bills @ Las Vegas Raiders",
    "kickoff_pt": "Sun Oct 18 1:25 PM PDT",
-   "fair_source": "sharp",
-   "fair_home_margin": -5.5,
+   "fair_source": "consensus",
+   "fair_home_margin": -5.566666666666666,
    "best": [
     {
      "book": "hardrockbet",
      "side": "home",
      "home_line": 6.5,
      "price": -110,
-     "ev": -0.0049
+     "ev": -0.0144
     },
     {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 6.0,
-     "price": -105,
-     "ev": -0.0149
+     "book": "fanduel",
+     "side": "away",
+     "home_line": 5.5,
+     "price": -115,
+     "ev": -0.0317
     },
     {
-     "book": "lowvig",
+     "book": "betmgm",
      "side": "away",
      "home_line": 6.0,
-     "price": -105,
-     "ev": -0.0311
+     "price": -108,
+     "ev": -0.0342
     }
    ]
   },
@@ -384,28 +384,28 @@
    "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
    "kickoff_pt": "Sun Oct 18 1:25 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 8.9,
+   "fair_home_margin": 9.0,
    "best": [
     {
      "book": "lowvig",
-     "side": "away",
-     "home_line": -8.0,
-     "price": 100,
-     "ev": -0.0214
-    },
-    {
-     "book": "lowvig",
      "side": "home",
      "home_line": -8.0,
      "price": -110,
-     "ev": -0.0237
+     "ev": -0.0167
     },
     {
-     "book": "betmgm",
+     "book": "pinnacle",
      "side": "home",
      "home_line": -8.0,
-     "price": -110,
-     "ev": -0.0237
+     "price": -111,
+     "ev": -0.0207
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -8.5,
+     "price": -105,
+     "ev": -0.0256
     }
    ]
   },
@@ -421,8 +421,8 @@
      "book": "lowvig",
      "side": "away",
      "home_line": -1.0,
-     "price": -105,
-     "ev": -0.0039
+     "price": -103,
+     "ev": 0.0053
     },
     {
      "book": "espnbet",
@@ -432,11 +432,11 @@
      "ev": -0.0154
     },
     {
-     "book": "pinnacle",
+     "book": "betonlineag",
      "side": "away",
      "home_line": -1.0,
-     "price": -109,
-     "ev": -0.0214
+     "price": -108,
+     "ev": -0.0171
     }
    ]
   },

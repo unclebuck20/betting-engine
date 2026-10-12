@@ -9701,14 +9701,14 @@
    "price": -102,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695720N300_3",
-   "ev_pct": -2.12,
-   "confidence": 49.3
+   "ev_pct": -2.74,
+   "confidence": 49.0
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -2.12,
-   "confidence": 49.3,
+   "ev_pct": -2.74,
+   "confidence": 49.0,
    "line": -3.0,
    "price": -102,
    "book": "draftkings",
@@ -10076,14 +10076,14 @@
    "price": -118,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613689377&selectionId=661959",
-   "ev_pct": 5.09,
-   "confidence": 55.1
+   "ev_pct": 4.12,
+   "confidence": 54.6
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 5.09,
-   "confidence": 55.1,
+   "ev_pct": 4.12,
+   "confidence": 54.6,
    "line": 6.0,
    "price": -110,
    "book": "draftkings",
@@ -10092,7 +10092,7 @@
     "college injuries not checked yet"
    ]
   },
-  "units_uncapped": 1.5
+  "units_uncapped": 1.0
  },
  "f8b421c996286807b6e7b8e4d5631f80|Penn State Nittany Lions": {
   "id": "f8b421c996286807b6e7b8e4d5631f80",
@@ -11597,26 +11597,32 @@
     45.5,
     -110,
     "draftkings"
+   ],
+   [
+    "2026-10-12T23:30:31.178138+00:00",
+    45.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 45.5,
    "price": -110,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695541U4550_3",
-   "ev_pct": 0.21,
-   "confidence": 52.5
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614182930&selectionId=7017917",
+   "ev_pct": 0.89,
+   "confidence": 52.8
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.21,
-   "confidence": 52.5,
+   "ev_pct": 0.89,
+   "confidence": 52.8,
    "line": 45.5,
    "price": -110,
-   "book": "draftkings",
-   "why": "Pinnacle's fair total is 46; DraftKings has Under 45.5 (-110). Our model projects 42.5 points from both offenses' efficiency and pace.",
+   "book": "fanduel",
+   "why": "Pinnacle's fair total is 45.5; FanDuel has Under 45.5 (-110). Our model projects 42.5 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -11644,7 +11650,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 6.91,
-  "units": 1.5,
+  "units": 0.5,
   "price_floor": 51.5,
   "floor_text": "Good to under 51.5 at -110",
   "fair_source": "consensus",
@@ -11685,20 +11691,22 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614182977&selectionId=7017917",
-   "ev_pct": 4.79,
-   "confidence": 53.7
+   "ev_pct": 5.67,
+   "confidence": 54.1
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 4.79,
-   "confidence": 53.7,
+   "tier": "lean",
+   "ev_pct": 5.67,
+   "confidence": 54.1,
    "line": 52.5,
    "price": -105,
    "book": "fanduel",
-   "why": "BetOnline/LowVig's fair total is 53; FanDuel has Under 52.5 (-105). Our model projects 48.2 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
-   "flags": []
+   "why": "The market average's fair total is 53; FanDuel has Under 52.5 (-105). Our model projects 48.2 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
   }
  },
  "45b2690b350ed45145c7a716b18e8e66|Las Vegas Raiders": {
@@ -11725,7 +11733,7 @@
   "open_line": null,
   "confidence": 55.8,
   "ev_pct": 6.52,
-  "units": 2.0,
+  "units": 0.5,
   "price_floor": 4.5,
   "floor_text": "Good to +4.5 at -110",
   "fair_source": "consensus",
@@ -11773,14 +11781,16 @@
   },
   "scout": null,
   "latest": {
-   "tier": "play",
+   "tier": "lean",
    "ev_pct": 6.64,
    "confidence": 56.0,
    "line": 6.0,
    "price": -110,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Raiders +5.5; DraftKings has +6 (-110). Our NFL model makes Raiders +1, 4.7 pts better than the market.",
-   "flags": []
+   "why": "The market average makes Raiders +5.5; DraftKings has +6 (-110). Our NFL model makes Raiders +1, 4.7 pts better than the market.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ]
   }
  },
  "3729ac6d2a66b642850caf2044cdc658|Arizona Cardinals": {
@@ -11851,19 +11861,21 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614182050&selectionId=50188",
-   "ev_pct": 2.58,
-   "confidence": 52.5
+   "ev_pct": 4.74,
+   "confidence": 53.6
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.58,
-   "confidence": 52.5,
+   "ev_pct": 4.74,
+   "confidence": 53.6,
    "line": 12.5,
    "price": -105,
    "book": "fanduel",
-   "why": "BetOnline/LowVig makes Cardinals +12.5; FanDuel has +12.5 (-105). Our NFL model makes Cardinals +8.5, 3.6 pts better than the market.",
-   "flags": []
+   "why": "The market average makes Cardinals +12; FanDuel has +12.5 (-105). Our NFL model makes Cardinals +9, 3.1 pts better than the market.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ]
   }
  },
  "0b0b582b32b09ab6ff6664ffae0c9653|Under": {
@@ -12167,18 +12179,18 @@
    "price": -120,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614182928&selectionId=50185",
-   "ev_pct": -3.71,
-   "confidence": 52.5
+   "ev_pct": -3.0,
+   "confidence": 52.9
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -3.71,
-   "confidence": 52.5,
+   "ev_pct": -3.0,
+   "confidence": 52.9,
    "line": 1.5,
    "price": -120,
-   "book": "draftkings",
-   "why": "Pinnacle makes Giants -0.5; DraftKings has +1.5 (-120). Our NFL model makes Giants -3, 2.5 pts better than the market.",
+   "book": "fanduel",
+   "why": "Pinnacle makes Giants -0.5; FanDuel has +1.5 (-120). Our NFL model makes Giants -3, 2.3 pts better than the market.",
    "flags": []
   }
  },
@@ -12245,15 +12257,15 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614184114&selectionId=7017917",
-   "ev_pct": -1.96,
-   "confidence": 50.2
+   "ev_pct": -1.01,
+   "confidence": 50.7
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.96,
-   "confidence": 50.2,
+   "ev_pct": -1.01,
+   "confidence": 50.7,
    "line": 42.5,
    "price": -105,
    "book": "fanduel",
@@ -12321,18 +12333,18 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614184112&selectionId=50214",
-   "ev_pct": -3.23,
-   "confidence": 49.6
+   "ev_pct": -2.56,
+   "confidence": 49.9
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -3.23,
-   "confidence": 49.6,
+   "ev_pct": -2.56,
+   "confidence": 49.9,
    "line": -8.5,
    "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Chiefs -9; DraftKings has -8.5 (-105). Our NFL model makes Chiefs -10.5, 1.5 pts better than the market. LAC is without Quentin Johnston (WR, out); injuries are worth ~1.4 pts to them by our injury model.",
+   "why": "Pinnacle makes Chiefs -9; DraftKings has -8.5 (-105). Our NFL model makes Chiefs -10.5, 1.4 pts better than the market. LAC is without Quentin Johnston (WR, out); injuries are worth ~1.4 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -12969,15 +12981,15 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695618U5250_3",
-   "ev_pct": 3.13,
-   "confidence": 52.8
+   "ev_pct": 3.94,
+   "confidence": 53.2
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 3.13,
-   "confidence": 52.8,
+   "ev_pct": 3.94,
+   "confidence": 53.2,
    "line": 52.5,
    "price": -105,
    "book": "draftkings",
