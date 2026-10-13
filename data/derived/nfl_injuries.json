@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-13T14:00:35.974653+00:00",
-  "previous_pull": "2026-10-13T10:30:27.859891+00:00",
+  "injury_pull": "2026-10-13T17:30:29.797245+00:00",
+  "previous_pull": "2026-10-13T14:00:35.974653+00:00",
   "matched_absences": 38
  },
  "teams": {
@@ -193,19 +193,19 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.09,
+   "adj_points": 0.35,
    "qb_out": false,
    "absences": [
     {
      "player": "Anton Harrison",
      "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-11T16:31Z",
-     "note": "Harrison has been ruled out for the remainder of Sunday's game against the Eagles in London due to a knee injury."
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-13T14:11Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "KC": {
@@ -225,17 +225,9 @@
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 1.35,
+   "adj_points": 0.97,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Quentin Johnston",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-12T19:18Z",
-     "note": "out"
-    },
     {
      "player": "Rashawn Slater",
      "pos": "T",
@@ -251,9 +243,17 @@
      "points": 0.35,
      "updated": "2026-10-11T03:33Z",
      "note": "The Chargers placed Penning (concussion) on injured reserve Saturday."
+    },
+    {
+     "player": "Quentin Johnston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-13T17:10Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "MIA": {
@@ -281,16 +281,16 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.57,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
      "player": "Jordan Addison",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-12T19:22Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-13T17:10Z",
+     "note": "questionable"
     },
     {
      "player": "T.J. Hockenson",
@@ -301,31 +301,31 @@
      "note": "The Vikings downgraded Hockenson to out for Sunday's game against the Saints due to a concussion."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.62,
+   "adj_points": 0.54,
    "qb_out": false,
    "absences": [
     {
-     "player": "Carlton Davis III",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-12T19:27Z",
-     "note": "out"
-    },
-    {
      "player": "Will Campbell",
      "pos": "T",
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-10-13T16:15Z",
+     "note": "doubtful"
+    },
+    {
+     "player": "Carlton Davis III",
+     "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-12T00:55Z",
-     "note": "Campbell is believed to have suffered a sprained knee during Sunday's 45-17 win over Las Vegas, Ian Rapoport of NFL Network reports."
+     "updated": "2026-10-13T17:10Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.08,
    "new_absences": []
   },
   "NYG": {
@@ -337,7 +337,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-13T13:00Z",
+     "updated": "2026-10-13T17:10Z",
      "note": "questionable"
     }
    ],
@@ -345,27 +345,27 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.46,
+   "adj_points": 0.31,
    "qb_out": false,
    "absences": [
     {
-     "player": "Drew Kendall",
-     "pos": "C",
-     "status": "Out",
-     "points": 0.4,
-     "updated": "2026-10-12T19:35Z",
-     "note": "out"
-    },
-    {
      "player": "Jalyx Hunt",
      "pos": "LB",
+     "status": "Doubtful",
+     "points": 0.21,
+     "updated": "2026-10-13T15:31Z",
+     "note": "doubtful"
+    },
+    {
+     "player": "Drew Kendall",
+     "pos": "C",
      "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-11T16:29Z",
-     "note": "Hunt (ankle/knee) has been ruled out for the remainder of Sunday's game against the Jaguars in London."
+     "points": 0.1,
+     "updated": "2026-10-13T17:10Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.15,
    "new_absences": []
   },
   "PIT": {
@@ -385,7 +385,7 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.8,
+   "adj_points": 0.76,
    "qb_out": false,
    "absences": [
     {
@@ -399,13 +399,13 @@
     {
      "player": "Marques Sigle",
      "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-12T19:37Z",
-     "note": "out"
+     "status": "Doubtful",
+     "points": 0.26,
+     "updated": "2026-10-13T17:10Z",
+     "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.04,
    "new_absences": []
   },
   "SEA": {
@@ -441,33 +441,25 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 0.3,
+   "adj_points": 0.26,
    "qb_out": false,
    "absences": [
     {
      "player": "Antoine Winfield Jr.",
      "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-12T19:43Z",
-     "note": "out"
+     "status": "Doubtful",
+     "points": 0.26,
+     "updated": "2026-10-13T17:10Z",
+     "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.04,
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.49,
+   "adj_points": 0.26,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Amani Hooker",
-     "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-12T19:45Z",
-     "note": "out"
-    },
     {
      "player": "Cor'Dale Flott",
      "pos": "CB",
@@ -475,6 +467,14 @@
      "points": 0.12,
      "updated": "2026-10-11T19:25Z",
      "note": "Flott (chest) has been ruled out for the remainder of Sunday's game against the Texans."
+    },
+    {
+     "player": "Amani Hooker",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-13T17:10Z",
+     "note": "questionable"
     },
     {
      "player": "Kevin Winston Jr.",
@@ -485,7 +485,7 @@
      "note": "Winston (quadriceps) will undergo an MRI, Terry McCormick of TitanInsider.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   }
  }
