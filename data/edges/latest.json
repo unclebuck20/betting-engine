@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-13T21:01:11.998902+00:00",
+  "built_at": "2026-10-13T22:01:26.030363+00:00",
   "nfl_history_games": 5510,
   "cfb_history_games": 3730,
   "games": 76
@@ -449,25 +449,25 @@
    "fair_home_margin": -0.7,
    "best": [
     {
-     "book": "bovada",
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 1.0,
+     "price": -101,
+     "ev": 0.0037
+    },
+    {
+     "book": "betonlineag",
      "side": "away",
      "home_line": 1.0,
      "price": -105,
      "ev": -0.0149
     },
     {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": 1.5,
-     "price": -109,
-     "ev": -0.0237
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
+     "book": "bovada",
+     "side": "away",
      "home_line": 1.0,
-     "price": -104,
-     "ev": -0.0271
+     "price": -105,
+     "ev": -0.0149
     }
    ]
   },
@@ -487,18 +487,18 @@
      "ev": 0.0097
     },
     {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -3.0,
+     "price": -104,
+     "ev": -0.0015
+    },
+    {
      "book": "fanduel",
      "side": "home",
      "home_line": -2.5,
      "price": -124,
      "ev": -0.0051
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -3.0,
-     "price": -101,
-     "ev": -0.0208
     }
    ]
   },
@@ -511,25 +511,25 @@
    "fair_home_margin": -3.9,
    "best": [
     {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 3.0,
+     "price": -101,
+     "ev": 0.0002
+    },
+    {
+     "book": "betonlineag",
+     "side": "home",
+     "home_line": 3.0,
+     "price": -105,
+     "ev": -0.0175
+    },
+    {
      "book": "hardrockbet",
      "side": "home",
      "home_line": 3.5,
      "price": -120,
      "ev": -0.0198
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 3.0,
-     "price": -106,
-     "ev": -0.0217
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -122,
-     "ev": -0.0271
     }
    ]
   },
@@ -549,11 +549,11 @@
      "ev": -0.0049
     },
     {
-     "book": "fanduel",
+     "book": "hardrockbet",
      "side": "away",
      "home_line": 1.5,
-     "price": -102,
-     "ev": -0.0065
+     "price": -105,
+     "ev": -0.0205
     },
     {
      "book": "betonlineag",
@@ -638,15 +638,8 @@
      "book": "hardrockbet",
      "side": "home",
      "home_line": -13.5,
-     "price": -115,
-     "ev": -0.0
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -14.0,
-     "price": -108,
-     "ev": -0.0018
+     "price": -120,
+     "ev": -0.0194
     },
     {
      "book": "lowvig",
@@ -654,6 +647,13 @@
      "home_line": -14.0,
      "price": -113,
      "ev": -0.0223
+    },
+    {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": -14.5,
+     "price": -105,
+     "ev": -0.0231
     }
    ]
   },
@@ -942,28 +942,28 @@
    "matchup": "Georgia State Panthers @ James Madison Dukes",
    "kickoff_pt": "Sat Oct 17 9:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 13.4,
+   "fair_home_margin": 13.0,
    "best": [
+    {
+     "book": "bovada",
+     "side": "away",
+     "home_line": -12.5,
+     "price": -105,
+     "ev": -0.0115
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -12.0,
+     "price": -106,
+     "ev": -0.0263
+    },
     {
      "book": "lowvig",
      "side": "home",
      "home_line": -12.0,
      "price": -106,
-     "ev": -0.0053
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -12.5,
-     "price": -105,
-     "ev": -0.0098
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -12.0,
-     "price": -110,
-     "ev": -0.0227
+     "ev": -0.0296
     }
    ]
   },
@@ -1301,10 +1301,10 @@
     },
     {
      "book": "lowvig",
-     "side": "away",
-     "home_line": 0.0,
-     "price": -111,
-     "ev": -0.0245
+     "side": "home",
+     "home_line": -1.0,
+     "price": 104,
+     "ev": -0.024
     }
    ]
   },
@@ -1469,28 +1469,28 @@
    "matchup": "Toledo Rockets @ Eastern Michigan Eagles",
    "kickoff_pt": "Sat Oct 17 12:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -7.0,
+   "fair_home_margin": -7.3,
    "best": [
-    {
-     "book": "bovada",
-     "side": "away",
-     "home_line": 6.5,
-     "price": -105,
-     "ev": -0.0163
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 6.5,
-     "price": -104,
-     "ev": -0.0268
-    },
     {
      "book": "lowvig",
      "side": "away",
      "home_line": 6.5,
      "price": -108,
-     "ev": -0.0296
+     "ev": -0.0156
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 6.5,
+     "price": -110,
+     "ev": -0.0242
+    },
+    {
+     "book": "betmgm",
+     "side": "away",
+     "home_line": 6.5,
+     "price": -110,
+     "ev": -0.0242
     }
    ]
   },
@@ -1572,18 +1572,18 @@
      "ev": -0.0198
     },
     {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": -6.5,
+     "price": 100,
+     "ev": -0.0247
+    },
+    {
      "book": "betrivers",
      "side": "away",
      "home_line": -6.0,
      "price": -109,
      "ev": -0.0271
-    },
-    {
-     "book": "betonlineag",
-     "side": "away",
-     "home_line": -6.0,
-     "price": -110,
-     "ev": -0.0313
     }
    ]
   },
@@ -1593,28 +1593,28 @@
    "matchup": "Northern Illinois Huskies @ Wyoming Cowboys",
    "kickoff_pt": "Sat Oct 17 12:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 8.0,
+   "fair_home_margin": 7.9,
    "best": [
     {
      "book": "lowvig",
      "side": "home",
      "home_line": -7.5,
      "price": -103,
-     "ev": 0.0095
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -107,
-     "ev": -0.0091
+     "ev": 0.0041
     },
     {
      "book": "espnbet",
      "side": "away",
      "home_line": -8.5,
      "price": -110,
-     "ev": -0.0198
+     "ev": -0.0142
+    },
+    {
+     "book": "betonlineag",
+     "side": "home",
+     "home_line": -7.5,
+     "price": -107,
+     "ev": -0.0144
     }
    ]
   },
@@ -1844,25 +1844,25 @@
    "fair_home_margin": 22.5,
    "best": [
     {
+     "book": "espnbet",
+     "side": "home",
+     "home_line": -20.5,
+     "price": -105,
+     "ev": 0.0101
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -20.5,
+     "price": -106,
+     "ev": 0.0054
+    },
+    {
      "book": "betrivers",
      "side": "home",
      "home_line": -20.5,
      "price": -109,
      "ev": -0.008
-    },
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -21.5,
-     "price": 100,
-     "ev": -0.01
-    },
-    {
-     "book": "bovada",
-     "side": "home",
-     "home_line": -21.0,
-     "price": -105,
-     "ev": -0.0112
     }
    ]
   },
@@ -1889,7 +1889,7 @@
      "ev": 0.0007
     },
     {
-     "book": "espnbet",
+     "book": "draftkings",
      "side": "away",
      "home_line": -14.5,
      "price": -105,
