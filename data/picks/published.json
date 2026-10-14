@@ -10547,7 +10547,7 @@
   "open_line": null,
   "confidence": 52.1,
   "ev_pct": 1.31,
-  "units": 1.0,
+  "units": 0.5,
   "price_floor": null,
   "floor_text": "Only at +4.5 -109 or better",
   "fair_source": "consensus",
@@ -11216,7 +11216,7 @@
   "open_line": null,
   "confidence": 53.5,
   "ev_pct": 2.08,
-  "units": 1.0,
+  "units": 0.5,
   "price_floor": -14.5,
   "floor_text": "Good to -14.5 at -110",
   "fair_source": "consensus",
@@ -13265,18 +13265,18 @@
    "price": -104,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613679363&selectionId=484733",
-   "ev_pct": 1.92,
-   "confidence": 52.0
+   "ev_pct": 1.41,
+   "confidence": 51.7
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 1.92,
-   "confidence": 52.0,
+   "ev_pct": 1.41,
+   "confidence": 51.7,
    "line": 10.5,
    "price": -104,
    "book": "fanduel",
-   "why": "Pinnacle makes Florida +12.5; FanDuel has +10.5 (-104). Our in-season power ratings have Florida 2.7 pts better than the market. The line opened +9.5 and has moved toward Texas.",
+   "why": "Pinnacle makes Florida +12.5; FanDuel has +10.5 (-104). Our in-season power ratings have Florida 2.8 pts better than the market. The line opened +9.5 and has moved toward Texas.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -13700,7 +13700,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-13T07:00:32.865742+00:00",
   "published_at": "2026-10-13T07:01:02.227349+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-10-13T07:01:02.227349+00:00",
@@ -13720,14 +13720,14 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86628902P650_3",
-   "ev_pct": 1.12,
-   "confidence": 53.0
+   "ev_pct": 2.22,
+   "confidence": 53.5
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 1.12,
-   "confidence": 53.0,
+   "tier": "lean",
+   "ev_pct": 2.22,
+   "confidence": 53.5,
    "line": 6.5,
    "price": -110,
    "book": "draftkings",
@@ -13735,7 +13735,8 @@
    "flags": [
     "college injuries not checked yet"
    ]
-  }
+  },
+  "units_uncapped": 0.5
  },
  "473d8828a17151640834e090d9eb46e4|Washington State Cougars": {
   "id": "473d8828a17151640834e090d9eb46e4",
@@ -13858,7 +13859,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-13T07:00:32.865742+00:00",
   "published_at": "2026-10-13T07:01:02.227349+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-10-13T07:01:02.227349+00:00",
@@ -13871,29 +13872,36 @@
     9.5,
     -115,
     "draftkings"
+   ],
+   [
+    "2026-10-14T22:30:36.923353+00:00",
+    8.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 9.5,
-   "price": -115,
+   "line": 8.5,
+   "price": -105,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86628980P950_3",
-   "ev_pct": 0.96,
-   "confidence": 54.0
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86628980P850_3",
+   "ev_pct": 2.56,
+   "confidence": 52.5
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 0.96,
-   "confidence": 54.0,
-   "line": 9.5,
-   "price": -115,
+   "tier": "lean",
+   "ev_pct": 2.56,
+   "confidence": 52.5,
+   "line": 8.5,
+   "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Virginia +8.5; DraftKings has +9.5 (-115). Our in-season power ratings have Virginia 4.3 pts better than the market. The line opened +7.5 and has moved toward SMU.",
+   "why": "Pinnacle makes Virginia +8.5; DraftKings has +8.5 (-105). Our in-season power ratings have Virginia 4.3 pts better than the market. The line opened +7.5 and has moved toward SMU.",
    "flags": [
     "college injuries not checked yet"
    ]
-  }
+  },
+  "units_uncapped": 0.5
  },
  "bd2d52fadefed8a6174e73c84cca9ce3|Notre Dame Fighting Irish": {
   "id": "bd2d52fadefed8a6174e73c84cca9ce3",
@@ -14088,30 +14096,36 @@
     16.5,
     -114,
     "fanduel"
+   ],
+   [
+    "2026-10-14T22:30:36.923353+00:00",
+    15.5,
+    -110,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 16.5,
-   "price": -114,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613744033&selectionId=6936427",
-   "ev_pct": 2.88,
-   "confidence": 54.8
+   "line": 15.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86628981P1550_1",
+   "ev_pct": 2.51,
+   "confidence": 53.7
   },
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 2.88,
-   "confidence": 54.8,
-   "line": 16.5,
-   "price": -114,
-   "book": "fanduel",
-   "why": "Pinnacle makes UL Monroe +15; FanDuel has +16.5 (-114). Our in-season power ratings have UL Monroe 4.3 pts better than the market. The line opened +14.5 and has moved toward Louisiana Tech.",
+   "tier": "lean",
+   "ev_pct": 2.51,
+   "confidence": 53.7,
+   "line": 15.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "Pinnacle makes UL Monroe +15; DraftKings has +15.5 (-110). Our in-season power ratings have UL Monroe 4.3 pts better than the market. The line opened +14.5 and has moved toward Louisiana Tech.",
    "flags": [
     "college injuries not checked yet"
    ]
   },
-  "units_uncapped": 1.0
+  "units_uncapped": 0.5
  },
  "2851c11a3831feac527b6df0b34b2a2a|Auburn Tigers": {
   "id": "2851c11a3831feac527b6df0b34b2a2a",
