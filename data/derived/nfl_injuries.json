@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-14T17:30:50.820284+00:00",
-  "previous_pull": "2026-10-14T14:00:36.119606+00:00",
-  "matched_absences": 38
+  "injury_pull": "2026-10-14T21:00:28.278104+00:00",
+  "previous_pull": "2026-10-14T17:30:50.820284+00:00",
+  "matched_absences": 44
  },
  "teams": {
   "ARI": {
@@ -89,19 +89,19 @@
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.06,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
     {
      "player": "T.J. Edwards",
      "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-11T18:44Z",
-     "note": "Edwards (hamstring) has been ruled out for the remainder of Sunday's game against the Packers."
+     "status": "Doubtful",
+     "points": 0.21,
+     "updated": "2026-10-14T17:23Z",
+     "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.15,
    "new_absences": []
   },
   "CLE": {
@@ -161,19 +161,19 @@
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 0.07,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Talanoa Hufanga",
      "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-12T23:21Z",
-     "note": "Hufanga (ankle) was listed as a non-participant on the Broncos' estimated injury report Monday, Aric DiLalla of the team's official website reports."
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-14T18:06Z",
+     "note": "Hufanga (ankle) is expected to miss multiple weeks due to the injury he sustained in Sunday's 23-17 win over the Chargers, Jeremy Fowler and Jeff Legwold of ESP"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "HOU": {
@@ -191,6 +191,63 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "IND": {
+   "adj_points": 0.31,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Josh Downs",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:45Z",
+     "note": "Downs was a limited participant in Wednesday's practice due to a hamstring injury and rest."
+    },
+    {
+     "player": "Jalen Travis",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:41Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Matt Goncalves",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T20:40Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.31,
+   "new_absences": [
+    {
+     "player": "Josh Downs",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:45Z",
+     "note": "Downs was a limited participant in Wednesday's practice due to a hamstring injury and rest."
+    },
+    {
+     "player": "Jalen Travis",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:41Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Matt Goncalves",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T20:40Z",
+     "note": "questionable"
+    }
+   ]
   },
   "JAX": {
    "adj_points": 0.35,
@@ -217,8 +274,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-05T19:09Z",
-     "note": "Rice (hamstring) is believed to have sustained a \"relatively minor\" injury in Sunday's win over the Raiders and could be ready to play following the Chiefs' Wee"
+     "updated": "2026-10-14T17:24Z",
+     "note": "Chiefs head coach Andy Reid said that Rice (hamstring) won't practice Wednesday, Nate Taylor of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -328,6 +385,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "NO": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Chris Olave",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:33Z",
+     "note": "Olave didn't practice Wednesday due to an illness, Nick Underhill of NewOrleans.Football reports."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Chris Olave",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:33Z",
+     "note": "Olave didn't practice Wednesday due to an illness, Nick Underhill of NewOrleans.Football reports."
+    }
+   ]
+  },
   "NYG": {
    "adj_points": 0.09,
    "qb_out": false,
@@ -337,12 +419,37 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-14T17:18Z",
+     "updated": "2026-10-14T20:48Z",
      "note": "questionable"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "NYJ": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Dane Belton",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T20:18Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Dane Belton",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T20:18Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PHI": {
    "adj_points": 0.31,
@@ -369,7 +476,7 @@
    "new_absences": []
   },
   "PIT": {
-   "adj_points": 0.5,
+   "adj_points": 0.69,
    "qb_out": false,
    "absences": [
     {
@@ -379,10 +486,43 @@
      "points": 0.5,
      "updated": "2026-10-10T19:52Z",
      "note": "The Steelers placed Pittman (foot) on injured reserve Saturday."
+    },
+    {
+     "player": "Jalen Ramsey",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:07Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Keeanu Benton",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T20:06Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "Jalen Ramsey",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:07Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Keeanu Benton",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T20:06Z",
+     "note": "questionable"
+    }
+   ]
   },
   "SF": {
    "adj_points": 0.76,
@@ -457,7 +597,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.45,
+   "adj_points": 0.33,
    "qb_out": false,
    "absences": [
     {
@@ -469,14 +609,6 @@
      "note": "doubtful"
     },
     {
-     "player": "Cor'Dale Flott",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-11T19:25Z",
-     "note": "Flott (chest) has been ruled out for the remainder of Sunday's game against the Texans."
-    },
-    {
      "player": "Amani Hooker",
      "pos": "S",
      "status": "Questionable",
@@ -485,7 +617,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
