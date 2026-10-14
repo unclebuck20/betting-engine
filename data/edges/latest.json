@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-10-14T09:30:31.538338+00:00",
+  "built_at": "2026-10-14T10:30:33.439898+00:00",
   "nfl_history_games": 5510,
   "cfb_history_games": 3730,
-  "games": 74
+  "games": 88
  },
  "games": [
   {
@@ -12,28 +12,28 @@
    "matchup": "Seattle Seahawks @ Denver Broncos",
    "kickoff_pt": "Thu Oct 15 5:15 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -2.3,
+   "fair_home_margin": -1.5,
    "best": [
     {
-     "book": "lowvig",
-     "side": "away",
+     "book": "espnbet",
+     "side": "home",
      "home_line": 3.0,
-     "price": 106,
-     "ev": -0.0105
+     "price": -120,
+     "ev": -0.0062
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 2.5,
+     "price": -101,
+     "ev": -0.015
     },
     {
      "book": "pinnacle",
-     "side": "home",
+     "side": "away",
      "home_line": 2.5,
-     "price": 105,
-     "ev": -0.0228
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 3.0,
-     "price": -115,
-     "ev": -0.0253
+     "price": -108,
+     "ev": -0.0273
     }
    ]
   },
@@ -43,28 +43,28 @@
    "matchup": "Houston Texans @ Jacksonville Jaguars",
    "kickoff_pt": "Sun Oct 18 6:30 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 2.6,
+   "fair_home_margin": 2.7,
    "best": [
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -2.5,
+     "price": 103,
+     "ev": -0.0161
+    },
     {
      "book": "draftkings",
      "side": "away",
      "home_line": -3.0,
      "price": -120,
-     "ev": -0.0145
+     "ev": -0.0194
     },
     {
-     "book": "lowvig",
+     "book": "pinnacle",
      "side": "home",
      "home_line": -2.5,
-     "price": -110,
-     "ev": -0.0218
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -2.5,
-     "price": 100,
-     "ev": -0.0247
+     "price": -113,
+     "ev": -0.0286
     }
    ]
   },
@@ -74,28 +74,28 @@
    "matchup": "Chicago Bears @ Atlanta Falcons",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -3.3,
+   "fair_home_margin": -2.3,
    "best": [
     {
-     "book": "betrivers",
+     "book": "fanduel",
      "side": "home",
-     "home_line": 3.5,
-     "price": -114,
-     "ev": -0.0079
-    },
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -115,
-     "ev": -0.012
+     "home_line": 3.0,
+     "price": -105,
+     "ev": 0.0142
     },
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 3.0,
-     "price": 103,
-     "ev": -0.0124
+     "price": -108,
+     "ev": 0.0016
+    },
+    {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": 3.0,
+     "price": -110,
+     "ev": -0.0064
     }
    ]
   },
@@ -105,28 +105,28 @@
    "matchup": "Baltimore Ravens @ Cleveland Browns",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -4.9,
+   "fair_home_margin": -4.8,
    "best": [
     {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 5.0,
-     "price": -109,
-     "ev": -0.018
-    },
-    {
-     "book": "betrivers",
+     "book": "hardrockbet",
      "side": "home",
      "home_line": 5.0,
      "price": -110,
-     "ev": -0.0222
+     "ev": -0.011
     },
     {
-     "book": "espnbet",
+     "book": "lowvig",
      "side": "home",
      "home_line": 4.5,
      "price": -105,
-     "ev": -0.0234
+     "ev": -0.0126
+    },
+    {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": 4.0,
+     "price": -110,
+     "ev": -0.0199
     }
    ]
   },
@@ -136,28 +136,28 @@
    "matchup": "Carolina Panthers @ Philadelphia Eagles",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 0.5,
+   "fair_home_margin": 0.6,
    "best": [
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -1.5,
+     "price": -110,
+     "ev": -0.0078
+    },
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -1.0,
      "price": -107,
-     "ev": -0.0057
+     "ev": -0.0128
     },
     {
      "book": "betrivers",
      "side": "away",
      "home_line": -1.0,
      "price": -109,
-     "ev": -0.0143
-    },
-    {
-     "book": "betmgm",
-     "side": "away",
-     "home_line": -1.0,
-     "price": -110,
-     "ev": -0.0185
+     "ev": -0.0214
     }
    ]
   },
@@ -170,13 +170,6 @@
    "fair_home_margin": 7.5,
    "best": [
     {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -115,
-     "ev": -0.0071
-    },
-    {
      "book": "lowvig",
      "side": "home",
      "home_line": -7.0,
@@ -184,11 +177,18 @@
      "ev": -0.0176
     },
     {
-     "book": "betrivers",
-     "side": "away",
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": -7.0,
+     "price": -104,
+     "ev": -0.022
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
      "home_line": -7.0,
      "price": -105,
-     "ev": -0.0183
+     "ev": -0.0262
     }
    ]
   },
@@ -208,11 +208,11 @@
      "ev": 0.0082
     },
     {
-     "book": "betrivers",
+     "book": "betmgm",
      "side": "away",
-     "home_line": -7.5,
-     "price": -117,
-     "ev": 0.0002
+     "home_line": -7.0,
+     "price": -105,
+     "ev": -0.0103
     },
     {
      "book": "espnbet",
@@ -229,28 +229,28 @@
    "matchup": "New Orleans Saints @ New York Giants",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 0.6,
+   "fair_home_margin": 0.4,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 1.0,
-     "price": 101,
-     "ev": -0.0209
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": 1.0,
-     "price": 100,
-     "ev": -0.0256
-    },
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 1.0,
-     "price": -112,
-     "ev": -0.028
+     "price": -102,
+     "ev": -0.0001
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": 0.5,
+     "price": -109,
+     "ev": -0.0269
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": 1.0,
+     "price": -108,
+     "ev": -0.0269
     }
    ]
   },
@@ -260,28 +260,28 @@
    "matchup": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
    "kickoff_pt": "Sun Oct 18 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -2.3,
+   "fair_home_margin": -0.9,
    "best": [
     {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": 2.5,
-     "price": -115,
-     "ev": -0.0216
-    },
-    {
-     "book": "lowvig",
+     "book": "espnbet",
      "side": "home",
-     "home_line": 3.0,
-     "price": -114,
-     "ev": -0.0216
+     "home_line": 2.5,
+     "price": 100,
+     "ev": 0.0074
     },
     {
-     "book": "betrivers",
-     "side": "away",
+     "book": "fanduel",
+     "side": "home",
      "home_line": 2.5,
-     "price": -115,
-     "ev": -0.0216
+     "price": -105,
+     "ev": -0.0166
+    },
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": 2.5,
+     "price": -105,
+     "ev": -0.0166
     }
    ]
   },
@@ -291,28 +291,28 @@
    "matchup": "Arizona Cardinals @ Los Angeles Rams",
    "kickoff_pt": "Sun Oct 18 1:05 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 12.4,
+   "fair_home_margin": 12.2,
    "best": [
+    {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": -12.5,
+     "price": -109,
+     "ev": -0.0099
+    },
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -13.5,
+     "price": -110,
+     "ev": -0.0128
+    },
     {
      "book": "lowvig",
      "side": "home",
-     "home_line": -13.5,
-     "price": 100,
-     "ev": -0.0211
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -13.5,
+     "home_line": -12.5,
      "price": -110,
-     "ev": -0.0253
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": -13.5,
-     "price": -110,
-     "ev": -0.0253
+     "ev": -0.0142
     }
    ]
   },
@@ -322,28 +322,28 @@
    "matchup": "Buffalo Bills @ Las Vegas Raiders",
    "kickoff_pt": "Sun Oct 18 1:25 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -5.4,
+   "fair_home_margin": -4.9,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 6.0,
-     "price": -105,
-     "ev": -0.0044
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": 6.0,
-     "price": -110,
-     "ev": -0.0257
-    },
     {
      "book": "betrivers",
      "side": "home",
-     "home_line": 6.0,
-     "price": -110,
-     "ev": -0.0257
+     "home_line": 5.5,
+     "price": -112,
+     "ev": -0.01
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 4.5,
+     "price": -103,
+     "ev": -0.015
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": 4.5,
+     "price": -104,
+     "ev": -0.0188
     }
    ]
   },
@@ -353,28 +353,28 @@
    "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
    "kickoff_pt": "Sun Oct 18 1:25 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 9.0,
+   "fair_home_margin": 8.6,
    "best": [
     {
-     "book": "betmgm",
-     "side": "home",
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -8.0,
+     "price": 101,
+     "ev": 0.0076
+    },
+    {
+     "book": "pinnacle",
+     "side": "away",
+     "home_line": -8.0,
+     "price": -105,
+     "ev": -0.0205
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
      "home_line": -8.0,
      "price": -108,
-     "ev": -0.0083
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -8.5,
-     "price": -102,
-     "ev": -0.0116
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -8.0,
-     "price": -110,
-     "ev": -0.0167
+     "ev": -0.0334
     }
    ]
   },
@@ -384,28 +384,28 @@
    "matchup": "Dallas Cowboys @ Green Bay Packers",
    "kickoff_pt": "Sun Oct 18 5:20 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 1.0,
+   "fair_home_margin": 1.4,
    "best": [
     {
-     "book": "espnbet",
+     "book": "betrivers",
      "side": "home",
-     "home_line": -1.5,
-     "price": 105,
-     "ev": 0.0112
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -1.5,
-     "price": 100,
-     "ev": -0.0135
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
      "home_line": -1.0,
-     "price": -103,
-     "ev": -0.022
+     "price": -108,
+     "ev": -0.0032
+    },
+    {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": -1.0,
+     "price": -110,
+     "ev": -0.0118
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -1.5,
+     "price": -105,
+     "ev": -0.0129
     }
    ]
   },
@@ -415,28 +415,462 @@
    "matchup": "Washington Commanders @ San Francisco 49ers",
    "kickoff_pt": "Mon Oct 19 5:15 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 8.4,
+   "fair_home_margin": 8.2,
+   "best": [
+    {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": -7.5,
+     "price": -105,
+     "ev": -0.0139
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -7.5,
+     "price": -106,
+     "ev": -0.0184
+    },
+    {
+     "book": "pinnacle",
+     "side": "away",
+     "home_line": -7.5,
+     "price": -108,
+     "ev": -0.0272
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "ffebea881c1d7b2dfb85b3e590c35985",
+   "matchup": "New England Patriots @ Chicago Bears",
+   "kickoff_pt": "Thu Oct 22 5:15 PM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 2.6,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -1.5,
+     "price": -110,
+     "ev": 0.0318
+    },
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -105,
+     "ev": 0.0004
+    },
+    {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -109,
+     "ev": -0.0176
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "2e710ea5a306b614f0f966e3d78732f8",
+   "matchup": "Pittsburgh Steelers @ New Orleans Saints",
+   "kickoff_pt": "Sun Oct 25 6:30 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 0.0,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": 2.5,
+     "price": -110,
+     "ev": 0.006
+    },
+    {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": 2.0,
+     "price": -109,
+     "ev": -0.0141
+    },
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 1.5,
+     "price": -104,
+     "ev": -0.0187
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "b1be064fb52a198a62109c279e7ab24c",
+   "matchup": "San Francisco 49ers @ Atlanta Falcons",
+   "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": -4.9,
+   "best": [
+    {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": 5.5,
+     "price": -109,
+     "ev": 0.0029
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 4.5,
+     "price": -105,
+     "ev": -0.0234
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 4.5,
+     "price": -105,
+     "ev": -0.0243
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "550ec5290f935d311995affbcb0b5c79",
+   "matchup": "Cincinnati Bengals @ Baltimore Ravens",
+   "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 3.9,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -110,
+     "ev": 0.0308
+    },
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -115,
+     "ev": 0.0094
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -117,
+     "ev": 0.0014
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "2823e986597c449ab94126cd5ed3fae9",
+   "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
+   "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 2.6,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -3.0,
+     "price": -110,
+     "ev": 0.0224
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -110,
+     "ev": -0.0218
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -2.5,
+     "price": 100,
+     "ev": -0.0247
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "5dce18baccec5d3ad5fb3a3ce52f7619",
+   "matchup": "Cleveland Browns @ Tennessee Titans",
+   "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": -1.1,
+   "best": [
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": 1.5,
+     "price": -105,
+     "ev": 0.0355
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 1.5,
+     "price": -110,
+     "ev": 0.0125
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": 1.5,
+     "price": -112,
+     "ev": 0.0039
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "2bba7fde6f97d0e54403d53676e4ab63",
+   "matchup": "New York Giants @ Houston Texans",
+   "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 7.800000000000001,
+   "best": [
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": -7.5,
+     "price": -105,
+     "ev": 0.0202
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -7.5,
+     "price": -110,
+     "ev": -0.0024
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -7.0,
+     "price": 100,
+     "ev": -0.0204
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "f3992ad4496724baf7dcd1ef58245d6b",
+   "matchup": "Indianapolis Colts @ Minnesota Vikings",
+   "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 5.7,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -5.5,
+     "price": -110,
+     "ev": -0.0209
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -5.0,
+     "price": -105,
+     "ev": -0.0227
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -5.0,
+     "price": -105,
+     "ev": -0.0237
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "be5dd120ca08b43d647b6caa8953500a",
+   "matchup": "Miami Dolphins @ New York Jets",
+   "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 5.4,
+   "best": [
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -4.5,
+     "price": -105,
+     "ev": -0.0201
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -4.5,
+     "price": -105,
+     "ev": -0.0275
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -4.5,
+     "price": -109,
+     "ev": -0.0377
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "436119bb3ccdaa6ed7808aa3ebd82b76",
+   "matchup": "Denver Broncos @ Arizona Cardinals",
+   "kickoff_pt": "Sun Oct 25 1:05 PM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": -5.0,
    "best": [
     {
      "book": "lowvig",
      "side": "home",
-     "home_line": -7.5,
-     "price": -104,
-     "ev": -0.0115
-    },
-    {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -106,
-     "ev": -0.0206
+     "home_line": 5.0,
+     "price": -105,
+     "ev": -0.0122
     },
     {
      "book": "draftkings",
      "side": "home",
-     "home_line": -7.5,
-     "price": -108,
-     "ev": -0.0295
+     "home_line": 5.5,
+     "price": -110,
+     "ev": -0.0136
+    },
+    {
+     "book": "betonlineag",
+     "side": "home",
+     "home_line": 5.0,
+     "price": -110,
+     "ev": -0.0337
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
+   "matchup": "Green Bay Packers @ Detroit Lions",
+   "kickoff_pt": "Sun Oct 25 1:25 PM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 4.8,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -3.0,
+     "price": -120,
+     "ev": 0.0051
+    },
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -102,
+     "ev": -0.0089
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -105,
+     "ev": -0.0229
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "f7679cf18454e4d88a8f2b990c3f08ac",
+   "matchup": "Los Angeles Rams @ Las Vegas Raiders",
+   "kickoff_pt": "Sun Oct 25 1:25 PM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": -6.85,
+   "best": [
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 6.5,
+     "price": 100,
+     "ev": -0.0223
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 6.5,
+     "price": -110,
+     "ev": -0.0242
+    },
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 6.5,
+     "price": -102,
+     "ev": -0.0319
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "176d474ed8b2bbf1eb4d7e9c56b4bf22",
+   "matchup": "Kansas City Chiefs @ Seattle Seahawks",
+   "kickoff_pt": "Sun Oct 25 5:20 PM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 2.6,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -110,
+     "ev": -0.0218
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -110,
+     "ev": -0.0218
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -2.5,
+     "price": 100,
+     "ev": -0.0247
+    }
+   ]
+  },
+  {
+   "league": "nfl",
+   "id": "4853610e63c246f2027a6a248e642c9a",
+   "matchup": "Dallas Cowboys @ Philadelphia Eagles",
+   "kickoff_pt": "Mon Oct 26 5:15 PM PDT",
+   "fair_source": "sharp",
+   "fair_home_margin": 0.9,
+   "best": [
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 1.5,
+     "price": -120,
+     "ev": -0.0164
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -1.0,
+     "price": -105,
+     "ev": -0.0222
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -1.0,
+     "price": -105,
+     "ev": -0.0244
     }
    ]
   },
@@ -446,28 +880,28 @@
    "matchup": "Kennesaw State Owls @ Missouri State Bears",
    "kickoff_pt": "Wed Oct 14 4:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -3.9,
+   "fair_home_margin": -3.7,
    "best": [
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 3.0,
      "price": -101,
-     "ev": 0.0002
+     "ev": 0.013
     },
     {
      "book": "betonlineag",
      "side": "home",
      "home_line": 3.0,
      "price": -105,
-     "ev": -0.0175
+     "ev": -0.0049
     },
     {
-     "book": "hardrockbet",
+     "book": "fanduel",
      "side": "home",
      "home_line": 3.5,
-     "price": -120,
-     "ev": -0.0198
+     "price": -122,
+     "ev": -0.0146
     }
    ]
   },
@@ -477,28 +911,28 @@
    "matchup": "Western Kentucky Hilltoppers @ Sam Houston State Bearkats",
    "kickoff_pt": "Wed Oct 14 5:00 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -1.5,
+   "fair_home_margin": -1.1,
    "best": [
-    {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": 1.5,
-     "price": -105,
-     "ev": -0.009
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": 1.5,
-     "price": -106,
-     "ev": -0.0136
-    },
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 2.0,
-     "price": -106,
-     "ev": -0.015
+     "price": -110,
+     "ev": -0.0186
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": 1.0,
+     "price": -110,
+     "ev": -0.0203
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": 1.5,
+     "price": -105,
+     "ev": -0.0231
     }
    ]
   },
@@ -511,18 +945,18 @@
    "fair_home_margin": -5.3,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "home",
-     "home_line": 5.5,
-     "price": -110,
-     "ev": 0.0057
-    },
-    {
      "book": "betrivers",
      "side": "home",
      "home_line": 5.0,
      "price": -110,
      "ev": -0.0091
+    },
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": 5.5,
+     "price": -115,
+     "ev": -0.0152
     },
     {
      "book": "draftkings",
@@ -539,28 +973,28 @@
    "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs",
    "kickoff_pt": "Thu Oct 15 4:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -4.7,
+   "fair_home_margin": -4.5,
    "best": [
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 3.5,
      "price": -106,
-     "ev": -0.0196
+     "ev": -0.0042
     },
     {
-     "book": "pinnacle",
-     "side": "away",
+     "book": "espnbet",
+     "side": "home",
      "home_line": 3.5,
-     "price": -105,
-     "ev": -0.0326
+     "price": -110,
+     "ev": -0.0218
     },
     {
-     "book": "hardrockbet",
-     "side": "away",
+     "book": "betonlineag",
+     "side": "home",
      "home_line": 3.5,
-     "price": -105,
-     "ev": -0.0326
+     "price": -110,
+     "ev": -0.0218
     }
    ]
   },
@@ -573,18 +1007,18 @@
    "fair_home_margin": 16.1,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "home",
-     "home_line": -13.5,
-     "price": -120,
-     "ev": -0.0194
-    },
-    {
      "book": "lowvig",
      "side": "home",
      "home_line": -14.0,
      "price": -113,
      "ev": -0.0223
+    },
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": -14.5,
+     "price": -105,
+     "ev": -0.0231
     },
     {
      "book": "betmgm",
@@ -611,18 +1045,18 @@
      "ev": 0.0025
     },
     {
-     "book": "fanduel",
+     "book": "lowvig",
      "side": "home",
-     "home_line": 7.5,
-     "price": -122,
-     "ev": -0.0049
+     "home_line": 7.0,
+     "price": -106,
+     "ev": -0.001
     },
     {
      "book": "betrivers",
      "side": "home",
      "home_line": 7.0,
-     "price": -109,
-     "ev": -0.0134
+     "price": -108,
+     "ev": -0.0094
     }
    ]
   },
@@ -697,13 +1131,6 @@
    "fair_home_margin": 2.7,
    "best": [
     {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": -2.5,
-     "price": -112,
-     "ev": -0.0089
-    },
-    {
      "book": "lowvig",
      "side": "home",
      "home_line": -2.5,
@@ -711,7 +1138,14 @@
      "ev": -0.0171
     },
     {
-     "book": "draftkings",
+     "book": "fanduel",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -115,
+     "ev": -0.0211
+    },
+    {
+     "book": "hardrockbet",
      "side": "home",
      "home_line": -2.5,
      "price": -115,
@@ -731,8 +1165,8 @@
      "book": "betrivers",
      "side": "away",
      "home_line": -7.0,
-     "price": -113,
-     "ev": -0.0103
+     "price": -114,
+     "ev": -0.0141
     },
     {
      "book": "hardrockbet",
@@ -766,14 +1200,14 @@
      "ev": -0.0043
     },
     {
-     "book": "betonlineag",
+     "book": "betmgm",
      "side": "home",
-     "home_line": 6.0,
-     "price": -105,
-     "ev": -0.0228
+     "home_line": 6.5,
+     "price": -108,
+     "ev": -0.0191
     },
     {
-     "book": "bovada",
+     "book": "betonlineag",
      "side": "home",
      "home_line": 6.0,
      "price": -105,
@@ -787,28 +1221,28 @@
    "matchup": "Charleston Southern Buccaneers @ Clemson Tigers",
    "kickoff_pt": "Sat Oct 17 9:00 AM PDT",
    "fair_source": "consensus",
-   "fair_home_margin": 42.0,
+   "fair_home_margin": 42.300000000000004,
    "best": [
     {
      "book": "fanduel",
      "side": "home",
      "home_line": -42.5,
      "price": -105,
-     "ev": -0.0192
+     "ev": 0.0026
+    },
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -43.5,
+     "price": -110,
+     "ev": -0.0185
     },
     {
      "book": "betrivers",
      "side": "away",
      "home_line": -43.0,
      "price": -109,
-     "ev": -0.0248
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -42.5,
-     "price": -115,
-     "ev": -0.0696
+     "ev": -0.0396
     }
    ]
   },
@@ -890,18 +1324,18 @@
      "ev": -0.0115
     },
     {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": -10.5,
+     "price": -115,
+     "ev": -0.0184
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": -12.0,
      "price": -106,
      "ev": -0.0263
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -12.0,
-     "price": -106,
-     "ev": -0.0296
     }
    ]
   },
@@ -911,28 +1345,28 @@
    "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
    "kickoff_pt": "Sat Oct 17 9:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -4.8,
+   "fair_home_margin": -4.5,
    "best": [
     {
-     "book": "lowvig",
-     "side": "away",
+     "book": "fanduel",
+     "side": "home",
      "home_line": 3.5,
-     "price": -101,
-     "ev": -0.0059
+     "price": -110,
+     "ev": -0.0218
     },
     {
-     "book": "betonlineag",
-     "side": "away",
+     "book": "betmgm",
+     "side": "home",
      "home_line": 3.5,
-     "price": -105,
-     "ev": -0.0248
+     "price": -110,
+     "ev": -0.0218
     },
     {
-     "book": "pinnacle",
-     "side": "away",
+     "book": "hardrockbet",
+     "side": "home",
      "home_line": 3.5,
-     "price": -106,
-     "ev": -0.0293
+     "price": -110,
+     "ev": -0.0218
     }
    ]
   },
@@ -972,29 +1406,29 @@
    "id": "04c740fce71d3f3b8a4bdc4ea69f1281",
    "matchup": "Mississippi State Bulldogs @ LSU Tigers",
    "kickoff_pt": "Sat Oct 17 9:00 AM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 14.5,
+   "fair_source": "sharp",
+   "fair_home_margin": 14.9,
    "best": [
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -14.0,
+     "price": -106,
+     "ev": -0.0264
+    },
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -14.0,
      "price": -106,
-     "ev": -0.0169
+     "ev": -0.0278
     },
     {
-     "book": "betrivers",
-     "side": "away",
+     "book": "draftkings",
+     "side": "home",
      "home_line": -14.0,
      "price": -108,
-     "ev": -0.0254
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -14.5,
-     "price": -118,
-     "ev": -0.0263
+     "ev": -0.0348
     }
    ]
   },
@@ -1004,28 +1438,28 @@
    "matchup": "Northwestern Wildcats @ Michigan State Spartans",
    "kickoff_pt": "Sat Oct 17 9:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -8.7,
+   "fair_home_margin": -8.9,
    "best": [
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 7.5,
      "price": -101,
-     "ev": 0.0193
+     "ev": 0.0043
     },
     {
      "book": "betonlineag",
      "side": "home",
      "home_line": 7.5,
      "price": -105,
-     "ev": -0.0
+     "ev": -0.0148
     },
     {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": 8.0,
-     "price": -109,
-     "ev": -0.0019
+     "book": "pinnacle",
+     "side": "away",
+     "home_line": 7.5,
+     "price": -105,
+     "ev": -0.0328
     }
    ]
   },
@@ -1159,28 +1593,28 @@
    "matchup": "Citadel Bulldogs @ Texas A&M Aggies",
    "kickoff_pt": "Sat Oct 17 10:00 AM PDT",
    "fair_source": "consensus",
-   "fair_home_margin": 44.8,
+   "fair_home_margin": 44.86666666666667,
    "best": [
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -45.5,
-     "price": -110,
-     "ev": -0.0449
-    },
     {
      "book": "fanduel",
      "side": "away",
      "home_line": -45.5,
+     "price": -105,
+     "ev": -0.0248
+    },
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": -45.5,
      "price": -110,
-     "ev": -0.046
+     "ev": -0.0445
     },
     {
      "book": "betrivers",
      "side": "away",
      "home_line": -45.5,
      "price": -110,
-     "ev": -0.046
+     "ev": -0.0464
     }
    ]
   },
@@ -1224,13 +1658,6 @@
    "fair_home_margin": -0.4,
    "best": [
     {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": 1.5,
-     "price": -110,
-     "ev": -0.0143
-    },
-    {
      "book": "lowvig",
      "side": "home",
      "home_line": -1.0,
@@ -1243,6 +1670,13 @@
      "home_line": -0.5,
      "price": -110,
      "ev": -0.0248
+    },
+    {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": 1.0,
+     "price": -108,
+     "ev": -0.0307
     }
    ]
   },
@@ -1283,28 +1717,28 @@
    "matchup": "Alabama Crimson Tide @ Tennessee Volunteers",
    "kickoff_pt": "Sat Oct 17 12:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -9.6,
+   "fair_home_margin": -10.1,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 8.5,
-     "price": 100,
-     "ev": -0.0096
-    },
     {
      "book": "espnbet",
      "side": "away",
      "home_line": 9.5,
      "price": -105,
-     "ev": -0.0278
+     "ev": -0.0057
     },
     {
-     "book": "betonlineag",
-     "side": "home",
+     "book": "draftkings",
+     "side": "away",
      "home_line": 8.5,
-     "price": -104,
-     "ev": -0.0287
+     "price": -110,
+     "ev": -0.0156
+    },
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": 8.5,
+     "price": -110,
+     "ev": -0.0156
     }
    ]
   },
@@ -1314,28 +1748,28 @@
    "matchup": "Arizona State Sun Devils @ Texas Tech Red Raiders",
    "kickoff_pt": "Sat Oct 17 12:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 16.0,
+   "fair_home_margin": 16.1,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -14.5,
      "price": -101,
-     "ev": -0.0017
-    },
-    {
-     "book": "betonlineag",
-     "side": "away",
-     "home_line": -14.5,
-     "price": -105,
-     "ev": -0.0206
+     "ev": -0.0057
     },
     {
      "book": "espnbet",
      "side": "home",
      "home_line": -14.5,
      "price": -105,
-     "ev": -0.027
+     "ev": -0.0231
+    },
+    {
+     "book": "betonlineag",
+     "side": "away",
+     "home_line": -14.5,
+     "price": -105,
+     "ev": -0.0245
     }
    ]
   },
@@ -1355,18 +1789,18 @@
      "ev": -0.008
     },
     {
-     "book": "bovada",
+     "book": "espnbet",
+     "side": "home",
+     "home_line": -21.5,
+     "price": 100,
+     "ev": -0.01
+    },
+    {
+     "book": "betmgm",
      "side": "home",
      "home_line": -21.0,
      "price": -105,
      "ev": -0.0112
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -20.5,
-     "price": -110,
-     "ev": -0.0123
     }
    ]
   },
@@ -1380,10 +1814,17 @@
    "best": [
     {
      "book": "lowvig",
-     "side": "home",
+     "side": "away",
      "home_line": -3.0,
-     "price": -111,
-     "ev": -0.0176
+     "price": 104,
+     "ev": -0.0114
+    },
+    {
+     "book": "betmgm",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -118,
+     "ev": -0.0233
     },
     {
      "book": "betrivers",
@@ -1391,13 +1832,6 @@
      "home_line": -3.0,
      "price": -113,
      "ev": -0.0251
-    },
-    {
-     "book": "bovada",
-     "side": "away",
-     "home_line": -3.0,
-     "price": 100,
-     "ev": -0.0291
     }
    ]
   },
@@ -1411,10 +1845,10 @@
    "best": [
     {
      "book": "lowvig",
-     "side": "away",
+     "side": "home",
      "home_line": 6.5,
-     "price": -108,
-     "ev": -0.0156
+     "price": 100,
+     "ev": -0.0222
     },
     {
      "book": "draftkings",
@@ -1472,13 +1906,6 @@
    "fair_home_margin": 5.9,
    "best": [
     {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -105,
-     "ev": -0.0049
-    },
-    {
      "book": "lowvig",
      "side": "away",
      "home_line": -6.5,
@@ -1491,6 +1918,13 @@
      "home_line": -6.5,
      "price": 100,
      "ev": -0.0194
+    },
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": -6.5,
+     "price": -110,
+     "ev": -0.0269
     }
    ]
   },
@@ -1641,11 +2075,11 @@
      "ev": -0.0297
     },
     {
-     "book": "hardrockbet",
-     "side": "away",
+     "book": "pinnacle",
+     "side": "home",
      "home_line": -17.5,
-     "price": -105,
-     "ev": -0.0297
+     "price": -108,
+     "ev": -0.0312
     }
    ]
   },
@@ -1748,28 +2182,28 @@
    "matchup": "Florida State Seminoles @ Miami Hurricanes",
    "kickoff_pt": "Sat Oct 17 4:00 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 22.5,
+   "fair_home_margin": 22.9,
    "best": [
+    {
+     "book": "espnbet",
+     "side": "home",
+     "home_line": -21.5,
+     "price": 100,
+     "ev": -0.0092
+    },
     {
      "book": "lowvig",
      "side": "away",
-     "home_line": -21.0,
-     "price": 100,
-     "ev": -0.0123
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
      "home_line": -21.5,
-     "price": -104,
-     "ev": -0.0291
+     "price": -106,
+     "ev": -0.0194
     },
     {
-     "book": "betonlineag",
-     "side": "away",
+     "book": "betmgm",
+     "side": "home",
      "home_line": -21.0,
-     "price": -104,
-     "ev": -0.0309
+     "price": -112,
+     "ev": -0.027
     }
    ]
   },
@@ -1810,28 +2244,28 @@
    "matchup": "Nevada Wolf Pack @ North Dakota State Bison",
    "kickoff_pt": "Sat Oct 17 4:00 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 15.4,
+   "fair_home_margin": 15.5,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -14.5,
      "price": -101,
-     "ev": 0.0201
+     "ev": 0.0167
     },
     {
      "book": "fanduel",
      "side": "away",
      "home_line": -14.5,
      "price": -105,
-     "ev": 0.0007
+     "ev": -0.0026
     },
     {
      "book": "draftkings",
      "side": "away",
      "home_line": -14.5,
      "price": -105,
-     "ev": 0.0007
+     "ev": -0.0026
     }
    ]
   },
@@ -1851,18 +2285,18 @@
      "ev": 0.0022
     },
     {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": 10.0,
-     "price": 101,
-     "ev": -0.0204
-    },
-    {
      "book": "espnbet",
      "side": "home",
      "home_line": 10.5,
      "price": -105,
      "ev": -0.0259
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 10.5,
+     "price": -106,
+     "ev": -0.0262
     }
    ]
   },
@@ -1899,18 +2333,18 @@
    "fair_home_margin": 5.4,
    "best": [
     {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -5.0,
-     "price": -103,
-     "ev": -0.0123
-    },
-    {
      "book": "betmgm",
      "side": "home",
      "home_line": -4.5,
      "price": -108,
      "ev": -0.0191
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -5.0,
+     "price": -106,
+     "ev": -0.0258
     },
     {
      "book": "fanduel",
@@ -1933,8 +2367,8 @@
      "book": "espnbet",
      "side": "away",
      "home_line": -7.5,
-     "price": -120,
-     "ev": -0.017
+     "price": -110,
+     "ev": 0.0237
     },
     {
      "book": "lowvig",
@@ -1989,28 +2423,28 @@
    "matchup": "Wisconsin Badgers @ UCLA Bruins",
    "kickoff_pt": "Sat Oct 17 4:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 2.0,
+   "fair_home_margin": 2.5,
    "best": [
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -110,
+     "ev": -0.0084
+    },
     {
      "book": "espnbet",
      "side": "home",
      "home_line": -2.5,
-     "price": -105,
-     "ev": -0.0041
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": -2.5,
-     "price": -108,
-     "ev": -0.0176
+     "price": -110,
+     "ev": -0.0084
     },
     {
      "book": "lowvig",
-     "side": "away",
+     "side": "home",
      "home_line": -2.5,
-     "price": -101,
-     "ev": -0.025
+     "price": -111,
+     "ev": -0.0127
     }
    ]
   },
@@ -2099,11 +2533,11 @@
      "ev": -0.015
     },
     {
-     "book": "draftkings",
+     "book": "hardrockbet",
      "side": "home",
      "home_line": 7.5,
-     "price": -112,
-     "ev": -0.0234
+     "price": -110,
+     "ev": -0.015
     }
    ]
   },
@@ -2116,25 +2550,25 @@
    "fair_home_margin": -15.0,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": 14.5,
-     "price": -105,
-     "ev": 0.0117
-    },
-    {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": 14.5,
-     "price": -108,
-     "ev": -0.002
-    },
-    {
      "book": "lowvig",
      "side": "away",
      "home_line": 14.5,
      "price": -110,
      "ev": -0.0108
+    },
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": 15.5,
+     "price": -105,
+     "ev": -0.0251
+    },
+    {
+     "book": "betonlineag",
+     "side": "away",
+     "home_line": 14.5,
+     "price": -114,
+     "ev": -0.0273
     }
    ]
   },
@@ -2185,18 +2619,18 @@
      "ev": -0.0188
     },
     {
+     "book": "espnbet",
+     "side": "home",
+     "home_line": 9.5,
+     "price": 100,
+     "ev": -0.0188
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": 10.0,
      "price": -103,
      "ev": -0.0233
-    },
-    {
-     "book": "draftkings",
-     "side": "away",
-     "home_line": 9.5,
-     "price": -110,
-     "ev": -0.0275
     }
    ]
   },
@@ -2240,25 +2674,25 @@
    "fair_home_margin": -14.5,
    "best": [
     {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 15.5,
+     "price": -106,
+     "ev": 0.0027
+    },
+    {
+     "book": "betonlineag",
+     "side": "home",
+     "home_line": 15.5,
+     "price": -110,
+     "ev": -0.015
+    },
+    {
      "book": "espnbet",
      "side": "home",
      "home_line": 14.5,
      "price": -105,
      "ev": -0.0245
-    },
-    {
-     "book": "hardrockbet",
-     "side": "home",
-     "home_line": 14.5,
-     "price": -105,
-     "ev": -0.0245
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 14.5,
-     "price": -106,
-     "ev": -0.0276
     }
    ]
   },
@@ -2270,6 +2704,13 @@
    "fair_source": "pinnacle",
    "fair_home_margin": 7.5,
    "best": [
+    {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": -8.5,
+     "price": -110,
+     "ev": 0.0086
+    },
     {
      "book": "lowvig",
      "side": "home",
@@ -2283,13 +2724,6 @@
      "home_line": -7.5,
      "price": -105,
      "ev": -0.0273
-    },
-    {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -106,
-     "ev": -0.0318
     }
    ]
   }
