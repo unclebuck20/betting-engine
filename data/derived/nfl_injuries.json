@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-14T21:00:28.278104+00:00",
-  "previous_pull": "2026-10-14T17:30:50.820284+00:00",
-  "matched_absences": 44
+  "injury_pull": "2026-10-14T21:30:25.672072+00:00",
+  "previous_pull": "2026-10-14T21:00:28.278104+00:00",
+  "matched_absences": 51
  },
  "teams": {
   "ARI": {
@@ -25,17 +25,9 @@
    "new_absences": []
   },
   "ATL": {
-   "adj_points": 1.12,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Michael Penix Jr.",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-10-14T16:21Z",
-     "note": "Falcons head coach Kevin Stefanski said that Penix (ribs) will practice Wednesday but will be limited in some fashion, Marc Raimondi of ESPN.com reports."
-    },
     {
      "player": "C.J. Henderson",
      "pos": "CB",
@@ -45,7 +37,7 @@
      "note": "Henderson (groin) is questionable to return to Sunday night's contest against the Ravens, Josh Kendall of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -1.0,
    "new_absences": []
   },
   "BUF": {
@@ -101,7 +93,7 @@
      "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.15,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CLE": {
@@ -137,7 +129,7 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.24,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
@@ -147,17 +139,9 @@
      "points": 0.12,
      "updated": "2026-10-10T02:11Z",
      "note": "Head coach Brian Schottenheimer said Friday that X-rays on Guyton's back came back negative, Joe Hoyt of The Dallas Morning News reports."
-    },
-    {
-     "player": "CeeDee Lamb",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-09T12:44Z",
-     "note": "Lamb is believed to be dealing with a \"quad bruise\" that is \"not considered to be serious,\" Ian Rapoport of NFL Network reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "DEN": {
@@ -173,7 +157,7 @@
      "note": "Hufanga (ankle) is expected to miss multiple weeks due to the injury he sustained in Sunday's 23-17 win over the Chargers, Jeremy Fowler and Jeff Legwold of ESP"
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "HOU": {
@@ -221,33 +205,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.31,
-   "new_absences": [
-    {
-     "player": "Josh Downs",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-14T20:45Z",
-     "note": "Downs was a limited participant in Wednesday's practice due to a hamstring injury and rest."
-    },
-    {
-     "player": "Jalen Travis",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-14T20:41Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Matt Goncalves",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-14T20:40Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "JAX": {
    "adj_points": 0.35,
@@ -266,20 +225,37 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.12,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
+    {
+     "player": "L'Jarius Sneed",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:22Z",
+     "note": "questionable"
+    },
     {
      "player": "Rashee Rice",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-14T17:24Z",
-     "note": "Chiefs head coach Andy Reid said that Rice (hamstring) won't practice Wednesday, Nate Taylor of ESPN.com reports."
+     "note": "Chiefs head coach Andy Reid said that Rice (hamstring/knee) won't practice Wednesday, Nate Taylor of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "L'Jarius Sneed",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:22Z",
+     "note": "questionable"
+    }
+   ]
   },
   "LAC": {
    "adj_points": 0.97,
@@ -362,16 +338,32 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.54,
+   "adj_points": 0.68,
    "qb_out": false,
    "absences": [
     {
+     "player": "Morgan Moses",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:18Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Marcus Jones",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:17Z",
+     "note": "questionable"
+    },
+    {
      "player": "Will Campbell",
      "pos": "T",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-10-14T01:23Z",
-     "note": "Campbell is expected to miss game action after spraining his right knee during Sunday's game versus the Raiders, Cameron Wolfe of NFL Network reports."
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:15Z",
+     "note": "questionable"
     },
     {
      "player": "Carlton Davis III",
@@ -380,10 +372,75 @@
      "points": 0.12,
      "updated": "2026-10-13T17:10Z",
      "note": "questionable"
+    },
+    {
+     "player": "Craig Woodson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T21:19Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kevin Byard",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T21:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Christian Elliss",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-14T21:16Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.14,
+   "new_absences": [
+    {
+     "player": "Morgan Moses",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:18Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Marcus Jones",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:17Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Craig Woodson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T21:19Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kevin Byard",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-14T21:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Christian Elliss",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-14T21:16Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NO": {
    "adj_points": 0.12,
@@ -398,33 +455,73 @@
      "note": "Olave didn't practice Wednesday due to an illness, Nick Underhill of NewOrleans.Football reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Chris Olave",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-14T20:33Z",
-     "note": "Olave didn't practice Wednesday due to an illness, Nick Underhill of NewOrleans.Football reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.09,
+   "adj_points": 0.39,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Greg Newsome II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Andrew Thomas",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:52Z",
+     "note": "questionable"
+    },
     {
      "player": "Jermaine Eluemunor",
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-14T20:48Z",
+     "updated": "2026-10-14T21:20Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Abdul Carter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-14T20:52Z",
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Greg Newsome II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Andrew Thomas",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T20:52Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Abdul Carter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-14T20:52Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NYJ": {
    "adj_points": 0.07,
@@ -439,17 +536,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Dane Belton",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-14T20:18Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PHI": {
    "adj_points": 0.31,
@@ -504,25 +592,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.19,
-   "new_absences": [
-    {
-     "player": "Jalen Ramsey",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-14T20:07Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Keeanu Benton",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-14T20:06Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "SF": {
    "adj_points": 0.76,
@@ -605,8 +676,8 @@
      "pos": "S",
      "status": "Doubtful",
      "points": 0.26,
-     "updated": "2026-10-14T17:11Z",
-     "note": "doubtful"
+     "updated": "2026-10-14T21:06Z",
+     "note": "Winston (quadriceps) did not practice Wednesday."
     },
     {
      "player": "Amani Hooker",
@@ -617,7 +688,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
