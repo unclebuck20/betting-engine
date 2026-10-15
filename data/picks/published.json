@@ -14408,7 +14408,7 @@
   "flags": [],
   "odds_pulled_at": "2026-10-15T07:00:29.700313+00:00",
   "published_at": "2026-10-15T07:00:50.563816+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-15T07:00:50.563816+00:00",
@@ -14428,19 +14428,90 @@
    "price": -118,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614182941&selectionId=7017916",
-   "ev_pct": 3.26,
-   "confidence": 55.9
+   "ev_pct": -1.09,
+   "confidence": 53.5
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.26,
-   "confidence": 55.9,
+   "tier": "pass",
+   "ev_pct": -1.09,
+   "confidence": 53.5,
    "line": 39.5,
    "price": -118,
    "book": "fanduel",
-   "why": "Pinnacle's fair total is 38.5; FanDuel has Over 39.5 (-118). Our model projects 43.5 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 38.5; FanDuel has Over 39.5 (-118). Our model projects 41.9 points from both offenses' efficiency and pace.",
+   "flags": []
+  }
+ },
+ "caca2d752fe1a1779029082e95332fcc|Carolina Panthers": {
+  "id": "caca2d752fe1a1779029082e95332fcc",
+  "pick_key": "caca2d752fe1a1779029082e95332fcc|Carolina Panthers",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "play",
+  "edges": [
+   "PHI passing vs CAR pass D: -0.11 EPA/play vs average",
+   "CAR passing vs PHI pass D: -0.07 EPA/play vs average"
+  ],
+  "matchup": "Carolina Panthers @ Philadelphia Eagles",
+  "kickoff_utc": "2026-10-18T17:00:00Z",
+  "kickoff_pt": "Sun Oct 18, 10:00 AM PDT",
+  "side": "Carolina Panthers",
+  "opponent": "Philadelphia Eagles",
+  "side_is_home": false,
+  "line": -1.5,
+  "price": -102,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695514N150_3",
+  "fair_line": 0.5,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 10.9,
+  "units": 3.0,
+  "price_floor": -3.0,
+  "floor_text": "Good to -3 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": 0.4,
+  "model_home_margin": 0.6,
+  "model_weight": 0.0,
+  "hours_to_kick": 71.5,
+  "signals": [
+   "injury_news"
+  ],
+  "why": "Pinnacle makes Panthers +0.5; DraftKings has -1.5 (-102). PHI: Jalen Hurts (out) since our last check is worth ~4.0 pts the sharp line hasn't absorbed yet.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-15T14:00:35.375167+00:00",
+  "published_at": "2026-10-15T17:30:39.331631+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-15T17:30:39.331631+00:00",
+    -1.5,
+    -102,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": -1.5,
+   "price": -102,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695514N150_3",
+   "ev_pct": 10.9,
+   "confidence": 56.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 10.9,
+   "confidence": 56.0,
+   "line": -1.5,
+   "price": -102,
+   "book": "draftkings",
+   "why": "Pinnacle makes Panthers +0.5; DraftKings has -1.5 (-102). PHI: Jalen Hurts (out) since our last check is worth ~4.0 pts the sharp line hasn't absorbed yet.",
    "flags": []
   }
  }

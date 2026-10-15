@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-15T14:00:35.375167+00:00",
-  "previous_pull": "2026-10-15T10:30:32.702894+00:00",
-  "matched_absences": 68
+  "injury_pull": "2026-10-15T17:30:31.345798+00:00",
+  "previous_pull": "2026-10-15T14:00:35.375167+00:00",
+  "matched_absences": 69
  },
  "teams": {
   "ATL": {
@@ -122,7 +122,7 @@
      "status": "Doubtful",
      "points": 0.21,
      "updated": "2026-10-15T00:21Z",
-     "note": "Edwards (hamstring) was estimated as a nonparticipant on the Bears' official injury report Wednesday."
+     "note": "Edwards (hamstring) was estimated as a non-participant in Wednesday's walk-through practice."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -141,20 +141,20 @@
      "note": "Howard (knee) did not participate at the Browns' practice Wednesday."
     },
     {
+     "player": "KC Concepcion",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-14T21:48Z",
+     "note": "Concepcion (concussion) was a limited participant in Wednesday's practice."
+    },
+    {
      "player": "Denzel Boston",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-14T21:43Z",
      "note": "Boston was listed as a limited participant in Wednesday's practice due to a foot injury, Chris Easterling of the Akron Beacon Journal reports."
-    },
-    {
-     "player": "KC Concepcion",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-14T16:02Z",
-     "note": "Concepcion is progressing well in his recovery from a concussion and is set to practice Wednesday, Mary Kay Cabot of The Cleveland Plain Dealer reports."
     },
     {
      "player": "Elgton Jenkins",
@@ -585,7 +585,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-15T13:01Z",
+     "updated": "2026-10-15T17:02Z",
      "note": "questionable"
     },
     {
@@ -617,9 +617,17 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.5,
-   "qb_out": false,
+   "adj_points": 4.5,
+   "qb_out": true,
    "absences": [
+    {
+     "player": "Jalen Hurts",
+     "pos": "QB",
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-10-15T17:11Z",
+     "note": "The Eagles have ruled Hurts out for Sunday's game against the Panthers after a follow-up ultrasound performed on his calf Wednesday revealed movement in a small"
+    },
     {
      "player": "Jalyx Hunt",
      "pos": "LB",
@@ -653,8 +661,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 4.0,
+   "new_absences": [
+    {
+     "player": "Jalen Hurts",
+     "pos": "QB",
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-10-15T17:11Z",
+     "note": "The Eagles have ruled Hurts out for Sunday's game against the Panthers after a follow-up ultrasound performed on his calf Wednesday revealed movement in a small"
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.69,
@@ -729,19 +746,19 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 0.07,
+   "adj_points": 0.26,
    "qb_out": false,
    "absences": [
     {
      "player": "Antoine Winfield Jr.",
      "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
+     "status": "Doubtful",
+     "points": 0.26,
      "updated": "2026-10-14T23:24Z",
      "note": "Winfield (ribs) did not participate at the Buccaneers' practice Wednesday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
   },
   "TEN": {
