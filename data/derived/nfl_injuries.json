@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-15T22:30:30.951541+00:00",
-  "previous_pull": "2026-10-15T21:30:25.395451+00:00",
-  "matched_absences": 64
+  "injury_pull": "2026-10-15T23:30:33.395077+00:00",
+  "previous_pull": "2026-10-15T22:30:30.951541+00:00",
+  "matched_absences": 66
  },
  "teams": {
   "ATL": {
@@ -185,8 +185,8 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-14T18:06Z",
-     "note": "Hufanga (ankle) is expected to miss multiple weeks due to the injury he sustained in Sunday's 23-17 win over the Chargers, Jeremy Fowler and Jeff Legwold of ESP"
+     "updated": "2026-10-15T22:49Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -205,7 +205,7 @@
      "note": "Nixon (groin) did not participate at the Packers' practice Wednesday."
     }
    ],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "HOU": {
@@ -237,7 +237,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.04,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "IND": {
@@ -545,7 +545,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-15T22:12Z",
+     "updated": "2026-10-15T23:04Z",
      "note": "questionable"
     },
     {
@@ -735,6 +735,47 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "WAS": {
+   "adj_points": 0.14,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jeremy Reaves",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-15T23:16Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Quan Martin",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-15T23:16Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.14,
+   "new_absences": [
+    {
+     "player": "Jeremy Reaves",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-15T23:16Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Quan Martin",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-15T23:16Z",
+     "note": "questionable"
+    }
+   ]
   }
  }
 }
