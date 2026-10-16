@@ -9669,7 +9669,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-08T23:30:37.896276+00:00",
   "published_at": "2026-10-09T03:01:01.584975+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-09T03:01:01.584975+00:00",
@@ -14782,6 +14782,71 @@
    "price": -110,
    "book": "draftkings",
    "why": "Pinnacle makes Eagles +4; DraftKings has +3.5 (-110). Our NFL model makes Eagles -0.5, 4.5 pts better than the market.",
+   "flags": []
+  }
+ },
+ "ffebea881c1d7b2dfb85b3e590c35985|Under": {
+  "id": "ffebea881c1d7b2dfb85b3e590c35985",
+  "pick_key": "ffebea881c1d7b2dfb85b3e590c35985|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "thu",
+  "tier": "play",
+  "edges": [],
+  "matchup": "New England Patriots @ Chicago Bears",
+  "kickoff_utc": "2026-10-23T00:15:00Z",
+  "kickoff_pt": "Thu Oct 22, 5:15 PM PDT",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 49.5,
+  "price": -110,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616149655&selectionId=7017917",
+  "fair_line": 50.5,
+  "open_line": null,
+  "confidence": 54.0,
+  "ev_pct": 3.17,
+  "units": 1.0,
+  "price_floor": 49.0,
+  "floor_text": "Good to under 49 at -110",
+  "fair_source": "sharp",
+  "market_home_margin": 50.7,
+  "model_home_margin": 44.9,
+  "model_weight": 0.304,
+  "hours_to_kick": 165.2,
+  "signals": [],
+  "why": "BetOnline/LowVig's fair total is 50.5; FanDuel has Under 49.5 (-110). Our model projects 44.9 points from both offenses' efficiency and pace.",
+  "flags": [],
+  "odds_pulled_at": "2026-10-15T23:30:33.395077+00:00",
+  "published_at": "2026-10-16T03:01:13.766306+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-16T03:01:13.766306+00:00",
+    49.5,
+    -110,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 49.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616149655&selectionId=7017917",
+   "ev_pct": 3.17,
+   "confidence": 54.0
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 3.17,
+   "confidence": 54.0,
+   "line": 49.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "BetOnline/LowVig's fair total is 50.5; FanDuel has Under 49.5 (-110). Our model projects 44.9 points from both offenses' efficiency and pace.",
    "flags": []
   }
  }
