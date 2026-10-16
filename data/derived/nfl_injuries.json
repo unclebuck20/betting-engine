@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 578,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-16T22:30:28.917702+00:00",
-  "previous_pull": "2026-10-16T21:30:24.080798+00:00",
-  "matched_absences": 44
+  "injury_pull": "2026-10-16T22:48:45.903728+00:00",
+  "previous_pull": "2026-10-16T22:30:28.917702+00:00",
+  "matched_absences": 45
  },
  "teams": {
   "ARI": {
@@ -21,17 +21,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Budda Baker",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-16T21:27Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "ATL": {
    "adj_points": 0.5,
@@ -238,7 +229,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "MIA": {
@@ -362,7 +353,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-16T22:18Z",
+     "updated": "2026-10-16T22:34Z",
      "note": "questionable"
     },
     {
@@ -554,9 +545,25 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.14,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Lucas Patrick",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-16T22:18Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Javon Kinlaw",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-16T22:17Z",
+     "note": "questionable"
+    },
     {
      "player": "Jeremy Reaves",
      "pos": "S",
@@ -564,18 +571,27 @@
      "points": 0.07,
      "updated": "2026-10-15T23:16Z",
      "note": "questionable"
-    },
-    {
-     "player": "Quan Martin",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-15T23:16Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Lucas Patrick",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-16T22:18Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Javon Kinlaw",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-16T22:17Z",
+     "note": "questionable"
+    }
+   ]
   }
  }
 }
