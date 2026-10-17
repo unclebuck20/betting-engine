@@ -11400,7 +11400,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-11T07:00:33.575338+00:00",
   "published_at": "2026-10-11T07:01:15.070757+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-11T07:01:15.070757+00:00",
@@ -11507,7 +11507,7 @@
   "open_line": null,
   "confidence": 53.5,
   "ev_pct": 2.08,
-  "units": 2.0,
+  "units": 1.5,
   "price_floor": -14.5,
   "floor_text": "Good to -14.5 at -110",
   "fair_source": "consensus",
@@ -11522,12 +11522,13 @@
    "college injuries not checked yet"
   ],
   "inj_check": {
-   "at": "2026-10-17T13:59:36Z",
-   "text": "Utah QB Dampier healthy, CB Hart out; Colorado WRs Perry, Scudero out, EDGE Lester questionable. No hold.",
+   "at": "2026-10-17T22:02:00Z",
+   "text": "Utah QB Dampier not listed; CB Hart out, LB Pitts doubtful. Colorado WR Scudero out, Perry doubtful, DL Lester questionable. No hold.",
    "hold": false,
    "opp_out": false,
    "sources": [
-    "https://sports.yahoo.com/articles/colorado-takes-two-more-major-130215315.html"
+    "https://sports.ksl.com/ncaa/utah/utah-colorado-availability/578184",
+    "https://sports.ksl.com/ncaa/utah/utah-colorado-availability/578184"
    ]
   },
   "held": false,
@@ -11576,14 +11577,20 @@
     -14.5,
     -112,
     "draftkings"
+   ],
+   [
+    "2026-10-17T21:49:34.797088+00:00",
+    -15.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": -14.5,
-   "price": -112,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86628930N1450_3",
-   "ev_pct": 7.03,
+   "line": -15.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613683342&selectionId=532780",
+   "ev_pct": 4.66,
    "confidence": 54.8
   },
   "scout": {
@@ -11597,12 +11604,12 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 7.03,
+   "ev_pct": 4.66,
    "confidence": 54.8,
    "line": -15.5,
-   "price": -105,
+   "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Utah -15; FanDuel has -15.5 (-105). Our in-season power ratings have Utah 5.5 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Utah -15; FanDuel has -15.5 (-110). Our in-season power ratings have Utah 5.5 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": []
   }
  },
@@ -13522,26 +13529,33 @@
     15.5,
     -112,
     "draftkings"
+   ],
+   [
+    "2026-10-17T21:49:34.797088+00:00",
+    16.5,
+    -112,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 15.5,
+   "line": 16.5,
    "price": -112,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86629003P1550_1",
-   "ev_pct": null,
-   "confidence": null
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613743198&selectionId=20446517",
+   "ev_pct": -2.28,
+   "confidence": 51.6
   },
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 5.24,
-   "confidence": 55.2,
-   "line": 14.0,
-   "price": -110,
-   "book": "draftkings",
-   "why": "Pinnacle makes Sacramento State +14; DraftKings has +14 (-110). Our in-season power ratings have Sacramento State 4.3 pts better than the market.",
+   "tier": "pass",
+   "ev_pct": -2.28,
+   "confidence": 51.6,
+   "line": 16.5,
+   "price": -112,
+   "book": "fanduel",
+   "why": "Pinnacle makes Sacramento State +15; FanDuel has +16.5 (-112). The line opened +13.5 and has moved toward Ohio.",
    "flags": [
+    "our ratings disagree with SP+ and the market by 5 pts; likely a roster or QB change, so no model weight",
     "college injuries not checked yet"
    ]
   }
@@ -13709,7 +13723,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-12T10:30:30.553887+00:00",
   "published_at": "2026-10-12T10:30:42.350352+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-12T10:30:42.350352+00:00",
@@ -14664,7 +14678,7 @@
   "open_line": 17.5,
   "confidence": 54.7,
   "ev_pct": 4.36,
-  "units": 1.0,
+  "units": 2.0,
   "price_floor": 17.5,
   "floor_text": "Good to +17.5 at -110",
   "fair_source": "pinnacle",
@@ -14681,7 +14695,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-13T07:00:32.865742+00:00",
   "published_at": "2026-10-13T07:01:02.227349+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-10-13T07:01:02.227349+00:00",
@@ -14718,15 +14732,21 @@
     19.5,
     -112,
     "fanduel"
+   ],
+   [
+    "2026-10-17T21:49:34.797088+00:00",
+    19.5,
+    -114,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 19.5,
-   "price": -112,
+   "price": -114,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613744631&selectionId=662041",
-   "ev_pct": -1.64,
-   "confidence": 52.0
+   "ev_pct": 6.39,
+   "confidence": 56.7
   },
   "scout": {
    "verdict": "agree",
@@ -14738,15 +14758,14 @@
    ]
   },
   "latest": {
-   "tier": "pass",
-   "ev_pct": -1.64,
-   "confidence": 52.0,
+   "tier": "play",
+   "ev_pct": 6.39,
+   "confidence": 56.7,
    "line": 19.5,
-   "price": -112,
+   "price": -114,
    "book": "fanduel",
-   "why": "Pinnacle makes Washington State +19; FanDuel has +19.5 (-112). The line opened +17.5 and has moved toward Oregon State.",
+   "why": "Pinnacle makes Washington State +19; FanDuel has +19.5 (-114). Our in-season power ratings have Washington State 4.9 pts better than the market. The line opened +17.5 and has moved toward Oregon State.",
    "flags": [
-    "our ratings disagree with SP+ and the market by 5 pts; likely a roster or QB change, so no model weight",
     "college injuries not checked yet"
    ]
   }
@@ -14892,11 +14911,19 @@
   "flags": [
    "college injuries not checked yet"
   ],
-  "inj_check": null,
+  "inj_check": {
+   "at": "2026-10-17T22:02:00Z",
+   "text": "Notre Dame QB Carr healthy, CB Moore (concussion) expected to play; BYU RB Martin out since Oct 7, priced. No hold.",
+   "hold": false,
+   "opp_out": false,
+   "sources": [
+    "https://atozsports.com/?p=501540"
+   ]
+  },
   "held": false,
   "odds_pulled_at": "2026-10-13T21:00:27.279549+00:00",
   "published_at": "2026-10-13T21:01:14.955233+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-13T21:01:14.955233+00:00",
@@ -14933,14 +14960,20 @@
     -10.5,
     -105,
     "draftkings"
+   ],
+   [
+    "2026-10-17T21:49:34.797088+00:00",
+    -10.5,
+    -110,
+    "draftkings"
    ]
   ],
   "current": {
    "line": -10.5,
-   "price": -105,
+   "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84998435N1050_3",
-   "ev_pct": 2.72,
+   "ev_pct": 0.44,
    "confidence": 52.6
   },
   "scout": {
@@ -14953,16 +14986,14 @@
    ]
   },
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.72,
+   "tier": "pass",
+   "ev_pct": 0.44,
    "confidence": 52.6,
    "line": -10.5,
-   "price": -105,
+   "price": -110,
    "book": "draftkings",
-   "why": "Pinnacle makes Notre Dame -13; DraftKings has -10.5 (-105). Our in-season power ratings have Notre Dame 1.7 pts better than the market.",
-   "flags": [
-    "college injuries not checked yet"
-   ]
+   "why": "Pinnacle makes Notre Dame -13; DraftKings has -10.5 (-110). Our in-season power ratings have Notre Dame 1.7 pts better than the market.",
+   "flags": []
   }
  },
  "9fe9b7a2a6f8cdab425c51e9a1b30b77|Bowling Green Falcons": {
@@ -15141,13 +15172,19 @@
     14.5,
     -120,
     "fanduel"
+   ],
+   [
+    "2026-10-17T21:49:34.797088+00:00",
+    13.5,
+    -108,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 14.5,
-   "price": -120,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613744033&selectionId=6936427",
+   "line": 13.5,
+   "price": -108,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86628981P1350_1",
    "ev_pct": -2.79,
    "confidence": 50.5
   },
@@ -15906,19 +15943,19 @@
    "college injuries not checked yet"
   ],
   "inj_check": {
-   "at": "2026-10-17T13:59:36Z",
-   "text": "Nevada QB Jones (elbow) questionable, Bianco would start; NDSU RB Scott questionable. Recheck pre-kick.",
+   "at": "2026-10-17T22:02:00Z",
+   "text": "Nevada QB Jones still questionable (warmups decide; Bianco backup); NDSU RB Scott questionable. Not out/doubtful, no hold.",
    "hold": false,
    "opp_out": false,
    "sources": [
-    "https://nevadasportsnet.com/sports/wolf-pack-football/nevadas-starting-te-dj-asiasi-out-for-season-qb-carter-jones-questionable-saturday",
-    "https://www.rotowire.com/cfootball/headlines/dj-scott-injury-officially-questionable-235136"
+    "https://www.rotowire.com/cfootball/headlines/carter-jones-injury-listed-questionable-for-saturday-235334",
+    "https://www.foxsports.com/college-football/nevada-wolf-pack-vs-north-dakota-state-bison-oct-17-2026-game-boxscore-43753"
    ]
   },
   "held": false,
   "odds_pulled_at": "2026-10-16T23:30:27.196249+00:00",
   "published_at": "2026-10-16T23:30:38.453044+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-16T23:30:38.453044+00:00",
@@ -15932,8 +15969,8 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86628962P1450_3",
-   "ev_pct": 1.51,
-   "confidence": 52.7
+   "ev_pct": 1.19,
+   "confidence": 52.5
   },
   "scout": {
    "verdict": "agree",
@@ -15944,13 +15981,13 @@
    ]
   },
   "latest": {
-   "tier": "lean",
-   "ev_pct": 1.51,
-   "confidence": 52.7,
+   "tier": "pass",
+   "ev_pct": 1.19,
+   "confidence": 52.5,
    "line": 14.5,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle makes Nevada +15; DraftKings has +14.5 (-108). Our in-season power ratings have Nevada 1.8 pts better than the market.",
+   "why": "Pinnacle makes Nevada +15; DraftKings has +14.5 (-108). Our in-season power ratings have Nevada 2.0 pts better than the market.",
    "flags": []
   }
  },
@@ -16404,7 +16441,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-17T18:52:01.095051+00:00",
   "published_at": "2026-10-17T18:52:13.009404+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-17T18:52:13.009404+00:00",
@@ -16417,15 +16454,21 @@
     -7.0,
     -108,
     "draftkings"
+   ],
+   [
+    "2026-10-17T21:49:34.797088+00:00",
+    -6.5,
+    -122,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": -7.0,
-   "price": -108,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86629004N700_3",
-   "ev_pct": 2.05,
-   "confidence": 49.5
+   "line": -6.5,
+   "price": -122,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613744906&selectionId=621002",
+   "ev_pct": 1.16,
+   "confidence": 52.6
   },
   "scout": {
    "verdict": "agree",
@@ -16437,13 +16480,13 @@
    ]
   },
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.05,
-   "confidence": 49.5,
-   "line": -7.5,
-   "price": 106,
-   "book": "fanduel",
-   "why": "Pinnacle makes Fresno State -8; FanDuel has -7.5 (+106). Our in-season power ratings have Fresno State 3.7 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "tier": "pass",
+   "ev_pct": 1.16,
+   "confidence": 52.6,
+   "line": -7.0,
+   "price": -108,
+   "book": "draftkings",
+   "why": "Pinnacle makes Fresno State -8; DraftKings has -7 (-108). Our in-season power ratings have Fresno State 3.7 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -16484,7 +16527,13 @@
   "flags": [
    "college injuries not checked yet"
   ],
-  "inj_check": null,
+  "inj_check": {
+   "at": "2026-10-17T22:02:00Z",
+   "text": "No key absences found: Kent State QB DeShields starting per Friday team notes; nothing reported on USF. Line 18.5 to 20.5 unexplained.",
+   "hold": false,
+   "opp_out": false,
+   "sources": []
+  },
   "held": false,
   "odds_pulled_at": "2026-10-17T19:47:58.836630+00:00",
   "published_at": "2026-10-17T19:48:05.001652+00:00",
@@ -16528,9 +16577,7 @@
    "price": -105,
    "book": "draftkings",
    "why": "Pinnacle makes Kent State +21.5; DraftKings has +20.5 (-105). Our in-season power ratings have Kent State 2.7 pts better than the market. The line opened +18.5 and has moved toward South Florida.",
-   "flags": [
-    "college injuries not checked yet"
-   ]
+   "flags": []
   }
  }
 }
