@@ -11275,7 +11275,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-11T07:00:33.575338+00:00",
   "published_at": "2026-10-11T07:01:15.070757+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-10-11T07:01:15.070757+00:00",
@@ -14923,7 +14923,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-13T21:00:27.279549+00:00",
   "published_at": "2026-10-13T21:01:14.955233+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-13T21:01:14.955233+00:00",
@@ -15659,7 +15659,16 @@
   "flags": [
    "college injuries not checked yet"
   ],
-  "inj_check": null,
+  "inj_check": {
+   "at": "2026-10-17T23:47:02Z",
+   "text": "SJSU QB Weaver questionable (undisclosed, Oct 15), line 10 to 6.5; UTEP QB Colson cleared, WR Cheeks out. No hold.",
+   "hold": false,
+   "opp_out": false,
+   "sources": [
+    "https://www.rotowire.com/cfootball/headlines/luke-weaver-injury-officially-questionable-235129",
+    "https://www.foxsports.com/college-football/san-jose-state-spartans-vs-utep-miners-oct-17-2026-game-boxscore-43760"
+   ]
+  },
   "held": false,
   "odds_pulled_at": "2026-10-16T14:00:30.323931+00:00",
   "published_at": "2026-10-16T14:01:14.266479+00:00",
@@ -15698,7 +15707,16 @@
    "ev_pct": 6.42,
    "confidence": 56.9
   },
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "QB Weaver questionable (banged up vs Wyoming) but line already fell 10 to 6.5; UTEP QB Colson cleared, WR Cheeks out; calm weather.",
+   "at": "2026-10-17T23:47:02Z",
+   "sources": [
+    "https://www.rotowire.com/cfootball/headlines/luke-weaver-injury-officially-questionable-235129",
+    "https://www.rotowire.com/cfootball/headlines/ej-colson-news-good-to-go-saturday-235452",
+    "https://www.foxsports.com/college-football/san-jose-state-spartans-vs-utep-miners-oct-17-2026-game-boxscore-43760"
+   ]
+  },
   "latest": {
    "tier": "play",
    "ev_pct": 6.42,
@@ -15707,9 +15725,7 @@
    "price": -115,
    "book": "draftkings",
    "why": "Pinnacle makes San Jos\u00e9 State -7.5; DraftKings has -6.5 (-115). Our in-season power ratings have San Jos\u00e9 State 7.3 pts better than the market. The line opened -10 and has moved toward UTEP.",
-   "flags": [
-    "college injuries not checked yet"
-   ]
+   "flags": []
   }
  },
  "04c740fce71d3f3b8a4bdc4ea69f1281|Mississippi State Bulldogs": {
