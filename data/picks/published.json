@@ -12369,7 +12369,7 @@
   ],
   "odds_pulled_at": "2026-10-11T22:28:24.549832+00:00",
   "published_at": "2026-10-11T22:28:31.264226+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-11T22:28:31.264226+00:00",
@@ -12419,8 +12419,8 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695685U5350_3",
-   "ev_pct": 2.78,
-   "confidence": 53.4
+   "ev_pct": -1.23,
+   "confidence": 51.3
   },
   "inj_check": null,
   "scout": {
@@ -12433,14 +12433,17 @@
    ]
   },
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.78,
-   "confidence": 53.4,
+   "tier": "pass",
+   "ev_pct": -1.23,
+   "confidence": 51.3,
    "line": 53.5,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 54; DraftKings has Under 53.5 (-108). Our model projects 48.8 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
-   "flags": []
+   "why": "Pinnacle's fair total is 55; DraftKings has Under 53.5 (-108). Our model projects 48.8 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "flags": [
+    "model total is 6.2 pts off the market; usually missing weather or injury news",
+    "totals backtest: 6+ pt disagreements went 45-54"
+   ]
   }
  },
  "45b2690b350ed45145c7a716b18e8e66|Las Vegas Raiders": {
@@ -12588,7 +12591,7 @@
   "open_line": null,
   "confidence": 55.0,
   "ev_pct": 4.99,
-  "units": 1.0,
+  "units": 2.0,
   "price_floor": 11.5,
   "floor_text": "Good to +11.5 at -110",
   "fair_source": "consensus",
@@ -12648,15 +12651,21 @@
     12.5,
     -108,
     "draftkings"
+   ],
+   [
+    "2026-10-18T19:30:38.064489+00:00",
+    12.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 12.5,
-   "price": -108,
+   "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695513P1250_3",
-   "ev_pct": 4.27,
-   "confidence": 54.1
+   "ev_pct": 8.08,
+   "confidence": 55.4
   },
   "scout": {
    "verdict": "agree",
@@ -12669,12 +12678,12 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 4.27,
-   "confidence": 54.1,
+   "ev_pct": 8.08,
+   "confidence": 55.4,
    "line": 12.5,
-   "price": -108,
+   "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Cardinals +12; DraftKings has +12.5 (-108). Our NFL model makes Cardinals +8.5, 3.6 pts better than the market.",
+   "why": "Pinnacle makes Cardinals +12; DraftKings has +12.5 (-105). Our NFL model makes Cardinals +8, 3.8 pts better than the market. LA is without Trent McDuffie (CB, out); injuries are worth ~0.5 pts to them by our injury model.",
    "flags": []
   }
  },
