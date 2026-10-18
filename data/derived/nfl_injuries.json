@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 578,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-18T21:30:29.486861+00:00",
-  "previous_pull": "2026-10-18T20:30:26.756383+00:00",
+  "injury_pull": "2026-10-18T22:30:27.192491+00:00",
+  "previous_pull": "2026-10-18T21:30:29.486861+00:00",
   "matched_absences": 46
  },
  "teams": {
@@ -55,31 +55,6 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
-  },
-  "BUF": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Bradley Chubb",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-18T21:15Z",
-     "note": "Chubb (ribs) is questionable to return to Sunday's game against the Raiders."
-    }
-   ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Bradley Chubb",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-18T21:15Z",
-     "note": "Chubb (ribs) is questionable to return to Sunday's game against the Raiders."
-    }
-   ]
   },
   "CAR": {
    "adj_points": 0.5,
@@ -242,7 +217,7 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.5,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
     {
@@ -252,10 +227,27 @@
      "points": 0.5,
      "updated": "2026-10-18T19:07Z",
      "note": "inactive"
+    },
+    {
+     "player": "Jaylon Moore",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-18T21:52Z",
+     "note": "Moore (head) is questionable to return to Sunday's game with a potential concussion, Matt Derrick of ChiefsDigest.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Jaylon Moore",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-18T21:52Z",
+     "note": "Moore (head) is questionable to return to Sunday's game with a potential concussion, Matt Derrick of ChiefsDigest.com reports."
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.5,
@@ -398,20 +390,11 @@
      "note": "Ruiz (knee) won't return to Sunday's game against the Giants, Katherine Terrell of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Quincy Riley",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T20:59Z",
-     "note": "Riley sustained a neck injury in the Saints' 34-27 win over the Giants on Sunday, Ross Jackson of WWL Louisiana reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.59,
+   "adj_points": 0.53,
    "qb_out": false,
    "absences": [
     {
@@ -419,16 +402,8 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-18T21:13Z",
+     "updated": "2026-10-18T22:17Z",
      "note": "inactive"
-    },
-    {
-     "player": "Andrew Thomas",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T19:54Z",
-     "note": "Thomas (head) is being evaluated for a potential concussion and is questionable to return to Sunday's game against the Saints, Art Stapleton of The Bergen Recor"
     },
     {
      "player": "Greg Newsome II",
@@ -437,10 +412,27 @@
      "points": 0.12,
      "updated": "2026-10-18T19:26Z",
      "note": "Newsome (concussion) has been ruled out for the remainder of Sunday's game against the Saints, Jordan Raanan of ESPN.com reports."
+    },
+    {
+     "player": "Tremaine Edmunds",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-18T21:47Z",
+     "note": "Edmuns (shoulder) suffered an injury on the final Saints' offensive play of Sunday's game, Dan Duggan of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.06,
+   "new_absences": [
+    {
+     "player": "Tremaine Edmunds",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-18T21:47Z",
+     "note": "Edmuns (shoulder) suffered an injury on the final Saints' offensive play of Sunday's game, Dan Duggan of The Athletic reports."
+    }
+   ]
   },
   "PHI": {
    "adj_points": 4.31,
@@ -592,6 +584,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "BUF": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
