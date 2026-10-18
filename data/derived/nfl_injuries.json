@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 578,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-18T15:00:28.720864+00:00",
-  "previous_pull": "2026-10-18T14:00:29.388648+00:00",
-  "matched_absences": 43
+  "injury_pull": "2026-10-18T15:51:04.633149+00:00",
+  "previous_pull": "2026-10-18T15:00:28.720864+00:00",
+  "matched_absences": 38
  },
  "teams": {
   "ARI": {
@@ -41,27 +41,19 @@
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 0.49,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Monroe Freeling",
      "pos": "T",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-10-17T03:34Z",
-     "note": "Freeling (knee) is listed as doubtful against the Eagles on Sunday."
-    },
-    {
-     "player": "Damien Lewis",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-17T03:28Z",
-     "note": "Lewis (elbow) is listed as questionable for Sunday's game against Philadelphia."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-18T15:44Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.01,
    "new_absences": []
   },
   "CHI": {
@@ -75,22 +67,6 @@
      "points": 0.25,
      "updated": "2026-10-17T00:52Z",
      "note": "Edwards (hamstring) has been ruled out for Sunday's game against the Falcons."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CLE": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Carson Schwesinger",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-18T13:23Z",
-     "note": "Schwesinger, who is listed as questionable for Sunday's contest against the Ravens due to an ankle injury, will go through a pregame workout before the Browns m"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -129,7 +105,7 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 0.3,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
     {
@@ -139,29 +115,46 @@
      "points": 0.3,
      "updated": "2026-10-18T12:03Z",
      "note": "inactive"
+    },
+    {
+     "player": "Reed Blankenship",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T15:33Z",
+     "note": "Blankenship (concussion) has been ruled out for the remainder of Sunday's game against the Jaguars in London."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Reed Blankenship",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T15:33Z",
+     "note": "Blankenship (concussion) has been ruled out for the remainder of Sunday's game against the Jaguars in London."
+    }
+   ]
   },
   "IND": {
-   "adj_points": 0.07,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Tyler Warren",
      "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-18T11:23Z",
-     "note": "Warren (groin) is considered a game-time decision for Sunday's contest against the Titans, Jeremy Fowler of ESPN reports."
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-18T15:38Z",
+     "note": "Warren (groin) is inactive for Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.35,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
     {
@@ -171,10 +164,27 @@
      "points": 0.35,
      "updated": "2026-10-13T19:12Z",
      "note": "Harrison is slated to undergo arthroscopic surgery on his right knee next week and could be out for 3-to-5 weeks or 3-to-4 months, depending on what surgeons fi"
+    },
+    {
+     "player": "Antonio Johnson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T15:37Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Antonio Johnson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T15:37Z",
+     "note": "questionable"
+    }
+   ]
   },
   "KC": {
    "adj_points": 0.62,
@@ -320,22 +330,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "NO": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Chris Olave",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T11:44Z",
-     "note": "Olave (illness), who is listed as questionable for Sunday's game at the Giants, is expected to suit up, Ian Rapoport of NFL Network reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "NYG": {
    "adj_points": 0.27,
    "qb_out": false,
@@ -353,7 +347,7 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-18T14:12Z",
+     "updated": "2026-10-18T15:47Z",
      "note": "questionable"
     },
     {
@@ -368,24 +362,8 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "NYJ": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Dane Belton",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-14T20:18Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "PHI": {
-   "adj_points": 4.35,
+   "adj_points": 4.25,
    "qb_out": true,
    "absences": [
     {
@@ -401,23 +379,15 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-10-17T02:25Z",
-     "note": "Hunt (ankle/knee) has been ruled out ahead of Sunday's game against Carolina."
-    },
-    {
-     "player": "Drew Kendall",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-10-17T04:43Z",
-     "note": "Kendall (knee) is questionable for Sunday's game against the Panthers."
+     "updated": "2026-10-18T15:33Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.1,
    "new_absences": []
   },
   "PIT": {
-   "adj_points": 0.76,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -427,33 +397,9 @@
      "points": 0.5,
      "updated": "2026-10-10T19:52Z",
      "note": "The Steelers placed Pittman (foot) on injured reserve Saturday."
-    },
-    {
-     "player": "Jalen Ramsey",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-17T01:37Z",
-     "note": "Ramsey (wrist) is listed as questionable for Sunday's game against the Buccaneers, Adam Caplan of SiriusXM NFL Radio reports."
-    },
-    {
-     "player": "Pat Freiermuth",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-18T12:09Z",
-     "note": "The Steelers are \"optimistic\" that Freiermuth (calf) -- who is listed as questionable -- will play Sunday at Tampa Bay, Ian Rapoport of NFL Network reports."
-    },
-    {
-     "player": "Keeanu Benton",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-14T20:06Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.26,
    "new_absences": []
   },
   "SF": {
@@ -521,20 +467,37 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.3,
+   "adj_points": 0.8,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Alontae Taylor",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-18T15:37Z",
+     "note": "Taylor (coach's decision) is inactive for Sunday's game against the Colts, Paul Kuharsky of PaulKuharsky.com reports."
+    },
     {
      "player": "Kevin Winston Jr.",
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-16T23:17Z",
-     "note": "Winston (quadriceps) has been ruled out ahead of Sunday's game against the Colts, Paul Kuharsky of PaulKuharsky.com reports."
+     "updated": "2026-10-18T15:32Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Alontae Taylor",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-18T15:37Z",
+     "note": "Taylor (coach's decision) is inactive for Sunday's game against the Colts, Paul Kuharsky of PaulKuharsky.com reports."
+    }
+   ]
   },
   "WAS": {
    "adj_points": 0.14,
@@ -558,6 +521,27 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "NO": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.12,
+   "new_absences": []
+  },
+  "NYJ": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
+   "new_absences": []
+  },
+  "CLE": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
