@@ -12274,7 +12274,15 @@
    "confidence": 54.2
   },
   "inj_check": null,
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "Calm, dry forecast at MetLife (6 mph); Winston start in model; Olave and Kamara only questionable; total ticked up to 46.5.",
+   "at": "2026-10-18T01:48:19Z",
+   "sources": [
+    "https://www.footballdb.com/games/weather.html",
+    "https://www.si.com/nfl/saints/onsi/saints-injury-report-olave-questionable-as-giants-face-offensive-line-concerns-01m539wwpp1f"
+   ]
+  },
   "latest": {
    "tier": "lean",
    "ev_pct": 1.29,
@@ -12284,8 +12292,7 @@
    "book": "draftkings",
    "why": "Pinnacle's fair total is 46; DraftKings has Under 46.5 (-115). Our model projects 42.5 points from both offenses' efficiency and pace.",
    "flags": []
-  },
-  "units_uncapped": 0.5
+  }
  },
  "45b2690b350ed45145c7a716b18e8e66|Under": {
   "id": "45b2690b350ed45145c7a716b18e8e66",
@@ -12311,7 +12318,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 6.91,
-  "units": 1.0,
+  "units": 1.5,
   "price_floor": 51.5,
   "floor_text": "Good to under 51.5 at -110",
   "fair_source": "consensus",
@@ -12384,8 +12391,7 @@
    "book": "draftkings",
    "why": "Pinnacle's fair total is 53.5; DraftKings has Under 53.5 (-105). Our model projects 48.8 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
    "flags": []
-  },
-  "units_uncapped": 1.5
+  }
  },
  "45b2690b350ed45145c7a716b18e8e66|Las Vegas Raiders": {
   "id": "45b2690b350ed45145c7a716b18e8e66",
@@ -12411,7 +12417,7 @@
   "open_line": null,
   "confidence": 55.8,
   "ev_pct": 6.52,
-  "units": 1.5,
+  "units": 2.0,
   "price_floor": 4.5,
   "floor_text": "Good to +4.5 at -110",
   "fair_source": "consensus",
@@ -12485,8 +12491,7 @@
    "book": "draftkings",
    "why": "Pinnacle makes Raiders +5; DraftKings has +4.5 (-102). Our NFL model makes Raiders +1, 4.0 pts better than the market.",
    "flags": []
-  },
-  "units_uncapped": 2.0
+  }
  },
  "3729ac6d2a66b642850caf2044cdc658|Arizona Cardinals": {
   "id": "3729ac6d2a66b642850caf2044cdc658",
@@ -12593,8 +12598,7 @@
    "book": "draftkings",
    "why": "Pinnacle makes Cardinals +12; DraftKings has +12.5 (-108). Our NFL model makes Cardinals +8.5, 3.5 pts better than the market.",
    "flags": []
-  },
-  "units_uncapped": 1.0
+  }
  },
  "0b0b582b32b09ab6ff6664ffae0c9653|Under": {
   "id": "0b0b582b32b09ab6ff6664ffae0c9653",
@@ -13510,7 +13514,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-12T10:30:30.553887+00:00",
   "published_at": "2026-10-12T10:30:42.350352+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-12T10:30:42.350352+00:00",
@@ -14131,7 +14135,7 @@
   "open_line": -15.5,
   "confidence": 54.9,
   "ev_pct": 8.66,
-  "units": 2.0,
+  "units": 1.5,
   "price_floor": -15.5,
   "floor_text": "Good to -15.5 at -110",
   "fair_source": "pinnacle",
@@ -14207,8 +14211,8 @@
    "price": -108,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741956&selectionId=602744",
-   "ev_pct": 7.63,
-   "confidence": 55.9
+   "ev_pct": 5.67,
+   "confidence": 54.9
   },
   "scout": {
    "verdict": "agree",
@@ -14221,12 +14225,12 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 7.63,
-   "confidence": 55.9,
+   "ev_pct": 5.67,
+   "confidence": 54.9,
    "line": -14.5,
    "price": -108,
    "book": "fanduel",
-   "why": "Pinnacle makes New Mexico -15; FanDuel has -14.5 (-108). Our in-season power ratings have New Mexico 4.7 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes New Mexico -14.5; FanDuel has -14.5 (-108). Our in-season power ratings have New Mexico 5.1 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": []
   }
  },
@@ -14481,7 +14485,7 @@
   "flags": [],
   "odds_pulled_at": "2026-10-13T07:00:32.865742+00:00",
   "published_at": "2026-10-13T07:01:02.227349+00:00",
-  "status": "live",
+  "status": "vetoed",
   "history": [
    [
     "2026-10-13T07:01:02.227349+00:00",
@@ -14529,9 +14533,16 @@
    "confidence": 56.0
   },
   "inj_check": null,
-  "scout": null,
+  "scout": {
+   "verdict": "veto",
+   "reason": "Model total 43.4 assumes Lamar Jackson; he was ruled out Fri (Huntley starts) and the total fell 42.5 to 39.5 on it.",
+   "at": "2026-10-18T01:48:19Z",
+   "sources": [
+    "https://www.baltimoreravens.com/news/lamar-jackson-injury-report-ravens-browns-sidelined-matt-hibner-broderick-washington"
+   ]
+  },
   "latest": {
-   "tier": "play",
+   "tier": "pass",
    "ev_pct": 9.33,
    "confidence": 56.0,
    "line": 39.5,
@@ -14539,8 +14550,7 @@
    "book": "fanduel",
    "why": "Pinnacle's fair total is 38.5; FanDuel has Over 39.5 (-105). Our model projects 43.4 points from both offenses' efficiency and pace.",
    "flags": []
-  },
-  "units_uncapped": 2.5
+  }
  },
  "7d7f757d2bf4cb7b6d8bbfe9589d25a2|UMass Minutemen": {
   "id": "7d7f757d2bf4cb7b6d8bbfe9589d25a2",
@@ -15341,7 +15351,7 @@
   "open_line": null,
   "confidence": 55.9,
   "ev_pct": 4.5,
-  "units": 1.0,
+  "units": 1.5,
   "price_floor": 40.0,
   "floor_text": "Good to over 40 at -110",
   "fair_source": "pinnacle",
@@ -15390,7 +15400,15 @@
    "confidence": 53.9
   },
   "inj_check": null,
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "Clear, 8 mph wind in Philly; McKee start already in model; Barkley out but he also missed Week 5, so it's in the ratings.",
+   "at": "2026-10-18T01:48:19Z",
+   "sources": [
+    "https://www.footballdb.com/games/weather.html",
+    "https://sports.yahoo.com/articles/eagles-panthers-final-injury-report-211315959.html"
+   ]
+  },
   "latest": {
    "tier": "play",
    "ev_pct": 6.65,
@@ -15400,8 +15418,7 @@
    "book": "draftkings",
    "why": "Pinnacle's fair total is 38; DraftKings has Over 39.5 (-102). Our model projects 42.5 points from both offenses' efficiency and pace.",
    "flags": []
-  },
-  "units_uncapped": 1.5
+  }
  },
  "caca2d752fe1a1779029082e95332fcc|Carolina Panthers": {
   "id": "caca2d752fe1a1779029082e95332fcc",
@@ -15553,7 +15570,15 @@
    "ev_pct": 1.9,
    "confidence": 56.0
   },
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "Hurts out (clot, broke Thu) but model already starts McKee; Barkley missed Week 5 too; Panthers LT Freeling doubtful.",
+   "at": "2026-10-18T01:48:19Z",
+   "sources": [
+    "https://sports.yahoo.com/articles/eagles-panthers-final-injury-report-211315959.html",
+    "https://www.nfl.com/news/eagles-qb-jalen-hurts-out-sunday-panthers-superficial-blood-clot"
+   ]
+  },
   "latest": {
    "tier": "lean",
    "ev_pct": 1.9,
@@ -15563,8 +15588,7 @@
    "book": "fanduel",
    "why": "Pinnacle makes Eagles +3.5; FanDuel has +3.5 (-122). Our NFL model makes Eagles -1.5, 4.9 pts better than the market.",
    "flags": []
-  },
-  "units_uncapped": 0.5
+  }
  },
  "ffebea881c1d7b2dfb85b3e590c35985|Under": {
   "id": "ffebea881c1d7b2dfb85b3e590c35985",
@@ -16135,7 +16159,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-17T10:30:27.262255+00:00",
   "published_at": "2026-10-17T10:30:44.068619+00:00",
-  "status": "live",
+  "status": "vetoed",
   "history": [
    [
     "2026-10-17T10:30:44.068619+00:00",
@@ -16152,9 +16176,17 @@
    "ev_pct": 2.34,
    "confidence": 53.3
   },
-  "scout": null,
+  "scout": {
+   "verdict": "veto",
+   "reason": "Model's -6.5 is rated with Lamar Jackson, who is ruled out (Huntley starts); line went 4.5 to 3 on it, so the edge is the model's miss.",
+   "at": "2026-10-18T01:48:19Z",
+   "sources": [
+    "https://www.baltimoreravens.com/news/lamar-jackson-injury-report-ravens-browns-sidelined-matt-hibner-broderick-washington",
+    "https://www.si.com/betting/lamar-jackson-injury-update-causes-major-shift-to-ravens-vs-browns-odds-in-nfl-week-6"
+   ]
+  },
   "latest": {
-   "tier": "lean",
+   "tier": "pass",
    "ev_pct": 2.34,
    "confidence": 53.3,
    "line": -3.0,
@@ -16164,8 +16196,7 @@
    "flags": [
     "sharp line moved 1.1 pts against this side recently"
    ]
-  },
-  "units_uncapped": 0.5
+  }
  },
  "8ce4565fe6dda2fbac6a893844519dcf|Citadel Bulldogs": {
   "id": "8ce4565fe6dda2fbac6a893844519dcf",
@@ -16495,8 +16526,8 @@
    "price": -122,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613744906&selectionId=621002",
-   "ev_pct": 0.61,
-   "confidence": 55.3
+   "ev_pct": 1.16,
+   "confidence": 52.6
   },
   "scout": {
    "verdict": "agree",
@@ -16509,12 +16540,12 @@
   },
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.61,
-   "confidence": 55.3,
-   "line": -6.5,
-   "price": -122,
-   "book": "fanduel",
-   "why": "Pinnacle makes Fresno State -8; FanDuel has -6.5 (-122). Our in-season power ratings have Fresno State 3.7 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "ev_pct": 1.16,
+   "confidence": 52.6,
+   "line": -7.0,
+   "price": -108,
+   "book": "draftkings",
+   "why": "Pinnacle makes Fresno State -8; DraftKings has -7 (-108). Our in-season power ratings have Fresno State 3.7 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
