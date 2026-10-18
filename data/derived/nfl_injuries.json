@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 578,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-18T22:30:27.192491+00:00",
-  "previous_pull": "2026-10-18T21:30:29.486861+00:00",
+  "injury_pull": "2026-10-18T23:30:24.908632+00:00",
+  "previous_pull": "2026-10-18T22:30:27.192491+00:00",
   "matched_absences": 46
  },
  "teams": {
@@ -56,6 +56,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "BUF": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Dalton Kincaid",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T22:39Z",
+     "note": "Kincaid (ribs) is questionable to return to Sunday's game against the Raiders."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Dalton Kincaid",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T22:39Z",
+     "note": "Kincaid (ribs) is questionable to return to Sunday's game against the Raiders."
+    }
+   ]
+  },
   "CAR": {
    "adj_points": 0.5,
    "qb_out": false,
@@ -97,19 +122,19 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.3,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
     {
      "player": "Grant Delpit",
      "pos": "S",
-     "status": "Out",
-     "points": 0.3,
+     "status": "Questionable",
+     "points": 0.07,
      "updated": "2026-10-18T17:41Z",
      "note": "Delpit (concussion) has been ruled out for the remainder of Sunday's game against the Ravens."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "DEN": {
@@ -123,22 +148,6 @@
      "points": 0.3,
      "updated": "2026-10-15T22:49Z",
      "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "GB": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Brandon Cisse",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-17T02:13Z",
-     "note": "Cisse (hip) is listed as questionable for Sunday's game against the Cowboys, Wes Hodkiewicz of the Packers' official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -233,21 +242,12 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-18T21:52Z",
-     "note": "Moore (head) is questionable to return to Sunday's game with a potential concussion, Matt Derrick of ChiefsDigest.com reports."
+     "updated": "2026-10-18T22:41Z",
+     "note": "Moore (concussion) has been ruled out for the remainder of Sunday's game against the Chargers."
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Jaylon Moore",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-18T21:52Z",
-     "note": "Moore (head) is questionable to return to Sunday's game with a potential concussion, Matt Derrick of ChiefsDigest.com reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.5,
@@ -402,7 +402,7 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-18T22:17Z",
+     "updated": "2026-10-18T23:00Z",
      "note": "inactive"
     },
     {
@@ -422,17 +422,8 @@
      "note": "Edmuns (shoulder) suffered an injury on the final Saints' offensive play of Sunday's game, Dan Duggan of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": -0.06,
-   "new_absences": [
-    {
-     "player": "Tremaine Edmunds",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-18T21:47Z",
-     "note": "Edmuns (shoulder) suffered an injury on the final Saints' offensive play of Sunday's game, Dan Duggan of The Athletic reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PHI": {
    "adj_points": 4.31,
@@ -586,11 +577,11 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "BUF": {
+  "GB": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.06,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }

@@ -14230,7 +14230,7 @@
   "flags": [],
   "odds_pulled_at": "2026-10-12T22:30:30.505340+00:00",
   "published_at": "2026-10-12T22:30:44.591791+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-12T22:30:44.591791+00:00",
@@ -14249,15 +14249,21 @@
     53.5,
     -108,
     "draftkings"
+   ],
+   [
+    "2026-10-18T23:30:30.564013+00:00",
+    53.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 53.5,
-   "price": -108,
+   "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695618U5350_3",
-   "ev_pct": 3.05,
-   "confidence": 53.5
+   "ev_pct": -1.0,
+   "confidence": 50.7
   },
   "inj_check": null,
   "scout": {
@@ -14270,14 +14276,17 @@
    ]
   },
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.05,
-   "confidence": 53.5,
+   "tier": "pass",
+   "ev_pct": -1.0,
+   "confidence": 50.7,
    "line": 53.5,
-   "price": -108,
+   "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 54; DraftKings has Under 53.5 (-108). Our model projects 48.7 points from both offenses' efficiency and pace.",
-   "flags": []
+   "why": "Pinnacle's fair total is 55; DraftKings has Under 53.5 (-105). Our model projects 48.7 points from both offenses' efficiency and pace.",
+   "flags": [
+    "model total is 6.4 pts off the market; usually missing weather or injury news",
+    "totals backtest: 6+ pt disagreements went 45-54"
+   ]
   }
  },
  "dd062699e8f42bd17509cfba1952e286|New Mexico Lobos": {
@@ -15809,7 +15818,7 @@
   "open_line": null,
   "confidence": 54.0,
   "ev_pct": 3.17,
-  "units": 0.5,
+  "units": 1.5,
   "price_floor": 49.0,
   "floor_text": "Good to under 49 at -110",
   "fair_source": "sharp",
@@ -15842,22 +15851,20 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616149655&selectionId=7017917",
-   "ev_pct": 5.74,
-   "confidence": 54.2
+   "ev_pct": 5.51,
+   "confidence": 54.0
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 5.74,
-   "confidence": 54.2,
+   "tier": "play",
+   "ev_pct": 5.51,
+   "confidence": 54.0,
    "line": 49.5,
    "price": -105,
    "book": "fanduel",
-   "why": "The market average's fair total is 50.5; FanDuel has Under 49.5 (-105). Our model projects 45.0 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
+   "why": "BetOnline/LowVig's fair total is 50.5; FanDuel has Under 49.5 (-105). Our model projects 45.0 points from both offenses' efficiency and pace.",
+   "flags": []
   }
  },
  "121ada2c134388f8cc2f26ffc54f52d1|San Jose State Spartans": {
@@ -17470,7 +17477,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 4.7,
-  "units": 0.5,
+  "units": 2.5,
   "price_floor": 51.0,
   "floor_text": "Good to under 51 at -110",
   "fair_source": "consensus",
@@ -17505,22 +17512,20 @@
    "price": -104,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096167&selectionId=7017917",
-   "ev_pct": 8.82,
-   "confidence": 55.5
+   "ev_pct": 9.42,
+   "confidence": 55.8
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 8.82,
-   "confidence": 55.5,
+   "tier": "play",
+   "ev_pct": 9.42,
+   "confidence": 55.8,
    "line": 50.5,
    "price": -104,
    "book": "fanduel",
-   "why": "The market average's fair total is 51; FanDuel has Under 50.5 (-104). Our model projects 46.0 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
+   "why": "BetOnline/LowVig's fair total is 50.5; FanDuel has Under 50.5 (-104). Our model projects 46.0 points from both offenses' efficiency and pace.",
+   "flags": []
   }
  },
  "550ec5290f935d311995affbcb0b5c79|Cincinnati Bengals": {
@@ -17547,7 +17552,7 @@
   "open_line": null,
   "confidence": 55.1,
   "ev_pct": 2.98,
-  "units": 0.5,
+  "units": 1.5,
   "price_floor": 3.5,
   "floor_text": "Good to +3.5 at -110",
   "fair_source": "consensus",
@@ -17577,28 +17582,32 @@
     3.5,
     -120,
     "draftkings"
+   ],
+   [
+    "2026-10-18T23:30:30.564013+00:00",
+    3.0,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 3.5,
-   "price": -120,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695589P350_3",
-   "ev_pct": 2.67,
+   "line": 3.0,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096165&selectionId=50210",
+   "ev_pct": 6.32,
    "confidence": 56.0
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.67,
+   "tier": "play",
+   "ev_pct": 6.32,
    "confidence": 56.0,
-   "line": 3.5,
-   "price": -120,
-   "book": "draftkings",
-   "why": "The market average makes Bengals +4; DraftKings has +3.5 (-120). Our NFL model makes Bengals -2, 5.7 pts better than the market.",
-   "flags": [
-    "no sharp book has this game, so the fair line is a market average"
-   ]
+   "line": 3.0,
+   "price": -110,
+   "book": "fanduel",
+   "why": "BetOnline/LowVig makes Bengals +3; FanDuel has +3 (-110). Our NFL model makes Bengals -2, 5.0 pts better than the market.",
+   "flags": []
   }
  },
  "b1be064fb52a198a62109c279e7ab24c|Under": {
@@ -17625,7 +17634,7 @@
   "open_line": null,
   "confidence": 52.7,
   "ev_pct": 2.87,
-  "units": 0.5,
+  "units": 1.5,
   "price_floor": 49.5,
   "floor_text": "Good to under 49.5 at -110",
   "fair_source": "consensus",
@@ -17660,22 +17669,20 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096156&selectionId=7017917",
-   "ev_pct": 6.38,
-   "confidence": 54.5
+   "ev_pct": 5.75,
+   "confidence": 54.2
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 6.38,
-   "confidence": 54.5,
+   "tier": "play",
+   "ev_pct": 5.75,
+   "confidence": 54.2,
    "line": 50.5,
    "price": -105,
    "book": "draftkings",
-   "why": "The market average's fair total is 51; DraftKings has Under 50.5 (-105). Our model projects 47.0 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
+   "why": "BetOnline/LowVig's fair total is 51; DraftKings has Under 50.5 (-105). Our model projects 47.0 points from both offenses' efficiency and pace.",
+   "flags": []
   }
  },
  "be5dd120ca08b43d647b6caa8953500a|Over": {
@@ -17702,7 +17709,7 @@
   "open_line": null,
   "confidence": 53.6,
   "ev_pct": 2.28,
-  "units": 0.5,
+  "units": 1.0,
   "price_floor": 39.0,
   "floor_text": "Good to over 39 at -110",
   "fair_source": "consensus",
@@ -17731,22 +17738,20 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695620O3850_1",
-   "ev_pct": 2.28,
-   "confidence": 53.6
+   "ev_pct": 3.62,
+   "confidence": 54.3
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.28,
-   "confidence": 53.6,
+   "tier": "play",
+   "ev_pct": 3.62,
+   "confidence": 54.3,
    "line": 38.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average's fair total is 38.5; DraftKings has Over 38.5 (-110). Our model projects 40.1 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
+   "why": "BetOnline/LowVig's fair total is 38.5; DraftKings has Over 38.5 (-110). Our model projects 40.1 points from both offenses' efficiency and pace.",
+   "flags": []
   }
  },
  "e8e5715eefb6a9ce64765e9ddf49c0cc|Under": {
@@ -17788,7 +17793,7 @@
   ],
   "odds_pulled_at": "2026-10-18T22:30:27.192491+00:00",
   "published_at": "2026-10-18T22:30:36.047078+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-18T22:30:36.047078+00:00",
@@ -17802,22 +17807,20 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096250&selectionId=7017917",
-   "ev_pct": 2.04,
-   "confidence": 52.3
+   "ev_pct": 0.88,
+   "confidence": 51.7
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.04,
-   "confidence": 52.3,
+   "tier": "pass",
+   "ev_pct": 0.88,
+   "confidence": 51.7,
    "line": 52.5,
    "price": -105,
    "book": "fanduel",
-   "why": "The market average's fair total is 52.5; FanDuel has Under 52.5 (-105). Our model projects 49.1 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
+   "why": "BetOnline/LowVig's fair total is 53; FanDuel has Under 52.5 (-105). Our model projects 49.1 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "flags": []
   }
  },
  "5dce18baccec5d3ad5fb3a3ce52f7619|Over": {
@@ -17875,22 +17878,156 @@
    "price": -104,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096228&selectionId=7017916",
-   "ev_pct": 1.68,
-   "confidence": 51.8
+   "ev_pct": 2.27,
+   "confidence": 52.1
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 1.68,
-   "confidence": 51.8,
+   "ev_pct": 2.27,
+   "confidence": 52.1,
    "line": 36.5,
    "price": -104,
    "book": "fanduel",
-   "why": "The market average's fair total is 35; FanDuel has Over 36.5 (-104). Our model projects 38.8 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
+   "why": "BetOnline/LowVig's fair total is 35.5; FanDuel has Over 36.5 (-104). Our model projects 38.8 points from both offenses' efficiency and pace.",
+   "flags": []
+  }
+ },
+ "e8e5715eefb6a9ce64765e9ddf49c0cc|Detroit Lions": {
+  "id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
+  "pick_key": "e8e5715eefb6a9ce64765e9ddf49c0cc|Detroit Lions",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "GB passing vs DET pass D: +0.10 EPA/play vs average"
+  ],
+  "matchup": "Green Bay Packers @ Detroit Lions",
+  "kickoff_utc": "2026-10-25T20:25:00Z",
+  "kickoff_pt": "Sun Oct 25, 1:25 PM PDT",
+  "side": "Detroit Lions",
+  "opponent": "Green Bay Packers",
+  "side_is_home": true,
+  "line": -3.0,
+  "price": -115,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695636N300_1",
+  "fair_line": -5.0,
+  "open_line": null,
+  "confidence": 54.8,
+  "ev_pct": 2.29,
+  "units": 0.5,
+  "price_floor": -3.0,
+  "floor_text": "Good to -3 at -110",
+  "fair_source": "sharp",
+  "market_home_margin": 4.8,
+  "model_home_margin": 4.5,
+  "model_weight": -0.0,
+  "hours_to_kick": 164.9,
+  "signals": [],
+  "why": "BetOnline/LowVig makes Lions -5; DraftKings has -3 (-115).",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-18T23:30:24.908632+00:00",
+  "published_at": "2026-10-18T23:30:30.564013+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-18T23:30:30.564013+00:00",
+    -3.0,
+    -115,
+    "draftkings"
    ]
+  ],
+  "current": {
+   "line": -3.0,
+   "price": -115,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695636N300_1",
+   "ev_pct": 2.29,
+   "confidence": 54.8
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.29,
+   "confidence": 54.8,
+   "line": -3.0,
+   "price": -115,
+   "book": "draftkings",
+   "why": "BetOnline/LowVig makes Lions -5; DraftKings has -3 (-115).",
+   "flags": []
+  }
+ },
+ "be5dd120ca08b43d647b6caa8953500a|New York Jets": {
+  "id": "be5dd120ca08b43d647b6caa8953500a",
+  "pick_key": "be5dd120ca08b43d647b6caa8953500a|New York Jets",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "NYJ passing vs MIA pass D: -0.06 EPA/play vs average"
+  ],
+  "matchup": "Miami Dolphins @ New York Jets",
+  "kickoff_utc": "2026-10-25T17:00:00Z",
+  "kickoff_pt": "Sun Oct 25, 10:00 AM PDT",
+  "side": "New York Jets",
+  "opponent": "Miami Dolphins",
+  "side_is_home": true,
+  "line": -4.5,
+  "price": -105,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695620N450_1",
+  "fair_line": -6.0,
+  "open_line": null,
+  "confidence": 52.3,
+  "ev_pct": 2.16,
+  "units": 0.5,
+  "price_floor": null,
+  "floor_text": "Only at -4.5 -110 or better",
+  "fair_source": "sharp",
+  "market_home_margin": 5.9,
+  "model_home_margin": 5.8,
+  "model_weight": -0.0,
+  "hours_to_kick": 161.5,
+  "signals": [],
+  "why": "BetOnline/LowVig makes Jets -6; DraftKings has -4.5 (-105).",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-18T23:30:24.908632+00:00",
+  "published_at": "2026-10-18T23:30:30.564013+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-18T23:30:30.564013+00:00",
+    -4.5,
+    -105,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": -4.5,
+   "price": -105,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695620N450_1",
+   "ev_pct": 2.16,
+   "confidence": 52.3
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.16,
+   "confidence": 52.3,
+   "line": -4.5,
+   "price": -105,
+   "book": "draftkings",
+   "why": "BetOnline/LowVig makes Jets -6; DraftKings has -4.5 (-105).",
+   "flags": []
   }
  }
 }
