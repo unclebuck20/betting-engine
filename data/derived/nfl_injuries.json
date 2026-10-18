@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 578,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-18T18:00:33.020448+00:00",
-  "previous_pull": "2026-10-18T17:00:32.888662+00:00",
-  "matched_absences": 35
+  "injury_pull": "2026-10-18T18:30:27.800463+00:00",
+  "previous_pull": "2026-10-18T18:00:33.020448+00:00",
+  "matched_absences": 39
  },
  "teams": {
   "ARI": {
@@ -41,21 +41,12 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-18T17:46Z",
-     "note": "questionable"
+     "updated": "2026-10-18T18:07Z",
+     "note": "Deablo (arm) has been ruled out for the remainder of Sunday's game against the Bears, William McFadden of the Falcons' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Divine Deablo",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-18T17:46Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CAR": {
    "adj_points": 0.5,
@@ -102,17 +93,8 @@
      "note": "Delpit (concussion) has been ruled out for the remainder of Sunday's game against the Ravens."
     }
    ],
-   "delta_since_last_pull": 0.3,
-   "new_absences": [
-    {
-     "player": "Grant Delpit",
-     "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-18T17:41Z",
-     "note": "Delpit (concussion) has been ruled out for the remainder of Sunday's game against the Ravens."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DEN": {
    "adj_points": 0.3,
@@ -315,7 +297,7 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.62,
+   "adj_points": 0.81,
    "qb_out": false,
    "absences": [
     {
@@ -327,16 +309,13 @@
      "note": "inactive"
     },
     {
-     "player": "Romeo Doubs",
-     "pos": "WR",
+     "player": "Morgan Moses",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-18T17:43Z",
-     "note": "Doubs (shoulder) is questionable to return to Sunday's contest against the Jets."
-    }
-   ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
+     "updated": "2026-10-18T18:06Z",
+     "note": "Moses (ankle) is questionable to return to Sunday's game versus the Jets."
+    },
     {
      "player": "Romeo Doubs",
      "pos": "WR",
@@ -344,6 +323,58 @@
      "points": 0.12,
      "updated": "2026-10-18T17:43Z",
      "note": "Doubs (shoulder) is questionable to return to Sunday's contest against the Jets."
+    },
+    {
+     "player": "Alijah Vera-Tucker",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T18:23Z",
+     "note": "Vera-Tucker (hamstring) is questionable to return to Sunday's game against the Jets."
+    }
+   ],
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "Morgan Moses",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-18T18:06Z",
+     "note": "Moses (ankle) is questionable to return to Sunday's game versus the Jets."
+    },
+    {
+     "player": "Alijah Vera-Tucker",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T18:23Z",
+     "note": "Vera-Tucker (hamstring) is questionable to return to Sunday's game against the Jets."
+    }
+   ]
+  },
+  "NO": {
+   "adj_points": 0.1,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Cesar Ruiz",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-18T18:29Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.1,
+   "new_absences": [
+    {
+     "player": "Cesar Ruiz",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-18T18:29Z",
+     "note": "questionable"
     }
    ]
   },
@@ -356,7 +387,7 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-18T17:51Z",
+     "updated": "2026-10-18T18:18Z",
      "note": "inactive"
     }
    ],
@@ -364,7 +395,7 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 4.25,
+   "adj_points": 4.31,
    "qb_out": true,
    "absences": [
     {
@@ -382,10 +413,27 @@
      "points": 0.25,
      "updated": "2026-10-18T15:33Z",
      "note": "inactive"
+    },
+    {
+     "player": "Nolan Smith Jr.",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-18T18:22Z",
+     "note": "Smith (concussion) won't return to Sunday's game against Carolina."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Nolan Smith Jr.",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-18T18:22Z",
+     "note": "Smith (concussion) won't return to Sunday's game against Carolina."
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.5,
