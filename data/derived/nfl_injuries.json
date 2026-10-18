@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 578,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-18T19:30:28.418863+00:00",
-  "previous_pull": "2026-10-18T18:30:27.800463+00:00",
-  "matched_absences": 41
+  "injury_pull": "2026-10-18T20:30:26.756383+00:00",
+  "previous_pull": "2026-10-18T19:30:28.418863+00:00",
+  "matched_absences": 44
  },
  "teams": {
   "ATL": {
-   "adj_points": 0.56,
+   "adj_points": 0.68,
    "qb_out": false,
    "absences": [
     {
@@ -21,6 +21,14 @@
      "note": "inactive"
     },
     {
+     "player": "Billy Bowman Jr.",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-18T19:38Z",
+     "note": "Bowman (hamstring) is doubtful to return to Sunday's game against Atlanta, William McFadden of the Falcons' official site reports."
+    },
+    {
      "player": "Divine Deablo",
      "pos": "LB",
      "status": "Questionable",
@@ -29,33 +37,33 @@
      "note": "Deablo (arm) has been ruled out for the remainder of Sunday's game against the Bears, William McFadden of the Falcons' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Billy Bowman Jr.",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-18T19:38Z",
+     "note": "Bowman (hamstring) is doubtful to return to Sunday's game against Atlanta, William McFadden of the Falcons' official site reports."
+    }
+   ]
   },
   "BAL": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Rashod Bateman",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
+     "status": "Questionable",
+     "points": 0.12,
      "updated": "2026-10-18T18:45Z",
      "note": "Bateman (shoulder) has been ruled out of Sunday's game in Cleveland."
     }
    ],
-   "delta_since_last_pull": 0.5,
-   "new_absences": [
-    {
-     "player": "Rashod Bateman",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-18T18:45Z",
-     "note": "Bateman (shoulder) has been ruled out of Sunday's game in Cleveland."
-    }
-   ]
+   "delta_since_last_pull": -0.38,
+   "new_absences": []
   },
   "CAR": {
    "adj_points": 0.5,
@@ -90,21 +98,12 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-10-18T19:19Z",
-     "note": "questionable"
+     "updated": "2026-10-18T19:39Z",
+     "note": "Jackson (hip) is doubtful to return to Sunday's game against the Falcons."
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Jonah Jackson",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-18T19:19Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CLE": {
    "adj_points": 0.3,
@@ -199,17 +198,8 @@
      "note": "Gardner (calf) is questionable to return to Sunday's game against the Titans, Jake Arthur of Roundtable.io reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Sauce Gardner",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T18:49Z",
-     "note": "Gardner (calf) is questionable to return to Sunday's game against the Titans, Jake Arthur of Roundtable.io reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "JAX": {
    "adj_points": 0.42,
@@ -248,7 +238,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LA": {
@@ -264,7 +254,7 @@
      "note": "McDuffie (groin) is inactive for Sunday's game against the Cardinals."
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "MIA": {
@@ -316,17 +306,9 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 1.19,
+   "adj_points": 0.91,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Romeo Doubs",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-18T18:54Z",
-     "note": "Doubs (shoulder) has been ruled out for the rest of Sunday's game against the Jets, Doug Kyed of the Boston Herald reports."
-    },
     {
      "player": "Carlton Davis III",
      "pos": "CB",
@@ -340,20 +322,45 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-18T18:06Z",
-     "note": "Moses (ankle) is questionable to return to Sunday's game versus the Jets."
+     "updated": "2026-10-18T19:40Z",
+     "note": "Moses (ankle) has been ruled out for the remainder of Sunday's game against the Jets."
+    },
+    {
+     "player": "Romeo Doubs",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-18T18:54Z",
+     "note": "Doubs (shoulder) has been ruled out for the rest of Sunday's game against the Jets, Doug Kyed of the Boston Herald reports."
+    },
+    {
+     "player": "Ben Brown",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-18T19:58Z",
+     "note": "Brown (knee) won't return to Sunday's game against the Jets."
     },
     {
      "player": "Alijah Vera-Tucker",
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-18T18:23Z",
-     "note": "Vera-Tucker (hamstring) is questionable to return to Sunday's game against the Jets."
+     "updated": "2026-10-18T19:31Z",
+     "note": "Vera-Tucker (hamstring) has been ruled out for the remainder of Sunday's game against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.38,
-   "new_absences": []
+   "delta_since_last_pull": -0.28,
+   "new_absences": [
+    {
+     "player": "Ben Brown",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-18T19:58Z",
+     "note": "Brown (knee) won't return to Sunday's game against the Jets."
+    }
+   ]
   },
   "NO": {
    "adj_points": 0.22,
@@ -364,32 +371,23 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-18T19:16Z",
-     "note": "questionable"
+     "updated": "2026-10-18T19:37Z",
+     "note": "McKinstry (ankle) is questionable to return to Sunday's game against the Giants, Ross Jackson of WWL Louisiana reports."
     },
     {
      "player": "Cesar Ruiz",
      "pos": "C",
      "status": "Questionable",
      "points": 0.1,
-     "updated": "2026-10-18T18:34Z",
-     "note": "Ruiz (knee) is questionable to return to Sunday's game against the Giants, Jeff Nowak of The Big 870 New Orleans reports."
+     "updated": "2026-10-18T19:42Z",
+     "note": "Ruiz (knee) won't return to Sunday's game against the Giants, Katherine Terrell of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Kool-Aid McKinstry",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T19:16Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.47,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
     {
@@ -397,27 +395,35 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-18T19:16Z",
+     "updated": "2026-10-18T20:18Z",
      "note": "inactive"
+    },
+    {
+     "player": "Andrew Thomas",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-18T19:54Z",
+     "note": "Thomas (head) is being evaluated for a potential concussion and is questionable to return to Sunday's game against the Saints, Art Stapleton of The Bergen Recor"
     },
     {
      "player": "Greg Newsome II",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-18T19:02Z",
-     "note": "questionable"
+     "updated": "2026-10-18T19:26Z",
+     "note": "Newsome (concussion) has been ruled out for the remainder of Sunday's game against the Saints, Jordan Raanan of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Greg Newsome II",
-     "pos": "CB",
+     "player": "Andrew Thomas",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-18T19:02Z",
-     "note": "questionable"
+     "updated": "2026-10-18T19:54Z",
+     "note": "Thomas (head) is being evaluated for a potential concussion and is questionable to return to Sunday's game against the Saints, Art Stapleton of The Bergen Recor"
     }
    ]
   },
@@ -571,20 +577,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "LAC": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.06,
-   "new_absences": []
-  },
-  "ARI": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
