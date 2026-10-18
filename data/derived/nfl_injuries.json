@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 578,
   "teams_with_qb": 30,
-  "injury_pull": "2026-10-18T17:00:32.888662+00:00",
-  "previous_pull": "2026-10-18T15:51:04.633149+00:00",
-  "matched_absences": 32
+  "injury_pull": "2026-10-18T18:00:33.020448+00:00",
+  "previous_pull": "2026-10-18T17:00:32.888662+00:00",
+  "matched_absences": 35
  },
  "teams": {
   "ARI": {
@@ -25,7 +25,7 @@
    "new_absences": []
   },
   "ATL": {
-   "adj_points": 0.5,
+   "adj_points": 0.56,
    "qb_out": false,
    "absences": [
     {
@@ -35,10 +35,27 @@
      "points": 0.5,
      "updated": "2026-10-18T15:51Z",
      "note": "inactive"
+    },
+    {
+     "player": "Divine Deablo",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-18T17:46Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Divine Deablo",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-18T17:46Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.5,
@@ -71,6 +88,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "CLE": {
+   "adj_points": 0.3,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Grant Delpit",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-18T17:41Z",
+     "note": "Delpit (concussion) has been ruled out for the remainder of Sunday's game against the Ravens."
+    }
+   ],
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Grant Delpit",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-18T17:41Z",
+     "note": "Delpit (concussion) has been ruled out for the remainder of Sunday's game against the Ravens."
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.3,
@@ -161,8 +203,8 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-18T15:48Z",
-     "note": "Johnson (ankle) is questionable to return to Sunday's game against the Texans in London."
+     "updated": "2026-10-18T16:57Z",
+     "note": "Johnson (ankle) didn't return to second half of Sunday's 34-31 loss to the Texans, Brent Martineau of CBS 47 Jacksonville reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -273,7 +315,7 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.5,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
@@ -283,10 +325,27 @@
      "points": 0.5,
      "updated": "2026-10-18T15:51Z",
      "note": "inactive"
+    },
+    {
+     "player": "Romeo Doubs",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-18T17:43Z",
+     "note": "Doubs (shoulder) is questionable to return to Sunday's contest against the Jets."
     }
    ],
-   "delta_since_last_pull": -0.25,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Romeo Doubs",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-18T17:43Z",
+     "note": "Doubs (shoulder) is questionable to return to Sunday's contest against the Jets."
+    }
+   ]
   },
   "NYG": {
    "adj_points": 0.35,
@@ -297,11 +356,11 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-18T16:50Z",
+     "updated": "2026-10-18T17:51Z",
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.08,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PHI": {
@@ -397,7 +456,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.06,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "TEN": {
