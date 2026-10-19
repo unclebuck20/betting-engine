@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 581,
   "teams_with_qb": 31,
-  "injury_pull": "2026-10-19T16:30:34.409574+00:00",
-  "previous_pull": "2026-10-19T15:30:26.328524+00:00",
-  "matched_absences": 37
+  "injury_pull": "2026-10-19T17:30:28.753325+00:00",
+  "previous_pull": "2026-10-19T16:30:34.409574+00:00",
+  "matched_absences": 36
  },
  "teams": {
   "ATL": {
@@ -113,8 +113,8 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-15T22:49Z",
-     "note": "inactive"
+     "updated": "2026-10-19T16:33Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -145,8 +145,8 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-18T12:03Z",
-     "note": "inactive"
+     "updated": "2026-10-19T16:40Z",
+     "note": "out"
     },
     {
      "player": "Reed Blankenship",
@@ -161,27 +161,27 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.42,
+   "adj_points": 0.72,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Sauce Gardner",
+     "pos": "CB",
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-10-19T16:48Z",
+     "note": "Gardner was diagnosed with a mild left calf strain following an MRI on Monday and is considered week-to-week, Ian Rapoport of NFL Network reports."
+    },
     {
      "player": "Tyler Warren",
      "pos": "TE",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-18T15:38Z",
-     "note": "Warren (groin) is inactive for Sunday's game against the Titans."
-    },
-    {
-     "player": "Sauce Gardner",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T18:49Z",
-     "note": "Gardner (calf) is questionable to return to Sunday's game against the Titans, Jake Arthur of Roundtable.io reports."
+     "updated": "2026-10-19T16:41Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.3,
    "new_absences": []
   },
   "JAX": {
@@ -433,25 +433,17 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-10-15T00:24Z",
-     "note": "Thomas (ankle) has been ruled out for Thursday night's game against the Broncos, John Boyle of the Seahawks' official site reports."
+     "updated": "2026-10-19T17:16Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.57,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Alontae Taylor",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-18T15:37Z",
-     "note": "Taylor (coach's decision) is inactive for Sunday's game against the Colts."
-    },
     {
      "player": "Tony Adams",
      "pos": "S",
@@ -461,7 +453,7 @@
      "note": "Adams (ankle) is questionable to return to Sunday's game against the Colts."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.5,
    "new_absences": []
   },
   "WAS": {
