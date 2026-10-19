@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 581,
   "teams_with_qb": 31,
-  "injury_pull": "2026-10-19T19:30:27.791251+00:00",
-  "previous_pull": "2026-10-19T18:30:30.286518+00:00",
+  "injury_pull": "2026-10-19T20:30:31.641758+00:00",
+  "previous_pull": "2026-10-19T19:30:27.791251+00:00",
   "matched_absences": 36
  },
  "teams": {
@@ -281,9 +281,17 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.41,
+   "adj_points": 0.79,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Romeo Doubs",
+     "pos": "WR",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-10-19T20:14Z",
+     "note": "ir"
+    },
     {
      "player": "Morgan Moses",
      "pos": "T",
@@ -291,14 +299,6 @@
      "points": 0.12,
      "updated": "2026-10-18T20:43Z",
      "note": "Moses (ankle) was spotted wearing a walking boot after Sunday's 26-19 win over the Jets, Andrew Callahan of the Boston Herald reports."
-    },
-    {
-     "player": "Romeo Doubs",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T18:54Z",
-     "note": "Doubs (shoulder) has been ruled out for the rest of Sunday's game against the Jets, Doug Kyed of the Boston Herald reports."
     },
     {
      "player": "Ben Brown",
@@ -317,7 +317,7 @@
      "note": "Vera-Tucker (hamstring) has been ruled out for the remainder of Sunday's game against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "NO": {
