@@ -17619,7 +17619,7 @@
   "open_line": null,
   "confidence": 55.1,
   "ev_pct": 2.98,
-  "units": 0.5,
+  "units": 1.0,
   "price_floor": 3.5,
   "floor_text": "Good to +3.5 at -110",
   "fair_source": "consensus",
@@ -17674,18 +17674,18 @@
    "price": 100,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096165&selectionId=50210",
-   "ev_pct": 2.71,
-   "confidence": 51.4
+   "ev_pct": 3.77,
+   "confidence": 51.9
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.71,
-   "confidence": 51.4,
+   "tier": "play",
+   "ev_pct": 3.77,
+   "confidence": 51.9,
    "line": 2.5,
    "price": 100,
    "book": "fanduel",
-   "why": "BetOnline/LowVig makes Bengals +3; FanDuel has +2.5 (+100). Our NFL model makes Bengals -1.5, 4.9 pts better than the market.",
+   "why": "BetOnline/LowVig makes Bengals +3; FanDuel has +2.5 (+100). Our NFL model makes Bengals -1.5, 4.5 pts better than the market.",
    "flags": []
   }
  },
@@ -17741,13 +17741,19 @@
     50.5,
     -105,
     "fanduel"
+   ],
+   [
+    "2026-10-19T23:30:42.264645+00:00",
+    50.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 50.5,
    "price": -105,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096156&selectionId=7017917",
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695528U5050_3",
    "ev_pct": 5.75,
    "confidence": 54.2
   },
@@ -18562,7 +18568,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-19T10:30:30.205157+00:00",
   "published_at": "2026-10-19T10:30:48.942847+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-19T10:30:48.942847+00:00",
@@ -18576,14 +18582,14 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86731868P1050_3",
-   "ev_pct": 1.5,
-   "confidence": 53.2
+   "ev_pct": 1.19,
+   "confidence": 53.0
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 1.5,
-   "confidence": 53.2,
+   "tier": "pass",
+   "ev_pct": 1.19,
+   "confidence": 53.0,
    "line": 10.5,
    "price": -110,
    "book": "draftkings",
@@ -18715,19 +18721,19 @@
    "price": -102,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695457U4450_3",
-   "ev_pct": 1.75,
-   "confidence": 51.4
+   "ev_pct": 2.96,
+   "confidence": 52.0
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 1.75,
-   "confidence": 51.4,
+   "ev_pct": 2.96,
+   "confidence": 52.0,
    "line": 44.5,
    "price": -102,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 45.5; DraftKings has Under 44.5 (-102). Our model projects 42.0 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 45; DraftKings has Under 44.5 (-102). Our model projects 42.0 points from both offenses' efficiency and pace.",
    "flags": []
   }
  }
