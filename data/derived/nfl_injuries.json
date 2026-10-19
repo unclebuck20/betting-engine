@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 581,
   "teams_with_qb": 31,
-  "injury_pull": "2026-10-19T20:30:31.641758+00:00",
-  "previous_pull": "2026-10-19T19:30:27.791251+00:00",
-  "matched_absences": 36
+  "injury_pull": "2026-10-19T21:30:32.066889+00:00",
+  "previous_pull": "2026-10-19T20:30:31.641758+00:00",
+  "matched_absences": 38
  },
  "teams": {
   "ATL": {
@@ -217,9 +217,25 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.5,
+   "adj_points": 1.5,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Kobie Turner",
+     "pos": "DE",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-19T21:09Z",
+     "note": "out"
+    },
+    {
+     "player": "Davante Adams",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-19T01:18Z",
+     "note": "Adams caught three of four targets for 39 yards during Sunday's 18-16 defeat against the Cardinals."
+    },
     {
      "player": "Trent McDuffie",
      "pos": "CB",
@@ -229,8 +245,25 @@
      "note": "McDuffie (groin) is inactive for Sunday's game against the Cardinals."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Kobie Turner",
+     "pos": "DE",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-19T21:09Z",
+     "note": "out"
+    },
+    {
+     "player": "Davante Adams",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-19T01:18Z",
+     "note": "Adams caught three of four targets for 39 yards during Sunday's 18-16 defeat against the Cardinals."
+    }
+   ]
   },
   "MIA": {
    "adj_points": 0.14,
@@ -289,8 +322,8 @@
      "pos": "WR",
      "status": "Injured Reserve",
      "points": 0.5,
-     "updated": "2026-10-19T20:14Z",
-     "note": "ir"
+     "updated": "2026-10-19T20:33Z",
+     "note": "The Patriots placed Doubs (shoulder) on injured reserve Monday."
     },
     {
      "player": "Morgan Moses",
@@ -317,7 +350,7 @@
      "note": "Vera-Tucker (hamstring) has been ruled out for the remainder of Sunday's game against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
