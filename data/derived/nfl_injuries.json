@@ -1,33 +1,17 @@
 {
  "meta": {
   "season": 2026,
-  "starters_identified": 578,
-  "teams_with_qb": 30,
-  "injury_pull": "2026-10-19T10:30:30.205157+00:00",
-  "previous_pull": "2026-10-19T09:30:33.967937+00:00",
-  "matched_absences": 48
+  "starters_identified": 581,
+  "teams_with_qb": 31,
+  "injury_pull": "2026-10-19T11:30:29.237520+00:00",
+  "previous_pull": "2026-10-19T10:30:30.205157+00:00",
+  "matched_absences": 37
  },
  "teams": {
   "ATL": {
-   "adj_points": 0.68,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
-    {
-     "player": "C.J. Henderson",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-18T15:51Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Billy Bowman Jr.",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T19:38Z",
-     "note": "Bowman (hamstring) is doubtful to return to Sunday's game against Atlanta, William McFadden of the Falcons' official site reports."
-    },
     {
      "player": "Divine Deablo",
      "pos": "LB",
@@ -35,22 +19,6 @@
      "points": 0.06,
      "updated": "2026-10-18T18:07Z",
      "note": "Deablo (arm) has been ruled out for the remainder of Sunday's game against the Bears, William McFadden of the Falcons' official site reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "BAL": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Rashod Bateman",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-18T18:45Z",
-     "note": "Bateman (shoulder) has been ruled out of Sunday's game in Cleveland."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -89,17 +57,9 @@
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.34,
+   "adj_points": 0.09,
    "qb_out": false,
    "absences": [
-    {
-     "player": "T.J. Edwards",
-     "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-10-18T15:49Z",
-     "note": "inactive"
-    },
     {
      "player": "Jonah Jackson",
      "pos": "OL",
@@ -225,17 +185,9 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.42,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Anton Harrison",
-     "pos": "OL",
-     "status": "Injured Reserve",
-     "points": 0.35,
-     "updated": "2026-10-13T19:12Z",
-     "note": "Harrison is slated to undergo arthroscopic surgery on his right knee next week and could be out for 3-to-5 weeks or 3-to-4 months, depending on what surgeons fi"
-    },
     {
      "player": "Antonio Johnson",
      "pos": "S",
@@ -249,17 +201,9 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.59,
+   "adj_points": 0.09,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Rashee Rice",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-18T19:07Z",
-     "note": "inactive"
-    },
     {
      "player": "Jaylon Moore",
      "pos": "OL",
@@ -337,17 +281,9 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.91,
+   "adj_points": 0.41,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Carlton Davis III",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-10-18T15:51Z",
-     "note": "inactive"
-    },
     {
      "player": "Morgan Moses",
      "pos": "T",
@@ -385,7 +321,7 @@
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.34,
+   "adj_points": 0.31,
    "qb_out": false,
    "absences": [
     {
@@ -406,9 +342,9 @@
     },
     {
      "player": "Cesar Ruiz",
-     "pos": "C",
+     "pos": "G",
      "status": "Questionable",
-     "points": 0.1,
+     "points": 0.07,
      "updated": "2026-10-18T19:42Z",
      "note": "Ruiz (knee) won't return to Sunday's game against the Giants, Katherine Terrell of ESPN.com reports."
     }
@@ -417,17 +353,9 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.53,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jermaine Eluemunor",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-10-19T10:00Z",
-     "note": "inactive"
-    },
     {
      "player": "Greg Newsome II",
      "pos": "CB",
@@ -449,7 +377,7 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 4.31,
+   "adj_points": 4.06,
    "qb_out": true,
    "absences": [
     {
@@ -461,36 +389,12 @@
      "note": "The Eagles placed Hurts (calf) on injured reserve Saturday."
     },
     {
-     "player": "Jalyx Hunt",
-     "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-10-18T15:33Z",
-     "note": "inactive"
-    },
-    {
      "player": "Nolan Smith Jr.",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
      "updated": "2026-10-18T18:22Z",
      "note": "Smith (concussion) won't return to Sunday's game against Carolina."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "PIT": {
-   "adj_points": 0.5,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Michael Pittman Jr.",
-     "pos": "WR",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-10-10T19:52Z",
-     "note": "The Steelers placed Pittman (foot) on injured reserve Saturday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -536,24 +440,8 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "TB": {
-   "adj_points": 0.3,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Antoine Winfield Jr.",
-     "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-18T15:52Z",
-     "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "TEN": {
-   "adj_points": 0.8,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
@@ -565,12 +453,12 @@
      "note": "Taylor (coach's decision) is inactive for Sunday's game against the Colts, Paul Kuharsky of PaulKuharsky.com reports."
     },
     {
-     "player": "Kevin Winston Jr.",
+     "player": "Tony Adams",
      "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-18T15:32Z",
-     "note": "inactive"
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-18T17:59Z",
+     "note": "Adams (ankle) is questionable to return to Sunday's game against the Colts."
     }
    ],
    "delta_since_last_pull": 0.0,
