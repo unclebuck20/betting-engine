@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 585,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-21T16:00:34.209159+00:00",
-  "previous_pull": "2026-10-21T15:00:38.020543+00:00",
-  "matched_absences": 33
+  "injury_pull": "2026-10-21T17:00:33.135547+00:00",
+  "previous_pull": "2026-10-21T16:00:34.209159+00:00",
+  "matched_absences": 34
  },
  "teams": {
   "ATL": {
@@ -57,7 +57,7 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.07,
+   "adj_points": 0.13,
    "qb_out": false,
    "absences": [
     {
@@ -67,10 +67,27 @@
      "points": 0.07,
      "updated": "2026-10-18T17:41Z",
      "note": "Delpit (concussion) has been ruled out for the remainder of Sunday's game against the Ravens."
+    },
+    {
+     "player": "Carson Schwesinger",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-21T01:47Z",
+     "note": "Schwesinger logged 13 tackles (five solo) and one forced fumble during the Browns' 13-10 win over the Ravens on Sunday."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Carson Schwesinger",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-21T01:47Z",
+     "note": "Schwesinger logged 13 tackles (five solo) and one forced fumble during the Browns' 13-10 win over the Ravens on Sunday."
+    }
+   ]
   },
   "DAL": {
    "adj_points": 0.21,
