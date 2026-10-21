@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 585,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-21T20:00:33.948372+00:00",
-  "previous_pull": "2026-10-21T19:00:29.489146+00:00",
-  "matched_absences": 39
+  "injury_pull": "2026-10-21T21:00:33.814054+00:00",
+  "previous_pull": "2026-10-21T20:00:33.948372+00:00",
+  "matched_absences": 56
  },
  "teams": {
   "ATL": {
@@ -24,10 +24,123 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "CLE": {
-   "adj_points": 0.13,
+  "BAL": {
+   "adj_points": 0.27,
    "qb_out": false,
    "absences": [
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:36Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jaylinn Hawkins",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:34Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Olaivavega Ioane",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:33Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Tavius Robinson",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-21T20:38Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.27,
+   "new_absences": [
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:36Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jaylinn Hawkins",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:34Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Olaivavega Ioane",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:33Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Tavius Robinson",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-21T20:38Z",
+     "note": "questionable"
+    }
+   ]
+  },
+  "CLE": {
+   "adj_points": 0.66,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "KC Concepcion",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:21Z",
+     "note": "Concepcion (calf, quad) was a limited participant in Wednesday's practice, Chris Easterling of the Akron Beacon Journal reports."
+    },
+    {
+     "player": "Denzel Boston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:12Z",
+     "note": "Boston (foot) was a limited participant at Wednesday's practice, Chris Easterling of the Akron Beacon Journal reports."
+    },
+    {
+     "player": "Tytus Howard",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:03Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Elgton Jenkins",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-21T20:05Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Maliek Collins",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:03Z",
+     "note": "questionable"
+    },
     {
      "player": "Grant Delpit",
      "pos": "S",
@@ -45,8 +158,49 @@
      "note": "Schwesinger logged 13 tackles (five solo) and one forced fumble during the Browns' 13-10 win over the Ravens on Sunday."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.53,
+   "new_absences": [
+    {
+     "player": "KC Concepcion",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:21Z",
+     "note": "Concepcion (calf, quad) was a limited participant in Wednesday's practice, Chris Easterling of the Akron Beacon Journal reports."
+    },
+    {
+     "player": "Denzel Boston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:12Z",
+     "note": "Boston (foot) was a limited participant at Wednesday's practice, Chris Easterling of the Akron Beacon Journal reports."
+    },
+    {
+     "player": "Tytus Howard",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:03Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Elgton Jenkins",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-10-21T20:05Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Maliek Collins",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:03Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DAL": {
    "adj_points": 0.21,
@@ -80,6 +234,79 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "GB": {
+   "adj_points": 1.36,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jordan Love",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-10-21T20:13Z",
+     "note": "Love was listed as a limited participant on Wednesday's practice estimate due to a back injury, Matt Schneidman of The Athletic reports."
+    },
+    {
+     "player": "Matthew Golden",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:20Z",
+     "note": "Golden (shoulder) was listed as a limited participant on Wednesday's estimated injury report, Matt Schneidman of The Athletic reports."
+    },
+    {
+     "player": "Christian Watson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:17Z",
+     "note": "Watson was listed as a limited participant on Wednesday's practice estimate due to an ankle injury, Matt Schneidman of The Athletic reports."
+    },
+    {
+     "player": "Brandon Cisse",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:11Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 1.36,
+   "new_absences": [
+    {
+     "player": "Jordan Love",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-10-21T20:13Z",
+     "note": "Love was listed as a limited participant on Wednesday's practice estimate due to a back injury, Matt Schneidman of The Athletic reports."
+    },
+    {
+     "player": "Matthew Golden",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:20Z",
+     "note": "Golden (shoulder) was listed as a limited participant on Wednesday's estimated injury report, Matt Schneidman of The Athletic reports."
+    },
+    {
+     "player": "Christian Watson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:17Z",
+     "note": "Watson was listed as a limited participant on Wednesday's practice estimate due to an ankle injury, Matt Schneidman of The Athletic reports."
+    },
+    {
+     "player": "Brandon Cisse",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:11Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "HOU": {
    "adj_points": 0.33,
    "qb_out": false,
@@ -105,7 +332,7 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.49,
+   "adj_points": 0.8,
    "qb_out": false,
    "absences": [
     {
@@ -117,16 +344,65 @@
      "note": "Gardner was diagnosed with a mild left calf strain following an MRI on Monday and is considered week-to-week, Ian Rapoport of NFL Network reports."
     },
     {
+     "player": "Jalen Travis",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T19:57Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Justin Walley",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T19:57Z",
+     "note": "questionable"
+    },
+    {
      "player": "Tyler Warren",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-21T18:16Z",
-     "note": "Warren (groin) wasn't spotted on the field for the open portion of Wednesday's practice, Jake Arthur of Roundtable.io reports."
+     "updated": "2026-10-21T20:11Z",
+     "note": "Warren (groin) did not practice Wednesday."
+    },
+    {
+     "player": "Matt Goncalves",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T19:56Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.31,
+   "new_absences": [
+    {
+     "player": "Jalen Travis",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T19:57Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Justin Walley",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T19:57Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Matt Goncalves",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T19:56Z",
+     "note": "questionable"
+    }
+   ]
   },
   "JAX": {
    "adj_points": 0.07,
@@ -187,30 +463,6 @@
      "points": 0.12,
      "updated": "2026-10-20T16:10Z",
      "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "MIA": {
-   "adj_points": 0.14,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Jonah Savaiinaea",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-20T00:18Z",
-     "note": "Savaiinaea (ankle) was a limited participant at the Dolphins' practice Monday, C. Isaiah Smalls II of the Miami Herald reports."
-    },
-    {
-     "player": "Michael Taaffe",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-11T19:04Z",
-     "note": "Taaffe (chest) is questionable to return to Sunday's game against the Bengals."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -301,33 +553,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.2,
-   "new_absences": [
-    {
-     "player": "Craig Woodson",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-21T19:19Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Kevin Byard",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-21T19:18Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Christian Elliss",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-21T19:19Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NO": {
    "adj_points": 0.31,
@@ -362,9 +589,17 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.18,
+   "adj_points": 0.43,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Andrew Thomas",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:15Z",
+     "note": "questionable"
+    },
     {
      "player": "Greg Newsome II",
      "pos": "CB",
@@ -372,6 +607,22 @@
      "points": 0.12,
      "updated": "2026-10-18T19:26Z",
      "note": "Newsome (concussion) has been ruled out for the remainder of Sunday's game against the Saints, Jordan Raanan of ESPN.com reports."
+    },
+    {
+     "player": "Jevon Holland",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kayvon Thibodeaux",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-21T20:28Z",
+     "note": "questionable"
     },
     {
      "player": "Tremaine Edmunds",
@@ -382,8 +633,33 @@
      "note": "Edmuns (shoulder) suffered an injury on the final Saints' offensive play of Sunday's game, Dan Duggan of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.25,
+   "new_absences": [
+    {
+     "player": "Andrew Thomas",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-21T20:15Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jevon Holland",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-21T20:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kayvon Thibodeaux",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-21T20:28Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PHI": {
    "adj_points": 4.06,
@@ -462,41 +738,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.45,
-   "new_absences": [
-    {
-     "player": "Emeka Egbuka",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-21T19:26Z",
-     "note": "Egbuka (concussion/foot) was a non-participant in Wednesday's practice, Scott Smith of the Buccaneers' official site reports."
-    },
-    {
-     "player": "Luke Goedeke",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-21T19:22Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Zyon McCollum",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-21T02:48Z",
-     "note": "McCollum compiled 11 total tackles (seven solo) and a pass defensed during Sunday's 26-19 overtime loss to the Steelers."
-    },
-    {
-     "player": "Calijah Kancey",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-21T19:23Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "TEN": {
    "adj_points": 0.07,
@@ -530,18 +773,11 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "CAR": {
+  "MIA": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.12,
-   "new_absences": []
-  },
-  "CHI": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.09,
+   "delta_since_last_pull": -0.14,
    "new_absences": []
   }
  }
