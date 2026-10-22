@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-10-22T23:02:09.471217+00:00",
+  "built_at": "2026-10-22T23:30:26.489878+00:00",
   "nfl_history_games": 5524,
   "cfb_history_games": 3730,
-  "games": 98
+  "games": 95
  },
  "games": [
   {
@@ -12,28 +12,28 @@
    "matchup": "New England Patriots @ Chicago Bears",
    "kickoff_pt": "Thu Oct 22 5:15 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 3.6,
+   "fair_home_margin": 3.4,
    "best": [
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -3.0,
+     "price": 102,
+     "ev": -0.0113
+    },
     {
      "book": "betmgm",
      "side": "home",
      "home_line": -3.0,
      "price": 100,
-     "ev": -0.0068
+     "ev": -0.0202
     },
     {
-     "book": "lowvig",
+     "book": "betrivers",
      "side": "away",
      "home_line": -3.0,
-     "price": -106,
-     "ev": -0.0191
-    },
-    {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": -3.0,
-     "price": -103,
-     "ev": -0.0198
+     "price": -110,
+     "ev": -0.0219
     }
    ]
   },
@@ -46,6 +46,13 @@
    "fair_home_margin": -3.3,
    "best": [
     {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": 3.5,
+     "price": -117,
+     "ev": -0.0202
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": 3.5,
@@ -54,13 +61,6 @@
     },
     {
      "book": "draftkings",
-     "side": "home",
-     "home_line": 3.5,
-     "price": -118,
-     "ev": -0.024
-    },
-    {
-     "book": "betmgm",
      "side": "home",
      "home_line": 3.5,
      "price": -118,
@@ -232,6 +232,13 @@
    "fair_home_margin": 6.8,
    "best": [
     {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -6.5,
+     "price": 101,
+     "ev": 0.0077
+    },
+    {
      "book": "hardrockbet",
      "side": "home",
      "home_line": -6.0,
@@ -239,18 +246,11 @@
      "ev": -0.0023
     },
     {
-     "book": "fanduel",
+     "book": "betonlineag",
      "side": "home",
      "home_line": -6.5,
-     "price": -105,
-     "ev": -0.0212
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -105,
-     "ev": -0.0212
+     "price": -104,
+     "ev": -0.0166
     }
    ]
   },
@@ -322,28 +322,28 @@
    "matchup": "Green Bay Packers @ Detroit Lions",
    "kickoff_pt": "Sun Oct 25 1:25 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 4.4,
+   "fair_home_margin": 4.7,
    "best": [
     {
      "book": "draftkings",
      "side": "home",
      "home_line": -3.0,
-     "price": -110,
-     "ev": 0.0104
+     "price": -115,
+     "ev": 0.0149
     },
     {
      "book": "betrivers",
      "side": "home",
      "home_line": -3.0,
      "price": -115,
-     "ev": -0.0086
+     "ev": 0.0149
     },
     {
-     "book": "fanduel",
+     "book": "betmgm",
      "side": "home",
      "home_line": -3.0,
      "price": -118,
-     "ev": -0.0193
+     "ev": 0.004
     }
    ]
   },
@@ -433,10 +433,10 @@
     },
     {
      "book": "lowvig",
-     "side": "home",
+     "side": "away",
      "home_line": 4.0,
-     "price": -107,
-     "ev": -0.0161
+     "price": 101,
+     "ev": -0.0112
     }
    ]
   },
@@ -728,13 +728,6 @@
    "fair_home_margin": 7.5,
    "best": [
     {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -7.5,
-     "price": -112,
-     "ev": 0.0148
-    },
-    {
      "book": "betrivers",
      "side": "away",
      "home_line": -7.5,
@@ -742,11 +735,18 @@
      "ev": 0.0064
     },
     {
-     "book": "draftkings",
+     "book": "lowvig",
      "side": "away",
-     "home_line": -7.5,
-     "price": -115,
-     "ev": 0.0023
+     "home_line": -7.0,
+     "price": -105,
+     "ev": -0.0174
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -7.0,
+     "price": -105,
+     "ev": -0.027
     }
    ]
   },
@@ -871,99 +871,6 @@
      "home_line": -3.0,
      "price": 105,
      "ev": -0.0174
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "d476cb73381765342220f698035bc889",
-   "matchup": "James Madison Dukes @ Appalachian State Mountaineers",
-   "kickoff_pt": "Thu Oct 22 4:05 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": -13.4,
-   "best": [
-    {
-     "book": "bovada",
-     "side": "away",
-     "home_line": 11.5,
-     "price": -110,
-     "ev": -0.0101
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": 12.5,
-     "price": -106,
-     "ev": -0.0192
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 12.5,
-     "price": -106,
-     "ev": -0.0192
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "1635891ddb79191dba2be031ad6dc762",
-   "matchup": "Liberty Flames @ Kennesaw State Owls",
-   "kickoff_pt": "Thu Oct 22 4:05 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": -9.5,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 9.5,
-     "price": 100,
-     "ev": -0.0103
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": 8.0,
-     "price": -109,
-     "ev": -0.0236
-    },
-    {
-     "book": "betonlineag",
-     "side": "away",
-     "home_line": 9.5,
-     "price": -104,
-     "ev": -0.0294
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "5be63fd8c778b46afe084d3352e38a40",
-   "matchup": "East Carolina Pirates @ Memphis Tigers",
-   "kickoff_pt": "Thu Oct 22 4:30 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 12.2,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -10.5,
-     "price": -101,
-     "ev": -0.0089
-    },
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -10.5,
-     "price": -105,
-     "ev": -0.0277
-    },
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -10.5,
-     "price": -105,
-     "ev": -0.0277
     }
    ]
   },
