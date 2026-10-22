@@ -19656,7 +19656,7 @@
    "line": -2.5,
    "price": -118,
    "book": "draftkings",
-   "why": "Pinnacle makes 49ers -2; DraftKings has -2.5 (-118). Our NFL model makes 49ers -8, 5.7 pts better than the market.",
+   "why": "Pinnacle makes 49ers -2; DraftKings has -2.5 (-118). Our NFL model makes 49ers -8, 5.8 pts better than the market.",
    "flags": []
   }
  },
@@ -19765,7 +19765,16 @@
   "flags": [
    "college injuries not checked yet"
   ],
-  "inj_check": null,
+  "inj_check": {
+   "at": "2026-10-22T21:55:00Z",
+   "text": "App State QB Singleton (ankle) available per official report; DL Benton, Harris out. JMU RT Rawls questionable. No hold.",
+   "hold": false,
+   "opp_out": false,
+   "sources": [
+    "https://dknetwork.draftkings.com/2026/10/22/appalachian-state-mountaineers-vs-james-madison-dukes-prediction-pick-for-college-football-on-thursday-10-22-26/",
+    "https://dknetwork.draftkings.com/2026/10/22/appalachian-state-mountaineers-vs-james-madison-dukes-prediction-pick-for-college-football-on-thursday-10-22-26/"
+   ]
+  },
   "held": false,
   "odds_pulled_at": "2026-10-22T21:00:36.875069+00:00",
   "published_at": "2026-10-22T21:01:31.539532+00:00",
@@ -19786,7 +19795,15 @@
    "ev_pct": 1.64,
    "confidence": 53.2
   },
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "QB Singleton (ankle) listed available on App State's official report; move to +12.5 likely priced his doubt. May split snaps with Hasselbeck.",
+   "at": "2026-10-22T21:55:00Z",
+   "sources": [
+    "https://www.rotowire.com/cfootball/headlines/malachi-singleton-news-available-thursday-236296",
+    "https://dknetwork.draftkings.com/2026/10/22/appalachian-state-mountaineers-vs-james-madison-dukes-prediction-pick-for-college-football-on-thursday-10-22-26/"
+   ]
+  },
   "latest": {
    "tier": "lean",
    "ev_pct": 1.64,
@@ -19795,9 +19812,7 @@
    "price": -110,
    "book": "fanduel",
    "why": "Pinnacle makes App State +13; FanDuel has +12.5 (-110). The line opened +10.5 and has moved toward James Madison.",
-   "flags": [
-    "college injuries not checked yet"
-   ]
+   "flags": []
   }
  }
 }

@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 585,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-22T21:00:36.875069+00:00",
-  "previous_pull": "2026-10-22T20:30:31.028737+00:00",
-  "matched_absences": 63
+  "injury_pull": "2026-10-22T21:47:03.963463+00:00",
+  "previous_pull": "2026-10-22T21:00:36.875069+00:00",
+  "matched_absences": 64
  },
  "teams": {
   "ARI": {
@@ -41,9 +41,17 @@
    "new_absences": []
   },
   "ATL": {
-   "adj_points": 0.06,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Cameron Thomas",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-22T21:41Z",
+     "note": "questionable"
+    },
     {
      "player": "Divine Deablo",
      "pos": "LB",
@@ -53,8 +61,17 @@
      "note": "Deablo (arm) did not participate at the Falcons' practice Wednesday, Daniel Flick of The Atlanta Journal-Constitution reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Cameron Thomas",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-22T21:41Z",
+     "note": "questionable"
+    }
+   ]
   },
   "BAL": {
    "adj_points": 0.13,
@@ -77,7 +94,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.14,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CLE": {
@@ -173,25 +190,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.24,
-   "new_absences": [
-    {
-     "player": "George Pickens",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-22T20:46Z",
-     "note": "Pickens was a limited practice participant Thursday due to a shoulder injury, Tommy Yarrish of the Cowboys' official site reports."
-    },
-    {
-     "player": "Tyler Guyton",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-22T20:42Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DEN": {
    "adj_points": 0.38,
@@ -278,7 +278,7 @@
      "note": "Al-Shaair (knee) did not participate in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "IND": {
@@ -354,8 +354,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-21T23:08Z",
-     "note": "Kelce (ankle) was a limited practice participant Wednesday, Matt Derrick of ChiefsDigest.com reports."
+     "updated": "2026-10-22T20:56Z",
+     "note": "Kelce (ankle) was listed as a limited participant in Thursday's practice."
     }
    ],
    "delta_since_last_pull": 0.0,
