@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-23T21:00:37.769102+00:00",
-  "previous_pull": "2026-10-23T20:00:29.007748+00:00",
-  "matched_absences": 46
+  "injury_pull": "2026-10-23T22:00:41.040693+00:00",
+  "previous_pull": "2026-10-23T21:00:37.769102+00:00",
+  "matched_absences": 44
  },
  "teams": {
   "ARI": {
@@ -165,31 +165,23 @@
      "note": "Winters sprained his Achilles during Sunday night's game against the Packers and will likely miss at least one game, Joe Hoyt of The Dallas Morning News reports"
     }
    ],
-   "delta_since_last_pull": -0.24,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 0.38,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Talanoa Hufanga",
      "pos": "S",
-     "status": "Doubtful",
-     "points": 0.26,
-     "updated": "2026-10-22T00:56Z",
-     "note": "Hufanga (ankle) did not participate in Wednesday's practice, Aric DiLalla of the Broncos' official site reports."
-    },
-    {
-     "player": "Jaylen Waddle",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-23T20:40Z",
-     "note": "Waddle (chest) said he is good to go for Sunday's game at Arizona after being listed as a limited practice participant the previous two days, Chris Tomasson of "
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-23T21:15Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.08,
    "new_absences": []
   },
   "GB": {
@@ -205,7 +197,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": -0.36,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "HOU": {
@@ -229,7 +221,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.4,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "IND": {
@@ -377,9 +369,17 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.56,
+   "adj_points": 0.82,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Greg Newsome II",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-23T20:50Z",
+     "note": "out"
+    },
     {
      "player": "Tremaine Edmunds",
      "pos": "LB",
@@ -387,22 +387,6 @@
      "points": 0.25,
      "updated": "2026-10-23T20:49Z",
      "note": "out"
-    },
-    {
-     "player": "Andrew Thomas",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-23T01:49Z",
-     "note": "Thomas (groin) was a limited participant at the Giants' practice Thursday."
-    },
-    {
-     "player": "Greg Newsome II",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-22T00:31Z",
-     "note": "Newsome (concussion) did not participate at practice Wednesday, Dan Salomone of the Giants' official site reports."
     },
     {
      "player": "Jevon Holland",
@@ -413,7 +397,7 @@
      "note": "Holland (concussion) was a limited participant at practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "PHI": {
@@ -472,37 +456,38 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "SF": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Jaden Dugger",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-22T01:14Z",
-     "note": "Dugger (knee) was estimated to be a limited participant in Wednesday's walkthrough, Harrison Rich of the San Francisco Chronicle reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "SEA": {
-   "adj_points": 0.06,
+   "adj_points": 0.32,
    "qb_out": false,
    "absences": [
     {
      "player": "Drake Thomas",
      "pos": "LB",
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-23T21:18Z",
+     "note": "out"
+    },
+    {
+     "player": "Nick Emmanwori",
+     "pos": "S",
      "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-22T00:57Z",
-     "note": "Thomas (ankle) did not participate in Wednesday's practice, Corbin K. Smith of EmeraldCitySpectrum.com reports."
+     "points": 0.07,
+     "updated": "2026-10-23T21:17Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.26,
+   "new_absences": [
+    {
+     "player": "Nick Emmanwori",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-23T21:17Z",
+     "note": "questionable"
+    }
+   ]
   },
   "TB": {
    "adj_points": 1.0,
@@ -560,14 +545,7 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "MIN": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
-   "new_absences": []
-  },
-  "LV": {
+  "SF": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
