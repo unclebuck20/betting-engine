@@ -3,15 +3,31 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-23T17:00:31.005823+00:00",
-  "previous_pull": "2026-10-23T16:00:34.399767+00:00",
-  "matched_absences": 60
+  "injury_pull": "2026-10-23T18:00:35.102747+00:00",
+  "previous_pull": "2026-10-23T17:00:31.005823+00:00",
+  "matched_absences": 56
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.37,
+   "adj_points": 0.89,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Walter Nolen III",
+     "pos": "DL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-23T17:43Z",
+     "note": "out"
+    },
+    {
+     "player": "Jon Gaines II",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-23T17:43Z",
+     "note": "out"
+    },
     {
      "player": "Max Melton",
      "pos": "CB",
@@ -19,22 +35,6 @@
      "points": 0.12,
      "updated": "2026-10-23T01:12Z",
      "note": "Melton (knee) did not participate at practice Thursday, Darren Urban of the Cardinals' official site reports."
-    },
-    {
-     "player": "Jon Gaines II",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-22T23:26Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Walter Nolen III",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-21T23:47Z",
-     "note": "questionable"
     },
     {
      "player": "Budda Baker",
@@ -45,37 +45,37 @@
      "note": "Baker (groin/illness) did not participate at practice Thursday, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.52,
    "new_absences": []
   },
   "ATL": {
-   "adj_points": 0.18,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Cameron Thomas",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-22T21:41Z",
-     "note": "questionable"
-    },
     {
      "player": "Divine Deablo",
      "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-22T00:56Z",
-     "note": "Deablo (arm) did not participate at the Falcons' practice Wednesday, Daniel Flick of The Atlanta Journal-Constitution reports."
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-23T17:21Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.07,
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.13,
+   "adj_points": 0.32,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Tavius Robinson",
+     "pos": "LB",
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-22T23:58Z",
+     "note": "Robinson (pectoral) did not participate at practice Thursday."
+    },
     {
      "player": "Jaylinn Hawkins",
      "pos": "S",
@@ -83,18 +83,35 @@
      "points": 0.07,
      "updated": "2026-10-23T00:07Z",
      "note": "Hawkins (knee) did not participate at practice Thursday."
-    },
-    {
-     "player": "Tavius Robinson",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-22T23:58Z",
-     "note": "Robinson (pectoral) did not participate at practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
+  },
+  "CAR": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Monroe Freeling",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-23T16:49Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Monroe Freeling",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-23T16:49Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CHI": {
    "adj_points": 0.09,
@@ -113,25 +130,9 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.65,
+   "adj_points": 0.35,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Denzel Boston",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-22T20:32Z",
-     "note": "Boston (foot) remained limited at Thursday's practice."
-    },
-    {
-     "player": "KC Concepcion",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-22T20:24Z",
-     "note": "Concepcion (calf/quadriceps) was a limited participant in Thursday's practice."
-    },
     {
      "player": "Tytus Howard",
      "pos": "T",
@@ -163,17 +164,9 @@
      "points": 0.06,
      "updated": "2026-10-22T23:49Z",
      "note": "Williams (neck) did not participate at the Browns' practice Thursday."
-    },
-    {
-     "player": "Carson Schwesinger",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-22T23:45Z",
-     "note": "Schwesinger (ankle) was a limited participant at the Browns' practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.3,
    "new_absences": []
   },
   "DAL": {
@@ -269,7 +262,7 @@
      "note": "Cisse (shoulder) was a limited participant in Wednesday's walkthrough session, Matt Schneidman of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "HOU": {
@@ -321,8 +314,8 @@
      "pos": "TE",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-23T16:09Z",
-     "note": "Warren (groin) was not practicing Friday, Nathan Brown of The Indianapolis Star reports."
+     "updated": "2026-10-23T16:52Z",
+     "note": "Warren (groin) is ruled out for Sunday's game against the Vikings, FOX59's Mike Chappell reports."
     },
     {
      "player": "Justin Walley",
@@ -333,7 +326,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "JAX": {
@@ -617,35 +610,27 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 0.66,
+   "adj_points": 1.0,
    "qb_out": false,
    "absences": [
     {
-     "player": "Emeka Egbuka",
-     "pos": "WR",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-10-23T16:43Z",
-     "note": "Egbuka (concussion) is doubtful for Sunday's game against the Panthers, Greg Auman of Fox Sports reports."
-    },
-    {
      "player": "Luke Goedeke",
      "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-23T01:40Z",
-     "note": "Goedeke (calf) did not participate at practice Thursday."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-23T17:15Z",
+     "note": "out"
     },
     {
-     "player": "Zyon McCollum",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-23T00:14Z",
-     "note": "McCollum (illness) was a limited participant at the Buccaneers' practice Thursday."
+     "player": "Emeka Egbuka",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-23T16:56Z",
+     "note": "Egbuka (concussion) has been ruled out for Sunday's game against the Panthers, Greg Auman of Fox Sports reports."
     }
    ],
-   "delta_since_last_pull": 0.3,
+   "delta_since_last_pull": 0.34,
    "new_absences": []
   },
   "TEN": {
