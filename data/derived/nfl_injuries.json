@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-23T16:00:34.399767+00:00",
-  "previous_pull": "2026-10-23T15:00:32.702427+00:00",
+  "injury_pull": "2026-10-23T17:00:31.005823+00:00",
+  "previous_pull": "2026-10-23T16:00:34.399767+00:00",
   "matched_absences": 60
  },
  "teams": {
@@ -233,9 +233,17 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.42,
+   "adj_points": 0.61,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Zaire Franklin",
+     "pos": "LB",
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-23T15:50Z",
+     "note": "out"
+    },
     {
      "player": "Matthew Golden",
      "pos": "WR",
@@ -259,17 +267,9 @@
      "points": 0.12,
      "updated": "2026-10-22T00:10Z",
      "note": "Cisse (shoulder) was a limited participant in Wednesday's walkthrough session, Matt Schneidman of The Athletic reports."
-    },
-    {
-     "player": "Zaire Franklin",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-23T00:35Z",
-     "note": "Franklin practiced in a limited capacity Thursday due to a shin injury."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
   },
   "HOU": {
@@ -305,7 +305,7 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.61,
+   "adj_points": 0.84,
    "qb_out": false,
    "absences": [
     {
@@ -317,23 +317,23 @@
      "note": "Gardner was diagnosed with a mild left calf strain following an MRI on Monday and is considered week-to-week, Ian Rapoport of NFL Network reports."
     },
     {
+     "player": "Tyler Warren",
+     "pos": "TE",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-23T16:09Z",
+     "note": "Warren (groin) was not practicing Friday, Nathan Brown of The Indianapolis Star reports."
+    },
+    {
      "player": "Justin Walley",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-21T19:57Z",
      "note": "questionable"
-    },
-    {
-     "player": "Tyler Warren",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-22T19:59Z",
-     "note": "Warren (groin) did not practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "JAX": {
@@ -617,16 +617,16 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 0.36,
+   "adj_points": 0.66,
    "qb_out": false,
    "absences": [
     {
      "player": "Emeka Egbuka",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-23T15:18Z",
-     "note": "Egbuka (concussion/foot) is practicing Friday, Greg Auman of Fox Sports reports."
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-10-23T16:43Z",
+     "note": "Egbuka (concussion) is doubtful for Sunday's game against the Panthers, Greg Auman of Fox Sports reports."
     },
     {
      "player": "Luke Goedeke",
@@ -645,7 +645,7 @@
      "note": "McCollum (illness) was a limited participant at the Buccaneers' practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.3,
    "new_absences": []
   },
   "TEN": {
