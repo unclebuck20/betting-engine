@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-24T20:00:31.756638+00:00",
-  "previous_pull": "2026-10-24T19:01:19.226911+00:00",
-  "matched_absences": 42
+  "injury_pull": "2026-10-24T21:00:33.749913+00:00",
+  "previous_pull": "2026-10-24T20:00:31.756638+00:00",
+  "matched_absences": 41
  },
  "teams": {
   "ARI": {
@@ -79,10 +79,10 @@
     {
      "player": "Tavius Robinson",
      "pos": "LB",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.25,
-     "updated": "2026-10-23T22:46Z",
-     "note": "Head coach Jesse Minter said Friday that Robinson will be sidelined for the rest of the 2026 season due to a pectoral injury, Cordell Woodland of 105.7 The Fan "
+     "updated": "2026-10-24T20:50Z",
+     "note": "The Ravens placed Robinson (pectoral) on injured reserve Saturday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -145,19 +145,19 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.21,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
     {
      "player": "Dee Winters",
      "pos": "LB",
-     "status": "Doubtful",
-     "points": 0.21,
-     "updated": "2026-10-19T23:31Z",
-     "note": "Winters sprained his Achilles during Sunday night's game against the Packers and will likely miss at least one game, Joe Hoyt of The Dallas Morning News reports"
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-24T20:36Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.04,
    "new_absences": []
   },
   "DEN": {
@@ -288,6 +288,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "LV": {
+   "adj_points": 0.06,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Quay Walker",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-24T20:01Z",
+     "note": "Walker (chest) is listed as questionable for Sunday's game against the Rams, Ryan McFadden of ESPN.com reports."
+    }
+   ],
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Quay Walker",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-24T20:01Z",
+     "note": "Walker (chest) is listed as questionable for Sunday's game against the Rams, Ryan McFadden of ESPN.com reports."
+    }
+   ]
+  },
   "LA": {
    "adj_points": 1.24,
    "qb_out": false,
@@ -393,7 +418,7 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 4.74,
+   "adj_points": 4.75,
    "qb_out": true,
    "absences": [
     {
@@ -409,36 +434,29 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-24T16:24Z",
-     "note": "Wicks (ankle) was not on the field for the start of Saturday's practice, Andrew DiCecco of Inside the Birds reports."
+     "updated": "2026-10-24T20:04Z",
+     "note": "Wicks (ankle) has been ruled out for Monday's game versus the Cowboys."
     },
     {
-     "player": "Willie Lampkin",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-10-24T02:22Z",
-     "note": "Lampkin (illness) was a limited participant in Friday's practice."
-    },
-    {
-     "player": "Dallas Goedert",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-24T17:59Z",
-     "note": "Goedert (knee) said he felt good at Saturday's practice after dealing with inflammation earlier in the week, Dave Zangaro of NBC Sports Philadelphia reports."
-    },
-    {
-     "player": "Tyler Steen",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-24T02:19Z",
-     "note": "Steen (shoulder) was a limited participant in Friday's practice."
+     "player": "Nolan Smith Jr.",
+     "pos": "LB",
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-24T20:20Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.38,
-   "new_absences": []
+   "delta_since_last_pull": 0.01,
+   "new_absences": [
+    {
+     "player": "Nolan Smith Jr.",
+     "pos": "LB",
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-24T20:20Z",
+     "note": "out"
+    }
+   ]
   },
   "SEA": {
    "adj_points": 0.32,
