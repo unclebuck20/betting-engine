@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-24T10:00:40.496917+00:00",
+ "built_at": "2026-10-24T10:30:36.219481+00:00",
  "mine": {
   "all": {
    "n": 12,
@@ -163,6 +163,27 @@
    "from": 0.0275,
    "to": 0.03,
    "evidence": "edges at or above the play threshold: avg closing-line value -0.75% over 91 picks"
+  },
+  {
+   "date": "2026-10-24",
+   "param": "cfb_weight_open",
+   "from": 0.2167,
+   "to": 0.1842,
+   "evidence": "college picks where our ratings drove the edge (model gap 3+): avg closing-line value -1.33% over 92 picks"
+  },
+  {
+   "date": "2026-10-24",
+   "param": "lean_ev",
+   "from": 0.015,
+   "to": 0.0175,
+   "evidence": "small edges (between the lean and play thresholds): avg closing-line value -1.29% over 60 picks"
+  },
+  {
+   "date": "2026-10-24",
+   "param": "play_ev",
+   "from": 0.03,
+   "to": 0.0325,
+   "evidence": "edges at or above the play threshold: avg closing-line value -0.31% over 96 picks"
   }
  ],
  "scout": {
@@ -207,5 +228,5 @@
   }
  },
  "calibration_note": "3 change(s)",
- "calibrated_at": "2026-10-18T09:30:39.255941+00:00"
+ "calibrated_at": "2026-10-24T10:00:41.065880+00:00"
 }
