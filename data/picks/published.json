@@ -20614,11 +20614,21 @@
   "flags": [
    "college injuries not checked yet"
   ],
-  "inj_check": null,
+  "inj_check": {
+   "at": "2026-10-24T18:58:00Z",
+   "text": "K-State QB Avery Johnson out (doubtful Fri night, ruled out Sat); line only -3 to -1.5. ASU: Keene starts, C Helton, OT Baklenko doubtful. Hold KSU.",
+   "hold": true,
+   "opp_out": false,
+   "sources": [
+    "https://sports.yahoo.com/articles/kansas-state-qb-avery-johnson-174646110.html",
+    "https://sports.yahoo.com/articles/latest-injury-kansas-state-wildcats-135938365.html",
+    "https://arizonasports.com/ncaa/arizona-state/asu-football/avery-johnson-kansas-state"
+   ]
+  },
   "held": false,
   "odds_pulled_at": "2026-10-24T01:59:15.616737+00:00",
   "published_at": "2026-10-24T01:59:20.074576+00:00",
-  "status": "live",
+  "status": "held",
   "history": [
    [
     "2026-10-24T01:59:20.074576+00:00",
@@ -20653,18 +20663,25 @@
    "ev_pct": 2.92,
    "confidence": 52.5
   },
-  "scout": null,
+  "scout": {
+   "verdict": "veto",
+   "reason": "K-State QB Avery Johnson ruled out (doubtful Fri night, out Sat); backup Knuth has 1 pass this year. Line moved only ~1.5 from -3 open.",
+   "at": "2026-10-24T18:58:00Z",
+   "sources": [
+    "https://sports.yahoo.com/articles/kansas-state-qb-avery-johnson-174646110.html",
+    "https://www.on3.com/news/kansas-state-qb-avery-johnson-out-vs-arizona-state-jacob-knuth-to-start",
+    "https://arizonasports.com/ncaa/arizona-state/asu-football/avery-johnson-kansas-state"
+   ]
+  },
   "latest": {
-   "tier": "lean",
+   "tier": "pass",
    "ev_pct": 2.92,
    "confidence": 52.5,
    "line": -1.5,
    "price": -104,
    "book": "fanduel",
    "why": "Pinnacle makes Kansas State -1; FanDuel has -1.5 (-104). Our in-season power ratings have Kansas State 7.9 pts better than the market. The line opened -3 and has moved toward Arizona State.",
-   "flags": [
-    "college injuries not checked yet"
-   ]
+   "flags": []
   }
  }
 }
