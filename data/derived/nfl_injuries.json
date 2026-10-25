@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-25T17:00:37.931748+00:00",
-  "previous_pull": "2026-10-25T16:00:33.765901+00:00",
-  "matched_absences": 37
+  "injury_pull": "2026-10-25T18:00:33.126921+00:00",
+  "previous_pull": "2026-10-25T17:00:37.931748+00:00",
+  "matched_absences": 39
  },
  "teams": {
   "ARI": {
@@ -65,7 +65,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.55,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
@@ -83,10 +83,27 @@
      "points": 0.25,
      "updated": "2026-10-24T20:50Z",
      "note": "The Ravens placed Robinson (pectoral) on injured reserve Saturday."
+    },
+    {
+     "player": "Olaivavega Ioane",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-25T17:48Z",
+     "note": "Ioane (knee) is questionable to return to Sunday's game against the Bengals, Ryan Mink of the Ravens' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Olaivavega Ioane",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-25T17:48Z",
+     "note": "Ioane (knee) is questionable to return to Sunday's game against the Bengals, Ryan Mink of the Ravens' official site reports."
+    }
+   ]
   },
   "CHI": {
    "adj_points": 0.09,
@@ -399,6 +416,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "SF": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Christian McCaffrey",
+     "pos": "RB",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-25T17:43Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Christian McCaffrey",
+     "pos": "RB",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-25T17:43Z",
+     "note": "questionable"
+    }
+   ]
   },
   "SEA": {
    "adj_points": 0.32,
