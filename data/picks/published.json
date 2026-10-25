@@ -18399,8 +18399,8 @@
    "confidence": 55.1,
    "line": 55.5,
    "price": -110,
-   "book": "draftkings",
-   "why": "Pinnacle's fair total is 56.5; DraftKings has Under 55.5 (-110). Our model projects 49.9 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "book": "fanduel",
+   "why": "Pinnacle's fair total is 56.5; FanDuel has Under 55.5 (-110). Our model projects 49.9 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
    "flags": [
     "model total is 6.5 pts off the market; usually missing weather or injury news",
     "totals backtest: 6+ pt disagreements went 45-54"
@@ -18620,25 +18620,31 @@
     -3.5,
     -110,
     "draftkings"
+   ],
+   [
+    "2026-10-25T19:30:35.101381+00:00",
+    -3.5,
+    -112,
+    "fanduel"
    ]
   ],
   "current": {
    "line": -3.5,
-   "price": -110,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695636N350_1",
-   "ev_pct": 0.18,
+   "price": -112,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096248&selectionId=50193",
+   "ev_pct": -0.67,
    "confidence": 52.5
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.18,
+   "ev_pct": -0.67,
    "confidence": 52.5,
    "line": -3.5,
-   "price": -110,
-   "book": "draftkings",
-   "why": "Pinnacle makes Lions -5.5; DraftKings has -3.5 (-110). Our NFL model makes Lions -4, 1.3 pts worse than the market.",
+   "price": -112,
+   "book": "fanduel",
+   "why": "Pinnacle makes Lions -5.5; FanDuel has -3.5 (-112). Our NFL model makes Lions -4, 1.3 pts worse than the market.",
    "flags": []
   }
  },
@@ -18847,7 +18853,7 @@
    "line": 3.5,
    "price": -120,
    "book": "draftkings",
-   "why": "Pinnacle makes Raiders +3; DraftKings has +3.5 (-120). Our NFL model makes Raiders +2, 1.3 pts better than the market. LA is without Kobie Turner (DE, injured reserve); injuries are worth ~1.2 pts to them by our injury model.",
+   "why": "Pinnacle makes Raiders +3; DraftKings has +3.5 (-120). Our NFL model makes Raiders +1.5, 1.6 pts better than the market. LA is without Trent McDuffie (CB, out); injuries are worth ~1.5 pts to them by our injury model.",
    "flags": []
   }
  },
