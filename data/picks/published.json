@@ -21028,35 +21028,114 @@
   ],
   "odds_pulled_at": "2026-10-25T16:00:33.765901+00:00",
   "published_at": "2026-10-25T18:00:37.738643+00:00",
-  "status": "off_board",
+  "status": "live",
   "history": [
    [
     "2026-10-25T18:00:37.738643+00:00",
     45.5,
     -115,
     "fanduel"
+   ],
+   [
+    "2026-10-25T22:30:36.996876+00:00",
+    45.5,
+    -118,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 45.5,
-   "price": -115,
+   "price": -118,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617889774&selectionId=7017917",
-   "ev_pct": 3.28,
-   "confidence": 55.2
+   "ev_pct": 2.38,
+   "confidence": 55.4
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 3.28,
-   "confidence": 55.2,
+   "ev_pct": 2.38,
+   "confidence": 55.4,
    "line": 45.5,
-   "price": -115,
+   "price": -118,
    "book": "fanduel",
-   "why": "The market average's fair total is 45.5; FanDuel has Under 45.5 (-115). Our model projects 41.4 points from both offenses' efficiency and pace.",
+   "why": "The market average's fair total is 45; FanDuel has Under 45.5 (-118). Our model projects 41.5 points from both offenses' efficiency and pace.",
    "flags": [
     "no sharp book has this total, so the fair number is a market average"
+   ]
+  }
+ },
+ "9c5d8f57e0ba0fbd9ef436c1f0898f99|Cincinnati Bengals": {
+  "id": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+  "pick_key": "9c5d8f57e0ba0fbd9ef436c1f0898f99|Cincinnati Bengals",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "TEN passing vs CIN pass D: -0.16 EPA/play vs average",
+   "CIN passing vs TEN pass D: +0.10 EPA/play vs average"
+  ],
+  "matchup": "Tennessee Titans @ Cincinnati Bengals",
+  "kickoff_utc": "2026-11-01T18:00:00Z",
+  "kickoff_pt": "Sun Nov 1, 10:00 AM PST",
+  "side": "Cincinnati Bengals",
+  "opponent": "Tennessee Titans",
+  "side_is_home": true,
+  "line": -10.0,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695563N1000_1",
+  "fair_line": -11.0,
+  "open_line": null,
+  "confidence": 54.6,
+  "ev_pct": 4.09,
+  "units": 0.5,
+  "price_floor": -10.0,
+  "floor_text": "Good to -10 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 11.1,
+  "model_home_margin": 14.5,
+  "model_weight": 0.21,
+  "hours_to_kick": 163.5,
+  "signals": [],
+  "why": "The market average makes Bengals -11; DraftKings has -10 (-110). Our NFL model makes Bengals -14.5, 3.4 pts better than the market.",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-10-25T22:30:31.545192+00:00",
+  "published_at": "2026-10-25T22:30:36.996876+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-10-25T22:30:36.996876+00:00",
+    -10.0,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": -10.0,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695563N1000_1",
+   "ev_pct": 4.09,
+   "confidence": 54.6
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 4.09,
+   "confidence": 54.6,
+   "line": -10.0,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average makes Bengals -11; DraftKings has -10 (-110). Our NFL model makes Bengals -14.5, 3.4 pts better than the market.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
    ]
   }
  }
