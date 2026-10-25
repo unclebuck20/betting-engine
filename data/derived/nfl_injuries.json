@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-25T19:30:30.528843+00:00",
-  "previous_pull": "2026-10-25T18:30:30.920072+00:00",
-  "matched_absences": 37
+  "injury_pull": "2026-10-25T20:30:31.503793+00:00",
+  "previous_pull": "2026-10-25T19:30:30.528843+00:00",
+  "matched_absences": 38
  },
  "teams": {
   "ARI": {
@@ -37,7 +37,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.31,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "ATL": {
@@ -113,21 +113,12 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-25T19:20Z",
-     "note": "questionable"
+     "updated": "2026-10-25T19:36Z",
+     "note": "Howard is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Tytus Howard",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-25T19:20Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DAL": {
    "adj_points": 0.25,
@@ -202,7 +193,7 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.8,
+   "adj_points": 0.92,
    "qb_out": false,
    "absences": [
     {
@@ -220,10 +211,27 @@
      "points": 0.3,
      "updated": "2026-10-25T15:38Z",
      "note": "inactive"
+    },
+    {
+     "player": "Justin Walley",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-25T19:25Z",
+     "note": "Walley (undisclosed) is questionable to return to Sunday's game against the Vikings."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Justin Walley",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-25T19:25Z",
+     "note": "Walley (undisclosed) is questionable to return to Sunday's game against the Vikings."
+    }
+   ]
   },
   "JAX": {
    "adj_points": 0.07,
@@ -274,8 +282,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-25T19:05Z",
-     "note": "inactive"
+     "updated": "2026-10-25T19:30Z",
+     "note": "McDuffie (groin) is inactive for Sunday's game against the Raiders, Sarah Barshop of ESPN.com reports."
     },
     {
      "player": "Kobie Turner",
@@ -294,31 +302,31 @@
      "note": "Adams (hamstring) was placed on injured reserve Tuesday, Ian Rapoport of NFL Network reports."
     }
    ],
-   "delta_since_last_pull": 0.26,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "MIA": {
+  "MIN": {
    "adj_points": 0.07,
    "qb_out": false,
    "absences": [
     {
-     "player": "Dante Trader Jr.",
-     "pos": "S",
+     "player": "Aaron Jones Sr.",
+     "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-25T18:59Z",
-     "note": "Trader (shoulder) is questionable to return to Sunday's contest against the Jets."
+     "updated": "2026-10-25T19:32Z",
+     "note": "Jones (knee) is questionable to return to Sunday's game against the Colts."
     }
    ],
    "delta_since_last_pull": 0.07,
    "new_absences": [
     {
-     "player": "Dante Trader Jr.",
-     "pos": "S",
+     "player": "Aaron Jones Sr.",
+     "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-25T18:59Z",
-     "note": "Trader (shoulder) is questionable to return to Sunday's contest against the Jets."
+     "updated": "2026-10-25T19:32Z",
+     "note": "Jones (knee) is questionable to return to Sunday's game against the Colts."
     }
    ]
   },
@@ -490,18 +498,11 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "SF": {
+  "MIA": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
    "delta_since_last_pull": -0.07,
-   "new_absences": []
-  },
-  "LV": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
