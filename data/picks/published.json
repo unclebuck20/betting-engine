@@ -18048,8 +18048,8 @@
    "price": -120,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096165&selectionId=50210",
-   "ev_pct": -2.97,
-   "confidence": 52.9
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -18168,7 +18168,15 @@
    "confidence": 54.8
   },
   "inj_check": null,
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "SF without WRs Evans and Samuel (Kirk questionable), Bosa out; dome, no weather; total drifting 49.5-50.5 with no news behind it.",
+   "at": "2026-10-25T13:55:00Z",
+   "sources": [
+    "https://www.49erswebzone.com/articles/204483-49ers-falcons-final-injury-report/",
+    "https://www.covers.com/sport/football/nfl/matchup/380018"
+   ]
+  },
   "latest": {
    "tier": "play",
    "ev_pct": 4.53,
@@ -18539,7 +18547,7 @@
   "held": false,
   "odds_pulled_at": "2026-10-18T23:30:24.908632+00:00",
   "published_at": "2026-10-18T23:30:30.564013+00:00",
-  "status": "moved",
+  "status": "live",
   "history": [
    [
     "2026-10-18T23:30:30.564013+00:00",
@@ -18595,14 +18603,14 @@
    "price": 100,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695636N350_1",
-   "ev_pct": 0.89,
-   "confidence": 50.4
+   "ev_pct": 1.89,
+   "confidence": 50.9
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 0.89,
-   "confidence": 50.4,
+   "tier": "lean",
+   "ev_pct": 1.89,
+   "confidence": 50.9,
    "line": -3.5,
    "price": 100,
    "book": "draftkings",
@@ -18680,13 +18688,19 @@
     -3.5,
     -115,
     "fanduel"
+   ],
+   [
+    "2026-10-25T14:00:53.541819+00:00",
+    -3.5,
+    -115,
+    "draftkings"
    ]
   ],
   "current": {
    "line": -3.5,
    "price": -115,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096212&selectionId=50202",
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695620N350_1",
    "ev_pct": null,
    "confidence": null
   },
@@ -19535,25 +19549,31 @@
     3.0,
     -118,
     "draftkings"
+   ],
+   [
+    "2026-10-25T14:00:53.541819+00:00",
+    3.0,
+    -112,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 3.0,
-   "price": -118,
+   "price": -112,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695457P300_3",
-   "ev_pct": null,
-   "confidence": null
+   "ev_pct": -1.24,
+   "confidence": 52.1
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.79,
-   "confidence": 52.4,
+   "ev_pct": -1.24,
+   "confidence": 52.1,
    "line": 3.0,
-   "price": -115,
+   "price": -112,
    "book": "draftkings",
-   "why": "Pinnacle makes Buccaneers +3; DraftKings has +3 (-115). Our NFL model makes Buccaneers +4.5, 1.7 pts worse than the market. TB is without Luke Goedeke (T, out); injuries are worth ~1.0 pts to them by our injury model.",
+   "why": "Pinnacle makes Buccaneers +3; DraftKings has +3 (-112). Our NFL model makes Buccaneers +4.5, 1.6 pts worse than the market. TB is without Luke Goedeke (T, out); injuries are worth ~1.0 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -20245,7 +20265,7 @@
    "line": -2.5,
    "price": -115,
    "book": "draftkings",
-   "why": "Pinnacle makes 49ers -2; DraftKings has -2.5 (-115). Our NFL model makes 49ers -8, 6.2 pts better than the market.",
+   "why": "Pinnacle makes 49ers -2; DraftKings has -2.5 (-115). Our NFL model makes 49ers -8, 6.0 pts better than the market.",
    "flags": []
   }
  },
@@ -20618,8 +20638,8 @@
    "price": -115,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096198&selectionId=50191",
-   "ev_pct": -1.45,
-   "confidence": 52.7
+   "ev_pct": 0.06,
+   "confidence": 53.5
   },
   "scout": {
    "verdict": "agree",
@@ -20631,12 +20651,12 @@
   },
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.45,
-   "confidence": 52.7,
+   "ev_pct": 0.06,
+   "confidence": 53.5,
    "line": -6.5,
    "price": -115,
    "book": "draftkings",
-   "why": "Pinnacle makes Vikings -7; DraftKings has -6.5 (-115). Our NFL model makes Vikings -9.5, 2.7 pts better than the market. IND is without Sauce Gardner (CB, out); injuries are worth ~0.9 pts to them by our injury model.",
+   "why": "Pinnacle makes Vikings -7.5; DraftKings has -6.5 (-115). Our NFL model makes Vikings -9.5, 2.2 pts better than the market. IND is without Sauce Gardner (CB, out); injuries are worth ~0.9 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -20877,32 +20897,38 @@
   "held": false,
   "odds_pulled_at": "2026-10-25T07:00:31.211259+00:00",
   "published_at": "2026-10-25T07:00:36.211244+00:00",
-  "status": "live",
+  "status": "moved",
   "history": [
    [
     "2026-10-25T07:00:36.211244+00:00",
     -6.5,
     -122,
     "fanduel"
+   ],
+   [
+    "2026-10-25T14:00:53.541819+00:00",
+    -7.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": -6.5,
-   "price": -122,
+   "line": -7.5,
+   "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619465338&selectionId=484737",
-   "ev_pct": 2.19,
-   "confidence": 56.2
+   "ev_pct": -0.18,
+   "confidence": 52.3
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.19,
-   "confidence": 56.2,
-   "line": -6.5,
-   "price": -122,
+   "tier": "pass",
+   "ev_pct": -0.18,
+   "confidence": 52.3,
+   "line": -7.5,
+   "price": -110,
    "book": "fanduel",
-   "why": "The market average makes NC State -6; FanDuel has -6.5 (-122). Our in-season power ratings have NC State 9.3 pts better than the market.",
+   "why": "The market average makes NC State -7.5; FanDuel has -7.5 (-110). Our in-season power ratings have NC State 7.9 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average",
     "college injuries not checked yet"
