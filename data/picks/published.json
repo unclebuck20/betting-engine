@@ -21028,7 +21028,7 @@
   ],
   "odds_pulled_at": "2026-10-25T16:00:33.765901+00:00",
   "published_at": "2026-10-25T18:00:37.738643+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-25T18:00:37.738643+00:00",
@@ -21048,22 +21048,20 @@
    "price": -118,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617889774&selectionId=7017917",
-   "ev_pct": 2.38,
-   "confidence": 55.4
+   "ev_pct": -0.04,
+   "confidence": 54.1
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.38,
-   "confidence": 55.4,
+   "tier": "pass",
+   "ev_pct": -0.04,
+   "confidence": 54.1,
    "line": 45.5,
    "price": -118,
    "book": "fanduel",
-   "why": "The market average's fair total is 45; FanDuel has Under 45.5 (-118). Our model projects 41.5 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
+   "why": "BetOnline/LowVig's fair total is 46; FanDuel has Under 45.5 (-118). Our model projects 41.5 points from both offenses' efficiency and pace.",
+   "flags": []
   }
  },
  "9c5d8f57e0ba0fbd9ef436c1f0898f99|Cincinnati Bengals": {
@@ -21122,21 +21120,19 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695563N1000_1",
-   "ev_pct": 4.09,
-   "confidence": 54.6
+   "ev_pct": 2.48,
+   "confidence": 53.7
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 4.09,
-   "confidence": 54.6,
+   "ev_pct": 2.48,
+   "confidence": 53.7,
    "line": -10.0,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average makes Bengals -11; DraftKings has -10 (-110). Our NFL model makes Bengals -14.5, 3.4 pts better than the market.",
-   "flags": [
-    "no sharp book has this game, so the fair line is a market average"
-   ]
+   "why": "BetOnline/LowVig makes Bengals -10.5; DraftKings has -10 (-110). Our NFL model makes Bengals -14.5, 3.9 pts better than the market.",
+   "flags": []
   }
  }
 }
