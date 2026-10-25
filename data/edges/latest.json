@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-25T14:00:50.128972+00:00",
+  "built_at": "2026-10-25T15:00:44.529091+00:00",
   "nfl_history_games": 5525,
   "cfb_history_games": 3730,
   "games": 64
@@ -12,28 +12,28 @@
    "matchup": "San Francisco 49ers @ Atlanta Falcons",
    "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -2.0,
+   "fair_home_margin": -1.8,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": 2.5,
      "price": -107,
-     "ev": -0.0019
+     "ev": -0.0106
     },
     {
-     "book": "pinnacle",
-     "side": "away",
+     "book": "espnbet",
+     "side": "home",
      "home_line": 2.5,
-     "price": -111,
-     "ev": -0.0193
+     "price": 100,
+     "ev": -0.0228
     },
     {
-     "book": "betonlineag",
-     "side": "away",
+     "book": "hardrockbet",
+     "side": "home",
      "home_line": 2.5,
-     "price": -112,
-     "ev": -0.0235
+     "price": 100,
+     "ev": -0.0228
     }
    ]
   },
@@ -74,28 +74,28 @@
    "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
    "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 3.1,
+   "fair_home_margin": 3.0,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -3.0,
-     "price": -109,
-     "ev": -0.0008
-    },
     {
      "book": "draftkings",
      "side": "away",
      "home_line": -3.0,
-     "price": -112,
-     "ev": -0.0124
+     "price": -110,
+     "ev": 0.0009
     },
     {
-     "book": "pinnacle",
-     "side": "home",
+     "book": "lowvig",
+     "side": "away",
      "home_line": -3.0,
-     "price": 104,
-     "ev": -0.0208
+     "price": -110,
+     "ev": 0.0009
+    },
+    {
+     "book": "betmgm",
+     "side": "away",
+     "home_line": -3.0,
+     "price": -110,
+     "ev": 0.0009
     }
    ]
   },
@@ -108,25 +108,25 @@
    "fair_home_margin": -0.2,
    "best": [
     {
-     "book": "hardrockbet",
+     "book": "lowvig",
+     "side": "home",
+     "home_line": 1.0,
+     "price": 110,
+     "ev": 0.0076
+    },
+    {
+     "book": "betmgm",
      "side": "home",
      "home_line": 2.5,
      "price": -110,
      "ev": -0.0089
     },
     {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": 1.5,
-     "price": 100,
-     "ev": -0.0163
-    },
-    {
-     "book": "draftkings",
+     "book": "hardrockbet",
      "side": "home",
      "home_line": 2.5,
-     "price": -112,
-     "ev": -0.0173
+     "price": -110,
+     "ev": -0.0089
     }
    ]
   },
@@ -136,28 +136,28 @@
    "matchup": "New York Giants @ Houston Texans",
    "kickoff_pt": "Sun Oct 25 10:00 AM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 11.2,
+   "fair_home_margin": 11.3,
    "best": [
     {
      "book": "lowvig",
      "side": "home",
      "home_line": -10.5,
      "price": -102,
-     "ev": -0.0192
+     "ev": -0.0115
     },
     {
      "book": "pinnacle",
      "side": "home",
      "home_line": -10.5,
-     "price": -102,
-     "ev": -0.0192
+     "price": -103,
+     "ev": -0.0162
     },
     {
      "book": "espnbet",
      "side": "home",
      "home_line": -10.0,
      "price": -115,
-     "ev": -0.0231
+     "ev": -0.0163
     }
    ]
   },
@@ -170,25 +170,25 @@
    "fair_home_margin": 7.5,
    "best": [
     {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -114,
-     "ev": -0.0029
-    },
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -115,
-     "ev": -0.0069
-    },
-    {
      "book": "fanduel",
      "side": "home",
      "home_line": -6.5,
      "price": -115,
      "ev": -0.0069
+    },
+    {
+     "book": "espnbet",
+     "side": "home",
+     "home_line": -6.5,
+     "price": -115,
+     "ev": -0.0069
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -7.0,
+     "price": -102,
+     "ev": -0.014
     }
    ]
   },
@@ -201,6 +201,13 @@
    "fair_home_margin": 4.9,
    "best": [
     {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -4.5,
+     "price": -110,
+     "ev": 0.0044
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": -4.0,
@@ -208,18 +215,11 @@
      "ev": -0.0019
     },
     {
-     "book": "betmgm",
+     "book": "pinnacle",
      "side": "away",
      "home_line": -4.0,
      "price": -108,
      "ev": -0.015
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": -4.0,
-     "price": -109,
-     "ev": -0.0193
     }
    ]
   },
@@ -266,15 +266,8 @@
      "book": "draftkings",
      "side": "home",
      "home_line": -3.5,
-     "price": 100,
-     "ev": 0.0189
-    },
-    {
-     "book": "hardrockbet",
-     "side": "home",
-     "home_line": -3.5,
-     "price": -105,
-     "ev": -0.0053
+     "price": -108,
+     "ev": -0.0188
     },
     {
      "book": "fanduel",
@@ -282,6 +275,13 @@
      "home_line": -3.5,
      "price": -108,
      "ev": -0.0188
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -3.5,
+     "price": 100,
+     "ev": -0.0189
     }
    ]
   },
