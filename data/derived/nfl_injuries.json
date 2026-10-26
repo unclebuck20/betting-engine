@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-26T02:30:29.438892+00:00",
-  "previous_pull": "2026-10-26T01:30:30.373685+00:00",
-  "matched_absences": 40
+  "injury_pull": "2026-10-26T03:30:27.033982+00:00",
+  "previous_pull": "2026-10-26T02:30:29.438892+00:00",
+  "matched_absences": 41
  },
  "teams": {
   "ARI": {
@@ -441,9 +441,17 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 0.25,
+   "adj_points": 0.75,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Charles Cross",
+     "pos": "T",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-26T03:14Z",
+     "note": "out"
+    },
     {
      "player": "Drake Thomas",
      "pos": "LB",
@@ -453,8 +461,17 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Charles Cross",
+     "pos": "T",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-26T03:14Z",
+     "note": "out"
+    }
+   ]
   },
   "TB": {
    "adj_points": 1.0,
