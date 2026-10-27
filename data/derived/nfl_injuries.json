@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 587,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-27T01:30:28.763970+00:00",
-  "previous_pull": "2026-10-27T00:30:30.298714+00:00",
-  "matched_absences": 32
+  "injury_pull": "2026-10-27T02:25:52.991113+00:00",
+  "previous_pull": "2026-10-27T01:30:28.763970+00:00",
+  "matched_absences": 31
  },
  "teams": {
   "ARI": {
@@ -240,22 +240,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "LA": {
-   "adj_points": 0.5,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Davante Adams",
-     "pos": "WR",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-10-20T21:36Z",
-     "note": "Adams (hamstring) was placed on injured reserve Tuesday, Ian Rapoport of NFL Network reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "MIN": {
    "adj_points": 0.07,
    "qb_out": false,
@@ -430,6 +414,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "LA": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.5,
    "new_absences": []
   }
  }
