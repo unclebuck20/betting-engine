@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 584,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-28T16:32:02.064301+00:00",
-  "previous_pull": "2026-10-28T15:30:35.322331+00:00",
-  "matched_absences": 30
+  "injury_pull": "2026-10-28T17:26:20.284707+00:00",
+  "previous_pull": "2026-10-28T16:32:02.064301+00:00",
+  "matched_absences": 32
  },
  "teams": {
   "ARI": {
@@ -109,17 +109,8 @@
      "note": "Howard is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Jared Verse",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-28T16:16Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DEN": {
    "adj_points": 0.21,
@@ -306,7 +297,7 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.12,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
@@ -316,17 +307,25 @@
      "points": 0.12,
      "updated": "2026-10-28T16:19Z",
      "note": "questionable"
+    },
+    {
+     "player": "Braelon Allen",
+     "pos": "RB",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T16:38Z",
+     "note": "Jets head coach Aaron Glenn said that Allen will be a limited participant in Wednesday's practice due to ankle injury, Zack Rosenblatt of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
+   "delta_since_last_pull": 0.07,
    "new_absences": [
     {
-     "player": "David Bailey",
-     "pos": "DE",
+     "player": "Braelon Allen",
+     "pos": "RB",
      "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-28T16:19Z",
-     "note": "questionable"
+     "points": 0.07,
+     "updated": "2026-10-28T16:38Z",
+     "note": "Jets head coach Aaron Glenn said that Allen will be a limited participant in Wednesday's practice due to ankle injury, Zack Rosenblatt of The Athletic reports."
     }
    ]
   },
@@ -409,6 +408,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "TEN": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Carnell Tate",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T17:11Z",
+     "note": "Titans head coach Robert Saleh said that Tate won't practice Wednesday due to a shoulder injury, Turron Davenport of ESPN.com reports."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Carnell Tate",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T17:11Z",
+     "note": "Titans head coach Robert Saleh said that Tate won't practice Wednesday due to a shoulder injury, Turron Davenport of ESPN.com reports."
+    }
+   ]
   },
   "WAS": {
    "adj_points": 0.07,
