@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 584,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-28T15:30:35.322331+00:00",
-  "previous_pull": "2026-10-28T14:30:27.538465+00:00",
-  "matched_absences": 28
+  "injury_pull": "2026-10-28T16:32:02.064301+00:00",
+  "previous_pull": "2026-10-28T15:30:35.322331+00:00",
+  "matched_absences": 30
  },
  "teams": {
   "ARI": {
@@ -89,9 +89,17 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.12,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Jared Verse",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T16:16Z",
+     "note": "questionable"
+    },
     {
      "player": "Tytus Howard",
      "pos": "T",
@@ -101,8 +109,17 @@
      "note": "Howard is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Jared Verse",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T16:16Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.21,
@@ -288,6 +305,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "NYJ": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "David Bailey",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T16:19Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "David Bailey",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T16:19Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "PHI": {
    "adj_points": 0.19,
    "qb_out": false,
@@ -349,16 +391,16 @@
    "qb_out": false,
    "absences": [
     {
-     "player": "Luke Goedeke",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-27T13:11Z",
-     "note": "questionable"
-    },
-    {
      "player": "Emeka Egbuka",
      "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T16:09Z",
+     "note": "Egbuka (concussion/foot) was on the field for the start of Wednesday's practice and was donning a non-contact jersey, Greg Auman of Fox Sports reports."
+    },
+    {
+     "player": "Luke Goedeke",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-27T13:11Z",
