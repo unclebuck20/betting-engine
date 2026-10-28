@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 584,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-28T21:00:41.644975+00:00",
-  "previous_pull": "2026-10-28T20:30:33.865002+00:00",
-  "matched_absences": 47
+  "injury_pull": "2026-10-28T21:54:04.880724+00:00",
+  "previous_pull": "2026-10-28T21:00:41.644975+00:00",
+  "matched_absences": 60
  },
  "teams": {
   "ARI": {
@@ -49,7 +49,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.32,
+   "adj_points": 0.58,
    "qb_out": false,
    "absences": [
     {
@@ -61,6 +61,30 @@
      "note": "Ioane (knee) is expected to miss time after suffering an MCL sprain during Sunday's game versus the Bengals, Jamison Hensley of ESPN.com reports."
     },
     {
+     "player": "Ronnie Stanley",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T21:26Z",
+     "note": "questionable"
+    },
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T21:26Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kyle Hamilton",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T01:13Z",
+     "note": "Hamilton recorded four tackles (three solo) during Sunday's 35-13 loss versus the Bengals."
+    },
+    {
      "player": "Roquan Smith",
      "pos": "LB",
      "status": "Questionable",
@@ -69,8 +93,90 @@
      "note": "Smith recorded eight tackles (five solo) during Sunday's 35-13 loss versus the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.26,
+   "new_absences": [
+    {
+     "player": "Ronnie Stanley",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T21:26Z",
+     "note": "questionable"
+    },
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T21:26Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kyle Hamilton",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T01:13Z",
+     "note": "Hamilton recorded four tackles (three solo) during Sunday's 35-13 loss versus the Bengals."
+    }
+   ]
+  },
+  "BUF": {
+   "adj_points": 0.25,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Spencer Brown",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T21:20Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dalton Kincaid",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T21:43Z",
+     "note": "Kincaid was a limited participant in Wednesday's practice due to a chest injury."
+    },
+    {
+     "player": "Bradley Chubb",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T21:22Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.25,
+   "new_absences": [
+    {
+     "player": "Spencer Brown",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T21:20Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dalton Kincaid",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T21:43Z",
+     "note": "Kincaid was a limited participant in Wednesday's practice due to a chest injury."
+    },
+    {
+     "player": "Bradley Chubb",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T21:22Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.8,
@@ -122,7 +228,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-28T20:22Z",
-     "note": "Chase (ankle/rest) was listed as a non-participant for Wednesday's practice, Ben Baby of ESPN.com reports."
+     "note": "Chase was listed as a non-participant in Wednesday's practice due to an ankle injury and rest, Ben Baby of ESPN.com reports."
     },
     {
      "player": "Jordan Battle",
@@ -169,8 +275,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-28T14:08Z",
-     "note": "Waddle aggravated a previous chest injury during last week's 30-16 win over the Cardinals, and his status for Sunday's game against the Chiefs will be determine"
+     "updated": "2026-10-28T21:01Z",
+     "note": "Waddle (chest) was present for Wednesday's practice, Zac Stevens of TheDNVR.com reports."
     },
     {
      "player": "Zach Allen",
@@ -205,17 +311,8 @@
      "note": "Gibbs (shoulder) did not practice Wednesday."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Jahmyr Gibbs",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-28T20:43Z",
-     "note": "Gibbs (shoulder) did not practice Wednesday."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "GB": {
    "adj_points": 1.07,
@@ -305,6 +402,72 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "LV": {
+   "adj_points": 0.13,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Brock Bowers",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T21:28Z",
+     "note": "Bowers (calf) was listed as a limited participant in Wednesday's practice, Paul Gutierrez of the Raiders' official site reports."
+    },
+    {
+     "player": "Quay Walker",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T01:24Z",
+     "note": "Walker posted 12 tackles (six solo) in Sunday's Week 7 loss to the Rams."
+    }
+   ],
+   "delta_since_last_pull": 0.13,
+   "new_absences": [
+    {
+     "player": "Brock Bowers",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T21:28Z",
+     "note": "Bowers (calf) was listed as a limited participant in Wednesday's practice, Paul Gutierrez of the Raiders' official site reports."
+    },
+    {
+     "player": "Quay Walker",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T01:24Z",
+     "note": "Walker posted 12 tackles (six solo) in Sunday's Week 7 loss to the Rams."
+    }
+   ]
+  },
+  "LA": {
+   "adj_points": 0.5,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Davante Adams",
+     "pos": "WR",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-10-28T20:59Z",
+     "note": "Head coach Sean McVay said Wednesday that Adams had successful surgery on his left hamstring, and the Rams are hopeful that the wide receiver will be able to re"
+    }
+   ],
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Davante Adams",
+     "pos": "WR",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-10-28T20:59Z",
+     "note": "Head coach Sean McVay said Wednesday that Adams had successful surgery on his left hamstring, and the Rams are hopeful that the wide receiver will be able to re"
+    }
+   ]
+  },
   "MIA": {
    "adj_points": 0.4,
    "qb_out": false,
@@ -314,8 +477,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-28T20:29Z",
-     "note": "questionable"
+     "updated": "2026-10-28T20:55Z",
+     "note": "Washington was a limited participant in Wednesday's practice due to a knee injury, Marcel Louis-Jacques of ESPN.com reports."
     },
     {
      "player": "Greg Dulcich",
@@ -350,54 +513,29 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.4,
-   "new_absences": [
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "MIN": {
+   "adj_points": 0.26,
+   "qb_out": false,
+   "absences": [
     {
-     "player": "Malik Washington",
-     "pos": "WR",
+     "player": "Brian O'Neill",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-28T20:29Z",
+     "updated": "2026-10-28T21:36Z",
      "note": "questionable"
     },
     {
-     "player": "Greg Dulcich",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-28T20:48Z",
-     "note": "Dulcich was a limited participant in Wednesday's practice due to an ankle injury, Marcel Louis-Jacques of ESPN.com reports."
-    },
-    {
-     "player": "Michael Taaffe",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-28T20:36Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Dante Trader Jr.",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-28T20:32Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Kadyn Proctor",
+     "player": "Joe Huber",
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-28T20:31Z",
+     "updated": "2026-10-28T21:36Z",
      "note": "questionable"
-    }
-   ]
-  },
-  "MIN": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
+    },
     {
      "player": "Aaron Jones Sr.",
      "pos": "RB",
@@ -407,8 +545,25 @@
      "note": "Head coach Kevin O'Connell said Jones (knee) won't practice Wednesday, Alec Lewis of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "Brian O'Neill",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T21:36Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Joe Huber",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-28T21:36Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NE": {
    "adj_points": 0.34,
@@ -420,7 +575,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-10-28T20:28Z",
-     "note": "Brown (ankle/knee) was a limited participant in Wednesday's practice."
+     "note": "Brown was a limited participant in Wednesday's practice due to knee and ankle injuries."
     },
     {
      "player": "Morgan Moses",
@@ -439,25 +594,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.24,
-   "new_absences": [
-    {
-     "player": "A.J. Brown",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-28T20:28Z",
-     "note": "Brown (ankle/knee) was a limited participant in Wednesday's practice."
-    },
-    {
-     "player": "Morgan Moses",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-28T20:26Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NO": {
    "adj_points": 0.07,
@@ -524,9 +662,17 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.19,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Dameon Pierce",
+     "pos": "RB",
+     "status": "Injured Reserve",
+     "points": 0.3,
+     "updated": "2026-10-28T21:17Z",
+     "note": "The Eagles placed Pierce (undisclosed) on injured reserve Wednesday"
+    },
     {
      "player": "Dontayvion Wicks",
      "pos": "WR",
@@ -534,18 +680,51 @@
      "points": 0.12,
      "updated": "2026-10-27T13:11Z",
      "note": "questionable"
-    },
-    {
-     "player": "Dameon Pierce",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-27T14:28Z",
-     "note": "Pierce didn't take the field for either of the Eagles' final two possessions of Monday's 38-21 loss to the Cowboys after sustaining an undisclosed injury with 8"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
+  },
+  "PIT": {
+   "adj_points": 0.18,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jalen Ramsey",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T21:31Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Alex Highsmith",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T21:32Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.18,
+   "new_absences": [
+    {
+     "player": "Jalen Ramsey",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-28T21:31Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Alex Highsmith",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T21:32Z",
+     "note": "questionable"
+    }
+   ]
   },
   "SF": {
    "adj_points": 0.07,
@@ -608,17 +787,8 @@
      "note": "Trotter logged 10 tackles and a defensed pass in Sunday's 43-13 win over Carolina."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Josiah Trotter",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-28T01:47Z",
-     "note": "Trotter logged 10 tackles and a defensed pass in Sunday's 43-13 win over Carolina."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "TEN": {
    "adj_points": 0.12,
