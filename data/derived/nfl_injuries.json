@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 584,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-28T18:30:32.287374+00:00",
-  "previous_pull": "2026-10-28T17:26:20.284707+00:00",
-  "matched_absences": 32
+  "injury_pull": "2026-10-28T19:30:27.154107+00:00",
+  "previous_pull": "2026-10-28T18:30:32.287374+00:00",
+  "matched_absences": 33
  },
  "teams": {
   "ARI": {
@@ -33,7 +33,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.26,
+   "adj_points": 0.32,
    "qb_out": false,
    "absences": [
     {
@@ -43,10 +43,27 @@
      "points": 0.26,
      "updated": "2026-10-28T00:20Z",
      "note": "Ioane (knee) is expected to miss time after suffering an MCL sprain during Sunday's game versus the Bengals, Jamison Hensley of ESPN.com reports."
+    },
+    {
+     "player": "Roquan Smith",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T01:09Z",
+     "note": "Smith recorded eight tackles (five solo) during Sunday's 35-13 loss versus the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Roquan Smith",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-28T01:09Z",
+     "note": "Smith recorded eight tackles (five solo) during Sunday's 35-13 loss versus the Bengals."
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.8,
@@ -69,7 +86,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.61,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CHI": {
@@ -153,7 +170,7 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.8,
+   "adj_points": 1.07,
    "qb_out": false,
    "absences": [
     {
@@ -165,31 +182,31 @@
      "note": "Rhyan was diagnosed with a high ankle sprain and is expected to miss at least one month, Matt Zenitz of CBSSports.com reports."
     },
     {
+     "player": "Travis Glover",
+     "pos": "G",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-28T19:04Z",
+     "note": "out"
+    },
+    {
      "player": "Zaire Franklin",
      "pos": "LB",
-     "status": "Doubtful",
-     "points": 0.21,
-     "updated": "2026-10-26T21:03Z",
-     "note": "Franklin suffered a hairline fracture in his shin during last Thursday's practice, Rob Demovsky of ESPN.com reports."
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-10-28T19:04Z",
+     "note": "out"
     },
     {
      "player": "Matthew Golden",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-27T20:21Z",
-     "note": "Golden (shoulder/foot) didn't participate in Tuesday's walkthrough practice."
-    },
-    {
-     "player": "Travis Glover",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-26T21:53Z",
-     "note": "questionable"
+     "updated": "2026-10-28T19:12Z",
+     "note": "Golden (shoulder/foot) is listed as questionable for Thursday's game against the Panthers, Weston Hodkiewicz of the Packers' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.27,
    "new_absences": []
   },
   "IND": {
@@ -429,7 +446,7 @@
      "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
