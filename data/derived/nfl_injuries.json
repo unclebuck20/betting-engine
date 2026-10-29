@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 584,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-29T22:30:24.769457+00:00",
-  "previous_pull": "2026-10-29T21:30:27.504669+00:00",
-  "matched_absences": 67
+  "injury_pull": "2026-10-29T23:30:31.255738+00:00",
+  "previous_pull": "2026-10-29T22:30:24.769457+00:00",
+  "matched_absences": 68
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.45,
+   "adj_points": 0.54,
    "qb_out": false,
    "absences": [
     {
@@ -19,6 +19,14 @@
      "points": 0.12,
      "updated": "2026-10-29T20:42Z",
      "note": "Wilson (ribs) wore a yellow non-contact jersey for a second consecutive practice Thursday, Bo Brack of PHNX Cardinals reports."
+    },
+    {
+     "player": "Hjalte Froholdt",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-29T23:08Z",
+     "note": "questionable"
     },
     {
      "player": "Elijah Wilkinson",
@@ -53,8 +61,17 @@
      "note": "Wilson (knee) did not participate at practice Wednesday, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Hjalte Froholdt",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-10-29T23:08Z",
+     "note": "questionable"
+    }
+   ]
   },
   "ATL": {
    "adj_points": 0.3,
@@ -81,8 +98,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-10-29T19:48Z",
-     "note": "questionable"
+     "updated": "2026-10-29T22:44Z",
+     "note": "Daniels (Achilles) was limited in Thursday's practice, Will McFadden of the team's official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -337,7 +354,7 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 1.19,
+   "adj_points": 0.95,
    "qb_out": false,
    "absences": [
     {
@@ -345,43 +362,27 @@
      "pos": "C",
      "status": "Out",
      "points": 0.4,
-     "updated": "2026-10-29T01:39Z",
-     "note": "Rhyan (ankle) has been ruled out for Green Bay's matchup versus the Panthers on Thursday."
+     "updated": "2026-10-29T22:54Z",
+     "note": "inactive"
     },
     {
      "player": "Travis Glover",
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-29T01:43Z",
-     "note": "Glover (knee) won't play in Green Bay's game versus Carolina on Thursday."
+     "updated": "2026-10-29T22:54Z",
+     "note": "inactive"
     },
     {
      "player": "Zaire Franklin",
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-10-28T23:55Z",
-     "note": "Franklin (shin) has been ruled out for Thursday's game against the Panthers, Wes Hodkiewicz of the Packers' official site reports."
-    },
-    {
-     "player": "Keisean Nixon",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-29T18:12Z",
-     "note": "Nixon (shoulder) is questionable for Thursday's game against the Panthers."
-    },
-    {
-     "player": "Matthew Golden",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-29T14:10Z",
-     "note": "The Packers expect Golden (shoulder/foot), who is listed as questionable for Thursday night's game against the Panthers, to suit up, James Palmer of NFL on Prim"
+     "updated": "2026-10-29T22:54Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.24,
    "new_absences": []
   },
   "IND": {
@@ -473,8 +474,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-28T23:18Z",
-     "note": "Parkinson did not participate in Wednesday's practice due to a rib injury, Adam Grosbard of The Orange County Register reports."
+     "updated": "2026-10-29T23:12Z",
+     "note": "Parkinson (ribs) didn't practice Thursday, Sarah Barshop of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -541,7 +542,7 @@
      "note": "Jones (knee) was limited at Thursday's practice."
     }
    ],
-   "delta_since_last_pull": -0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NE": {
@@ -697,7 +698,7 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 0.42,
+   "adj_points": 0.55,
    "qb_out": false,
    "absences": [
     {
@@ -707,10 +708,43 @@
      "points": 0.42,
      "updated": "2026-10-26T21:41Z",
      "note": "Cross underwent an MRI and was diagnosed with a high ankle sprain, Ian Rapoport of NFL Network reports."
+    },
+    {
+     "player": "Leonard Williams",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-29T22:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Tyrice Knight",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-29T22:54Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.13,
+   "new_absences": [
+    {
+     "player": "Leonard Williams",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-29T22:55Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Tyrice Knight",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-29T22:54Z",
+     "note": "questionable"
+    }
+   ]
   },
   "TB": {
    "adj_points": 0.24,
@@ -765,7 +799,7 @@
      "note": "Head coach Dan Quinn said Wednesday that Kinlaw (knee) is \"unlikely\" to play against the Eagles on Sunday, Zach Selby of the Commanders' official site reports."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }

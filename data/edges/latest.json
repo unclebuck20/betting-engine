@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-10-29T22:30:36.747902+00:00",
+  "built_at": "2026-10-29T23:30:32.638780+00:00",
   "nfl_history_games": 5538,
   "cfb_history_games": 3730,
-  "games": 98
+  "games": 96
  },
  "games": [
   {
@@ -12,28 +12,28 @@
    "matchup": "Carolina Panthers @ Green Bay Packers",
    "kickoff_pt": "Thu Oct 29 5:15 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 4.9,
+   "fair_home_margin": 4.8,
    "best": [
+    {
+     "book": "pinnacle",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -104,
+     "ev": -0.0175
+    },
     {
      "book": "lowvig",
      "side": "home",
      "home_line": -3.5,
      "price": -104,
-     "ev": -0.0111
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -3.5,
-     "price": -105,
-     "ev": -0.0157
+     "ev": -0.0209
     },
     {
      "book": "betmgm",
-     "side": "home",
+     "side": "away",
      "home_line": -3.5,
      "price": -105,
-     "ev": -0.0157
+     "ev": -0.0221
     }
    ]
   },
@@ -84,18 +84,18 @@
      "ev": -0.0056
     },
     {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": -2.0,
+     "price": -112,
+     "ev": -0.0077
+    },
+    {
      "book": "fanduel",
      "side": "home",
      "home_line": -2.5,
      "price": -106,
      "ev": -0.0101
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": -2.5,
-     "price": -108,
-     "ev": -0.019
     }
    ]
   },
@@ -264,10 +264,10 @@
    "best": [
     {
      "book": "lowvig",
-     "side": "away",
+     "side": "home",
      "home_line": -1.0,
-     "price": 101,
-     "ev": -0.0092
+     "price": -107,
+     "ev": -0.0184
     },
     {
      "book": "pinnacle",
@@ -277,11 +277,11 @@
      "ev": -0.0235
     },
     {
-     "book": "betrivers",
-     "side": "home",
+     "book": "lowvig",
+     "side": "away",
      "home_line": -1.0,
-     "price": -110,
-     "ev": -0.0311
+     "price": -103,
+     "ev": -0.0281
     }
    ]
   },
@@ -902,68 +902,6 @@
      "home_line": 2.5,
      "price": -110,
      "ev": -0.0034
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
-   "matchup": "Florida Atlantic Owls @ North Texas Mean Green",
-   "kickoff_pt": "Thu Oct 29 4:30 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 16.0,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -14.0,
-     "price": -108,
-     "ev": -0.0051
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": -14.0,
-     "price": -110,
-     "ev": -0.0135
-    },
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -14.0,
-     "price": -112,
-     "ev": -0.0216
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "0540f5758ac50f3bb60beb36755f7a1e",
-   "matchup": "Troy Trojans @ James Madison Dukes",
-   "kickoff_pt": "Thu Oct 29 4:30 PM PDT",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 20.4,
-   "best": [
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -18.5,
-     "price": -110,
-     "ev": 0.0029
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -19.5,
-     "price": -102,
-     "ev": 0.0007
-    },
-    {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -19.5,
-     "price": -105,
-     "ev": -0.0134
     }
    ]
   },
