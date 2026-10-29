@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 584,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-29T19:00:37.691682+00:00",
-  "previous_pull": "2026-10-29T18:00:35.059263+00:00",
-  "matched_absences": 74
+  "injury_pull": "2026-10-29T20:00:32.036458+00:00",
+  "previous_pull": "2026-10-29T19:00:37.691682+00:00",
+  "matched_absences": 76
  },
  "teams": {
   "ARI": {
@@ -57,9 +57,17 @@
    "new_absences": []
   },
   "ATL": {
-   "adj_points": 0.12,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Cameron Thomas",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-29T19:49Z",
+     "note": "questionable"
+    },
     {
      "player": "Jawaan Taylor",
      "pos": "T",
@@ -67,10 +75,35 @@
      "points": 0.12,
      "updated": "2026-10-28T20:01Z",
      "note": "questionable"
+    },
+    {
+     "player": "Kendal Daniels",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-29T19:48Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.18,
+   "new_absences": [
+    {
+     "player": "Cameron Thomas",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-29T19:49Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Kendal Daniels",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-29T19:48Z",
+     "note": "questionable"
+    }
+   ]
   },
   "BAL": {
    "adj_points": 0.39,
@@ -381,17 +414,8 @@
      "note": "The Packers expect Golden (shoulder/foot), who is listed as questionable for Thursday night's game against the Panthers, to suit up, James Palmer of NFL on Prim"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Keisean Nixon",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-29T18:12Z",
-     "note": "Nixon (shoulder) is questionable for Thursday's game against the Panthers."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "IND": {
    "adj_points": 0.19,
@@ -426,8 +450,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-28T20:16Z",
-     "note": "Meyers (hamstring) was a limited participant in Wednesday's practice due to a hamstring injury."
+     "updated": "2026-10-29T19:55Z",
+     "note": "Meyers (hamstring) was a limited participant in Thursday's practice."
     },
     {
      "player": "Antonio Johnson",
@@ -454,17 +478,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Mansoor Delane",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-29T18:52Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LV": {
    "adj_points": 0.13,
@@ -583,20 +598,20 @@
      "note": "questionable"
     },
     {
+     "player": "Aaron Jones Sr.",
+     "pos": "RB",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-29T19:56Z",
+     "note": "Jones (knee) is participating in Thursday's practice, Kevin Seifert of ESPN.com reports."
+    },
+    {
      "player": "Joe Huber",
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-10-28T21:36Z",
      "note": "questionable"
-    },
-    {
-     "player": "Aaron Jones Sr.",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-28T18:11Z",
-     "note": "Head coach Kevin O'Connell said Jones (knee) won't practice Wednesday, Alec Lewis of The Athletic reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -611,8 +626,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-29T18:36Z",
-     "note": "Brown (ankle/knee) was not present during the media-viewing portion of Thursday's practice, Mike Reiss of ESPN.com reports."
+     "updated": "2026-10-29T18:55Z",
+     "note": "Brown (knee/ankle) is sidelined Thursday by a knee issue that flared up, and the wide receiver's status for Sunday against the Dolphins is up in the air, Ian Ra"
     },
     {
      "player": "Morgan Moses",
