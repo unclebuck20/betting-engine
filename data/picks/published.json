@@ -21442,25 +21442,31 @@
     10.5,
     -105,
     "fanduel"
+   ],
+   [
+    "2026-10-29T14:00:53.834502+00:00",
+    10.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 10.5,
    "price": -105,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619471258&selectionId=6624048",
-   "ev_pct": -0.75,
-   "confidence": 50.8
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86864938P1050_3",
+   "ev_pct": -1.36,
+   "confidence": 50.5
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -0.75,
-   "confidence": 50.8,
+   "ev_pct": -1.36,
+   "confidence": 50.5,
    "line": 10.5,
    "price": -105,
-   "book": "fanduel",
-   "why": "Pinnacle makes Texas State +12.5; FanDuel has +10.5 (-105). Our in-season power ratings have Texas State 4.4 pts better than the market.",
+   "book": "draftkings",
+   "why": "Pinnacle makes Texas State +12.5; DraftKings has +10.5 (-105). Our in-season power ratings have Texas State 4.4 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -21537,14 +21543,14 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86864991N600_1",
-   "ev_pct": 0.52,
-   "confidence": 51.5
+   "ev_pct": -0.49,
+   "confidence": 51.0
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.52,
-   "confidence": 51.5,
+   "ev_pct": -0.49,
+   "confidence": 51.0,
    "line": -6.5,
    "price": -105,
    "book": "fanduel",
@@ -22087,7 +22093,7 @@
   ],
   "odds_pulled_at": "2026-10-27T07:00:39.236399+00:00",
   "published_at": "2026-10-27T07:00:47.938928+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-10-27T07:00:47.938928+00:00",
@@ -22107,20 +22113,23 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617889724&selectionId=7017917",
-   "ev_pct": 1.99,
-   "confidence": 53.4
+   "ev_pct": 1.75,
+   "confidence": 53.3
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 1.99,
-   "confidence": 53.4,
+   "tier": "pass",
+   "ev_pct": 1.75,
+   "confidence": 53.3,
    "line": 54.5,
    "price": -110,
    "book": "fanduel",
    "why": "Pinnacle's fair total is 55.5; FanDuel has Under 54.5 (-110). Our model projects 49.5 points from both offenses' efficiency and pace.",
-   "flags": []
+   "flags": [
+    "model total is 6.1 pts off the market; usually missing weather or injury news",
+    "totals backtest: 6+ pt disagreements went 45-54"
+   ]
   }
  },
  "c17c8f9e12ffe066cf601c96090fcb14|North Dakota State Bison": {
