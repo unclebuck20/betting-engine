@@ -1,9 +1,9 @@
 {
  "params": {
-  "cfb_weight_open": 0.1842,
-  "cfb_weight_close": 0.0522,
+  "cfb_weight_open": 0.1566,
+  "cfb_weight_close": 0.0444,
   "play_ev": 0.0325,
-  "lean_ev": 0.0175
+  "lean_ev": 0.02
  },
  "changes": [
   {
@@ -68,8 +68,22 @@
    "from": 0.03,
    "to": 0.0325,
    "evidence": "edges at or above the play threshold: avg closing-line value -0.31% over 96 picks"
+  },
+  {
+   "date": "2026-10-30",
+   "param": "cfb_weight_open",
+   "from": 0.1842,
+   "to": 0.1566,
+   "evidence": "college picks where our ratings drove the edge (model gap 3+): avg closing-line value -1.17% over 106 picks"
+  },
+  {
+   "date": "2026-10-30",
+   "param": "lean_ev",
+   "from": 0.0175,
+   "to": 0.02,
+   "evidence": "small edges (between the lean and play thresholds): avg closing-line value -1.06% over 77 picks"
   }
  ],
- "updated_at": "2026-10-24T10:00:41.065880+00:00",
- "last_run_note": "3 change(s)"
+ "updated_at": "2026-10-30T10:01:03.765465+00:00",
+ "last_run_note": "2 change(s)"
 }
