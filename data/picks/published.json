@@ -21027,14 +21027,14 @@
    "price": -112,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86864936N700_1",
-   "ev_pct": 0.92,
-   "confidence": 53.4
+   "ev_pct": 0.4,
+   "confidence": 53.1
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.92,
-   "confidence": 53.4,
+   "ev_pct": 0.4,
+   "confidence": 53.1,
    "line": -7.0,
    "price": -112,
    "book": "draftkings",
@@ -21327,7 +21327,7 @@
    "line": -3.0,
    "price": -120,
    "book": "draftkings",
-   "why": "Pinnacle makes Lions -4.5; DraftKings has -3 (-120). Our NFL model makes Lions -2.5, 1.9 pts worse than the market.",
+   "why": "Pinnacle makes Lions -4.5; DraftKings has -3 (-120). Our NFL model makes Lions -2.5, 2.0 pts worse than the market.",
    "flags": []
   }
  },
@@ -22616,7 +22616,17 @@
   "flags": [
    "college injuries not checked yet"
   ],
-  "inj_check": null,
+  "inj_check": {
+   "at": "2026-10-30T18:55:00Z",
+   "text": "Both starting QBs (Jenkins, Lagway) set to play; UCF S Henderson out (Wed), priced; no key starter out or doubtful for either team.",
+   "hold": false,
+   "opp_out": false,
+   "sources": [
+    "https://sports.yahoo.com/articles/ucf-defensive-back-ruled-vs-173950216.html",
+    "https://sports.yahoo.com/articles/ucf-defensive-back-ruled-vs-173950216.html",
+    "https://sports.yahoo.com/articles/ucf-defensive-back-ruled-vs-173950216.html"
+   ]
+  },
   "held": false,
   "odds_pulled_at": "2026-10-28T21:00:41.644975+00:00",
   "published_at": "2026-10-28T21:00:54.387176+00:00",
@@ -22655,7 +22665,16 @@
    "ev_pct": 2.62,
    "confidence": 52.8
   },
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "Jenkins starts for UCF after concussion clearance; S Henderson out (Wed) and Aranda firing (Sun) predate/explain move to +2.5; Lagway healthy.",
+   "at": "2026-10-30T18:55:00Z",
+   "sources": [
+    "https://sports.yahoo.com/articles/ucf-defensive-back-ruled-vs-173950216.html",
+    "https://heavy.com/sports/college-football/ucf-knights/scott-frost-names-quarterback-jenkins-baylor/",
+    "https://www.nbcsports.com/college-football/news/baylor-fires-dave-aranda-after-kansas-loss-names-defensive-coordinator-joe-klanderman-interim-coach"
+   ]
+  },
   "latest": {
    "tier": "lean",
    "ev_pct": 2.62,
@@ -22664,9 +22683,7 @@
    "price": -106,
    "book": "fanduel",
    "why": "Pinnacle makes UCF +1; FanDuel has +2.5 (-106).",
-   "flags": [
-    "college injuries not checked yet"
-   ]
+   "flags": []
   }
  },
  "05405af79752f5e742cdf50b61f6745e|New England Patriots": {

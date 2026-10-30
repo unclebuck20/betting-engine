@@ -3,22 +3,38 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-30T18:00:32.359736+00:00",
-  "previous_pull": "2026-10-30T17:00:34.127564+00:00",
-  "matched_absences": 65
+  "injury_pull": "2026-10-30T18:48:27.652537+00:00",
+  "previous_pull": "2026-10-30T18:00:32.359736+00:00",
+  "matched_absences": 63
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.54,
+   "adj_points": 1.06,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Walter Nolen III",
+     "pos": "DL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-30T18:01Z",
+     "note": "out"
+    },
+    {
+     "player": "Jon Gaines II",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-10-30T18:01Z",
+     "note": "out"
+    },
     {
      "player": "Michael Wilson",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-29T23:31Z",
-     "note": "Wilson (ribs) was a limited practice participant Thursday, Theo Mackie of The Arizona Republic reports."
+     "updated": "2026-10-30T17:58Z",
+     "note": "Head coach Mike LaFleur said Friday that Wilson (ribs) is expected to play Sunday at Dallas, Theo Mackie of The Arizona Republic reports."
     },
     {
      "player": "Hjalte Froholdt",
@@ -37,22 +53,6 @@
      "note": "questionable"
     },
     {
-     "player": "Walter Nolen III",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-27T13:11Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jon Gaines II",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-27T13:11Z",
-     "note": "questionable"
-    },
-    {
      "player": "Mack Wilson Sr.",
      "pos": "LB",
      "status": "Questionable",
@@ -61,7 +61,7 @@
      "note": "Wilson (knee) was limited in Thursday's practice, Theo Mackie of The Arizona Republic reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.52,
    "new_absences": []
   },
   "BAL": {
@@ -488,22 +488,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "MIN": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Aaron Jones Sr.",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-29T21:28Z",
-     "note": "Jones (knee) was limited at Thursday's practice."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "NE": {
    "adj_points": 0.34,
    "qb_out": false,
@@ -624,22 +608,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "PIT": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Alex Highsmith",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-28T21:32Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "SF": {
    "adj_points": 0.07,
    "qb_out": false,
@@ -741,14 +709,21 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.04,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "ATL": {
+  "PIT": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.3,
+   "delta_since_last_pull": -0.06,
+   "new_absences": []
+  },
+  "MIN": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
