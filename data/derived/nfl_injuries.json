@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-30T19:00:32.730301+00:00",
-  "previous_pull": "2026-10-30T18:52:21.312109+00:00",
-  "matched_absences": 63
+  "injury_pull": "2026-10-30T20:00:29.202926+00:00",
+  "previous_pull": "2026-10-30T19:00:32.730301+00:00",
+  "matched_absences": 56
  },
  "teams": {
   "ARI": {
@@ -65,47 +65,23 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.27,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Olaivavega Ioane",
      "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
+     "status": "Out",
+     "points": 0.3,
      "updated": "2026-10-30T01:31Z",
      "note": "Ioane (knee) was a limited participant at the Ravens' practice Thursday."
-    },
-    {
-     "player": "Kyle Hamilton",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-30T00:30Z",
-     "note": "Hamilton (knee) was limited in practice Thursday."
-    },
-    {
-     "player": "John Simpson",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-28T21:26Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Roquan Smith",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-30T00:36Z",
-     "note": "Smith (knee) was limited in Thursday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.03,
    "new_absences": []
   },
   "BUF": {
-   "adj_points": 0.25,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
@@ -123,17 +99,9 @@
      "points": 0.07,
      "updated": "2026-10-30T17:48Z",
      "note": "Kincaid (chest) is listed as questionable for Sunday's game against the Ravens, Katherine Fitzgerald of The Buffalo News reports."
-    },
-    {
-     "player": "Bradley Chubb",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-28T21:22Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   },
   "CAR": {
@@ -169,7 +137,7 @@
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.15,
+   "adj_points": 0.22,
    "qb_out": false,
    "absences": [
     {
@@ -181,6 +149,14 @@
      "note": "Muhammad (toe) is doubtful to return to Thursday night's contest against the Patriots."
     },
     {
+     "player": "Colston Loveland",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-30T19:31Z",
+     "note": "Loveland was limited at Friday's practice due to a neck injury, Kevin Fishbain of The Athletic reports."
+    },
+    {
      "player": "D'Marco Jackson",
      "pos": "LB",
      "status": "Questionable",
@@ -189,8 +165,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Colston Loveland",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-30T19:31Z",
+     "note": "Loveland was limited at Friday's practice due to a neck injury, Kevin Fishbain of The Athletic reports."
+    }
+   ]
   },
   "CIN": {
    "adj_points": 0.07,
@@ -209,7 +194,7 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.47,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
@@ -219,41 +204,9 @@
      "points": 0.12,
      "updated": "2026-10-29T01:18Z",
      "note": "Howard (concussion) didn't participate in Cleveland's practice Wednesday."
-    },
-    {
-     "player": "Jared Verse",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-29T00:27Z",
-     "note": "Verse (knee) did not participate at practice Wednesday."
-    },
-    {
-     "player": "Elgton Jenkins",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-10-28T21:56Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Grant Delpit",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-28T21:54Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Carson Schwesinger",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-28T01:21Z",
-     "note": "Schwesinger finished Sundays' 27-24 win over the Titans with eight tackles (four solo)."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.35,
    "new_absences": []
   },
   "DAL": {
@@ -320,6 +273,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "DET": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Roger McCreary",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-30T19:34Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Roger McCreary",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-10-30T19:34Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "GB": {
    "adj_points": 0.42,
    "qb_out": false,
@@ -345,47 +323,47 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.12,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Justin Walley",
      "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-26T21:15Z",
-     "note": "According to head coach Shane Steichen, Walley did not return to Sunday's 16-10 loss to Minnesota due to a knee injury, Kevin Bowen of 107.5 The Fan Indianapoli"
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-10-30T19:28Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.19,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Antonio Johnson",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-29T23:34Z",
+     "note": "Johnson (ankle) sat out practice both Wednesday and Thursday."
+    },
     {
      "player": "Jakobi Meyers",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-29T19:55Z",
-     "note": "Meyers (hamstring) was a limited participant in Thursday's practice."
-    },
-    {
-     "player": "Antonio Johnson",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-29T23:34Z",
-     "note": "Johnson (ankle) sat out practice both Wednesday and Thursday."
+     "updated": "2026-10-30T19:39Z",
+     "note": "Meyers (hamstring/ankle) is questionable for Sunday's game against the Colts."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.19,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
@@ -395,17 +373,9 @@
      "points": 0.12,
      "updated": "2026-10-29T22:12Z",
      "note": "Delane (shoulder) did not practice Thursday."
-    },
-    {
-     "player": "Travis Kelce",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-29T21:01Z",
-     "note": "Kelce (ankle) was listed as a limited participant in Thursday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "LA": {
@@ -561,19 +531,19 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.12,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
     {
      "player": "David Bailey",
      "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-28T23:28Z",
-     "note": "Bailey didn't practice Wednesday due to a groin injury."
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-10-30T19:17Z",
+     "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.3,
    "new_absences": []
   },
   "PHI": {
@@ -681,19 +651,19 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.12,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Carnell Tate",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
+     "status": "Out",
+     "points": 0.5,
      "updated": "2026-10-30T15:48Z",
      "note": "Tate (shoulder) won't practice Friday, and his status for Sunday's game against the Bengals is in doubt, Paul Kuharsky reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "WAS": {
