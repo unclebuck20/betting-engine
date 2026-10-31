@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-10-31T20:30:36.344112+00:00",
+  "built_at": "2026-10-31T21:30:42.618065+00:00",
   "nfl_history_games": 5539,
   "cfb_history_games": 3730,
   "games": 48
@@ -885,23 +885,23 @@
     {
      "book": "lowvig",
      "side": "home",
-     "home_line": -6.0,
+     "home_line": -5.5,
      "price": -106,
-     "ev": -0.0011
+     "ev": 0.0069
     },
     {
-     "book": "betrivers",
+     "book": "draftkings",
      "side": "home",
-     "home_line": -5.5,
-     "price": -110,
-     "ev": -0.0109
+     "home_line": -6.0,
+     "price": -108,
+     "ev": -0.01
     },
     {
-     "book": "hardrockbet",
+     "book": "bovada",
      "side": "home",
-     "home_line": -5.5,
-     "price": -110,
-     "ev": -0.0109
+     "home_line": -6.0,
+     "price": -108,
+     "ev": -0.01
     }
    ]
   },
@@ -931,8 +931,8 @@
      "book": "pinnacle",
      "side": "home",
      "home_line": -5.0,
-     "price": -105,
-     "ev": -0.0214
+     "price": -106,
+     "ev": -0.0258
     }
    ]
   },
@@ -942,28 +942,28 @@
    "matchup": "Oklahoma State Cowboys @ Iowa State Cyclones",
    "kickoff_pt": "Sat Oct 31 4:00 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -9.7,
+   "fair_home_margin": -12.2,
    "best": [
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 9.5,
      "price": 100,
-     "ev": -0.0016
+     "ev": -0.0223
     },
     {
      "book": "espnbet",
      "side": "home",
      "home_line": 9.5,
      "price": 100,
-     "ev": -0.0016
+     "ev": -0.0223
     },
     {
-     "book": "draftkings",
-     "side": "home",
+     "book": "hardrockbet",
+     "side": "away",
      "home_line": 9.5,
-     "price": -102,
-     "ev": -0.0114
+     "price": -110,
+     "ev": -0.0241
     }
    ]
   },
@@ -1007,13 +1007,6 @@
    "fair_home_margin": 8.0,
    "best": [
     {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -105,
-     "ev": 0.0
-    },
-    {
      "book": "fanduel",
      "side": "home",
      "home_line": -7.5,
@@ -1022,6 +1015,13 @@
     },
     {
      "book": "betmgm",
+     "side": "home",
+     "home_line": -7.5,
+     "price": -110,
+     "ev": -0.0221
+    },
+    {
+     "book": "espnbet",
      "side": "home",
      "home_line": -7.5,
      "price": -110,
@@ -1038,11 +1038,18 @@
    "fair_home_margin": -13.9,
    "best": [
     {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 13.5,
+     "price": 100,
+     "ev": -0.011
+    },
+    {
      "book": "lowvig",
      "side": "home",
      "home_line": 14.0,
-     "price": -104,
-     "ev": -0.0063
+     "price": -106,
+     "ev": -0.0153
     },
     {
      "book": "pinnacle",
@@ -1050,13 +1057,6 @@
      "home_line": 13.5,
      "price": -102,
      "ev": -0.0207
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": 14.0,
-     "price": -108,
-     "ev": -0.0239
     }
    ]
   },
@@ -1066,28 +1066,28 @@
    "matchup": "Mississippi State Bulldogs @ Texas Longhorns",
    "kickoff_pt": "Sat Oct 31 4:30 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 21.5,
+   "fair_home_margin": 21.0,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -20.0,
      "price": -101,
-     "ev": -0.0197
+     "ev": -0.0044
     },
     {
      "book": "pinnacle",
      "side": "away",
      "home_line": -20.0,
-     "price": -102,
-     "ev": -0.0243
+     "price": -103,
+     "ev": -0.0138
     },
     {
-     "book": "betmgm",
-     "side": "home",
+     "book": "betonlineag",
+     "side": "away",
      "home_line": -20.0,
-     "price": -110,
-     "ev": -0.0302
+     "price": -105,
+     "ev": -0.0229
     }
    ]
   },
@@ -1103,15 +1103,8 @@
      "book": "lowvig",
      "side": "away",
      "home_line": 6.5,
-     "price": -101,
-     "ev": -0.0023
-    },
-    {
-     "book": "betonlineag",
-     "side": "away",
-     "home_line": 6.5,
-     "price": -105,
-     "ev": -0.0212
+     "price": -106,
+     "ev": -0.0257
     },
     {
      "book": "pinnacle",
@@ -1119,6 +1112,13 @@
      "home_line": 6.5,
      "price": -106,
      "ev": -0.0257
+    },
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 6.5,
+     "price": -105,
+     "ev": -0.0265
     }
    ]
   },
@@ -1176,11 +1176,11 @@
      "ev": -0.0198
     },
     {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -5.5,
-     "price": 100,
-     "ev": -0.0264
+     "book": "betmgm",
+     "side": "home",
+     "home_line": -6.0,
+     "price": -110,
+     "ev": -0.0283
     }
    ]
   },
@@ -1224,25 +1224,25 @@
    "fair_home_margin": 12.3,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -12.5,
-     "price": -110,
-     "ev": 0.0183
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -10.5,
+     "price": -106,
+     "ev": -0.0257
     },
     {
-     "book": "betrivers",
+     "book": "fanduel",
      "side": "away",
-     "home_line": -12.5,
-     "price": -112,
-     "ev": 0.0096
+     "home_line": -10.5,
+     "price": -105,
+     "ev": -0.0264
     },
     {
      "book": "pinnacle",
      "side": "away",
      "home_line": -11.0,
-     "price": -109,
-     "ev": -0.0241
+     "price": -110,
+     "ev": -0.0282
     }
    ]
   },
@@ -1283,28 +1283,28 @@
    "matchup": "Oregon State Beavers @ Fresno State Bulldogs",
    "kickoff_pt": "Sat Oct 31 8:00 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -6.5,
+   "fair_home_margin": -7.0,
    "best": [
     {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 6.0,
-     "price": 101,
-     "ev": 0.0055
+     "book": "espnbet",
+     "side": "away",
+     "home_line": 5.5,
+     "price": -110,
+     "ev": -0.0062
     },
     {
-     "book": "fanduel",
-     "side": "home",
+     "book": "hardrockbet",
+     "side": "away",
      "home_line": 5.5,
-     "price": 100,
-     "ev": -0.0175
+     "price": -110,
+     "ev": -0.0062
     },
     {
      "book": "betrivers",
-     "side": "home",
-     "home_line": 6.5,
+     "side": "away",
+     "home_line": 6.0,
      "price": -109,
-     "ev": -0.0234
+     "ev": -0.0172
     }
    ]
   },
