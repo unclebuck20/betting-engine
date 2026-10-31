@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-10-30T22:57:54.940448+00:00",
-  "previous_pull": "2026-10-30T22:00:31.605360+00:00",
-  "matched_absences": 46
+  "injury_pull": "2026-10-31T00:00:33.204450+00:00",
+  "previous_pull": "2026-10-30T22:57:54.940448+00:00",
+  "matched_absences": 48
  },
  "teams": {
   "ARI": {
@@ -161,7 +161,7 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.12,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
@@ -171,10 +171,27 @@
      "points": 0.12,
      "updated": "2026-10-30T21:18Z",
      "note": "Pickens (shoulder/hamstring) is listed as questionable for Sunday's game against the Cardinals, Patrik Walker of the Cowboys' official site reports."
+    },
+    {
+     "player": "Kenny Clark",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-30T23:12Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Kenny Clark",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-10-30T23:12Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.4,
@@ -265,8 +282,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-30T19:28Z",
-     "note": "out"
+     "updated": "2026-10-30T23:38Z",
+     "note": "Walley (knee) has been ruled out for Sunday's game against the Jaguars."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -281,8 +298,8 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-29T23:34Z",
-     "note": "Johnson (ankle) sat out practice both Wednesday and Thursday."
+     "updated": "2026-10-30T23:27Z",
+     "note": "Johnson (ankle) has been ruled out for Sunday's game against the Colts."
     },
     {
      "player": "Jakobi Meyers",
@@ -305,8 +322,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-10-29T22:12Z",
-     "note": "Delane (shoulder) did not practice Thursday."
+     "updated": "2026-10-30T23:46Z",
+     "note": "Delane (shoulder) is listed as questionable for Sunday's game against the Broncos."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -489,7 +506,7 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 0.55,
+   "adj_points": 0.54,
    "qb_out": false,
    "absences": [
     {
@@ -501,12 +518,12 @@
      "note": "Cross underwent an MRI and was diagnosed with a high ankle sprain, Ian Rapoport of NFL Network reports."
     },
     {
-     "player": "Leonard Williams",
-     "pos": "DT",
+     "player": "Byron Murphy II",
+     "pos": "NT",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-30T00:51Z",
-     "note": "Williams (Achilles) was a limited participant at the Seahawks' practice Thursday."
+     "points": 0.06,
+     "updated": "2026-10-30T23:16Z",
+     "note": "questionable"
     },
     {
      "player": "Tyrice Knight",
@@ -517,8 +534,17 @@
      "note": "Knight (hip) was a limited participant at the Seahawks' practice Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.01,
+   "new_absences": [
+    {
+     "player": "Byron Murphy II",
+     "pos": "NT",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-10-30T23:16Z",
+     "note": "questionable"
+    }
+   ]
   },
   "TB": {
    "adj_points": 0.62,
@@ -561,9 +587,17 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.3,
+   "adj_points": 0.6,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Daron Payne",
+     "pos": "DT",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-30T22:59Z",
+     "note": "out"
+    },
     {
      "player": "Javon Kinlaw",
      "pos": "DT",
@@ -573,8 +607,17 @@
      "note": "Kinlaw (knee) has been ruled out for Sunday's game against the Eagles."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Daron Payne",
+     "pos": "DT",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-10-30T22:59Z",
+     "note": "out"
+    }
+   ]
   }
  }
 }
