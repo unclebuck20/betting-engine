@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-11-01T00:31:38.469850+00:00",
+  "built_at": "2026-11-01T01:31:08.921569+00:00",
   "nfl_history_games": 5539,
   "cfb_history_games": 3730,
-  "games": 40
+  "games": 42
  },
  "games": [
   {
@@ -880,28 +880,28 @@
    "matchup": "Texas State Bobcats @ Boise State Broncos",
    "kickoff_pt": "Sat Oct 31 7:00 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": 11.3,
+   "fair_home_margin": 11.4,
    "best": [
     {
      "book": "hardrockbet",
      "side": "away",
      "home_line": -10.5,
      "price": -110,
-     "ev": 0.0048
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -10.0,
-     "price": -101,
-     "ev": -0.0025
+     "ev": 0.0008
     },
     {
      "book": "betrivers",
      "side": "away",
      "home_line": -10.5,
      "price": -112,
-     "ev": -0.0037
+     "ev": -0.0077
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -10.0,
+     "price": -103,
+     "ev": -0.0125
     }
    ]
   },
@@ -942,28 +942,28 @@
    "matchup": "Oregon State Beavers @ Fresno State Bulldogs",
    "kickoff_pt": "Sat Oct 31 8:00 PM PDT",
    "fair_source": "pinnacle",
-   "fair_home_margin": -6.6,
+   "fair_home_margin": -6.3,
    "best": [
     {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 6.0,
-     "price": -106,
-     "ev": -0.0233
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 6.5,
+     "price": -110,
+     "ev": -0.0164
     },
     {
-     "book": "pinnacle",
+     "book": "betmgm",
+     "side": "home",
+     "home_line": 6.5,
+     "price": -110,
+     "ev": -0.0164
+    },
+    {
+     "book": "lowvig",
      "side": "home",
      "home_line": 6.0,
-     "price": -104,
-     "ev": -0.0235
-    },
-    {
-     "book": "espnbet",
-     "side": "away",
-     "home_line": 5.5,
-     "price": -110,
-     "ev": -0.0241
+     "price": -106,
+     "ev": -0.0165
     }
    ]
   },
@@ -1066,21 +1066,28 @@
    "matchup": "Toledo Rockets @ Sacramento State Hornets",
    "kickoff_pt": "Wed Nov 4 4:00 PM PST",
    "fair_source": "consensus",
-   "fair_home_margin": -30.0,
+   "fair_home_margin": -27.45,
    "best": [
     {
      "book": "fanduel",
      "side": "home",
-     "home_line": 27.5,
-     "price": -110,
-     "ev": -0.0425
+     "home_line": 26.5,
+     "price": -108,
+     "ev": -0.0406
     },
     {
-     "book": "fanduel",
+     "book": "draftkings",
      "side": "away",
-     "home_line": 27.5,
+     "home_line": 26.5,
      "price": -110,
-     "ev": -0.0484
+     "ev": -0.0419
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": 26.5,
+     "price": -110,
+     "ev": -0.049
     }
    ]
   },
@@ -1112,6 +1119,68 @@
      "home_line": -2.5,
      "price": -110,
      "ev": -0.0568
+    }
+   ]
+  },
+  {
+   "league": "cfb",
+   "id": "5af84fe49ccd4f304f9af0dce0a0db56",
+   "matchup": "UTSA Roadrunners @ Florida Atlantic Owls",
+   "kickoff_pt": "Thu Nov 5 4:30 PM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": -7.8,
+   "best": [
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 7.5,
+     "price": -115,
+     "ev": 0.0166
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 6.5,
+     "price": -110,
+     "ev": -0.0013
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": 6.5,
+     "price": -110,
+     "ev": -0.0896
+    }
+   ]
+  },
+  {
+   "league": "cfb",
+   "id": "c93b343bc3151a39a9541c0af3b22123",
+   "matchup": "James Madison Dukes @ Southern Mississippi Golden Eagles",
+   "kickoff_pt": "Thu Nov 5 5:00 PM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": -14.0,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": 15.5,
+     "price": -110,
+     "ev": 0.0147
+    },
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": 12.5,
+     "price": -110,
+     "ev": -0.0058
+    },
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 12.5,
+     "price": -110,
+     "ev": -0.0851
     }
    ]
   },
