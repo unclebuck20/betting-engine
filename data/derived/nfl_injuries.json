@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-01T22:00:34.623508+00:00",
-  "previous_pull": "2026-11-01T20:30:27.796974+00:00",
-  "matched_absences": 48
+  "injury_pull": "2026-11-01T23:30:27.307427+00:00",
+  "previous_pull": "2026-11-01T22:00:34.623508+00:00",
+  "matched_absences": 51
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.79,
+   "adj_points": 0.91,
    "qb_out": false,
    "absences": [
     {
@@ -29,6 +29,14 @@
      "note": "inactive"
     },
     {
+     "player": "Michael Wilson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T22:47Z",
+     "note": "Wilson said after Sunday's 33-30 win at Dallas that he suffered two broken ribs during the contest, Josh Weinfuss of ESPN.com reports."
+    },
+    {
      "player": "Jayden Williams",
      "pos": "OL",
      "status": "Questionable",
@@ -37,15 +45,15 @@
      "note": "Williams (knee) has been ruled out for the rest of Sunday's game against the Cowboys, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.09,
+   "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Jayden Williams",
-     "pos": "OL",
+     "player": "Michael Wilson",
+     "pos": "WR",
      "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-01T20:46Z",
-     "note": "Williams (knee) has been ruled out for the rest of Sunday's game against the Cowboys, Darren Urban of the Cardinals' official site reports."
+     "points": 0.12,
+     "updated": "2026-11-01T22:47Z",
+     "note": "Wilson said after Sunday's 33-30 win at Dallas that he suffered two broken ribs during the contest, Josh Weinfuss of ESPN.com reports."
     }
    ]
   },
@@ -58,8 +66,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-01T20:09Z",
-     "note": "Huntley (toe) has been ruled out for the rest of Sunday's game against the Bills."
+     "updated": "2026-11-01T22:03Z",
+     "note": "The status of Huntley (toe) is uncertain ahead of Thursday night's game against the Jaguars,  Tom Pelissero of Netflix reports"
     },
     {
      "player": "Olaivavega Ioane",
@@ -86,17 +94,8 @@
      "note": "Wiggins (stinger) is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Bills."
     }
    ],
-   "delta_since_last_pull": -2.88,
-   "new_absences": [
-    {
-     "player": "Nate Wiggins",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T20:58Z",
-     "note": "Wiggins (stinger) is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Bills."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "BUF": {
    "adj_points": 0.5,
@@ -183,17 +182,8 @@
      "note": "Turner (ankle) has been ruled out for the rest of Sunday's game against the Titans."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "DJ Turner II",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T21:08Z",
-     "note": "Turner (ankle) has been ruled out for the rest of Sunday's game against the Titans."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DAL": {
    "adj_points": 0.09,
@@ -208,15 +198,31 @@
      "note": "Downs has been ruled out for the rest of Sunday's game against the Cardinals to be evaluated for a concussion, Jon Machota of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.09,
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "DEN": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Kris Abrams-Draine",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T22:59Z",
+     "note": "Abrams-Draine (ankle) is questionable to return to Sunday's contest versus the Chiefs, Parker Gabriel of The Denver Post reports."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Caleb Downs",
-     "pos": "DB",
+     "player": "Kris Abrams-Draine",
+     "pos": "CB",
      "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-01T20:52Z",
-     "note": "Downs has been ruled out for the rest of Sunday's game against the Cardinals to be evaluated for a concussion, Jon Machota of The Athletic reports."
+     "points": 0.12,
+     "updated": "2026-11-01T22:59Z",
+     "note": "Abrams-Draine (ankle) is questionable to return to Sunday's contest versus the Chiefs, Parker Gabriel of The Denver Post reports."
     }
    ]
   },
@@ -241,25 +247,8 @@
      "note": "Reed (hip) is questionable to return to Sunday's game against the Dolphins."
     }
    ],
-   "delta_since_last_pull": 0.33,
-   "new_absences": [
-    {
-     "player": "Jack Campbell",
-     "pos": "LB",
-     "status": "Doubtful",
-     "points": 0.21,
-     "updated": "2026-11-01T21:01Z",
-     "note": "Campbell has been taken to a local Detroit hospital to be evaluated for a neck injury."
-    },
-    {
-     "player": "D.J. Reed",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T21:02Z",
-     "note": "Reed (hip) is questionable to return to Sunday's game against the Dolphins."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "GB": {
    "adj_points": 0.42,
@@ -365,33 +354,8 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "LAC": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Daiyan Henley",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-01T21:22Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Daiyan Henley",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-01T21:22Z",
-     "note": "questionable"
-    }
-   ]
-  },
   "LA": {
-   "adj_points": 0.8,
+   "adj_points": 0.92,
    "qb_out": false,
    "absences": [
     {
@@ -409,10 +373,27 @@
      "points": 0.3,
      "updated": "2026-11-01T19:50Z",
      "note": "Parkinson (ribs) is inactive for Sunday's Week 8 matchup against the Chargers."
+    },
+    {
+     "player": "Jaylen Watson",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T23:08Z",
+     "note": "Watson (shoulder) is questionable to return to Sunday's contest against the Chargers, Adam Grosbard of The Orange County Register reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Jaylen Watson",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T23:08Z",
+     "note": "Watson (shoulder) is questionable to return to Sunday's contest against the Chargers, Adam Grosbard of The Orange County Register reports."
+    }
+   ]
   },
   "MIA": {
    "adj_points": 0.3,
@@ -439,24 +420,15 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-01T21:53Z",
-     "note": "questionable"
+     "updated": "2026-11-01T22:10Z",
+     "note": "Murray completed 17 of 29 passes for 210 yards with two touchdowns and one interception and rushed four times for 35 yards in the Vikings' 19-15 loss to the Lio"
     }
    ],
-   "delta_since_last_pull": 1.0,
-   "new_absences": [
-    {
-     "player": "Kyler Murray",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-01T21:53Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
-   "adj_points": 0.5,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
@@ -466,10 +438,27 @@
      "points": 0.5,
      "updated": "2026-11-01T19:57Z",
      "note": "inactive"
+    },
+    {
+     "player": "Hunter Henry",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-01T22:34Z",
+     "note": "Henry (foot) is questionable to return to Sunday's game against the Dolphins."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Hunter Henry",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-01T22:34Z",
+     "note": "Henry (foot) is questionable to return to Sunday's game against the Dolphins."
+    }
+   ]
   },
   "NO": {
    "adj_points": 0.07,
@@ -652,25 +641,8 @@
      "note": "Skoronski (hamstring) is questionable to return to Sunday's game against the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.19,
-   "new_absences": [
-    {
-     "player": "JC Latham",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T21:06Z",
-     "note": "Latham (finger) is questionable to return to Sunday's game against the Bengals, Jim Wyatt of the Titans' official site reports."
-    },
-    {
-     "player": "Peter Skoronski",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-01T21:14Z",
-     "note": "Skoronski (hamstring) is questionable to return to Sunday's game against the Bengals."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "WAS": {
    "adj_points": 0.6,
@@ -694,6 +666,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "LAC": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
