@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-01T20:30:27.796974+00:00",
-  "previous_pull": "2026-11-01T19:30:30.223996+00:00",
-  "matched_absences": 38
+  "injury_pull": "2026-11-01T22:00:34.623508+00:00",
+  "previous_pull": "2026-11-01T20:30:27.796974+00:00",
+  "matched_absences": 48
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.7,
+   "adj_points": 0.79,
    "qb_out": false,
    "absences": [
     {
@@ -27,20 +27,37 @@
      "points": 0.35,
      "updated": "2026-11-01T16:39Z",
      "note": "inactive"
+    },
+    {
+     "player": "Jayden Williams",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-01T20:46Z",
+     "note": "Williams (knee) has been ruled out for the rest of Sunday's game against the Cowboys, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Jayden Williams",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-01T20:46Z",
+     "note": "Williams (knee) has been ruled out for the rest of Sunday's game against the Cowboys, Darren Urban of the Cardinals' official site reports."
+    }
+   ]
   },
   "BAL": {
-   "adj_points": 4.6,
-   "qb_out": true,
+   "adj_points": 1.72,
+   "qb_out": false,
    "absences": [
     {
      "player": "Tyler Huntley",
      "pos": "QB",
-     "status": "Out",
-     "points": 4.0,
+     "status": "Questionable",
+     "points": 1.0,
      "updated": "2026-11-01T20:09Z",
      "note": "Huntley (toe) has been ruled out for the rest of Sunday's game against the Bills."
     },
@@ -59,10 +76,27 @@
      "points": 0.3,
      "updated": "2026-11-01T16:34Z",
      "note": "inactive"
+    },
+    {
+     "player": "Nate Wiggins",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T20:58Z",
+     "note": "Wiggins (stinger) is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Bills."
     }
    ],
-   "delta_since_last_pull": 3.0,
-   "new_absences": []
+   "delta_since_last_pull": -2.88,
+   "new_absences": [
+    {
+     "player": "Nate Wiggins",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T20:58Z",
+     "note": "Wiggins (stinger) is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Bills."
+    }
+   ]
   },
   "BUF": {
    "adj_points": 0.5,
@@ -136,6 +170,97 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "CIN": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "DJ Turner II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T21:08Z",
+     "note": "Turner (ankle) has been ruled out for the rest of Sunday's game against the Titans."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "DJ Turner II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T21:08Z",
+     "note": "Turner (ankle) has been ruled out for the rest of Sunday's game against the Titans."
+    }
+   ]
+  },
+  "DAL": {
+   "adj_points": 0.09,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Caleb Downs",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-01T20:52Z",
+     "note": "Downs has been ruled out for the rest of Sunday's game against the Cardinals to be evaluated for a concussion, Jon Machota of The Athletic reports."
+    }
+   ],
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Caleb Downs",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-01T20:52Z",
+     "note": "Downs has been ruled out for the rest of Sunday's game against the Cardinals to be evaluated for a concussion, Jon Machota of The Athletic reports."
+    }
+   ]
+  },
+  "DET": {
+   "adj_points": 0.33,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jack Campbell",
+     "pos": "LB",
+     "status": "Doubtful",
+     "points": 0.21,
+     "updated": "2026-11-01T21:01Z",
+     "note": "Campbell has been taken to a local Detroit hospital to be evaluated for a neck injury."
+    },
+    {
+     "player": "D.J. Reed",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T21:02Z",
+     "note": "Reed (hip) is questionable to return to Sunday's game against the Dolphins."
+    }
+   ],
+   "delta_since_last_pull": 0.33,
+   "new_absences": [
+    {
+     "player": "Jack Campbell",
+     "pos": "LB",
+     "status": "Doubtful",
+     "points": 0.21,
+     "updated": "2026-11-01T21:01Z",
+     "note": "Campbell has been taken to a local Detroit hospital to be evaluated for a neck injury."
+    },
+    {
+     "player": "D.J. Reed",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T21:02Z",
+     "note": "Reed (hip) is questionable to return to Sunday's game against the Dolphins."
+    }
+   ]
+  },
   "GB": {
    "adj_points": 0.42,
    "qb_out": false,
@@ -193,8 +318,8 @@
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-01T20:10Z",
-     "note": "questionable"
+     "updated": "2026-11-01T20:42Z",
+     "note": "Walker (ribs) is questionable to return to Sunday's game against the Colts."
     },
     {
      "player": "Ezra Cleveland",
@@ -205,17 +330,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Travon Walker",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T20:10Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "KC": {
    "adj_points": 0.5,
@@ -242,12 +358,37 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-01T18:28Z",
-     "note": "Porter (groin) is questionable to return to Sunday's game against the Jets."
+     "updated": "2026-11-01T20:32Z",
+     "note": "Porter (groin) has been ruled out for the rest of Sunday's game against the Jets."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "LAC": {
+   "adj_points": 0.06,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Daiyan Henley",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-01T21:22Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Daiyan Henley",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-01T21:22Z",
+     "note": "questionable"
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.8,
@@ -270,7 +411,7 @@
      "note": "Parkinson (ribs) is inactive for Sunday's Week 8 matchup against the Chargers."
     }
    ],
-   "delta_since_last_pull": 0.14,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "MIA": {
@@ -289,6 +430,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "MIN": {
+   "adj_points": 1.0,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Kyler Murray",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-01T21:53Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Kyler Murray",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-01T21:53Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "NE": {
    "adj_points": 0.5,
    "qb_out": false,
@@ -302,7 +468,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.06,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
@@ -450,7 +616,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.62,
+   "adj_points": 0.81,
    "qb_out": false,
    "absences": [
     {
@@ -462,23 +628,47 @@
      "note": "inactive"
     },
     {
-     "player": "Marcus Harris",
-     "pos": "CB",
+     "player": "JC Latham",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-01T19:21Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
+     "updated": "2026-11-01T21:06Z",
+     "note": "Latham (finger) is questionable to return to Sunday's game against the Bengals, Jim Wyatt of the Titans' official site reports."
+    },
     {
      "player": "Marcus Harris",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-01T19:21Z",
-     "note": "questionable"
+     "updated": "2026-11-01T20:39Z",
+     "note": "Harris (ankle) has been ruled out for the rest of Sunday's game against the Bengals."
+    },
+    {
+     "player": "Peter Skoronski",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-01T21:14Z",
+     "note": "Skoronski (hamstring) is questionable to return to Sunday's game against the Bengals."
+    }
+   ],
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "JC Latham",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T21:06Z",
+     "note": "Latham (finger) is questionable to return to Sunday's game against the Bengals, Jim Wyatt of the Titans' official site reports."
+    },
+    {
+     "player": "Peter Skoronski",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-01T21:14Z",
+     "note": "Skoronski (hamstring) is questionable to return to Sunday's game against the Bengals."
     }
    ]
   },
@@ -504,20 +694,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CLE": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
-   "new_absences": []
-  },
-  "DEN": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.4,
    "new_absences": []
   }
  }
