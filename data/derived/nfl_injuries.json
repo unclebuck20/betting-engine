@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-01T19:30:30.223996+00:00",
-  "previous_pull": "2026-11-01T17:00:32.414483+00:00",
-  "matched_absences": 43
+  "injury_pull": "2026-11-01T20:30:27.796974+00:00",
+  "previous_pull": "2026-11-01T19:30:30.223996+00:00",
+  "matched_absences": 38
  },
  "teams": {
   "ARI": {
@@ -33,16 +33,16 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 1.6,
-   "qb_out": false,
+   "adj_points": 4.6,
+   "qb_out": true,
    "absences": [
     {
      "player": "Tyler Huntley",
      "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-01T19:10Z",
-     "note": "questionable"
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-01T20:09Z",
+     "note": "Huntley (toe) has been ruled out for the rest of Sunday's game against the Bills."
     },
     {
      "player": "Olaivavega Ioane",
@@ -61,17 +61,8 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 1.0,
-   "new_absences": [
-    {
-     "player": "Tyler Huntley",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-01T19:10Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 3.0,
+   "new_absences": []
   },
   "BUF": {
    "adj_points": 0.5,
@@ -145,71 +136,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "CLE": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Maliek Collins",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-01T19:17Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Maliek Collins",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-01T19:17Z",
-     "note": "questionable"
-    }
-   ]
-  },
-  "DEN": {
-   "adj_points": 0.4,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Jaylen Waddle",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T12:18Z",
-     "note": "Waddle (chest) is trending in a positive direction for Sunday's game against the Chiefs, Ian Rapoport of NFL Network reports."
-    },
-    {
-     "player": "Garett Bolles",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-28T21:53Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Zach Allen",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-31T00:53Z",
-     "note": "Allen (hamstring) is questionable for Sunday's game against the Chiefs."
-    },
-    {
-     "player": "Brandon Jones",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-31T00:48Z",
-     "note": "Jones (hamstring) is listed as questionable for Sunday's game against the Chiefs."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "GB": {
    "adj_points": 0.42,
    "qb_out": false,
@@ -251,7 +177,7 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.39,
+   "adj_points": 0.51,
    "qb_out": false,
    "absences": [
     {
@@ -263,6 +189,14 @@
      "note": "inactive"
     },
     {
+     "player": "Travon Walker",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T20:10Z",
+     "note": "questionable"
+    },
+    {
      "player": "Ezra Cleveland",
      "pos": "OL",
      "status": "Questionable",
@@ -271,14 +205,14 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.09,
+   "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Ezra Cleveland",
-     "pos": "OL",
+     "player": "Travon Walker",
+     "pos": "DE",
      "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-01T19:05Z",
+     "points": 0.12,
+     "updated": "2026-11-01T20:10Z",
      "note": "questionable"
     }
    ]
@@ -312,20 +246,11 @@
      "note": "Porter (groin) is questionable to return to Sunday's game against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Darien Porter",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T18:28Z",
-     "note": "Porter (groin) is questionable to return to Sunday's game against the Jets."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
-   "adj_points": 0.66,
+   "adj_points": 0.8,
    "qb_out": false,
    "absences": [
     {
@@ -337,23 +262,15 @@
      "note": "Head coach Sean McVay said Wednesday that Adams had successful surgery on his left hamstring, and the Rams are hopeful that the wide receiver will be able to re"
     },
     {
-     "player": "Coleman Shelton",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-28T23:32Z",
-     "note": "questionable"
-    },
-    {
      "player": "Colby Parkinson",
      "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-30T18:39Z",
-     "note": "Parkinson (ribs) is questionable for Sunday's game against the Chargers, Nate Atkins of The Athletic reports."
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-01T19:50Z",
+     "note": "Parkinson (ribs) is inactive for Sunday's Week 8 matchup against the Chargers."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.14,
    "new_absences": []
   },
   "MIA": {
@@ -365,15 +282,15 @@
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-31T02:20Z",
-     "note": "Proctor (concussion) has been ruled out for Sunday's game against the Patriots, C. Isaiah Smalls II of the Miami Herald reports."
+     "updated": "2026-11-01T19:59Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.56,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -381,19 +298,11 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-31T17:07Z",
-     "note": "Brown (knee/ankle) has been ruled out for Sunday's game against the Dolphins, Ian Rapoport of ESPN and NFL Network reports."
-    },
-    {
-     "player": "Christian Elliss",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-10-31T00:22Z",
-     "note": "Elliss (chest) is listed as questionable against the Dolphins on Sunday."
+     "updated": "2026-11-01T19:57Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   },
   "NO": {
@@ -541,7 +450,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.5,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
@@ -551,10 +460,27 @@
      "points": 0.5,
      "updated": "2026-11-01T16:35Z",
      "note": "inactive"
+    },
+    {
+     "player": "Marcus Harris",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T19:21Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Marcus Harris",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T19:21Z",
+     "note": "questionable"
+    }
+   ]
   },
   "WAS": {
    "adj_points": 0.6,
@@ -578,6 +504,20 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "CLE": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
+   "new_absences": []
+  },
+  "DEN": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.4,
    "new_absences": []
   }
  }
