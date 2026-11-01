@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-01T10:30:25.434136+00:00",
+ "run_at": "2026-11-01T14:00:30.509728+00:00",
  "sources": {
   "nflverse_games": {
    "rows_total": 7548,
@@ -10,21 +10,15 @@
   "injuries_nfl": {
    "rows": 800,
    "teams": 32,
-   "newest": "2026-11-01T10:01Z"
+   "newest": "2026-11-01T13:45Z"
   },
   "injuries_cfb": {
    "rows": 3,
    "teams": 3,
    "newest": "2022-11-26T22:30Z"
-  },
-  "cfbd": {
-   "week": 9,
-   "season_type": "regular",
-   "games": 314,
-   "fbs_games": 56,
-   "games_with_lines": 114,
-   "calls": 3
   }
  },
- "failed_sources": []
+ "failed_sources": [
+  "fetch_cfbd"
+ ]
 }
