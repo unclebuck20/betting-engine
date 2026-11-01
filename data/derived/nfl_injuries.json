@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-01T17:00:32.414483+00:00",
-  "previous_pull": "2026-11-01T16:00:32.824644+00:00",
-  "matched_absences": 39
+  "injury_pull": "2026-11-01T19:30:30.223996+00:00",
+  "previous_pull": "2026-11-01T17:00:32.414483+00:00",
+  "matched_absences": 43
  },
  "teams": {
   "ARI": {
@@ -29,13 +29,21 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.09,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.6,
+   "adj_points": 1.6,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Tyler Huntley",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-01T19:10Z",
+     "note": "questionable"
+    },
     {
      "player": "Olaivavega Ioane",
      "pos": "G",
@@ -53,15 +61,15 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.3,
+   "delta_since_last_pull": 1.0,
    "new_absences": [
     {
-     "player": "Emery Jones Jr.",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-01T16:34Z",
-     "note": "inactive"
+     "player": "Tyler Huntley",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-01T19:10Z",
+     "note": "questionable"
     }
    ]
   },
@@ -74,11 +82,11 @@
      "pos": "T",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-01T16:33Z",
-     "note": "inactive"
+     "updated": "2026-11-01T17:20Z",
+     "note": "Brown (back) is inactive for Sunday's game against the Ravens."
     }
    ],
-   "delta_since_last_pull": 0.31,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
@@ -136,6 +144,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "CLE": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Maliek Collins",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-01T19:17Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Maliek Collins",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-01T19:17Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.4,
@@ -218,7 +251,7 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.3,
+   "adj_points": 0.39,
    "qb_out": false,
    "absences": [
     {
@@ -228,10 +261,27 @@
      "points": 0.3,
      "updated": "2026-11-01T16:35Z",
      "note": "inactive"
+    },
+    {
+     "player": "Ezra Cleveland",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-01T19:05Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Ezra Cleveland",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-01T19:05Z",
+     "note": "questionable"
+    }
+   ]
   },
   "KC": {
    "adj_points": 0.5,
@@ -248,6 +298,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "LV": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Darien Porter",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T18:28Z",
+     "note": "Porter (groin) is questionable to return to Sunday's game against the Jets."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Darien Porter",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-01T18:28Z",
+     "note": "Porter (groin) is questionable to return to Sunday's game against the Jets."
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.66,
@@ -382,17 +457,8 @@
      "note": "Patrick (coach's decision) is inactive for Sunday's game versus the Raiders."
     }
    ],
-   "delta_since_last_pull": 0.58,
-   "new_absences": [
-    {
-     "player": "Tim Patrick",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-01T16:48Z",
-     "note": "Patrick (coach's decision) is inactive for Sunday's game versus the Raiders."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PHI": {
    "adj_points": 1.05,
@@ -471,7 +537,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.22,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "TEN": {
@@ -512,20 +578,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "DET": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.12,
-   "new_absences": []
-  },
-  "DAL": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.19,
    "new_absences": []
   }
  }
