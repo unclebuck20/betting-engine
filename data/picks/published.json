@@ -21393,7 +21393,7 @@
    "line": -3.0,
    "price": -120,
    "book": "draftkings",
-   "why": "Pinnacle makes Lions -4.5; DraftKings has -3 (-120). Our NFL model makes Lions -2.5, 2.0 pts worse than the market.",
+   "why": "Pinnacle makes Lions -4.5; DraftKings has -3 (-120). Our NFL model makes Lions -2.5, 1.9 pts worse than the market.",
    "flags": []
   }
  },
@@ -22106,7 +22106,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 10.9,
-  "units": 1.5,
+  "units": 2.0,
   "price_floor": 2.0,
   "floor_text": "Good to +2 at -110",
   "fair_source": "sharp",
@@ -22191,8 +22191,8 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695478P600_3",
-   "ev_pct": 6.47,
-   "confidence": 53.2
+   "ev_pct": 7.43,
+   "confidence": 53.7
   },
   "scout": {
    "verdict": "agree",
@@ -22206,12 +22206,12 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 6.47,
-   "confidence": 53.2,
+   "ev_pct": 7.43,
+   "confidence": 53.7,
    "line": 5.5,
    "price": 100,
    "book": "fanduel",
-   "why": "Pinnacle makes Eagles +6.5; FanDuel has +5.5 (+100). Our NFL model makes Eagles +2, 4.2 pts better than the market. PHI is without Dontayvion Wicks (WR, out); injuries are worth ~1.1 pts to them by our injury model.",
+   "why": "Pinnacle makes Eagles +6.5; FanDuel has +5.5 (+100). Our NFL model makes Eagles +2, 4.1 pts better than the market. PHI is without Dontayvion Wicks (WR, out); injuries are worth ~1.1 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -22359,25 +22359,31 @@
     -6.5,
     -108,
     "fanduel"
+   ],
+   [
+    "2026-11-01T17:01:28.034792+00:00",
+    -6.5,
+    -112,
+    "fanduel"
    ]
   ],
   "current": {
    "line": -6.5,
-   "price": -108,
+   "price": -112,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617889782&selectionId=10782388",
-   "ev_pct": 0.62,
+   "ev_pct": -1.1,
    "confidence": 52.2
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.62,
+   "ev_pct": -1.1,
    "confidence": 52.2,
    "line": -6.5,
-   "price": -108,
+   "price": -112,
    "book": "fanduel",
-   "why": "Pinnacle makes Rams -7; FanDuel has -6.5 (-108). Our NFL model makes Rams -9.5, 2.6 pts better than the market. LA is without Davante Adams (WR, injured reserve); injuries are worth ~0.7 pts to them by our injury model.",
+   "why": "Pinnacle makes Rams -7; FanDuel has -6.5 (-112). Our NFL model makes Rams -9.5, 2.6 pts better than the market. LA is without Davante Adams (WR, injured reserve); injuries are worth ~0.7 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -23022,15 +23028,21 @@
     -7.0,
     -115,
     "draftkings"
+   ],
+   [
+    "2026-11-01T17:01:28.034792+00:00",
+    -7.0,
+    -110,
+    "draftkings"
    ]
   ],
   "current": {
    "line": -7.0,
-   "price": -115,
+   "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695617N700_3",
-   "ev_pct": -0.45,
-   "confidence": 49.8
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": {
    "verdict": "agree",
@@ -23074,7 +23086,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 4.3,
-  "units": 1.0,
+  "units": 0.5,
   "price_floor": 3.0,
   "floor_text": "Good to +3 at -110",
   "fair_source": "sharp",
@@ -23103,19 +23115,21 @@
    "price": -115,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695597P300_3",
-   "ev_pct": 3.61,
-   "confidence": 55.6
+   "ev_pct": 4.29,
+   "confidence": 56.0
   },
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.61,
-   "confidence": 55.6,
+   "tier": "lean",
+   "ev_pct": 4.29,
+   "confidence": 56.0,
    "line": 3.0,
    "price": -115,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Jaguars +3; DraftKings has +3 (-115). Our NFL model makes Jaguars -1.5, 4.6 pts better than the market.",
-   "flags": []
+   "why": "The market average makes Jaguars +3; DraftKings has +3 (-115). Our NFL model makes Jaguars -2, 4.9 pts better than the market.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ]
   }
  },
  "096584989b4dd0a84650c37eb980a8b3|Oklahoma Sooners": {
@@ -23676,20 +23690,22 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695561U4950_3",
-   "ev_pct": 2.5,
-   "confidence": 53.7
+   "ev_pct": 2.24,
+   "confidence": 53.6
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.5,
-   "confidence": 53.7,
+   "ev_pct": 2.24,
+   "confidence": 53.6,
    "line": 49.5,
    "price": -110,
    "book": "draftkings",
-   "why": "BetOnline/LowVig's fair total is 50; DraftKings has Under 49.5 (-110). Our model projects 46.7 points from both offenses' efficiency and pace.",
-   "flags": []
+   "why": "The market average's fair total is 50.5; DraftKings has Under 49.5 (-110). Our model projects 46.7 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
   }
  },
  "4aac00e6cc06b8905659f911419540d2|Notre Dame Fighting Irish": {
@@ -23816,19 +23832,19 @@
    "price": -102,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695714O4150_1",
-   "ev_pct": 5.84,
-   "confidence": 53.4
+   "ev_pct": 5.31,
+   "confidence": 53.2
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 5.84,
-   "confidence": 53.4,
+   "ev_pct": 5.31,
+   "confidence": 53.2,
    "line": 41.5,
    "price": -102,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 41.5; DraftKings has Over 41.5 (-102). Our model projects 46.4 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 41; DraftKings has Over 41.5 (-102). Our model projects 46.4 points from both offenses' efficiency and pace.",
    "flags": []
   }
  }

@@ -3,45 +3,37 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-01T16:00:32.824644+00:00",
-  "previous_pull": "2026-11-01T15:00:31.520182+00:00",
-  "matched_absences": 45
+  "injury_pull": "2026-11-01T17:00:32.414483+00:00",
+  "previous_pull": "2026-11-01T16:00:32.824644+00:00",
+  "matched_absences": 39
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.79,
+   "adj_points": 0.7,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jon Gaines II",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-10-31T01:30Z",
-     "note": "Gaines (ankle) has been ruled out for Sunday's game against the Cowboys."
-    },
     {
      "player": "Walter Nolen III",
      "pos": "DL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-10-30T21:28Z",
-     "note": "Nolen (ankle) has been ruled out for Sunday's game against the Cowboys, Theo Mackie of The Arizona Republic reports."
+     "updated": "2026-11-01T16:39Z",
+     "note": "inactive"
     },
     {
-     "player": "Hjalte Froholdt",
+     "player": "Jon Gaines II",
      "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-10-29T23:08Z",
-     "note": "questionable"
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-01T16:39Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.09,
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.3,
+   "adj_points": 0.6,
    "qb_out": false,
    "absences": [
     {
@@ -49,35 +41,44 @@
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-31T01:55Z",
-     "note": "Ioane (knee) has been ruled out for Sunday's battle against Buffalo."
+     "updated": "2026-11-01T16:34Z",
+     "note": "inactive"
+    },
+    {
+     "player": "Emery Jones Jr.",
+     "pos": "G",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-01T16:34Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Emery Jones Jr.",
+     "pos": "G",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-01T16:34Z",
+     "note": "inactive"
+    }
+   ]
   },
   "BUF": {
-   "adj_points": 0.19,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Spencer Brown",
      "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-31T01:53Z",
-     "note": "Brown (back) is listed as questionable for Sunday's game against the Ravens."
-    },
-    {
-     "player": "Dalton Kincaid",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-01T15:00Z",
-     "note": "The Bills are optimistic that Kincaid (chest), who is listed as questionable for Sunday's game against the Ravens, will be able to play, Jeremy Fowler of ESPN.c"
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-01T16:33Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.31,
    "new_absences": []
   },
   "CAR": {
@@ -136,30 +137,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "DAL": {
-   "adj_points": 0.19,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "George Pickens",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T12:39Z",
-     "note": "Pickens (shoulder/hamstring) is expected to play Sunday against the Cardinals, Adam Schefter of ESPN reports."
-    },
-    {
-     "player": "Kenny Clark",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-31T01:19Z",
-     "note": "Clark (back) is questionable for Sunday's game against the Cardinals."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "DEN": {
    "adj_points": 0.4,
    "qb_out": false,
@@ -200,22 +177,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "DET": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Roger McCreary",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-30T23:54Z",
-     "note": "McCreary (foot) is questionable for Sunday's Week 8 matchup against Minnesota."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "GB": {
    "adj_points": 0.42,
    "qb_out": false,
@@ -249,15 +210,15 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-30T23:38Z",
-     "note": "Walley (knee) has been ruled out for Sunday's game against the Jaguars."
+     "updated": "2026-11-01T16:36Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.42,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
@@ -265,19 +226,11 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-10-30T23:27Z",
-     "note": "Johnson (ankle) has been ruled out for Sunday's game against the Colts."
-    },
-    {
-     "player": "Jakobi Meyers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T12:23Z",
-     "note": "Meyers (hamstring/ankle) is expected to play in Sunday's game against the Colts, Ian Rapoport of NFL Network reports."
+     "updated": "2026-11-01T16:35Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "KC": {
@@ -409,20 +362,37 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.42,
+   "adj_points": 1.0,
    "qb_out": false,
    "absences": [
     {
      "player": "David Bailey",
      "pos": "DE",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-10-30T22:15Z",
-     "note": "Bailey (groin) is listed as doubtful for Sunday's game against the Raiders."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-01T16:51Z",
+     "note": "Bailey (groin) is inactive for Sunday's game against Las Vegas."
+    },
+    {
+     "player": "Tim Patrick",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-01T16:48Z",
+     "note": "Patrick (coach's decision) is inactive for Sunday's game versus the Raiders."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.58,
+   "new_absences": [
+    {
+     "player": "Tim Patrick",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-01T16:48Z",
+     "note": "Patrick (coach's decision) is inactive for Sunday's game versus the Raiders."
+    }
+   ]
   },
   "PHI": {
    "adj_points": 1.05,
@@ -489,7 +459,7 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 0.72,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -497,37 +467,12 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-30T16:32Z",
-     "note": "Egbuka (foot) has been ruled out for Sunday's game against the Falcons, Scott Smith of the Bucs' official site reports."
-    },
-    {
-     "player": "Luke Goedeke",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-10-31T01:45Z",
-     "note": "Goedeke (calf) is officially questionable for Sunday's Week 8 matchup against Atlanta."
-    },
-    {
-     "player": "Graham Barton",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-01T15:17Z",
-     "note": "Barton is battling through an illness but is expected to be active for Sunday's game against the Falcons, Scott Smith of the Buccaneers' official site reports."
+     "updated": "2026-11-01T16:37Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.1,
-   "new_absences": [
-    {
-     "player": "Graham Barton",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-01T15:17Z",
-     "note": "Barton is battling through an illness but is expected to be active for Sunday's game against the Falcons, Scott Smith of the Buccaneers' official site reports."
-    }
-   ]
+   "delta_since_last_pull": -0.22,
+   "new_absences": []
   },
   "TEN": {
    "adj_points": 0.5,
@@ -538,8 +483,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-10-31T15:10Z",
-     "note": "Tate (shoulder) will not play against the Bengals on Sunday but is expected to be back in action following the Titans' bye for Week 10 against the Jaguars on Su"
+     "updated": "2026-11-01T16:35Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -567,6 +512,20 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "DET": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.12,
+   "new_absences": []
+  },
+  "DAL": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   }
  }
