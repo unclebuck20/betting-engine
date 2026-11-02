@@ -22290,8 +22290,8 @@
    "confidence": 52.6,
    "line": 46.5,
    "price": -110,
-   "book": "draftkings",
-   "why": "Pinnacle's fair total is 46.5; DraftKings has Under 46.5 (-110). Our model projects 42.9 points from both offenses' efficiency and pace.",
+   "book": "fanduel",
+   "why": "Pinnacle's fair total is 46.5; FanDuel has Under 46.5 (-110). Our model projects 42.9 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -23704,7 +23704,7 @@
   "flags": [],
   "odds_pulled_at": "2026-11-01T15:00:31.520182+00:00",
   "published_at": "2026-11-01T15:01:21.974123+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-01T15:01:21.974123+00:00",
@@ -23723,27 +23723,36 @@
     51.5,
     -115,
     "draftkings"
+   ],
+   [
+    "2026-11-02T23:30:30.740630+00:00",
+    52.5,
+    -118,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 51.5,
-   "price": -115,
+   "line": 52.5,
+   "price": -118,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695561U5150_3",
-   "ev_pct": 4.7,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695561U5250_3",
+   "ev_pct": 9.33,
    "confidence": 56.0
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 4.7,
+   "tier": "pass",
+   "ev_pct": 9.33,
    "confidence": 56.0,
    "line": 51.5,
-   "price": -115,
-   "book": "draftkings",
-   "why": "Pinnacle's fair total is 51.5; DraftKings has Under 51.5 (-115). Our model projects 46.2 points from both offenses' efficiency and pace.",
-   "flags": []
+   "price": -105,
+   "book": "fanduel",
+   "why": "Pinnacle's fair total is 52.5; FanDuel has Under 51.5 (-105). Our model projects 46.2 points from both offenses' efficiency and pace.",
+   "flags": [
+    "model total is 6.1 pts off the market; usually missing weather or injury news",
+    "totals backtest: 6+ pt disagreements went 45-54"
+   ]
   }
  },
  "4aac00e6cc06b8905659f911419540d2|Notre Dame Fighting Irish": {
@@ -23920,7 +23929,7 @@
   "open_line": null,
   "confidence": 54.5,
   "ev_pct": 4.01,
-  "units": 1.5,
+  "units": 0.5,
   "price_floor": 7.5,
   "floor_text": "Good to +7.5 at -110",
   "fair_source": "consensus",
@@ -23937,7 +23946,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-01T23:30:27.307427+00:00",
   "published_at": "2026-11-01T23:30:39.831611+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-11-01T23:30:39.831611+00:00",
@@ -23950,25 +23959,31 @@
     8.5,
     -115,
     "draftkings"
+   ],
+   [
+    "2026-11-02T23:30:30.740630+00:00",
+    8.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 8.5,
-   "price": -115,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695597P850_1",
-   "ev_pct": 0.48,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967582&selectionId=50205",
+   "ev_pct": 2.61,
    "confidence": 53.7
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 0.48,
+   "tier": "lean",
+   "ev_pct": 2.61,
    "confidence": 53.7,
    "line": 8.5,
-   "price": -115,
-   "book": "draftkings",
-   "why": "BetOnline/LowVig makes Ravens +11; DraftKings has +8.5 (-115). Our NFL model makes Ravens +3.5, 7.2 pts better than the market.",
+   "price": -110,
+   "book": "fanduel",
+   "why": "Pinnacle makes Ravens +11; FanDuel has +8.5 (-110). Our NFL model makes Ravens +3.5, 7.2 pts better than the market.",
    "flags": []
   }
  },
@@ -24025,8 +24040,8 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967644&selectionId=7017916",
-   "ev_pct": null,
-   "confidence": null
+   "ev_pct": -0.17,
+   "confidence": 52.3
   },
   "inj_check": null,
   "scout": null,
@@ -24037,10 +24052,8 @@
    "line": 39.5,
    "price": -110,
    "book": "fanduel",
-   "why": "The market average's fair total is 38.5; FanDuel has Over 39.5 (-110). Our model projects 41.1 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
+   "why": "BetOnline/LowVig's fair total is 38.5; FanDuel has Over 39.5 (-110). Our model projects 40.8 points from both offenses' efficiency and pace.",
+   "flags": []
   }
  },
  "240e23b02b1e3fef655d04a286b5a623|Under": {
@@ -24104,20 +24117,22 @@
    "price": -108,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967713&selectionId=7017917",
-   "ev_pct": -1.31,
-   "confidence": 51.2
+   "ev_pct": -1.95,
+   "confidence": 50.9
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.31,
-   "confidence": 51.2,
+   "ev_pct": -1.95,
+   "confidence": 50.9,
    "line": 44.5,
    "price": -108,
    "book": "fanduel",
-   "why": "BetOnline/LowVig's fair total is 45; FanDuel has Under 44.5 (-108). Our model projects 42.5 points from both offenses' efficiency and pace.",
-   "flags": []
+   "why": "The market average's fair total is 45; FanDuel has Under 44.5 (-108). Our model projects 42.5 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
   }
  },
  "44d8c37868b700e90f816db7c5df5cdd|Under": {
@@ -24172,28 +24187,34 @@
     49.5,
     -105,
     "draftkings"
+   ],
+   [
+    "2026-11-02T23:30:30.740630+00:00",
+    50.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 49.5,
-   "price": -105,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695631U4950_3",
-   "ev_pct": 5.76,
-   "confidence": 54.2
+   "line": 50.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967624&selectionId=7017917",
+   "ev_pct": 6.91,
+   "confidence": 56.0
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 5.76,
-   "confidence": 54.2,
-   "line": 49.5,
-   "price": -105,
-   "book": "draftkings",
-   "why": "Pinnacle's fair total is 50.5; DraftKings has Under 49.5 (-105). Our model projects 44.5 points from both offenses' efficiency and pace.",
+   "ev_pct": 6.91,
+   "confidence": 56.0,
+   "line": 50.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "Pinnacle's fair total is 50.5; FanDuel has Under 50.5 (-110). Our model projects 44.5 points from both offenses' efficiency and pace.",
    "flags": [
-    "model total is 6.0 pts off the market; usually missing weather or injury news",
+    "model total is 6.2 pts off the market; usually missing weather or injury news",
     "totals backtest: 6+ pt disagreements went 45-54"
    ]
   }
@@ -24257,19 +24278,19 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695715U5150_3",
-   "ev_pct": -1.08,
-   "confidence": 51.8
+   "ev_pct": 0.79,
+   "confidence": 52.8
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.08,
-   "confidence": 51.8,
+   "ev_pct": 0.79,
+   "confidence": 52.8,
    "line": 51.5,
    "price": -110,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 52.5; DraftKings has Under 51.5 (-110). Our model projects 48.7 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 52; DraftKings has Under 51.5 (-110). Our model projects 48.7 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -24312,7 +24333,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-02T00:30:32.504371+00:00",
   "published_at": "2026-11-02T00:30:44.071315+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-11-02T00:30:44.071315+00:00",
@@ -24325,25 +24346,31 @@
     -3.0,
     -115,
     "draftkings"
+   ],
+   [
+    "2026-11-02T23:30:30.740630+00:00",
+    -3.0,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
    "line": -3.0,
-   "price": -115,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695561N300_3",
-   "ev_pct": 0.77,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578189646&selectionId=10697804",
+   "ev_pct": 2.72,
    "confidence": 53.9
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 0.77,
+   "tier": "lean",
+   "ev_pct": 2.72,
    "confidence": 53.9,
    "line": -3.0,
-   "price": -115,
-   "book": "draftkings",
-   "why": "Pinnacle makes Bengals -3; DraftKings has -3 (-115). Our NFL model makes Bengals -7, 3.9 pts better than the market.",
+   "price": -110,
+   "book": "fanduel",
+   "why": "Pinnacle makes Bengals -3; FanDuel has -3 (-110). Our NFL model makes Bengals -7, 3.9 pts better than the market.",
    "flags": []
   }
  },
@@ -24767,6 +24794,75 @@
    "flags": [
     "college injuries not checked yet"
    ]
+  }
+ },
+ "fe93e6ab1e553c0169936a0a983c324f|Philadelphia Eagles": {
+  "id": "fe93e6ab1e553c0169936a0a983c324f",
+  "pick_key": "fe93e6ab1e553c0169936a0a983c324f|Philadelphia Eagles",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "PHI passing vs NYG pass D: -0.13 EPA/play vs average",
+   "NYG passing vs PHI pass D: -0.08 EPA/play vs average"
+  ],
+  "matchup": "New York Giants @ Philadelphia Eagles",
+  "kickoff_utc": "2026-11-08T18:00:00Z",
+  "kickoff_pt": "Sun Nov 8, 10:00 AM PST",
+  "side": "Philadelphia Eagles",
+  "opponent": "New York Giants",
+  "side_is_home": true,
+  "line": 3.5,
+  "price": -118,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695501P350_1",
+  "fair_line": 3.5,
+  "open_line": null,
+  "confidence": 55.6,
+  "ev_pct": 2.63,
+  "units": 0.5,
+  "price_floor": 3.5,
+  "floor_text": "Good to +3.5 at -110",
+  "fair_source": "sharp",
+  "market_home_margin": -3.3,
+  "model_home_margin": 0.5,
+  "model_weight": 0.235,
+  "hours_to_kick": 138.5,
+  "signals": [],
+  "why": "BetOnline/LowVig makes Eagles +3.5; DraftKings has +3.5 (-118). Our NFL model makes Eagles -0.5, 3.8 pts better than the market.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-02T23:30:24.818247+00:00",
+  "published_at": "2026-11-02T23:30:30.740630+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-02T23:30:30.740630+00:00",
+    3.5,
+    -118,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 3.5,
+   "price": -118,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695501P350_1",
+   "ev_pct": 2.63,
+   "confidence": 55.6
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.63,
+   "confidence": 55.6,
+   "line": 3.5,
+   "price": -118,
+   "book": "draftkings",
+   "why": "BetOnline/LowVig makes Eagles +3.5; DraftKings has +3.5 (-118). Our NFL model makes Eagles -0.5, 3.8 pts better than the market.",
+   "flags": []
   }
  }
 }

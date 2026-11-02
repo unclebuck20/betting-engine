@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-02T22:00:32.313170+00:00",
-  "previous_pull": "2026-11-02T18:30:33.514442+00:00",
-  "matched_absences": 40
+  "injury_pull": "2026-11-02T23:30:24.818247+00:00",
+  "previous_pull": "2026-11-02T22:00:32.313170+00:00",
+  "matched_absences": 41
  },
  "teams": {
   "ARI": {
@@ -53,7 +53,7 @@
      "note": "Wiggins (stinger) is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Bills."
     }
    ],
-   "delta_since_last_pull": -0.3,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
@@ -281,9 +281,17 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.42,
+   "adj_points": 1.42,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Matthew Stafford",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-02T23:11Z",
+     "note": "Stafford left the locker room after Sunday's 24-9 win over the Charger with a bag of ice wrapped to his right arm, and Rams coach Sean McVay acknowledged Monday"
+    },
     {
      "player": "Colby Parkinson",
      "pos": "TE",
@@ -301,8 +309,17 @@
      "note": "Watson (shoulder) has been ruled out for the rest of Sunday's contest against the Chargers, Adam Grosbard of The Orange County Register reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Matthew Stafford",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-02T23:11Z",
+     "note": "Stafford left the locker room after Sunday's 24-9 win over the Charger with a bag of ice wrapped to his right arm, and Rams coach Sean McVay acknowledged Monday"
+    }
+   ]
   },
   "MIA": {
    "adj_points": 0.3,
@@ -341,17 +358,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Christian Darrisaw",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-02T20:04Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 0.57,
