@@ -1,33 +1,17 @@
 {
  "meta": {
   "season": 2026,
-  "starters_identified": 588,
+  "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-02T11:30:31.941399+00:00",
-  "previous_pull": "2026-11-02T09:30:31.791728+00:00",
-  "matched_absences": 53
+  "injury_pull": "2026-11-02T15:00:31.502134+00:00",
+  "previous_pull": "2026-11-02T11:30:31.941399+00:00",
+  "matched_absences": 40
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.91,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Walter Nolen III",
-     "pos": "DL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-01T16:39Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Jon Gaines II",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-01T16:39Z",
-     "note": "inactive"
-    },
     {
      "player": "Michael Wilson",
      "pos": "WR",
@@ -49,7 +33,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 1.72,
+   "adj_points": 1.42,
    "qb_out": false,
    "absences": [
     {
@@ -57,16 +41,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-01T22:03Z",
-     "note": "The status of Huntley (toe) is uncertain ahead of Thursday night's game against the Jaguars,  Tom Pelissero of Netflix reports"
-    },
-    {
-     "player": "Olaivavega Ioane",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-01T16:34Z",
-     "note": "inactive"
+     "updated": "2026-11-01T23:37Z",
+     "note": "Huntley may have sustained a right turf toe injury during Sunday's 36-10 loss at Buffalo, Adam Schefter of ESPN reports."
     },
     {
      "player": "Emery Jones Jr.",
@@ -83,22 +59,6 @@
      "points": 0.12,
      "updated": "2026-11-01T20:58Z",
      "note": "Wiggins (stinger) is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Bills."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "BUF": {
-   "adj_points": 0.5,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Spencer Brown",
-     "pos": "T",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-01T17:20Z",
-     "note": "Brown (back) is inactive for Sunday's game against the Ravens."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -193,17 +153,9 @@
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 0.19,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Kris Abrams-Draine",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T22:59Z",
-     "note": "Abrams-Draine (ankle) is questionable to return to Sunday's contest versus the Chiefs, Parker Gabriel of The Denver Post reports."
-    },
     {
      "player": "Brandon Jones",
      "pos": "S",
@@ -226,7 +178,7 @@
      "status": "Doubtful",
      "points": 0.21,
      "updated": "2026-11-02T00:19Z",
-     "note": "Campbell (neck) will remain in a local hospital Sunday night."
+     "note": "The Lions announced after Sunday's 19-15 win over the Vikings that Campbell (neck) will remain hospitalized overnight for continued evaluation."
     },
     {
      "player": "D.J. Reed",
@@ -281,17 +233,9 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.51,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Antonio Johnson",
-     "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-01T16:35Z",
-     "note": "inactive"
-    },
     {
      "player": "Travon Walker",
      "pos": "DE",
@@ -345,17 +289,9 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.92,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Davante Adams",
-     "pos": "WR",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-10-28T20:59Z",
-     "note": "Head coach Sean McVay said Wednesday that Adams had successful surgery on his left hamstring, and the Rams are hopeful that the wide receiver will be able to re"
-    },
     {
      "player": "Colby Parkinson",
      "pos": "TE",
@@ -473,7 +409,7 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 1.0,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -483,39 +419,15 @@
      "points": 0.5,
      "updated": "2026-11-01T16:51Z",
      "note": "Bailey (groin) is inactive for Sunday's game against Las Vegas."
-    },
-    {
-     "player": "Tim Patrick",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-01T16:48Z",
-     "note": "Patrick (coach's decision) is inactive for Sunday's game versus the Raiders."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 1.45,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Dontayvion Wicks",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-01T23:55Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Jake Majors",
-     "pos": "C",
-     "status": "Out",
-     "points": 0.4,
-     "updated": "2026-11-01T23:55Z",
-     "note": "inactive"
-    },
     {
      "player": "Dameon Pierce",
      "pos": "RB",
@@ -523,14 +435,6 @@
      "points": 0.3,
      "updated": "2026-10-28T21:17Z",
      "note": "The Eagles placed Pierce (undisclosed) on injured reserve Wednesday"
-    },
-    {
-     "player": "Jihaad Campbell",
-     "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-01T23:55Z",
-     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -563,22 +467,6 @@
      "points": 0.5,
      "updated": "2026-11-01T03:18Z",
      "note": "Cross (ankle) has been ruled out for Monday's game against the Bears, John Boyle of the Seahawks' official site reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "TB": {
-   "adj_points": 0.5,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Emeka Egbuka",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-01T16:37Z",
-     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -625,19 +513,11 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.6,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Daron Payne",
-     "pos": "DT",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-01T23:53Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Javon Kinlaw",
      "pos": "DT",
      "status": "Out",
      "points": 0.3,
