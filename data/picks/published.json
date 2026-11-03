@@ -23138,13 +23138,19 @@
     -8.5,
     -115,
     "draftkings"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    -9.5,
+    -108,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": -8.5,
-   "price": -115,
+   "line": -9.5,
+   "price": -108,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695597N850_3",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695597N950_3",
    "ev_pct": null,
    "confidence": null
   },
@@ -23728,7 +23734,7 @@
   "flags": [],
   "odds_pulled_at": "2026-11-01T15:00:31.520182+00:00",
   "published_at": "2026-11-01T15:01:21.974123+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-01T15:01:21.974123+00:00",
@@ -23753,27 +23759,36 @@
     52.5,
     -118,
     "draftkings"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    52.5,
+    -120,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 52.5,
-   "price": -118,
+   "price": -120,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695561U5250_3",
-   "ev_pct": 9.33,
-   "confidence": 56.0
+   "ev_pct": 8.33,
+   "confidence": 55.5
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 9.33,
-   "confidence": 56.0,
+   "tier": "pass",
+   "ev_pct": 8.33,
+   "confidence": 55.5,
    "line": 51.5,
    "price": -105,
    "book": "fanduel",
-   "why": "Pinnacle's fair total is 52; FanDuel has Under 51.5 (-105). Our model projects 46.3 points from both offenses' efficiency and pace.",
-   "flags": []
+   "why": "Pinnacle's fair total is 52.5; FanDuel has Under 51.5 (-105). Our model projects 46.3 points from both offenses' efficiency and pace.",
+   "flags": [
+    "model total is 6.2 pts off the market; usually missing weather or injury news",
+    "totals backtest: 6+ pt disagreements went 45-54"
+   ]
   }
  },
  "4aac00e6cc06b8905659f911419540d2|Notre Dame Fighting Irish": {
@@ -23955,7 +23970,7 @@
   "open_line": null,
   "confidence": 54.5,
   "ev_pct": 4.01,
-  "units": 1.5,
+  "units": 2.0,
   "price_floor": 7.5,
   "floor_text": "Good to +7.5 at -110",
   "fair_source": "consensus",
@@ -24003,25 +24018,31 @@
     9.5,
     -120,
     "fanduel"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    9.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 9.5,
-   "price": -120,
+   "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967582&selectionId=50205",
-   "ev_pct": 5.63,
-   "confidence": 54.1
+   "ev_pct": 6.91,
+   "confidence": 56.0
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 5.63,
-   "confidence": 54.1,
-   "line": 8.5,
-   "price": -105,
-   "book": "draftkings",
-   "why": "Pinnacle makes Ravens +11; DraftKings has +8.5 (-105). Our NFL model makes Ravens +3.5, 7.4 pts better than the market.",
+   "ev_pct": 6.91,
+   "confidence": 56.0,
+   "line": 9.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "Pinnacle makes Ravens +11.5; FanDuel has +9.5 (-110). Our NFL model makes Ravens +3.5, 7.7 pts better than the market.",
    "flags": []
   }
  },
@@ -24064,33 +24085,39 @@
   ],
   "odds_pulled_at": "2026-11-01T23:30:27.307427+00:00",
   "published_at": "2026-11-01T23:30:39.831611+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-01T23:30:39.831611+00:00",
     39.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    39.5,
+    -112,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 39.5,
-   "price": -110,
+   "price": -112,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967644&selectionId=7017916",
-   "ev_pct": 2.53,
-   "confidence": 53.7
+   "ev_pct": -1.74,
+   "confidence": 51.9
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.53,
-   "confidence": 53.7,
+   "tier": "pass",
+   "ev_pct": -1.74,
+   "confidence": 51.9,
    "line": 39.5,
-   "price": -110,
+   "price": -112,
    "book": "fanduel",
-   "why": "Pinnacle's fair total is 39; FanDuel has Over 39.5 (-110). Our model projects 40.8 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 38.5; FanDuel has Over 39.5 (-112). Our model projects 40.8 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -24154,26 +24181,32 @@
     44.5,
     -110,
     "draftkings"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    43.5,
+    -105,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 44.5,
-   "price": -110,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695446U4450_3",
-   "ev_pct": -2.83,
-   "confidence": 50.9
+   "line": 43.5,
+   "price": -105,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967713&selectionId=7017917",
+   "ev_pct": -2.34,
+   "confidence": 50.0
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -2.83,
-   "confidence": 50.9,
-   "line": 44.5,
-   "price": -110,
-   "book": "draftkings",
-   "why": "Pinnacle's fair total is 45; DraftKings has Under 44.5 (-110). Our model projects 42.6 points from both offenses' efficiency and pace.",
+   "ev_pct": -2.34,
+   "confidence": 50.0,
+   "line": 43.5,
+   "price": -105,
+   "book": "fanduel",
+   "why": "Pinnacle's fair total is 44; FanDuel has Under 43.5 (-105). Our model projects 42.6 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -24235,13 +24268,19 @@
     50.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    50.5,
+    -110,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 50.5,
    "price": -110,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967624&selectionId=7017917",
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695631U5050_3",
    "ev_pct": 6.91,
    "confidence": 56.0
   },
@@ -24253,8 +24292,8 @@
    "confidence": 56.0,
    "line": 50.5,
    "price": -110,
-   "book": "fanduel",
-   "why": "Pinnacle's fair total is 50.5; FanDuel has Under 50.5 (-110). Our model projects 44.5 points from both offenses' efficiency and pace.",
+   "book": "draftkings",
+   "why": "Pinnacle's fair total is 50.5; DraftKings has Under 50.5 (-110). Our model projects 44.5 points from both offenses' efficiency and pace.",
    "flags": [
     "model total is 6.2 pts off the market; usually missing weather or injury news",
     "totals backtest: 6+ pt disagreements went 45-54"
@@ -24375,7 +24414,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-02T00:30:32.504371+00:00",
   "published_at": "2026-11-02T00:30:44.071315+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-02T00:30:44.071315+00:00",
@@ -24401,18 +24440,18 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578189646&selectionId=10697804",
-   "ev_pct": 2.72,
-   "confidence": 53.9
+   "ev_pct": 1.98,
+   "confidence": 53.5
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.72,
-   "confidence": 53.9,
+   "tier": "pass",
+   "ev_pct": 1.98,
+   "confidence": 53.5,
    "line": -3.0,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Bengals -3; FanDuel has -3 (-110). Our NFL model makes Bengals -7, 3.8 pts better than the market.",
+   "why": "Pinnacle makes Bengals -3; FanDuel has -3 (-110). Our NFL model makes Bengals -7, 4.0 pts better than the market.",
    "flags": []
   }
  },
@@ -24462,25 +24501,31 @@
     4.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    4.5,
+    -106,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 4.5,
-   "price": -110,
+   "price": -106,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621259727&selectionId=484726",
-   "ev_pct": -0.48,
-   "confidence": 52.1
+   "ev_pct": -0.09,
+   "confidence": 51.4
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -0.48,
-   "confidence": 52.1,
+   "ev_pct": -0.09,
+   "confidence": 51.4,
    "line": 4.5,
-   "price": -110,
+   "price": -106,
    "book": "fanduel",
-   "why": "Pinnacle makes Kansas State +5; FanDuel has +4.5 (-110). Our in-season power ratings have Kansas State 4.8 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Kansas State +5.5; FanDuel has +4.5 (-106). Our in-season power ratings have Kansas State 5.0 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -24837,25 +24882,31 @@
     1.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-11-03T15:01:42.265115+00:00",
+    1.5,
+    -106,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 1.5,
-   "price": -110,
+   "price": -106,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621262420&selectionId=2137018",
-   "ev_pct": -4.07,
+   "ev_pct": -2.35,
    "confidence": 50.2
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -4.07,
+   "ev_pct": -2.35,
    "confidence": 50.2,
    "line": 1.5,
-   "price": -110,
-   "book": "draftkings",
-   "why": "Pinnacle makes Tulane +1; DraftKings has +1.5 (-110). Our in-season power ratings have Tulane 3.3 pts better than the market. The line opened +3 and has moved toward Tulane.",
+   "price": -106,
+   "book": "fanduel",
+   "why": "Pinnacle makes Tulane +1; FanDuel has +1.5 (-106). Our in-season power ratings have Tulane 3.3 pts better than the market. The line opened +3 and has moved toward Tulane.",
    "flags": [
     "college injuries not checked yet"
    ]

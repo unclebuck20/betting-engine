@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-03T11:30:30.125813+00:00",
-  "previous_pull": "2026-11-03T08:00:41.045502+00:00",
-  "matched_absences": 47
+  "injury_pull": "2026-11-03T15:00:32.467694+00:00",
+  "previous_pull": "2026-11-03T11:30:30.125813+00:00",
+  "matched_absences": 46
  },
  "teams": {
   "ARI": {
@@ -81,7 +81,7 @@
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 0.92,
+   "adj_points": 0.69,
    "qb_out": false,
    "absences": [
     {
@@ -93,37 +93,29 @@
      "note": "Evans (triceps) was placed on injured reserve by the Panthers on Thursday, Darin Gantt of the team's official website reports."
     },
     {
-     "player": "Damien Lewis",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-29T01:30Z",
-     "note": "Lewis (knee) has been ruled out for Thursday's game against the Packers."
-    },
-    {
      "player": "Will Lee III",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-03T01:02Z",
      "note": "Lee (hamstring) is day to day but should have a chance to \"test\" his injury this week, Joe Person of The Athletic reports."
+    },
+    {
+     "player": "Damien Lewis",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.44,
+   "adj_points": 0.09,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Malik Muhammad II",
-     "pos": "DB",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-03T00:11Z",
-     "note": "Muhammad (toe) is inactive for Monday's game against the Seahawks."
-    },
     {
      "player": "Grady Jarrett",
      "pos": "DL",
@@ -209,17 +201,9 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.42,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Travis Glover",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-10-29T22:54Z",
-     "note": "inactive"
-    },
     {
      "player": "Christian Watson",
      "pos": "WR",
@@ -227,25 +211,33 @@
      "points": 0.12,
      "updated": "2026-11-02T20:13Z",
      "note": "Packers passing game coordinator Jason Vrable said Monday that Watson (ribs) is sore but \"doing great,\" Matt Schneidman of The Athletic reports."
+    },
+    {
+     "player": "Travis Glover",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Justin Walley",
      "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-02T18:52Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "JAX": {
@@ -289,19 +281,19 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Mansoor Delane",
      "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-02T19:04Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "LV": {
@@ -321,7 +313,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 1.42,
+   "adj_points": 1.19,
    "qb_out": false,
    "absences": [
     {
@@ -333,39 +325,39 @@
      "note": "Stafford left the locker room after Sunday's 24-9 win over the Chargers with a bag of ice wrapped on his right arm, and Rams coach Sean McVay acknowledged Monda"
     },
     {
-     "player": "Colby Parkinson",
-     "pos": "TE",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-02T19:10Z",
-     "note": "out"
-    },
-    {
      "player": "Jaylen Watson",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-01T23:25Z",
      "note": "Watson (shoulder) has been ruled out for the rest of Sunday's contest against the Chargers, Adam Grosbard of The Orange County Register reports."
+    },
+    {
+     "player": "Colby Parkinson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 0.3,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
     {
      "player": "Kadyn Proctor",
      "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-02T19:10Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "MIN": {
@@ -393,14 +385,14 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.57,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
      "player": "A.J. Brown",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
+     "status": "Questionable",
+     "points": 0.12,
      "updated": "2026-11-02T16:43Z",
      "note": "When asked whether Brown (ankle/knee) might practice at some point this week, coach Mike Vrabel said Monday, \"We'll see,\" Doug Kyed of the Boston Herald reports"
     },
@@ -413,7 +405,7 @@
      "note": "Henry (foot) has been ruled out for the rest of Sunday's game in Miami."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "NO": {
@@ -457,19 +449,19 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "David Bailey",
      "pos": "DE",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-02T19:16Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "PHI": {
@@ -505,16 +497,16 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 0.57,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
      "player": "Charles Cross",
      "pos": "T",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-02T23:51Z",
-     "note": "inactive"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-03T13:03Z",
+     "note": "questionable"
     },
     {
      "player": "Leonard Williams",
@@ -525,7 +517,7 @@
      "note": "Williams (shoulder) has a stinger and is questionable to return to Monday's game against the Bears."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "TEN": {
@@ -537,7 +529,7 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-02T19:24Z",
+     "updated": "2026-11-03T13:04Z",
      "note": "out"
     },
     {
