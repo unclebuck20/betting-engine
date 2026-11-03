@@ -22259,7 +22259,7 @@
   "flags": [],
   "odds_pulled_at": "2026-10-26T23:21:29.746816+00:00",
   "published_at": "2026-10-27T01:30:37.136095+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-10-27T01:30:37.136095+00:00",
@@ -23994,7 +23994,7 @@
    "line": 10.0,
    "price": -112,
    "book": "draftkings",
-   "why": "Pinnacle makes Ravens +11; DraftKings has +10 (-112). Our NFL model makes Ravens +3.5, 7.2 pts better than the market.",
+   "why": "Pinnacle makes Ravens +11; DraftKings has +10 (-112). Our NFL model makes Ravens +3.5, 7.3 pts better than the market.",
    "flags": []
   }
  },
@@ -25016,6 +25016,75 @@
     "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
     "college injuries not checked yet"
    ]
+  }
+ },
+ "17ad7eff2f7875e20a8109abe40470e3|Minnesota Vikings": {
+  "id": "17ad7eff2f7875e20a8109abe40470e3",
+  "pick_key": "17ad7eff2f7875e20a8109abe40470e3|Minnesota Vikings",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "mnf",
+  "tier": "play",
+  "edges": [
+   "MIN passing vs BUF pass D: -0.06 EPA/play vs average",
+   "BUF QB faces pressure on ~17% of dropbacks"
+  ],
+  "matchup": "Buffalo Bills @ Minnesota Vikings",
+  "kickoff_utc": "2026-11-10T01:15:00Z",
+  "kickoff_pt": "Mon Nov 9, 5:15 PM PST",
+  "side": "Minnesota Vikings",
+  "opponent": "Buffalo Bills",
+  "side_is_home": true,
+  "line": 3.5,
+  "price": -118,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600P350_1",
+  "fair_line": 3.5,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 3.46,
+  "units": 1.0,
+  "price_floor": 3.5,
+  "floor_text": "Good to +3.5 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": -3.6,
+  "model_home_margin": 1.2,
+  "model_weight": 0.291,
+  "hours_to_kick": 165.7,
+  "signals": [],
+  "why": "Pinnacle makes Vikings +3.5; DraftKings has +3.5 (-118). Our NFL model makes Vikings -1, 4.8 pts better than the market.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-03T00:30:33.440258+00:00",
+  "published_at": "2026-11-03T03:30:56.744912+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-03T03:30:56.744912+00:00",
+    3.5,
+    -118,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 3.5,
+   "price": -118,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600P350_1",
+   "ev_pct": 3.46,
+   "confidence": 56.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 3.46,
+   "confidence": 56.0,
+   "line": 3.5,
+   "price": -118,
+   "book": "draftkings",
+   "why": "Pinnacle makes Vikings +3.5; DraftKings has +3.5 (-118). Our NFL model makes Vikings -1, 4.8 pts better than the market.",
+   "flags": []
   }
  }
 }
