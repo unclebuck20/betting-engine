@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-04T11:30:34.324137+00:00",
-  "previous_pull": "2026-11-04T07:00:30.311867+00:00",
-  "matched_absences": 43
+  "injury_pull": "2026-11-04T15:00:36.285534+00:00",
+  "previous_pull": "2026-11-04T11:30:34.324137+00:00",
+  "matched_absences": 44
  },
  "teams": {
   "ARI": {
@@ -33,16 +33,16 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 3.59,
+   "adj_points": 4.19,
    "qb_out": true,
    "absences": [
     {
      "player": "Tyler Huntley",
      "pos": "QB",
-     "status": "Doubtful",
-     "points": 3.4,
-     "updated": "2026-11-03T20:47Z",
-     "note": "Ravens head coach Jesse Minter said Tuesday that Huntley (toe) could be a candidate for injured reserve, Sam Cohn of The Baltimore Sunreports."
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-04T14:00Z",
+     "note": "Huntley (toe) has reportedly sustained a season-ending turf toe injury, Adam Schefter of ESPN reports."
     },
     {
      "player": "Roger Rosengarten",
@@ -61,7 +61,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.6,
    "new_absences": []
   },
   "CAR": {
@@ -127,6 +127,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "CLE": {
+   "adj_points": 1.0,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Deshaun Watson",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-04T14:37Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Deshaun Watson",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-04T14:37Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DAL": {
    "adj_points": 0.09,
