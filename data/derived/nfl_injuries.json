@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-04T15:00:36.285534+00:00",
-  "previous_pull": "2026-11-04T11:30:34.324137+00:00",
-  "matched_absences": 44
+  "injury_pull": "2026-11-04T18:30:27.838243+00:00",
+  "previous_pull": "2026-11-04T15:00:36.285534+00:00",
+  "matched_absences": 47
  },
  "teams": {
   "ARI": {
@@ -61,7 +61,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.6,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
@@ -113,7 +113,7 @@
    "new_absences": []
   },
   "CIN": {
-   "adj_points": 0.12,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
@@ -123,13 +123,30 @@
      "points": 0.12,
      "updated": "2026-11-03T00:47Z",
      "note": "Turner (ankle) is considered day-to-day, NFL reporter Jordan Schultz reported Monday."
+    },
+    {
+     "player": "Jordan Battle",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T16:32Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Jordan Battle",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T16:32Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CLE": {
-   "adj_points": 1.0,
+   "adj_points": 1.06,
    "qb_out": false,
    "absences": [
     {
@@ -137,18 +154,26 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-04T14:37Z",
+     "updated": "2026-11-04T17:01Z",
+     "note": "Mary Kay Cabot of the Cleveland Plain Dealer suggests that Watson may have difficulty clearing the NFL's concussion protocol ahead of Sunday's game against the "
+    },
+    {
+     "player": "Quincy Williams",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-04T17:21Z",
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 1.0,
+   "delta_since_last_pull": 0.06,
    "new_absences": [
     {
-     "player": "Deshaun Watson",
-     "pos": "QB",
+     "player": "Quincy Williams",
+     "pos": "LB",
      "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-04T14:37Z",
+     "points": 0.06,
+     "updated": "2026-11-04T17:21Z",
      "note": "questionable"
     }
    ]
@@ -402,8 +427,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-02T16:43Z",
-     "note": "When asked whether Brown (ankle/knee) might practice at some point this week, coach Mike Vrabel said Monday, \"We'll see,\" Doug Kyed of the Boston Herald reports"
+     "updated": "2026-11-04T18:13Z",
+     "note": "Brown (ankle/kee) won't practice Wednesday, Doug Kyed of the Boston Herald reports."
     },
     {
      "player": "Hunter Henry",
@@ -458,9 +483,17 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.12,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Garrett Wilson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-04T17:25Z",
+     "note": "Wilson, who is in the NFL's concussion protocol, is considered day-to-day,  Zack Rosenblatt of The Athletic reports."
+    },
     {
      "player": "David Bailey",
      "pos": "DE",
@@ -470,8 +503,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Garrett Wilson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-04T17:25Z",
+     "note": "Wilson, who is in the NFL's concussion protocol, is considered day-to-day,  Zack Rosenblatt of The Athletic reports."
+    }
+   ]
   },
   "SF": {
    "adj_points": 0.07,
