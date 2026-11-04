@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-04T18:30:27.838243+00:00",
-  "previous_pull": "2026-11-04T15:00:36.285534+00:00",
-  "matched_absences": 47
+  "injury_pull": "2026-11-04T22:00:25.780504+00:00",
+  "previous_pull": "2026-11-04T18:30:27.838243+00:00",
+  "matched_absences": 51
  },
  "teams": {
   "ARI": {
@@ -33,7 +33,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 4.19,
+   "adj_points": 4.12,
    "qb_out": true,
    "absences": [
     {
@@ -45,24 +45,25 @@
      "note": "Huntley (toe) has reportedly sustained a season-ending turf toe injury, Adam Schefter of ESPN reports."
     },
     {
-     "player": "Roger Rosengarten",
-     "pos": "T",
+     "player": "Nate Wiggins",
+     "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-03T01:05Z",
-     "note": "questionable"
-    },
-    {
-     "player": "John Simpson",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-03T01:05Z",
+     "updated": "2026-11-04T20:17Z",
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.07,
+   "new_absences": [
+    {
+     "player": "Nate Wiggins",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-04T20:17Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.69,
@@ -133,17 +134,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Jordan Battle",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-04T16:32Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CLE": {
    "adj_points": 1.06,
@@ -162,21 +154,12 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-04T17:21Z",
-     "note": "questionable"
+     "updated": "2026-11-04T20:49Z",
+     "note": "Williams (hamstring) did not participate in practice Wednesday, Chris Easterling of the Akron Beacon Journal reports."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Quincy Williams",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-04T17:21Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DAL": {
    "adj_points": 0.09,
@@ -211,7 +194,7 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.33,
+   "adj_points": 0.45,
    "qb_out": false,
    "absences": [
     {
@@ -223,6 +206,14 @@
      "note": "The Lions announced Monday that \"preliminary indications are positive\" for Campbell (neck), who continues to rest and recover at a Detroit-area hospital."
     },
     {
+     "player": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-04T21:05Z",
+     "note": "St. Brown was a limited participant at Wednesday's walkthrough due to a rib injury, Nolan Bianchi of The Detroit News reports."
+    },
+    {
      "player": "D.J. Reed",
      "pos": "CB",
      "status": "Questionable",
@@ -231,8 +222,17 @@
      "note": "Reed (hip) is not expected to practice Wednesday, Nolan Bianchi of The Detroit News reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-04T21:05Z",
+     "note": "St. Brown was a limited participant at Wednesday's walkthrough due to a rib injury, Nolan Bianchi of The Detroit News reports."
+    }
+   ]
   },
   "GB": {
    "adj_points": 0.19,
@@ -259,7 +259,7 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.12,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
     {
@@ -269,13 +269,30 @@
      "points": 0.12,
      "updated": "2026-11-03T13:03Z",
      "note": "questionable"
+    },
+    {
+     "player": "Akeem Davis-Gaither",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-04T20:42Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Akeem Davis-Gaither",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-04T20:42Z",
+     "note": "questionable"
+    }
+   ]
   },
   "JAX": {
-   "adj_points": 0.45,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
@@ -285,37 +302,13 @@
      "points": 0.12,
      "updated": "2026-11-04T01:30Z",
      "note": "Walker (ribs) was a limited participant at practice Tuesday."
-    },
-    {
-     "player": "Jakobi Meyers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-03T21:57Z",
-     "note": "Meyers (hamstring/ankle) was listed as a limited participant in Tuesday's practice."
-    },
-    {
-     "player": "Jarrian Jones",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-03T00:57Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Ezra Cleveland",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-01T19:05Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.33,
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.12,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
@@ -325,10 +318,27 @@
      "points": 0.12,
      "updated": "2026-11-03T13:03Z",
      "note": "questionable"
+    },
+    {
+     "player": "Travis Kelce",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T21:41Z",
+     "note": "Kelce (ankle) was listed as limited in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Travis Kelce",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T21:41Z",
+     "note": "Kelce (ankle) was listed as limited in Wednesday's practice."
+    }
+   ]
   },
   "LV": {
    "adj_points": 0.12,
@@ -379,9 +389,33 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 0.07,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Zach Sieler",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-04T21:30Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Michael Taaffe",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T21:31Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dante Trader Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T21:31Z",
+     "note": "questionable"
+    },
     {
      "player": "Kadyn Proctor",
      "pos": "G",
@@ -391,8 +425,33 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.23,
+   "new_absences": [
+    {
+     "player": "Zach Sieler",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-04T21:30Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Michael Taaffe",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T21:31Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dante Trader Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-04T21:31Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIN": {
    "adj_points": 1.12,
@@ -428,15 +487,15 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-04T18:13Z",
-     "note": "Brown (ankle/kee) won't practice Wednesday, Doug Kyed of the Boston Herald reports."
+     "note": "Brown (ankle/knee) won't practice Wednesday, Doug Kyed of the Boston Herald reports."
     },
     {
      "player": "Hunter Henry",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-03T15:14Z",
-     "note": "Patriots head coach Mike Vrabel said Monday that he had no update on Henry's (foot) status heading into Sunday's game against the Packers, Karen Guregian of Mas"
+     "updated": "2026-11-04T19:41Z",
+     "note": "Henry (foot) wasn't on the field for the media-access portion of Wednesday's practice, Mike Reiss of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -459,52 +518,58 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.32,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
     {
-     "player": "Tremaine Edmunds",
-     "pos": "LB",
-     "status": "Injured Reserve",
-     "points": 0.25,
-     "updated": "2026-10-24T23:28Z",
-     "note": "Edmunds (chest) was placed on injured reserve Saturday, Dan Duggan of The Athletic reports."
+     "player": "Andrew Thomas",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-04T21:27Z",
+     "note": "questionable"
     },
     {
-     "player": "Jevon Holland",
-     "pos": "S",
+     "player": "Abdul Carter",
+     "pos": "LB",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-10-27T13:11Z",
+     "points": 0.06,
+     "updated": "2026-11-04T21:23Z",
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "NYJ": {
-   "adj_points": 0.24,
-   "qb_out": false,
-   "absences": [
+   "delta_since_last_pull": -0.14,
+   "new_absences": [
     {
-     "player": "Garrett Wilson",
-     "pos": "WR",
+     "player": "Andrew Thomas",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-04T17:25Z",
-     "note": "Wilson, who is in the NFL's concussion protocol, is considered day-to-day,  Zack Rosenblatt of The Athletic reports."
+     "updated": "2026-11-04T21:27Z",
+     "note": "questionable"
     },
+    {
+     "player": "Abdul Carter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-04T21:23Z",
+     "note": "questionable"
+    }
+   ]
+  },
+  "NYJ": {
+   "adj_points": 0.33,
+   "qb_out": false,
+   "absences": [
     {
      "player": "David Bailey",
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-03T13:03Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
+     "updated": "2026-11-04T20:39Z",
+     "note": "Bailey (groin) was a limited participant in practice Wednesday, Zack Rosenblatt of The Athletic reports."
+    },
     {
      "player": "Garrett Wilson",
      "pos": "WR",
@@ -512,6 +577,25 @@
      "points": 0.12,
      "updated": "2026-11-04T17:25Z",
      "note": "Wilson, who is in the NFL's concussion protocol, is considered day-to-day,  Zack Rosenblatt of The Athletic reports."
+    },
+    {
+     "player": "Harrison Phillips",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-04T21:46Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Harrison Phillips",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-04T21:46Z",
+     "note": "questionable"
     }
    ]
   },
@@ -524,17 +608,25 @@
      "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-10-26T22:12Z",
-     "note": "McCaffrey is dealing with a mild hamstring strain rather than a quadriceps injury, and the 49ers believe he'll be ready following the team's Week 8 bye, David L"
+     "updated": "2026-11-04T20:51Z",
+     "note": "McCaffrey (hamstring) will not participate in Wednesday's practice, Cam Inman of Bay Area News Group reports."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 0.19,
-   "qb_out": false,
+   "adj_points": 4.19,
+   "qb_out": true,
    "absences": [
+    {
+     "player": "Sam Darnold",
+     "pos": "QB",
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-04T19:02Z",
+     "note": "Head coach Mike Macdonald announced that Darnold won't play Sunday against the Cardinals due to a quadriceps injury, NFL reporter Andrew Siciliano reports."
+    },
     {
      "player": "Charles Cross",
      "pos": "T",
@@ -552,8 +644,17 @@
      "note": "Williams sustained a stinger during Monday's game against the Bears and is questionable to return."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 4.0,
+   "new_absences": [
+    {
+     "player": "Sam Darnold",
+     "pos": "QB",
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-04T19:02Z",
+     "note": "Head coach Mike Macdonald announced that Darnold won't play Sunday against the Cardinals due to a quadriceps injury, NFL reporter Andrew Siciliano reports."
+    }
+   ]
   },
   "TEN": {
    "adj_points": 0.81,
@@ -604,8 +705,8 @@
      "pos": "DT",
      "status": "Injured Reserve",
      "points": 0.3,
-     "updated": "2026-11-04T00:17Z",
-     "note": "Payne (foot) was placed on injured reserve by the Commanders on Tuesday, Tashan Reed of The Washington Post reports."
+     "updated": "2026-11-04T19:13Z",
+     "note": "Payne (foot) underwent season-ending surgery Wednesday, Ben Standig of The Team 980 Washington D.C. reports."
     }
    ],
    "delta_since_last_pull": 0.0,
