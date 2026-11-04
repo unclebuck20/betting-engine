@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-04T00:00:33.214788+00:00",
-  "previous_pull": "2026-11-03T23:00:34.940052+00:00",
-  "matched_absences": 44
+  "injury_pull": "2026-11-04T03:30:30.193407+00:00",
+  "previous_pull": "2026-11-04T00:00:33.214788+00:00",
+  "matched_absences": 43
  },
  "teams": {
   "ARI": {
@@ -61,7 +61,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
@@ -229,6 +229,14 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Travon Walker",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-04T01:30Z",
+     "note": "Walker (ribs) was a limited participant at practice Tuesday."
+    },
+    {
      "player": "Jakobi Meyers",
      "pos": "WR",
      "status": "Questionable",
@@ -243,14 +251,6 @@
      "points": 0.12,
      "updated": "2026-11-03T00:57Z",
      "note": "questionable"
-    },
-    {
-     "player": "Travon Walker",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T20:42Z",
-     "note": "Walker (ribs) is questionable to return to Sunday's game against the Colts."
     },
     {
      "player": "Ezra Cleveland",
@@ -361,8 +361,8 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-02T20:04Z",
-     "note": "questionable"
+     "updated": "2026-11-04T01:35Z",
+     "note": "Coach Kevin O'Connell said Tuesday that Darrisaw is nursing a shoulder issue, Alec Lewis of The Athletic reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -443,22 +443,6 @@
      "points": 0.12,
      "updated": "2026-11-03T13:03Z",
      "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "PHI": {
-   "adj_points": 0.3,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Dameon Pierce",
-     "pos": "RB",
-     "status": "Injured Reserve",
-     "points": 0.3,
-     "updated": "2026-10-28T21:17Z",
-     "note": "The Eagles placed Pierce (undisclosed) on injured reserve Wednesday"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -553,11 +537,18 @@
      "pos": "DT",
      "status": "Injured Reserve",
      "points": 0.3,
-     "updated": "2026-11-03T21:32Z",
-     "note": "ir"
+     "updated": "2026-11-04T00:17Z",
+     "note": "Payne (foot) was placed on injured reserve by the Commanders on Tuesday, Tashan Reed of The Washington Post reports."
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "PHI": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.3,
    "new_absences": []
   }
  }
