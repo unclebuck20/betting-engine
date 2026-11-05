@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-05T22:00:33.555905+00:00",
-  "previous_pull": "2026-11-05T18:30:29.574369+00:00",
-  "matched_absences": 71
+  "injury_pull": "2026-11-05T22:30:32.237726+00:00",
+  "previous_pull": "2026-11-05T22:00:33.555905+00:00",
+  "matched_absences": 75
  },
  "teams": {
   "ARI": {
@@ -55,6 +55,79 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "BUF": {
+   "adj_points": 0.41,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Keon Coleman",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-05T22:21Z",
+     "note": "Coleman (shoulder) was limited in practice Thursday."
+    },
+    {
+     "player": "Dion Dawkins",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-05T22:13Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Alec Anderson",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-05T22:12Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dalton Kincaid",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-05T22:10Z",
+     "note": "Kincaid (chest) was listed as a limited participant in Thursday's practice,."
+    }
+   ],
+   "delta_since_last_pull": 0.41,
+   "new_absences": [
+    {
+     "player": "Keon Coleman",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-05T22:21Z",
+     "note": "Coleman (shoulder) was limited in practice Thursday."
+    },
+    {
+     "player": "Dion Dawkins",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-05T22:13Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Alec Anderson",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-05T22:12Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dalton Kincaid",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-05T22:10Z",
+     "note": "Kincaid (chest) was listed as a limited participant in Thursday's practice,."
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.75,
@@ -125,17 +198,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "D'Marco Jackson",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-05T20:44Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CIN": {
    "adj_points": 0.07,
@@ -150,7 +214,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CLE": {
@@ -214,20 +278,11 @@
      "note": "Williams (hamstring) did not participate in practice Wednesday, Chris Easterling of the Akron Beacon Journal reports."
     }
    ],
-   "delta_since_last_pull": -0.15,
-   "new_absences": [
-    {
-     "player": "Harold Fannin Jr.",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-05T21:26Z",
-     "note": "Fannin (groin) was a limited participant in Thursday's practice, Scott Petrak of the Elyria Chronicle-Telegram reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.28,
+   "adj_points": 0.34,
    "qb_out": false,
    "absences": [
     {
@@ -235,8 +290,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-04T22:02Z",
-     "note": "Pickens (hamstring) was a limited participant in Wednesday's practice, Patrik Walker of the Cowboys' official site reports."
+     "updated": "2026-11-05T21:51Z",
+     "note": "Pickens (hamstring) was limited at Thursday's practice, Todd Archer of ESPN.com reports."
     },
     {
      "player": "Caleb Downs",
@@ -253,10 +308,27 @@
      "points": 0.07,
      "updated": "2026-11-04T21:51Z",
      "note": "questionable"
+    },
+    {
+     "player": "DeMarvion Overshown",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-05T22:21Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "DeMarvion Overshown",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-05T22:21Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.07,
@@ -407,7 +479,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LV": {
@@ -591,17 +663,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Marcus Jones",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T21:54Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NO": {
    "adj_points": 0.28,
@@ -636,7 +699,7 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.3,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
     {
@@ -654,27 +717,10 @@
      "points": 0.12,
      "updated": "2026-11-04T21:27Z",
      "note": "questionable"
-    },
-    {
-     "player": "Abdul Carter",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-05T20:59Z",
-     "note": "Carter (illness) returned to practice Thursday, Dan Duggan of The Athletic reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Malik Nabers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T21:23Z",
-     "note": "Nabers didn't practice Thursday due to a knee injury, Dan Salomone of the Giants' official site reports."
-    }
-   ]
+   "delta_since_last_pull": -0.06,
+   "new_absences": []
   },
   "NYJ": {
    "adj_points": 0.21,
@@ -697,7 +743,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SF": {
@@ -769,17 +815,8 @@
      "note": "Smith (ankle) was a limited participant at the Buccaneers' practice Wednesday."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Tristan Wirfs",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T21:02Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "TEN": {
    "adj_points": 0.81,
