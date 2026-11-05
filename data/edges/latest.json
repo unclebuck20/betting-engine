@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-11-04T23:00:52.920980+00:00",
+  "built_at": "2026-11-05T00:01:56.114094+00:00",
   "nfl_history_games": 5552,
   "cfb_history_games": 3730,
-  "games": 96
+  "games": 102
  },
  "games": [
   {
@@ -878,30 +878,30 @@
    "league": "cfb",
    "id": "6ee8ad6eb7454d13bebc0806a10cc861",
    "matchup": "Ball State Cardinals @ UMass Minutemen",
-   "kickoff_pt": "Wed Nov 4 4:00 PM PST",
+   "kickoff_pt": "Wed Nov 4 4:05 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": 1.6,
+   "fair_home_margin": 1.5,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -2.5,
-     "price": -104,
-     "ev": -0.0255
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": -2.5,
-     "price": -104,
-     "ev": -0.0255
-    },
     {
      "book": "fanduel",
      "side": "away",
      "home_line": -2.5,
-     "price": -105,
-     "ev": -0.0301
+     "price": -102,
+     "ev": -0.0127
+    },
+    {
+     "book": "lowvig",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -106,
+     "ev": -0.0255
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": -2.5,
+     "price": -106,
+     "ev": -0.0255
     }
    ]
   },
@@ -909,30 +909,30 @@
    "league": "cfb",
    "id": "7db0ce3fddd5c735e599b1085c9b5cef",
    "matchup": "Toledo Rockets @ Sacramento State Hornets",
-   "kickoff_pt": "Wed Nov 4 4:00 PM PST",
+   "kickoff_pt": "Wed Nov 4 4:10 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -25.5,
+   "fair_home_margin": -25.6,
    "best": [
     {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": 24.5,
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": 26.5,
      "price": -110,
-     "ev": -0.0232
+     "ev": 0.0067
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 25.0,
+     "price": -106,
+     "ev": -0.0134
     },
     {
      "book": "pinnacle",
      "side": "away",
-     "home_line": 25.0,
-     "price": -107,
-     "ev": -0.0255
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 25.0,
-     "price": -104,
-     "ev": -0.0256
+     "home_line": 25.5,
+     "price": -105,
+     "ev": -0.0194
     }
    ]
   },
@@ -942,28 +942,28 @@
    "matchup": "Central Michigan Chippewas @ Eastern Michigan Eagles",
    "kickoff_pt": "Wed Nov 4 4:30 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -2.7,
+   "fair_home_margin": -3.8,
    "best": [
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": 2.5,
-     "price": -105,
-     "ev": -0.0229
-    },
     {
      "book": "hardrockbet",
      "side": "away",
      "home_line": 2.5,
-     "price": -105,
-     "ev": -0.0247
+     "price": -115,
+     "ev": -0.0153
     },
     {
-     "book": "betrivers",
+     "book": "lowvig",
      "side": "away",
-     "home_line": 2.0,
-     "price": -113,
-     "ev": -0.0272
+     "home_line": 3.0,
+     "price": -101,
+     "ev": -0.016
+    },
+    {
+     "book": "betmgm",
+     "side": "away",
+     "home_line": 3.0,
+     "price": -102,
+     "ev": -0.0205
     }
    ]
   },
@@ -1052,10 +1052,10 @@
      "ev": -0.0259
     },
     {
-     "book": "hardrockbet",
+     "book": "betmgm",
      "side": "home",
-     "home_line": -5.5,
-     "price": -110,
+     "home_line": -6.0,
+     "price": -108,
      "ev": -0.0298
     }
    ]
@@ -1193,6 +1193,13 @@
    "fair_home_margin": 5.4,
    "best": [
     {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": -4.5,
+     "price": -110,
+     "ev": -0.0277
+    },
+    {
      "book": "pinnacle",
      "side": "away",
      "home_line": -5.0,
@@ -1201,13 +1208,6 @@
     },
     {
      "book": "betrivers",
-     "side": "away",
-     "home_line": -5.5,
-     "price": -110,
-     "ev": -0.0316
-    },
-    {
-     "book": "hardrockbet",
      "side": "away",
      "home_line": -5.5,
      "price": -110,
@@ -1269,11 +1269,11 @@
      "ev": -0.0021
     },
     {
-     "book": "betmgm",
+     "book": "betrivers",
      "side": "away",
-     "home_line": 6.5,
-     "price": -108,
-     "ev": -0.0111
+     "home_line": 6.0,
+     "price": -113,
+     "ev": -0.0158
     }
    ]
   },
@@ -1358,8 +1358,8 @@
      "book": "betmgm",
      "side": "home",
      "home_line": 3.0,
-     "price": -115,
-     "ev": -0.0222
+     "price": -112,
+     "ev": -0.0108
     },
     {
      "book": "fanduel",
@@ -1376,28 +1376,28 @@
    "matchup": "North Carolina Tar Heels @ UConn Huskies",
    "kickoff_pt": "Sat Nov 7 9:00 AM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -7.6,
+   "fair_home_margin": -7.7,
    "best": [
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": 7.5,
+     "price": -115,
+     "ev": 0.0223
+    },
+    {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": 7.0,
+     "price": -107,
+     "ev": -0.0052
+    },
     {
      "book": "lowvig",
      "side": "home",
      "home_line": 7.0,
      "price": -111,
-     "ev": -0.0162
-    },
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": 7.0,
-     "price": -112,
-     "ev": -0.0201
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": 7.0,
-     "price": -112,
-     "ev": -0.0201
+     "ev": -0.0213
     }
    ]
   },
@@ -1424,11 +1424,11 @@
      "ev": -0.0072
     },
     {
-     "book": "betmgm",
+     "book": "betrivers",
      "side": "home",
      "home_line": 2.0,
-     "price": -110,
-     "ev": -0.022
+     "price": -109,
+     "ev": -0.0179
     }
    ]
   },
@@ -1510,18 +1510,18 @@
      "ev": -0.0103
     },
     {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": -10.5,
+     "price": -104,
+     "ev": -0.0166
+    },
+    {
      "book": "espnbet",
      "side": "home",
      "home_line": -10.5,
      "price": -105,
      "ev": -0.0212
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -10.5,
-     "price": -106,
-     "ev": -0.0257
     }
    ]
   },
@@ -1572,18 +1572,18 @@
      "ev": -0.0162
     },
     {
-     "book": "betmgm",
-     "side": "away",
-     "home_line": 5.5,
-     "price": -108,
-     "ev": -0.0251
-    },
-    {
      "book": "pinnacle",
      "side": "away",
      "home_line": 5.5,
      "price": -109,
      "ev": -0.0294
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": 5.5,
+     "price": -110,
+     "ev": -0.0336
     }
    ]
   },
@@ -2168,11 +2168,11 @@
      "ev": 0.0097
     },
     {
-     "book": "fanduel",
+     "book": "betonlineag",
      "side": "home",
-     "home_line": -2.5,
-     "price": -124,
-     "ev": -0.0051
+     "home_line": -3.0,
+     "price": -105,
+     "ev": -0.0058
     }
    ]
   },
@@ -2199,11 +2199,11 @@
      "ev": -0.0242
     },
     {
-     "book": "espnbet",
+     "book": "betmgm",
      "side": "home",
-     "home_line": -16.5,
-     "price": -115,
-     "ev": -0.0267
+     "home_line": -17.0,
+     "price": -105,
+     "ev": -0.0256
     }
    ]
   },
@@ -2378,11 +2378,11 @@
      "ev": -0.0042
     },
     {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -3.0,
-     "price": -115,
-     "ev": -0.0192
+     "book": "betmgm",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -112,
+     "ev": -0.0117
     },
     {
      "book": "betonlineag",
@@ -2495,13 +2495,6 @@
    "fair_home_margin": 6.1,
    "best": [
     {
-     "book": "espnbet",
-     "side": "away",
-     "home_line": -6.5,
-     "price": 105,
-     "ev": -0.0157
-    },
-    {
      "book": "lowvig",
      "side": "away",
      "home_line": -7.0,
@@ -2514,6 +2507,13 @@
      "home_line": -7.0,
      "price": -112,
      "ev": -0.0237
+    },
+    {
+     "book": "fanduel",
+     "side": "away",
+     "home_line": -6.5,
+     "price": 102,
+     "ev": -0.0301
     }
    ]
   },
@@ -2839,6 +2839,78 @@
   },
   {
    "league": "cfb",
+   "id": "c113a0bd62980b8ec1ce85b27292f699",
+   "matchup": "Florida Gators @ Kentucky Wildcats",
+   "kickoff_pt": "Sat Nov 14 9:00 AM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": 0.7,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -1.5,
+     "price": -110,
+     "ev": -0.0426
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -1.5,
+     "price": -110,
+     "ev": -0.0483
+    }
+   ]
+  },
+  {
+   "league": "cfb",
+   "id": "107b8f81458dc555f99db1e929276a13",
+   "matchup": "Missouri Tigers @ Georgia Bulldogs",
+   "kickoff_pt": "Sat Nov 14 9:00 AM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": 13.2,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -12.5,
+     "price": -110,
+     "ev": -0.0441
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -12.5,
+     "price": -110,
+     "ev": -0.0468
+    }
+   ]
+  },
+  {
+   "league": "cfb",
+   "id": "5f45291a1a5e01525b2e3aebe791c436",
+   "matchup": "Texas Longhorns @ LSU Tigers",
+   "kickoff_pt": "Sat Nov 14 9:00 AM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": 5.4,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -5.5,
+     "price": -105,
+     "ev": -0.038
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -5.5,
+     "price": -115,
+     "ev": -0.0517
+    }
+   ]
+  },
+  {
+   "league": "cfb",
    "id": "3b677ea4fddccce26e4468faf7079768",
    "matchup": "Louisville Cardinals @ North Carolina Tar Heels",
    "kickoff_pt": "Sat Nov 14 9:00 AM PST",
@@ -2887,6 +2959,30 @@
   },
   {
    "league": "cfb",
+   "id": "320a213c475110f032710dcd06c94e8e",
+   "matchup": "Texas Tech Red Raiders @ Oklahoma State Cowboys",
+   "kickoff_pt": "Sat Nov 14 9:00 AM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": -1.1,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": 1.5,
+     "price": -110,
+     "ev": -0.0448
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 1.5,
+     "price": -110,
+     "ev": -0.0462
+    }
+   ]
+  },
+  {
+   "league": "cfb",
    "id": "b7d77aed1f8f75da7679a059e627dfee",
    "matchup": "Wake Forest Demon Deacons @ SMU Mustangs",
    "kickoff_pt": "Sat Nov 14 9:00 AM PST",
@@ -2915,21 +3011,76 @@
    "matchup": "USC Trojans @ Indiana Hoosiers",
    "kickoff_pt": "Sat Nov 14 12:30 PM PST",
    "fair_source": "consensus",
-   "fair_home_margin": 7.3,
+   "fair_home_margin": 6.449999999999999,
    "best": [
     {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -106,
-     "ev": -0.043
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -7.0,
+     "price": -105,
+     "ev": -0.0196
     },
     {
      "book": "fanduel",
+     "side": "home",
+     "home_line": -6.5,
+     "price": -122,
+     "ev": -0.029
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -7.0,
+     "price": -115,
+     "ev": -0.0631
+    }
+   ]
+  },
+  {
+   "league": "cfb",
+   "id": "4c76e6c2d67084d144ebe452d7d608a0",
+   "matchup": "Michigan Wolverines @ Oregon Ducks",
+   "kickoff_pt": "Sat Nov 14 12:30 PM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": 5.5,
+   "best": [
+    {
+     "book": "draftkings",
      "side": "away",
-     "home_line": -7.5,
-     "price": -114,
-     "ev": -0.0472
+     "home_line": -5.5,
+     "price": -110,
+     "ev": -0.0416
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -5.5,
+     "price": -110,
+     "ev": -0.0493
+    }
+   ]
+  },
+  {
+   "league": "cfb",
+   "id": "f9b805187f3809fdadddfa08dfa2a089",
+   "matchup": "Oregon State Beavers @ Boise State Broncos",
+   "kickoff_pt": "Sat Nov 14 3:00 PM PST",
+   "fair_source": "consensus",
+   "fair_home_margin": 5.4,
+   "best": [
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -4.5,
+     "price": -105,
+     "ev": -0.042
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -4.5,
+     "price": -115,
+     "ev": -0.0478
     }
    ]
   }
