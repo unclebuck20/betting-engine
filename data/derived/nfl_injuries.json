@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 32,
-  "injury_pull": "2026-11-05T23:30:31.537398+00:00",
-  "previous_pull": "2026-11-05T22:30:32.237726+00:00",
-  "matched_absences": 76
+  "injury_pull": "2026-11-06T00:30:31.488200+00:00",
+  "previous_pull": "2026-11-05T23:30:31.537398+00:00",
+  "matched_absences": 75
  },
  "teams": {
   "ARI": {
@@ -17,8 +17,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-05T20:23Z",
-     "note": "Wilson (ribs) remained in a yellow non-contact jersey at Thursday's practice, Bo Brack of GoPHNX.com reports."
+     "updated": "2026-11-06T00:19Z",
+     "note": "Wilson (rest/ribs) was a limited practice participant Thursday, Darren Urban of the Cardinals' official site reports."
     },
     {
      "player": "Jayden Williams",
@@ -33,7 +33,7 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 4.12,
+   "adj_points": 4.8,
    "qb_out": true,
    "absences": [
     {
@@ -47,14 +47,31 @@
     {
      "player": "Nate Wiggins",
      "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T01:06Z",
-     "note": "Wiggins (illness) is officially listed as questionable for Thursday's game versus the Jaguars, Ryan Mink of the Ravens' official site reports."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-06T00:12Z",
+     "note": "Wiggins (illness) is inactive for Thursday's game versus the Jaguars."
+    },
+    {
+     "player": "Emery Jones Jr.",
+     "pos": "G",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-05T23:53Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.68,
+   "new_absences": [
+    {
+     "player": "Emery Jones Jr.",
+     "pos": "G",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-05T23:53Z",
+     "note": "inactive"
+    }
+   ]
   },
   "BUF": {
    "adj_points": 0.41,
@@ -265,8 +282,8 @@
      "pos": "DB",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-05T00:49Z",
-     "note": "Downs remained in concussion protocol Wednesday as the Cowboys began preparing for their Week 9 matchup at Indianapolis, Joe Hoyt of The Dallas Morning News rep"
+     "updated": "2026-11-05T23:25Z",
+     "note": "Downs (concussion) was limited during Thursday's practice, Todd Archer of ESPN.com reports."
     },
     {
      "player": "Tyler Smith",
@@ -281,8 +298,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-05T22:21Z",
-     "note": "questionable"
+     "updated": "2026-11-05T23:32Z",
+     "note": "Overshown (hamstring/back) was limited in Thursday's practice, Todd Archer of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -392,22 +409,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "JAX": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Travon Walker",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T00:51Z",
-     "note": "Walker (ribs) is questionable to play Thursday night against the Ravens."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "KC": {
    "adj_points": 0.12,
    "qb_out": false,
@@ -441,7 +442,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.66,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
@@ -453,23 +454,15 @@
      "note": "Watson is expected to undergo shoulder surgery and to miss the remainder of the 2026 season, Gary Klein of the Los Angeles Times reports."
     },
     {
-     "player": "Steve Avila",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-04T23:11Z",
-     "note": "questionable"
-    },
-    {
      "player": "Colby Parkinson",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-05T00:12Z",
-     "note": "Parkinson (ribs) did not practice Wednesday, Sarah Barshop of ESPN.com reports."
+     "updated": "2026-11-06T00:05Z",
+     "note": "Parkinson (ribs) remained sidelined for Thursday's practice, Greg Beacham of the Associated Press reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.09,
    "new_absences": []
   },
   "MIA": {
@@ -545,29 +538,12 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-05T22:31Z",
-     "note": "questionable"
+     "updated": "2026-11-05T23:38Z",
+     "note": "Van Ginkel (chest) was limited in Thursday's practice."
     }
    ],
-   "delta_since_last_pull": 0.18,
-   "new_absences": [
-    {
-     "player": "Isaiah Rodgers",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T22:31Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Andrew Van Ginkel",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-05T22:31Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 0.56,
@@ -714,21 +690,12 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-05T23:08Z",
-     "note": "questionable"
+     "updated": "2026-11-05T23:51Z",
+     "note": "McKee (rib) was limited in Thursday's practice."
     }
    ],
-   "delta_since_last_pull": 1.0,
-   "new_absences": [
-    {
-     "player": "Tanner McKee",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-05T23:08Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "SF": {
    "adj_points": 0.07,
@@ -866,18 +833,11 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "HOU": {
+  "JAX": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.06,
-   "new_absences": []
-  },
-  "LAC": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.06,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
