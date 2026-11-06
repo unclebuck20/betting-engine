@@ -3,15 +3,23 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-06T15:00:31.205205+00:00",
-  "previous_pull": "2026-11-06T13:00:33.372786+00:00",
-  "matched_absences": 75
+  "injury_pull": "2026-11-06T18:30:31.179778+00:00",
+  "previous_pull": "2026-11-06T15:00:31.205205+00:00",
+  "matched_absences": 74
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.21,
+   "adj_points": 0.47,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Jayden Williams",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-06T18:18Z",
+     "note": "out"
+    },
     {
      "player": "Michael Wilson",
      "pos": "WR",
@@ -19,17 +27,9 @@
      "points": 0.12,
      "updated": "2026-11-06T00:19Z",
      "note": "Wilson (rest/ribs) was a limited practice participant Thursday, Darren Urban of the Cardinals' official site reports."
-    },
-    {
-     "player": "Jayden Williams",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-06T02:07Z",
-     "note": "Williams (knee) did not participate at Arizona's practice Thursday, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "BAL": {
@@ -168,22 +168,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "CIN": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Jordan Battle",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-04T16:32Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "CLE": {
    "adj_points": 1.5,
    "qb_out": false,
@@ -193,8 +177,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-06T14:39Z",
-     "note": "Watson (concussion) \"is unlikely to start\" Sunday's game against the Saints, Ian Rapoport of NFL Network reports."
+     "updated": "2026-11-06T17:19Z",
+     "note": "Watson (concussion) was present for practice Friday, Daniel Oyefusi of ESPN.com reports."
     },
     {
      "player": "Denzel Boston",
@@ -217,8 +201,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-05T21:26Z",
-     "note": "Fannin (groin) was a limited participant in Thursday's practice, Scott Petrak of the Elyria Chronicle-Telegram reports."
+     "updated": "2026-11-06T17:20Z",
+     "note": "Fannin (groin) is practicing Friday, Daniel Oyefusi of ESPN.com reports."
     },
     {
      "player": "Maliek Collins",
@@ -369,27 +353,27 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.18,
+   "adj_points": 0.75,
    "qb_out": false,
    "absences": [
     {
      "player": "Justin Walley",
      "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-03T13:03Z",
-     "note": "questionable"
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-06T17:54Z",
+     "note": "out"
     },
     {
      "player": "Akeem Davis-Gaither",
      "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
+     "status": "Out",
+     "points": 0.25,
      "updated": "2026-11-05T20:46Z",
      "note": "Davis-Gaither (knee) did not practice Thursday, Nathan Brown of The Indianapolis Star reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.57,
    "new_absences": []
   },
   "KC": {
@@ -529,9 +513,17 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.56,
+   "adj_points": 0.94,
    "qb_out": false,
    "absences": [
+    {
+     "player": "A.J. Brown",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-06T17:09Z",
+     "note": "Brown (knee/ankle) remained sidelined at practice Friday, Doug Kyed of the Boston Herald reports."
+    },
     {
      "player": "Marcus Jones",
      "pos": "CB",
@@ -539,14 +531,6 @@
      "points": 0.12,
      "updated": "2026-11-05T21:54Z",
      "note": "questionable"
-    },
-    {
-     "player": "A.J. Brown",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T21:38Z",
-     "note": "Brown (ankle/knee) was a non-participant at Thursday's practice, Rob Demovsky of ESPN.com reports."
     },
     {
      "player": "Morgan Moses",
@@ -561,8 +545,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-05T19:37Z",
-     "note": "Henry (foot) wasn't spotted at Thursday's practice, Evan Lazar of the Patriots' official site reports."
+     "updated": "2026-11-06T17:02Z",
+     "note": "Henry (foot) is present for the media-access portion of Friday's practice, Mike Reiss of ESPN.com reports."
     },
     {
      "player": "Kevin Byard",
@@ -581,7 +565,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "NO": {
@@ -621,36 +605,36 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Malik Nabers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-06T17:19Z",
+     "note": "Nabers (knee) was catching passes during Friday's walkthrough and \"should be 'good' to go\" For Sunday's game against the Eagles, Ryan Dunleavy of the New York P"
+    },
+    {
      "player": "Andrew Thomas",
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-06T01:12Z",
      "note": "Thomas (groin) was a limited participant at the Giants' practice Thursday."
-    },
-    {
-     "player": "Malik Nabers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T20:30Z",
-     "note": "Nabers (undisclosed) said Thursday, \"I'll be good,\" for Sunday's game at Philadelphia, Art Stapleton of USA Today reports."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.21,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
     {
      "player": "Garrett Wilson",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T21:07Z",
-     "note": "Wilson (concussion) did not practice Thursday."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-06T16:16Z",
+     "note": "Wilson (concussion) is out for Sunday's game against the Chiefs, Brian Costello of the New York Post reports."
     },
     {
      "player": "Harrison Phillips",
@@ -661,7 +645,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "PHI": {
@@ -822,6 +806,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "CIN": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
