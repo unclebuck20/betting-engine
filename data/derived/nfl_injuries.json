@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-06T23:00:30.452348+00:00",
-  "previous_pull": "2026-11-06T22:00:32.036534+00:00",
-  "matched_absences": 53
+  "injury_pull": "2026-11-07T00:00:33.233218+00:00",
+  "previous_pull": "2026-11-06T23:00:30.452348+00:00",
+  "matched_absences": 49
  },
  "teams": {
   "ARI": {
@@ -21,7 +21,7 @@
      "note": "Williams (knee) did not participate at Arizona's practice Thursday, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "BAL": {
@@ -81,9 +81,17 @@
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 0.75,
+   "adj_points": 1.55,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Will Lee III",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-05T23:13Z",
+     "note": "Lee (hamstring) did not practice Thursday, Steve Reed of the Associated Press reports."
+    },
     {
      "player": "Akayleb Evans",
      "pos": "CB",
@@ -93,31 +101,23 @@
      "note": "Evans (triceps) was placed on injured reserve by the Panthers on Thursday, Darin Gantt of the team's official website reports."
     },
     {
-     "player": "Will Lee III",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T23:13Z",
-     "note": "Lee (hamstring) did not practice Thursday, Steve Reed of the Associated Press reports."
-    },
-    {
      "player": "Damien Lewis",
      "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
+     "status": "Out",
+     "points": 0.3,
      "updated": "2026-11-06T01:16Z",
      "note": "Lewis (knee) did not participate at the Panthers' practice Thursday, Steve Reed of the Associated Press reports."
     },
     {
      "player": "Bobby Okereke",
      "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-05T23:01Z",
-     "note": "Okereke (foot) did not practice Thursday, Steve Reed of the Associated Press reports."
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-11-06T23:05Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.8,
    "new_absences": []
   },
   "CHI": {
@@ -229,7 +229,7 @@
      "note": "St. Brown (ribs) is questionable for Sunday's game against the Dolphins, Tim Twentyman of the Lions' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.42,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "GB": {
@@ -253,7 +253,7 @@
      "note": "Nixon (groin) did not practice Thursday, Weston Hodkiewicz of the Packers' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "IND": {
@@ -346,14 +346,14 @@
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-11-06T21:35Z",
-     "note": "Parkinson (ribs) is questionable for Sunday's game against the Commanders, Adam Caplan of SiriusXM NFL Radio reports."
+     "note": "Parkinson (ribs) is listed as questionable for Sunday's game against the Commanders, Adam Caplan of SiriusXM NFL Radio reports."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 1.3,
+   "adj_points": 1.06,
    "qb_out": false,
    "absences": [
     {
@@ -365,22 +365,6 @@
      "note": "Murray likely won't play Monday against the Bills due to a hamstring strain, Alec Lewis of The Athletic reports."
     },
     {
-     "player": "Isaiah Rodgers",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-05T22:31Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Christian Darrisaw",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-04T01:35Z",
-     "note": "Coach Kevin O'Connell said Tuesday that Darrisaw is nursing a shoulder issue, Alec Lewis of The Athletic reports."
-    },
-    {
      "player": "Andrew Van Ginkel",
      "pos": "LB",
      "status": "Questionable",
@@ -389,7 +373,7 @@
      "note": "Van Ginkel (chest) was limited in Thursday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.24,
    "new_absences": []
   },
   "NE": {
@@ -456,22 +440,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "NYG": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Andrew Thomas",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-06T01:12Z",
-     "note": "Thomas (groin) was a limited participant at the Giants' practice Thursday."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "NYJ": {
    "adj_points": 0.59,
    "qb_out": false,
@@ -513,7 +481,7 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 4.25,
+   "adj_points": 4.8,
    "qb_out": true,
    "absences": [
     {
@@ -527,29 +495,21 @@
     {
      "player": "Charles Cross",
      "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
+     "status": "Out",
+     "points": 0.5,
      "updated": "2026-11-06T01:39Z",
      "note": "Cross (ankle) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official site reports."
     },
     {
      "player": "Leonard Williams",
      "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
+     "status": "Out",
+     "points": 0.3,
      "updated": "2026-11-06T00:46Z",
      "note": "Williams (shoulder) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official site reports."
-    },
-    {
-     "player": "Ernest Jones IV",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-06T00:42Z",
-     "note": "Jones (ankle) was a limited participant at the Seahawks' practice Thursday, John Boyle of the team's official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.55,
    "new_absences": []
   },
   "TEN": {
@@ -616,11 +576,11 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "SF": {
+  "NYG": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
