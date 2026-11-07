@@ -24953,7 +24953,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-02T11:30:31.941399+00:00",
   "published_at": "2026-11-02T11:30:41.796211+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-11-02T11:30:41.796211+00:00",
@@ -25487,7 +25487,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-02T11:30:31.941399+00:00",
   "published_at": "2026-11-03T00:30:41.217189+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-03T00:30:41.217189+00:00",
@@ -25506,15 +25506,21 @@
     10.5,
     -106,
     "fanduel"
+   ],
+   [
+    "2026-11-07T20:00:38.479438+00:00",
+    10.5,
+    -112,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 10.5,
-   "price": -106,
+   "price": -112,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621255496&selectionId=36007278",
-   "ev_pct": 3.62,
-   "confidence": 53.3
+   "ev_pct": 1.85,
+   "confidence": 53.8
   },
   "scout": {
    "verdict": "agree",
@@ -25526,13 +25532,13 @@
    ]
   },
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.62,
-   "confidence": 53.3,
+   "tier": "pass",
+   "ev_pct": 1.85,
+   "confidence": 53.8,
    "line": 10.5,
-   "price": -106,
+   "price": -112,
    "book": "fanduel",
-   "why": "Pinnacle makes Cincinnati +12; FanDuel has +10.5 (-106). Our in-season power ratings have Cincinnati 8.5 pts better than the market.",
+   "why": "Pinnacle makes Cincinnati +11.5; FanDuel has +10.5 (-112). Our in-season power ratings have Cincinnati 8.1 pts better than the market.",
    "flags": []
   }
  },
@@ -25698,7 +25704,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-03T00:30:33.440258+00:00",
   "published_at": "2026-11-03T03:30:56.744912+00:00",
-  "status": "live",
+  "status": "moved",
   "history": [
    [
     "2026-11-03T03:30:56.744912+00:00",
@@ -25736,8 +25742,8 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600P300_1",
-   "ev_pct": 3.78,
-   "confidence": 53.3
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -26253,8 +26259,8 @@
    "price": -112,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC86963520N1450_3",
-   "ev_pct": 0.19,
-   "confidence": 52.9
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": {
    "verdict": "agree",
@@ -26353,6 +26359,81 @@
    "why": "Pinnacle makes Ole Miss +5; DraftKings has +3.5 (-108). Our in-season power ratings have Ole Miss 4.6 pts better than the market. The line opened +4.5 and has moved toward Ole Miss.",
    "flags": [
     "college injuries not checked yet"
+   ]
+  }
+ },
+ "17ad7eff2f7875e20a8109abe40470e3|Buffalo Bills": {
+  "id": "17ad7eff2f7875e20a8109abe40470e3",
+  "pick_key": "17ad7eff2f7875e20a8109abe40470e3|Buffalo Bills",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "mnf",
+  "tier": "lean",
+  "edges": [
+   "MIN passing vs BUF pass D: -0.09 EPA/play vs average",
+   "BUF QB faces pressure on ~17% of dropbacks"
+  ],
+  "matchup": "Buffalo Bills @ Minnesota Vikings",
+  "kickoff_utc": "2026-11-10T01:15:00Z",
+  "kickoff_pt": "Mon Nov 9, 5:15 PM PST",
+  "side": "Buffalo Bills",
+  "opponent": "Minnesota Vikings",
+  "side_is_home": false,
+  "line": -3.0,
+  "price": -115,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600N300_3",
+  "fair_line": -3.0,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 4.22,
+  "units": 0.5,
+  "price_floor": -4.0,
+  "floor_text": "Good to -4 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": -3.2,
+  "model_home_margin": 1.1,
+  "model_weight": 0.265,
+  "hours_to_kick": 53.2,
+  "signals": [
+   "injury_news"
+  ],
+  "why": "Pinnacle makes Bills -3; DraftKings has -3 (-115). Our NFL model makes Bills +1, 4.2 pts worse than the market. MIN: new injury news since our last check is worth ~3.1 pts the sharp line hasn't absorbed yet.",
+  "flags": [
+   "our NFL model leans the other way by 4.2 pts"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-07T11:30:27.842951+00:00",
+  "published_at": "2026-11-07T20:00:38.479438+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-07T20:00:38.479438+00:00",
+    -3.0,
+    -115,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": -3.0,
+   "price": -115,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600N300_3",
+   "ev_pct": 4.22,
+   "confidence": 56.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 4.22,
+   "confidence": 56.0,
+   "line": -3.0,
+   "price": -115,
+   "book": "draftkings",
+   "why": "Pinnacle makes Bills -3; DraftKings has -3 (-115). Our NFL model makes Bills +1, 4.2 pts worse than the market. MIN: new injury news since our last check is worth ~3.1 pts the sharp line hasn't absorbed yet.",
+   "flags": [
+    "our NFL model leans the other way by 4.2 pts"
    ]
   }
  }
