@@ -23770,8 +23770,8 @@
    "price": -112,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621248771&selectionId=484724",
-   "ev_pct": 2.1,
-   "confidence": 53.9
+   "ev_pct": 2.88,
+   "confidence": 54.4
   },
   "scout": {
    "verdict": "agree",
@@ -23784,12 +23784,12 @@
   },
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.1,
-   "confidence": 53.9,
+   "ev_pct": 2.88,
+   "confidence": 54.4,
    "line": 4.5,
    "price": -112,
    "book": "fanduel",
-   "why": "Pinnacle makes Oklahoma +5; FanDuel has +4.5 (-112). Our in-season power ratings have Oklahoma 3.7 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Oklahoma +5; FanDuel has +4.5 (-112). Our in-season power ratings have Oklahoma 3.6 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": []
   }
  },
@@ -24016,25 +24016,31 @@
     -7.0,
     -115,
     "draftkings"
+   ],
+   [
+    "2026-11-08T00:01:25.666158+00:00",
+    -7.5,
+    100,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": -7.0,
-   "price": -115,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84998509N700_1",
-   "ev_pct": 0.74,
-   "confidence": 53.9
+   "line": -7.5,
+   "price": 100,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579972738&selectionId=484735",
+   "ev_pct": 0.21,
+   "confidence": 50.1
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.74,
-   "confidence": 53.9,
-   "line": -7.0,
-   "price": -115,
-   "book": "draftkings",
-   "why": "Pinnacle makes Notre Dame -7; DraftKings has -7 (-115). Our in-season power ratings have Notre Dame 7.6 pts better than the market.",
+   "ev_pct": 0.21,
+   "confidence": 50.1,
+   "line": -7.5,
+   "price": 100,
+   "book": "fanduel",
+   "why": "Pinnacle makes Notre Dame -7; FanDuel has -7.5 (+100). Our in-season power ratings have Notre Dame 7.4 pts better than the market. The line opened -6.5 and has moved toward Notre Dame.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -26460,6 +26466,76 @@
    "why": "Pinnacle makes Bills -3; DraftKings has -3 (-115). Our NFL model makes Bills +1, 4.2 pts worse than the market. MIN: new injury news since our last check is worth ~3.1 pts the sharp line hasn't absorbed yet.",
    "flags": [
     "our NFL model leans the other way by 4.2 pts"
+   ]
+  }
+ },
+ "61cf0b043d9d95f0a73d0838ff08a24b|Northwestern Wildcats": {
+  "id": "61cf0b043d9d95f0a73d0838ff08a24b",
+  "pick_key": "61cf0b043d9d95f0a73d0838ff08a24b|Northwestern Wildcats",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "sat",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Iowa Hawkeyes @ Northwestern Wildcats",
+  "kickoff_utc": "2026-11-08T00:30:00Z",
+  "kickoff_pt": "Sat Nov 7, 4:30 PM PST",
+  "side": "Northwestern Wildcats",
+  "opponent": "Iowa Hawkeyes",
+  "side_is_home": true,
+  "line": 3.0,
+  "price": -105,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC86963225P300_1",
+  "fair_line": 4.0,
+  "open_line": -2.5,
+  "confidence": 52.8,
+  "ev_pct": 2.88,
+  "units": 0.5,
+  "price_floor": 3.0,
+  "floor_text": "Good to +3 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": -3.9,
+  "model_home_margin": 2.5,
+  "model_weight": 0.133,
+  "hours_to_kick": 0.5,
+  "signals": [],
+  "why": "Pinnacle makes Northwestern +4; DraftKings has +3 (-105). Our in-season power ratings have Northwestern 6.4 pts better than the market. SP+ agrees with our ratings on the direction.",
+  "flags": [
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-08T00:00:33.709673+00:00",
+  "published_at": "2026-11-08T00:01:25.666158+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-08T00:01:25.666158+00:00",
+    3.0,
+    -105,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 3.0,
+   "price": -105,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC86963225P300_1",
+   "ev_pct": 2.88,
+   "confidence": 52.8
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.88,
+   "confidence": 52.8,
+   "line": 3.0,
+   "price": -105,
+   "book": "draftkings",
+   "why": "Pinnacle makes Northwestern +4; DraftKings has +3 (-105). Our in-season power ratings have Northwestern 6.4 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "flags": [
+    "college injuries not checked yet"
    ]
   }
  }
