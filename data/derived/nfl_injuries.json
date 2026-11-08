@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-08T20:30:27.855964+00:00",
-  "previous_pull": "2026-11-08T19:30:28.385936+00:00",
-  "matched_absences": 40
+  "injury_pull": "2026-11-08T22:00:27.600322+00:00",
+  "previous_pull": "2026-11-08T20:30:27.855964+00:00",
+  "matched_absences": 43
  },
  "teams": {
   "ARI": {
@@ -121,7 +121,7 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 4.42,
+   "adj_points": 4.3,
    "qb_out": true,
    "absences": [
     {
@@ -139,27 +139,10 @@
      "points": 0.3,
      "updated": "2026-11-08T16:34Z",
      "note": "inactive"
-    },
-    {
-     "player": "KC Concepcion",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-08T20:19Z",
-     "note": "Concepcion, who was helped off the field Sunday, appeared to be having trouble putting pressure on his right leg, Ross Jackson reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "KC Concepcion",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-08T20:19Z",
-     "note": "Concepcion, who was helped off the field Sunday, appeared to be having trouble putting pressure on his right leg, Ross Jackson reports."
-    }
-   ]
+   "delta_since_last_pull": -0.12,
+   "new_absences": []
   },
   "DAL": {
    "adj_points": 0.75,
@@ -202,8 +185,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-08T19:46Z",
-     "note": "Moss (concussion) has been ruled out for the remainder of Sunday's game against the Panthers, Parker Gabriel of The Denver Post reports."
+     "updated": "2026-11-08T19:22Z",
+     "note": "Moss has exited Sunday's matchup against Carolina to be evaluated for a concussion, Sheena Quick of Fox Sports Radio 1340 reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -234,7 +217,7 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.3,
+   "adj_points": 0.36,
    "qb_out": false,
    "absences": [
     {
@@ -244,10 +227,27 @@
      "points": 0.3,
      "updated": "2026-11-08T19:58Z",
      "note": "inactive"
+    },
+    {
+     "player": "Ty'Ron Hopper",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-08T21:42Z",
+     "note": "Hopper (chest) is questionable to return to Sunday's Week 9 game against New England."
     }
    ],
-   "delta_since_last_pull": -0.12,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Ty'Ron Hopper",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-08T21:42Z",
+     "note": "Hopper (chest) is questionable to return to Sunday's Week 9 game against New England."
+    }
+   ]
   },
   "IND": {
    "adj_points": 1.17,
@@ -286,22 +286,21 @@
      "note": "Travis (knee) has been ruled out for the rest of Sunday's clash against the Cowboys."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Jalen Travis",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-08T20:12Z",
-     "note": "Travis (knee) has been ruled out for the rest of Sunday's clash against the Cowboys."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "KC": {
-   "adj_points": 0.5,
+   "adj_points": 1.62,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Patrick Mahomes",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-08T21:45Z",
+     "note": "questionable"
+    },
     {
      "player": "Mansoor Delane",
      "pos": "CB",
@@ -309,10 +308,35 @@
      "points": 0.5,
      "updated": "2026-11-08T16:44Z",
      "note": "inactive"
+    },
+    {
+     "player": "Xavier Worthy",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-08T21:11Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 1.12,
+   "new_absences": [
+    {
+     "player": "Patrick Mahomes",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-08T21:45Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Xavier Worthy",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-08T21:11Z",
+     "note": "questionable"
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.59,
@@ -367,8 +391,33 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "NO": {
+   "adj_points": 0.1,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Erik McCoy",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-08T21:18Z",
+     "note": "McCoy (biceps) is questionable to return to Sunday's game against the Browns."
+    }
+   ],
+   "delta_since_last_pull": 0.1,
+   "new_absences": [
+    {
+     "player": "Erik McCoy",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-08T21:18Z",
+     "note": "McCoy (biceps) is questionable to return to Sunday's game against the Browns."
+    }
+   ]
   },
   "NYJ": {
    "adj_points": 0.5,
@@ -399,17 +448,8 @@
      "note": "Baun (back) is questionable to return to Sunday's contest against the Giants."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Zack Baun",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-08T20:21Z",
-     "note": "Baun (back) is questionable to return to Sunday's contest against the Giants."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "SEA": {
    "adj_points": 4.8,
@@ -508,27 +548,11 @@
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-08T19:52Z",
-     "note": "Patrick is questionable to return to Sunday's Week 9 battle against the Rams and is undergoing a concussion evaluation."
+     "updated": "2026-11-08T20:35Z",
+     "note": "Patrick (concussion) has been ruled out for the remainder of Sunday's game against the Rams."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Lucas Patrick",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-08T19:52Z",
-     "note": "Patrick is questionable to return to Sunday's Week 9 battle against the Rams and is undergoing a concussion evaluation."
-    }
-   ]
-  },
-  "LV": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
