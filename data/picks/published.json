@@ -26831,14 +26831,14 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623054454&selectionId=484729",
-   "ev_pct": 4.2,
-   "confidence": 54.6
+   "ev_pct": 4.01,
+   "confidence": 54.5
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 4.2,
-   "confidence": 54.6,
+   "ev_pct": 4.01,
+   "confidence": 54.5,
    "line": 10.5,
    "price": -110,
    "book": "draftkings",
@@ -27108,7 +27108,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-08T17:00:30.345301+00:00",
   "published_at": "2026-11-08T18:30:45.004222+00:00",
-  "status": "off_board",
+  "status": "live",
   "history": [
    [
     "2026-11-08T18:30:45.004222+00:00",
@@ -27133,7 +27133,7 @@
    "line": 1.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average makes Saints PK; DraftKings has +1.5 (-110). Our NFL model makes Saints -5, 5.0 pts better than the market. CAR is without Will Lee III (CB, out); injuries are worth ~1.1 pts to them by our injury model.",
+   "why": "The market average makes Saints PK; DraftKings has +1.5 (-110). Our NFL model makes Saints -5.5, 5.7 pts better than the market. CAR is without Will Lee III (CB, out); injuries are worth ~1.1 pts to them by our injury model.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
    ]
@@ -27181,34 +27181,323 @@
   "held": false,
   "odds_pulled_at": "2026-11-08T17:00:30.345301+00:00",
   "published_at": "2026-11-08T18:30:45.004222+00:00",
-  "status": "off_board",
+  "status": "live",
   "history": [
    [
     "2026-11-08T18:30:45.004222+00:00",
     7.5,
     -105,
     "fanduel"
+   ],
+   [
+    "2026-11-08T23:30:41.216944+00:00",
+    8.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 7.5,
-   "price": -105,
+   "line": 8.5,
+   "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280913&selectionId=50202",
-   "ev_pct": 6.63,
-   "confidence": 54.6
+   "ev_pct": 6.91,
+   "confidence": 56.0
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 6.63,
-   "confidence": 54.6,
-   "line": 7.5,
-   "price": -105,
-   "book": "fanduel",
-   "why": "The market average makes Jets +10; FanDuel has +7.5 (-105). Our NFL model makes Jets +4, 6.0 pts better than the market. NYJ is without Garrett Wilson (WR, out); injuries are worth ~0.5 pts to them by our injury model.",
+   "ev_pct": 6.91,
+   "confidence": 56.0,
+   "line": 8.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average makes Jets +10.5; DraftKings has +8.5 (-110). Our NFL model makes Jets +4, 6.5 pts better than the market. NYJ is without Garrett Wilson (WR, out); injuries are worth ~0.5 pts to them by our injury model.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
+   ]
+  }
+ },
+ "9760d8f19f84bfee300a74ceb656c95d|Under": {
+  "id": "9760d8f19f84bfee300a74ceb656c95d",
+  "pick_key": "9760d8f19f84bfee300a74ceb656c95d|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "snf",
+  "tier": "lean",
+  "edges": [
+   "TB passing vs CHI pass D: -0.09 EPA/play vs average"
+  ],
+  "matchup": "Tampa Bay Buccaneers @ Chicago Bears",
+  "kickoff_utc": "2026-11-09T01:20:00Z",
+  "kickoff_pt": "Sun Nov 8, 5:20 PM PST",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 47.5,
+  "price": -110,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967723&selectionId=7017917",
+  "fair_line": 48.0,
+  "open_line": null,
+  "confidence": 53.5,
+  "ev_pct": 2.21,
+  "units": 0.5,
+  "price_floor": 47.5,
+  "floor_text": "Good to under 47.5 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": 47.8,
+  "model_home_margin": 43.2,
+  "model_weight": 0.284,
+  "hours_to_kick": 1.8,
+  "signals": [],
+  "why": "Pinnacle's fair total is 48; FanDuel has Under 47.5 (-110). Our model projects 43.2 points from both offenses' efficiency and pace.",
+  "flags": [],
+  "odds_pulled_at": "2026-11-08T23:30:28.678623+00:00",
+  "published_at": "2026-11-08T23:30:41.216944+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-08T23:30:41.216944+00:00",
+    47.5,
+    -110,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 47.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967723&selectionId=7017917",
+   "ev_pct": 2.21,
+   "confidence": 53.5
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.21,
+   "confidence": 53.5,
+   "line": 47.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "Pinnacle's fair total is 48; FanDuel has Under 47.5 (-110). Our model projects 43.2 points from both offenses' efficiency and pace.",
+   "flags": []
+  }
+ },
+ "7627192fd89b05120ab6c712aa23fd81|Under": {
+  "id": "7627192fd89b05120ab6c712aa23fd81",
+  "pick_key": "7627192fd89b05120ab6c712aa23fd81|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "SF passing vs DAL pass D: +0.17 EPA/play vs average"
+  ],
+  "matchup": "San Francisco 49ers @ Dallas Cowboys",
+  "kickoff_utc": "2026-11-15T21:25:00Z",
+  "kickoff_pt": "Sun Nov 15, 1:25 PM PST",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 55.5,
+  "price": -105,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280947&selectionId=7017917",
+  "fair_line": 56.5,
+  "open_line": null,
+  "confidence": 55.5,
+  "ev_pct": 8.38,
+  "units": 0.5,
+  "price_floor": 54.5,
+  "floor_text": "Good to under 54.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 56.5,
+  "model_home_margin": 51.9,
+  "model_weight": 0.283,
+  "hours_to_kick": 165.9,
+  "signals": [],
+  "why": "The market average's fair total is 56.5; FanDuel has Under 55.5 (-105). Our model projects 51.9 points from both offenses' efficiency and pace.",
+  "flags": [
+   "no sharp book has this total, so the fair number is a market average"
+  ],
+  "odds_pulled_at": "2026-11-08T23:30:28.678623+00:00",
+  "published_at": "2026-11-08T23:30:41.216944+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-08T23:30:41.216944+00:00",
+    55.5,
+    -105,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 55.5,
+   "price": -105,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280947&selectionId=7017917",
+   "ev_pct": 8.38,
+   "confidence": 55.5
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 8.38,
+   "confidence": 55.5,
+   "line": 55.5,
+   "price": -105,
+   "book": "fanduel",
+   "why": "The market average's fair total is 56.5; FanDuel has Under 55.5 (-105). Our model projects 51.9 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
+  }
+ },
+ "6c932a965110f3f89ec4a5f1a6ac256e|Arizona Cardinals": {
+  "id": "6c932a965110f3f89ec4a5f1a6ac256e",
+  "pick_key": "6c932a965110f3f89ec4a5f1a6ac256e|Arizona Cardinals",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "ARI passing vs LA pass D: -0.08 EPA/play vs average",
+   "LA passing vs ARI pass D: +0.08 EPA/play vs average"
+  ],
+  "matchup": "Los Angeles Rams @ Arizona Cardinals",
+  "kickoff_utc": "2026-11-15T21:05:00Z",
+  "kickoff_pt": "Sun Nov 15, 1:05 PM PST",
+  "side": "Arizona Cardinals",
+  "opponent": "Los Angeles Rams",
+  "side_is_home": true,
+  "line": 8.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695544P850_1",
+  "fair_line": 9.5,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 6.91,
+  "units": 0.5,
+  "price_floor": 7.5,
+  "floor_text": "Good to +7.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": -9.5,
+  "model_home_margin": -6.0,
+  "model_weight": 0.209,
+  "hours_to_kick": 165.6,
+  "signals": [],
+  "why": "The market average makes Cardinals +9.5; DraftKings has +8.5 (-110). Our NFL model makes Cardinals +6, 3.4 pts better than the market. LA is without Jaylen Watson (CB, injured reserve); injuries are worth ~0.7 pts to them by our injury model.",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-08T23:30:28.678623+00:00",
+  "published_at": "2026-11-08T23:30:41.216944+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-08T23:30:41.216944+00:00",
+    8.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 8.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695544P850_1",
+   "ev_pct": 6.91,
+   "confidence": 56.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 6.91,
+   "confidence": 56.0,
+   "line": 8.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average makes Cardinals +9.5; DraftKings has +8.5 (-110). Our NFL model makes Cardinals +6, 3.4 pts better than the market. LA is without Jaylen Watson (CB, injured reserve); injuries are worth ~0.7 pts to them by our injury model.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ]
+  }
+ },
+ "be0e03cc42fbc9b6962467b22c7bf9dd|Over": {
+  "id": "be0e03cc42fbc9b6962467b22c7bf9dd",
+  "pick_key": "be0e03cc42fbc9b6962467b22c7bf9dd|Over",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "CLE passing vs HOU pass D: -0.17 EPA/play vs average",
+   "CLE QB faces pressure on ~19% of dropbacks"
+  ],
+  "matchup": "Houston Texans @ Cleveland Browns",
+  "kickoff_utc": "2026-11-15T18:00:00Z",
+  "kickoff_pt": "Sun Nov 15, 10:00 AM PST",
+  "side": "Over",
+  "opponent": "",
+  "side_is_home": true,
+  "line": 38.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695526O3850_1",
+  "fair_line": 38.0,
+  "open_line": null,
+  "confidence": 55.2,
+  "ev_pct": 5.42,
+  "units": 0.5,
+  "price_floor": 39.5,
+  "floor_text": "Good to over 39.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 38.0,
+  "model_home_margin": 42.0,
+  "model_weight": 0.254,
+  "hours_to_kick": 162.5,
+  "signals": [],
+  "why": "The market average's fair total is 38; DraftKings has Over 38.5 (-110). Our model projects 42.0 points from both offenses' efficiency and pace.",
+  "flags": [
+   "no sharp book has this total, so the fair number is a market average"
+  ],
+  "odds_pulled_at": "2026-11-08T23:30:28.678623+00:00",
+  "published_at": "2026-11-08T23:30:41.216944+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-08T23:30:41.216944+00:00",
+    38.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 38.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695526O3850_1",
+   "ev_pct": 5.42,
+   "confidence": 55.2
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 5.42,
+   "confidence": 55.2,
+   "line": 38.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average's fair total is 38; DraftKings has Over 38.5 (-110). Our model projects 42.0 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
    ]
   }
  }
