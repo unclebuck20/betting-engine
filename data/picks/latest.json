@@ -1,8 +1,8 @@
 {
  "meta": {
-  "built_at": "2026-11-08T15:01:51.189956+00:00",
+  "built_at": "2026-11-08T16:01:23.406189+00:00",
   "odds_pulled_at": {
-   "nfl": "2026-11-08T15:00:27.706282+00:00",
+   "nfl": "2026-11-08T16:00:33.193449+00:00",
    "cfb": "2026-11-08T15:00:27.706282+00:00"
   },
   "params": {
@@ -36,114 +36,114 @@
    "picks": [
     {
      "id": "fe93e6ab1e553c0169936a0a983c324f",
-     "pick_key": "fe93e6ab1e553c0169936a0a983c324f|Philadelphia Eagles",
-     "market": "spread",
+     "pick_key": "fe93e6ab1e553c0169936a0a983c324f|Over",
+     "market": "total",
      "league": "nfl",
      "slot": "sun",
      "tier": "lean",
      "edges": [
-      "PHI passing vs NYG pass D: -0.13 EPA/play vs average",
       "NYG passing vs PHI pass D: -0.08 EPA/play vs average"
      ],
      "matchup": "New York Giants @ Philadelphia Eagles",
      "kickoff_utc": "2026-11-08T18:00:00Z",
      "kickoff_pt": "Sun Nov 8, 10:00 AM PST",
-     "side": "Philadelphia Eagles",
-     "opponent": "New York Giants",
+     "side": "Over",
+     "opponent": "",
      "side_is_home": true,
-     "line": 3.5,
-     "price": -118,
-     "book": "draftkings",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695501P350_1",
-     "fair_line": 3.5,
+     "line": 39.5,
+     "price": -110,
+     "book": "fanduel",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967644&selectionId=7017916",
+     "fair_line": 38.5,
      "open_line": null,
-     "confidence": 55.6,
-     "ev_pct": 2.63,
+     "confidence": 54.7,
+     "ev_pct": 4.38,
      "units": 1.0,
-     "price_floor": 3.5,
-     "floor_text": "Good to +3.5 at -110",
-     "fair_source": "sharp",
-     "market_home_margin": -3.3,
-     "model_home_margin": 0.5,
-     "model_weight": 0.235,
-     "hours_to_kick": 138.5,
+     "price_floor": 40.0,
+     "floor_text": "Good to over 40 at -110",
+     "fair_source": "consensus",
+     "market_home_margin": 38.5,
+     "model_home_margin": 42.5,
+     "model_weight": 0.251,
+     "hours_to_kick": 162.5,
      "signals": [],
-     "why": "BetOnline/LowVig makes Eagles +3.5; DraftKings has +3.5 (-118). Our NFL model makes Eagles -0.5, 3.8 pts better than the market.",
-     "flags": [],
-     "inj_check": null,
-     "held": false,
-     "odds_pulled_at": "2026-11-02T23:30:24.818247+00:00",
-     "published_at": "2026-11-02T23:30:30.740630+00:00",
+     "why": "The market average's fair total is 38.5; FanDuel has Over 39.5 (-110). Our model projects 42.5 points from both offenses' efficiency and pace.",
+     "flags": [
+      "no sharp book has this total, so the fair number is a market average"
+     ],
+     "odds_pulled_at": "2026-11-01T23:30:27.307427+00:00",
+     "published_at": "2026-11-01T23:30:39.831611+00:00",
      "status": "live",
      "history": [
       [
-       "2026-11-02T23:30:30.740630+00:00",
-       3.5,
-       -118,
-       "draftkings"
-      ],
-      [
-       "2026-11-03T08:01:08.926100+00:00",
-       3.5,
-       -115,
-       "draftkings"
-      ],
-      [
-       "2026-11-05T08:00:41.663240+00:00",
-       3.5,
-       -118,
-       "draftkings"
-      ],
-      [
-       "2026-11-07T11:30:47.831316+00:00",
-       3.0,
-       100,
+       "2026-11-01T23:30:39.831611+00:00",
+       39.5,
+       -110,
        "fanduel"
       ],
       [
+       "2026-11-03T15:01:42.265115+00:00",
+       39.5,
+       -112,
+       "fanduel"
+      ],
+      [
+       "2026-11-04T11:30:45.581062+00:00",
+       39.5,
+       -115,
+       "fanduel"
+      ],
+      [
+       "2026-11-05T08:00:41.663240+00:00",
+       38.5,
+       -115,
+       "fanduel"
+      ],
+      [
+       "2026-11-05T23:30:55.653099+00:00",
+       38.5,
+       -112,
+       "draftkings"
+      ],
+      [
        "2026-11-08T08:01:32.856435+00:00",
-       3.0,
-       -108,
-       "draftkings"
-      ],
-      [
-       "2026-11-08T12:30:31.372634+00:00",
-       3.0,
-       100,
-       "draftkings"
-      ],
-      [
-       "2026-11-08T13:30:33.778842+00:00",
-       3.0,
+       38.5,
        -105,
-       "draftkings"
+       "fanduel"
+      ],
+      [
+       "2026-11-08T16:01:23.406189+00:00",
+       38.5,
+       100,
+       "fanduel"
       ]
      ],
      "current": {
-      "line": 3.0,
-      "price": -105,
-      "book": "draftkings",
-      "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695501P300_1",
-      "ev_pct": 4.63,
-      "confidence": 53.8
+      "line": 38.5,
+      "price": 100,
+      "book": "fanduel",
+      "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967644&selectionId=7017916",
+      "ev_pct": 3.61,
+      "confidence": 51.8
      },
+     "inj_check": null,
      "scout": {
       "verdict": "agree",
-      "reason": "Joe Milton's first start (McKee benched) and DeVonta Smith out broke Wed-Fri; line held +3.5 then moved to +3 our way, so it's priced.",
-      "at": "2026-11-08T02:50:00Z",
+      "reason": "Milton's first start (named Nov 4) and Smith/Wicks out already priced: total 39.5 to 38.5 Nov 5; Skattebo doubtful. Thin Eagles WR room is the concern.",
+      "at": "2026-11-08T14:58:00Z",
       "sources": [
-       "https://www.inquirer.com/eagles/eagles-giants-preview-predictions-injury-report-trade-deadline-rumors-20261107.html",
-       "https://www.inquirer.com/eagles/eagles-tanner-mckee-joe-milton-scapegoat-20261105.html"
+       "https://www.philadelphiaeagles.com/news/giants-vs-eagles-injury-report-saquon-barkley-devonta-smith-cam-skattebo-2026-nfl-week-9",
+       "https://www.nfl.com/news/eagles-starting-qb-joe-milton-tanner-mckee-week-9-vs-giants"
       ]
      },
      "latest": {
       "tier": "play",
-      "ev_pct": 4.63,
-      "confidence": 53.8,
-      "line": 3.0,
-      "price": -105,
-      "book": "draftkings",
-      "why": "Pinnacle makes Eagles +2; DraftKings has +3 (-105). Our NFL model makes Eagles -1, 3.0 pts better than the market.",
+      "ev_pct": 3.61,
+      "confidence": 51.8,
+      "line": 38.5,
+      "price": 100,
+      "book": "fanduel",
+      "why": "Pinnacle's fair total is 36.5; FanDuel has Over 38.5 (+100). Our model projects 41.5 points from both offenses' efficiency and pace.",
       "flags": []
      }
     },
@@ -224,108 +224,120 @@
     },
     {
      "id": "fe93e6ab1e553c0169936a0a983c324f",
-     "pick_key": "fe93e6ab1e553c0169936a0a983c324f|Over",
-     "market": "total",
+     "pick_key": "fe93e6ab1e553c0169936a0a983c324f|Philadelphia Eagles",
+     "market": "spread",
      "league": "nfl",
      "slot": "sun",
      "tier": "lean",
      "edges": [
+      "PHI passing vs NYG pass D: -0.13 EPA/play vs average",
       "NYG passing vs PHI pass D: -0.08 EPA/play vs average"
      ],
      "matchup": "New York Giants @ Philadelphia Eagles",
      "kickoff_utc": "2026-11-08T18:00:00Z",
      "kickoff_pt": "Sun Nov 8, 10:00 AM PST",
-     "side": "Over",
-     "opponent": "",
+     "side": "Philadelphia Eagles",
+     "opponent": "New York Giants",
      "side_is_home": true,
-     "line": 39.5,
-     "price": -110,
-     "book": "fanduel",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967644&selectionId=7017916",
-     "fair_line": 38.5,
+     "line": 3.5,
+     "price": -118,
+     "book": "draftkings",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695501P350_1",
+     "fair_line": 3.5,
      "open_line": null,
-     "confidence": 54.7,
-     "ev_pct": 4.38,
+     "confidence": 55.6,
+     "ev_pct": 2.63,
      "units": 0.5,
-     "price_floor": 40.0,
-     "floor_text": "Good to over 40 at -110",
-     "fair_source": "consensus",
-     "market_home_margin": 38.5,
-     "model_home_margin": 42.5,
-     "model_weight": 0.251,
-     "hours_to_kick": 162.5,
+     "price_floor": 3.5,
+     "floor_text": "Good to +3.5 at -110",
+     "fair_source": "sharp",
+     "market_home_margin": -3.3,
+     "model_home_margin": 0.5,
+     "model_weight": 0.235,
+     "hours_to_kick": 138.5,
      "signals": [],
-     "why": "The market average's fair total is 38.5; FanDuel has Over 39.5 (-110). Our model projects 42.5 points from both offenses' efficiency and pace.",
-     "flags": [
-      "no sharp book has this total, so the fair number is a market average"
-     ],
-     "odds_pulled_at": "2026-11-01T23:30:27.307427+00:00",
-     "published_at": "2026-11-01T23:30:39.831611+00:00",
+     "why": "BetOnline/LowVig makes Eagles +3.5; DraftKings has +3.5 (-118). Our NFL model makes Eagles -0.5, 3.8 pts better than the market.",
+     "flags": [],
+     "inj_check": null,
+     "held": false,
+     "odds_pulled_at": "2026-11-02T23:30:24.818247+00:00",
+     "published_at": "2026-11-02T23:30:30.740630+00:00",
      "status": "live",
      "history": [
       [
-       "2026-11-01T23:30:39.831611+00:00",
-       39.5,
-       -110,
-       "fanduel"
-      ],
-      [
-       "2026-11-03T15:01:42.265115+00:00",
-       39.5,
-       -112,
-       "fanduel"
-      ],
-      [
-       "2026-11-04T11:30:45.581062+00:00",
-       39.5,
-       -115,
-       "fanduel"
-      ],
-      [
-       "2026-11-05T08:00:41.663240+00:00",
-       38.5,
-       -115,
-       "fanduel"
-      ],
-      [
-       "2026-11-05T23:30:55.653099+00:00",
-       38.5,
-       -112,
+       "2026-11-02T23:30:30.740630+00:00",
+       3.5,
+       -118,
        "draftkings"
       ],
       [
-       "2026-11-08T08:01:32.856435+00:00",
-       38.5,
-       -105,
+       "2026-11-03T08:01:08.926100+00:00",
+       3.5,
+       -115,
+       "draftkings"
+      ],
+      [
+       "2026-11-05T08:00:41.663240+00:00",
+       3.5,
+       -118,
+       "draftkings"
+      ],
+      [
+       "2026-11-07T11:30:47.831316+00:00",
+       3.0,
+       100,
        "fanduel"
+      ],
+      [
+       "2026-11-08T08:01:32.856435+00:00",
+       3.0,
+       -108,
+       "draftkings"
+      ],
+      [
+       "2026-11-08T12:30:31.372634+00:00",
+       3.0,
+       100,
+       "draftkings"
+      ],
+      [
+       "2026-11-08T13:30:33.778842+00:00",
+       3.0,
+       -105,
+       "draftkings"
+      ],
+      [
+       "2026-11-08T16:01:23.406189+00:00",
+       3.0,
+       -110,
+       "draftkings"
       ]
      ],
      "current": {
-      "line": 38.5,
-      "price": -105,
-      "book": "fanduel",
-      "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967644&selectionId=7017916",
-      "ev_pct": 3.15,
-      "confidence": 52.8
+      "line": 3.0,
+      "price": -110,
+      "book": "draftkings",
+      "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695501P300_1",
+      "ev_pct": 2.5,
+      "confidence": 53.8
      },
-     "inj_check": null,
      "scout": {
       "verdict": "agree",
-      "reason": "Milton's first start (named Nov 4) and Smith/Wicks out already priced: total 39.5 to 38.5 Nov 5; Skattebo doubtful. Thin Eagles WR room is the concern.",
-      "at": "2026-11-08T14:58:00Z",
+      "reason": "Joe Milton's first start (McKee benched) and DeVonta Smith out broke Wed-Fri; line held +3.5 then moved to +3 our way, so it's priced.",
+      "at": "2026-11-08T02:50:00Z",
       "sources": [
-       "https://www.philadelphiaeagles.com/news/giants-vs-eagles-injury-report-saquon-barkley-devonta-smith-cam-skattebo-2026-nfl-week-9",
-       "https://www.nfl.com/news/eagles-starting-qb-joe-milton-tanner-mckee-week-9-vs-giants"
+       "https://www.inquirer.com/eagles/eagles-giants-preview-predictions-injury-report-trade-deadline-rumors-20261107.html",
+       "https://www.inquirer.com/eagles/eagles-tanner-mckee-joe-milton-scapegoat-20261105.html"
       ]
      },
      "latest": {
       "tier": "lean",
-      "ev_pct": 3.15,
-      "confidence": 52.8,
-      "line": 38.5,
-      "price": -105,
-      "book": "fanduel",
-      "why": "Pinnacle's fair total is 37; FanDuel has Over 38.5 (-105). Our model projects 41.5 points from both offenses' efficiency and pace.",
+      "ev_pct": 2.5,
+      "confidence": 53.8,
+      "line": 3.0,
+      "price": -110,
+      "book": "draftkings",
+      "why": "Pinnacle makes Eagles +2; DraftKings has +3 (-110). Our NFL model makes Eagles -1, 3.0 pts better than the market.",
       "flags": []
      }
     },
@@ -492,13 +504,19 @@
        8.5,
        -110,
        "draftkings"
+      ],
+      [
+       "2026-11-08T16:01:23.406189+00:00",
+       8.5,
+       -110,
+       "fanduel"
       ]
      ],
      "current": {
       "line": 8.5,
       "price": -110,
-      "book": "draftkings",
-      "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695446P850_3",
+      "book": "fanduel",
+      "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967711&selectionId=50188",
       "ev_pct": null,
       "confidence": null
      },
@@ -602,26 +620,32 @@
        50.5,
        -110,
        "draftkings"
+      ],
+      [
+       "2026-11-08T16:01:23.406189+00:00",
+       50.5,
+       -110,
+       "fanduel"
       ]
      ],
      "current": {
       "line": 50.5,
       "price": -110,
-      "book": "draftkings",
-      "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695631U5050_3",
-      "ev_pct": 6.91,
-      "confidence": 56.0
+      "book": "fanduel",
+      "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967624&selectionId=7017917",
+      "ev_pct": 9.14,
+      "confidence": 54.0
      },
      "inj_check": null,
      "scout": null,
      "latest": {
       "tier": "pass",
-      "ev_pct": 6.91,
-      "confidence": 56.0,
-      "line": 50.5,
-      "price": -110,
+      "ev_pct": 9.14,
+      "confidence": 54.0,
+      "line": 49.5,
+      "price": 102,
       "book": "draftkings",
-      "why": "Pinnacle's fair total is 51; DraftKings has Under 50.5 (-110). Our model projects 44.5 points from both offenses' efficiency and pace.",
+      "why": "Pinnacle's fair total is 51; DraftKings has Under 49.5 (+102). Our model projects 44.5 points from both offenses' efficiency and pace.",
       "flags": [
        "model total is 6.3 pts off the market; usually missing weather or injury news",
        "totals backtest: 6+ pt disagreements went 45-54"
@@ -873,14 +897,14 @@
     "market_home_margin": 49.3,
     "model_home_margin": 43.2,
     "model_weight": 0.286,
-    "hours_to_kick": 10.3,
+    "hours_to_kick": 9.3,
     "signals": [],
     "why": "Pinnacle's fair total is 49.5; FanDuel has Under 47.5 (-110). Our model projects 43.2 points from both offenses' efficiency and pace.",
     "flags": [
      "model total is 6.1 pts off the market; usually missing weather or injury news",
      "totals backtest: 6+ pt disagreements went 45-54"
     ],
-    "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+    "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
    },
    "cap_applied_from": null,
    "picks": [],
@@ -917,7 +941,7 @@
      "open_line": null,
      "confidence": 56.0,
      "ev_pct": 3.46,
-     "units": 0.5,
+     "units": 1.0,
      "price_floor": 3.5,
      "floor_text": "Good to +3.5 at -110",
      "fair_source": "pinnacle",
@@ -963,25 +987,31 @@
        3.0,
        -105,
        "draftkings"
+      ],
+      [
+       "2026-11-08T16:01:23.406189+00:00",
+       3.0,
+       -102,
+       "draftkings"
       ]
      ],
      "current": {
       "line": 3.0,
-      "price": -105,
+      "price": -102,
       "book": "draftkings",
       "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600P300_1",
-      "ev_pct": 2.8,
-      "confidence": 52.8
+      "ev_pct": 3.62,
+      "confidence": 52.5
      },
      "scout": null,
      "latest": {
-      "tier": "lean",
-      "ev_pct": 2.8,
-      "confidence": 52.8,
+      "tier": "play",
+      "ev_pct": 3.62,
+      "confidence": 52.5,
       "line": 3.0,
-      "price": -105,
+      "price": -102,
       "book": "draftkings",
-      "why": "Pinnacle makes Vikings +3; DraftKings has +3 (-105). Our NFL model makes Vikings -1, 4.3 pts better than the market.",
+      "why": "Pinnacle makes Vikings +3.5; DraftKings has +3 (-102). Our NFL model makes Vikings -1, 4.4 pts better than the market.",
       "flags": []
      }
     },
@@ -1036,13 +1066,19 @@
        -3.0,
        -115,
        "draftkings"
+      ],
+      [
+       "2026-11-08T16:01:23.406189+00:00",
+       -3.0,
+       -115,
+       "fanduel"
       ]
      ],
      "current": {
       "line": -3.0,
       "price": -115,
-      "book": "draftkings",
-      "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600N300_3",
+      "book": "fanduel",
+      "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967752&selectionId=36418655",
       "ev_pct": null,
       "confidence": null
      },
@@ -1061,7 +1097,7 @@
      }
     }
    ],
-   "units_live": 0.5
+   "units_live": 1.0
   },
   "thu": {
    "games": 4,
@@ -1181,7 +1217,7 @@
     "market_home_margin": 3.4,
     "model_home_margin": 6.4,
     "model_weight": 0.08,
-    "hours_to_kick": 129.0,
+    "hours_to_kick": 128.0,
     "signals": [],
     "why": "BetOnline/LowVig makes Florida State +3.5; DraftKings has +3.5 (-115). Our in-season power ratings have Florida State 3.0 pts worse than the market.",
     "flags": [
@@ -1465,13 +1501,13 @@
    "market_home_margin": -2.6,
    "model_home_margin": -5.7,
    "model_weight": 0.174,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
    "why": "Pinnacle makes Broncos -2.5; DraftKings has -2.5 (-120). Our NFL model makes Broncos -5.5, 3.1 pts better than the market. CAR is without Will Lee III (CB, out); injuries are worth ~1.6 pts to them by our injury model.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "014282b888c741b7d70c857c09f40aa7",
@@ -1505,11 +1541,11 @@
    "market_home_margin": 45.7,
    "model_home_margin": 44.9,
    "model_weight": -0.0,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
    "why": "Pinnacle's fair total is 45.5; DraftKings has Over 44.5 (-108).",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "e571bab6736f9338130a78a4f75c3231",
@@ -1528,32 +1564,32 @@
    "side": "New Orleans Saints",
    "opponent": "Cleveland Browns",
    "side_is_home": true,
-   "line": -3.0,
-   "price": -120,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695441N300_1",
+   "line": -3.5,
+   "price": -105,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967632&selectionId=50196",
    "fair_line": -5.0,
    "open_line": null,
-   "confidence": 54.9,
-   "ev_pct": 0.64,
+   "confidence": 50.5,
+   "ev_pct": -1.37,
    "units": 0.0,
-   "price_floor": -3.0,
-   "floor_text": "Good to -3 at -110",
+   "price_floor": null,
+   "floor_text": "Only at -3.5 -102 or better",
    "fair_source": "pinnacle",
-   "market_home_margin": 4.8,
+   "market_home_margin": 4.9,
    "model_home_margin": 3.9,
    "model_weight": -0.0,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle makes Saints -5; DraftKings has -3 (-120).",
+   "why": "Pinnacle makes Saints -5; FanDuel has -3.5 (-105).",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "e571bab6736f9338130a78a4f75c3231",
-   "pick_key": "e571bab6736f9338130a78a4f75c3231|Over",
+   "pick_key": "e571bab6736f9338130a78a4f75c3231|Under",
    "market": "total",
    "league": "nfl",
    "slot": "sun",
@@ -1565,29 +1601,29 @@
    "matchup": "Cleveland Browns @ New Orleans Saints",
    "kickoff_utc": "2026-11-08T18:00:00Z",
    "kickoff_pt": "Sun Nov 8, 10:00 AM PST",
-   "side": "Over",
+   "side": "Under",
    "opponent": "",
-   "side_is_home": true,
-   "line": 42.5,
-   "price": -108,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695441O4250_1",
-   "fair_line": 42.0,
+   "side_is_home": false,
+   "line": 43.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967634&selectionId=7017917",
+   "fair_line": 43.0,
    "open_line": null,
-   "confidence": 49.9,
-   "ev_pct": -3.99,
+   "confidence": 52.4,
+   "ev_pct": 0.03,
    "units": 0.0,
-   "price_floor": null,
-   "floor_text": "Only at 42.5 +101 or better",
+   "price_floor": 43.5,
+   "floor_text": "Good to under 43.5 at -110",
    "fair_source": "pinnacle",
-   "market_home_margin": 42.0,
+   "market_home_margin": 42.9,
    "model_home_margin": 44.6,
-   "model_weight": 0.121,
-   "hours_to_kick": 3.0,
+   "model_weight": 0.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle's fair total is 42; DraftKings has Over 42.5 (-108). Our model projects 44.6 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "why": "Pinnacle's fair total is 43; FanDuel has Under 43.5 (-110). Our model projects 44.6 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "415fc42e72888c63e82f7bce24c65391",
@@ -1620,13 +1656,13 @@
    "market_home_margin": -4.7,
    "model_home_margin": -5.5,
    "model_weight": -0.0,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
    "why": "Pinnacle makes Colts +4.5; DraftKings has +4.5 (-105). IND is without Justin Walley (CB, out); injuries are worth ~1.2 pts to them by our injury model.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "415fc42e72888c63e82f7bce24c65391",
@@ -1659,11 +1695,11 @@
    "market_home_margin": 51.8,
    "model_home_margin": 48.7,
    "model_weight": 0.177,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
    "why": "Pinnacle's fair total is 52; DraftKings has Under 51.5 (-108). Our model projects 48.7 points from both offenses' efficiency and pace.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00",
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00",
    "scout": {
     "verdict": "agree",
     "reason": "Indoors at Lucas Oil; Turpin out, Pickens and Ferguson questionable (hamstring/ankle); total moved our way, 52.5 to 51.5.",
@@ -1676,7 +1712,7 @@
   },
   {
    "id": "44d8c37868b700e90f816db7c5df5cdd",
-   "pick_key": "44d8c37868b700e90f816db7c5df5cdd|Detroit Lions",
+   "pick_key": "44d8c37868b700e90f816db7c5df5cdd|Miami Dolphins",
    "market": "spread",
    "league": "nfl",
    "slot": "sun",
@@ -1687,31 +1723,31 @@
    "matchup": "Detroit Lions @ Miami Dolphins",
    "kickoff_utc": "2026-11-08T18:00:00Z",
    "kickoff_pt": "Sun Nov 8, 10:00 AM PST",
-   "side": "Detroit Lions",
-   "opponent": "Miami Dolphins",
-   "side_is_home": false,
-   "line": -6.5,
-   "price": -105,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967622&selectionId=50193",
-   "fair_line": -6.0,
+   "side": "Miami Dolphins",
+   "opponent": "Detroit Lions",
+   "side_is_home": true,
+   "line": 6.5,
+   "price": -108,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695631P650_1",
+   "fair_line": 6.0,
    "open_line": null,
-   "confidence": 49.7,
-   "ev_pct": -2.88,
+   "confidence": 50.3,
+   "ev_pct": -3.21,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -6.5 +101 or better",
+   "floor_text": "Only at +6.5 -101 or better",
    "fair_source": "pinnacle",
    "market_home_margin": -5.8,
    "model_home_margin": -8.3,
    "model_weight": 0.098,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle makes Lions -6; FanDuel has -6.5 (-105). Our NFL model makes Lions -8.5, 2.5 pts better than the market. DET is without D.J. Reed (CB, out); injuries are worth ~0.9 pts to them by our injury model.",
+   "why": "Pinnacle makes Dolphins +6; DraftKings has +6.5 (-108). Our NFL model makes Dolphins +8.5, 2.5 pts worse than the market. DET is without D.J. Reed (CB, out); injuries are worth ~0.9 pts to them by our injury model.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "44d8c37868b700e90f816db7c5df5cdd",
@@ -1729,14 +1765,14 @@
    "side": "Under",
    "opponent": "",
    "side_is_home": false,
-   "line": 50.5,
-   "price": -110,
+   "line": 49.5,
+   "price": 102,
    "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695631U5050_3",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695631U4950_3",
    "fair_line": 51.0,
    "open_line": null,
-   "confidence": 56.0,
-   "ev_pct": 6.91,
+   "confidence": 54.0,
+   "ev_pct": 9.14,
    "units": 0.0,
    "price_floor": 49.0,
    "floor_text": "Good to under 49 at -110",
@@ -1744,14 +1780,14 @@
    "market_home_margin": 50.8,
    "model_home_margin": 44.5,
    "model_weight": 0.278,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle's fair total is 51; DraftKings has Under 50.5 (-110). Our model projects 44.5 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 51; DraftKings has Under 49.5 (+102). Our model projects 44.5 points from both offenses' efficiency and pace.",
    "flags": [
     "model total is 6.3 pts off the market; usually missing weather or injury news",
     "totals backtest: 6+ pt disagreements went 45-54"
    ],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "e354e6a04b1cb9c96e549b863debb92e",
@@ -1770,13 +1806,13 @@
    "opponent": "Kansas City Chiefs",
    "side_is_home": false,
    "line": 9.5,
-   "price": -105,
+   "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695702P950_3",
    "fair_line": 9.0,
    "open_line": null,
    "confidence": 51.2,
-   "ev_pct": -0.07,
+   "ev_pct": -1.42,
    "units": 0.0,
    "price_floor": null,
    "floor_text": "Only at +9.5 -105 or better",
@@ -1784,13 +1820,13 @@
    "market_home_margin": 8.9,
    "model_home_margin": 10.1,
    "model_weight": 0.0,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle makes Jets +9; DraftKings has +9.5 (-105). Our NFL model makes Jets +10, 1.2 pts worse than the market. KC is without Mansoor Delane (CB, out); injuries are worth ~0.5 pts to them by our injury model.",
+   "why": "Pinnacle makes Jets +9; DraftKings has +9.5 (-108). Our NFL model makes Jets +10, 1.2 pts worse than the market. KC is without Mansoor Delane (CB, out); injuries are worth ~0.5 pts to them by our injury model.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "e354e6a04b1cb9c96e549b863debb92e",
@@ -1809,25 +1845,25 @@
    "opponent": "",
    "side_is_home": true,
    "line": 47.5,
-   "price": -110,
+   "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967614&selectionId=7017916",
-   "fair_line": 49.0,
+   "fair_line": 48.0,
    "open_line": null,
-   "confidence": 50.3,
-   "ev_pct": -3.91,
+   "confidence": 49.5,
+   "ev_pct": -3.43,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at 47.5 -101 or better",
+   "floor_text": "Only at 47.5 +102 or better",
    "fair_source": "pinnacle",
-   "market_home_margin": 48.8,
+   "market_home_margin": 48.0,
    "model_home_margin": 46.4,
-   "model_weight": 0.088,
-   "hours_to_kick": 3.0,
+   "model_weight": -0.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle's fair total is 49; FanDuel has Over 47.5 (-110). Our model projects 46.4 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 48; FanDuel has Over 47.5 (-105). Our model projects 46.4 points from both offenses' efficiency and pace.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
@@ -1847,13 +1883,13 @@
    "opponent": "Los Angeles Rams",
    "side_is_home": true,
    "line": 4.5,
-   "price": 100,
+   "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695483P450_1",
    "fair_line": 4.5,
    "open_line": null,
    "confidence": 50.9,
-   "ev_pct": 1.77,
+   "ev_pct": -0.65,
    "units": 0.0,
    "price_floor": null,
    "floor_text": "Only at +4.5 -104 or better",
@@ -1861,13 +1897,13 @@
    "market_home_margin": -4.7,
    "model_home_margin": -4.4,
    "model_weight": 0.0,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle makes Commanders +4.5; DraftKings has +4.5 (+100). WAS is without Treylon Burks (WR, out); injuries are worth ~0.8 pts to them by our injury model. LA is without Jaylen Watson (CB, injured reserve); injuries are worth ~0.6 pts to them by our injury model.",
+   "why": "Pinnacle makes Commanders +4.5; DraftKings has +4.5 (-105). WAS is without Treylon Burks (WR, out); injuries are worth ~0.8 pts to them by our injury model. LA is without Jaylen Watson (CB, injured reserve); injuries are worth ~0.6 pts to them by our injury model.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
@@ -1901,11 +1937,11 @@
    "market_home_margin": 49.1,
    "model_home_margin": 49.4,
    "model_weight": 0.0,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
    "why": "Pinnacle's fair total is 49; DraftKings has Over 47.5 (-112).",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "fe93e6ab1e553c0169936a0a983c324f",
@@ -1913,7 +1949,7 @@
    "market": "spread",
    "league": "nfl",
    "slot": "sun",
-   "tier": "play",
+   "tier": "lean",
    "edges": [
     "PHI passing vs NYG pass D: -0.09 EPA/play vs average",
     "NYG passing vs PHI pass D: -0.08 EPA/play vs average"
@@ -1925,27 +1961,27 @@
    "opponent": "New York Giants",
    "side_is_home": true,
    "line": 3.0,
-   "price": -105,
+   "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695501P300_1",
    "fair_line": 2.0,
    "open_line": null,
    "confidence": 53.8,
-   "ev_pct": 4.63,
-   "units": 1.0,
+   "ev_pct": 2.5,
+   "units": 0.5,
    "price_floor": 3.0,
    "floor_text": "Good to +3 at -110",
    "fair_source": "pinnacle",
    "market_home_margin": -2.1,
    "model_home_margin": 0.9,
    "model_weight": 0.17,
-   "hours_to_kick": 3.0,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle makes Eagles +2; DraftKings has +3 (-105). Our NFL model makes Eagles -1, 3.0 pts better than the market.",
+   "why": "Pinnacle makes Eagles +2; DraftKings has +3 (-110). Our NFL model makes Eagles -1, 3.0 pts better than the market.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00",
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00",
    "scout": {
     "verdict": "agree",
     "reason": "Joe Milton's first start (McKee benched) and DeVonta Smith out broke Wed-Fri; line held +3.5 then moved to +3 our way, so it's priced.",
@@ -1962,7 +1998,7 @@
    "market": "total",
    "league": "nfl",
    "slot": "sun",
-   "tier": "lean",
+   "tier": "play",
    "edges": [
     "PHI passing vs NYG pass D: -0.09 EPA/play vs average",
     "NYG passing vs PHI pass D: -0.08 EPA/play vs average"
@@ -1974,25 +2010,25 @@
    "opponent": "",
    "side_is_home": true,
    "line": 38.5,
-   "price": -105,
+   "price": 100,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967644&selectionId=7017916",
-   "fair_line": 37.0,
+   "fair_line": 36.5,
    "open_line": null,
-   "confidence": 52.8,
-   "ev_pct": 3.15,
-   "units": 0.5,
-   "price_floor": 38.5,
-   "floor_text": "Good to over 38.5 at -110",
+   "confidence": 51.8,
+   "ev_pct": 3.61,
+   "units": 1.0,
+   "price_floor": null,
+   "floor_text": "Only at 38.5 -107 or better",
    "fair_source": "pinnacle",
-   "market_home_margin": 37.1,
+   "market_home_margin": 36.6,
    "model_home_margin": 41.5,
-   "model_weight": 0.271,
-   "hours_to_kick": 3.0,
+   "model_weight": 0.295,
+   "hours_to_kick": 2.0,
    "signals": [],
-   "why": "Pinnacle's fair total is 37; FanDuel has Over 38.5 (-105). Our model projects 41.5 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 36.5; FanDuel has Over 38.5 (+100). Our model projects 41.5 points from both offenses' efficiency and pace.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00",
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00",
    "scout": {
     "verdict": "agree",
     "reason": "Milton's first start (named Nov 4) and Smith/Wicks out already priced: total 39.5 to 38.5 Nov 5; Skattebo doubtful. Thin Eagles WR room is the concern.",
@@ -2035,13 +2071,13 @@
    "market_home_margin": -5.0,
    "model_home_margin": -5.6,
    "model_weight": -0.0,
-   "hours_to_kick": 6.1,
+   "hours_to_kick": 5.1,
    "signals": [],
    "why": "Pinnacle makes Chargers +5; DraftKings has +5.5 (-108).",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "39aeac43cea7b12558b91cdab1255a10",
@@ -2075,11 +2111,11 @@
    "market_home_margin": 39.2,
    "model_home_margin": 44.0,
    "model_weight": 0.29,
-   "hours_to_kick": 6.1,
+   "hours_to_kick": 5.1,
    "signals": [],
    "why": "Pinnacle's fair total is 39; DraftKings has Over 40.5 (-110). Our model projects 44.0 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "240e23b02b1e3fef655d04a286b5a623",
@@ -2100,13 +2136,13 @@
    "opponent": "Arizona Cardinals",
    "side_is_home": true,
    "line": -8.5,
-   "price": -105,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967711&selectionId=50213",
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695446N850_1",
    "fair_line": -9.0,
    "open_line": null,
    "confidence": 50.5,
-   "ev_pct": -1.4,
+   "ev_pct": -3.59,
    "units": 0.0,
    "price_floor": null,
    "floor_text": "Only at -8.5 -102 or better",
@@ -2114,13 +2150,13 @@
    "market_home_margin": 9.2,
    "model_home_margin": 8.1,
    "model_weight": -0.0,
-   "hours_to_kick": 6.4,
+   "hours_to_kick": 5.4,
    "signals": [],
-   "why": "Pinnacle makes Seahawks -9; FanDuel has -8.5 (-105). Our NFL model makes Seahawks -8, 1.1 pts worse than the market.",
+   "why": "Pinnacle makes Seahawks -9; DraftKings has -8.5 (-110). Our NFL model makes Seahawks -8, 1.1 pts worse than the market.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "240e23b02b1e3fef655d04a286b5a623",
@@ -2155,11 +2191,11 @@
    "market_home_margin": 38.1,
    "model_home_margin": 41.7,
    "model_weight": 0.225,
-   "hours_to_kick": 6.4,
+   "hours_to_kick": 5.4,
    "signals": [],
    "why": "Pinnacle's fair total is 38; FanDuel has Over 39.5 (-110). Our model projects 41.7 points from both offenses' efficiency and pace.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "2922c573ec3df8466c4a34975e446898",
@@ -2183,22 +2219,22 @@
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695654N300_1",
    "fair_line": -4.5,
    "open_line": null,
-   "confidence": 52.6,
-   "ev_pct": -0.33,
+   "confidence": 53.5,
+   "ev_pct": 1.21,
    "units": 0.0,
    "price_floor": -3.0,
    "floor_text": "Good to -3 at -110",
    "fair_source": "pinnacle",
-   "market_home_margin": 4.3,
+   "market_home_margin": 4.5,
    "model_home_margin": 3.9,
    "model_weight": -0.0,
-   "hours_to_kick": 6.4,
+   "hours_to_kick": 5.4,
    "signals": [],
    "why": "Pinnacle makes Patriots -4.5; DraftKings has -3 (-112). NE is without A.J. Brown (WR, out); injuries are worth ~0.7 pts to them by our injury model.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "2922c573ec3df8466c4a34975e446898",
@@ -2231,11 +2267,11 @@
    "market_home_margin": 45.5,
    "model_home_margin": 49.4,
    "model_weight": 0.242,
-   "hours_to_kick": 6.4,
+   "hours_to_kick": 5.4,
    "signals": [],
    "why": "Pinnacle's fair total is 45.5; FanDuel has Over 44.5 (-110). Our model projects 49.4 points from both offenses' efficiency and pace.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00",
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00",
    "scout": {
     "verdict": "agree",
     "reason": "Parsons out for GB D offsets NE missing A.J. Brown and Henderson; Love healthy; forecast ~55F, 20% rain at kick, no sustained high wind; total steady.",
@@ -2277,13 +2313,13 @@
    "market_home_margin": 9.5,
    "model_home_margin": 9.0,
    "model_weight": -0.0,
-   "hours_to_kick": 6.4,
+   "hours_to_kick": 5.4,
    "signals": [],
    "why": "Pinnacle makes 49ers -9.5; DraftKings has -9.5 (-110).",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "ac9d38a18d5c92814233a31aa9a48d78",
@@ -2316,11 +2352,11 @@
    "market_home_margin": 51.9,
    "model_home_margin": 50.7,
    "model_weight": -0.0,
-   "hours_to_kick": 6.4,
+   "hours_to_kick": 5.4,
    "signals": [],
    "why": "Pinnacle's fair total is 52; DraftKings has Under 51.5 (-102). Our model projects 50.7 points from both offenses' efficiency and pace.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "9760d8f19f84bfee300a74ceb656c95d",
@@ -2353,13 +2389,13 @@
    "market_home_margin": 6.3,
    "model_home_margin": 7.6,
    "model_weight": 0.0,
-   "hours_to_kick": 10.3,
+   "hours_to_kick": 9.3,
    "signals": [],
    "why": "Pinnacle makes Buccaneers +6.5; DraftKings has +6 (-108). Our NFL model makes Buccaneers +7.5, 1.3 pts worse than the market.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "9760d8f19f84bfee300a74ceb656c95d",
@@ -2392,14 +2428,14 @@
    "market_home_margin": 49.3,
    "model_home_margin": 43.2,
    "model_weight": 0.286,
-   "hours_to_kick": 10.3,
+   "hours_to_kick": 9.3,
    "signals": [],
    "why": "Pinnacle's fair total is 49.5; FanDuel has Under 47.5 (-110). Our model projects 43.2 points from both offenses' efficiency and pace.",
    "flags": [
     "model total is 6.1 pts off the market; usually missing weather or injury news",
     "totals backtest: 6+ pt disagreements went 45-54"
    ],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "17ad7eff2f7875e20a8109abe40470e3",
@@ -2407,7 +2443,7 @@
    "market": "spread",
    "league": "nfl",
    "slot": "mnf",
-   "tier": "lean",
+   "tier": "play",
    "edges": [
     "MIN passing vs BUF pass D: -0.09 EPA/play vs average",
     "BUF QB faces pressure on ~17% of dropbacks"
@@ -2419,27 +2455,27 @@
    "opponent": "Buffalo Bills",
    "side_is_home": true,
    "line": 3.0,
-   "price": -105,
+   "price": -102,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600P300_1",
-   "fair_line": 3.0,
+   "fair_line": 3.5,
    "open_line": null,
-   "confidence": 52.8,
-   "ev_pct": 2.8,
-   "units": 0.5,
+   "confidence": 52.5,
+   "ev_pct": 3.62,
+   "units": 1.0,
    "price_floor": 3.0,
    "floor_text": "Good to +3 at -110",
    "fair_source": "pinnacle",
-   "market_home_margin": -3.2,
+   "market_home_margin": -3.3,
    "model_home_margin": 1.1,
-   "model_weight": 0.268,
-   "hours_to_kick": 34.2,
+   "model_weight": 0.273,
+   "hours_to_kick": 33.2,
    "signals": [],
-   "why": "Pinnacle makes Vikings +3; DraftKings has +3 (-105). Our NFL model makes Vikings -1, 4.3 pts better than the market.",
+   "why": "Pinnacle makes Vikings +3.5; DraftKings has +3 (-102). Our NFL model makes Vikings -1, 4.4 pts better than the market.",
    "flags": [],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "17ad7eff2f7875e20a8109abe40470e3",
@@ -2464,20 +2500,20 @@
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619967754&selectionId=7017917",
    "fair_line": 44.5,
    "open_line": null,
-   "confidence": 52.4,
-   "ev_pct": 0.08,
+   "confidence": 52.1,
+   "ev_pct": -0.44,
    "units": 0.0,
-   "price_floor": 44.5,
-   "floor_text": "Good to under 44.5 at -110",
+   "price_floor": null,
+   "floor_text": "Only at 44.5 -109 or better",
    "fair_source": "pinnacle",
-   "market_home_margin": 44.4,
+   "market_home_margin": 44.5,
    "model_home_margin": 44.0,
    "model_weight": -0.0,
-   "hours_to_kick": 34.2,
+   "hours_to_kick": 33.2,
    "signals": [],
    "why": "Pinnacle's fair total is 44.5; FanDuel has Under 44.5 (-110). Indoors, so no weather adjustment.",
    "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "74d39e19225caf211ad2c8eb4110179f",
@@ -2497,24 +2533,26 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695535N150_1",
-   "fair_line": -1.5,
+   "fair_line": -1.0,
    "open_line": null,
-   "confidence": 51.2,
-   "ev_pct": 0.01,
+   "confidence": 49.7,
+   "ev_pct": -3.02,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at -1.5 -105 or better",
-   "fair_source": "sharp",
-   "market_home_margin": 1.6,
+   "floor_text": "Only at -1.5 +101 or better",
+   "fair_source": "consensus",
+   "market_home_margin": 1.1,
    "model_home_margin": 1.4,
-   "model_weight": -0.0,
-   "hours_to_kick": 106.2,
+   "model_weight": 0.0,
+   "hours_to_kick": 105.2,
    "signals": [],
-   "why": "BetOnline/LowVig makes Giants -1.5; DraftKings has -1.5 (-105). WAS is without Treylon Burks (WR, out); injuries are worth ~0.8 pts to them by our injury model.",
-   "flags": [],
+   "why": "The market average makes Giants -1; DraftKings has -1.5 (-105). WAS is without Treylon Burks (WR, out); injuries are worth ~0.8 pts to them by our injury model.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "74d39e19225caf211ad2c8eb4110179f",
@@ -2536,20 +2574,22 @@
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695535O4450_1",
    "fair_line": 45.5,
    "open_line": null,
-   "confidence": 51.3,
-   "ev_pct": -2.06,
+   "confidence": 50.9,
+   "ev_pct": -2.78,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at 44.5 -105 or better",
-   "fair_source": "sharp",
-   "market_home_margin": 45.5,
+   "floor_text": "Only at 44.5 -104 or better",
+   "fair_source": "consensus",
+   "market_home_margin": 45.4,
    "model_home_margin": 44.4,
    "model_weight": -0.0,
-   "hours_to_kick": 106.2,
+   "hours_to_kick": 105.2,
    "signals": [],
-   "why": "BetOnline/LowVig's fair total is 45.5; DraftKings has Over 44.5 (-110). Our model projects 44.4 points from both offenses' efficiency and pace.",
-   "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "why": "The market average's fair total is 45.5; DraftKings has Over 44.5 (-110). Our model projects 44.4 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ],
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
@@ -2571,24 +2611,26 @@
    "price": -115,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695653P150_1",
-   "fair_line": -1.0,
+   "fair_line": -0.5,
    "open_line": null,
-   "confidence": 53.6,
-   "ev_pct": 0.29,
+   "confidence": 51.2,
+   "ev_pct": -4.19,
    "units": 0.0,
-   "price_floor": 1.0,
-   "floor_text": "Good to +1 at -110",
-   "fair_source": "sharp",
-   "market_home_margin": 0.9,
+   "price_floor": null,
+   "floor_text": "Only at +1.5 -105 or better",
+   "fair_source": "consensus",
+   "market_home_margin": 0.3,
    "model_home_margin": -0.9,
    "model_weight": -0.0,
-   "hours_to_kick": 167.5,
+   "hours_to_kick": 166.5,
    "signals": [],
-   "why": "BetOnline/LowVig makes Lions -1; DraftKings has +1.5 (-115). Our NFL model makes Lions +1, 1.8 pts worse than the market. DET is without D.J. Reed (CB, out); injuries are worth ~0.9 pts to them by our injury model.",
-   "flags": [],
+   "why": "The market average makes Lions -0.5; DraftKings has +1.5 (-115). Our NFL model makes Lions +1, 1.2 pts worse than the market. DET is without D.J. Reed (CB, out); injuries are worth ~0.9 pts to them by our injury model.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ],
    "inj_check": null,
    "held": false,
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
@@ -2612,20 +2654,22 @@
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347333&selectionId=7017917",
    "fair_line": 50.5,
    "open_line": null,
-   "confidence": 50.4,
-   "ev_pct": -1.52,
+   "confidence": 49.9,
+   "ev_pct": -2.61,
    "units": 0.0,
    "price_floor": null,
-   "floor_text": "Only at 49.5 -102 or better",
-   "fair_source": "sharp",
-   "market_home_margin": 50.4,
+   "floor_text": "Only at 49.5 +100 or better",
+   "fair_source": "consensus",
+   "market_home_margin": 50.5,
    "model_home_margin": 51.0,
    "model_weight": 0.0,
-   "hours_to_kick": 167.5,
+   "hours_to_kick": 166.5,
    "signals": [],
-   "why": "BetOnline/LowVig's fair total is 50.5; FanDuel has Under 49.5 (-105). Indoors, so no weather adjustment.",
-   "flags": [],
-   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00"
+   "why": "The market average's fair total is 50.5; FanDuel has Under 49.5 (-105). Indoors, so no weather adjustment.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ],
+   "odds_pulled_at": "2026-11-08T16:00:33.193449+00:00"
   },
   {
    "id": "9d463c4686f84c78b890f0fcf2ac90c5",
@@ -2655,8 +2699,8 @@
    "fair_source": "sharp",
    "market_home_margin": -5.9,
    "model_home_margin": -0.7,
-   "model_weight": 0.073,
-   "hours_to_kick": 106.0,
+   "model_weight": 0.072,
+   "hours_to_kick": 105.0,
    "signals": [],
    "why": "BetOnline/LowVig makes South Florida +6; DraftKings has +6.5 (-110). Our in-season power ratings have South Florida 5.2 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
@@ -2695,7 +2739,7 @@
    "market_home_margin": -12.9,
    "model_home_margin": -12.9,
    "model_weight": 0.073,
-   "hours_to_kick": 107.0,
+   "hours_to_kick": 106.0,
    "signals": [],
    "why": "The market average makes UL Monroe +13; FanDuel has +12.5 (-115).",
    "flags": [
@@ -2735,7 +2779,7 @@
    "market_home_margin": 3.4,
    "model_home_margin": 6.4,
    "model_weight": 0.08,
-   "hours_to_kick": 129.0,
+   "hours_to_kick": 128.0,
    "signals": [],
    "why": "BetOnline/LowVig makes Florida State +3.5; DraftKings has +3.5 (-115). Our in-season power ratings have Florida State 3.0 pts worse than the market.",
    "flags": [
@@ -2774,7 +2818,7 @@
    "market_home_margin": 11.3,
    "model_home_margin": 22.1,
    "model_weight": 0.0,
-   "hours_to_kick": 131.0,
+   "hours_to_kick": 130.0,
    "signals": [],
    "why": "BetOnline/LowVig makes Illinois +11.5; FanDuel has +10.5 (-115).",
    "flags": [
@@ -2814,7 +2858,7 @@
    "market_home_margin": -12.9,
    "model_home_margin": -2.2,
    "model_weight": 0.081,
-   "hours_to_kick": 132.2,
+   "hours_to_kick": 131.2,
    "signals": [],
    "why": "BetOnline/LowVig makes Colorado +13; DraftKings has +10.5 (-110). Our in-season power ratings have Colorado 10.7 pts better than the market.",
    "flags": [
@@ -2854,7 +2898,7 @@
    "market_home_margin": -4.1,
    "model_home_margin": -7.5,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [],
    "why": "The market average makes Auburn -4; FanDuel has -3.5 (+102). Our in-season power ratings have Auburn 3.4 pts better than the market.",
    "flags": [
@@ -2894,7 +2938,7 @@
    "market_home_margin": 6.2,
    "model_home_margin": 2.2,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [],
    "why": "The market average makes Baylor +6; FanDuel has +7.5 (-115). Our in-season power ratings have Baylor 4.0 pts better than the market.",
    "flags": [
@@ -2934,7 +2978,7 @@
    "market_home_margin": 15.1,
    "model_home_margin": 3.4,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [
     "steam"
    ],
@@ -2977,7 +3021,7 @@
    "market_home_margin": 2.4,
    "model_home_margin": 5.4,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [],
    "why": "The market average makes Kentucky -2.5; DraftKings has -2.5 (-110). Our in-season power ratings have Kentucky 3.1 pts better than the market.",
    "flags": [
@@ -3017,7 +3061,7 @@
    "market_home_margin": -3.5,
    "model_home_margin": -6.4,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [],
    "why": "The market average makes Louisville -3.5; DraftKings has -2.5 (-115). Our in-season power ratings have Louisville 2.9 pts better than the market.",
    "flags": [
@@ -3057,7 +3101,7 @@
    "market_home_margin": -7.9,
    "model_home_margin": -11.6,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [
     "steam"
    ],
@@ -3100,7 +3144,7 @@
    "market_home_margin": -3.7,
    "model_home_margin": 5.2,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [
     "steam"
    ],
@@ -3143,7 +3187,7 @@
    "market_home_margin": 12.5,
    "model_home_margin": 9.2,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [],
    "why": "BetOnline/LowVig makes Northwestern +12.5; DraftKings has +10.5 (-105). Our in-season power ratings have Northwestern 3.3 pts better than the market.",
    "flags": [
@@ -3182,7 +3226,7 @@
    "market_home_margin": -2.6,
    "model_home_margin": -14.5,
    "model_weight": 0.085,
-   "hours_to_kick": 146.0,
+   "hours_to_kick": 145.0,
    "signals": [],
    "why": "The market average makes Wake Forest -2.5; FanDuel has -2.5 (-108). Our in-season power ratings have Wake Forest 11.9 pts better than the market.",
    "flags": [
@@ -3223,7 +3267,7 @@
    "market_home_margin": 13.4,
    "model_home_margin": 6.6,
    "model_weight": 0.085,
-   "hours_to_kick": 146.5,
+   "hours_to_kick": 145.5,
    "signals": [],
    "why": "The market average makes Georgia Tech +13.5; FanDuel has +13.5 (-114). Our in-season power ratings have Georgia Tech 6.8 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
@@ -3263,7 +3307,7 @@
    "market_home_margin": -13.5,
    "model_home_margin": -16.1,
    "model_weight": 0.085,
-   "hours_to_kick": 146.5,
+   "hours_to_kick": 145.5,
    "signals": [],
    "why": "The market average makes Nebraska -13.5; FanDuel has -13.5 (-110). Our in-season power ratings have Nebraska 2.6 pts better than the market.",
    "flags": [
@@ -3303,7 +3347,7 @@
    "market_home_margin": -19.1,
    "model_home_margin": -16.1,
    "model_weight": 0.085,
-   "hours_to_kick": 146.7,
+   "hours_to_kick": 145.7,
    "signals": [],
    "why": "The market average makes Vanderbilt +19; DraftKings has +19.5 (-110). Our in-season power ratings have Vanderbilt 3.0 pts better than the market.",
    "flags": [
@@ -3343,7 +3387,7 @@
    "market_home_margin": 1.5,
    "model_home_margin": 2.4,
    "model_weight": 0.085,
-   "hours_to_kick": 147.0,
+   "hours_to_kick": 146.0,
    "signals": [],
    "why": "The market average makes Temple -1.5; FanDuel has -2.5 (-110).",
    "flags": [
@@ -3383,7 +3427,7 @@
    "market_home_margin": -2.8,
    "model_home_margin": -3.4,
    "model_weight": 0.085,
-   "hours_to_kick": 149.0,
+   "hours_to_kick": 148.0,
    "signals": [],
    "why": "The market average makes Oklahoma +3; FanDuel has +2.5 (-105).",
    "flags": [
@@ -3423,7 +3467,7 @@
    "market_home_margin": -3.9,
    "model_home_margin": -6.4,
    "model_weight": 0.085,
-   "hours_to_kick": 149.0,
+   "hours_to_kick": 148.0,
    "signals": [],
    "why": "The market average makes Tennessee -4; FanDuel has -3.5 (+114). Our in-season power ratings have Tennessee 2.5 pts better than the market.",
    "flags": [
@@ -3463,7 +3507,7 @@
    "market_home_margin": 2.0,
    "model_home_margin": -1.2,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [
     "steam"
    ],
@@ -3505,7 +3549,7 @@
    "market_home_margin": 30.3,
    "model_home_margin": 29.1,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes Notre Dame -30.5; FanDuel has -30.5 (-105).",
    "flags": [
@@ -3546,7 +3590,7 @@
    "market_home_margin": 13.2,
    "model_home_margin": 16.0,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes Virginia -13; FanDuel has -12.5 (-110). Our in-season power ratings have Virginia 2.8 pts better than the market.",
    "flags": [
@@ -3586,7 +3630,7 @@
    "market_home_margin": 0.6,
    "model_home_margin": -0.2,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes Iowa State -0.5; FanDuel has +1.5 (-120).",
    "flags": [
@@ -3626,7 +3670,7 @@
    "market_home_margin": 4.8,
    "model_home_margin": 8.1,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes Tulsa -5; FanDuel has -3.5 (-115). Our in-season power ratings have Tulsa 3.3 pts better than the market.",
    "flags": [
@@ -3666,7 +3710,7 @@
    "market_home_margin": 14.9,
    "model_home_margin": 8.0,
    "model_weight": 0.0,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes Georgia -15; DraftKings has -14 (-110).",
    "flags": [
@@ -3707,7 +3751,7 @@
    "market_home_margin": 6.7,
    "model_home_margin": 5.7,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes Indiana -6.5; FanDuel has -7.5 (+108).",
    "flags": [
@@ -3747,7 +3791,7 @@
    "market_home_margin": 2.8,
    "model_home_margin": -4.3,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [
     "steam"
    ],
@@ -3789,7 +3833,7 @@
    "market_home_margin": 8.0,
    "model_home_margin": 7.8,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes Kansas State +8; FanDuel has +8.5 (-115).",
    "flags": [
@@ -3829,7 +3873,7 @@
    "market_home_margin": 5.1,
    "model_home_margin": 10.7,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "The market average makes LSU -5; FanDuel has -4.5 (-104). Our in-season power ratings have LSU 5.6 pts better than the market.",
    "flags": [
@@ -3869,7 +3913,7 @@
    "market_home_margin": 10.6,
    "model_home_margin": 1.1,
    "model_weight": 0.085,
-   "hours_to_kick": 149.5,
+   "hours_to_kick": 148.5,
    "signals": [],
    "why": "BetOnline/LowVig makes Michigan +10.5; DraftKings has +10.5 (-110). Our in-season power ratings have Michigan 9.5 pts better than the market.",
    "flags": [
@@ -3908,7 +3952,7 @@
    "market_home_margin": 8.5,
    "model_home_margin": 4.3,
    "model_weight": 0.085,
-   "hours_to_kick": 150.0,
+   "hours_to_kick": 149.0,
    "signals": [],
    "why": "The market average makes Fresno State +8.5; FanDuel has +8.5 (-110). Our in-season power ratings have Fresno State 4.2 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
@@ -3948,7 +3992,7 @@
    "market_home_margin": -4.3,
    "model_home_margin": -7.3,
    "model_weight": 0.085,
-   "hours_to_kick": 150.2,
+   "hours_to_kick": 149.2,
    "signals": [
     "steam"
    ],
@@ -3991,7 +4035,7 @@
    "market_home_margin": 11.4,
    "model_home_margin": 10.9,
    "model_weight": 0.085,
-   "hours_to_kick": 152.0,
+   "hours_to_kick": 151.0,
    "signals": [],
    "why": "The market average makes Oregon State +11.5; FanDuel has +10.5 (-122).",
    "flags": [
@@ -4031,7 +4075,7 @@
    "market_home_margin": 17.1,
    "model_home_margin": 18.7,
    "model_weight": 0.085,
-   "hours_to_kick": 153.0,
+   "hours_to_kick": 152.0,
    "signals": [],
    "why": "BetOnline/LowVig makes Iowa -17; FanDuel has -16.5 (-105). Our in-season power ratings have Iowa 1.6 pts better than the market.",
    "flags": [
@@ -4070,7 +4114,7 @@
    "market_home_margin": 6.5,
    "model_home_margin": 7.7,
    "model_weight": 0.085,
-   "hours_to_kick": 153.0,
+   "hours_to_kick": 152.0,
    "signals": [],
    "why": "The market average makes Penn State -6.5; DraftKings has -7 (-110).",
    "flags": [
@@ -4110,7 +4154,7 @@
    "market_home_margin": 17.5,
    "model_home_margin": 16.1,
    "model_weight": 0.085,
-   "hours_to_kick": 153.0,
+   "hours_to_kick": 152.0,
    "signals": [],
    "why": "The market average makes Stanford +17.5; FanDuel has +16.5 (-105).",
    "flags": [
@@ -4150,7 +4194,7 @@
    "market_home_margin": -2.1,
    "model_home_margin": -2.5,
    "model_weight": 0.085,
-   "hours_to_kick": 153.5,
+   "hours_to_kick": 152.5,
    "signals": [],
    "why": "BetOnline/LowVig makes Arizona +2; FanDuel has +2.5 (-105).",
    "flags": [
@@ -4189,7 +4233,7 @@
    "market_home_margin": 2.1,
    "model_home_margin": -6.9,
    "model_weight": 0.085,
-   "hours_to_kick": 153.5,
+   "hours_to_kick": 152.5,
    "signals": [],
    "why": "The market average makes Texas Tech +2; FanDuel has +2.5 (+102). Our in-season power ratings have Texas Tech 9.1 pts better than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
@@ -4229,7 +4273,7 @@
    "market_home_margin": -9.1,
    "model_home_margin": -12.8,
    "model_weight": 0.085,
-   "hours_to_kick": 153.7,
+   "hours_to_kick": 152.7,
    "signals": [],
    "why": "The market average makes South Carolina -9; FanDuel has -7.5 (-105). Our in-season power ratings have South Carolina 3.7 pts better than the market.",
    "flags": [
@@ -4269,7 +4313,7 @@
    "market_home_margin": -0.1,
    "model_home_margin": -6.3,
    "model_weight": 0.085,
-   "hours_to_kick": 155.0,
+   "hours_to_kick": 154.0,
    "signals": [],
    "why": "The market average makes North Texas PK; FanDuel has -1.5 (+100). Our in-season power ratings have North Texas 6.2 pts better than the market.",
    "flags": [
@@ -4309,7 +4353,7 @@
    "market_home_margin": -2.2,
    "model_home_margin": -4.2,
    "model_weight": 0.085,
-   "hours_to_kick": 155.5,
+   "hours_to_kick": 154.5,
    "signals": [],
    "why": "The market average makes Utah State -2; FanDuel has -2.5 (-106). Our in-season power ratings have Utah State 2.0 pts better than the market.",
    "flags": [
@@ -4349,7 +4393,7 @@
    "market_home_margin": 5.5,
    "model_home_margin": 5.1,
    "model_weight": 0.085,
-   "hours_to_kick": 156.5,
+   "hours_to_kick": 155.5,
    "signals": [],
    "why": "The market average makes Colorado State +5.5; FanDuel has +5.5 (-110).",
    "flags": [
