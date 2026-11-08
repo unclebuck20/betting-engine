@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-08T18:30:29.218127+00:00",
-  "previous_pull": "2026-11-08T17:00:30.345301+00:00",
-  "matched_absences": 38
+  "injury_pull": "2026-11-08T19:30:28.385936+00:00",
+  "previous_pull": "2026-11-08T18:30:29.218127+00:00",
+  "matched_absences": 40
  },
  "teams": {
   "ARI": {
@@ -169,7 +169,7 @@
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 0.3,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
     {
@@ -179,10 +179,27 @@
      "points": 0.3,
      "updated": "2026-11-08T16:36Z",
      "note": "inactive"
+    },
+    {
+     "player": "Riley Moss",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-08T19:17Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Riley Moss",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-08T19:17Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DET": {
    "adj_points": 0.75,
@@ -297,7 +314,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.5,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
     {
@@ -307,10 +324,27 @@
      "points": 0.5,
      "updated": "2026-11-07T20:38Z",
      "note": "The Rams placed Watson (shoulder) on injured reserve Saturday."
+    },
+    {
+     "player": "Steve Avila",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-08T19:13Z",
+     "note": "Avila (hamstring) is questionable to return to Sunday's matchup against Washington."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Steve Avila",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-08T19:13Z",
+     "note": "Avila (hamstring) is questionable to return to Sunday's matchup against Washington."
+    }
+   ]
   },
   "MIN": {
    "adj_points": 4.0,
