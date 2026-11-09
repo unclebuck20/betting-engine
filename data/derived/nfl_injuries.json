@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-09T00:30:26.948466+00:00",
-  "previous_pull": "2026-11-08T23:30:28.678623+00:00",
-  "matched_absences": 44
+  "injury_pull": "2026-11-09T01:30:29.786451+00:00",
+  "previous_pull": "2026-11-09T00:30:26.948466+00:00",
+  "matched_absences": 48
  },
  "teams": {
   "ARI": {
@@ -296,6 +296,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "LAC": {
+   "adj_points": 1.0,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Justin Herbert",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-09T01:14Z",
+     "note": "Herbert sustained a left middle finger injury in Sunday's 44-22 loss to the Texans, Alex Insdorf of BoltBeat.com reports."
+    }
+   ],
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Justin Herbert",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-09T01:14Z",
+     "note": "Herbert sustained a left middle finger injury in Sunday's 44-22 loss to the Texans, Alex Insdorf of BoltBeat.com reports."
+    }
+   ]
+  },
   "LA": {
    "adj_points": 0.71,
    "qb_out": false,
@@ -345,7 +370,7 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.8,
+   "adj_points": 0.69,
    "qb_out": false,
    "absences": [
     {
@@ -357,23 +382,31 @@
      "note": "inactive"
     },
     {
+     "player": "Will Campbell",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-09T00:30Z",
+     "note": "Campbell (knee) is questionable to return to Sunday's contest against the Packers."
+    },
+    {
      "player": "Rhamondre Stevenson",
      "pos": "RB",
-     "status": "Out",
-     "points": 0.3,
+     "status": "Questionable",
+     "points": 0.07,
      "updated": "2026-11-09T00:19Z",
      "note": "Stevenson (knee) won't return to Sunday's game against the Packers, Mark Daniels of MassLive.com reports."
     }
    ],
-   "delta_since_last_pull": 0.3,
+   "delta_since_last_pull": -0.11,
    "new_absences": [
     {
-     "player": "Rhamondre Stevenson",
-     "pos": "RB",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-09T00:19Z",
-     "note": "Stevenson (knee) won't return to Sunday's game against the Packers, Mark Daniels of MassLive.com reports."
+     "player": "Will Campbell",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-09T00:30Z",
+     "note": "Campbell (knee) is questionable to return to Sunday's contest against the Packers."
     }
    ]
   },
@@ -424,6 +457,47 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "SF": {
+   "adj_points": 0.21,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Renardo Green",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-09T01:11Z",
+     "note": "Green suffered a back injury during Sunday's 38-17 win against the Raiders, Matt Barrows of The Athletic reports."
+    },
+    {
+     "player": "Deommodore Lenoir",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-09T01:16Z",
+     "note": "Lenoir sustained a foot injury during Sunday's 38-17 win against Las Vegas."
+    }
+   ],
+   "delta_since_last_pull": 0.21,
+   "new_absences": [
+    {
+     "player": "Renardo Green",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-09T01:11Z",
+     "note": "Green suffered a back injury during Sunday's 38-17 win against the Raiders, Matt Barrows of The Athletic reports."
+    },
+    {
+     "player": "Deommodore Lenoir",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-09T01:16Z",
+     "note": "Lenoir sustained a foot injury during Sunday's 38-17 win against Las Vegas."
+    }
+   ]
   },
   "SEA": {
    "adj_points": 4.8,
@@ -527,13 +601,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CHI": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.09,
    "new_absences": []
   }
  }
