@@ -3,26 +3,43 @@
   "season": 2026,
   "starters_identified": 598,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-09T18:30:28.716245+00:00",
-  "previous_pull": "2026-11-09T15:00:33.516758+00:00",
-  "matched_absences": 41
+  "injury_pull": "2026-11-09T22:00:34.924825+00:00",
+  "previous_pull": "2026-11-09T18:30:28.716245+00:00",
+  "matched_absences": 42
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.35,
+   "adj_points": 0.85,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Michael Wilson",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-09T21:39Z",
+     "note": "Coach Mike LaFleur revealed Monday that Wilson is out for the season due to a fracture in his neck, Josh Weinfuss of ESPN.com reports."
+    },
     {
      "player": "Jayden Williams",
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-11-08T20:02Z",
-     "note": "inactive"
+     "updated": "2026-11-09T20:45Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Michael Wilson",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-09T21:39Z",
+     "note": "Coach Mike LaFleur revealed Monday that Wilson is out for the season due to a fracture in his neck, Josh Weinfuss of ESPN.com reports."
+    }
+   ]
   },
   "BAL": {
    "adj_points": 0.57,
@@ -33,8 +50,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-06T00:12Z",
-     "note": "Wiggins (illness) is inactive for Thursday's game versus the Jaguars."
+     "updated": "2026-11-09T20:55Z",
+     "note": "out"
     },
     {
      "player": "Kyle Hamilton",
@@ -81,8 +98,8 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-08T16:38Z",
-     "note": "inactive"
+     "updated": "2026-11-09T20:56Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -113,8 +130,8 @@
      "pos": "QB",
      "status": "Out",
      "points": 4.0,
-     "updated": "2026-11-09T16:48Z",
-     "note": "The Browns are planning for Watson (concussion) to start Sunday's game against the Texans, Jeremy Fowler of ESPN.com reports."
+     "updated": "2026-11-09T18:35Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -129,8 +146,8 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-08T17:12Z",
-     "note": "Overshown (hamstring/back) is inactive for Sunday's tilt against Indianapolis."
+     "updated": "2026-11-09T20:59Z",
+     "note": "out"
     },
     {
      "player": "P.J. Locke",
@@ -169,8 +186,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-08T16:45Z",
-     "note": "inactive"
+     "updated": "2026-11-09T21:09Z",
+     "note": "out"
     },
     {
      "player": "Jack Campbell",
@@ -209,16 +226,16 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-07T20:43Z",
-     "note": "Haulcy (ankle) has been ruled out ahead of Sunday's game against the Cowboys, James Boyd of The Athletic reports."
+     "updated": "2026-11-09T21:15Z",
+     "note": "out"
     },
     {
      "player": "Akeem Davis-Gaither",
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-08T16:50Z",
-     "note": "inactive"
+     "updated": "2026-11-09T21:15Z",
+     "note": "out"
     },
     {
      "player": "Jalen Travis",
@@ -385,19 +402,19 @@
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.1,
+   "adj_points": 0.34,
    "qb_out": false,
    "absences": [
     {
      "player": "Erik McCoy",
      "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-08T21:18Z",
-     "note": "McCoy (biceps) is questionable to return to Sunday's game against the Browns."
+     "status": "Doubtful",
+     "points": 0.34,
+     "updated": "2026-11-09T20:01Z",
+     "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.24,
    "new_absences": []
   },
   "NYG": {
@@ -410,20 +427,11 @@
      "status": "Questionable",
      "points": 1.0,
      "updated": "2026-11-09T16:38Z",
-     "note": "Giants head coach John Harbaugh said that McCarthy is managing a hip pointer but is expected to play Thursday against the Commanders, Pat Leonard of the New Yor"
+     "note": "Giants head coach John Harbaugh said Monday that McCarthy is managing a hip pointer but is expected to play Thursday against the Commanders, Pat Leonard of the "
     }
    ],
-   "delta_since_last_pull": 1.0,
-   "new_absences": [
-    {
-     "player": "J.J. McCarthy",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-09T16:38Z",
-     "note": "Giants head coach John Harbaugh said that McCarthy is managing a hip pointer but is expected to play Thursday against the Commanders, Pat Leonard of the New Yor"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYJ": {
    "adj_points": 0.5,
@@ -434,8 +442,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-08T16:39Z",
-     "note": "inactive"
+     "updated": "2026-11-09T21:31Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
