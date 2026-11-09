@@ -1,16 +1,10 @@
 {
- "run_at": "2026-11-09T05:00:33.049875+00:00",
+ "run_at": "2026-11-09T06:00:28.132897+00:00",
  "sources": {
-  "nflverse_games": {
-   "rows_total": 7548,
-   "season_games": 272,
-   "with_spread_line": 150,
-   "completed": 135
-  },
   "injuries_nfl": {
    "rows": 800,
    "teams": 32,
-   "newest": "2026-11-09T04:38Z"
+   "newest": "2026-11-09T05:30Z"
   },
   "injuries_cfb": {
    "rows": 3,
@@ -26,5 +20,7 @@
    "calls": 3
   }
  },
- "failed_sources": []
+ "failed_sources": [
+  "fetch_nflverse"
+ ]
 }
