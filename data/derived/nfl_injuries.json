@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-08T23:30:28.678623+00:00",
-  "previous_pull": "2026-11-08T22:00:27.600322+00:00",
+  "injury_pull": "2026-11-09T00:30:26.948466+00:00",
+  "previous_pull": "2026-11-08T23:30:28.678623+00:00",
   "matched_absences": 44
  },
  "teams": {
@@ -99,22 +99,6 @@
      "points": 0.25,
      "updated": "2026-11-08T16:38Z",
      "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CHI": {
-   "adj_points": 0.09,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Tyrique Stevenson Sr.",
-     "pos": "DB",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-08T12:31Z",
-     "note": "Stevenson (thumb) \"should be good to go\" for Sunday's game against the Buccaneers, Ian Rapoport of NFL Network reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -233,8 +217,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-08T21:42Z",
-     "note": "Hopper (chest) is questionable to return to Sunday's Week 9 game against New England."
+     "updated": "2026-11-08T23:32Z",
+     "note": "Hopper (chest) has been ruled out for the remainder of Sunday's game against the Patriots."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -341,17 +325,8 @@
      "note": "Avila (hamstring) has been ruled out for the remainder of Sunday's matchup against the Commanders."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Puka Nacua",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-08T22:36Z",
-     "note": "Nacua suffered a knee injury during Sunday's 20-13 win at Washington and will undergo an MRI on Monday to determine its extent, Mike Garafolo of NFL Network rep"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "MIN": {
    "adj_points": 4.0,
@@ -370,7 +345,7 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.5,
+   "adj_points": 0.8,
    "qb_out": false,
    "absences": [
     {
@@ -380,10 +355,27 @@
      "points": 0.5,
      "updated": "2026-11-08T19:59Z",
      "note": "inactive"
+    },
+    {
+     "player": "Rhamondre Stevenson",
+     "pos": "RB",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-09T00:19Z",
+     "note": "Stevenson (knee) won't return to Sunday's game against the Packers, Mark Daniels of MassLive.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Rhamondre Stevenson",
+     "pos": "RB",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-09T00:19Z",
+     "note": "Stevenson (knee) won't return to Sunday's game against the Packers, Mark Daniels of MassLive.com reports."
+    }
+   ]
   },
   "NO": {
    "adj_points": 0.1,
@@ -535,6 +527,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "CHI": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.09,
    "new_absences": []
   }
  }

@@ -25879,14 +25879,14 @@
    "price": -102,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695600P300_1",
-   "ev_pct": 3.88,
-   "confidence": 52.6
+   "ev_pct": 3.33,
+   "confidence": 52.3
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 3.88,
-   "confidence": 52.6,
+   "ev_pct": 3.33,
+   "confidence": 52.3,
    "line": 3.0,
    "price": -102,
    "book": "draftkings",
@@ -27091,7 +27091,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 6.91,
-  "units": 0.5,
+  "units": 1.5,
   "price_floor": -1.0,
   "floor_text": "Good to -1 at -110",
   "fair_source": "consensus",
@@ -27127,17 +27127,16 @@
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
+   "tier": "play",
    "ev_pct": 6.91,
    "confidence": 56.0,
    "line": 1.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average makes Saints PK; DraftKings has +1.5 (-110). Our NFL model makes Saints -5.5, 5.7 pts better than the market. CAR is without Will Lee III (CB, out); injuries are worth ~1.1 pts to them by our injury model.",
-   "flags": [
-    "no sharp book has this game, so the fair line is a market average"
-   ]
-  }
+   "why": "BetOnline/LowVig makes Saints PK; DraftKings has +1.5 (-110). Our NFL model makes Saints -5.5, 5.7 pts better than the market. CAR is without Will Lee III (CB, out); injuries are worth ~1.1 pts to them by our injury model.",
+   "flags": []
+  },
+  "units_uncapped": 2.0
  },
  "1057d50949844ddf483da9c8c20354be|New York Jets": {
   "id": "1057d50949844ddf483da9c8c20354be",
@@ -27164,7 +27163,7 @@
   "open_line": null,
   "confidence": 54.6,
   "ev_pct": 6.63,
-  "units": 0.5,
+  "units": 1.5,
   "price_floor": 7.5,
   "floor_text": "Good to +7.5 at -110",
   "fair_source": "consensus",
@@ -27206,17 +27205,16 @@
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
+   "tier": "play",
    "ev_pct": 6.91,
    "confidence": 56.0,
    "line": 8.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average makes Jets +10.5; DraftKings has +8.5 (-110). Our NFL model makes Jets +4, 6.5 pts better than the market. NYJ is without Garrett Wilson (WR, out); injuries are worth ~0.5 pts to them by our injury model.",
-   "flags": [
-    "no sharp book has this game, so the fair line is a market average"
-   ]
-  }
+   "why": "BetOnline/LowVig makes Jets +10.5; DraftKings has +8.5 (-110). Our NFL model makes Jets +4, 6.3 pts better than the market. NYJ is without Garrett Wilson (WR, out); injuries are worth ~0.5 pts to them by our injury model.",
+   "flags": []
+  },
+  "units_uncapped": 2.0
  },
  "9760d8f19f84bfee300a74ceb656c95d|Under": {
   "id": "9760d8f19f84bfee300a74ceb656c95d",
@@ -27281,7 +27279,7 @@
    "line": 47.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle's fair total is 48; FanDuel has Under 47.5 (-110). Our model projects 43.2 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 48; FanDuel has Under 47.5 (-110). Our model projects 43.1 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -27309,7 +27307,7 @@
   "open_line": null,
   "confidence": 55.5,
   "ev_pct": 8.38,
-  "units": 0.5,
+  "units": 1.5,
   "price_floor": 54.5,
   "floor_text": "Good to under 54.5 at -110",
   "fair_source": "consensus",
@@ -27338,23 +27336,22 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280947&selectionId=7017917",
-   "ev_pct": 8.38,
-   "confidence": 55.5
+   "ev_pct": 7.84,
+   "confidence": 55.2
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 8.38,
-   "confidence": 55.5,
+   "tier": "play",
+   "ev_pct": 7.84,
+   "confidence": 55.2,
    "line": 55.5,
    "price": -105,
    "book": "fanduel",
-   "why": "The market average's fair total is 56.5; FanDuel has Under 55.5 (-105). Our model projects 51.9 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
-   ]
-  }
+   "why": "BetOnline/LowVig's fair total is 56.5; FanDuel has Under 55.5 (-105). Our model projects 51.9 points from both offenses' efficiency and pace.",
+   "flags": []
+  },
+  "units_uncapped": 2.0
  },
  "6c932a965110f3f89ec4a5f1a6ac256e|Arizona Cardinals": {
   "id": "6c932a965110f3f89ec4a5f1a6ac256e",
@@ -27412,22 +27409,21 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695544P850_1",
-   "ev_pct": 6.91,
-   "confidence": 56.0
+   "ev_pct": 2.83,
+   "confidence": 53.9
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 6.91,
-   "confidence": 56.0,
+   "ev_pct": 2.83,
+   "confidence": 53.9,
    "line": 8.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average makes Cardinals +9.5; DraftKings has +8.5 (-110). Our NFL model makes Cardinals +6, 3.4 pts better than the market. LA is without Jaylen Watson (CB, injured reserve); injuries are worth ~0.7 pts to them by our injury model.",
-   "flags": [
-    "no sharp book has this game, so the fair line is a market average"
-   ]
-  }
+   "why": "BetOnline/LowVig makes Cardinals +10.5; DraftKings has +8.5 (-110). Our NFL model makes Cardinals +6, 4.5 pts better than the market. LA is without Jaylen Watson (CB, injured reserve); injuries are worth ~0.7 pts to them by our injury model.",
+   "flags": []
+  },
+  "units_uncapped": 0.5
  },
  "be0e03cc42fbc9b6962467b22c7bf9dd|Over": {
   "id": "be0e03cc42fbc9b6962467b22c7bf9dd",
@@ -27454,7 +27450,7 @@
   "open_line": null,
   "confidence": 55.2,
   "ev_pct": 5.42,
-  "units": 0.5,
+  "units": 1.5,
   "price_floor": 39.5,
   "floor_text": "Good to over 39.5 at -110",
   "fair_source": "consensus",
@@ -27483,22 +27479,89 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695526O3850_1",
-   "ev_pct": 5.42,
-   "confidence": 55.2
+   "ev_pct": 5.26,
+   "confidence": 55.1
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 5.42,
-   "confidence": 55.2,
+   "tier": "play",
+   "ev_pct": 5.26,
+   "confidence": 55.1,
    "line": 38.5,
    "price": -110,
    "book": "draftkings",
-   "why": "The market average's fair total is 38; DraftKings has Over 38.5 (-110). Our model projects 42.0 points from both offenses' efficiency and pace.",
-   "flags": [
-    "no sharp book has this total, so the fair number is a market average"
+   "why": "BetOnline/LowVig's fair total is 38; DraftKings has Over 38.5 (-110). Our model projects 42.0 points from both offenses' efficiency and pace.",
+   "flags": []
+  },
+  "units_uncapped": 1.5
+ },
+ "b5700b4d938fd94429f60d4622cc9c0a|Under": {
+  "id": "b5700b4d938fd94429f60d4622cc9c0a",
+  "pick_key": "b5700b4d938fd94429f60d4622cc9c0a|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "play",
+  "edges": [
+   "IND passing vs MIA pass D: -0.09 EPA/play vs average"
+  ],
+  "matchup": "Miami Dolphins @ Indianapolis Colts",
+  "kickoff_utc": "2026-11-15T18:00:00Z",
+  "kickoff_pt": "Sun Nov 15, 10:00 AM PST",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 43.5,
+  "price": -110,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280893&selectionId=7017917",
+  "fair_line": 42.0,
+  "open_line": null,
+  "confidence": 55.1,
+  "ev_pct": 5.11,
+  "units": 1.5,
+  "price_floor": 43.0,
+  "floor_text": "Good to under 43 at -110",
+  "fair_source": "sharp",
+  "market_home_margin": 41.8,
+  "model_home_margin": 41.6,
+  "model_weight": -0.0,
+  "hours_to_kick": 161.5,
+  "signals": [],
+  "why": "BetOnline/LowVig's fair total is 42; FanDuel has Under 43.5 (-110).",
+  "flags": [],
+  "odds_pulled_at": "2026-11-09T00:30:26.948466+00:00",
+  "published_at": "2026-11-09T00:30:39.627148+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-09T00:30:39.627148+00:00",
+    43.5,
+    -110,
+    "fanduel"
    ]
-  }
+  ],
+  "current": {
+   "line": 43.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280893&selectionId=7017917",
+   "ev_pct": 5.11,
+   "confidence": 55.1
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 5.11,
+   "confidence": 55.1,
+   "line": 43.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "BetOnline/LowVig's fair total is 42; FanDuel has Under 43.5 (-110).",
+   "flags": []
+  },
+  "units_uncapped": 1.5
  }
 }
