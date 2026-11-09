@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 598,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-09T22:00:34.924825+00:00",
-  "previous_pull": "2026-11-09T18:30:28.716245+00:00",
-  "matched_absences": 42
+  "injury_pull": "2026-11-09T23:30:31.140174+00:00",
+  "previous_pull": "2026-11-09T22:00:34.924825+00:00",
+  "matched_absences": 44
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.85,
+   "adj_points": 0.94,
    "qb_out": false,
    "absences": [
     {
@@ -27,17 +27,25 @@
      "points": 0.35,
      "updated": "2026-11-09T20:45Z",
      "note": "out"
+    },
+    {
+     "player": "Hjalte Froholdt",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-09T22:07Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.5,
+   "delta_since_last_pull": 0.09,
    "new_absences": [
     {
-     "player": "Michael Wilson",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-09T21:39Z",
-     "note": "Coach Mike LaFleur revealed Monday that Wilson is out for the season due to a fracture in his neck, Josh Weinfuss of ESPN.com reports."
+     "player": "Hjalte Froholdt",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-09T22:07Z",
+     "note": "questionable"
     }
    ]
   },
@@ -138,9 +146,17 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.32,
+   "adj_points": 0.55,
    "qb_out": false,
    "absences": [
+    {
+     "player": "P.J. Locke",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-09T22:19Z",
+     "note": "out"
+    },
     {
      "player": "DeMarvion Overshown",
      "pos": "LB",
@@ -148,17 +164,9 @@
      "points": 0.25,
      "updated": "2026-11-09T20:59Z",
      "note": "out"
-    },
-    {
-     "player": "P.J. Locke",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-09T00:18Z",
-     "note": "Locke suffered a concussion during Sunday's 27-23 win over the Colts, Todd Archer of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.23,
    "new_absences": []
   },
   "DEN": {
@@ -314,7 +322,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.71,
+   "adj_points": 1.01,
    "qb_out": false,
    "absences": [
     {
@@ -328,10 +336,10 @@
     {
      "player": "Puka Nacua",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-08T22:36Z",
-     "note": "Nacua suffered a knee injury during Sunday's 20-13 win at Washington and will undergo an MRI on Monday to determine its extent, Mike Garafolo of NFL Network rep"
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-11-09T22:19Z",
+     "note": "doubtful"
     },
     {
      "player": "Steve Avila",
@@ -342,7 +350,7 @@
      "note": "Avila (hamstring) has been ruled out for the remainder of Sunday's matchup against the Commanders."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.3,
    "new_absences": []
   },
   "MIA": {
@@ -414,7 +422,7 @@
      "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.24,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NYG": {
@@ -546,9 +554,17 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.07,
+   "adj_points": 0.14,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Chig Okonkwo",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-09T02:12Z",
+     "note": "Okonkwo caught six of seven targets for 57 yards during Sunday's 20-13 loss to the Rams."
+    },
     {
      "player": "Lucas Patrick",
      "pos": "G",
@@ -558,8 +574,17 @@
      "note": "Patrick (concussion) has been ruled out for the remainder of Sunday's game against the Rams."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Chig Okonkwo",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-09T02:12Z",
+     "note": "Okonkwo caught six of seven targets for 57 yards during Sunday's 20-13 loss to the Rams."
+    }
+   ]
   }
  }
 }
