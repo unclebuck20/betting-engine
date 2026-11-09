@@ -1,11 +1,11 @@
 {
  "meta": {
   "season": 2026,
-  "starters_identified": 582,
-  "teams_with_qb": 31,
-  "injury_pull": "2026-11-09T11:30:30.188658+00:00",
-  "previous_pull": "2026-11-09T09:30:32.911728+00:00",
-  "matched_absences": 49
+  "starters_identified": 598,
+  "teams_with_qb": 30,
+  "injury_pull": "2026-11-09T14:47:55.578474+00:00",
+  "previous_pull": "2026-11-09T11:30:30.188658+00:00",
+  "matched_absences": 40
  },
  "teams": {
   "ARI": {
@@ -73,25 +73,9 @@
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 1.05,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Will Lee III",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-08T16:38Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Damien Lewis",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-08T16:38Z",
-     "note": "inactive"
-    },
     {
      "player": "Bobby Okereke",
      "pos": "LB",
@@ -121,7 +105,7 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 4.3,
+   "adj_points": 4.0,
    "qb_out": true,
    "absences": [
     {
@@ -131,31 +115,15 @@
      "points": 4.0,
      "updated": "2026-11-08T16:38Z",
      "note": "Watson (concussion) is inactive for Sunday's game against the Saints, Daniel Oyefusi of ESPN.com reports."
-    },
-    {
-     "player": "Maliek Collins",
-     "pos": "DT",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-08T16:34Z",
-     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.75,
+   "adj_points": 0.32,
    "qb_out": false,
    "absences": [
-    {
-     "player": "George Pickens",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-08T16:35Z",
-     "note": "Pickens (hamstring) is inactive for Sunday's game at Indianapolis."
-    },
     {
      "player": "DeMarvion Overshown",
      "pos": "LB",
@@ -163,23 +131,23 @@
      "points": 0.25,
      "updated": "2026-11-08T17:12Z",
      "note": "Overshown (hamstring/back) is inactive for Sunday's tilt against Indianapolis."
+    },
+    {
+     "player": "P.J. Locke",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-09T00:18Z",
+     "note": "Locke suffered a concussion during Sunday's 27-23 win over the Colts, Todd Archer of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DEN": {
-   "adj_points": 0.42,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Brandon Jones",
-     "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-08T16:36Z",
-     "note": "inactive"
-    },
     {
      "player": "Riley Moss",
      "pos": "CB",
@@ -217,17 +185,9 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.36,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Travis Glover",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-08T19:58Z",
-     "note": "inactive"
-    },
     {
      "player": "Ty'Ron Hopper",
      "pos": "LB",
@@ -241,17 +201,9 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 1.17,
+   "adj_points": 0.67,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Justin Walley",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-08T16:50Z",
-     "note": "inactive"
-    },
     {
      "player": "A.J. Haulcy",
      "pos": "S",
@@ -281,7 +233,7 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 1.62,
+   "adj_points": 1.21,
    "qb_out": false,
    "absences": [
     {
@@ -293,20 +245,36 @@
      "note": "Mahomes (elbow) underwent an MRI after Sunday's 35-12 win over the Jets, and the tests did not reveal a major injury, Ian Rapoport of NFL Network reports."
     },
     {
-     "player": "Mansoor Delane",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-08T16:44Z",
-     "note": "inactive"
-    },
-    {
      "player": "Xavier Worthy",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-08T21:04Z",
      "note": "Worthy (hamstring) won't return to Sunday's game against the Jets."
+    },
+    {
+     "player": "Jaylon Moore",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-08T20:36Z",
+     "note": "Moore (ankle) is questionable to return to Sunday's game against the Jets."
+    }
+   ],
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "LV": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Trey Zuhn III",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-08T23:55Z",
+     "note": "Zuhn (concussion) has been ruled out for the remainder of Las Vegas' matchup versus the 49ers on Sunday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -360,6 +328,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "MIA": {
+   "adj_points": 1.0,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Malik Willis",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-09T13:11Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Malik Willis",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-09T13:11Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "MIN": {
    "adj_points": 4.0,
    "qb_out": true,
@@ -377,17 +370,9 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.69,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
-    {
-     "player": "A.J. Brown",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-08T19:59Z",
-     "note": "inactive"
-    },
     {
      "player": "Will Campbell",
      "pos": "T",
@@ -481,7 +466,7 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 4.8,
+   "adj_points": 4.0,
    "qb_out": true,
    "absences": [
     {
@@ -491,22 +476,6 @@
      "points": 4.0,
      "updated": "2026-11-08T12:19Z",
      "note": "Darnold (quadriceps) may miss Seattle's Week 10 game at Las Vegas, Adam Schefter of ESPN reports."
-    },
-    {
-     "player": "Charles Cross",
-     "pos": "T",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-08T20:03Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Leonard Williams",
-     "pos": "DT",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-08T20:03Z",
-     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -553,25 +522,9 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.87,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Treylon Burks",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-08T16:37Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Daron Payne",
-     "pos": "DT",
-     "status": "Injured Reserve",
-     "points": 0.3,
-     "updated": "2026-11-04T19:13Z",
-     "note": "Payne (foot) underwent season-ending surgery Wednesday, Ben Standig of The Team 980 Washington D.C. reports."
-    },
     {
      "player": "Lucas Patrick",
      "pos": "G",
