@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-10T18:30:31.199354+00:00",
-  "previous_pull": "2026-11-10T15:00:42.748868+00:00",
+  "injury_pull": "2026-11-10T22:00:34.347953+00:00",
+  "previous_pull": "2026-11-10T18:30:31.199354+00:00",
   "matched_absences": 47
  },
  "teams": {
@@ -37,7 +37,7 @@
      "note": "Froholdt is in league concussion protocol Monday, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": -0.26,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "BAL": {
@@ -61,7 +61,7 @@
      "note": "Hamilton (hip) has been ruled out for the remainder of Thursday night's contest against the Jaguars."
     }
    ],
-   "delta_since_last_pull": -0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "BUF": {
@@ -101,7 +101,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CHI": {
@@ -133,7 +133,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -3.0,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DAL": {
@@ -157,7 +157,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DEN": {
@@ -197,7 +197,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "GB": {
@@ -225,7 +225,7 @@
      "pos": "T",
      "status": "Doubtful",
      "points": 0.42,
-     "updated": "2026-11-10T15:44Z",
+     "updated": "2026-11-10T19:02Z",
      "note": "doubtful"
     },
     {
@@ -245,7 +245,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "KC": {
@@ -329,7 +329,7 @@
      "pos": "WR",
      "status": "Doubtful",
      "points": 0.42,
-     "updated": "2026-11-10T15:44Z",
+     "updated": "2026-11-10T20:08Z",
      "note": "doubtful"
     },
     {
@@ -345,70 +345,52 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 1.35,
-   "qb_out": false,
+   "adj_points": 4.35,
+   "qb_out": true,
    "absences": [
     {
      "player": "Malik Willis",
      "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-08T23:46Z",
-     "note": "Willis completed 13 of 25 passes for 128 yards with no touchdowns and one interception and added two rushes for seven yards in the Dolphins' 19-9 loss to the Li"
+     "status": "Injured Reserve",
+     "points": 4.0,
+     "updated": "2026-11-10T21:39Z",
+     "note": "ir"
     },
     {
      "player": "Zach Sieler",
      "pos": "DL",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.35,
      "updated": "2026-11-10T16:27Z",
      "note": "Sieler ruptured his biceps during Sunday's 19-9 loss to the Lions and will require season-ending surgery, Adam Schefter of ESPN reports."
     }
    ],
-   "delta_since_last_pull": 0.35,
-   "new_absences": [
-    {
-     "player": "Zach Sieler",
-     "pos": "DL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-10T16:27Z",
-     "note": "Sieler ruptured his biceps during Sunday's 19-9 loss to the Lions and will require season-ending surgery, Adam Schefter of ESPN reports."
-    }
-   ]
+   "delta_since_last_pull": 3.0,
+   "new_absences": []
   },
   "MIN": {
-   "adj_points": 1.09,
-   "qb_out": false,
+   "adj_points": 3.49,
+   "qb_out": true,
    "absences": [
     {
      "player": "Kyler Murray",
      "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-10T15:44Z",
-     "note": "questionable"
+     "status": "Doubtful",
+     "points": 3.4,
+     "updated": "2026-11-10T20:55Z",
+     "note": "doubtful"
     },
     {
      "player": "Tyrion Ingram-Dawkins",
      "pos": "DL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-10T15:44Z",
-     "note": "questionable"
+     "updated": "2026-11-10T04:02Z",
+     "note": "Ingram-Dawkins exited Monday night's game against the Bills with an ankle injury and is questionable to return."
     }
    ],
-   "delta_since_last_pull": -2.91,
-   "new_absences": [
-    {
-     "player": "Tyrion Ingram-Dawkins",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-10T15:44Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 2.4,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 0.38,
@@ -431,7 +413,7 @@
      "note": "Campbell (knee) is questionable to return to Sunday's contest against the Packers."
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
@@ -447,7 +429,7 @@
      "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.24,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NYG": {
@@ -459,8 +441,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-10T00:06Z",
-     "note": "McCarthy (hip) is listed as limited on Monday's practice estimate, Dan Salomone of the Giants' official site reports."
+     "updated": "2026-11-10T21:39Z",
+     "note": "McCarthy (hip) was listed as a full participant in Tuesday's practice."
     },
     {
      "player": "Abdul Carter",
@@ -487,7 +469,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PHI": {
@@ -583,7 +565,7 @@
      "note": "Skoronski (hamstring) is questionable to return to Sunday's game against the Bengals."
     }
    ],
-   "delta_since_last_pull": -0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "WAS": {
@@ -607,7 +589,7 @@
      "note": "Okonkwo was deemed a limited participant on Washington's estimated practice report Monday due to a hip injury, John Keim of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
