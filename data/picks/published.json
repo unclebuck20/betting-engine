@@ -27164,7 +27164,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 6.91,
-  "units": 1.0,
+  "units": 0.5,
   "price_floor": -1.0,
   "floor_text": "Good to -1 at -110",
   "fair_source": "consensus",
@@ -27207,20 +27207,21 @@
    "price": 100,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280903&selectionId=50196",
-   "ev_pct": 3.61,
-   "confidence": 51.8
+   "ev_pct": 2.4,
+   "confidence": 51.2
   },
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.61,
-   "confidence": 51.8,
+   "tier": "lean",
+   "ev_pct": 2.4,
+   "confidence": 51.2,
    "line": -1.5,
    "price": 100,
    "book": "fanduel",
-   "why": "Pinnacle makes Saints -1; FanDuel has -1.5 (+100). Our NFL model makes Saints -4.5, 3.5 pts better than the market.",
+   "why": "Pinnacle makes Saints -1; FanDuel has -1.5 (+100). Our NFL model makes Saints -4, 3.0 pts better than the market.",
    "flags": []
-  }
+  },
+  "units_uncapped": 0.5
  },
  "1057d50949844ddf483da9c8c20354be|New York Jets": {
   "id": "1057d50949844ddf483da9c8c20354be",
@@ -27313,9 +27314,10 @@
    "line": 8.5,
    "price": -110,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Jets +10; DraftKings has +8.5 (-110). Our NFL model makes Jets +5, 5.2 pts better than the market. NYJ is without Garrett Wilson (WR, out); injuries are worth ~0.5 pts to them by our injury model.",
+   "why": "BetOnline/LowVig makes Jets +10; DraftKings has +8.5 (-110). Our NFL model makes Jets +4.5, 5.6 pts better than the market.",
    "flags": []
-  }
+  },
+  "units_uncapped": 2.0
  },
  "9760d8f19f84bfee300a74ceb656c95d|Under": {
   "id": "9760d8f19f84bfee300a74ceb656c95d",
@@ -27451,7 +27453,8 @@
    "book": "draftkings",
    "why": "Pinnacle's fair total is 56.5; DraftKings has Under 55.5 (-105). Our model projects 51.9 points from both offenses' efficiency and pace.",
    "flags": []
-  }
+  },
+  "units_uncapped": 2.0
  },
  "6c932a965110f3f89ec4a5f1a6ac256e|Arizona Cardinals": {
   "id": "6c932a965110f3f89ec4a5f1a6ac256e",
@@ -27478,7 +27481,7 @@
   "open_line": null,
   "confidence": 56.0,
   "ev_pct": 6.91,
-  "units": 1.0,
+  "units": 0.5,
   "price_floor": 7.5,
   "floor_text": "Good to +7.5 at -110",
   "fair_source": "consensus",
@@ -27521,20 +27524,21 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695544P950_1",
-   "ev_pct": 3.35,
-   "confidence": 53.7
+   "ev_pct": 2.97,
+   "confidence": 53.5
   },
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.35,
-   "confidence": 53.7,
+   "tier": "lean",
+   "ev_pct": 2.97,
+   "confidence": 53.5,
    "line": 9.5,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle makes Cardinals +11.5; DraftKings has +9.5 (-108). Our NFL model makes Cardinals +7.5, 4.3 pts better than the market. ARI is without Michael Wilson (WR, out); injuries are worth ~0.9 pts to them by our injury model.",
+   "why": "Pinnacle makes Cardinals +11.5; DraftKings has +9.5 (-108). Our NFL model makes Cardinals +7, 4.6 pts better than the market. ARI is without Michael Wilson (WR, out); injuries are worth ~0.7 pts to them by our injury model.",
    "flags": []
-  }
+  },
+  "units_uncapped": 0.5
  },
  "be0e03cc42fbc9b6962467b22c7bf9dd|Over": {
   "id": "be0e03cc42fbc9b6962467b22c7bf9dd",
@@ -27602,21 +27606,22 @@
    "price": -112,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695526O3950_1",
-   "ev_pct": 3.34,
-   "confidence": 54.6
+   "ev_pct": 4.92,
+   "confidence": 55.4
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 3.34,
-   "confidence": 54.6,
+   "ev_pct": 4.92,
+   "confidence": 55.4,
    "line": 39.5,
    "price": -112,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 38.5; DraftKings has Over 39.5 (-112). Our model projects 42.4 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 38.5; DraftKings has Over 39.5 (-112). Our model projects 43.1 points from both offenses' efficiency and pace.",
    "flags": []
-  }
+  },
+  "units_uncapped": 1.5
  },
  "b5700b4d938fd94429f60d4622cc9c0a|Under": {
   "id": "b5700b4d938fd94429f60d4622cc9c0a",
@@ -27763,18 +27768,18 @@
    "price": -120,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695653N250_1",
-   "ev_pct": null,
-   "confidence": null
+   "ev_pct": -3.13,
+   "confidence": 52.8
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -4.06,
-   "confidence": 51.3,
+   "ev_pct": -3.13,
+   "confidence": 52.8,
    "line": -2.5,
-   "price": -115,
+   "price": -120,
    "book": "draftkings",
-   "why": "Pinnacle makes Lions -3; DraftKings has -2.5 (-115). Our NFL model makes Lions -0.5, 2.4 pts worse than the market. DET is without D.J. Reed (CB, out); injuries are worth ~0.8 pts to them by our injury model.",
+   "why": "Pinnacle makes Lions -3.5; DraftKings has -2.5 (-120). Our NFL model makes Lions -1, 2.4 pts worse than the market.",
    "flags": []
   }
  },
@@ -28156,5 +28161,77 @@
     "college injuries not checked yet"
    ]
   }
+ },
+ "be0e03cc42fbc9b6962467b22c7bf9dd|Cleveland Browns": {
+  "id": "be0e03cc42fbc9b6962467b22c7bf9dd",
+  "pick_key": "be0e03cc42fbc9b6962467b22c7bf9dd|Cleveland Browns",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "play",
+  "edges": [
+   "CLE passing vs HOU pass D: -0.16 EPA/play vs average",
+   "CLE QB faces pressure on ~19% of dropbacks"
+  ],
+  "matchup": "Houston Texans @ Cleveland Browns",
+  "kickoff_utc": "2026-11-15T18:00:00Z",
+  "kickoff_pt": "Sun Nov 15, 10:00 AM PST",
+  "side": "Cleveland Browns",
+  "opponent": "Houston Texans",
+  "side_is_home": true,
+  "line": 4.5,
+  "price": -105,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695526P450_1",
+  "fair_line": 5.0,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 9.33,
+  "units": 2.0,
+  "price_floor": 3.0,
+  "floor_text": "Good to +3 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": -4.9,
+  "model_home_margin": -6.6,
+  "model_weight": -0.0,
+  "hours_to_kick": 119.5,
+  "signals": [
+   "injury_news"
+  ],
+  "why": "Pinnacle makes Browns +5; DraftKings has +4.5 (-105). Our NFL model makes Browns +6.5, 1.7 pts worse than the market. CLE: new injury news since our last check is worth ~3.0 pts the sharp line hasn't absorbed yet.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-10T15:00:42.748868+00:00",
+  "published_at": "2026-11-10T18:30:39.809358+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-10T18:30:39.809358+00:00",
+    4.5,
+    -105,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 4.5,
+   "price": -105,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695526P450_1",
+   "ev_pct": 9.33,
+   "confidence": 56.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 9.33,
+   "confidence": 56.0,
+   "line": 4.5,
+   "price": -105,
+   "book": "draftkings",
+   "why": "Pinnacle makes Browns +5; DraftKings has +4.5 (-105). Our NFL model makes Browns +6.5, 1.7 pts worse than the market. CLE: new injury news since our last check is worth ~3.0 pts the sharp line hasn't absorbed yet.",
+   "flags": []
+  },
+  "units_uncapped": 2.5
  }
 }

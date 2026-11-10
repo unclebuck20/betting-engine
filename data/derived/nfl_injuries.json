@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-10T15:00:42.748868+00:00",
-  "previous_pull": "2026-11-10T11:30:27.002094+00:00",
-  "matched_absences": 45
+  "injury_pull": "2026-11-10T18:30:31.199354+00:00",
+  "previous_pull": "2026-11-10T15:00:42.748868+00:00",
+  "matched_absences": 47
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.94,
+   "adj_points": 0.68,
    "qb_out": false,
    "absences": [
     {
@@ -23,10 +23,10 @@
     {
      "player": "Jayden Williams",
      "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-09T20:45Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     },
     {
      "player": "Hjalte Froholdt",
@@ -37,20 +37,20 @@
      "note": "Froholdt is in league concussion protocol Monday, Darren Urban of the Cardinals' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.26,
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.57,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
      "player": "Nate Wiggins",
      "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-09T20:55Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     },
     {
      "player": "Kyle Hamilton",
@@ -61,7 +61,7 @@
      "note": "Hamilton (hip) has been ruled out for the remainder of Thursday night's contest against the Jaguars."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "BUF": {
@@ -85,23 +85,23 @@
      "note": "Anderson (ankle) is inactive for Monday's matchup against Minnesota."
     }
    ],
-   "delta_since_last_pull": -0.68,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 0.25,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
     {
      "player": "Bobby Okereke",
      "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-09T20:56Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   },
   "CHI": {
@@ -121,23 +121,23 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 4.0,
-   "qb_out": true,
+   "adj_points": 1.0,
+   "qb_out": false,
    "absences": [
     {
      "player": "Deshaun Watson",
      "pos": "QB",
-     "status": "Out",
-     "points": 4.0,
-     "updated": "2026-11-09T16:48Z",
-     "note": "The Browns are planning for Watson (concussion) to start Sunday's game against the Texans, Jeremy Fowler of ESPN.com reports."
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -3.0,
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.55,
+   "adj_points": 0.36,
    "qb_out": false,
    "absences": [
     {
@@ -151,13 +151,13 @@
     {
      "player": "DeMarvion Overshown",
      "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-09T20:59Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   },
   "DEN": {
@@ -177,17 +177,9 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.75,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
-    {
-     "player": "D.J. Reed",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-09T21:09Z",
-     "note": "out"
-    },
     {
      "player": "Jack Campbell",
      "pos": "LB",
@@ -195,9 +187,17 @@
      "points": 0.25,
      "updated": "2026-11-07T22:18Z",
      "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
+    },
+    {
+     "player": "D.J. Reed",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "GB": {
@@ -217,35 +217,35 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.67,
+   "adj_points": 0.55,
    "qb_out": false,
    "absences": [
     {
+     "player": "Jalen Travis",
+     "pos": "T",
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-11-10T15:44Z",
+     "note": "doubtful"
+    },
+    {
      "player": "A.J. Haulcy",
      "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-09T21:15Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     },
     {
      "player": "Akeem Davis-Gaither",
      "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-09T21:15Z",
-     "note": "out"
-    },
-    {
-     "player": "Jalen Travis",
-     "pos": "T",
      "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-10T02:30Z",
-     "note": "Travis (knee) is expected to be sidelined two to four weeks, Matt Zenitz of CBSSports.com reports."
+     "points": 0.06,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "KC": {
@@ -305,8 +305,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-09T23:49Z",
-     "note": "Chargers coach Jim Harbaugh relayed Monday that Herbert (finger) avoided a fracture in his left middle finger,  Alex Insdorf of BoltBeat.com reports."
+     "updated": "2026-11-10T16:00Z",
+     "note": "Chargers head coach Jim Harbaugh said that Herbert \"should be good to go\" for Monday's game at Baltimore after imaging on the quarterback's injured left middle "
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -329,7 +329,7 @@
      "pos": "WR",
      "status": "Doubtful",
      "points": 0.42,
-     "updated": "2026-11-09T22:19Z",
+     "updated": "2026-11-10T15:44Z",
      "note": "doubtful"
     },
     {
@@ -345,7 +345,7 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 1.0,
+   "adj_points": 1.35,
    "qb_out": false,
    "absences": [
     {
@@ -355,31 +355,73 @@
      "points": 1.0,
      "updated": "2026-11-08T23:46Z",
      "note": "Willis completed 13 of 25 passes for 128 yards with no touchdowns and one interception and added two rushes for seven yards in the Dolphins' 19-9 loss to the Li"
+    },
+    {
+     "player": "Zach Sieler",
+     "pos": "DL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-10T16:27Z",
+     "note": "Sieler ruptured his biceps during Sunday's 19-9 loss to the Lions and will require season-ending surgery, Adam Schefter of ESPN reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.35,
+   "new_absences": [
+    {
+     "player": "Zach Sieler",
+     "pos": "DL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-10T16:27Z",
+     "note": "Sieler ruptured his biceps during Sunday's 19-9 loss to the Lions and will require season-ending surgery, Adam Schefter of ESPN reports."
+    }
+   ]
   },
   "MIN": {
-   "adj_points": 4.0,
-   "qb_out": true,
+   "adj_points": 1.09,
+   "qb_out": false,
    "absences": [
     {
      "player": "Kyler Murray",
      "pos": "QB",
-     "status": "Out",
-     "points": 4.0,
-     "updated": "2026-11-09T23:49Z",
-     "note": "inactive"
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Tyrion Ingram-Dawkins",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -2.91,
+   "new_absences": [
+    {
+     "player": "Tyrion Ingram-Dawkins",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NE": {
-   "adj_points": 0.19,
+   "adj_points": 0.38,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Rhamondre Stevenson",
+     "pos": "RB",
+     "status": "Doubtful",
+     "points": 0.26,
+     "updated": "2026-11-10T16:01Z",
+     "note": "doubtful"
+    },
     {
      "player": "Will Campbell",
      "pos": "T",
@@ -387,33 +429,25 @@
      "points": 0.12,
      "updated": "2026-11-09T00:30Z",
      "note": "Campbell (knee) is questionable to return to Sunday's contest against the Packers."
-    },
-    {
-     "player": "Rhamondre Stevenson",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-10T02:32Z",
-     "note": "Stevenson is dealing with a knee tendon issue that isn't slated to require surgery but may require him to miss \"a short period of time,\" Adam Schefter of ESPN r"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.1,
+   "adj_points": 0.34,
    "qb_out": false,
    "absences": [
     {
      "player": "Erik McCoy",
      "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-10T01:51Z",
-     "note": "Coach Kellen Moore said Monday that McCoy will be out \"for a little bit\" as he deals with the bicep injury he suffered during Sunday's game versus the Browns, L"
+     "status": "Doubtful",
+     "points": 0.34,
+     "updated": "2026-11-10T15:44Z",
+     "note": "doubtful"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.24,
    "new_absences": []
   },
   "NYG": {
@@ -441,19 +475,19 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Garrett Wilson",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-09T21:31Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "PHI": {
@@ -505,24 +539,24 @@
      "pos": "QB",
      "status": "Out",
      "points": 4.0,
-     "updated": "2026-11-10T00:15Z",
-     "note": "Darnold (quadriceps), who won't play this coming Sunday at Las Vegas, is expected to return in Week 12 at San Francisco on Sunday, Nov. 29 after a Week 11 bye, "
+     "updated": "2026-11-10T15:44Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.81,
+   "adj_points": 0.43,
    "qb_out": false,
    "absences": [
     {
      "player": "Carnell Tate",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-03T13:04Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-10T15:44Z",
+     "note": "questionable"
     },
     {
      "player": "JC Latham",
@@ -549,13 +583,21 @@
      "note": "Skoronski (hamstring) is questionable to return to Sunday's game against the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.14,
+   "adj_points": 0.33,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Lucas Patrick",
+     "pos": "G",
+     "status": "Doubtful",
+     "points": 0.26,
+     "updated": "2026-11-10T16:38Z",
+     "note": "doubtful"
+    },
     {
      "player": "Chig Okonkwo",
      "pos": "TE",
@@ -563,17 +605,9 @@
      "points": 0.07,
      "updated": "2026-11-10T00:36Z",
      "note": "Okonkwo was deemed a limited participant on Washington's estimated practice report Monday due to a hip injury, John Keim of ESPN.com reports."
-    },
-    {
-     "player": "Lucas Patrick",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-08T20:35Z",
-     "note": "Patrick (concussion) has been ruled out for the remainder of Sunday's game against the Rams."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
   }
  }
