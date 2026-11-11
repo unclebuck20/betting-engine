@@ -27573,7 +27573,7 @@
   "open_line": null,
   "confidence": 55.2,
   "ev_pct": 5.42,
-  "units": 1.0,
+  "units": 0.5,
   "price_floor": 39.5,
   "floor_text": "Good to over 39.5 at -110",
   "fair_source": "consensus",
@@ -27620,19 +27620,19 @@
    "price": -115,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695526O3950_1",
-   "ev_pct": 3.63,
-   "confidence": 55.4
+   "ev_pct": 2.07,
+   "confidence": 54.6
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 3.63,
-   "confidence": 55.4,
+   "tier": "lean",
+   "ev_pct": 2.07,
+   "confidence": 54.6,
    "line": 39.5,
    "price": -115,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 38.5; DraftKings has Over 39.5 (-115). Our model projects 43.1 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 38.5; DraftKings has Over 39.5 (-115). Our model projects 42.4 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -28255,8 +28255,8 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695526P450_1",
-   "ev_pct": -2.03,
-   "confidence": 50.2
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -28410,6 +28410,77 @@
    "price": -115,
    "book": "fanduel",
    "why": "Pinnacle's fair total is 37.5; FanDuel has Over 37.5 (-115). Our model projects 41.6 points from both offenses' efficiency and pace.",
+   "flags": []
+  }
+ },
+ "be0e03cc42fbc9b6962467b22c7bf9dd|Houston Texans": {
+  "id": "be0e03cc42fbc9b6962467b22c7bf9dd",
+  "pick_key": "be0e03cc42fbc9b6962467b22c7bf9dd|Houston Texans",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "play",
+  "edges": [
+   "CLE passing vs HOU pass D: -0.19 EPA/play vs average",
+   "CLE QB faces pressure on ~19% of dropbacks"
+  ],
+  "matchup": "Houston Texans @ Cleveland Browns",
+  "kickoff_utc": "2026-11-15T18:00:00Z",
+  "kickoff_pt": "Sun Nov 15, 10:00 AM PST",
+  "side": "Houston Texans",
+  "opponent": "Cleveland Browns",
+  "side_is_home": false,
+  "line": -4.5,
+  "price": -115,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695526N450_3",
+  "fair_line": -5.0,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 4.7,
+  "units": 1.5,
+  "price_floor": -6.0,
+  "floor_text": "Good to -6 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": -4.8,
+  "model_home_margin": -7.1,
+  "model_weight": 0.073,
+  "hours_to_kick": 99.0,
+  "signals": [
+   "injury_news"
+  ],
+  "why": "Pinnacle makes Texans -5; DraftKings has -4.5 (-115). Our NFL model makes Texans -7, 2.3 pts better than the market. CLE: new injury news since our last check is worth ~3.0 pts the sharp line hasn't absorbed yet.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-11T11:30:32.588689+00:00",
+  "published_at": "2026-11-11T15:00:54.628529+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-11T15:00:54.628529+00:00",
+    -4.5,
+    -115,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": -4.5,
+   "price": -115,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695526N450_3",
+   "ev_pct": 4.7,
+   "confidence": 56.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 4.7,
+   "confidence": 56.0,
+   "line": -4.5,
+   "price": -115,
+   "book": "draftkings",
+   "why": "Pinnacle makes Texans -5; DraftKings has -4.5 (-115). Our NFL model makes Texans -7, 2.3 pts better than the market. CLE: new injury news since our last check is worth ~3.0 pts the sharp line hasn't absorbed yet.",
    "flags": []
   }
  }
