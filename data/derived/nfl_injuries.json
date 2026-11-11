@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-11T21:35:34.636917+00:00",
-  "previous_pull": "2026-11-11T18:30:27.449728+00:00",
-  "matched_absences": 56
+  "injury_pull": "2026-11-11T22:30:31.227213+00:00",
+  "previous_pull": "2026-11-11T21:35:34.636917+00:00",
+  "matched_absences": 61
  },
  "teams": {
   "ARI": {
@@ -65,9 +65,25 @@
    "new_absences": []
   },
   "BUF": {
-   "adj_points": 0.22,
+   "adj_points": 0.56,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Christian Benford",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T22:01Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Spencer Brown",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T22:01Z",
+     "note": "questionable"
+    },
     {
      "player": "Dion Dawkins",
      "pos": "T",
@@ -75,6 +91,14 @@
      "points": 0.12,
      "updated": "2026-11-10T00:24Z",
      "note": "Dawkins (ribs) is inactive for Monday's game against the Vikings."
+    },
+    {
+     "player": "Connor McGovern",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-11T22:00Z",
+     "note": "questionable"
     },
     {
      "player": "Alec Anderson",
@@ -85,8 +109,33 @@
      "note": "Anderson (ankle) is inactive for Monday's matchup against Minnesota."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.34,
+   "new_absences": [
+    {
+     "player": "Christian Benford",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T22:01Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Spencer Brown",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T22:01Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Connor McGovern",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-11T22:00Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.06,
@@ -229,25 +278,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 1.12,
-   "new_absences": [
-    {
-     "player": "Jared Goff",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-11T21:27Z",
-     "note": "Goff was limited at Wednesday's practice due to a chest injury."
-    },
-    {
-     "player": "Amon-Ra St. Brown",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T21:22Z",
-     "note": "St. Brown (ribs) was limited at Wednesday's practice."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "GB": {
    "adj_points": 0.06,
@@ -334,41 +366,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.42,
-   "new_absences": [
-    {
-     "player": "Travon Walker",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T21:24Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jakobi Meyers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T21:16Z",
-     "note": "Meyers (ankle) did not participate in Wednesday's practice, Ryan O'Halloran of The Florida Times-Union reports."
-    },
-    {
-     "player": "Robert Hainsey",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-11T21:25Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Ezra Cleveland",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-11T21:24Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "KC": {
    "adj_points": 1.21,
@@ -379,16 +378,16 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-11T18:26Z",
-     "note": "Chiefs coach Andy Reid said that he expects full practice participation by Mahomes (elbow) on Wednesday, Charles Goldman of AtoZSports.com reports."
+     "updated": "2026-11-11T21:46Z",
+     "note": "Mahomes (right elbow/knee) was a full participant in Wednesday's practice."
     },
     {
      "player": "Xavier Worthy",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-11T18:02Z",
-     "note": "Worthy (hamstring) is slated to practice Wednesday, \" Pete Sweeney of The Kansas City Star reports."
+     "updated": "2026-11-11T21:42Z",
+     "note": "Worthy (hamstring) was a full participant in Wednesday's practice for Kansas City."
     },
     {
      "player": "Jaylon Moore",
@@ -463,11 +462,11 @@
      "note": "Coach Sean McVay said Monday that the Rams haven't decided whether Avila will go to injured reserve with the hamstring injury he suffered during Sunday's game a"
     }
    ],
-   "delta_since_last_pull": 0.08,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 4.35,
+   "adj_points": 4.57,
    "qb_out": true,
    "absences": [
     {
@@ -485,10 +484,43 @@
      "points": 0.35,
      "updated": "2026-11-11T00:23Z",
      "note": "The Dolphins placed Sieler (biceps) on injured reserve Tuesday."
+    },
+    {
+     "player": "Chris Bell",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T22:01Z",
+     "note": "Bell (knee) is listed as a limited participant on Wednesday's injury report, C. Isaiah Smalls II of the Miami Herald reports."
+    },
+    {
+     "player": "Aaron Brewer",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-11T21:38Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.22,
+   "new_absences": [
+    {
+     "player": "Chris Bell",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T22:01Z",
+     "note": "Bell (knee) is listed as a limited participant on Wednesday's injury report, C. Isaiah Smalls II of the Miami Herald reports."
+    },
+    {
+     "player": "Aaron Brewer",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-11T21:38Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIN": {
    "adj_points": 3.62,
@@ -527,25 +559,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.13,
-   "new_absences": [
-    {
-     "player": "T.J. Hockenson",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T21:31Z",
-     "note": "Hockenson (wrist/chest) is listed as a non-participant on Wednesday's estimated practice report."
-    },
-    {
-     "player": "Blake Cashman",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-11T19:30Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 0.38,
@@ -588,7 +603,7 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 1.06,
+   "adj_points": 1.0,
    "qb_out": false,
    "absences": [
     {
@@ -598,21 +613,13 @@
      "points": 1.0,
      "updated": "2026-11-10T21:39Z",
      "note": "McCarthy (hip) was listed as a full participant in Tuesday's practice, Dan Salomone of the Giants' official site reports."
-    },
-    {
-     "player": "Abdul Carter",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-10T00:09Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.24,
+   "adj_points": 0.33,
    "qb_out": false,
    "absences": [
     {
@@ -630,10 +637,27 @@
      "points": 0.12,
      "updated": "2026-11-11T17:29Z",
      "note": "questionable"
+    },
+    {
+     "player": "Harrison Phillips",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-11T22:11Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Harrison Phillips",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-11T22:11Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PHI": {
    "adj_points": 0.06,
@@ -720,17 +744,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.18,
-   "new_absences": [
-    {
-     "player": "Anthony Hill Jr.",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-11T21:30Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "WAS": {
    "adj_points": 0.3,
