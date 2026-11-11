@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-11T18:30:27.449728+00:00",
-  "previous_pull": "2026-11-11T15:00:32.406837+00:00",
-  "matched_absences": 49
+  "injury_pull": "2026-11-11T21:35:34.636917+00:00",
+  "previous_pull": "2026-11-11T18:30:27.449728+00:00",
+  "matched_absences": 56
  },
  "teams": {
   "ARI": {
@@ -138,36 +138,19 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-11T17:12Z",
-     "note": "Boston isn't expected to practice Wednesday due to a toe injury, Daniel Oyefusi reports."
+     "note": "Boston isn't slated to practice Wednesday due to a toe injury, Daniel Oyefusi reports."
     },
     {
      "player": "Ronnie Hickman",
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-11T17:17Z",
-     "note": "questionable"
+     "updated": "2026-11-11T20:37Z",
+     "note": "Browns head coach Todd Monken said Wednesday that Hickman is in concussion protocol, Daniel Oyefusi of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.19,
-   "new_absences": [
-    {
-     "player": "Denzel Boston",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T17:12Z",
-     "note": "Boston isn't expected to practice Wednesday due to a toe injury, Daniel Oyefusi reports."
-    },
-    {
-     "player": "Ronnie Hickman",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T17:17Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DAL": {
    "adj_points": 0.36,
@@ -210,9 +193,17 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.37,
+   "adj_points": 1.49,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Jared Goff",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-11T21:27Z",
+     "note": "Goff was limited at Wednesday's practice due to a chest injury."
+    },
     {
      "player": "Jack Campbell",
      "pos": "LB",
@@ -220,6 +211,14 @@
      "points": 0.25,
      "updated": "2026-11-07T22:18Z",
      "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
+    },
+    {
+     "player": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T21:22Z",
+     "note": "St. Brown (ribs) was limited at Wednesday's practice."
     },
     {
      "player": "D.J. Reed",
@@ -230,8 +229,25 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 1.12,
+   "new_absences": [
+    {
+     "player": "Jared Goff",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-11T21:27Z",
+     "note": "Goff was limited at Wednesday's practice due to a chest injury."
+    },
+    {
+     "player": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T21:22Z",
+     "note": "St. Brown (ribs) was limited at Wednesday's practice."
+    }
+   ]
   },
   "GB": {
    "adj_points": 0.06,
@@ -281,6 +297,79 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "JAX": {
+   "adj_points": 0.42,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Travon Walker",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T21:24Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jakobi Meyers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T21:16Z",
+     "note": "Meyers (ankle) did not participate in Wednesday's practice, Ryan O'Halloran of The Florida Times-Union reports."
+    },
+    {
+     "player": "Robert Hainsey",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-11T21:25Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Ezra Cleveland",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-11T21:24Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.42,
+   "new_absences": [
+    {
+     "player": "Travon Walker",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T21:24Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jakobi Meyers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T21:16Z",
+     "note": "Meyers (ankle) did not participate in Wednesday's practice, Ryan O'Halloran of The Florida Times-Union reports."
+    },
+    {
+     "player": "Robert Hainsey",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-11T21:25Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Ezra Cleveland",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-11T21:24Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "KC": {
    "adj_points": 1.21,
    "qb_out": false,
@@ -290,8 +379,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-09T18:13Z",
-     "note": "Chiefs coach Andy Reid said Monday that Mahomes (elbow) is considered day-to-day as this Sunday's game against the Falcons approaches, Sam McDowell of The Kansa"
+     "updated": "2026-11-11T18:26Z",
+     "note": "Chiefs coach Andy Reid said that he expects full practice participation by Mahomes (elbow) on Wednesday, Charles Goldman of AtoZSports.com reports."
     },
     {
      "player": "Xavier Worthy",
@@ -346,9 +435,17 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 1.01,
+   "adj_points": 1.09,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Puka Nacua",
+     "pos": "WR",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-11T21:19Z",
+     "note": "out"
+    },
     {
      "player": "Jaylen Watson",
      "pos": "CB",
@@ -356,14 +453,6 @@
      "points": 0.5,
      "updated": "2026-11-07T20:38Z",
      "note": "The Rams placed Watson (shoulder) on injured reserve Saturday."
-    },
-    {
-     "player": "Puka Nacua",
-     "pos": "WR",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-11-11T14:34Z",
-     "note": "doubtful"
     },
     {
      "player": "Steve Avila",
@@ -374,7 +463,7 @@
      "note": "Coach Sean McVay said Monday that the Rams haven't decided whether Avila will go to injured reserve with the hamstring injury he suffered during Sunday's game a"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.08,
    "new_absences": []
   },
   "MIA": {
@@ -386,7 +475,7 @@
      "pos": "QB",
      "status": "Injured Reserve",
      "points": 4.0,
-     "updated": "2026-11-11T18:01Z",
+     "updated": "2026-11-11T21:01Z",
      "note": "ir"
     },
     {
@@ -402,7 +491,7 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 3.49,
+   "adj_points": 3.62,
    "qb_out": true,
    "absences": [
     {
@@ -410,7 +499,7 @@
      "pos": "QB",
      "status": "Doubtful",
      "points": 3.4,
-     "updated": "2026-11-11T01:11Z",
+     "updated": "2026-11-11T20:01Z",
      "note": "doubtful"
     },
     {
@@ -420,10 +509,43 @@
      "points": 0.09,
      "updated": "2026-11-10T04:02Z",
      "note": "Ingram-Dawkins exited Monday night's game against the Bills with an ankle injury and is questionable to return."
+    },
+    {
+     "player": "T.J. Hockenson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-11T21:31Z",
+     "note": "Hockenson (wrist/chest) is listed as a non-participant on Wednesday's estimated practice report."
+    },
+    {
+     "player": "Blake Cashman",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-11T19:30Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.13,
+   "new_absences": [
+    {
+     "player": "T.J. Hockenson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-11T21:31Z",
+     "note": "Hockenson (wrist/chest) is listed as a non-participant on Wednesday's estimated practice report."
+    },
+    {
+     "player": "Blake Cashman",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-11T19:30Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NE": {
    "adj_points": 0.38,
@@ -434,7 +556,7 @@
      "pos": "RB",
      "status": "Doubtful",
      "points": 0.26,
-     "updated": "2026-11-10T16:01Z",
+     "updated": "2026-11-11T21:30Z",
      "note": "doubtful"
     },
     {
@@ -510,17 +632,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Omar Cooper Jr.",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T17:30Z",
-     "note": "Cooper (ankle) will be limited in Wednesday's practice, Brian Costello of the New York Post reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PHI": {
    "adj_points": 0.06,
@@ -579,7 +692,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.43,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
     {
@@ -587,24 +700,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-11T17:50Z",
+     "updated": "2026-11-11T18:44Z",
      "note": "questionable"
-    },
-    {
-     "player": "JC Latham",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T21:06Z",
-     "note": "Latham (finger) is questionable to return to Sunday's game against the Bengals, Jim Wyatt of the Titans' official site reports."
-    },
-    {
-     "player": "Marcus Harris",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-01T20:39Z",
-     "note": "Harris (ankle) has been ruled out for the rest of Sunday's game against the Bengals."
     },
     {
      "player": "Peter Skoronski",
@@ -613,10 +710,27 @@
      "points": 0.07,
      "updated": "2026-11-01T21:14Z",
      "note": "Skoronski (hamstring) is questionable to return to Sunday's game against the Bengals."
+    },
+    {
+     "player": "Anthony Hill Jr.",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-11T21:30Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.18,
+   "new_absences": [
+    {
+     "player": "Anthony Hill Jr.",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-11T21:30Z",
+     "note": "questionable"
+    }
+   ]
   },
   "WAS": {
    "adj_points": 0.3,
@@ -631,7 +745,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.04,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
