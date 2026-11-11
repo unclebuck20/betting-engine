@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-11T15:00:32.406837+00:00",
-  "previous_pull": "2026-11-11T11:30:32.588689+00:00",
-  "matched_absences": 46
+  "injury_pull": "2026-11-11T18:30:27.449728+00:00",
+  "previous_pull": "2026-11-11T15:00:32.406837+00:00",
+  "matched_absences": 49
  },
  "teams": {
   "ARI": {
@@ -121,7 +121,7 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 4.0,
+   "adj_points": 4.19,
    "qb_out": true,
    "absences": [
     {
@@ -131,10 +131,43 @@
      "points": 4.0,
      "updated": "2026-11-11T14:38Z",
      "note": "The Browns announced Wednesday that Watson (concussion) will start Sunday's game against the Texans, Kelsey Russo of the team's official site reports."
+    },
+    {
+     "player": "Denzel Boston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T17:12Z",
+     "note": "Boston isn't expected to practice Wednesday due to a toe injury, Daniel Oyefusi reports."
+    },
+    {
+     "player": "Ronnie Hickman",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-11T17:17Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 3.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "Denzel Boston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T17:12Z",
+     "note": "Boston isn't expected to practice Wednesday due to a toe injury, Daniel Oyefusi reports."
+    },
+    {
+     "player": "Ronnie Hickman",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-11T17:17Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DAL": {
    "adj_points": 0.36,
@@ -265,8 +298,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-09T18:20Z",
-     "note": "Coach Andy Reid said Monday that Worthy (hamstring) is considered day-to-day in advance of Sunday's game against the Falcons, Matt McMullen of the Chiefs' offic"
+     "updated": "2026-11-11T18:02Z",
+     "note": "Worthy (hamstring) is slated to practice Wednesday, \" Pete Sweeney of The Kansas City Star reports."
     },
     {
      "player": "Jaylon Moore",
@@ -353,7 +386,7 @@
      "pos": "QB",
      "status": "Injured Reserve",
      "points": 4.0,
-     "updated": "2026-11-11T14:01Z",
+     "updated": "2026-11-11T18:01Z",
      "note": "ir"
     },
     {
@@ -457,20 +490,37 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.12,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Omar Cooper Jr.",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T17:30Z",
+     "note": "Cooper (ankle) will be limited in Wednesday's practice, Brian Costello of the New York Post reports."
+    },
     {
      "player": "Garrett Wilson",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-10T15:44Z",
+     "updated": "2026-11-11T17:29Z",
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Omar Cooper Jr.",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T17:30Z",
+     "note": "Cooper (ankle) will be limited in Wednesday's practice, Brian Costello of the New York Post reports."
+    }
+   ]
   },
   "PHI": {
    "adj_points": 0.06,
@@ -537,7 +587,7 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-10T15:44Z",
+     "updated": "2026-11-11T17:50Z",
      "note": "questionable"
     },
     {
@@ -569,19 +619,19 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.26,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
      "player": "Lucas Patrick",
      "pos": "G",
-     "status": "Doubtful",
-     "points": 0.26,
-     "updated": "2026-11-10T16:38Z",
-     "note": "doubtful"
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-11T17:50Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.04,
    "new_absences": []
   }
  }
