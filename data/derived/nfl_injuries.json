@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-11T23:30:27.960382+00:00",
-  "previous_pull": "2026-11-11T22:30:31.227213+00:00",
-  "matched_absences": 74
+  "injury_pull": "2026-11-12T03:00:29.638402+00:00",
+  "previous_pull": "2026-11-11T23:30:27.960382+00:00",
+  "matched_absences": 88
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.68,
+   "adj_points": 0.84,
    "qb_out": false,
    "absences": [
     {
@@ -19,6 +19,14 @@
      "points": 0.5,
      "updated": "2026-11-10T22:53Z",
      "note": "The Cardinals placed Wilson (neck) on injured reserve Tuesday."
+    },
+    {
+     "player": "Dante Stills",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-12T00:14Z",
+     "note": "questionable"
     },
     {
      "player": "Jayden Williams",
@@ -35,10 +43,35 @@
      "points": 0.09,
      "updated": "2026-11-10T02:08Z",
      "note": "Froholdt is in league concussion protocol Monday, Darren Urban of the Cardinals' official site reports."
+    },
+    {
+     "player": "Andrew Wingard",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:39Z",
+     "note": "Wingard (groin) was a limited participant in Wednesday's practice, Theo Mackie of The Arizona Republic reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.16,
+   "new_absences": [
+    {
+     "player": "Dante Stills",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-12T00:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Andrew Wingard",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:39Z",
+     "note": "Wingard (groin) was a limited participant in Wednesday's practice, Theo Mackie of The Arizona Republic reports."
+    }
+   ]
   },
   "ATL": {
    "adj_points": 0.07,
@@ -53,17 +86,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Gervon Dexter Sr.",
-     "pos": "DT",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T23:18Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "BAL": {
    "adj_points": 0.19,
@@ -94,12 +118,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Dion Dawkins",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T01:34Z",
+     "note": "Dawkins (ribs) was a limited participant in Wednesday's walkthrough practice."
+    },
+    {
      "player": "Christian Benford",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-11T22:01Z",
-     "note": "questionable"
+     "updated": "2026-11-11T23:32Z",
+     "note": "Benford (wrist) was limited in Wednesday's walkthrough practice."
     },
     {
      "player": "Spencer Brown",
@@ -108,14 +140,6 @@
      "points": 0.12,
      "updated": "2026-11-11T22:01Z",
      "note": "questionable"
-    },
-    {
-     "player": "Dion Dawkins",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-10T00:24Z",
-     "note": "Dawkins (ribs) is inactive for Monday's game against the Vikings."
     },
     {
      "player": "Connor McGovern",
@@ -169,8 +193,49 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "CIN": {
+   "adj_points": 0.19,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "DJ Turner II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T00:34Z",
+     "note": "Turner (ankle) was a limited participant in Wednesday's practice, Adam Caplan of SiriusXM NFL Radio reports."
+    },
+    {
+     "player": "Dylan Fairchild",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-11T23:28Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "DJ Turner II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T00:34Z",
+     "note": "Turner (ankle) was a limited participant in Wednesday's practice, Adam Caplan of SiriusXM NFL Radio reports."
+    },
+    {
+     "player": "Dylan Fairchild",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-11T23:28Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "CLE": {
-   "adj_points": 4.26,
+   "adj_points": 4.84,
    "qb_out": true,
    "absences": [
     {
@@ -182,12 +247,44 @@
      "note": "The Browns announced Wednesday that Watson (concussion) will start Sunday's game against the Texans, Kelsey Russo of the team's official site reports."
     },
     {
+     "player": "Denzel Ward",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T01:54Z",
+     "note": "Ward (quadriceps) was a limited participant at practice Wednesday, Mary Kay Cabot of The Cleveland Plain Dealer reports."
+    },
+    {
+     "player": "Tytus Howard",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T23:36Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Austin Barber",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T23:35Z",
+     "note": "questionable"
+    },
+    {
      "player": "Denzel Boston",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-11T17:12Z",
-     "note": "Boston isn't slated to practice Wednesday due to a toe injury, Daniel Oyefusi reports."
+     "note": "Boston isn't slated to practice Wednesday due to a toe injury, Daniel Oyefusi of ESPN reports."
+    },
+    {
+     "player": "Elgton Jenkins",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-11T23:35Z",
+     "note": "questionable"
     },
     {
      "player": "Harold Fannin Jr.",
@@ -204,17 +301,73 @@
      "points": 0.07,
      "updated": "2026-11-11T20:37Z",
      "note": "Browns head coach Todd Monken said Wednesday that Hickman is in concussion protocol, Daniel Oyefusi of ESPN.com reports."
+    },
+    {
+     "player": "Carson Schwesinger",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-12T01:56Z",
+     "note": "Schwesinger (wrist) was a limited participant in Wednesday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
+    },
+    {
+     "player": "Quincy Williams",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-12T01:54Z",
+     "note": "Williams (hamstring) was a limited participant in Wednesday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
     }
    ],
-   "delta_since_last_pull": 0.07,
+   "delta_since_last_pull": 0.58,
    "new_absences": [
     {
-     "player": "Harold Fannin Jr.",
-     "pos": "TE",
+     "player": "Denzel Ward",
+     "pos": "CB",
      "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T22:39Z",
-     "note": "Fannin (groin) was limited in Wednesday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
+     "points": 0.12,
+     "updated": "2026-11-12T01:54Z",
+     "note": "Ward (quadriceps) was a limited participant at practice Wednesday, Mary Kay Cabot of The Cleveland Plain Dealer reports."
+    },
+    {
+     "player": "Tytus Howard",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T23:36Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Austin Barber",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-11T23:35Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Elgton Jenkins",
+     "pos": "C",
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-11T23:35Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Carson Schwesinger",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-12T01:56Z",
+     "note": "Schwesinger (wrist) was a limited participant in Wednesday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
+    },
+    {
+     "player": "Quincy Williams",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-12T01:54Z",
+     "note": "Williams (hamstring) was a limited participant in Wednesday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
     }
    ]
   },
@@ -235,7 +388,7 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-10T15:44Z",
+     "updated": "2026-11-11T23:56Z",
      "note": "questionable"
     }
    ],
@@ -279,6 +432,14 @@
      "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
     },
     {
+     "player": "D.J. Reed",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T00:29Z",
+     "note": "questionable"
+    },
+    {
      "player": "Amon-Ra St. Brown",
      "pos": "WR",
      "status": "Questionable",
@@ -287,33 +448,16 @@
      "note": "St. Brown (ribs) was limited at Wednesday's practice."
     },
     {
-     "player": "D.J. Reed",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-10T15:44Z",
-     "note": "questionable"
-    },
-    {
      "player": "Brian Branch",
      "pos": "DB",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-11T22:47Z",
-     "note": "questionable"
+     "updated": "2026-11-12T00:13Z",
+     "note": "Branch (hip) was a limited participant at practice Wednesday."
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Brian Branch",
-     "pos": "DB",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-11T22:47Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "GB": {
    "adj_points": 0.32,
@@ -324,8 +468,16 @@
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-11T23:06Z",
-     "note": "questionable"
+     "updated": "2026-11-12T00:21Z",
+     "note": "Van Ness (back) was listed as a DNP on Wednesday's practice report."
+    },
+    {
+     "player": "Javon Bullard",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:24Z",
+     "note": "Bullard (ankle) was held out of Wednesday's jog-through practice."
     },
     {
      "player": "Aaron Banks",
@@ -333,14 +485,6 @@
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-11-11T23:07Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Javon Bullard",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T23:06Z",
      "note": "questionable"
     },
     {
@@ -348,37 +492,12 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-08T23:32Z",
-     "note": "Hopper (chest) has been ruled out for the remainder of Sunday's game against the Patriots."
+     "updated": "2026-11-12T00:27Z",
+     "note": "Hopper (chest) was a limited participant in Wednesday's jog-through practice."
     }
    ],
-   "delta_since_last_pull": 0.26,
-   "new_absences": [
-    {
-     "player": "Lukas Van Ness",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T23:06Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Aaron Banks",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T23:07Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Javon Bullard",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T23:06Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "HOU": {
    "adj_points": 0.23,
@@ -405,37 +524,12 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-11T22:44Z",
-     "note": "questionable"
+     "updated": "2026-11-12T00:02Z",
+     "note": "Al-Shaair (groin/personal) was listed as a DNP on Wednesday's injury report, Jonathan M. Alexander of the Houston Chronicle reports."
     }
    ],
-   "delta_since_last_pull": 0.23,
-   "new_absences": [
-    {
-     "player": "Keylan Rutledge",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-11T22:43Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Woody Marks",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T22:39Z",
-     "note": "Marks (knee) was a limited participant in Wednesday's practice, Chris Easterling of the Akron Beacon Journal reports."
-    },
-    {
-     "player": "Azeez Al-Shaair",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-11T22:44Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "IND": {
    "adj_points": 0.55,
@@ -454,7 +548,7 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-11T23:28Z",
+     "updated": "2026-11-12T02:02Z",
      "note": "questionable"
     },
     {
@@ -550,8 +644,8 @@
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-08T23:55Z",
-     "note": "Zuhn (concussion) has been ruled out for the remainder of Las Vegas' matchup versus the 49ers on Sunday."
+     "updated": "2026-11-12T02:03Z",
+     "note": "Zuhn (concussion) was a limited participant in Wednesday's practice."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -574,7 +668,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 1.09,
+   "adj_points": 0.73,
    "qb_out": false,
    "absences": [
     {
@@ -582,16 +676,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-11T21:19Z",
+     "updated": "2026-11-12T02:02Z",
      "note": "out"
-    },
-    {
-     "player": "Jaylen Watson",
-     "pos": "CB",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-11-07T20:38Z",
-     "note": "The Rams placed Watson (shoulder) on injured reserve Saturday."
     },
     {
      "player": "Steve Avila",
@@ -600,10 +686,43 @@
      "points": 0.09,
      "updated": "2026-11-10T02:19Z",
      "note": "Coach Sean McVay said Monday that the Rams haven't decided whether Avila will go to injured reserve with the hamstring injury he suffered during Sunday's game a"
+    },
+    {
+     "player": "Davis Allen",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:30Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Colby Parkinson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:08Z",
+     "note": "Parkinson (ribs) was limited in Wednesday's practice, Sarah Barshop of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.36,
+   "new_absences": [
+    {
+     "player": "Davis Allen",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:30Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Colby Parkinson",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:08Z",
+     "note": "Parkinson (ribs) was limited in Wednesday's practice, Sarah Barshop of ESPN.com reports."
+    }
+   ]
   },
   "MIA": {
    "adj_points": 4.57,
@@ -614,7 +733,7 @@
      "pos": "QB",
      "status": "Injured Reserve",
      "points": 4.0,
-     "updated": "2026-11-11T21:01Z",
+     "updated": "2026-11-12T00:14Z",
      "note": "ir"
     },
     {
@@ -686,7 +805,7 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 0.45,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
@@ -698,6 +817,14 @@
      "note": "doubtful"
     },
     {
+     "player": "Will Campbell",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T01:44Z",
+     "note": "Campbell (knee) was a full participant in Wednesday's practice."
+    },
+    {
      "player": "Morgan Moses",
      "pos": "T",
      "status": "Questionable",
@@ -710,27 +837,19 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-11T23:14Z",
-     "note": "questionable"
+     "updated": "2026-11-12T00:07Z",
+     "note": "Byard (chest) was a limited participant in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.07,
+   "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Morgan Moses",
+     "player": "Will Campbell",
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-11T23:14Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Kevin Byard",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T23:14Z",
-     "note": "questionable"
+     "updated": "2026-11-12T01:44Z",
+     "note": "Campbell (knee) was a full participant in Wednesday's practice."
     }
    ]
   },
@@ -763,25 +882,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.19,
-   "new_absences": [
-    {
-     "player": "Martin Emerson Jr.",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T23:14Z",
-     "note": "questionable"
-    },
-    {
-     "player": "David Edwards",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T23:14Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYG": {
    "adj_points": 1.0,
@@ -804,6 +906,14 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Garrett Wilson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T00:14Z",
+     "note": "questionable"
+    },
+    {
      "player": "Omar Cooper Jr.",
      "pos": "WR",
      "status": "Questionable",
@@ -812,20 +922,12 @@
      "note": "Cooper (ankle) will be limited in Wednesday's practice, Brian Costello of the New York Post reports."
     },
     {
-     "player": "Garrett Wilson",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T17:29Z",
-     "note": "questionable"
-    },
-    {
      "player": "Harrison Phillips",
      "pos": "DL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-11T22:11Z",
-     "note": "questionable"
+     "updated": "2026-11-12T02:01Z",
+     "note": "Phillips (ankle) was estimated as a non-participant on the Jets' official injury report Wednesday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -856,23 +958,23 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-10T01:17Z",
-     "note": "Coach Kyle Shanahan said Monday that Green (back) is considered day-to-day ahead of Sunday's game at Dallas, Matt Barrows of The Athletic reports."
+     "updated": "2026-11-12T00:43Z",
+     "note": "Green (back) did not practice Wednesday, Matt Barrows of The Athletic reports."
     },
     {
      "player": "Deommodore Lenoir",
      "pos": "DB",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-10T01:22Z",
-     "note": "Coach Kyle Shanahan said Monday that Lenoir (foot) is considered day-to-day ahead of Sunday's game at Dallas, Matt Barrows of The Athletic reports."
+     "updated": "2026-11-12T00:45Z",
+     "note": "Lenoir (foot) Matt Barrows of The Athletic in Wednesday's practice, Matt reports."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 4.0,
+   "adj_points": 4.07,
    "qb_out": true,
    "absences": [
     {
@@ -882,15 +984,40 @@
      "points": 4.0,
      "updated": "2026-11-10T15:44Z",
      "note": "out"
+    },
+    {
+     "player": "Anthony Bradford",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:24Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Anthony Bradford",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-12T00:24Z",
+     "note": "questionable"
+    }
+   ]
   },
   "TEN": {
-   "adj_points": 0.37,
+   "adj_points": 0.49,
    "qb_out": false,
    "absences": [
+    {
+     "player": "JC Latham",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T01:30Z",
+     "note": "Latham (finger) practiced in full Wednesday, Jim Wyatt of the Titans' official site reports."
+    },
     {
      "player": "Marcus Harris",
      "pos": "CB",
@@ -927,12 +1054,12 @@
    "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Marcus Harris",
-     "pos": "CB",
+     "player": "JC Latham",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-11T23:07Z",
-     "note": "Harris (ankle) practiced in full Wednesday."
+     "updated": "2026-11-12T01:30Z",
+     "note": "Latham (finger) practiced in full Wednesday, Jim Wyatt of the Titans' official site reports."
     }
    ]
   },
@@ -945,7 +1072,7 @@
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-11T17:50Z",
+     "updated": "2026-11-12T02:02Z",
      "note": "out"
     }
    ],
