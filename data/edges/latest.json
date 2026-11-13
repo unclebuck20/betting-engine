@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-11-13T00:30:45.685216+00:00",
+  "built_at": "2026-11-13T01:01:06.028401+00:00",
   "nfl_history_games": 5567,
   "cfb_history_games": 3730,
-  "games": 103
+  "games": 102
  },
  "games": [
   {
@@ -845,63 +845,32 @@
   },
   {
    "league": "cfb",
-   "id": "9d463c4686f84c78b890f0fcf2ac90c5",
-   "matchup": "Memphis Tigers @ South Florida Bulls",
-   "kickoff_pt": "Thu Nov 12 5:00 PM PST",
-   "fair_source": "pinnacle",
-   "fair_home_margin": -5.5,
-   "best": [
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 5.0,
-     "price": -106,
-     "ev": -0.0048
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": 5.0,
-     "price": -110,
-     "ev": -0.0221
-    },
-    {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": 4.5,
-     "price": -107,
-     "ev": -0.0257
-    }
-   ]
-  },
-  {
-   "league": "cfb",
    "id": "6a3fbf6388d7c72076555fc4a4bbedf2",
    "matchup": "Louisiana Ragin Cajuns @ UL Monroe Warhawks",
    "kickoff_pt": "Thu Nov 12 6:00 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -12.9,
+   "fair_home_margin": -10.6,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 10.5,
-     "price": -104,
-     "ev": -0.0171
-    },
     {
      "book": "fanduel",
      "side": "home",
      "home_line": 10.5,
-     "price": -105,
-     "ev": -0.0259
+     "price": -110,
+     "ev": 0.0033
     },
     {
-     "book": "espnbet",
+     "book": "hardrockbet",
      "side": "home",
      "home_line": 10.5,
-     "price": -105,
-     "ev": -0.0259
+     "price": -110,
+     "ev": 0.0033
+    },
+    {
+     "book": "betrivers",
+     "side": "home",
+     "home_line": 10.5,
+     "price": -113,
+     "ev": -0.0094
     }
    ]
   },
@@ -914,25 +883,25 @@
    "fair_home_margin": 4.4,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -4.5,
-     "price": -110,
-     "ev": 0.0298
-    },
-    {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": -4.5,
-     "price": -112,
-     "ev": 0.021
-    },
-    {
      "book": "lowvig",
      "side": "away",
      "home_line": -3.5,
      "price": -107,
      "ev": -0.0117
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -109,
+     "ev": -0.0205
+    },
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -3.5,
+     "price": -110,
+     "ev": -0.0248
     }
    ]
   },
@@ -1269,11 +1238,11 @@
      "ev": -0.0132
     },
     {
-     "book": "betrivers",
+     "book": "bovada",
      "side": "home",
-     "home_line": -13.5,
-     "price": -113,
-     "ev": -0.0173
+     "home_line": -14.0,
+     "price": -105,
+     "ev": -0.0221
     }
    ]
   },
@@ -1448,18 +1417,18 @@
      "ev": -0.002
     },
     {
-     "book": "espnbet",
+     "book": "hardrockbet",
      "side": "away",
      "home_line": -11.5,
      "price": -110,
      "ev": -0.0103
     },
     {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -10.0,
-     "price": -115,
-     "ev": -0.0177
+     "book": "espnbet",
+     "side": "away",
+     "home_line": -11.5,
+     "price": -110,
+     "ev": -0.0103
     }
    ]
   },
@@ -1596,6 +1565,13 @@
    "fair_home_margin": -3.1,
    "best": [
     {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": 2.5,
+     "price": -105,
+     "ev": -0.0079
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": 2.5,
@@ -1603,18 +1579,11 @@
      "ev": -0.0125
     },
     {
-     "book": "betonlineag",
+     "book": "betrivers",
      "side": "away",
-     "home_line": 2.5,
-     "price": -110,
-     "ev": -0.0299
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": 2.5,
-     "price": -110,
-     "ev": -0.0299
+     "home_line": 2.0,
+     "price": -114,
+     "ev": -0.0148
     }
    ]
   },
@@ -1658,13 +1627,6 @@
    "fair_home_margin": 7.4,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -8.5,
-     "price": -110,
-     "ev": 0.0144
-    },
-    {
      "book": "lowvig",
      "side": "home",
      "home_line": -7.5,
@@ -1672,11 +1634,18 @@
      "ev": 0.0055
     },
     {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": -8.0,
-     "price": -109,
-     "ev": -0.0056
+     "book": "espnbet",
+     "side": "home",
+     "home_line": -7.5,
+     "price": 100,
+     "ev": -0.0093
+    },
+    {
+     "book": "betonlineag",
+     "side": "home",
+     "home_line": -7.5,
+     "price": -104,
+     "ev": -0.0284
     }
    ]
   },
@@ -2130,18 +2099,18 @@
      "ev": 0.0371
     },
     {
-     "book": "hardrockbet",
-     "side": "away",
-     "home_line": -2.5,
-     "price": 110,
-     "ev": 0.0005
-    },
-    {
      "book": "lowvig",
      "side": "away",
      "home_line": -3.0,
      "price": -107,
      "ev": -0.0
+    },
+    {
+     "book": "betonlineag",
+     "side": "away",
+     "home_line": -3.0,
+     "price": -111,
+     "ev": -0.0161
     }
    ]
   },
@@ -2509,11 +2478,11 @@
      "ev": -0.0235
     },
     {
-     "book": "bovada",
+     "book": "pinnacle",
      "side": "home",
-     "home_line": -15.0,
-     "price": -110,
-     "ev": -0.0321
+     "home_line": -14.5,
+     "price": -111,
+     "ev": -0.0284
     }
    ]
   },
@@ -2523,28 +2492,28 @@
    "matchup": "South Carolina Gamecocks @ Arkansas Razorbacks",
    "kickoff_pt": "Sat Nov 14 4:45 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -8.2,
+   "fair_home_margin": -9.2,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
-     "home_line": 7.0,
-     "price": -103,
-     "ev": -0.0108
-    },
-    {
-     "book": "fanduel",
-     "side": "away",
      "home_line": 7.5,
-     "price": 110,
-     "ev": -0.0141
+     "price": -106,
+     "ev": -0.0161
     },
     {
      "book": "hardrockbet",
      "side": "home",
+     "home_line": 8.5,
+     "price": -110,
+     "ev": -0.0292
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
      "home_line": 7.5,
-     "price": -120,
-     "ev": -0.0274
+     "price": -104,
+     "ev": -0.0316
     }
    ]
   },
@@ -2647,28 +2616,28 @@
    "matchup": "Wyoming Cowboys @ UTEP Miners",
    "kickoff_pt": "Sat Nov 14 7:00 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -9.1,
+   "fair_home_margin": -9.5,
    "best": [
     {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 8.5,
-     "price": -108,
-     "ev": -0.0134
-    },
-    {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": 8.5,
-     "price": -111,
-     "ev": -0.0262
-    },
-    {
      "book": "fanduel",
-     "side": "home",
+     "side": "away",
      "home_line": 7.5,
-     "price": -105,
-     "ev": -0.0292
+     "price": -110,
+     "ev": -0.0148
+    },
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": 7.5,
+     "price": -110,
+     "ev": -0.0148
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 8.5,
+     "price": -104,
+     "ev": -0.0157
     }
    ]
   },
@@ -2695,11 +2664,11 @@
      "ev": -0.0294
     },
     {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": -8.5,
-     "price": -108,
-     "ev": -0.0308
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -9.5,
+     "price": -112,
+     "ev": -0.0335
     }
    ]
   },
