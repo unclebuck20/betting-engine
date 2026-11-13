@@ -27616,7 +27616,7 @@
    "line": 9.5,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle makes Cardinals +12; DraftKings has +9.5 (-108). Our NFL model makes Cardinals +7.5, 4.5 pts better than the market. ARI is without Michael Wilson (WR, injured reserve); injuries are worth ~0.8 pts to them by our injury model.",
+   "why": "Pinnacle makes Cardinals +12; DraftKings has +9.5 (-108). Our NFL model makes Cardinals +7.5, 4.6 pts better than the market. ARI is without Michael Wilson (WR, injured reserve); injuries are worth ~0.8 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -28379,7 +28379,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-10T15:00:42.748868+00:00",
   "published_at": "2026-11-10T18:30:39.809358+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-10T18:30:39.809358+00:00",
@@ -28399,21 +28399,19 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280871&selectionId=50209",
-   "ev_pct": 9.33,
-   "confidence": 56.0
+   "ev_pct": -3.07,
+   "confidence": 49.6
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 9.33,
-   "confidence": 56.0,
+   "tier": "pass",
+   "ev_pct": -3.07,
+   "confidence": 49.6,
    "line": 4.5,
    "price": -105,
    "book": "fanduel",
-   "why": "Pinnacle makes Browns +5; FanDuel has +4.5 (-105). Our NFL model makes Browns +7, 2.1 pts worse than the market. CLE: new injury news since our last check is worth ~3.9 pts the sharp line hasn't absorbed yet.",
-   "flags": [
-    "our NFL model leans the other way by 2.1 pts"
-   ]
+   "why": "Pinnacle makes Browns +5; FanDuel has +4.5 (-105). Our NFL model makes Browns +7, 2.1 pts worse than the market.",
+   "flags": []
   }
  },
  "b5700b4d938fd94429f60d4622cc9c0a|Indianapolis Colts": {
@@ -28522,7 +28520,7 @@
   "open_line": null,
   "confidence": 55.3,
   "ev_pct": 3.47,
-  "units": 1.0,
+  "units": 0.5,
   "price_floor": 38.5,
   "floor_text": "Good to over 38.5 at -110",
   "fair_source": "pinnacle",
@@ -28535,7 +28533,7 @@
   "flags": [],
   "odds_pulled_at": "2026-11-11T11:30:32.588689+00:00",
   "published_at": "2026-11-11T11:30:39.521807+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-11-11T11:30:39.521807+00:00",
@@ -28561,19 +28559,19 @@
    "price": -115,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280893&selectionId=7017916",
-   "ev_pct": 1.55,
-   "confidence": 52.0
+   "ev_pct": 2.87,
+   "confidence": 52.7
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 1.55,
-   "confidence": 52.0,
+   "tier": "lean",
+   "ev_pct": 2.87,
+   "confidence": 52.7,
    "line": 38.5,
    "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 36.5; DraftKings has Over 38.5 (-105). Our model projects 41.6 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 37; DraftKings has Over 38.5 (-105). Our model projects 41.6 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -28702,15 +28700,21 @@
     -1.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-11-13T00:30:49.357212+00:00",
+    -1.5,
+    -105,
+    "fanduel"
    ]
   ],
   "current": {
    "line": -1.5,
-   "price": -110,
+   "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622280851&selectionId=50185",
-   "ev_pct": -3.42,
-   "confidence": 50.6
+   "ev_pct": -2.44,
+   "confidence": 50.0
   },
   "scout": {
    "verdict": "agree",
@@ -28724,12 +28728,12 @@
   },
   "latest": {
    "tier": "pass",
-   "ev_pct": -3.42,
-   "confidence": 50.6,
+   "ev_pct": -2.44,
+   "confidence": 50.0,
    "line": -1.5,
-   "price": -110,
+   "price": -105,
    "book": "fanduel",
-   "why": "Pinnacle makes Giants -1.5; FanDuel has -1.5 (-110).",
+   "why": "Pinnacle makes Giants -1; FanDuel has -1.5 (-105).",
    "flags": []
   }
  },
@@ -28774,7 +28778,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-12T23:30:31.921513+00:00",
   "published_at": "2026-11-13T00:01:51.615326+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-13T00:01:51.615326+00:00",
@@ -28788,18 +28792,18 @@
    "price": -120,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695565N300_3",
-   "ev_pct": 2.41,
-   "confidence": 56.0
+   "ev_pct": -3.22,
+   "confidence": 52.6
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.41,
-   "confidence": 56.0,
+   "tier": "pass",
+   "ev_pct": -3.22,
+   "confidence": 52.6,
    "line": -3.0,
    "price": -120,
    "book": "draftkings",
-   "why": "Pinnacle makes Chiefs -3; DraftKings has -3 (-120). Our NFL model makes Chiefs -6, 2.7 pts better than the market. KC: new injury news since our last check is worth ~1.1 pts the sharp line hasn't absorbed yet.",
+   "why": "Pinnacle makes Chiefs -3; DraftKings has -3 (-120). Our NFL model makes Chiefs -6, 2.7 pts better than the market.",
    "flags": []
   }
  }
