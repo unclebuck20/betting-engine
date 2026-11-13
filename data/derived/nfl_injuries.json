@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-13T01:00:28.662125+00:00",
-  "previous_pull": "2026-11-13T00:30:42.484864+00:00",
-  "matched_absences": 84
+  "injury_pull": "2026-11-13T04:30:29.458514+00:00",
+  "previous_pull": "2026-11-13T01:00:28.662125+00:00",
+  "matched_absences": 86
  },
  "teams": {
   "ARI": {
@@ -21,6 +21,22 @@
      "note": "The Cardinals placed Wilson (neck) on injured reserve Tuesday."
     },
     {
+     "player": "Hjalte Froholdt",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-13T01:58Z",
+     "note": "Froholdt (concussion) did not participate at practice Thursday, Zach Gershman of the Cardinals' official site reports."
+    },
+    {
+     "player": "Jayden Williams",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-13T01:54Z",
+     "note": "Williams (knee) was a limited participant at practice Thursday, Zach Gershman of the Cardinals' official site reports."
+    },
+    {
      "player": "Dante Stills",
      "pos": "DL",
      "status": "Questionable",
@@ -29,28 +45,12 @@
      "note": "questionable"
     },
     {
-     "player": "Jayden Williams",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-10T15:44Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Hjalte Froholdt",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-10T02:08Z",
-     "note": "Froholdt is in league concussion protocol Monday, Darren Urban of the Cardinals' official site reports."
-    },
-    {
      "player": "Andrew Wingard",
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-12T00:39Z",
-     "note": "Wingard (groin) was a limited participant in Wednesday's practice, Theo Mackie of The Arizona Republic reports."
+     "updated": "2026-11-13T01:08Z",
+     "note": "Wingard (groin) did not practice Thursday, Zach Gershman of the team's official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -98,7 +98,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-13T00:08Z",
-     "note": "Bateman (calf) was limited  in practice Thursday."
+     "note": "Bateman (calf) was limited in practice Thursday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -341,20 +341,20 @@
      "note": "Van Ness (back) was listed as a DNP on Wednesday's practice report."
     },
     {
+     "player": "Aaron Banks",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-13T01:44Z",
+     "note": "Banks (knee/hip) was a limited participant in Thursday's practice."
+    },
+    {
      "player": "Javon Bullard",
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-11-12T00:24Z",
      "note": "Bullard (ankle) was held out of Wednesday's jog-through practice."
-    },
-    {
-     "player": "Aaron Banks",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T23:07Z",
-     "note": "questionable"
     },
     {
      "player": "Ty'Ron Hopper",
@@ -549,6 +549,14 @@
      "note": "Coach Sean McVay said Monday that the Rams haven't decided whether Avila will go to injured reserve with the hamstring injury he suffered during Sunday's game a"
     },
     {
+     "player": "Davis Allen",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-13T00:55Z",
+     "note": "Allen (oblique) did not participate at practice Thursday, Adam Caplan of SiriusXM NFL Radio reports."
+    },
+    {
      "player": "Colby Parkinson",
      "pos": "TE",
      "status": "Questionable",
@@ -563,14 +571,6 @@
      "points": 0.07,
      "updated": "2026-11-13T00:18Z",
      "note": "Higbee didn't practice Wednesday due to an illness, Adam Caplan of SiriusXM NFL Radio reports."
-    },
-    {
-     "player": "Davis Allen",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-12T00:30Z",
-     "note": "questionable"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -705,8 +705,8 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-12T21:43Z",
-     "note": "questionable"
+     "updated": "2026-11-13T01:42Z",
+     "note": "Fuaga (knee) was a limited participant at practice Thursday."
     },
     {
      "player": "Martin Emerson Jr.",
@@ -721,12 +721,37 @@
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-11T23:14Z",
-     "note": "questionable"
+     "updated": "2026-11-13T01:39Z",
+     "note": "Edwards (knee) was a limited participant at practice Thursday."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "NYG": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jason Pinnock",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-13T03:10Z",
+     "note": "Pinnock (back) is questionable to return to Thursday night's contest against the Commanders, Dan Duggan of The Athletic reports."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Jason Pinnock",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-13T03:10Z",
+     "note": "Pinnock (back) is questionable to return to Thursday night's contest against the Commanders, Dan Duggan of The Athletic reports."
+    }
+   ]
   },
   "NYJ": {
    "adj_points": 0.33,
@@ -785,8 +810,8 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-12T23:42Z",
-     "note": "questionable"
+     "updated": "2026-11-13T01:49Z",
+     "note": "Williams (shoulder) was a limited participant at practice Thursday, Matt Maiocco of NBC Sports Bay Area reports."
     },
     {
      "player": "Renardo Green",
@@ -889,7 +914,7 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.3,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
     {
@@ -899,10 +924,27 @@
      "points": 0.3,
      "updated": "2026-11-12T01:09Z",
      "note": "Patrick (concussion) is out for Thursday's game against the Giants, Zach Selby of the Commanders' official site reports."
+    },
+    {
+     "player": "Chig Okonkwo",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-13T02:10Z",
+     "note": "Okonkwo (back) is questionable to return to Thursday's game against the Giants, Ralph Vacchiano of FoxSports.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Chig Okonkwo",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-13T02:10Z",
+     "note": "Okonkwo (back) is questionable to return to Thursday's game against the Giants, Ralph Vacchiano of FoxSports.com reports."
+    }
+   ]
   }
  }
 }
