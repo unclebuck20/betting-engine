@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-11-12T23:31:18.319275+00:00",
+  "built_at": "2026-11-13T00:01:48.253063+00:00",
   "nfl_history_games": 5567,
   "cfb_history_games": 3730,
   "games": 103
@@ -849,28 +849,28 @@
    "matchup": "Memphis Tigers @ South Florida Bulls",
    "kickoff_pt": "Thu Nov 12 5:00 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -5.2,
+   "fair_home_margin": -5.5,
    "best": [
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": 4.0,
-     "price": -105,
-     "ev": -0.0218
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 4.0,
-     "price": -106,
-     "ev": -0.0262
-    },
     {
      "book": "lowvig",
      "side": "home",
-     "home_line": 4.0,
+     "home_line": 5.0,
      "price": -106,
-     "ev": -0.0288
+     "ev": -0.0048
+    },
+    {
+     "book": "betonlineag",
+     "side": "home",
+     "home_line": 5.0,
+     "price": -110,
+     "ev": -0.0221
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": 4.5,
+     "price": -107,
+     "ev": -0.0257
     }
    ]
   },
@@ -914,25 +914,25 @@
    "fair_home_margin": 4.4,
    "best": [
     {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -4.5,
+     "price": -110,
+     "ev": 0.0298
+    },
+    {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -4.5,
+     "price": -112,
+     "ev": 0.021
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": -3.5,
      "price": -107,
      "ev": -0.0117
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -3.0,
-     "price": -120,
-     "ev": -0.0149
-    },
-    {
-     "book": "espnbet",
-     "side": "away",
-     "home_line": -3.5,
-     "price": -110,
-     "ev": -0.0248
     }
    ]
   },
@@ -946,20 +946,20 @@
    "best": [
     {
      "book": "lowvig",
-     "side": "away",
+     "side": "home",
      "home_line": -10.0,
      "price": -101,
-     "ev": -0.0025
+     "ev": -0.0069
     },
     {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": -10.5,
-     "price": -115,
-     "ev": -0.016
+     "book": "betmgm",
+     "side": "home",
+     "home_line": -9.5,
+     "price": -112,
+     "ev": -0.0079
     },
     {
-     "book": "hardrockbet",
+     "book": "espnbet",
      "side": "away",
      "home_line": -10.5,
      "price": -115,
@@ -1658,6 +1658,13 @@
    "fair_home_margin": 7.4,
    "best": [
     {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -8.5,
+     "price": -110,
+     "ev": 0.0144
+    },
+    {
      "book": "lowvig",
      "side": "home",
      "home_line": -7.5,
@@ -1665,18 +1672,11 @@
      "ev": 0.0055
     },
     {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -7.5,
-     "price": 100,
-     "ev": -0.0093
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -104,
-     "ev": -0.0284
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -8.0,
+     "price": -109,
+     "ev": -0.0056
     }
    ]
   },
@@ -1920,11 +1920,11 @@
      "ev": -0.01
     },
     {
-     "book": "espnbet",
+     "book": "lowvig",
      "side": "home",
-     "home_line": -21.5,
-     "price": 100,
-     "ev": -0.01
+     "home_line": -21.0,
+     "price": -106,
+     "ev": -0.0157
     }
    ]
   },
@@ -2247,13 +2247,6 @@
    "fair_home_margin": 13.5,
    "best": [
     {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -12.5,
-     "price": -105,
-     "ev": -0.004
-    },
-    {
      "book": "hardrockbet",
      "side": "home",
      "home_line": -11.5,
@@ -2261,11 +2254,18 @@
      "ev": -0.0094
     },
     {
-     "book": "betmgm",
+     "book": "betrivers",
      "side": "home",
      "home_line": -12.0,
      "price": -110,
      "ev": -0.0173
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -12.5,
+     "price": -108,
+     "ev": -0.0174
     }
    ]
   },
@@ -2534,10 +2534,10 @@
     },
     {
      "book": "fanduel",
-     "side": "home",
+     "side": "away",
      "home_line": 7.5,
-     "price": -120,
-     "ev": -0.0274
+     "price": 110,
+     "ev": -0.0141
     },
     {
      "book": "hardrockbet",
@@ -2557,25 +2557,25 @@
    "fair_home_margin": -2.1,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "home",
-     "home_line": 2.5,
-     "price": -105,
-     "ev": -0.0018
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": 2.5,
-     "price": -106,
-     "ev": -0.0064
-    },
-    {
      "book": "lowvig",
      "side": "home",
      "home_line": 2.5,
      "price": -106,
      "ev": -0.0064
+    },
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 2.5,
+     "price": -110,
+     "ev": -0.0239
+    },
+    {
+     "book": "betonlineag",
+     "side": "home",
+     "home_line": 2.5,
+     "price": -110,
+     "ev": -0.0239
     }
    ]
   },
@@ -3066,28 +3066,28 @@
    "matchup": "Kentucky Wildcats @ Missouri Tigers",
    "kickoff_pt": "Sat Nov 21 4:30 PM PST",
    "fair_source": "consensus",
-   "fair_home_margin": 5.65,
+   "fair_home_margin": 5.8,
    "best": [
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -6.5,
+     "price": -110,
+     "ev": -0.0371
+    },
     {
      "book": "fanduel",
      "side": "home",
      "home_line": -5.5,
-     "price": -110,
-     "ev": -0.0298
+     "price": -115,
+     "ev": -0.0405
     },
     {
-     "book": "draftkings",
+     "book": "fanduel",
      "side": "away",
-     "home_line": -6.5,
-     "price": -110,
-     "ev": -0.0434
-    },
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -110,
-     "ev": -0.0475
+     "home_line": -5.5,
+     "price": -105,
+     "ev": -0.0496
     }
    ]
   },

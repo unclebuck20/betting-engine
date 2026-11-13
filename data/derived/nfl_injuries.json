@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 599,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-12T23:30:31.921513+00:00",
-  "previous_pull": "2026-11-12T23:00:34.323626+00:00",
-  "matched_absences": 86
+  "injury_pull": "2026-11-13T00:00:31.043683+00:00",
+  "previous_pull": "2026-11-12T23:30:31.921513+00:00",
+  "matched_absences": 84
  },
  "teams": {
   "ARI": {
@@ -89,28 +89,29 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.19,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
-     "player": "Nate Wiggins",
-     "pos": "CB",
+     "player": "Rashod Bateman",
+     "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-10T15:44Z",
+     "updated": "2026-11-12T23:42Z",
      "note": "questionable"
-    },
-    {
-     "player": "Kyle Hamilton",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-11T00:15Z",
-     "note": "Ravens head coach Jesse Minter said Monday that Hamilton, who couldn't finish last Thursday's loss to Jacksonville due to a hip injury, \"looks fairly good,\" Jon"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.07,
+   "new_absences": [
+    {
+     "player": "Rashod Bateman",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T23:42Z",
+     "note": "questionable"
+    }
+   ]
   },
   "BUF": {
    "adj_points": 0.56,
@@ -209,17 +210,9 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 4.84,
-   "qb_out": true,
+   "adj_points": 0.84,
+   "qb_out": false,
    "absences": [
-    {
-     "player": "Deshaun Watson",
-     "pos": "QB",
-     "status": "Out",
-     "points": 4.0,
-     "updated": "2026-11-11T14:38Z",
-     "note": "The Browns announced Wednesday that Watson (concussion) will start Sunday's game against the Texans, Kelsey Russo of the team's official site reports."
-    },
     {
      "player": "Denzel Boston",
      "pos": "WR",
@@ -293,7 +286,7 @@
      "note": "Williams (hamstring) was a limited participant in Wednesday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -4.0,
    "new_absences": []
   },
   "DAL": {
@@ -305,11 +298,11 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-10T01:02Z",
-     "note": "out"
+     "updated": "2026-11-10T00:49Z",
+     "note": "Locke (concussion) won't play in Sunday's game against the 49ers, Patrik Walker of the team's official site reports."
     }
    ],
-   "delta_since_last_pull": -0.25,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DEN": {
@@ -405,20 +398,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Danielle Hunter",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T23:31Z",
+     "note": "Hunter (hamstring) was limited in Thursday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
+    },
+    {
      "player": "Will Anderson Jr.",
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-12T23:23Z",
      "note": "Anderson (ankle) was a limited participant in Thursday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports."
-    },
-    {
-     "player": "Danielle Hunter",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-12T22:33Z",
-     "note": "questionable"
     },
     {
      "player": "Keylan Rutledge",
@@ -457,8 +450,8 @@
      "pos": "T",
      "status": "Doubtful",
      "points": 0.42,
-     "updated": "2026-11-10T19:02Z",
-     "note": "doubtful"
+     "updated": "2026-11-10T02:30Z",
+     "note": "Travis (knee) is expected to be sidelined 2-4 weeks, Matt Zenitz of CBSSports.com reports."
     },
     {
      "player": "Akeem Davis-Gaither",
@@ -513,25 +506,9 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 1.21,
+   "adj_points": 0.09,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Patrick Mahomes",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-11T21:46Z",
-     "note": "Mahomes (right elbow/knee) was a full participant in Wednesday's practice."
-    },
-    {
-     "player": "Xavier Worthy",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-11T21:42Z",
-     "note": "Worthy (hamstring) was a full participant in Wednesday's practice for Kansas City."
-    },
     {
      "player": "Jaylon Moore",
      "pos": "OL",
@@ -541,7 +518,7 @@
      "note": "Head coach Andy Reid stated Moore (ankle) is considered \"day-to-day,\" Charles Goldman of AtoZSports.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -1.12,
    "new_absences": []
   },
   "LV": {
@@ -561,20 +538,29 @@
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 1.0,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
-     "player": "Justin Herbert",
-     "pos": "QB",
+     "player": "Cam Hart",
+     "pos": "CB",
      "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-10T16:00Z",
-     "note": "Chargers head coach Jim Harbaugh said that Herbert \"should be good to go\" for Monday's game at Baltimore after imaging on the quarterback's injured left middle "
+     "points": 0.12,
+     "updated": "2026-11-12T23:42Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.88,
+   "new_absences": [
+    {
+     "player": "Cam Hart",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T23:42Z",
+     "note": "questionable"
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.73,
@@ -585,8 +571,8 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-12T02:02Z",
-     "note": "out"
+     "updated": "2026-11-11T21:11Z",
+     "note": "Head coach Sean McVay said Wednesday that Nacua (knee/toe) won't be placed on injured reserve right now \"just because of some semantics with the roster,\" Greg B"
     },
     {
      "player": "Steve Avila",
@@ -625,8 +611,8 @@
      "pos": "QB",
      "status": "Injured Reserve",
      "points": 4.0,
-     "updated": "2026-11-12T00:14Z",
-     "note": "ir"
+     "updated": "2026-11-11T20:15Z",
+     "note": "The Dolphins hope Willis (abdomen) will return this year but haven't ruled out season-ending surgery, Joe Schad of The Palm Beach Post reports."
     },
     {
      "player": "Zach Sieler",
@@ -665,8 +651,8 @@
      "pos": "QB",
      "status": "Doubtful",
      "points": 3.4,
-     "updated": "2026-11-11T20:01Z",
-     "note": "doubtful"
+     "updated": "2026-11-11T19:37Z",
+     "note": "Coach Kevin O'Connell said Wednesday that Murray (hamstring) remains week-to-week, Kevin Seifert of ESPN reports."
     },
     {
      "player": "Tyrion Ingram-Dawkins",
@@ -725,7 +711,7 @@
      "note": "Byard (chest) was a limited participant in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
@@ -737,8 +723,8 @@
      "pos": "C",
      "status": "Doubtful",
      "points": 0.34,
-     "updated": "2026-11-10T15:44Z",
-     "note": "doubtful"
+     "updated": "2026-11-10T01:51Z",
+     "note": "Coach Kellen Moore said Monday that McCoy will be out \"for a little bit\" as he deals with the bicep injury he suffered during Sunday's game versus the Browns, L"
     },
     {
      "player": "Taliese Fuaga",
@@ -817,9 +803,17 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.21,
+   "adj_points": 0.39,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Trent Williams",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T23:42Z",
+     "note": "questionable"
+    },
     {
      "player": "Renardo Green",
      "pos": "CB",
@@ -835,10 +829,35 @@
      "points": 0.09,
      "updated": "2026-11-12T00:45Z",
      "note": "Lenoir (foot) did not participate in Wednesday's practice, Matt Barrows of The Athletic reports."
+    },
+    {
+     "player": "Dre Greenlaw",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-12T02:20Z",
+     "note": "Greenlaw registered eight tackles (five solo) and one fumble recovery during the 49ers' 38-17 win over the Raiders in Week 9."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.18,
+   "new_absences": [
+    {
+     "player": "Trent Williams",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-12T23:42Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dre Greenlaw",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-12T02:20Z",
+     "note": "Greenlaw registered eight tackles (five solo) and one fumble recovery during the 49ers' 38-17 win over the Raiders in Week 9."
+    }
+   ]
   },
   "SEA": {
    "adj_points": 4.07,
@@ -849,8 +868,8 @@
      "pos": "QB",
      "status": "Out",
      "points": 4.0,
-     "updated": "2026-11-10T15:44Z",
-     "note": "out"
+     "updated": "2026-11-10T00:15Z",
+     "note": "Darnold (quadriceps), who won't play this coming Sunday at Las Vegas, is expected to return in Week 12 at San Francisco on Sunday, Nov. 29 after a Week 11 bye, "
     },
     {
      "player": "Anthony Bradford",
@@ -909,7 +928,7 @@
      "note": "Hill (neck) did not practice Wednesday."
     }
    ],
-   "delta_since_last_pull": -0.24,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "WAS": {
@@ -926,13 +945,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "NYG": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -1.0,
    "new_absences": []
   }
  }
