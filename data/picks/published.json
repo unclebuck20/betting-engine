@@ -27092,7 +27092,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-08T15:00:27.706282+00:00",
   "published_at": "2026-11-08T15:01:51.189956+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-08T15:01:51.189956+00:00",
@@ -27141,15 +27141,21 @@
     8.5,
     -110,
     "draftkings"
+   ],
+   [
+    "2026-11-14T02:01:24.423341+00:00",
+    8.5,
+    -105,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 8.5,
-   "price": -110,
+   "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC87098833P850_3",
-   "ev_pct": 3.19,
-   "confidence": 54.1
+   "ev_pct": -0.89,
+   "confidence": 50.8
   },
   "scout": {
    "verdict": "caution",
@@ -27162,14 +27168,16 @@
    ]
   },
   "latest": {
-   "tier": "lean",
-   "ev_pct": 3.19,
-   "confidence": 54.1,
+   "tier": "pass",
+   "ev_pct": -0.89,
+   "confidence": 50.8,
    "line": 8.5,
-   "price": -110,
+   "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Baylor +7.5; DraftKings has +8.5 (-110). Our in-season power ratings have Baylor 3.3 pts better than the market. SP+ agrees with our ratings on the direction.",
-   "flags": []
+   "why": "Pinnacle makes Baylor +8.5; DraftKings has +8.5 (-105). Our in-season power ratings have Baylor 4.5 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "flags": [
+    "sharp line moved 1.2 pts against this side recently"
+   ]
   }
  },
  "e571bab6736f9338130a78a4f75c3231|New Orleans Saints": {
@@ -29097,7 +29105,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-14T00:00:29.393167+00:00",
   "published_at": "2026-11-14T00:01:19.910237+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-14T00:01:19.910237+00:00",
@@ -29111,18 +29119,90 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623058590&selectionId=975029",
-   "ev_pct": 2.99,
-   "confidence": 53.9
+   "ev_pct": 0.92,
+   "confidence": 52.9
+  },
+  "scout": null,
+  "latest": {
+   "tier": "pass",
+   "ev_pct": 0.92,
+   "confidence": 52.9,
+   "line": 3.5,
+   "price": -110,
+   "book": "fanduel",
+   "why": "Pinnacle makes Arizona State +4.5; FanDuel has +3.5 (-110). Our in-season power ratings have Arizona State 6.8 pts better than the market. The line opened +2.5 and has moved toward UCF.",
+   "flags": [
+    "college injuries not checked yet"
+   ]
+  }
+ },
+ "8ad669f4c9b70f38fdb057c114588776|Oklahoma Sooners": {
+  "id": "8ad669f4c9b70f38fdb057c114588776",
+  "pick_key": "8ad669f4c9b70f38fdb057c114588776|Oklahoma Sooners",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "sat",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Ole Miss Rebels @ Oklahoma Sooners",
+  "kickoff_utc": "2026-11-14T21:15:00Z",
+  "kickoff_pt": "Sat Nov 14, 1:15 PM PST",
+  "side": "Oklahoma Sooners",
+  "opponent": "Ole Miss Rebels",
+  "side_is_home": true,
+  "line": -2.5,
+  "price": -110,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623053444&selectionId=484724",
+  "fair_line": -3.0,
+  "open_line": -4,
+  "confidence": 53.6,
+  "ev_pct": 2.27,
+  "units": 0.5,
+  "price_floor": -2.5,
+  "floor_text": "Good to -2.5 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": 3.2,
+  "model_home_margin": 3.6,
+  "model_weight": 0.113,
+  "hours_to_kick": 19.2,
+  "signals": [
+   "steam"
+  ],
+  "why": "Pinnacle makes Oklahoma -3; FanDuel has -2.5 (-110). Sharp money moved this 1.1 pts toward Oklahoma since Fri 5:00 PM; your book hasn't fully followed. The line opened -4 and has moved toward Ole Miss.",
+  "flags": [
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-14T02:00:26.774899+00:00",
+  "published_at": "2026-11-14T02:01:24.423341+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-14T02:01:24.423341+00:00",
+    -2.5,
+    -110,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": -2.5,
+   "price": -110,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623053444&selectionId=484724",
+   "ev_pct": 2.27,
+   "confidence": 53.6
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.99,
-   "confidence": 53.9,
-   "line": 3.5,
+   "ev_pct": 2.27,
+   "confidence": 53.6,
+   "line": -2.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Arizona State +4; FanDuel has +3.5 (-110). Our in-season power ratings have Arizona State 6.3 pts better than the market. The line opened +2.5 and has moved toward UCF.",
+   "why": "Pinnacle makes Oklahoma -3; FanDuel has -2.5 (-110). Sharp money moved this 1.1 pts toward Oklahoma since Fri 5:00 PM; your book hasn't fully followed. The line opened -4 and has moved toward Ole Miss.",
    "flags": [
     "college injuries not checked yet"
    ]
