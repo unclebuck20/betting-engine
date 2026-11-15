@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-15T15:00:34.983303+00:00",
-  "previous_pull": "2026-11-15T14:30:33.388700+00:00",
-  "matched_absences": 56
+  "injury_pull": "2026-11-15T16:00:33.840250+00:00",
+  "previous_pull": "2026-11-15T15:00:34.983303+00:00",
+  "matched_absences": 58
  },
  "teams": {
   "ARI": {
@@ -185,7 +185,7 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.75,
+   "adj_points": 0.87,
    "qb_out": false,
    "absences": [
     {
@@ -203,10 +203,27 @@
      "points": 0.25,
      "updated": "2026-11-07T22:18Z",
      "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
+    },
+    {
+     "player": "Aidan Hutchinson",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T15:06Z",
+     "note": "Hutchinson is questionable to return to Sunday's game against the Patriots in Munich due to a knee injury."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Aidan Hutchinson",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T15:06Z",
+     "note": "Hutchinson is questionable to return to Sunday's game against the Patriots in Munich due to a knee injury."
+    }
+   ]
   },
   "GB": {
    "adj_points": 0.26,
@@ -455,6 +472,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "NE": {
+   "adj_points": 4.0,
+   "qb_out": true,
+   "absences": [
+    {
+     "player": "Drake Maye",
+     "pos": "QB",
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-15T15:43Z",
+     "note": "Maye (ankle) has been ruled out for the remainder of Sunday's game against the Lions, Doug Kyed of the Boston Herald reports."
+    }
+   ],
+   "delta_since_last_pull": 4.0,
+   "new_absences": [
+    {
+     "player": "Drake Maye",
+     "pos": "QB",
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-15T15:43Z",
+     "note": "Maye (ankle) has been ruled out for the remainder of Sunday's game against the Lions, Doug Kyed of the Boston Herald reports."
+    }
+   ]
   },
   "NO": {
    "adj_points": 1.02,
