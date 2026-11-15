@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-15T19:30:32.289896+00:00",
-  "previous_pull": "2026-11-15T19:00:30.892446+00:00",
-  "matched_absences": 54
+  "injury_pull": "2026-11-15T20:30:29.969465+00:00",
+  "previous_pull": "2026-11-15T19:30:32.289896+00:00",
+  "matched_absences": 52
  },
  "teams": {
   "ARI": {
-   "adj_points": 1.01,
+   "adj_points": 1.2,
    "qb_out": false,
    "absences": [
     {
@@ -21,32 +21,49 @@
      "note": "The Cardinals placed Wilson (neck) on injured reserve Tuesday."
     },
     {
+     "player": "Jayden Williams",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-15T20:26Z",
+     "note": "Williams (knee) has been ruled out for Sunday's game against the Rams, Darren Urban of the Cardinals' official site reports."
+    },
+    {
      "player": "Hjalte Froholdt",
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-11-14T01:31Z",
-     "note": "Froholdt (concussion) has been ruled out ahead of Sunday's game against the Rams, Bo Brack of GoPHNX.com reports."
-    },
-    {
-     "player": "Jayden Williams",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-14T02:25Z",
-     "note": "Williams (knee) is listed as questionable for Sunday's game against the Rams, Zach Gershman of the Cardinals' official site reports."
-    },
-    {
-     "player": "Andrew Wingard",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-14T00:58Z",
-     "note": "Wingard (groin) is listed as questionable for Sunday's game against the Rams, Zach Gershman of the Cardinals' official site reports."
+     "updated": "2026-11-15T19:37Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
+  },
+  "BUF": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Dee Alford",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T19:58Z",
+     "note": "Alford is being evaluated for a head injury and is questionable to return to Sunday's game against the Jets."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Dee Alford",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T19:58Z",
+     "note": "Alford is being evaluated for a head injury and is questionable to return to Sunday's game against the Jets."
+    }
+   ]
   },
   "CAR": {
    "adj_points": 0.25,
@@ -113,7 +130,7 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.42,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
@@ -121,19 +138,11 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-10T00:49Z",
-     "note": "Locke (concussion) won't play in Sunday's game against the 49ers, Patrik Walker of the team's official site reports."
-    },
-    {
-     "player": "DaRon Bland",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T13:55Z",
-     "note": "Bland (ankle), who is listed as questionable for Sunday's game against the 49ers, is expected to play, Ian Rapoport of NFL Network reports."
+     "updated": "2026-11-15T20:04Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "DEN": {
@@ -181,7 +190,7 @@
      "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
     }
    ],
-   "delta_since_last_pull": 0.3,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "GB": {
@@ -201,7 +210,7 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 1.15,
+   "adj_points": 1.45,
    "qb_out": false,
    "absences": [
     {
@@ -221,6 +230,14 @@
      "note": "inactive"
     },
     {
+     "player": "Woody Marks",
+     "pos": "RB",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-15T20:20Z",
+     "note": "out"
+    },
+    {
      "player": "Azeez Al-Shaair",
      "pos": "LB",
      "status": "Out",
@@ -229,11 +246,20 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Woody Marks",
+     "pos": "RB",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-15T20:20Z",
+     "note": "out"
+    }
+   ]
   },
   "IND": {
-   "adj_points": 0.87,
+   "adj_points": 0.99,
    "qb_out": false,
    "absences": [
     {
@@ -253,6 +279,14 @@
      "note": "The Colts placed Davis-Gaither (knee) on injured reserve Saturday."
     },
     {
+     "player": "Charvarius Ward",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T20:07Z",
+     "note": "Ward (shin) is questionable to return against the Dolphins on Sunday."
+    },
+    {
      "player": "Bernhard Raimann",
      "pos": "T",
      "status": "Questionable",
@@ -261,8 +295,42 @@
      "note": "Raimann has entered the league's concussion protocol and has been ruled out for the rest of Sunday's game against the Dolphins, James Boyd of The Athletic repor"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Charvarius Ward",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T20:07Z",
+     "note": "Ward (shin) is questionable to return against the Dolphins on Sunday."
+    }
+   ]
+  },
+  "JAX": {
+   "adj_points": 0.09,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Robert Hainsey",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-15T20:19Z",
+     "note": "Hainsey (knee) is questionable to return to Sunday's game against the Titans."
+    }
+   ],
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Robert Hainsey",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-15T20:19Z",
+     "note": "Hainsey (knee) is questionable to return to Sunday's game against the Titans."
+    }
+   ]
   },
   "KC": {
    "adj_points": 0.72,
@@ -293,11 +361,11 @@
      "note": "Smith (concussion) has been ruled out for the remainder of Sunday's game against the Falcons."
     }
    ],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.92,
+   "adj_points": 0.85,
    "qb_out": false,
    "absences": [
     {
@@ -313,19 +381,11 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-11-14T02:16Z",
-     "note": "Avila (hamstring) has been ruled out for Sunday's game against the Cardinals, Sarah Barshop of ESPN.com reports."
-    },
-    {
-     "player": "Davis Allen",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-14T00:18Z",
-     "note": "Allen (oblique) is questionable for Sunday's game against Arizona, Sarah Barshop of ESPN.com reports."
+     "updated": "2026-11-15T19:44Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "MIA": {
@@ -473,33 +533,24 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-15T19:05Z",
-     "note": "Werner (hamstring) is questionable to return to Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
+     "updated": "2026-11-15T19:46Z",
+     "note": "Werner (hamstring) has been ruled out for the rest of Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Pete Werner",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-15T19:05Z",
-     "note": "Werner (hamstring) is questionable to return to Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.21,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
     {
      "player": "Omar Cooper Jr.",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T18:46Z",
-     "note": "Cooper (ankle) is questionable to return to Sunday's game against the Bills."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-15T19:57Z",
+     "note": "Cooper (ankle) won't return to Sunday's game against the Bills, Zack Rosenblatt of The Athletic reports."
     },
     {
      "player": "Dylan Parham",
@@ -510,17 +561,8 @@
      "note": "Parham (knee) is questionable to return to Sunday's game against the Bills."
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Dylan Parham",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-15T19:02Z",
-     "note": "Parham (knee) is questionable to return to Sunday's game against the Bills."
-    }
-   ]
+   "delta_since_last_pull": 0.38,
+   "new_absences": []
   },
   "PHI": {
    "adj_points": 0.06,
@@ -539,7 +581,7 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.39,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
@@ -549,33 +591,9 @@
      "points": 0.12,
      "updated": "2026-11-15T14:19Z",
      "note": "Williams (shoulder), who is listed as questionable for Sunday's game against the Cowboys, is expected to play, Adam Schefter of ESPN reports."
-    },
-    {
-     "player": "Renardo Green",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-14T01:12Z",
-     "note": "Green (back) is listed as questionable for Sunday's game against Dallas."
-    },
-    {
-     "player": "Deommodore Lenoir",
-     "pos": "DB",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-14T01:09Z",
-     "note": "Lenoir (foot) is questionable for Sunday's game against the Cowboys."
-    },
-    {
-     "player": "Dre Greenlaw",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-14T01:04Z",
-     "note": "Greenlaw (knee) is questionable for Sunday's game against the Cowboys."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.27,
    "new_absences": []
   },
   "SEA": {
@@ -587,8 +605,8 @@
      "pos": "QB",
      "status": "Out",
      "points": 4.0,
-     "updated": "2026-11-10T00:15Z",
-     "note": "Darnold (quadriceps), who won't play this coming Sunday at Las Vegas, is expected to return in Week 12 at San Francisco on Sunday, Nov. 29 after a Week 11 bye, "
+     "updated": "2026-11-15T19:39Z",
+     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
