@@ -27324,7 +27324,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-08T17:00:30.345301+00:00",
   "published_at": "2026-11-08T18:30:45.004222+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-11-08T18:30:45.004222+00:00",
@@ -27449,7 +27449,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-08T17:00:30.345301+00:00",
   "published_at": "2026-11-08T18:30:45.004222+00:00",
-  "status": "live",
+  "status": "started",
   "history": [
    [
     "2026-11-08T18:30:45.004222+00:00",
@@ -27795,7 +27795,7 @@
    "line": 9.5,
    "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle makes Cardinals +12.5; DraftKings has +9.5 (-105). Our NFL model makes Cardinals +7.5, 4.8 pts better than the market. ARI is without Michael Wilson (WR, injured reserve); injuries are worth ~1.0 pts to them by our injury model.",
+   "why": "Pinnacle makes Cardinals +12.5; DraftKings has +9.5 (-105). Our NFL model makes Cardinals +7.5, 4.9 pts better than the market. ARI is without Michael Wilson (WR, injured reserve); injuries are worth ~1.0 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -27839,7 +27839,7 @@
   ],
   "odds_pulled_at": "2026-11-08T23:30:28.678623+00:00",
   "published_at": "2026-11-08T23:30:41.216944+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-11-08T23:30:41.216944+00:00",
@@ -27954,7 +27954,7 @@
   "flags": [],
   "odds_pulled_at": "2026-11-09T00:30:26.948466+00:00",
   "published_at": "2026-11-09T00:30:39.627148+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-11-09T00:30:39.627148+00:00",
@@ -28158,7 +28158,7 @@
   "flags": [],
   "odds_pulled_at": "2026-11-09T11:30:30.188658+00:00",
   "published_at": "2026-11-09T11:30:52.962046+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-11-09T11:30:52.962046+00:00",
@@ -28697,7 +28697,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-10T15:00:42.748868+00:00",
   "published_at": "2026-11-10T18:30:39.809358+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-11-10T18:30:39.809358+00:00",
@@ -28797,7 +28797,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-10T15:00:42.748868+00:00",
   "published_at": "2026-11-10T22:01:11.228573+00:00",
-  "status": "moved",
+  "status": "started",
   "history": [
    [
     "2026-11-10T22:01:11.228573+00:00",
@@ -28881,7 +28881,7 @@
   "flags": [],
   "odds_pulled_at": "2026-11-11T11:30:32.588689+00:00",
   "published_at": "2026-11-11T11:30:39.521807+00:00",
-  "status": "live",
+  "status": "started",
   "history": [
    [
     "2026-11-11T11:30:39.521807+00:00",
@@ -28991,7 +28991,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-11T11:30:32.588689+00:00",
   "published_at": "2026-11-11T15:00:54.628529+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-11-11T15:00:54.628529+00:00",
@@ -29176,7 +29176,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-12T23:30:31.921513+00:00",
   "published_at": "2026-11-13T00:01:51.615326+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-11-13T00:01:51.615326+00:00",
@@ -29338,7 +29338,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-13T15:00:45.188684+00:00",
   "published_at": "2026-11-13T22:01:36.427831+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-11-13T22:01:36.427831+00:00",
@@ -29842,7 +29842,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-15T13:30:35.639231+00:00",
   "published_at": "2026-11-15T13:30:56.003702+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-11-15T13:30:56.003702+00:00",
@@ -30818,6 +30818,230 @@
    "why": "BetOnline/LowVig makes Florida International +3.5; DraftKings has +3.5 (-110).",
    "flags": [
     "college injuries not checked yet"
+   ]
+  }
+ },
+ "4c5b1c0843a260278e95eb93e7787576|Miami Dolphins": {
+  "id": "4c5b1c0843a260278e95eb93e7787576",
+  "pick_key": "4c5b1c0843a260278e95eb93e7787576|Miami Dolphins",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "BUF passing vs MIA pass D: +0.10 EPA/play vs average",
+   "MIA passing vs BUF pass D: -0.09 EPA/play vs average"
+  ],
+  "matchup": "Miami Dolphins @ Buffalo Bills",
+  "kickoff_utc": "2026-11-22T18:00:00Z",
+  "kickoff_pt": "Sun Nov 22, 10:00 AM PST",
+  "side": "Miami Dolphins",
+  "opponent": "Buffalo Bills",
+  "side_is_home": false,
+  "line": 16.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695635P1650_3",
+  "fair_line": 16.5,
+  "open_line": null,
+  "confidence": 55.7,
+  "ev_pct": 6.38,
+  "units": 0.5,
+  "price_floor": 16.0,
+  "floor_text": "Good to +16 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 16.6,
+  "model_home_margin": 12.0,
+  "model_weight": 0.281,
+  "hours_to_kick": 168.0,
+  "signals": [],
+  "why": "The market average makes Dolphins +16.5; DraftKings has +16.5 (-110). Our NFL model makes Dolphins +12, 4.6 pts better than the market.",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-15T17:08:00.735359+00:00",
+  "published_at": "2026-11-15T18:01:21.772994+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-15T18:01:21.772994+00:00",
+    16.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 16.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695635P1650_3",
+   "ev_pct": 6.38,
+   "confidence": 55.7
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 6.38,
+   "confidence": 55.7,
+   "line": 16.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average makes Dolphins +16.5; DraftKings has +16.5 (-110). Our NFL model makes Dolphins +12, 4.6 pts better than the market.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ]
+  }
+ },
+ "403a88701352da05b0710a9e883b803e|Over": {
+  "id": "403a88701352da05b0710a9e883b803e",
+  "pick_key": "403a88701352da05b0710a9e883b803e|Over",
+  "market": "total",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "ARI passing vs KC pass D: -0.07 EPA/play vs average",
+   "KC passing vs ARI pass D: +0.07 EPA/play vs average"
+  ],
+  "matchup": "Arizona Cardinals @ Kansas City Chiefs",
+  "kickoff_utc": "2026-11-22T18:00:00Z",
+  "kickoff_pt": "Sun Nov 22, 10:00 AM PST",
+  "side": "Over",
+  "opponent": "",
+  "side_is_home": true,
+  "line": 42.5,
+  "price": -105,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695707O4250_1",
+  "fair_line": 42.0,
+  "open_line": null,
+  "confidence": 52.9,
+  "ev_pct": 3.2,
+  "units": 0.5,
+  "price_floor": 42.5,
+  "floor_text": "Good to over 42.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 41.9,
+  "model_home_margin": 47.2,
+  "model_weight": 0.314,
+  "hours_to_kick": 168.0,
+  "signals": [],
+  "why": "The market average's fair total is 42; DraftKings has Over 42.5 (-105). Our model projects 47.2 points from both offenses' efficiency and pace.",
+  "flags": [
+   "no sharp book has this total, so the fair number is a market average"
+  ],
+  "odds_pulled_at": "2026-11-15T17:08:00.735359+00:00",
+  "published_at": "2026-11-15T18:01:21.772994+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-15T18:01:21.772994+00:00",
+    42.5,
+    -105,
+    "draftkings"
+   ],
+   [
+    "2026-11-15T18:01:21.772994+00:00",
+    41.5,
+    -115,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 41.5,
+   "price": -115,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292642&selectionId=7017916",
+   "ev_pct": 3.2,
+   "confidence": 52.9
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 3.2,
+   "confidence": 52.9,
+   "line": 42.5,
+   "price": -105,
+   "book": "draftkings",
+   "why": "The market average's fair total is 42; DraftKings has Over 42.5 (-105). Our model projects 47.2 points from both offenses' efficiency and pace.",
+   "flags": [
+    "no sharp book has this total, so the fair number is a market average"
+   ]
+  }
+ },
+ "403a88701352da05b0710a9e883b803e|Arizona Cardinals": {
+  "id": "403a88701352da05b0710a9e883b803e",
+  "pick_key": "403a88701352da05b0710a9e883b803e|Arizona Cardinals",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "ARI passing vs KC pass D: -0.07 EPA/play vs average",
+   "KC passing vs ARI pass D: +0.07 EPA/play vs average"
+  ],
+  "matchup": "Arizona Cardinals @ Kansas City Chiefs",
+  "kickoff_utc": "2026-11-22T18:00:00Z",
+  "kickoff_pt": "Sun Nov 22, 10:00 AM PST",
+  "side": "Arizona Cardinals",
+  "opponent": "Kansas City Chiefs",
+  "side_is_home": false,
+  "line": 14.5,
+  "price": -115,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292640&selectionId=50188",
+  "fair_line": 15.0,
+  "open_line": null,
+  "confidence": 54.9,
+  "ev_pct": 2.59,
+  "units": 0.5,
+  "price_floor": 14.0,
+  "floor_text": "Good to +14 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": 15.0,
+  "model_home_margin": 8.7,
+  "model_weight": 0.277,
+  "hours_to_kick": 168.0,
+  "signals": [],
+  "why": "The market average makes Cardinals +15; FanDuel has +14.5 (-115). Our NFL model makes Cardinals +8.5, 6.3 pts better than the market. ARI is without Michael Wilson (WR, injured reserve); injuries are worth ~1.0 pts to them by our injury model.",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-15T17:08:00.735359+00:00",
+  "published_at": "2026-11-15T18:01:21.772994+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-15T18:01:21.772994+00:00",
+    14.5,
+    -115,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 14.5,
+   "price": -115,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292640&selectionId=50188",
+   "ev_pct": 2.59,
+   "confidence": 54.9
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.59,
+   "confidence": 54.9,
+   "line": 14.5,
+   "price": -115,
+   "book": "fanduel",
+   "why": "The market average makes Cardinals +15; FanDuel has +14.5 (-115). Our NFL model makes Cardinals +8.5, 6.3 pts better than the market. ARI is without Michael Wilson (WR, injured reserve); injuries are worth ~1.0 pts to them by our injury model.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
    ]
   }
  }

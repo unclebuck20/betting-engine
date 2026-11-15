@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-15T17:08:00.735359+00:00",
-  "previous_pull": "2026-11-15T17:00:28.283072+00:00",
-  "matched_absences": 46
+  "injury_pull": "2026-11-15T18:00:32.409091+00:00",
+  "previous_pull": "2026-11-15T17:08:00.735359+00:00",
+  "matched_absences": 48
  },
  "teams": {
   "ARI": {
@@ -177,8 +177,8 @@
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T15:06Z",
-     "note": "Hutchinson is questionable to return to Sunday's game against the Patriots in Munich due to a knee injury."
+     "updated": "2026-11-15T17:11Z",
+     "note": "The Lions downgraded Hutchinson (knee) to out for the remainder of Sunday's game against the Patriots in Munich."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -385,20 +385,53 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 4.0,
-   "qb_out": true,
+   "adj_points": 1.12,
+   "qb_out": false,
    "absences": [
     {
      "player": "Drake Maye",
      "pos": "QB",
-     "status": "Out",
-     "points": 4.0,
+     "status": "Questionable",
+     "points": 1.0,
      "updated": "2026-11-15T15:43Z",
      "note": "Maye (ankle) has been ruled out for the remainder of Sunday's game against the Lions, Doug Kyed of the Boston Herald reports."
+    },
+    {
+     "player": "Dre'Mont Jones",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-15T17:32Z",
+     "note": "Jones (cramps) is questionable to return to Sunday's game against the Lions in Munich."
+    },
+    {
+     "player": "Robert Spillane",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-15T17:18Z",
+     "note": "Spillane (illness) is questionable to return to Sunday's game against the Lions in Munich."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -2.88,
+   "new_absences": [
+    {
+     "player": "Dre'Mont Jones",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-15T17:32Z",
+     "note": "Jones (cramps) is questionable to return to Sunday's game against the Lions in Munich."
+    },
+    {
+     "player": "Robert Spillane",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-15T17:18Z",
+     "note": "Spillane (illness) is questionable to return to Sunday's game against the Lions in Munich."
+    }
+   ]
   },
   "NO": {
    "adj_points": 0.9,
