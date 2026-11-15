@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-15T19:00:30.892446+00:00",
-  "previous_pull": "2026-11-15T18:00:32.409091+00:00",
-  "matched_absences": 53
+  "injury_pull": "2026-11-15T19:30:32.289896+00:00",
+  "previous_pull": "2026-11-15T19:00:30.892446+00:00",
+  "matched_absences": 54
  },
  "teams": {
   "ARI": {
@@ -153,7 +153,7 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.87,
+   "adj_points": 1.17,
    "qb_out": false,
    "absences": [
     {
@@ -165,23 +165,23 @@
      "note": "inactive"
     },
     {
+     "player": "Aidan Hutchinson",
+     "pos": "DE",
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-11-15T19:03Z",
+     "note": "Hutchinson is believed to have suffered a significant knee injury that \"knocks him out for the foreseeable future,\" Ian Rapoport of NFL Network reports."
+    },
+    {
      "player": "Jack Campbell",
      "pos": "LB",
      "status": "Injured Reserve",
      "points": 0.25,
      "updated": "2026-11-07T22:18Z",
      "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
-    },
-    {
-     "player": "Aidan Hutchinson",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T18:22Z",
-     "note": "Head coach Dan Campbell said after Sunday's 35-10 win over the Patriots in Munich that Hutchinson (knee) will undergo more tests once the team returns to Detroi"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.3,
    "new_absences": []
   },
   "GB": {
@@ -193,21 +193,12 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T18:41Z",
-     "note": "questionable"
+     "updated": "2026-11-15T18:44Z",
+     "note": "Cisse (ribs) is questionable to return to Sunday's game against the Vikings."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Brandon Cisse",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T18:41Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "HOU": {
    "adj_points": 1.15,
@@ -266,24 +257,15 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T18:34Z",
-     "note": "Raimann is being evaluated for a concussion after exiting Sunday's game against the Dolphins, Jake Arthur of Roundtable.io reports."
+     "updated": "2026-11-15T18:52Z",
+     "note": "Raimann has entered the league's concussion protocol and has been ruled out for the rest of Sunday's game against the Dolphins, James Boyd of The Athletic repor"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Bernhard Raimann",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T18:34Z",
-     "note": "Raimann is being evaluated for a concussion after exiting Sunday's game against the Dolphins, Jake Arthur of Roundtable.io reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "KC": {
-   "adj_points": 0.79,
+   "adj_points": 0.72,
    "qb_out": false,
    "absences": [
     {
@@ -307,37 +289,12 @@
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-15T18:42Z",
-     "note": "Smith is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Falcons."
-    },
-    {
-     "player": "Travis Kelce",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-15T18:28Z",
-     "note": "Kelce (ankle) is questionable to return to Sunday's game against the Falcons, Sam McDowell of The Kansas City Star reports."
+     "updated": "2026-11-15T19:05Z",
+     "note": "Smith (concussion) has been ruled out for the remainder of Sunday's game against the Falcons."
     }
    ],
-   "delta_since_last_pull": 0.14,
-   "new_absences": [
-    {
-     "player": "Trey Smith",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-15T18:42Z",
-     "note": "Smith is being evaluated for a possible concussion and is questionable to return to Sunday's game against the Falcons."
-    },
-    {
-     "player": "Travis Kelce",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-15T18:28Z",
-     "note": "Kelce (ankle) is questionable to return to Sunday's game against the Falcons, Sam McDowell of The Kansas City Star reports."
-    }
-   ]
+   "delta_since_last_pull": -0.07,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.92,
@@ -492,7 +449,7 @@
    "new_absences": []
   },
   "NO": {
-   "adj_points": 0.9,
+   "adj_points": 0.96,
    "qb_out": false,
    "absences": [
     {
@@ -510,13 +467,30 @@
      "points": 0.4,
      "updated": "2026-11-15T16:34Z",
      "note": "inactive"
+    },
+    {
+     "player": "Pete Werner",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-15T19:05Z",
+     "note": "Werner (hamstring) is questionable to return to Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Pete Werner",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-15T19:05Z",
+     "note": "Werner (hamstring) is questionable to return to Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
+    }
+   ]
   },
   "NYJ": {
-   "adj_points": 0.12,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
     {
@@ -524,19 +498,27 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T16:41Z",
-     "note": "Cooper (ankle) is active for Sunday's contest against the Bills."
+     "updated": "2026-11-15T18:46Z",
+     "note": "Cooper (ankle) is questionable to return to Sunday's game against the Bills."
+    },
+    {
+     "player": "Dylan Parham",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-15T19:02Z",
+     "note": "Parham (knee) is questionable to return to Sunday's game against the Bills."
     }
    ],
-   "delta_since_last_pull": 0.12,
+   "delta_since_last_pull": 0.09,
    "new_absences": [
     {
-     "player": "Omar Cooper Jr.",
-     "pos": "WR",
+     "player": "Dylan Parham",
+     "pos": "OL",
      "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T16:41Z",
-     "note": "Cooper (ankle) is active for Sunday's contest against the Bills."
+     "points": 0.09,
+     "updated": "2026-11-15T19:02Z",
+     "note": "Parham (knee) is questionable to return to Sunday's game against the Bills."
     }
    ]
   },
