@@ -1,6 +1,27 @@
 {
- "run_at": "2026-11-15T12:00:31.967618+00:00",
+ "run_at": "2026-11-15T12:30:27.400201+00:00",
  "sources": {
+  "odds": {
+   "credits_left_before": 336,
+   "nfl": {
+    "events": 26,
+    "books_seen": [
+     "betmgm",
+     "betonlineag",
+     "betrivers",
+     "bovada",
+     "draftkings",
+     "espnbet",
+     "fanduel",
+     "hardrockbet",
+     "lowvig",
+     "pinnacle"
+    ],
+    "events_with_pinnacle": 13,
+    "cost": "2"
+   },
+   "credits_left_after": 334
+  },
   "nflverse_games": {
    "rows_total": 7548,
    "season_games": 272,
@@ -10,15 +31,21 @@
   "injuries_nfl": {
    "rows": 800,
    "teams": 32,
-   "newest": "2026-11-15T11:14Z"
+   "newest": "2026-11-15T12:12Z"
   },
   "injuries_cfb": {
    "rows": 3,
    "teams": 3,
    "newest": "2022-11-26T22:30Z"
+  },
+  "cfbd": {
+   "week": 11,
+   "season_type": "regular",
+   "games": 323,
+   "fbs_games": 67,
+   "games_with_lines": 129,
+   "calls": 3
   }
  },
- "failed_sources": [
-  "fetch_cfbd"
- ]
+ "failed_sources": []
 }
