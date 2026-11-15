@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-15T12:30:27.400201+00:00",
-  "previous_pull": "2026-11-15T12:00:31.967618+00:00",
-  "matched_absences": 59
+  "injury_pull": "2026-11-15T13:30:35.639231+00:00",
+  "previous_pull": "2026-11-15T12:30:27.400201+00:00",
+  "matched_absences": 56
  },
  "teams": {
   "ARI": {
@@ -185,7 +185,7 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.87,
+   "adj_points": 0.75,
    "qb_out": false,
    "absences": [
     {
@@ -193,8 +193,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-12T22:25Z",
-     "note": "Reed (hip) did not travel to Munich with the Lions and is ruled out for Sunday's matchup against the Patriots."
+     "updated": "2026-11-15T13:02Z",
+     "note": "inactive"
     },
     {
      "player": "Jack Campbell",
@@ -203,17 +203,9 @@
      "points": 0.25,
      "updated": "2026-11-07T22:18Z",
      "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
-    },
-    {
-     "player": "Amon-Ra St. Brown",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T12:05Z",
-     "note": "St. Brown (ribs), who is listed as questionable for Sunday's game against the Patriots in Munich, is expected to play, Ian Rapoport of NFL Network reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "GB": {
@@ -281,8 +273,8 @@
      "pos": "DE",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-14T18:33Z",
-     "note": "Anderson (ankle), who is listed as questionable, is planning to suit up Sunday against the Browns, Aaron Wilson of KPRC 2 Houston reports."
+     "updated": "2026-11-15T12:29Z",
+     "note": "Anderson (ankle) \"should be OK\" to play Sunday against the Browns, according to Jeremy Fowler of ESPN.com."
     },
     {
      "player": "Trent Brown",
@@ -464,30 +456,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "NE": {
-   "adj_points": 0.14,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Rhamondre Stevenson",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-15T11:14Z",
-     "note": "Stevenson (knee) is expected to play in Sunday's game against the Lions in Munich, Adam Schefter of ESPN reports."
-    },
-    {
-     "player": "Kevin Byard",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-13T22:31Z",
-     "note": "Following a full practice Friday, Byard (chest) is listed as questionable for Sunday's game against the Lions in Munich."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "NO": {
    "adj_points": 1.02,
    "qb_out": false,
@@ -525,20 +493,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Garrett Wilson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T12:14Z",
+     "note": "Wilson (concussion) reportedly cleared the concussion protocol and is expected to play in Sunday's game versus the Bills, per Ian Rapoport of NFL Network."
+    },
+    {
      "player": "Adonai Mitchell",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-14T17:20Z",
      "note": "Mitchell (knee) is listed as questionable for Sunday's game against the Bills but is expected to play, Matt Zenitz of CBS Sports reports."
-    },
-    {
-     "player": "Garrett Wilson",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-14T17:18Z",
-     "note": "Wilson (concussion) is expected to be cleared to play against the Bills on Sunday, Matt Zenitz of CBS Sports reports."
     },
     {
      "player": "Omar Cooper Jr.",
@@ -662,6 +630,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "NE": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.14,
    "new_absences": []
   }
  }
