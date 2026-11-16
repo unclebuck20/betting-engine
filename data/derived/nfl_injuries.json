@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-16T20:00:49.559617+00:00",
-  "previous_pull": "2026-11-16T17:00:33.220111+00:00",
-  "matched_absences": 50
+  "injury_pull": "2026-11-16T23:30:39.182955+00:00",
+  "previous_pull": "2026-11-16T20:00:49.559617+00:00",
+  "matched_absences": 52
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.35,
+   "adj_points": 0.65,
    "qb_out": false,
    "absences": [
     {
@@ -19,10 +19,27 @@
      "points": 0.35,
      "updated": "2026-11-16T17:34Z",
      "note": "out"
+    },
+    {
+     "player": "Andrew Wingard",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-16T21:32Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Andrew Wingard",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-16T21:32Z",
+     "note": "out"
+    }
+   ]
   },
   "BUF": {
    "adj_points": 0.12,
@@ -89,14 +106,14 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 1.02,
+   "adj_points": 1.1,
    "qb_out": false,
    "absences": [
     {
      "player": "DaRon Bland",
      "pos": "CB",
-     "status": "Doubtful",
-     "points": 0.42,
+     "status": "Out",
+     "points": 0.5,
      "updated": "2026-11-16T19:32Z",
      "note": "Bland sustained a high-ankle sprain in Sunday's 46-40 loss to the 49ers, Todd Archer of ESPN.com reports."
     },
@@ -117,7 +134,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.08,
    "new_absences": []
   },
   "DEN": {
@@ -145,8 +162,8 @@
      "pos": "DE",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-16T14:42Z",
-     "note": "Hutchison is expected to miss the remainder of the season after an initial MRI on his injured right knee Monday revealed a torn ACL, Ian Rapoport of NFL Network"
+     "updated": "2026-11-16T23:15Z",
+     "note": "Hutchinson officially suffered a torn ACL in his right knee during Sunday's win against the Patriots in Munich, but there's no other significant damage in the k"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -213,20 +230,20 @@
    "qb_out": false,
    "absences": [
     {
-     "player": "Sauce Gardner",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T20:35Z",
-     "note": "Gardner (calf) is questionable to return to Sunday's game against the Dolphins, Jake Arthur of Roundtable.io reports."
-    },
-    {
      "player": "Charvarius Ward",
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T20:07Z",
-     "note": "Ward (shin) is questionable to return against the Dolphins on Sunday."
+     "updated": "2026-11-16T22:38Z",
+     "note": "Colts head coach Shane Steichen reported Ward (shin) didn't return to Sunday's 24-22 win over the Dolphins and could miss Thursday's game versus Houston, James "
+    },
+    {
+     "player": "Sauce Gardner",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-16T22:31Z",
+     "note": "Colts head coach Shane Steichen reported Gardner suffered a left calf injury during Sunday's 24-22 win over the Dolphins and may not play Thursday versus Housto"
     },
     {
      "player": "Bernhard Raimann",
@@ -305,8 +322,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-16T13:16Z",
-     "note": "Bowers, who will undergo additional testing Monday, isn't believed to have suffered a major ankle injury in Sunday's 21-13 loss to the Seahawks, Ian Rapoport of"
+     "updated": "2026-11-16T21:00Z",
+     "note": "Raiders head coach Klint Kubiak confirmed Monday that Bowers (ankle) is considered day-to-day after exiting Sunday's 21-13 loss to the Seahawks, Sam Warren of T"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -369,21 +386,12 @@
      "pos": "DL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-16T16:07Z",
-     "note": "questionable"
+     "updated": "2026-11-16T19:56Z",
+     "note": "Phillips underwent further tests Monday on his arm injured in Sunday's 24-22 loss to the Colts, Barry Jackson of the Miami Herald reports."
     }
    ],
-   "delta_since_last_pull": 4.0,
-   "new_absences": [
-    {
-     "player": "Malik Willis",
-     "pos": "QB",
-     "status": "Injured Reserve",
-     "points": 4.0,
-     "updated": "2026-11-16T17:27Z",
-     "note": "Coach Jeff Hafley said Monday that it has yet to be determined whether Willis (abdomen) will need surgery to address his groin/core injury.David Furones of the "
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "MIN": {
    "adj_points": 1.11,
@@ -418,8 +426,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-15T20:53Z",
-     "note": "Van Ginkel (quadriceps) is questionable to return to Sunday's game against the Packers."
+     "updated": "2026-11-16T20:55Z",
+     "note": "Van Ginkel (quadriceps) is expected to practice in preparation for Week 11, Kevin Seifert of ESPN.com reported Monday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -450,7 +458,7 @@
    "new_absences": []
   },
   "NO": {
-   "adj_points": 1.05,
+   "adj_points": 1.31,
    "qb_out": false,
    "absences": [
     {
@@ -472,8 +480,8 @@
     {
      "player": "Asim Richards",
      "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
+     "status": "Out",
+     "points": 0.35,
      "updated": "2026-11-15T20:50Z",
      "note": "Richards (knee) is questionable to return to Sunday's game against Carolina, Jeff Nowak of WWL Radio reports."
     },
@@ -486,7 +494,7 @@
      "note": "Werner (hamstring) has been ruled out for the rest of Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "NYJ": {
@@ -538,20 +546,45 @@
    "new_absences": []
   },
   "PIT": {
-   "adj_points": 0.07,
+   "adj_points": 0.26,
    "qb_out": false,
    "absences": [
     {
      "player": "Mason McCormick",
      "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
+     "status": "Doubtful",
+     "points": 0.26,
      "updated": "2026-11-16T03:00Z",
      "note": "McCormick suffered an ankle injury in Sunday night's game against the Bengals and will not return, Nick Farabaugh of PennLive.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
+  },
+  "SF": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Renardo Green",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-16T22:10Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Renardo Green",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-16T22:10Z",
+     "note": "questionable"
+    }
+   ]
   },
   "SEA": {
    "adj_points": 0.12,
@@ -602,8 +635,8 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-15T16:34Z",
-     "note": "inactive"
+     "updated": "2026-11-16T20:10Z",
+     "note": "out"
     },
     {
      "player": "Wan'Dale Robinson",
@@ -615,13 +648,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "ATL": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
