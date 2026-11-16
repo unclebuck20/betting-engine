@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-16T17:00:33.220111+00:00",
-  "previous_pull": "2026-11-16T13:30:43.879884+00:00",
+  "injury_pull": "2026-11-16T20:00:49.559617+00:00",
+  "previous_pull": "2026-11-16T17:00:33.220111+00:00",
   "matched_absences": 50
  },
  "teams": {
@@ -17,24 +17,8 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-11-15T19:37Z",
-     "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "ATL": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Drake London",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T21:04Z",
-     "note": "London is being evaluated for a possible concussion during Sunday's game against the Chiefs, Tori McElhaney of the Falcons' official site reports."
+     "updated": "2026-11-16T17:34Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -97,8 +81,8 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-15T16:32Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:07Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -113,27 +97,27 @@
      "pos": "CB",
      "status": "Doubtful",
      "points": 0.42,
-     "updated": "2026-11-16T01:24Z",
-     "note": "Bland (ankle) will undergo X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
+     "updated": "2026-11-16T19:32Z",
+     "note": "Bland sustained a high-ankle sprain in Sunday's 46-40 loss to the 49ers, Todd Archer of ESPN.com reports."
     },
     {
      "player": "Tyler Booker",
      "pos": "G",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-16T01:27Z",
-     "note": "Booker hurt his ankle during Sunday's loss to San Francisco and is slated for X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
+     "updated": "2026-11-16T19:21Z",
+     "note": "Booker suffered a high ankle sprain in Sunday's 46-40 loss to the 49ers, Calvin Watkins of The Dallas Morning News  reports."
     },
     {
      "player": "P.J. Locke",
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-15T20:04Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:10Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.53,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DEN": {
@@ -165,7 +149,7 @@
      "note": "Hutchison is expected to miss the remainder of the season after an initial MRI on his injured right knee Monday revealed a torn ACL, Ian Rapoport of NFL Network"
     }
    ],
-   "delta_since_last_pull": 0.08,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "GB": {
@@ -193,16 +177,16 @@
      "pos": "DE",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-15T16:37Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:17Z",
+     "note": "out"
     },
     {
      "player": "Keylan Rutledge",
      "pos": "C",
      "status": "Out",
      "points": 0.4,
-     "updated": "2026-11-15T16:37Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:19Z",
+     "note": "out"
     },
     {
      "player": "Woody Marks",
@@ -217,8 +201,8 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-15T16:37Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:16Z",
+     "note": "out"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -281,16 +265,16 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-11-15T16:46Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:22Z",
+     "note": "out"
     },
     {
      "player": "Kenneth Walker III",
      "pos": "RB",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-15T16:21Z",
-     "note": "Walker (groin), who won't play Sunday in Atlanta, is expected to \"be able to go\" next Sunday against the Cardinals, Ian Rapoport of NFL Network reports."
+     "updated": "2026-11-16T19:23Z",
+     "note": "out"
     },
     {
      "player": "Trey Smith",
@@ -353,24 +337,32 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 0.99,
-   "qb_out": false,
+   "adj_points": 4.99,
+   "qb_out": true,
    "absences": [
+    {
+     "player": "Malik Willis",
+     "pos": "QB",
+     "status": "Injured Reserve",
+     "points": 4.0,
+     "updated": "2026-11-16T17:27Z",
+     "note": "Coach Jeff Hafley said Monday that it has yet to be determined whether Willis (abdomen) will need surgery to address his groin/core injury.David Furones of the "
+    },
     {
      "player": "Chris Bell",
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-15T16:41Z",
-     "note": "Bell (knee) is inactive for Sunday's Week 10 matchup against the Colts."
+     "updated": "2026-11-16T19:27Z",
+     "note": "out"
     },
     {
      "player": "Aaron Brewer",
      "pos": "C",
      "status": "Out",
      "points": 0.4,
-     "updated": "2026-11-15T16:36Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:28Z",
+     "note": "out"
     },
     {
      "player": "Jordan Phillips",
@@ -381,15 +373,15 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -3.91,
+   "delta_since_last_pull": 4.0,
    "new_absences": [
     {
-     "player": "Jordan Phillips",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-16T16:07Z",
-     "note": "questionable"
+     "player": "Malik Willis",
+     "pos": "QB",
+     "status": "Injured Reserve",
+     "points": 4.0,
+     "updated": "2026-11-16T17:27Z",
+     "note": "Coach Jeff Hafley said Monday that it has yet to be determined whether Willis (abdomen) will need surgery to address his groin/core injury.David Furones of the "
     }
    ]
   },
@@ -402,24 +394,24 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-15T16:38Z",
-     "note": "Addison (thumb) is inactive for Sunday's game at Green Bay, Tom Pelissero of Netflix reports."
+     "updated": "2026-11-16T18:45Z",
+     "note": "Vikings head coach Kevin O'Connell said Monday that Addison will require surgery on his thumb and will miss a few weeks, Alec Lewis of The Athletic reports."
     },
     {
      "player": "T.J. Hockenson",
      "pos": "TE",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-15T16:32Z",
-     "note": "inactive"
+     "updated": "2026-11-16T18:43Z",
+     "note": "Coach Kevin O'Connell said Monday that the Vikings expect Hockenson (wrist/chest) to make progress ahead of Sunday's game against the 49ers, Alec Lewis of The A"
     },
     {
      "player": "Blake Cashman",
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-15T16:32Z",
-     "note": "inactive"
+     "updated": "2026-11-16T18:40Z",
+     "note": "out"
     },
     {
      "player": "Andrew Van Ginkel",
@@ -442,8 +434,8 @@
      "pos": "QB",
      "status": "Doubtful",
      "points": 3.4,
-     "updated": "2026-11-16T13:25Z",
-     "note": "The Patriots are concerned that Maye fractured his ankle during Sunday's 35-10 loss to the Lions in Munich, Adam Schefter of ESPN reports."
+     "updated": "2026-11-16T17:16Z",
+     "note": "Patriots head coach Mike Vrabel said Monday that he didn't have a definitive diagnosis for the injury Maye (ankle) sustained in Sunday's 35-10 loss to the Lions"
     },
     {
      "player": "Robert Spillane",
@@ -466,16 +458,16 @@
      "pos": "T",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-15T16:34Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:33Z",
+     "note": "out"
     },
     {
      "player": "Erik McCoy",
      "pos": "C",
      "status": "Out",
      "points": 0.4,
-     "updated": "2026-11-15T16:34Z",
-     "note": "inactive"
+     "updated": "2026-11-16T19:33Z",
+     "note": "out"
     },
     {
      "player": "Asim Richards",
@@ -623,6 +615,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "ATL": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
