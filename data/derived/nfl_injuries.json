@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-16T13:30:43.879884+00:00",
-  "previous_pull": "2026-11-16T11:30:44.012863+00:00",
+  "injury_pull": "2026-11-16T17:00:33.220111+00:00",
+  "previous_pull": "2026-11-16T13:30:43.879884+00:00",
   "matched_absences": 50
  },
  "teams": {
@@ -105,9 +105,25 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.49,
+   "adj_points": 1.02,
    "qb_out": false,
    "absences": [
+    {
+     "player": "DaRon Bland",
+     "pos": "CB",
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-11-16T01:24Z",
+     "note": "Bland (ankle) will undergo X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
+    },
+    {
+     "player": "Tyler Booker",
+     "pos": "G",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-16T01:27Z",
+     "note": "Booker hurt his ankle during Sunday's loss to San Francisco and is slated for X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
+    },
     {
      "player": "P.J. Locke",
      "pos": "S",
@@ -115,25 +131,9 @@
      "points": 0.3,
      "updated": "2026-11-15T20:04Z",
      "note": "inactive"
-    },
-    {
-     "player": "DaRon Bland",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-16T01:24Z",
-     "note": "Bland (ankle) will undergo X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
-    },
-    {
-     "player": "Tyler Booker",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-16T01:27Z",
-     "note": "Booker hurt his ankle during Sunday's loss to San Francisco and is slated for X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.53,
    "new_absences": []
   },
   "DEN": {
@@ -153,19 +153,19 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.42,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Aidan Hutchinson",
      "pos": "DE",
-     "status": "Doubtful",
-     "points": 0.42,
-     "updated": "2026-11-15T19:03Z",
-     "note": "Hutchinson is believed to have suffered a significant knee injury that \"knocks him out for the foreseeable future,\" Ian Rapoport of NFL Network reports."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-16T14:42Z",
+     "note": "Hutchison is expected to miss the remainder of the season after an initial MRI on his injured right knee Monday revealed a torn ACL, Ian Rapoport of NFL Network"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.08,
    "new_absences": []
   },
   "GB": {
@@ -314,7 +314,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-15T23:31Z",
-     "note": "Paye (neck) is questionable to return to Sunday's game against the Seahawks"
+     "note": "Paye (neck) is questionable to return to Sunday's game against the Seahawks."
     },
     {
      "player": "Brock Bowers",
@@ -322,7 +322,7 @@
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-11-16T13:16Z",
-     "note": "Bowers, who will undergo additional testing Monday, is not believed to have suffered a major ankle injury in Sunday's loss to the Seahawks, Ian Rapoport of NFL "
+     "note": "Bowers, who will undergo additional testing Monday, isn't believed to have suffered a major ankle injury in Sunday's 21-13 loss to the Seahawks, Ian Rapoport of"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -353,17 +353,9 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 4.9,
-   "qb_out": true,
+   "adj_points": 0.99,
+   "qb_out": false,
    "absences": [
-    {
-     "player": "Malik Willis",
-     "pos": "QB",
-     "status": "Injured Reserve",
-     "points": 4.0,
-     "updated": "2026-11-11T20:15Z",
-     "note": "The Dolphins hope Willis (abdomen) will return this year but haven't ruled out season-ending surgery, Joe Schad of The Palm Beach Post reports."
-    },
     {
      "player": "Chris Bell",
      "pos": "WR",
@@ -379,10 +371,27 @@
      "points": 0.4,
      "updated": "2026-11-15T16:36Z",
      "note": "inactive"
+    },
+    {
+     "player": "Jordan Phillips",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-16T16:07Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -3.91,
+   "new_absences": [
+    {
+     "player": "Jordan Phillips",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-16T16:07Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIN": {
    "adj_points": 1.11,
@@ -433,8 +442,8 @@
      "pos": "QB",
      "status": "Doubtful",
      "points": 3.4,
-     "updated": "2026-11-16T12:24Z",
-     "note": "Maye is believed to have sustained a significant lower-leg injury that could sideline him for an extended period of time, Ian Rapoport of NFL Network and ESPN r"
+     "updated": "2026-11-16T13:25Z",
+     "note": "The Patriots are concerned that Maye fractured his ankle during Sunday's 35-10 loss to the Lions in Munich, Adam Schefter of ESPN reports."
     },
     {
      "player": "Robert Spillane",
@@ -445,7 +454,7 @@
      "note": "Spillane (illness) is questionable to return to Sunday's game against the Lions in Munich."
     }
    ],
-   "delta_since_last_pull": 2.4,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
@@ -497,16 +506,16 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-16T00:40Z",
-     "note": "Jets head coach Aaron Glenn said after Sunday's loss to Buffalo that Smith, who departed the contest due to an ankle injury, will have his status for Week 11 de"
+     "updated": "2026-11-16T14:48Z",
+     "note": "Jets head coach Aaron Glenn said that Smith will get further imaging on his left ankle Monday, Antwan V. Staley of the New York Daily News reports."
     },
     {
      "player": "Omar Cooper Jr.",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T19:57Z",
-     "note": "Cooper (ankle) won't return to Sunday's game against the Bills, Zack Rosenblatt of The Athletic reports."
+     "updated": "2026-11-16T14:55Z",
+     "note": "Jets head coach Aaron Glenn said that Cooper (ankle) will undergo imaging Monday, Eric Allen of the team's official site reports."
     },
     {
      "player": "Dylan Parham",
@@ -561,8 +570,8 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-16T01:36Z",
-     "note": "Lucas suffered a sprained ankle during Sunday's Week 10 win over the Raiders, Brady Henderson of ESPN.com reports."
+     "updated": "2026-11-15T22:03Z",
+     "note": "Lucas (ankle) is doubtful to return to Sunday's game against the Raiders."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -610,7 +619,7 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-15T21:09Z",
-     "note": "Robinson (ankle) is questionable to return to Sunday's game against the Jaguars."
+     "note": "Robinson is questionable to return to Sunday's game against the Jaguars due to an ankle injury."
     }
    ],
    "delta_since_last_pull": 0.0,
