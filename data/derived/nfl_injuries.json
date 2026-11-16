@@ -1,25 +1,17 @@
 {
  "meta": {
   "season": 2026,
-  "starters_identified": 600,
-  "teams_with_qb": 30,
-  "injury_pull": "2026-11-16T11:30:44.012863+00:00",
-  "previous_pull": "2026-11-16T08:30:32.058628+00:00",
-  "matched_absences": 63
+  "starters_identified": 605,
+  "teams_with_qb": 29,
+  "injury_pull": "2026-11-16T13:30:43.879884+00:00",
+  "previous_pull": "2026-11-16T11:30:44.012863+00:00",
+  "matched_absences": 50
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.7,
+   "adj_points": 0.35,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jayden Williams",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-15T20:26Z",
-     "note": "Williams (knee) has been ruled out for Sunday's game against the Rams, Darren Urban of the Cardinals' official site reports."
-    },
     {
      "player": "Hjalte Froholdt",
      "pos": "OL",
@@ -49,17 +41,9 @@
    "new_absences": []
   },
   "BUF": {
-   "adj_points": 0.24,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Dee Alford",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T20:52Z",
-     "note": "Alford (concussion) has been ruled out for the remainder of Sunday's game against the Jets."
-    },
     {
      "player": "Christian Benford",
      "pos": "CB",
@@ -67,22 +51,6 @@
      "points": 0.12,
      "updated": "2026-11-15T20:48Z",
      "note": "Benford (groin) has been ruled out for the rest of Sunday's game against the Jets."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CAR": {
-   "adj_points": 0.25,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Bobby Okereke",
-     "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-15T16:38Z",
-     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -185,17 +153,9 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 1.17,
+   "adj_points": 0.42,
    "qb_out": false,
    "absences": [
-    {
-     "player": "D.J. Reed",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-15T13:02Z",
-     "note": "inactive"
-    },
     {
      "player": "Aidan Hutchinson",
      "pos": "DE",
@@ -203,14 +163,6 @@
      "points": 0.42,
      "updated": "2026-11-15T19:03Z",
      "note": "Hutchinson is believed to have suffered a significant knee injury that \"knocks him out for the foreseeable future,\" Ian Rapoport of NFL Network reports."
-    },
-    {
-     "player": "Jack Campbell",
-     "pos": "LB",
-     "status": "Injured Reserve",
-     "points": 0.25,
-     "updated": "2026-11-07T22:18Z",
-     "note": "The Lions moved Campbell (neck) to injured reserve Saturday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -273,25 +225,9 @@
    "new_absences": []
   },
   "IND": {
-   "adj_points": 1.11,
+   "adj_points": 0.36,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jalen Travis",
-     "pos": "T",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-15T16:36Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Akeem Davis-Gaither",
-     "pos": "LB",
-     "status": "Injured Reserve",
-     "points": 0.25,
-     "updated": "2026-11-14T17:34Z",
-     "note": "The Colts placed Davis-Gaither (knee) on injured reserve Saturday."
-    },
     {
      "player": "Sauce Gardner",
      "pos": "CB",
@@ -385,15 +321,15 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-16T00:29Z",
-     "note": "Bowers (ankle) will be evaluated further Monday, Ryan McFadden of ESPN reports."
+     "updated": "2026-11-16T13:16Z",
+     "note": "Bowers, who will undergo additional testing Monday, is not believed to have suffered a major ankle injury in Sunday's loss to the Seahawks, Ian Rapoport of NFL "
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.94,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
     {
@@ -403,14 +339,6 @@
      "points": 0.5,
      "updated": "2026-11-15T16:00Z",
      "note": "Nacua (knee/toe) has an expected return date of \"mid-December,\" Ian Rapoport of NFL Network reports."
-    },
-    {
-     "player": "Steve Avila",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-15T19:44Z",
-     "note": "inactive"
     },
     {
      "player": "Coleman Shelton",
@@ -457,17 +385,9 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 5.46,
-   "qb_out": true,
+   "adj_points": 1.11,
+   "qb_out": false,
    "absences": [
-    {
-     "player": "Kyler Murray",
-     "pos": "QB",
-     "status": "Out",
-     "points": 4.0,
-     "updated": "2026-11-14T19:54Z",
-     "note": "The Vikings are hopeful that Murray (hamstring) will be available to play Week 12 against the Falcons, Tom Pelissero of Netflix reports."
-    },
     {
      "player": "Jordan Addison",
      "pos": "WR",
@@ -475,14 +395,6 @@
      "points": 0.5,
      "updated": "2026-11-15T16:38Z",
      "note": "Addison (thumb) is inactive for Sunday's game at Green Bay, Tom Pelissero of Netflix reports."
-    },
-    {
-     "player": "Tyrion Ingram-Dawkins",
-     "pos": "DL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-15T16:32Z",
-     "note": "inactive"
     },
     {
      "player": "T.J. Hockenson",
@@ -513,24 +425,16 @@
    "new_absences": []
   },
   "NE": {
-   "adj_points": 1.12,
-   "qb_out": false,
+   "adj_points": 3.46,
+   "qb_out": true,
    "absences": [
     {
      "player": "Drake Maye",
      "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-16T01:28Z",
-     "note": "Maye (ankle) will undergo additional testing, but the Patriots expect him to be out for a while, SNF on NBC reports."
-    },
-    {
-     "player": "Dre'Mont Jones",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-15T17:32Z",
-     "note": "Jones (cramps) is questionable to return to Sunday's game against the Lions in Munich."
+     "status": "Doubtful",
+     "points": 3.4,
+     "updated": "2026-11-16T12:24Z",
+     "note": "Maye is believed to have sustained a significant lower-leg injury that could sideline him for an extended period of time, Ian Rapoport of NFL Network and ESPN r"
     },
     {
      "player": "Robert Spillane",
@@ -541,7 +445,7 @@
      "note": "Spillane (illness) is questionable to return to Sunday's game against the Lions in Munich."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 2.4,
    "new_absences": []
   },
   "NO": {
@@ -649,17 +553,9 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 4.12,
-   "qb_out": true,
+   "adj_points": 0.12,
+   "qb_out": false,
    "absences": [
-    {
-     "player": "Sam Darnold",
-     "pos": "QB",
-     "status": "Out",
-     "points": 4.0,
-     "updated": "2026-11-15T19:39Z",
-     "note": "inactive"
-    },
     {
      "player": "Abraham Lucas",
      "pos": "T",
@@ -689,17 +585,9 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 1.17,
+   "adj_points": 0.67,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Carnell Tate",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-15T16:34Z",
-     "note": "inactive"
-    },
     {
      "player": "Peter Skoronski",
      "pos": "G",
