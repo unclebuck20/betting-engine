@@ -30864,7 +30864,7 @@
   "open_line": null,
   "confidence": 55.7,
   "ev_pct": 6.38,
-  "units": 2.0,
+  "units": 1.5,
   "price_floor": 16.0,
   "floor_text": "Good to +16 at -110",
   "fair_source": "consensus",
@@ -30907,21 +30907,21 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695635P1650_3",
-   "ev_pct": 6.46,
-   "confidence": 55.8
+   "ev_pct": 4.74,
+   "confidence": 54.9
   },
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 6.46,
-   "confidence": 55.8,
+   "ev_pct": 4.74,
+   "confidence": 54.9,
    "line": 16.5,
    "price": -110,
    "book": "draftkings",
    "why": "BetOnline/LowVig makes Dolphins +16.5; DraftKings has +16.5 (-110). Our NFL model makes Dolphins +12.5, 4.3 pts better than the market.",
    "flags": []
   },
-  "units_uncapped": 2.0
+  "units_uncapped": 1.5
  },
  "403a88701352da05b0710a9e883b803e|Over": {
   "id": "403a88701352da05b0710a9e883b803e",
@@ -31033,7 +31033,7 @@
   "open_line": null,
   "confidence": 54.9,
   "ev_pct": 2.59,
-  "units": 1.0,
+  "units": 1.5,
   "price_floor": 14.0,
   "floor_text": "Good to +14 at -110",
   "fair_source": "consensus",
@@ -31153,7 +31153,7 @@
    "line": 3.5,
    "price": -115,
    "book": "fanduel",
-   "why": "BetOnline/LowVig makes Jets +4.5; FanDuel has +3.5 (-115). Our NFL model makes Jets -1, 5.2 pts better than the market.",
+   "why": "BetOnline/LowVig makes Jets +4.5; FanDuel has +3.5 (-115). Our NFL model makes Jets -0.5, 5.1 pts better than the market.",
    "flags": []
   },
   "units_uncapped": 1.5
@@ -31409,7 +31409,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-16T00:30:33.430208+00:00",
   "published_at": "2026-11-16T01:30:33.134896+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-16T01:30:33.134896+00:00",
@@ -31423,19 +31423,92 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695646P600_3",
-   "ev_pct": 2.72,
+   "ev_pct": 1.77,
+   "confidence": 53.3
+  },
+  "scout": null,
+  "latest": {
+   "tier": "pass",
+   "ev_pct": 1.77,
+   "confidence": 53.3,
+   "line": 6.0,
+   "price": -110,
+   "book": "draftkings",
+   "why": "BetOnline/LowVig makes Buccaneers +6; DraftKings has +6 (-110). Our NFL model makes Buccaneers +3.5, 2.7 pts better than the market. DET is without D.J. Reed (CB, out); injuries are worth ~1.2 pts to them by our injury model.",
+   "flags": []
+  }
+ },
+ "cbe45bafcc2615fc1d96cbc12840377a|Philadelphia Eagles": {
+  "id": "cbe45bafcc2615fc1d96cbc12840377a",
+  "pick_key": "cbe45bafcc2615fc1d96cbc12840377a|Philadelphia Eagles",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "sun",
+  "tier": "lean",
+  "edges": [
+   "PHI passing vs PIT pass D: -0.15 EPA/play vs average",
+   "PIT passing vs PHI pass D: -0.09 EPA/play vs average"
+  ],
+  "matchup": "Pittsburgh Steelers @ Philadelphia Eagles",
+  "kickoff_utc": "2026-11-22T18:00:00Z",
+  "kickoff_pt": "Sun Nov 22, 10:00 AM PST",
+  "side": "Philadelphia Eagles",
+  "opponent": "Pittsburgh Steelers",
+  "side_is_home": true,
+  "line": 4.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695524P450_1",
+  "fair_line": 5.0,
+  "open_line": null,
+  "confidence": 53.9,
+  "ev_pct": 2.96,
+  "units": 0.5,
+  "price_floor": 4.5,
+  "floor_text": "Good to +4.5 at -110",
+  "fair_source": "consensus",
+  "market_home_margin": -4.8,
+  "model_home_margin": -1.0,
+  "model_weight": 0.237,
+  "hours_to_kick": 153.5,
+  "signals": [],
+  "why": "The market average makes Eagles +5; DraftKings has +4.5 (-110). Our NFL model makes Eagles +1, 3.8 pts better than the market.",
+  "flags": [
+   "no sharp book has this game, so the fair line is a market average"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-16T00:30:33.430208+00:00",
+  "published_at": "2026-11-16T08:30:41.943125+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-16T08:30:41.943125+00:00",
+    4.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 4.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695524P450_1",
+   "ev_pct": 2.96,
    "confidence": 53.9
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.72,
+   "ev_pct": 2.96,
    "confidence": 53.9,
-   "line": 6.0,
+   "line": 4.5,
    "price": -110,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Buccaneers +6; DraftKings has +6 (-110). Our NFL model makes Buccaneers +3, 2.8 pts better than the market. DET is without D.J. Reed (CB, out); injuries are worth ~1.2 pts to them by our injury model.",
-   "flags": []
+   "why": "The market average makes Eagles +5; DraftKings has +4.5 (-110). Our NFL model makes Eagles +1, 3.8 pts better than the market.",
+   "flags": [
+    "no sharp book has this game, so the fair line is a market average"
+   ]
   },
   "units_uncapped": 0.5
  }
