@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-16T00:30:33.430208+00:00",
-  "previous_pull": "2026-11-15T23:30:31.382590+00:00",
-  "matched_absences": 62
+  "injury_pull": "2026-11-16T01:30:28.178339+00:00",
+  "previous_pull": "2026-11-16T00:30:33.430208+00:00",
+  "matched_absences": 63
  },
  "teams": {
   "ARI": {
@@ -129,7 +129,7 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 0.42,
+   "adj_points": 0.49,
    "qb_out": false,
    "absences": [
     {
@@ -147,10 +147,27 @@
      "points": 0.12,
      "updated": "2026-11-15T22:04Z",
      "note": "Bland (ankle) is questionable to return to Sunday's matchup versus San Francisco, Calvin Watkins of The Dallas Morning News reports."
+    },
+    {
+     "player": "Tyler Booker",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-16T01:20Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Tyler Booker",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-16T01:20Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.12,
@@ -369,21 +386,12 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-15T22:42Z",
-     "note": "Bowers (ankle) won't return to Sunday's game against the Seahawks, Mike Garafolo of NFL Network and ESPN reports."
+     "updated": "2026-11-16T00:29Z",
+     "note": "Bowers (ankle) will be evaluated further Monday, Ryan McFadden of ESPN reports."
     }
    ],
-   "delta_since_last_pull": -0.11,
-   "new_absences": [
-    {
-     "player": "Kwity Paye",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T23:31Z",
-     "note": "Paye (neck) is questionable to return to Sunday's game against the Seahawks"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.94,
@@ -594,8 +602,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-15T20:55Z",
-     "note": "Smith (ankle) has been ruled out for the remainder of Sunday's game against the Bills, Brian Costello of the New York Post reports."
+     "updated": "2026-11-16T00:40Z",
+     "note": "Jets head coach Aaron Glenn said after Sunday's loss to Buffalo that Smith, who departed the contest due to an ankle injury, will have his status for Week 11 de"
     },
     {
      "player": "Omar Cooper Jr.",
@@ -711,13 +719,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CIN": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
