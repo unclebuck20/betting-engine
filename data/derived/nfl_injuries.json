@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-15T23:30:31.382590+00:00",
-  "previous_pull": "2026-11-15T22:30:30.523797+00:00",
+  "injury_pull": "2026-11-16T00:30:33.430208+00:00",
+  "previous_pull": "2026-11-15T23:30:31.382590+00:00",
   "matched_absences": 62
  },
  "teams": {
@@ -107,22 +107,6 @@
      "points": 0.09,
      "updated": "2026-11-09T03:13Z",
      "note": "Stevenson exited Sunday night's game against the Bucs with a hand injury and is questionable to return."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CIN": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Dalton Risner",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-15T16:29Z",
-     "note": "Risner (illness) is questionable for Sunday's game against the Steelers."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -269,7 +253,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "IND": {
@@ -369,20 +353,37 @@
    "new_absences": []
   },
   "LV": {
-   "adj_points": 0.3,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
+     "player": "Kwity Paye",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T23:31Z",
+     "note": "Paye (neck) is questionable to return to Sunday's game against the Seahawks"
+    },
+    {
      "player": "Brock Bowers",
      "pos": "TE",
-     "status": "Out",
-     "points": 0.3,
+     "status": "Questionable",
+     "points": 0.07,
      "updated": "2026-11-15T22:42Z",
      "note": "Bowers (ankle) won't return to Sunday's game against the Seahawks, Mike Garafolo of NFL Network and ESPN reports."
     }
    ],
-   "delta_since_last_pull": 0.23,
-   "new_absences": []
+   "delta_since_last_pull": -0.11,
+   "new_absences": [
+    {
+     "player": "Kwity Paye",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-15T23:31Z",
+     "note": "Paye (neck) is questionable to return to Sunday's game against the Seahawks"
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.94,
@@ -710,6 +711,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "CIN": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
