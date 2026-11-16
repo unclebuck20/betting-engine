@@ -3,23 +3,15 @@
   "season": 2026,
   "starters_identified": 600,
   "teams_with_qb": 30,
-  "injury_pull": "2026-11-16T01:30:28.178339+00:00",
-  "previous_pull": "2026-11-16T00:30:33.430208+00:00",
+  "injury_pull": "2026-11-16T05:00:38.558992+00:00",
+  "previous_pull": "2026-11-16T01:30:28.178339+00:00",
   "matched_absences": 63
  },
  "teams": {
   "ARI": {
-   "adj_points": 1.2,
+   "adj_points": 0.7,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Michael Wilson",
-     "pos": "WR",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-11-10T22:53Z",
-     "note": "The Cardinals placed Wilson (neck) on injured reserve Tuesday."
-    },
     {
      "player": "Jayden Williams",
      "pos": "OL",
@@ -37,7 +29,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.5,
    "new_absences": []
   },
   "ATL": {
@@ -112,6 +104,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "CIN": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Dalton Risner",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-16T03:38Z",
+     "note": "Risner (knee) will not return to Sunday night's game against the Steelers."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Dalton Risner",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-16T03:38Z",
+     "note": "Risner (knee) will not return to Sunday night's game against the Steelers."
+    }
+   ]
+  },
   "CLE": {
    "adj_points": 0.3,
    "qb_out": false,
@@ -145,29 +162,20 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T22:04Z",
-     "note": "Bland (ankle) is questionable to return to Sunday's matchup versus San Francisco, Calvin Watkins of The Dallas Morning News reports."
+     "updated": "2026-11-16T01:24Z",
+     "note": "Bland (ankle) will undergo X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
     },
     {
      "player": "Tyler Booker",
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-16T01:20Z",
-     "note": "questionable"
+     "updated": "2026-11-16T01:27Z",
+     "note": "Booker hurt his ankle during Sunday's loss to San Francisco and is slated for X-rays and an MRI, Calvin Watkins of The Dallas Morning News reports."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Tyler Booker",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-16T01:20Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DEN": {
    "adj_points": 0.12,
@@ -426,7 +434,7 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 5.25,
+   "adj_points": 4.9,
    "qb_out": true,
    "absences": [
     {
@@ -452,17 +460,9 @@
      "points": 0.4,
      "updated": "2026-11-15T16:36Z",
      "note": "inactive"
-    },
-    {
-     "player": "Zach Sieler",
-     "pos": "DL",
-     "status": "Injured Reserve",
-     "points": 0.35,
-     "updated": "2026-11-11T00:23Z",
-     "note": "The Dolphins placed Sieler (biceps) on injured reserve Tuesday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.35,
    "new_absences": []
   },
   "MIN": {
@@ -530,8 +530,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-15T17:54Z",
-     "note": "Following Sunday's 35-10 loss to the Lions, coach Mike Vrabel said that Maye will need additional testing to determine the severity of the ankle injury he suffe"
+     "updated": "2026-11-16T01:28Z",
+     "note": "Maye (ankle) will undergo additional testing, but the Patriots expect him to be out for a while, SNF on NBC reports."
     },
     {
      "player": "Dre'Mont Jones",
@@ -641,6 +641,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "PIT": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Mason McCormick",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-16T03:00Z",
+     "note": "McCormick suffered an ankle injury in Sunday night's game against the Bengals and will not return, Nick Farabaugh of PennLive.com reports."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Mason McCormick",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-16T03:00Z",
+     "note": "McCormick suffered an ankle injury in Sunday night's game against the Bengals and will not return, Nick Farabaugh of PennLive.com reports."
+    }
+   ]
+  },
   "SEA": {
    "adj_points": 4.12,
    "qb_out": true,
@@ -658,8 +683,8 @@
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-15T22:03Z",
-     "note": "Lucas (ankle) is doubtful to return to Sunday's game against the Raiders."
+     "updated": "2026-11-16T01:36Z",
+     "note": "Lucas suffered a sprained ankle during Sunday's Week 10 win over the Raiders, Brady Henderson of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,

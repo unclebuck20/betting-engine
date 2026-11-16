@@ -30250,14 +30250,14 @@
    "price": 100,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624316413&selectionId=532781",
-   "ev_pct": 2.68,
-   "confidence": 51.3
+   "ev_pct": 2.22,
+   "confidence": 51.1
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.68,
-   "confidence": 51.3,
+   "ev_pct": 2.22,
+   "confidence": 51.1,
    "line": -14.5,
    "price": 100,
    "book": "fanduel",
@@ -30864,7 +30864,7 @@
   "open_line": null,
   "confidence": 55.7,
   "ev_pct": 6.38,
-  "units": 0.5,
+  "units": 2.0,
   "price_floor": 16.0,
   "floor_text": "Good to +16 at -110",
   "fair_source": "consensus",
@@ -30881,7 +30881,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-15T17:08:00.735359+00:00",
   "published_at": "2026-11-15T18:01:21.772994+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-11-15T18:01:21.772994+00:00",
@@ -30907,20 +30907,21 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695635P1650_3",
-   "ev_pct": 1.9,
-   "confidence": 53.4
+   "ev_pct": 6.46,
+   "confidence": 55.8
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 1.9,
-   "confidence": 53.4,
+   "tier": "play",
+   "ev_pct": 6.46,
+   "confidence": 55.8,
    "line": 16.5,
    "price": -110,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Dolphins +16.5; DraftKings has +16.5 (-110). Our NFL model makes Dolphins +12.5, 4.0 pts better than the market.",
+   "why": "BetOnline/LowVig makes Dolphins +16.5; DraftKings has +16.5 (-110). Our NFL model makes Dolphins +12.5, 4.3 pts better than the market.",
    "flags": []
-  }
+  },
+  "units_uncapped": 2.0
  },
  "403a88701352da05b0710a9e883b803e|Over": {
   "id": "403a88701352da05b0710a9e883b803e",
@@ -31032,7 +31033,7 @@
   "open_line": null,
   "confidence": 54.9,
   "ev_pct": 2.59,
-  "units": 2.0,
+  "units": 1.0,
   "price_floor": 14.0,
   "floor_text": "Good to +14 at -110",
   "fair_source": "consensus",
@@ -31080,9 +31081,10 @@
    "line": 15.5,
    "price": -105,
    "book": "fanduel",
-   "why": "BetOnline/LowVig makes Cardinals +16; FanDuel has +15.5 (-105). Our NFL model makes Cardinals +9.5, 6.7 pts better than the market. ARI is without Michael Wilson (WR, injured reserve); injuries are worth ~1.2 pts to them by our injury model.",
+   "why": "BetOnline/LowVig makes Cardinals +16; FanDuel has +15.5 (-105). Our NFL model makes Cardinals +9, 7.2 pts better than the market.",
    "flags": []
-  }
+  },
+  "units_uncapped": 2.0
  },
  "4b20b742b6168aaca4f25d87f11b1526|New York Jets": {
   "id": "4b20b742b6168aaca4f25d87f11b1526",
@@ -31153,7 +31155,8 @@
    "book": "fanduel",
    "why": "BetOnline/LowVig makes Jets +4.5; FanDuel has +3.5 (-115). Our NFL model makes Jets -1, 5.2 pts better than the market.",
    "flags": []
-  }
+  },
+  "units_uncapped": 1.5
  },
  "1940706a79cbcbafacdcbf231069716b|Over": {
   "id": "1940706a79cbcbafacdcbf231069716b",
@@ -31223,7 +31226,8 @@
    "book": "fanduel",
    "why": "BetOnline/LowVig's fair total is 38.5; FanDuel has Over 40.5 (-105). Our model projects 43.7 points from both offenses' efficiency and pace.",
    "flags": []
-  }
+  },
+  "units_uncapped": 0.5
  },
  "4c5b1c0843a260278e95eb93e7787576|Under": {
   "id": "4c5b1c0843a260278e95eb93e7787576",
@@ -31293,7 +31297,8 @@
    "book": "fanduel",
    "why": "BetOnline/LowVig's fair total is 47.5; FanDuel has Under 47.5 (-110). Our model projects 42.3 points from both offenses' efficiency and pace.",
    "flags": []
-  }
+  },
+  "units_uncapped": 1.5
  },
  "3ea90704fb576633bd1e2fa5aafd9ea3|Under": {
   "id": "3ea90704fb576633bd1e2fa5aafd9ea3",
@@ -31348,21 +31353,22 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695456U4950_3",
-   "ev_pct": 3.47,
-   "confidence": 54.2
+   "ev_pct": 3.33,
+   "confidence": 54.1
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "play",
-   "ev_pct": 3.47,
-   "confidence": 54.2,
+   "ev_pct": 3.33,
+   "confidence": 54.1,
    "line": 49.5,
    "price": -110,
    "book": "draftkings",
    "why": "BetOnline/LowVig's fair total is 50; DraftKings has Under 49.5 (-110). Our model projects 46.1 points from both offenses' efficiency and pace.",
    "flags": []
-  }
+  },
+  "units_uncapped": 1.0
  },
  "41e2dd69bddd65d7e823d9ed61cc2afc|Tampa Bay Buccaneers": {
   "id": "41e2dd69bddd65d7e823d9ed61cc2afc",
@@ -31417,19 +31423,20 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695646P600_3",
-   "ev_pct": 2.79,
+   "ev_pct": 2.72,
    "confidence": 53.9
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.79,
+   "ev_pct": 2.72,
    "confidence": 53.9,
    "line": 6.0,
    "price": -110,
    "book": "draftkings",
    "why": "BetOnline/LowVig makes Buccaneers +6; DraftKings has +6 (-110). Our NFL model makes Buccaneers +3, 2.8 pts better than the market. DET is without D.J. Reed (CB, out); injuries are worth ~1.2 pts to them by our injury model.",
    "flags": []
-  }
+  },
+  "units_uncapped": 0.5
  }
 }
