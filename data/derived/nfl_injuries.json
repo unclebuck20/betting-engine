@@ -3,23 +3,15 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-17T10:00:41.330564+00:00",
-  "previous_pull": "2026-11-17T07:30:43.233206+00:00",
+  "injury_pull": "2026-11-17T13:30:34.840240+00:00",
+  "previous_pull": "2026-11-17T10:00:41.330564+00:00",
   "matched_absences": 51
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.65,
+   "adj_points": 0.39,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Hjalte Froholdt",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-16T17:34Z",
-     "note": "out"
-    },
     {
      "player": "Andrew Wingard",
      "pos": "S",
@@ -27,9 +19,17 @@
      "points": 0.3,
      "updated": "2026-11-17T00:06Z",
      "note": "Head coach Mike LaFleur said Monday that Wingard (wrist/hand) will be \"out for an extended period of time,\" Dani Sureck of the Cardinals' official site reports."
+    },
+    {
+     "player": "Hjalte Froholdt",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.26,
    "new_absences": []
   },
   "BAL": {
@@ -105,7 +105,7 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-16T19:07Z",
+     "updated": "2026-11-17T12:20Z",
      "note": "out"
     }
    ],
@@ -113,7 +113,7 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 1.1,
+   "adj_points": 0.87,
    "qb_out": false,
    "absences": [
     {
@@ -135,13 +135,13 @@
     {
      "player": "P.J. Locke",
      "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-16T19:10Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "DEN": {
@@ -193,17 +193,9 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 1.01,
+   "adj_points": 0.44,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Danielle Hunter",
-     "pos": "DE",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-16T19:17Z",
-     "note": "out"
-    },
     {
      "player": "Woody Marks",
      "pos": "RB",
@@ -213,15 +205,23 @@
      "note": "Marks (concussion) missed Monday's walkthrough."
     },
     {
+     "player": "Danielle Hunter",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
+    },
+    {
      "player": "Azeez Al-Shaair",
      "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
+     "status": "Questionable",
+     "points": 0.06,
      "updated": "2026-11-17T01:03Z",
      "note": "Al-Shaair (groin) did not participate in Monday's walkthrough practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.57,
    "new_absences": []
   },
   "IND": {
@@ -273,24 +273,24 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.72,
+   "adj_points": 0.23,
    "qb_out": false,
    "absences": [
     {
      "player": "Jaylon Moore",
      "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-16T19:22Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     },
     {
      "player": "Kenneth Walker III",
      "pos": "RB",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-16T19:23Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     },
     {
      "player": "Trey Smith",
@@ -301,7 +301,7 @@
      "note": "Smith (concussion) has been ruled out for the remainder of Sunday's game against the Falcons."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.49,
    "new_absences": []
   },
   "LV": {
@@ -345,7 +345,7 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 4.99,
+   "adj_points": 4.31,
    "qb_out": true,
    "absences": [
     {
@@ -359,18 +359,18 @@
     {
      "player": "Chris Bell",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-16T19:27Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     },
     {
      "player": "Aaron Brewer",
      "pos": "C",
-     "status": "Out",
-     "points": 0.4,
-     "updated": "2026-11-16T19:28Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.1,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     },
     {
      "player": "Jordan Phillips",
@@ -381,11 +381,11 @@
      "note": "Phillips underwent further tests Monday on the arm he injured in Sunday's 24-22 loss to the Colts, Barry Jackson of the Miami Herald reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.68,
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 1.11,
+   "adj_points": 0.69,
    "qb_out": false,
    "absences": [
     {
@@ -399,18 +399,18 @@
     {
      "player": "T.J. Hockenson",
      "pos": "TE",
-     "status": "Out",
-     "points": 0.3,
+     "status": "Questionable",
+     "points": 0.07,
      "updated": "2026-11-16T18:43Z",
      "note": "Coach Kevin O'Connell said Monday that the Vikings expect Hockenson (wrist/chest) to make progress ahead of Sunday's game against the 49ers, Alec Lewis of The A"
     },
     {
      "player": "Blake Cashman",
      "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-16T18:40Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     },
     {
      "player": "Andrew Van Ginkel",
@@ -421,7 +421,7 @@
      "note": "Van Ginkel (quadriceps) is expected to practice ahead of a Week 11 road matchup against the 49ers, Kevin Seifert of ESPN.com reported Monday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.42,
    "new_absences": []
   },
   "NE": {
@@ -449,24 +449,16 @@
    "new_absences": []
   },
   "NO": {
-   "adj_points": 1.31,
+   "adj_points": 1.17,
    "qb_out": false,
    "absences": [
     {
      "player": "Taliese Fuaga",
      "pos": "T",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-16T19:33Z",
-     "note": "out"
-    },
-    {
-     "player": "Erik McCoy",
-     "pos": "C",
-     "status": "Out",
-     "points": 0.4,
-     "updated": "2026-11-16T19:33Z",
-     "note": "out"
+     "status": "Doubtful",
+     "points": 0.42,
+     "updated": "2026-11-17T12:19Z",
+     "note": "doubtful"
     },
     {
      "player": "Asim Richards",
@@ -477,6 +469,14 @@
      "note": "Head coach Kellen Moore said Monday that Richards will be sidelined for multiple weeks due to a knee injury that the latter sustained during the Saints' 20-17 l"
     },
     {
+     "player": "Erik McCoy",
+     "pos": "C",
+     "status": "Doubtful",
+     "points": 0.34,
+     "updated": "2026-11-17T12:19Z",
+     "note": "doubtful"
+    },
+    {
      "player": "Pete Werner",
      "pos": "LB",
      "status": "Questionable",
@@ -485,7 +485,7 @@
      "note": "Werner (hamstring) has been ruled out for the rest of Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.14,
    "new_absences": []
   },
   "NYJ": {
@@ -601,7 +601,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.67,
+   "adj_points": 0.48,
    "qb_out": false,
    "absences": [
     {
@@ -613,23 +613,23 @@
      "note": "The Titans placed Skoronski (hamstring) on injured reserve Saturday, Jim Wyatt of the team's official site reports."
     },
     {
-     "player": "Anthony Hill Jr.",
-     "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-16T20:10Z",
-     "note": "out"
-    },
-    {
      "player": "Wan'Dale Robinson",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-15T21:09Z",
      "note": "Robinson is questionable to return to Sunday's game against the Jaguars due to an ankle injury."
+    },
+    {
+     "player": "Anthony Hill Jr.",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-17T12:19Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   }
  }
