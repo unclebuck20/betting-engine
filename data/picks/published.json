@@ -30315,8 +30315,8 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC87191403N1550_1",
-   "ev_pct": -3.25,
-   "confidence": 50.7
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -30470,32 +30470,38 @@
   "held": false,
   "odds_pulled_at": "2026-11-15T17:08:00.735359+00:00",
   "published_at": "2026-11-15T17:08:11.200129+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-11-15T17:08:11.200129+00:00",
     25.5,
     -110,
     "draftkings"
+   ],
+   [
+    "2026-11-17T23:01:33.817684+00:00",
+    26.5,
+    -112,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 25.5,
-   "price": -110,
-   "book": "draftkings",
-   "link": "https://sportsbook.draftkings.com/?outcomes=0HC87191615P2550_3",
-   "ev_pct": null,
-   "confidence": null
+   "line": 26.5,
+   "price": -112,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625002656&selectionId=1010530",
+   "ev_pct": 2.02,
+   "confidence": 53.9
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 9.24,
-   "confidence": 57.2,
-   "line": 25.5,
-   "price": -110,
-   "book": "draftkings",
-   "why": "BetOnline/LowVig makes Northern Illinois +24.5; DraftKings has +25.5 (-110).",
+   "ev_pct": 2.02,
+   "confidence": 53.9,
+   "line": 26.5,
+   "price": -112,
+   "book": "fanduel",
+   "why": "Pinnacle makes Northern Illinois +25; FanDuel has +26.5 (-112). Our in-season power ratings have Northern Illinois 5.7 pts worse than the market. SP+ agrees with our ratings on the direction.",
    "flags": [
     "price is far better than the sharp line; confirm it's live before betting",
     "college injuries not checked yet"
@@ -32215,7 +32221,7 @@
   "open_line": 16.5,
   "confidence": 53.6,
   "ev_pct": 2.35,
-  "units": 0.5,
+  "units": 1.0,
   "price_floor": 17.5,
   "floor_text": "Good to +17.5 at -110",
   "fair_source": "pinnacle",
@@ -32232,32 +32238,38 @@
   "held": false,
   "odds_pulled_at": "2026-11-17T10:00:41.330564+00:00",
   "published_at": "2026-11-17T10:01:51.002131+00:00",
-  "status": "faded",
+  "status": "live",
   "history": [
    [
     "2026-11-17T10:01:51.002131+00:00",
     17.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-11-17T23:01:33.817684+00:00",
+    17.5,
+    -104,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 17.5,
-   "price": -110,
+   "price": -104,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625003915&selectionId=484739",
-   "ev_pct": 1.9,
+   "ev_pct": 4.7,
    "confidence": 53.4
   },
   "scout": null,
   "latest": {
-   "tier": "pass",
-   "ev_pct": 1.9,
+   "tier": "play",
+   "ev_pct": 4.7,
    "confidence": 53.4,
    "line": 17.5,
-   "price": -110,
+   "price": -104,
    "book": "fanduel",
-   "why": "Pinnacle makes Maryland +18; FanDuel has +17.5 (-110). Our in-season power ratings have Maryland 4.0 pts better than the market. The line opened +16.5 and has moved toward USC.",
+   "why": "Pinnacle makes Maryland +18; FanDuel has +17.5 (-104). Our in-season power ratings have Maryland 4.0 pts better than the market. The line opened +16.5 and has moved toward USC.",
    "flags": [
     "college injuries not checked yet"
    ]
