@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-17T17:01:47.459775+00:00",
+ "built_at": "2026-11-17T20:01:17.299395+00:00",
  "mine": {
   "all": {
    "n": 12,
@@ -123,20 +123,6 @@
  },
  "learned": [
   {
-   "date": "2026-10-12",
-   "param": "lean_ev",
-   "from": 0.01,
-   "to": 0.0125,
-   "evidence": "small edges (between the lean and play thresholds): avg closing-line value -3.78% over 45 picks"
-  },
-  {
-   "date": "2026-10-12",
-   "param": "play_ev",
-   "from": 0.025,
-   "to": 0.0275,
-   "evidence": "edges at or above the play threshold: avg closing-line value -0.03% over 73 picks"
-  },
-  {
    "date": "2026-10-18",
    "param": "cfb_weight_open",
    "from": 0.255,
@@ -205,6 +191,20 @@
    "from": 0.1331,
    "to": 0.1131,
    "evidence": "college picks where our ratings drove the edge (model gap 3+): avg closing-line value -1.33% over 125 picks"
+  },
+  {
+   "date": "2026-11-17",
+   "param": "cfb_weight_open",
+   "from": 0.1131,
+   "to": 0.1,
+   "evidence": "college picks where our ratings drove the edge (model gap 3+): avg closing-line value -1.00% over 134 picks"
+  },
+  {
+   "date": "2026-11-17",
+   "param": "nfl_injury_scale",
+   "from": 1.0,
+   "to": 0.85,
+   "evidence": "NFL picks driven by injury news: avg closing-line value -2.38% over 18 picks"
   }
  ],
  "scout": {
@@ -248,6 +248,6 @@
    "beat_close_pct": 25.0
   }
  },
- "calibration_note": "1 change(s)",
- "calibrated_at": "2026-11-11T15:00:56.688404+00:00"
+ "calibration_note": "2 change(s)",
+ "calibrated_at": "2026-11-17T17:01:47.733206+00:00"
 }
