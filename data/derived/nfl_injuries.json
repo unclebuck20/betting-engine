@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-17T21:00:33.167830+00:00",
-  "previous_pull": "2026-11-17T20:00:46.197167+00:00",
-  "matched_absences": 52
+  "injury_pull": "2026-11-17T22:00:31.178988+00:00",
+  "previous_pull": "2026-11-17T21:00:33.167830+00:00",
+  "matched_absences": 53
  },
  "teams": {
   "ARI": {
@@ -201,7 +201,7 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 0.63,
+   "adj_points": 0.75,
    "qb_out": false,
    "absences": [
     {
@@ -221,6 +221,14 @@
      "note": "The Texans placed Al-Shaair (groin) on injured reserve Tuesday."
     },
     {
+     "player": "Kamari Lassiter",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-17T21:53Z",
+     "note": "questionable"
+    },
+    {
      "player": "Danielle Hunter",
      "pos": "DE",
      "status": "Questionable",
@@ -229,8 +237,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Kamari Lassiter",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-17T21:53Z",
+     "note": "questionable"
+    }
+   ]
   },
   "IND": {
    "adj_points": 0.36,
@@ -353,7 +370,7 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 4.31,
+   "adj_points": 4.57,
    "qb_out": true,
    "absences": [
     {
@@ -363,6 +380,14 @@
      "points": 4.0,
      "updated": "2026-11-16T17:27Z",
      "note": "Head coach Jeff Hafley said Monday that Willis (groin/core) has not undergone surgery and that the Dolphins are still determining if a procedure is needed, Davi"
+    },
+    {
+     "player": "Jordan Phillips",
+     "pos": "DL",
+     "status": "Injured Reserve",
+     "points": 0.35,
+     "updated": "2026-11-17T21:08Z",
+     "note": "ir"
     },
     {
      "player": "Chris Bell",
@@ -379,17 +404,9 @@
      "points": 0.1,
      "updated": "2026-11-17T12:19Z",
      "note": "questionable"
-    },
-    {
-     "player": "Jordan Phillips",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-16T19:56Z",
-     "note": "Phillips underwent further tests Monday on the arm he injured in Sunday's 24-22 loss to the Colts, Barry Jackson of the Miami Herald reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.26,
    "new_absences": []
   },
   "MIN": {
@@ -609,9 +626,17 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.48,
+   "adj_points": 0.86,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Wan'Dale Robinson",
+     "pos": "WR",
+     "status": "Injured Reserve",
+     "points": 0.5,
+     "updated": "2026-11-17T21:26Z",
+     "note": "The Titans placed Robinson (ankle) on injured reserve Tuesday, Jim Wyatt of the team's official site reports."
+    },
     {
      "player": "Peter Skoronski",
      "pos": "G",
@@ -619,14 +644,6 @@
      "points": 0.3,
      "updated": "2026-11-14T21:52Z",
      "note": "The Titans placed Skoronski (hamstring) on injured reserve Saturday, Jim Wyatt of the team's official site reports."
-    },
-    {
-     "player": "Wan'Dale Robinson",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T21:09Z",
-     "note": "Robinson is questionable to return to Sunday's game against the Jaguars due to an ankle injury."
     },
     {
      "player": "Anthony Hill Jr.",
@@ -637,7 +654,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   }
  }
