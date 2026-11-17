@@ -30126,18 +30126,18 @@
    "price": -105,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625007009&selectionId=2129112",
-   "ev_pct": 0.79,
-   "confidence": 51.6
+   "ev_pct": 0.04,
+   "confidence": 51.2
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.79,
-   "confidence": 51.6,
+   "ev_pct": 0.04,
+   "confidence": 51.2,
    "line": 3.5,
    "price": -105,
    "book": "fanduel",
-   "why": "Pinnacle makes Baylor +5; FanDuel has +3.5 (-105). Our in-season power ratings have Baylor 5.5 pts better than the market.",
+   "why": "Pinnacle makes Baylor +5; FanDuel has +3.5 (-105). Our in-season power ratings have Baylor 2.3 pts better than the market. The line opened +1.5 and has moved toward Texas Tech.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -30203,18 +30203,18 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624315150&selectionId=969148",
-   "ev_pct": 0.92,
-   "confidence": 52.9
+   "ev_pct": 1.49,
+   "confidence": 53.2
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.92,
-   "confidence": 52.9,
+   "ev_pct": 1.49,
+   "confidence": 53.2,
    "line": 3.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Rice +3.5; FanDuel has +3.5 (-110). Our in-season power ratings have Rice 4.0 pts worse than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Rice +3.5; FanDuel has +3.5 (-110).",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -30358,19 +30358,20 @@
    "price": -110,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC87191402N1250_1",
-   "ev_pct": -1.06,
-   "confidence": 51.8
+   "ev_pct": -2.6,
+   "confidence": 51.0
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.06,
-   "confidence": 51.8,
+   "ev_pct": -2.6,
+   "confidence": 51.0,
    "line": -12.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Duke -13.5; FanDuel has -12.5 (-110). Our in-season power ratings have Duke 4.3 pts better than the market.",
+   "why": "Pinnacle makes Duke -13.5; FanDuel has -12.5 (-110). The line opened -8.5 and has moved toward Duke.",
    "flags": [
+    "our ratings disagree with SP+ and the market by 6 pts; likely a roster or QB change, so no model weight",
     "college injuries not checked yet"
    ]
   }
@@ -30506,18 +30507,18 @@
    "price": -118,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC87191411P350_1",
-   "ev_pct": -2.54,
-   "confidence": 52.8
+   "ev_pct": -3.22,
+   "confidence": 52.4
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -2.54,
-   "confidence": 52.8,
+   "ev_pct": -3.22,
+   "confidence": 52.4,
    "line": 3.5,
    "price": -118,
    "book": "draftkings",
-   "why": "Pinnacle makes Navy +4.5; DraftKings has +3.5 (-118). Our in-season power ratings have Navy 4.3 pts better than the market.",
+   "why": "Pinnacle makes Navy +4.5; DraftKings has +3.5 (-118). Our in-season power ratings have Navy 2.2 pts better than the market.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -31221,25 +31222,31 @@
     3.5,
     -115,
     "fanduel"
+   ],
+   [
+    "2026-11-17T00:30:50.304797+00:00",
+    3.0,
+    -110,
+    "draftkings"
    ]
   ],
   "current": {
-   "line": 3.5,
-   "price": -115,
-   "book": "fanduel",
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292660&selectionId=50202",
-   "ev_pct": 4.7,
-   "confidence": 56.0
+   "line": 3.0,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695590P300_3",
+   "ev_pct": 2.64,
+   "confidence": 53.9
   },
   "scout": null,
   "latest": {
    "tier": "lean",
-   "ev_pct": 4.7,
-   "confidence": 56.0,
-   "line": 3.5,
-   "price": -115,
-   "book": "fanduel",
-   "why": "The market average makes Jets +4.5; FanDuel has +3.5 (-115). Our NFL model makes Jets -0.5, 5.1 pts better than the market.",
+   "ev_pct": 2.64,
+   "confidence": 53.9,
+   "line": 3.0,
+   "price": -110,
+   "book": "draftkings",
+   "why": "The market average makes Jets +3.5; DraftKings has +3 (-110). Our NFL model makes Jets -0.5, 4.3 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
    ]
@@ -31555,9 +31562,7 @@
    "price": -112,
    "book": "draftkings",
    "why": "Pinnacle makes Buccaneers +7; DraftKings has +6.5 (-112). Our NFL model makes Buccaneers +4, 2.8 pts better than the market. DET is without Aidan Hutchinson (DE, out); injuries are worth ~0.5 pts to them by our injury model.",
-   "flags": [
-    "sharp line moved 1.0 pts against this side recently"
-   ]
+   "flags": []
   }
  },
  "cbe45bafcc2615fc1d96cbc12840377a|Philadelphia Eagles": {
@@ -31677,7 +31682,7 @@
   "held": false,
   "odds_pulled_at": "2026-11-16T13:30:43.879884+00:00",
   "published_at": "2026-11-16T13:30:53.584254+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-16T13:30:53.584254+00:00",
@@ -31691,20 +31696,19 @@
    "price": -108,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0HC87191604N1650_1",
-   "ev_pct": 2.52,
-   "confidence": 53.2
+   "ev_pct": -0.27,
+   "confidence": 51.8
   },
   "scout": null,
   "latest": {
-   "tier": "lean",
-   "ev_pct": 2.52,
-   "confidence": 53.2,
+   "tier": "pass",
+   "ev_pct": -0.27,
+   "confidence": 51.8,
    "line": -16.5,
    "price": -108,
    "book": "draftkings",
-   "why": "Pinnacle makes Liberty -17.5; DraftKings has -16.5 (-108). Our in-season power ratings have Liberty 10.4 pts better than the market. SP+ agrees with our ratings on the direction.",
+   "why": "Pinnacle makes Liberty -17.5; DraftKings has -16.5 (-108). Our in-season power ratings have Liberty 1.8 pts better than the market. The line opened -14.5 and has moved toward Liberty.",
    "flags": [
-    "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
     "college injuries not checked yet"
    ]
   }
@@ -31775,6 +31779,78 @@
    "book": "draftkings",
    "why": "Pinnacle makes Colts +11.5; DraftKings has +11.5 (-110). Our NFL model makes Colts +7.5, 4.1 pts better than the market. HOU is without Danielle Hunter (DE, out); injuries are worth ~1.4 pts to them by our injury model.",
    "flags": []
+  }
+ },
+ "c3b7f980521e9fb576ce8dbd49a9f7de|Arkansas Razorbacks": {
+  "id": "c3b7f980521e9fb576ce8dbd49a9f7de",
+  "pick_key": "c3b7f980521e9fb576ce8dbd49a9f7de|Arkansas Razorbacks",
+  "market": "spread",
+  "league": "cfb",
+  "slot": "sat",
+  "tier": "lean",
+  "edges": [],
+  "matchup": "Arkansas Razorbacks @ Texas Longhorns",
+  "kickoff_utc": "2026-11-21T20:30:00Z",
+  "kickoff_pt": "Sat Nov 21, 12:30 PM PST",
+  "side": "Arkansas Razorbacks",
+  "opponent": "Texas Longhorns",
+  "side_is_home": false,
+  "line": 21.5,
+  "price": -120,
+  "book": "fanduel",
+  "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625001882&selectionId=2583910",
+  "fair_line": 22.0,
+  "open_line": 21,
+  "confidence": 56.7,
+  "ev_pct": 3.98,
+  "units": 0.5,
+  "price_floor": 21.0,
+  "floor_text": "Good to +21 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": 22.0,
+  "model_home_margin": 9.6,
+  "model_weight": 0.113,
+  "hours_to_kick": 116.0,
+  "signals": [],
+  "why": "Pinnacle makes Arkansas +22; FanDuel has +21.5 (-120). Our in-season power ratings have Arkansas 12.4 pts better than the market.",
+  "flags": [
+   "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
+   "college injuries not checked yet"
+  ],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-16T13:30:43.879884+00:00",
+  "published_at": "2026-11-17T00:30:50.304797+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-17T00:30:50.304797+00:00",
+    21.5,
+    -120,
+    "fanduel"
+   ]
+  ],
+  "current": {
+   "line": 21.5,
+   "price": -120,
+   "book": "fanduel",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625001882&selectionId=2583910",
+   "ev_pct": 3.98,
+   "confidence": 56.7
+  },
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 3.98,
+   "confidence": 56.7,
+   "line": 21.5,
+   "price": -120,
+   "book": "fanduel",
+   "why": "Pinnacle makes Arkansas +22; FanDuel has +21.5 (-120). Our in-season power ratings have Arkansas 12.4 pts better than the market.",
+   "flags": [
+    "our ratings are 10+ pts off the market; they may be missing a roster or QB change",
+    "college injuries not checked yet"
+   ]
   }
  }
 }
