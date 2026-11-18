@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-18T18:30:33.101187+00:00",
-  "previous_pull": "2026-11-18T15:00:46.783051+00:00",
-  "matched_absences": 54
+  "injury_pull": "2026-11-18T22:00:36.564487+00:00",
+  "previous_pull": "2026-11-18T18:30:33.101187+00:00",
+  "matched_absences": 62
  },
  "teams": {
   "ARI": {
@@ -49,7 +49,7 @@
    "new_absences": []
   },
   "BUF": {
-   "adj_points": 0.12,
+   "adj_points": 0.26,
    "qb_out": false,
    "absences": [
     {
@@ -59,15 +59,97 @@
      "points": 0.12,
      "updated": "2026-11-15T20:48Z",
      "note": "Benford (groin) has been ruled out for the rest of Sunday's game against the Jets."
+    },
+    {
+     "player": "Damar Hamlin",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:35Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Cole Bishop",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:35Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.14,
+   "new_absences": [
+    {
+     "player": "Damar Hamlin",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:35Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Cole Bishop",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:35Z",
+     "note": "questionable"
+    }
+   ]
+  },
+  "CAR": {
+   "adj_points": 0.14,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Tommy Tremble",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:14Z",
+     "note": "Tremble didn't practice Wednesday due to a knee issue, with head coach Dave Canales noting after the session that the tight end's injury is a \"concern,\" Steve R"
+    },
+    {
+     "player": "Darren Waller",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T20:11Z",
+     "note": "Waller didn't practice Wednesday due to a knee issue, and afterward head coach Dave Canales called the tight end's injury a \"concern,\" Steve Reed of the Associa"
+    }
+   ],
+   "delta_since_last_pull": 0.14,
+   "new_absences": [
+    {
+     "player": "Tommy Tremble",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:14Z",
+     "note": "Tremble didn't practice Wednesday due to a knee issue, with head coach Dave Canales noting after the session that the tight end's injury is a \"concern,\" Steve R"
+    },
+    {
+     "player": "Darren Waller",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T20:11Z",
+     "note": "Waller didn't practice Wednesday due to a knee issue, and afterward head coach Dave Canales called the tight end's injury a \"concern,\" Steve Reed of the Associa"
+    }
+   ]
   },
   "CHI": {
    "adj_points": 0.18,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Jeffery Simmons",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-18T21:12Z",
+     "note": "questionable"
+    },
     {
      "player": "Kyler Gordon",
      "pos": "DB",
@@ -75,18 +157,19 @@
      "points": 0.09,
      "updated": "2026-11-18T00:10Z",
      "note": "Bears coach Ben Johnson said Monday that Gordon has a shoulder injury and is day-to-day, Courtney Cronin of ESPN.com reports."
-    },
-    {
-     "player": "Tyrique Stevenson Sr.",
-     "pos": "DB",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-09T03:13Z",
-     "note": "Stevenson exited Sunday night's game against the Bucs with a hand injury and is questionable to return."
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "new_absences": [
+    {
+     "player": "Jeffery Simmons",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-18T21:12Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CIN": {
    "adj_points": 0.07,
@@ -175,10 +258,10 @@
     {
      "player": "Aidan Hutchinson",
      "pos": "DE",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.5,
-     "updated": "2026-11-16T23:15Z",
-     "note": "Tests Monday have confirmed that Hutchinson sustained a torn ACL in his right knee during Sunday's 35-10 win over the Patriots in Munich, but he avoided any oth"
+     "updated": "2026-11-18T21:16Z",
+     "note": "ir"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -201,16 +284,24 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 0.75,
+   "adj_points": 1.05,
    "qb_out": false,
    "absences": [
     {
+     "player": "Danielle Hunter",
+     "pos": "DE",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-18T01:15Z",
+     "note": "Hunter (hamstring) did not participate at practice Tuesday."
+    },
+    {
      "player": "Woody Marks",
      "pos": "RB",
-     "status": "Doubtful",
-     "points": 0.26,
-     "updated": "2026-11-17T21:59Z",
-     "note": "Marks (concussion) didn't practice Tuesday."
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-18T20:51Z",
+     "note": "Marks (concussion) has been ruled out for Thursday's game against the Colts."
     },
     {
      "player": "Azeez Al-Shaair",
@@ -219,31 +310,31 @@
      "points": 0.25,
      "updated": "2026-11-17T01:03Z",
      "note": "Al-Shaair (groin) did not participate in Monday's walkthrough practice."
-    },
-    {
-     "player": "Danielle Hunter",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-18T01:15Z",
-     "note": "Hunter (hamstring) did not participate at practice Tuesday."
-    },
-    {
-     "player": "Kamari Lassiter",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-18T01:10Z",
-     "note": "Lassiter (wrist) did not participate at practice Tuesday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.3,
    "new_absences": []
   },
   "IND": {
-   "adj_points": 0.36,
+   "adj_points": 1.12,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Charvarius Ward",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-18T20:58Z",
+     "note": "The Colts have ruled Ward (knee) out for Thursday night's game against the Texans."
+    },
+    {
+     "player": "Bernhard Raimann",
+     "pos": "T",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-18T18:42Z",
+     "note": "out"
+    },
     {
      "player": "Sauce Gardner",
      "pos": "CB",
@@ -251,29 +342,13 @@
      "points": 0.12,
      "updated": "2026-11-17T00:28Z",
      "note": "Gardner (calf) was listed as a DNP for Monday's walkthrough practice."
-    },
-    {
-     "player": "Charvarius Ward",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-16T22:38Z",
-     "note": "Colts head coach Shane Steichen said that Ward (shin) is uncertain to be available for Thursday's game against the Texans after exiting Sunday's 24-22 win over "
-    },
-    {
-     "player": "Bernhard Raimann",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T18:52Z",
-     "note": "Raimann has entered the league's concussion protocol and has been ruled out for the rest of Sunday's game against the Dolphins, James Boyd of The Athletic repor"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.76,
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.35,
+   "adj_points": 0.66,
    "qb_out": false,
    "absences": [
     {
@@ -283,13 +358,62 @@
      "points": 0.35,
      "updated": "2026-11-18T16:05Z",
      "note": "Jaguars head coach Liam Coen announced Wednesday that Hainsey (knee) is out for Sunday's game against the Giants, Ryan O'Halloran of The Florida Times-Union rep"
+    },
+    {
+     "player": "Travon Walker",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T21:26Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jakobi Meyers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T21:16Z",
+     "note": "Meyers (ankle) was a limited participant in Wednesday's practice."
+    },
+    {
+     "player": "Antonio Johnson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:25Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.26,
-   "new_absences": []
+   "delta_since_last_pull": 0.31,
+   "new_absences": [
+    {
+     "player": "Travon Walker",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T21:26Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Jakobi Meyers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T21:16Z",
+     "note": "Meyers (ankle) was a limited participant in Wednesday's practice."
+    },
+    {
+     "player": "Antonio Johnson",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:25Z",
+     "note": "questionable"
+    }
+   ]
   },
   "KC": {
-   "adj_points": 0.23,
+   "adj_points": 0.29,
    "qb_out": false,
    "absences": [
     {
@@ -315,10 +439,27 @@
      "points": 0.07,
      "updated": "2026-11-15T19:05Z",
      "note": "Smith (concussion) has been ruled out for the remainder of Sunday's game against the Falcons."
+    },
+    {
+     "player": "Nick Bolton",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-18T03:13Z",
+     "note": "Bolton recorded nine total tackles (five solo) and a forced fumble during Sunday's 35-13 win over Atlanta."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Nick Bolton",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-18T03:13Z",
+     "note": "Bolton recorded nine total tackles (five solo) and a forced fumble during Sunday's 35-13 win over Atlanta."
+    }
+   ]
   },
   "LV": {
    "adj_points": 0.19,
@@ -337,8 +478,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-16T21:00Z",
-     "note": "Raiders head coach Klint Kubiak confirmed Monday that Bowers (ankle) is considered day-to-day after exiting Sunday's 21-13 loss to the Seahawks, Sam Warren of T"
+     "updated": "2026-11-18T21:02Z",
+     "note": "Bowers (ankle) didn't practice Wednesday and is considered day-to-day, Sam Warren of The Athletic reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -361,7 +502,7 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 4.57,
+   "adj_points": 4.76,
    "qb_out": true,
    "absences": [
     {
@@ -377,8 +518,16 @@
      "pos": "DL",
      "status": "Injured Reserve",
      "points": 0.35,
-     "updated": "2026-11-18T00:19Z",
-     "note": "Phillips (biceps) was placed on injured reserve by the Dolphins on Tuesday."
+     "updated": "2026-11-18T19:24Z",
+     "note": "Phillips underwent surgery on his injured bicep Wednesday, David Furones of the South Florida Sun Sentinel reports."
+    },
+    {
+     "player": "Caleb Douglas",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T20:27Z",
+     "note": "Douglas (undisclosed) practiced Wednesday in a non-contact jersey, but he said he will play Sunday against  the Bills, C. Isaiah Smalls II of the Miami Herald r"
     },
     {
      "player": "Chris Bell",
@@ -395,10 +544,35 @@
      "points": 0.1,
      "updated": "2026-11-17T12:19Z",
      "note": "questionable"
+    },
+    {
+     "player": "Dante Trader Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:31Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "Caleb Douglas",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T20:27Z",
+     "note": "Douglas (undisclosed) practiced Wednesday in a non-contact jersey, but he said he will play Sunday against  the Bills, C. Isaiah Smalls II of the Miami Herald r"
+    },
+    {
+     "player": "Dante Trader Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T21:31Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIN": {
    "adj_points": 0.69,
@@ -409,16 +583,16 @@
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-16T18:45Z",
-     "note": "Vikings head coach Kevin O'Connell said Monday that Addison will require surgery on his thumb and will miss a few weeks, Alec Lewis of The Athletic reports."
+     "updated": "2026-11-18T19:25Z",
+     "note": "Head coach Kevin O'Connell said Wednesday that Addison underwent thumb surgery earlier this week and won't be placed on injured reserve, Alec Lewis of The Athle"
     },
     {
      "player": "T.J. Hockenson",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-16T18:43Z",
-     "note": "Coach Kevin O'Connell said Monday that the Vikings expect Hockenson (wrist/chest) to make progress ahead of Sunday's game against the 49ers, Alec Lewis of The A"
+     "updated": "2026-11-18T19:56Z",
+     "note": "Head coach Kevin O'Connell said Wednesday that the Vikings hope Hockenson (wrist/chest) returns to action Sunday against the 49ers in Mexico City, Kevin Seifert"
     },
     {
      "player": "Blake Cashman",
@@ -541,17 +715,8 @@
      "note": "Head coach Aaron Glenn told reporters that Parham got imaging done for a knee injury that the latter sustained during the Jets' Week 10 loss to the Bills on Sun"
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Isaiah Williams",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-18T17:07Z",
-     "note": "Jets head coach Aaron Glenn said that Williams won't practice Wednesday due to a rib injury, Eric Allen of the Jets' official site reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PHI": {
    "adj_points": 0.06,
@@ -576,13 +741,13 @@
     {
      "player": "Mason McCormick",
      "pos": "G",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.3,
-     "updated": "2026-11-18T15:03Z",
-     "note": "out"
+     "updated": "2026-11-18T19:49Z",
+     "note": "ir"
     }
    ],
-   "delta_since_last_pull": 0.04,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SF": {
@@ -594,8 +759,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-17T00:16Z",
-     "note": "Green (back) was unable to finish Sunday's 46-40 win over the Cowboys, Jennifer Lee Chan of NBC Sports Bay Area reports."
+     "updated": "2026-11-18T20:37Z",
+     "note": "Green (back) was a limited participant in Wednesday's practice, Nick Wagoner of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -626,15 +791,15 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-18T17:17Z",
-     "note": "Mayfield (foot) isn't practicing Wednesday, Greg Auman of Fox Sports reports."
+     "updated": "2026-11-18T18:37Z",
+     "note": "Coach Todd Bowles said Wednesday that Mayfield (foot), who didn't practice Wednesday, is \"a lot better\" than he was a week ago, Scott Smith of the Buccaneers' o"
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.86,
+   "adj_points": 0.56,
    "qb_out": false,
    "absences": [
     {
@@ -646,14 +811,6 @@
      "note": "Coach Robert Saleh said Wednesday that Robinson (ankle) -- who was placed on IR on Tuesady -- is out for the rest of the season, Terry McCormick of TitanInsider"
     },
     {
-     "player": "Peter Skoronski",
-     "pos": "G",
-     "status": "Injured Reserve",
-     "points": 0.3,
-     "updated": "2026-11-14T21:52Z",
-     "note": "The Titans placed Skoronski (hamstring) on injured reserve Saturday, Jim Wyatt of the team's official site reports."
-    },
-    {
      "player": "Anthony Hill Jr.",
      "pos": "LB",
      "status": "Questionable",
@@ -662,7 +819,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.3,
    "new_absences": []
   }
  }
