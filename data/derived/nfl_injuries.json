@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-18T23:00:35.094771+00:00",
-  "previous_pull": "2026-11-18T22:00:36.564487+00:00",
-  "matched_absences": 64
+  "injury_pull": "2026-11-19T00:00:35.677356+00:00",
+  "previous_pull": "2026-11-18T23:00:35.094771+00:00",
+  "matched_absences": 67
  },
  "teams": {
   "ARI": {
@@ -385,17 +385,9 @@
    "new_absences": []
   },
   "LV": {
-   "adj_points": 0.19,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Kwity Paye",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T23:31Z",
-     "note": "Paye (neck) is questionable to return to Sunday's game against the Seahawks."
-    },
     {
      "player": "Brock Bowers",
      "pos": "TE",
@@ -405,7 +397,7 @@
      "note": "Coach Klint Kubiak noted Wednesday that Bowers (ankle) doesn't need to practice this week in order to play Sunday Sunday against the Broncos, Sam Warren of The "
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "LA": {
@@ -589,17 +581,8 @@
      "note": "Werner (hamstring) has been ruled out for the rest of Sunday's game against the Panthers, Jeff Nowak of WWL Radio reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Martin Emerson Jr.",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-18T21:59Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYJ": {
    "adj_points": 1.33,
@@ -610,8 +593,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-18T17:01Z",
-     "note": "Jets head coach Aaron Glenn said that Smith (ankle) will be a limited participant in Wednesday's practice, Brian Costello of the New York Post reports."
+     "updated": "2026-11-18T22:52Z",
+     "note": "Smith (ankle), who was a limited participant in Wednesday's walkthrough practice, said afterward that he intends to play in Sunday's game against the Chargers, "
     },
     {
      "player": "Isaiah Williams",
@@ -642,9 +625,17 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.06,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Nolan Smith Jr.",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-18T23:07Z",
+     "note": "questionable"
+    },
     {
      "player": "Zack Baun",
      "pos": "LB",
@@ -654,8 +645,17 @@
      "note": "Baun (back) is questionable to return to Sunday's contest against the Giants."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Nolan Smith Jr.",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-18T23:07Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.36,
@@ -678,22 +678,21 @@
      "note": "Queen posted 14 tackles (five solo), including 1.0 sacks, in Sunday's loss to the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Patrick Queen",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-18T05:46Z",
-     "note": "Queen posted 14 tackles (five solo), including 1.0 sacks, in Sunday's loss to the Bengals."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "SF": {
-   "adj_points": 0.12,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Upton Stout",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T23:27Z",
+     "note": "questionable"
+    },
     {
      "player": "Renardo Green",
      "pos": "CB",
@@ -701,10 +700,51 @@
      "points": 0.12,
      "updated": "2026-11-18T20:37Z",
      "note": "Green (back) was a limited participant in Wednesday's practice, Nick Wagoner of ESPN.com reports."
+    },
+    {
+     "player": "Ji'Ayir Brown",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T23:25Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dre Greenlaw",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-18T20:26Z",
+     "note": "Greenlaw (neck) did not participate in practice Wednesday, Nick Wagoner of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.25,
+   "new_absences": [
+    {
+     "player": "Upton Stout",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-18T23:27Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Ji'Ayir Brown",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-18T23:25Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Dre Greenlaw",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-18T20:26Z",
+     "note": "Greenlaw (neck) did not participate in practice Wednesday, Nick Wagoner of ESPN.com reports."
+    }
+   ]
   },
   "SEA": {
    "adj_points": 0.12,
@@ -731,8 +771,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-18T18:37Z",
-     "note": "Coach Todd Bowles said Wednesday that Mayfield (foot), who didn't practice Wednesday, is \"a lot better\" than he was a week ago, Scott Smith of the Buccaneers' o"
+     "updated": "2026-11-18T17:17Z",
+     "note": "Mayfield (foot) isn't practicing Wednesday, Greg Auman of Fox Sports reports."
     }
    ],
    "delta_since_last_pull": 0.0,
