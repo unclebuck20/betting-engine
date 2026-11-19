@@ -31187,7 +31187,7 @@
    "line": 16.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes Dolphins +16.5; FanDuel has +16.5 (-110). Our NFL model makes Dolphins +12, 4.6 pts better than the market.",
+   "why": "Pinnacle makes Dolphins +16.5; FanDuel has +16.5 (-110). Our NFL model makes Dolphins +12, 4.5 pts better than the market.",
    "flags": []
   }
  },
@@ -32061,7 +32061,16 @@
    "ev_pct": 4.91,
    "confidence": 55.0
   },
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "IND OTs Raimann/Travis + CB Ward out, known since Sun; line moved 10->12.5 after. HOU without Hunter, MHJ, Marks. Domed. Nothing unpriced.",
+   "at": "2026-11-19T19:50Z",
+   "sources": [
+    "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+    "https://www.sportsbettingdime.com/news/nfl/final-texans-vs-colts-injury-reports-for-tnf-updates-on-sauce-gardner-danielle-hunter-woody-marks-more/",
+    "https://www.si.com/betting/colts-vs-texans-odds-skyrocket-in-favor-of-houston-on-thursday-night-football-in-week-11-2026"
+   ]
+  },
   "latest": {
    "tier": "play",
    "ev_pct": 4.91,
@@ -32558,6 +32567,72 @@
    "price": -115,
    "book": "draftkings",
    "why": "Pinnacle's fair total is 54.5; DraftKings has Under 54.5 (-115). Our model projects 49.6 points from both offenses' efficiency and pace.",
+   "flags": []
+  }
+ },
+ "ffaa06af56a7137d4b078c5c46c0b730|Philadelphia Eagles": {
+  "id": "ffaa06af56a7137d4b078c5c46c0b730",
+  "pick_key": "ffaa06af56a7137d4b078c5c46c0b730|Philadelphia Eagles",
+  "market": "spread",
+  "league": "nfl",
+  "slot": "thu",
+  "tier": "play",
+  "edges": [],
+  "matchup": "Philadelphia Eagles @ Dallas Cowboys",
+  "kickoff_utc": "2026-11-26T21:30:00Z",
+  "kickoff_pt": "Thu Nov 26, 1:30 PM PST",
+  "side": "Philadelphia Eagles",
+  "opponent": "Dallas Cowboys",
+  "side_is_home": false,
+  "line": 8.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695555P850_3",
+  "fair_line": 9.0,
+  "open_line": null,
+  "confidence": 56.0,
+  "ev_pct": 6.91,
+  "units": 2.0,
+  "price_floor": 7.5,
+  "floor_text": "Good to +7.5 at -110",
+  "fair_source": "sharp",
+  "market_home_margin": 8.9,
+  "model_home_margin": 3.8,
+  "model_weight": 0.304,
+  "hours_to_kick": 167.5,
+  "signals": [],
+  "why": "BetOnline/LowVig makes Eagles +9; DraftKings has +8.5 (-110). Our NFL model makes Eagles +4, 5.1 pts better than the market. DAL is without DaRon Bland (CB, out); injuries are worth ~0.7 pts to them by our injury model.",
+  "flags": [],
+  "inj_check": null,
+  "held": false,
+  "odds_pulled_at": "2026-11-19T11:30:41.731720+00:00",
+  "published_at": "2026-11-19T22:01:15.729660+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-19T22:01:15.729660+00:00",
+    8.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 8.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0HC84695555P850_3",
+   "ev_pct": 6.91,
+   "confidence": 56.0
+  },
+  "scout": null,
+  "latest": {
+   "tier": "play",
+   "ev_pct": 6.91,
+   "confidence": 56.0,
+   "line": 8.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "BetOnline/LowVig makes Eagles +9; DraftKings has +8.5 (-110). Our NFL model makes Eagles +4, 5.1 pts better than the market. DAL is without DaRon Bland (CB, out); injuries are worth ~0.7 pts to them by our injury model.",
    "flags": []
   }
  }
