@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-19T15:00:42.713272+00:00",
-  "previous_pull": "2026-11-19T11:30:41.731720+00:00",
-  "matched_absences": 69
+  "injury_pull": "2026-11-19T18:30:46.874169+00:00",
+  "previous_pull": "2026-11-19T15:00:42.713272+00:00",
+  "matched_absences": 70
  },
  "teams": {
   "ARI": {
@@ -33,9 +33,17 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.09,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Marlon Humphrey",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-19T17:07Z",
+     "note": "Ravens head coach Jesse Minter said that Humphrey won't play Sunday against the Panthers after the defensive back made a derogatory comment about the city of Ba"
+    },
     {
      "player": "Nnamdi Madubuike",
      "pos": "DL",
@@ -45,8 +53,17 @@
      "note": "Madubuike (hamstring) did not participate at practice Wednesday, Jamison Hensley of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.5,
+   "new_absences": [
+    {
+     "player": "Marlon Humphrey",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-19T17:07Z",
+     "note": "Ravens head coach Jesse Minter said that Humphrey won't play Sunday against the Panthers after the defensive back made a derogatory comment about the city of Ba"
+    }
+   ]
   },
   "BUF": {
    "adj_points": 0.26,
@@ -297,8 +314,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-19T00:03Z",
-     "note": "Gardner (calf) is listed as questionable for Thursday's game against the Texans."
+     "updated": "2026-11-19T17:03Z",
+     "note": "According to Jane Slater of NFL Network, Gardner (calf) is not in line to play Thursday night against the Texans."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -461,20 +478,20 @@
      "note": "Phillips underwent surgery on his injured bicep Wednesday, David Furones of the South Florida Sun Sentinel reports."
     },
     {
+     "player": "Caleb Douglas",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-19T18:09Z",
+     "note": "Douglas (shoulder) continued to don a non-contact jersey during Thursday's practice, Barry Jackson of the Miami Herald reports."
+    },
+    {
      "player": "Chris Bell",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-18T22:13Z",
      "note": "Bell (knee) was a limited participant in Wednesday's practice, David Furones of the South Florida Sun Sentinel reports."
-    },
-    {
-     "player": "Caleb Douglas",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-18T22:08Z",
-     "note": "Douglas was a limited participant in Wednesday's practice due to a shoulder injury, David Furones of the South Florida Sun Sentinel reports."
     },
     {
      "player": "Aaron Brewer",
@@ -761,8 +778,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-18T17:17Z",
-     "note": "Mayfield (foot) isn't practicing Wednesday, Greg Auman of Fox Sports reports."
+     "updated": "2026-11-19T16:53Z",
+     "note": "Mayfield (foot/thumb) was seen participating in Thursday's practice, Greg Auman of Fox Sports reports."
     }
    ],
    "delta_since_last_pull": 0.0,
