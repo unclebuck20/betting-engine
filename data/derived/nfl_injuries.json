@@ -3,13 +3,13 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-20T22:00:30.155201+00:00",
-  "previous_pull": "2026-11-20T21:00:44.224486+00:00",
-  "matched_absences": 56
+  "injury_pull": "2026-11-20T23:00:42.196262+00:00",
+  "previous_pull": "2026-11-20T22:00:30.155201+00:00",
+  "matched_absences": 53
  },
  "teams": {
   "ARI": {
-   "adj_points": 0.39,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
     {
@@ -19,17 +19,9 @@
      "points": 0.3,
      "updated": "2026-11-18T01:19Z",
      "note": "Wingard (wrist) was placed on injured reserve by the Cardinals on Tuesday."
-    },
-    {
-     "player": "Hjalte Froholdt",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-20T02:44Z",
-     "note": "Froholdt (concussion) practiced fully Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.09,
    "new_absences": []
   },
   "BAL": {
@@ -73,8 +65,8 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-19T00:13Z",
-     "note": "Hamlin (toe) was estimated to be a limited participant in Wednesday's walkthrough."
+     "updated": "2026-11-20T22:18Z",
+     "note": "Hamlin (toe) is listed as questionable for Sunday's game against Miami."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -89,8 +81,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-20T17:34Z",
-     "note": "Waller (knee) is listed as questionable for Sunday's game against the Ravens, Joseph Person of The Athletic reports."
+     "updated": "2026-11-20T16:38Z",
+     "note": "Waller (knee) is practicing again Friday, Joseph Person of The Athletic reports."
     },
     {
      "player": "Tommy Tremble",
@@ -192,22 +184,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "DEN": {
-   "adj_points": 0.12,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Riley Moss",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-19T20:06Z",
-     "note": "Moss (concussion) signed a four-year contract extension with the Broncos on Thursday, Aric DiLalla of the team's official site reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "DET": {
    "adj_points": 0.5,
    "qb_out": false,
@@ -269,7 +245,7 @@
      "note": "Jaguars head coach Liam Coen announced Wednesday that Hainsey (knee) is out for Sunday's game against the Giants, Ryan O'Halloran of The Florida Times-Union rep"
     }
    ],
-   "delta_since_last_pull": -0.31,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "KC": {
@@ -305,7 +281,7 @@
    "new_absences": []
   },
   "LV": {
-   "adj_points": 0.14,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
     {
@@ -315,21 +291,13 @@
      "points": 0.07,
      "updated": "2026-11-20T21:14Z",
      "note": "Bowers (ankle) said Friday that his availability for Sunday's game against the Broncos remains up in the air, Sam Warren of The Athletic reports."
-    },
-    {
-     "player": "Trey Zuhn III",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-20T12:40Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 0.32,
+   "adj_points": 0.44,
    "qb_out": false,
    "absences": [
     {
@@ -341,6 +309,14 @@
      "note": "out"
     },
     {
+     "player": "Tarheeb Still",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-20T22:05Z",
+     "note": "questionable"
+    },
+    {
      "player": "Charlie Kolar",
      "pos": "TE",
      "status": "Questionable",
@@ -349,8 +325,17 @@
      "note": "Kolar (concussion) is questionable for Sunday's game against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.19,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Tarheeb Still",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-20T22:05Z",
+     "note": "questionable"
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.8,
@@ -433,8 +418,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-19T22:13Z",
-     "note": "questionable"
+     "updated": "2026-11-20T22:27Z",
+     "note": "Rodgers (quadriceps) is listed as questionable for Sunday's game against the 49ers in Mexico City."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -473,8 +458,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-20T19:42Z",
-     "note": "out"
+     "updated": "2026-11-20T22:05Z",
+     "note": "Emerson (concussion) has been ruled out for Sunday's game against the Bears."
     },
     {
      "player": "Taliese Fuaga",
@@ -505,8 +490,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-19T00:59Z",
-     "note": "Werner (hamstring) did not participate in Wednesday's practice."
+     "updated": "2026-11-20T22:03Z",
+     "note": "Werner (hamstring) is listed as questionable for Sunday's game against the Bears."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -545,7 +530,7 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.31,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
     {
@@ -555,17 +540,9 @@
      "points": 0.25,
      "updated": "2026-11-20T21:22Z",
      "note": "out"
-    },
-    {
-     "player": "Nolan Smith Jr.",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-19T01:40Z",
-     "note": "Smith (illness) was limited in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.19,
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   },
   "PIT": {
@@ -585,8 +562,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-19T01:23Z",
-     "note": "Queen (hand) was a limited practice participant Wednesday, Teresa Varley of the Steelers' official site reports."
+     "updated": "2026-11-20T22:09Z",
+     "note": "Queen (hand) is questionable for Sunday's game against the Eagles, Brooke Pryor of ESPN.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -641,8 +618,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-20T20:51Z",
-     "note": "Mayfield (foot/thumb) is officially listed as questionable for Sunday's game at Detroit."
+     "updated": "2026-11-20T16:13Z",
+     "note": "Mayfield (foot) is practicing again Friday, Greg Auman of Fox Sports reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -665,8 +642,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-19T00:27Z",
-     "note": "Hill (shoulder) was a limited participant in Wednesday's practice, Paul Kuharsky of PaulKuharsky.com reports."
+     "updated": "2026-11-20T22:53Z",
+     "note": "Hill (neck) is questionable to face the Cowboys on Sunday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -681,27 +658,18 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-20T21:26Z",
-     "note": "questionable"
+     "updated": "2026-11-20T21:50Z",
+     "note": "Burks (foot) did not practice Friday."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Treylon Burks",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-20T21:26Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
-  "NYG": {
+  "DEN": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
