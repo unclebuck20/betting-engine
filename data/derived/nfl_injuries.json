@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-20T15:00:49.340871+00:00",
-  "previous_pull": "2026-11-20T13:00:39.112336+00:00",
+  "injury_pull": "2026-11-20T18:30:33.076621+00:00",
+  "previous_pull": "2026-11-20T15:00:49.340871+00:00",
   "matched_absences": 67
  },
  "teams": {
@@ -57,14 +57,14 @@
    "new_absences": []
   },
   "BUF": {
-   "adj_points": 0.19,
+   "adj_points": 0.57,
    "qb_out": false,
    "absences": [
     {
      "player": "Christian Benford",
      "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
+     "status": "Out",
+     "points": 0.5,
      "updated": "2026-11-20T01:08Z",
      "note": "Benford (groin) did not participate at practice Thursday."
     },
@@ -77,7 +77,7 @@
      "note": "Hamlin (toe) was estimated to be a limited participant in Wednesday's walkthrough."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "CAR": {
@@ -85,20 +85,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Darren Waller",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-20T17:34Z",
+     "note": "Waller (knee) is listed as questionable for Sunday's game against the Ravens, Joseph Person of The Athletic reports."
+    },
+    {
      "player": "Tommy Tremble",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-11-19T20:25Z",
      "note": "Tremble (knee) was limited in Thursday's practice, Mike Kaye of ESPN.com reports."
-    },
-    {
-     "player": "Darren Waller",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-19T20:08Z",
-     "note": "Waller (knee) was a limited participant in Thursday's practice, Mike Kaye of ESPN reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -321,8 +321,8 @@
      "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-19T21:11Z",
-     "note": "Walker (groin) did not practice Thursday."
+     "updated": "2026-11-20T18:01Z",
+     "note": "Walker (groin) wasn't spotted during the portion of Friday's practice open to the media, Pete Sweeney of The Kansas City Star reports."
     },
     {
      "player": "Trey Smith",
@@ -393,8 +393,8 @@
      "pos": "WR",
      "status": "Injured Reserve",
      "points": 0.5,
-     "updated": "2026-11-19T20:31Z",
-     "note": "Nacua has been suspended three games for violating the NFL's personal conduct policy, Adam Schefter of ESPN reports."
+     "updated": "2026-11-20T17:09Z",
+     "note": "Coach Sean McVay revealed Friday that Nacua (knee) had surgery to repair his MCL on Tuesday and is on track to miss a couple of months, Sarah Barshop of ESPN.co"
     },
     {
      "player": "Coleman Shelton",
@@ -409,7 +409,7 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 4.76,
+   "adj_points": 4.95,
    "qb_out": true,
    "absences": [
     {
@@ -429,6 +429,22 @@
      "note": "Phillips underwent surgery on his injured bicep Wednesday, David Furones of the South Florida Sun Sentinel reports."
     },
     {
+     "player": "Dante Trader Jr.",
+     "pos": "S",
+     "status": "Doubtful",
+     "points": 0.26,
+     "updated": "2026-11-20T15:39Z",
+     "note": "doubtful"
+    },
+    {
+     "player": "Caleb Douglas",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-20T15:51Z",
+     "note": "Douglas (shoulder) is expected to play Sunday against the Bills, Barry Jackson of the Miami Herald reports."
+    },
+    {
      "player": "Chris Bell",
      "pos": "WR",
      "status": "Questionable",
@@ -437,31 +453,15 @@
      "note": "Bell (knee) remained a limited participant in Thursday's practice, David Furones of the South Florida Sun Sentinel reports."
     },
     {
-     "player": "Caleb Douglas",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-19T22:08Z",
-     "note": "Douglas (shoulder) remained a limited practice participant Thursday, David Furones of the South Florida Sun Sentinel reports."
-    },
-    {
      "player": "Aaron Brewer",
      "pos": "C",
      "status": "Questionable",
      "points": 0.1,
      "updated": "2026-11-19T01:51Z",
      "note": "Brewer (concussion) did not participate at practice Wednesday, C. Isaiah Smalls II of the Miami Herald reports."
-    },
-    {
-     "player": "Dante Trader Jr.",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-19T00:47Z",
-     "note": "Trader (shoulder/groin) did not participate in Wednesday's practice, David Furones of the South Florida Sun Sentinel reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.19,
    "new_absences": []
   },
   "MIN": {
@@ -585,7 +585,7 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 1.33,
+   "adj_points": 2.09,
    "qb_out": false,
    "absences": [
     {
@@ -593,24 +593,24 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-19T22:48Z",
-     "note": "Smith (ankle) was a limited participant in Thursday's practice."
+     "updated": "2026-11-20T15:24Z",
+     "note": "Smith (ankle) will practice Friday, and head coach Aaron Glenn said \"things look promising for him playing Sunday,\" Brian Costello of the New York Post reports."
     },
     {
      "player": "Isaiah Williams",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-19T22:43Z",
-     "note": "Williams (ribs) was a non-participant in Thursday's practice."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-20T16:11Z",
+     "note": "Williams (ribs) won't play in Sunday's game against the Chargers."
     },
     {
      "player": "Omar Cooper Jr.",
      "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-19T22:37Z",
-     "note": "Cooper didn't practice Thursday due to ankle and hip injuries."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-20T15:18Z",
+     "note": "Coach Aaron Glenn said Friday that Cooper (ankle/hip) will be out for Sunday's game against the Chargers, Brian Costello of the New York Post reports."
     },
     {
      "player": "Dylan Parham",
@@ -621,7 +621,7 @@
      "note": "Head coach Aaron Glenn told reporters that Parham got imaging done for a knee injury that the latter sustained during the Jets' Week 10 loss to the Bills on Sun"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.76,
    "new_absences": []
   },
   "PHI": {
@@ -729,8 +729,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-19T21:53Z",
-     "note": "Mayfield (foot/right thumb) officially was limited at Thursday's practice."
+     "updated": "2026-11-20T17:25Z",
+     "note": "Mayfield (foot) is trending in the right direction to start Sunday's game against the Lions after looking good in Friday's practice, Scott Smith of the Buccanee"
     }
    ],
    "delta_since_last_pull": 0.0,
