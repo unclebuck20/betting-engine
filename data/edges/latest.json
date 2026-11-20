@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-11-19T23:30:51.835229+00:00",
+  "built_at": "2026-11-20T00:30:51.368807+00:00",
   "nfl_history_games": 5581,
   "cfb_history_games": 3730,
-  "games": 110
+  "games": 109
  },
  "games": [
   {
@@ -12,28 +12,28 @@
    "matchup": "Indianapolis Colts @ Houston Texans",
    "kickoff_pt": "Thu Nov 19 5:15 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": 11.8,
+   "fair_home_margin": 11.9,
    "best": [
     {
      "book": "lowvig",
-     "side": "away",
+     "side": "home",
      "home_line": -13.0,
-     "price": -110,
-     "ev": -0.0004
-    },
-    {
-     "book": "pinnacle",
-     "side": "away",
-     "home_line": -13.0,
-     "price": -114,
-     "ev": -0.0166
+     "price": 105,
+     "ev": -0.0122
     },
     {
      "book": "betmgm",
      "side": "away",
      "home_line": -12.5,
-     "price": -108,
-     "ev": -0.0198
+     "price": -105,
+     "ev": -0.0178
+    },
+    {
+     "book": "bovada",
+     "side": "away",
+     "home_line": -12.5,
+     "price": -105,
+     "ev": -0.0178
     }
    ]
   },
@@ -902,37 +902,6 @@
      "home_line": -1.5,
      "price": -109,
      "ev": -0.0209
-    }
-   ]
-  },
-  {
-   "league": "cfb",
-   "id": "608ce68eb20e7e5201fb1b804ad26141",
-   "matchup": "Rice Owls @ Temple Owls",
-   "kickoff_pt": "Thu Nov 19 4:30 PM PST",
-   "fair_source": "pinnacle",
-   "fair_home_margin": 3.0,
-   "best": [
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -2.5,
-     "price": -110,
-     "ev": 0.0128
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -2.5,
-     "price": -113,
-     "ev": 0.0
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -2.5,
-     "price": -115,
-     "ev": -0.0081
     }
    ]
   },
