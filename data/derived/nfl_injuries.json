@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 605,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-20T00:30:36.594557+00:00",
-  "previous_pull": "2026-11-19T23:30:33.693556+00:00",
+  "injury_pull": "2026-11-20T04:00:44.305689+00:00",
+  "previous_pull": "2026-11-20T00:30:36.594557+00:00",
   "matched_absences": 71
  },
  "teams": {
@@ -25,8 +25,8 @@
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-17T12:19Z",
-     "note": "questionable"
+     "updated": "2026-11-20T02:44Z",
+     "note": "Froholdt (concussion) practiced fully Thursday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -65,8 +65,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-19T01:26Z",
-     "note": "Benford (groin) was estimated as a nonparticipant in Wednesday's walkthrough."
+     "updated": "2026-11-20T01:08Z",
+     "note": "Benford (groin) did not participate at practice Thursday."
     },
     {
      "player": "Damar Hamlin",
@@ -133,20 +133,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Dalton Risner",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-20T02:16Z",
+     "note": "Risner (knees) did not practice Thursday."
+    },
+    {
      "player": "Dylan Fairchild",
      "pos": "G",
      "status": "Questionable",
      "points": 0.07,
      "updated": "2026-11-19T21:30Z",
      "note": "questionable"
-    },
-    {
-     "player": "Dalton Risner",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-16T03:38Z",
-     "note": "Risner (knee) will not return to Sunday night's game against the Steelers."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -249,7 +249,7 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 1.05,
+   "adj_points": 0.87,
    "qb_out": false,
    "absences": [
     {
@@ -269,16 +269,25 @@
      "note": "inactive"
     },
     {
-     "player": "Azeez Al-Shaair",
-     "pos": "LB",
-     "status": "Injured Reserve",
-     "points": 0.25,
-     "updated": "2026-11-17T01:03Z",
-     "note": "Al-Shaair (groin) did not participate in Monday's walkthrough practice."
+     "player": "Sheldon Rankins",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-20T02:50Z",
+     "note": "Rankins (ankle) is questionable to return to Thursday's game versus the Colts."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": -0.18,
+   "new_absences": [
+    {
+     "player": "Sheldon Rankins",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-20T02:50Z",
+     "note": "Rankins (ankle) is questionable to return to Thursday's game versus the Colts."
+    }
+   ]
   },
   "IND": {
    "adj_points": 1.5,
@@ -309,7 +318,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "JAX": {
@@ -434,7 +443,7 @@
      "status": "Injured Reserve",
      "points": 0.5,
      "updated": "2026-11-19T20:31Z",
-     "note": "Nacua has been suspended three games for violating the NFL's personal conduct policy, Adam Schefter of ESPN reports"
+     "note": "Nacua has been suspended three games for violating the NFL's personal conduct policy, Adam Schefter of ESPN reports."
     },
     {
      "player": "Coleman Shelton",
@@ -533,20 +542,20 @@
      "note": "Hockenson (wrist) practiced on a limited basis Thursday."
     },
     {
+     "player": "Blake Cashman",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-20T01:25Z",
+     "note": "Cashman (concussion) was a full participant at practice Thursday."
+    },
+    {
      "player": "Andrew Van Ginkel",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
      "updated": "2026-11-19T01:11Z",
      "note": "Van Ginkel (quadriceps) was a limited participant in Wednesday's practice."
-    },
-    {
-     "player": "Blake Cashman",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-19T01:09Z",
-     "note": "Cashman (concussion) was a full participant in Wednesday's practice."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -585,8 +594,8 @@
      "pos": "T",
      "status": "Doubtful",
      "points": 0.42,
-     "updated": "2026-11-17T12:19Z",
-     "note": "doubtful"
+     "updated": "2026-11-20T02:39Z",
+     "note": "Fuaga (knee) did not participate at practice Thursday."
     },
     {
      "player": "Asim Richards",
@@ -601,8 +610,8 @@
      "pos": "C",
      "status": "Doubtful",
      "points": 0.34,
-     "updated": "2026-11-17T12:19Z",
-     "note": "doubtful"
+     "updated": "2026-11-20T02:45Z",
+     "note": "McCoy (biceps) did not participate at practice Thursday."
     },
     {
      "player": "Martin Emerson Jr.",
@@ -737,11 +746,11 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-18T20:26Z",
-     "note": "Greenlaw (neck) did not participate in practice Wednesday, Nick Wagoner of ESPN.com reports."
+     "updated": "2026-11-20T02:03Z",
+     "note": "Greenlaw (neck) was a limited participant at practice Thursday."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SEA": {
