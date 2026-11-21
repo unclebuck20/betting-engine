@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-21T19:00:41.189834+00:00",
-  "previous_pull": "2026-11-21T18:00:40.439233+00:00",
-  "matched_absences": 53
+  "injury_pull": "2026-11-21T20:00:35.423429+00:00",
+  "previous_pull": "2026-11-21T19:00:41.189834+00:00",
+  "matched_absences": 52
  },
  "teams": {
   "ARI": {
@@ -159,10 +159,10 @@
     {
      "player": "DaRon Bland",
      "pos": "CB",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.5,
-     "updated": "2026-11-16T19:32Z",
-     "note": "Bland sustained a high-ankle sprain in Sunday's 46-40 loss to the 49ers, Todd Archer of ESPN.com reports."
+     "updated": "2026-11-21T19:12Z",
+     "note": "ir"
     },
     {
      "player": "P.J. Locke",
@@ -353,17 +353,9 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 4.71,
-   "qb_out": true,
+   "adj_points": 0.71,
+   "qb_out": false,
    "absences": [
-    {
-     "player": "Malik Willis",
-     "pos": "QB",
-     "status": "Injured Reserve",
-     "points": 4.0,
-     "updated": "2026-11-16T17:27Z",
-     "note": "Head coach Jeff Hafley said Monday that Willis (groin/core) has not undergone surgery and that the Dolphins are still determining if a procedure is needed, Davi"
-    },
     {
      "player": "Jordan Phillips",
      "pos": "DL",
@@ -389,7 +381,7 @@
      "note": "Brewer (concussion) is listed as questionable for Sunday's game against the Bills, David Furones of the South Florida Sun Sentinel reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -4.0,
    "new_absences": []
   },
   "MIN": {
