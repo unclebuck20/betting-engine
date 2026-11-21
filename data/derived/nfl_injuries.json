@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-21T21:00:37.867960+00:00",
-  "previous_pull": "2026-11-21T20:00:35.423429+00:00",
+  "injury_pull": "2026-11-21T22:00:38.531025+00:00",
+  "previous_pull": "2026-11-21T21:00:37.867960+00:00",
   "matched_absences": 52
  },
  "teams": {
@@ -329,7 +329,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.8,
+   "adj_points": 0.87,
    "qb_out": false,
    "absences": [
     {
@@ -347,10 +347,27 @@
      "points": 0.3,
      "updated": "2026-11-17T01:07Z",
      "note": "Shelton (hamstring) is set to miss several weeks due to injury, Greg Beacham of the Associated Press reports."
+    },
+    {
+     "player": "Kyren Williams",
+     "pos": "RB",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-21T21:53Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Kyren Williams",
+     "pos": "RB",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-21T21:53Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIA": {
    "adj_points": 0.71,
@@ -519,7 +536,7 @@
     {
      "player": "Zack Baun",
      "pos": "LB",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.25,
      "updated": "2026-11-21T00:16Z",
      "note": "Baun (back) has been ruled out for Sunday's game against the Steelers."
@@ -633,19 +650,10 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.12,
+   "adj_points": 0.0,
    "qb_out": false,
-   "absences": [
-    {
-     "player": "Treylon Burks",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-20T21:50Z",
-     "note": "Burks (foot) did not practice Friday."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
+   "absences": [],
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
