@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-22T20:30:39.244428+00:00",
-  "previous_pull": "2026-11-22T19:30:36.852977+00:00",
-  "matched_absences": 49
+  "injury_pull": "2026-11-22T22:00:37.603556+00:00",
+  "previous_pull": "2026-11-22T20:30:39.244428+00:00",
+  "matched_absences": 55
  },
  "teams": {
   "ARI": {
@@ -65,7 +65,7 @@
    "new_absences": []
   },
   "CAR": {
-   "adj_points": 0.5,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
@@ -75,10 +75,27 @@
      "points": 0.5,
      "updated": "2026-11-22T16:46Z",
      "note": "inactive"
+    },
+    {
+     "player": "Jalen Coker",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-22T21:16Z",
+     "note": "Coker was taken to the medical tent late in the fourth quarter of Sunday's 35-33 win over the Ravens to be evaluated for an injury, Joe Person of The Athletic r"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Jalen Coker",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-22T21:16Z",
+     "note": "Coker was taken to the medical tent late in the fourth quarter of Sunday's 35-33 win over the Ravens to be evaluated for an injury, Joe Person of The Athletic r"
+    }
+   ]
   },
   "CHI": {
    "adj_points": 0.35,
@@ -169,8 +186,8 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-22T19:05Z",
-     "note": "Winters (knee) is questionable to return to Sunday's game against the Titans, Nick Harris of the Fort Worth Star-Telegram reports."
+     "updated": "2026-11-22T20:37Z",
+     "note": "Winters (knee) has been ruled out for the remainder of Sunday's clash against the Titans, Joe Hoyt of The Dallas Morning News reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -193,7 +210,7 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.12,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
     {
@@ -201,12 +218,29 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-22T00:37Z",
-     "note": "Cisse (ribs) practiced Saturday, Bill Huber of SI.com reports."
+     "updated": "2026-11-22T21:41Z",
+     "note": "Cisse (ribs) was a limited participant in Sunday's practice, Rob Demovsky of ESPN.com reports."
+    },
+    {
+     "player": "Isaiah McDuffie",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-22T21:35Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Isaiah McDuffie",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-22T21:35Z",
+     "note": "questionable"
+    }
+   ]
   },
   "HOU": {
    "adj_points": 0.1,
@@ -241,7 +275,7 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 0.95,
+   "adj_points": 1.02,
    "qb_out": false,
    "absences": [
     {
@@ -267,10 +301,27 @@
      "points": 0.3,
      "updated": "2026-11-22T16:37Z",
      "note": "inactive"
+    },
+    {
+     "player": "Noah Gray",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-22T20:48Z",
+     "note": "Gray (ribs) is questionable to return to Sunday's matchup against Arizona."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Noah Gray",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-22T20:48Z",
+     "note": "Gray (ribs) is questionable to return to Sunday's matchup against Arizona."
+    }
+   ]
   },
   "LV": {
    "adj_points": 0.3,
@@ -285,7 +336,7 @@
      "note": "Bowers (ankle/quad) is inactive for Sunday's game against the Broncos."
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LAC": {
@@ -309,7 +360,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.31,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LA": {
@@ -464,6 +515,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "NYG": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Greg Newsome II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-22T21:51Z",
+     "note": "Newsome (ankle) is questionable to return to Sunday's game against the Jaguars, Jordan Raanan of ESPN.com reports."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Greg Newsome II",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-22T21:51Z",
+     "note": "Newsome (ankle) is questionable to return to Sunday's game against the Jaguars, Jordan Raanan of ESPN.com reports."
+    }
+   ]
+  },
   "NYJ": {
    "adj_points": 1.0,
    "qb_out": false,
@@ -485,11 +561,11 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.09,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.25,
+   "adj_points": 0.37,
    "qb_out": false,
    "absences": [
     {
@@ -499,10 +575,27 @@
      "points": 0.25,
      "updated": "2026-11-22T00:14Z",
      "note": "Baun (back) was placed on the Eagles' injured reserve Saturday."
+    },
+    {
+     "player": "Quinyon Mitchell",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-22T20:56Z",
+     "note": "Mitchell (hamstring) has been ruled out for the rest of Sunday's game against the Steelers."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Quinyon Mitchell",
+     "pos": "CB",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-22T20:56Z",
+     "note": "Mitchell (hamstring) has been ruled out for the rest of Sunday's game against the Steelers."
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.36,
@@ -585,7 +678,7 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.62,
+   "adj_points": 0.74,
    "qb_out": false,
    "absences": [
     {
@@ -595,6 +688,14 @@
      "points": 0.5,
      "updated": "2026-11-18T17:29Z",
      "note": "Coach Robert Saleh said Wednesday that Robinson (ankle) -- who was placed on IR on Tuesady -- is out for the rest of the season, Terry McCormick of TitanInsider"
+    },
+    {
+     "player": "Dan Moore Jr.",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-22T20:34Z",
+     "note": "Moore (knee) is questionable to return to Sunday's game against the Cowboys."
     },
     {
      "player": "Cor'Dale Flott",
@@ -608,12 +709,12 @@
    "delta_since_last_pull": 0.12,
    "new_absences": [
     {
-     "player": "Cor'Dale Flott",
-     "pos": "CB",
+     "player": "Dan Moore Jr.",
+     "pos": "T",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-22T19:36Z",
-     "note": "Flott (neck) is questionable to return to Sunday's matchup against Dallas, Jim Wyatt of the Titans' official site reports."
+     "updated": "2026-11-22T20:34Z",
+     "note": "Moore (knee) is questionable to return to Sunday's game against the Cowboys."
     }
    ]
   },
