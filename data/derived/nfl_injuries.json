@@ -1,15 +1,15 @@
 {
  "meta": {
   "season": 2026,
-  "starters_identified": 602,
-  "teams_with_qb": 29,
-  "injury_pull": "2026-11-23T11:30:39.730481+00:00",
-  "previous_pull": "2026-11-23T08:30:33.584235+00:00",
-  "matched_absences": 56
+  "starters_identified": 588,
+  "teams_with_qb": 31,
+  "injury_pull": "2026-11-23T14:52:43.896216+00:00",
+  "previous_pull": "2026-11-23T11:30:39.730481+00:00",
+  "matched_absences": 35
  },
  "teams": {
   "BAL": {
-   "adj_points": 0.85,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -18,30 +18,6 @@
      "status": "Out",
      "points": 0.5,
      "updated": "2026-11-22T16:32Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Nnamdi Madubuike",
-     "pos": "DL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-22T16:32Z",
-     "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "BUF": {
-   "adj_points": 0.5,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Christian Benford",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-22T16:37Z",
      "note": "inactive"
     }
    ],
@@ -129,33 +105,9 @@
    "new_absences": []
   },
   "DAL": {
-   "adj_points": 1.16,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
-    {
-     "player": "DaRon Bland",
-     "pos": "CB",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-11-22T00:03Z",
-     "note": "The Cowboys placed Bland (ankle) on injured reserve Saturday, Tommy Yarrish of the team's official site reports."
-    },
-    {
-     "player": "P.J. Locke",
-     "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-22T16:31Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Tyler Booker",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-22T16:31Z",
-     "note": "inactive"
-    },
     {
      "player": "Dee Winters",
      "pos": "LB",
@@ -163,22 +115,6 @@
      "points": 0.06,
      "updated": "2026-11-22T20:37Z",
      "note": "Winters (knee) has been ruled out for the remainder of Sunday's clash against the Titans, Joe Hoyt of The Dallas Morning News reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "DET": {
-   "adj_points": 0.5,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Aidan Hutchinson",
-     "pos": "DE",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-11-18T22:02Z",
-     "note": "The Lions placed Hutchinson (knee) on injured reserve Wednesday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -225,17 +161,9 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.44,
+   "adj_points": 0.09,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Robert Hainsey",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-22T19:58Z",
-     "note": "inactive"
-    },
     {
      "player": "Walker Little",
      "pos": "OL",
@@ -249,33 +177,9 @@
    "new_absences": []
   },
   "KC": {
-   "adj_points": 1.02,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jaylon Moore",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-22T16:37Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Trey Smith",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-22T16:37Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Kenneth Walker III",
-     "pos": "RB",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-22T16:37Z",
-     "note": "inactive"
-    },
     {
      "player": "Noah Gray",
      "pos": "TE",
@@ -283,22 +187,6 @@
      "points": 0.07,
      "updated": "2026-11-22T20:48Z",
      "note": "Gray (ribs) is questionable to return to Sunday's matchup against Arizona."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "LV": {
-   "adj_points": 0.3,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Brock Bowers",
-     "pos": "TE",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-23T01:15Z",
-     "note": "Raiders coach Klink Kubiak said after Sunday's 38-24 loss to the Broncos that he's optimistic Bowers (ankle/quadriceps) will be available to face the Browns on "
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -377,17 +265,9 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 0.65,
+   "adj_points": 0.3,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jordan Phillips",
-     "pos": "DL",
-     "status": "Injured Reserve",
-     "points": 0.35,
-     "updated": "2026-11-18T19:24Z",
-     "note": "Phillips underwent surgery on his injured bicep Wednesday, David Furones of the South Florida Sun Sentinel reports."
-    },
     {
      "player": "Dante Trader Jr.",
      "pos": "S",
@@ -395,30 +275,6 @@
      "points": 0.3,
      "updated": "2026-11-22T17:06Z",
      "note": "Trader (shoulder/groin) is inactive for Sunday's Week 11 tilt against Buffalo."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "MIN": {
-   "adj_points": 1.0,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Isaiah Rodgers",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-23T00:09Z",
-     "note": "Rodgers (quadriceps) is inactive for Sunday night's matchup against the 49ers."
-    },
-    {
-     "player": "Jordan Addison",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-23T00:00Z",
-     "note": "inactive"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -448,54 +304,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "NO": {
-   "adj_points": 2.0,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Martin Emerson Jr.",
-     "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-22T16:39Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Taliese Fuaga",
-     "pos": "T",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-22T16:39Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Erik McCoy",
-     "pos": "C",
-     "status": "Out",
-     "points": 0.4,
-     "updated": "2026-11-22T16:39Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Asim Richards",
-     "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-22T16:39Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Pete Werner",
-     "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-22T16:45Z",
-     "note": "Werner (hamstring) is inactive for Sunday's game against Chicago."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "NYG": {
    "adj_points": 0.12,
    "qb_out": false,
@@ -513,19 +321,11 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 1.0,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Isaiah Williams",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-22T19:37Z",
-     "note": "inactive"
-    },
-    {
-     "player": "Omar Cooper Jr.",
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
@@ -537,17 +337,9 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.37,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Zack Baun",
-     "pos": "LB",
-     "status": "Injured Reserve",
-     "points": 0.25,
-     "updated": "2026-11-22T00:14Z",
-     "note": "Baun (back) was placed on the Eagles' injured reserve Saturday."
-    },
     {
      "player": "Quinyon Mitchell",
      "pos": "CB",
@@ -561,17 +353,9 @@
    "new_absences": []
   },
   "PIT": {
-   "adj_points": 0.36,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Mason McCormick",
-     "pos": "G",
-     "status": "Injured Reserve",
-     "points": 0.3,
-     "updated": "2026-11-19T01:44Z",
-     "note": "The Steelers placed McCormick (ankle) on injured reserve Wednesday, Teresa Varley of the team's official site reports."
-    },
     {
      "player": "Alex Highsmith",
      "pos": "LB",
@@ -585,7 +369,7 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.6,
+   "adj_points": 0.69,
    "qb_out": false,
    "absences": [
     {
@@ -603,10 +387,27 @@
      "points": 0.25,
      "updated": "2026-11-23T00:25Z",
      "note": "Greenlaw (neck) is inactive for Sunday night's contest against the Vikings in Mexico City, Brooke Evans of the 49ers' official website reports."
+    },
+    {
+     "player": "Deommodore Lenoir",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-23T13:43Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Deommodore Lenoir",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-23T13:43Z",
+     "note": "questionable"
+    }
+   ]
   },
   "SEA": {
    "adj_points": 0.12,
