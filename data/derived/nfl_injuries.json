@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-23T21:30:28.434677+00:00",
-  "previous_pull": "2026-11-23T18:00:37.951970+00:00",
-  "matched_absences": 33
+  "injury_pull": "2026-11-23T23:30:39.357513+00:00",
+  "previous_pull": "2026-11-23T21:30:28.434677+00:00",
+  "matched_absences": 34
  },
  "teams": {
   "BAL": {
@@ -23,6 +23,47 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "BUF": {
+   "adj_points": 0.19,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Spencer Brown",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-23T23:12Z",
+     "note": "questionable"
+    },
+    {
+     "player": "O'Cyrus Torrence",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-23T23:11Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.19,
+   "new_absences": [
+    {
+     "player": "Spencer Brown",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-23T23:12Z",
+     "note": "questionable"
+    },
+    {
+     "player": "O'Cyrus Torrence",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-23T23:11Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CHI": {
    "adj_points": 0.35,
@@ -97,17 +138,9 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.18,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Brandon Cisse",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-22T21:41Z",
-     "note": "Cisse (ribs) was a limited participant in Sunday's practice, Rob Demovsky of ESPN.com reports."
-    },
     {
      "player": "Isaiah McDuffie",
      "pos": "LB",
@@ -117,7 +150,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "HOU": {
@@ -209,7 +242,7 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.87,
+   "adj_points": 0.85,
    "qb_out": false,
    "absences": [
     {
@@ -223,21 +256,13 @@
     {
      "player": "Coleman Shelton",
      "pos": "OL",
-     "status": "Doubtful",
-     "points": 0.3,
-     "updated": "2026-11-17T01:07Z",
-     "note": "Shelton (hamstring) is set to miss several weeks due to injury, Greg Beacham of the Associated Press reports."
-    },
-    {
-     "player": "Kyren Williams",
-     "pos": "RB",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-22T23:44Z",
-     "note": "Williams (toe) was a limited practice participant Sunday, Adam Caplan of SiriusXM NFL Radio reports."
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-23T22:25Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.02,
    "new_absences": []
   },
   "MIA": {
@@ -289,11 +314,11 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-23T19:55Z",
-     "note": "Newsome underwent further testing on his ankle Monday, Jordan Raanan of ESPN.com reports."
+     "updated": "2026-11-23T22:14Z",
+     "note": "Newsome (ankle) is expected to be sidelined for multiple weeks, Dan Salomone of the Giants' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NYJ": {
@@ -313,7 +338,7 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.12,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
@@ -323,10 +348,27 @@
      "points": 0.12,
      "updated": "2026-11-22T20:56Z",
      "note": "Mitchell (hamstring) has been ruled out for the rest of Sunday's game against the Steelers."
+    },
+    {
+     "player": "Dallas Goedert",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-23T22:07Z",
+     "note": "Goedert was listed as a limited participant in Monday's practice estimate due to a shin injury."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Dallas Goedert",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-23T22:07Z",
+     "note": "Goedert was listed as a limited participant in Monday's practice estimate due to a shin injury."
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.21,
@@ -341,7 +383,7 @@
      "note": "Steelers head coach Mike McCarthy suggested Monday that Highsmith (ankle) is likely to be sidelined for Friday's game against the Broncos, Brooke Pryor of ESPN."
     }
    ],
-   "delta_since_last_pull": 0.15,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SF": {
@@ -446,13 +488,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CAR": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.12,
    "new_absences": []
   }
  }
