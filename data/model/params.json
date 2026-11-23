@@ -2,7 +2,7 @@
  "params": {
   "cfb_weight_open": 0.1,
   "cfb_weight_close": 0.0283,
-  "nfl_injury_scale": 0.85,
+  "nfl_injury_scale": 0.7225,
   "play_ev": 0.0325,
   "lean_ev": 0.02
  },
@@ -111,8 +111,15 @@
    "from": 1.0,
    "to": 0.85,
    "evidence": "NFL picks driven by injury news: avg closing-line value -2.38% over 18 picks"
+  },
+  {
+   "date": "2026-11-23",
+   "param": "nfl_injury_scale",
+   "from": 0.85,
+   "to": 0.7225,
+   "evidence": "NFL picks driven by injury news: avg closing-line value -2.38% over 18 picks"
   }
  ],
- "updated_at": "2026-11-17T17:01:47.733206+00:00",
- "last_run_note": "2 change(s)"
+ "updated_at": "2026-11-23T18:01:37.396946+00:00",
+ "last_run_note": "1 change(s)"
 }
