@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-23T01:30:28.702080+00:00",
-  "previous_pull": "2026-11-23T00:30:30.448285+00:00",
+  "injury_pull": "2026-11-23T05:00:36.249089+00:00",
+  "previous_pull": "2026-11-23T01:30:28.702080+00:00",
   "matched_absences": 56
  },
  "teams": {
@@ -341,17 +341,8 @@
      "note": "Mesidor (ankle) is questionable to return to Sunday's contest against the Jets."
     }
    ],
-   "delta_since_last_pull": 1.0,
-   "new_absences": [
-    {
-     "player": "Justin Herbert",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-23T00:32Z",
-     "note": "Herbert entered the concussion protocol after Sunday's 27-24 loss to the Jets, Noah Furtado of The Athletic reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.87,
@@ -594,9 +585,17 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.25,
+   "adj_points": 0.6,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Colton McKivitz",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-23T02:51Z",
+     "note": "McKivitz (lower leg) was carted off the field Sunday night against the Vikings, Eric Branch of the San Francisco Chronicle reports."
+    },
     {
      "player": "Dre Greenlaw",
      "pos": "LB",
@@ -606,8 +605,17 @@
      "note": "Greenlaw (neck) is inactive for Sunday night's contest against the Vikings in Mexico City, Brooke Evans of the 49ers' official website reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.35,
+   "new_absences": [
+    {
+     "player": "Colton McKivitz",
+     "pos": "OL",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-23T02:51Z",
+     "note": "McKivitz (lower leg) was carted off the field Sunday night against the Vikings, Eric Branch of the San Francisco Chronicle reports."
+    }
+   ]
   },
   "SEA": {
    "adj_points": 0.12,
@@ -642,17 +650,9 @@
    "new_absences": []
   },
   "TEN": {
-   "adj_points": 0.74,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Wan'Dale Robinson",
-     "pos": "WR",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-11-18T17:29Z",
-     "note": "Coach Robert Saleh said Wednesday that Robinson (ankle) -- who was placed on IR on Tuesady -- is out for the rest of the season, Terry McCormick of TitanInsider"
-    },
     {
      "player": "Dan Moore Jr.",
      "pos": "T",
@@ -670,7 +670,7 @@
      "note": "Flott (neck) is questionable to return to Sunday's matchup against Dallas, Jim Wyatt of the Titans' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.5,
    "new_absences": []
   },
   "WAS": {
