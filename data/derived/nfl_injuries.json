@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-23T00:30:30.448285+00:00",
-  "previous_pull": "2026-11-22T23:30:30.644114+00:00",
-  "matched_absences": 55
+  "injury_pull": "2026-11-23T01:30:28.702080+00:00",
+  "previous_pull": "2026-11-23T00:30:30.448285+00:00",
+  "matched_absences": 56
  },
  "teams": {
   "BAL": {
@@ -245,17 +245,8 @@
      "note": "Little is questionable to return to Sunday's game against the Giants due to a knee injury."
     }
    ],
-   "delta_since_last_pull": 0.09,
-   "new_absences": [
-    {
-     "player": "Walker Little",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-23T00:22Z",
-     "note": "Little is questionable to return to Sunday's game against the Giants due to a knee injury."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "KC": {
    "adj_points": 1.02,
@@ -306,17 +297,25 @@
      "pos": "TE",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-22T19:58Z",
-     "note": "Bowers (ankle/quad) is inactive for Sunday's game against the Broncos."
+     "updated": "2026-11-23T01:15Z",
+     "note": "Raiders coach Klink Kubiak said after Sunday's 38-24 loss to the Broncos that he's optimistic Bowers (ankle/quadriceps) will be available to face the Browns on "
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 0.81,
+   "adj_points": 1.81,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Justin Herbert",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-23T00:32Z",
+     "note": "Herbert entered the concussion protocol after Sunday's 27-24 loss to the Jets, Noah Furtado of The Athletic reports."
+    },
     {
      "player": "Tarheeb Still",
      "pos": "CB",
@@ -342,8 +341,17 @@
      "note": "Mesidor (ankle) is questionable to return to Sunday's contest against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Justin Herbert",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-23T00:32Z",
+     "note": "Herbert entered the concussion protocol after Sunday's 27-24 loss to the Jets, Noah Furtado of The Athletic reports."
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.87,
@@ -422,7 +430,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NE": {
@@ -594,11 +602,11 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-23T00:02Z",
-     "note": "inactive"
+     "updated": "2026-11-23T00:25Z",
+     "note": "Greenlaw (neck) is inactive for Sunday night's contest against the Vikings in Mexico City, Brooke Evans of the 49ers' official website reports."
     }
    ],
-   "delta_since_last_pull": 0.07,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "SEA": {
@@ -679,13 +687,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "ARI": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.3,
    "new_absences": []
   }
  }
