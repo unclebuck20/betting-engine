@@ -33272,7 +33272,7 @@
    "line": 8.5,
    "price": -110,
    "book": "draftkings",
-   "why": "Pinnacle makes Eagles +8.5; DraftKings has +8.5 (-110). Our NFL model makes Eagles +6, 2.8 pts better than the market. DAL is without DaRon Bland (CB, injured reserve); injuries are worth ~1.0 pts to them by our injury model.",
+   "why": "Pinnacle makes Eagles +8.5; DraftKings has +8.5 (-110). Our NFL model makes Eagles +6, 2.9 pts better than the market. DAL is without DaRon Bland (CB, injured reserve); injuries are worth ~1.0 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -33466,7 +33466,7 @@
    "line": 49.5,
    "price": 100,
    "book": "fanduel",
-   "why": "Pinnacle's fair total is 51; FanDuel has Under 49.5 (+100). Our model projects 47.9 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 51; FanDuel has Under 49.5 (+100). Our model projects 47.7 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -33911,7 +33911,7 @@
    "line": 51.5,
    "price": -109,
    "book": "draftkings",
-   "why": "The market average's fair total is 52; DraftKings has Under 51.5 (-109). Our model projects 48.3 points from both offenses' efficiency and pace.",
+   "why": "The market average's fair total is 52; DraftKings has Under 51.5 (-109). Our model projects 48.4 points from both offenses' efficiency and pace.",
    "flags": [
     "no sharp book has this total, so the fair number is a market average"
    ]
@@ -34062,7 +34062,7 @@
    "line": -14.0,
    "price": -109,
    "book": "draftkings",
-   "why": "The market average makes Jaguars -14.5; DraftKings has -14 (-109). Our NFL model makes Jaguars -17, 2.4 pts better than the market.",
+   "why": "The market average makes Jaguars -14.5; DraftKings has -14 (-109). Our NFL model makes Jaguars -17, 2.5 pts better than the market.",
    "flags": [
     "no sharp book has this game, so the fair line is a market average"
    ]
@@ -34212,7 +34212,7 @@
    "line": 7.0,
    "price": -109,
    "book": "draftkings",
-   "why": "BetOnline/LowVig makes Colts +6.5; DraftKings has +7 (-109). Our NFL model makes Colts +3.5, 2.9 pts better than the market.",
+   "why": "BetOnline/LowVig makes Colts +6.5; DraftKings has +7 (-109). Our NFL model makes Colts +3.5, 3.0 pts better than the market.",
    "flags": []
   }
  },
@@ -34251,7 +34251,7 @@
   "flags": [],
   "odds_pulled_at": "2026-11-23T00:30:30.448285+00:00",
   "published_at": "2026-11-23T01:30:35.380771+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-23T01:30:35.380771+00:00",
@@ -34271,13 +34271,83 @@
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
+   "tier": "pass",
    "ev_pct": 4.83,
    "confidence": 54.9,
    "line": 55.5,
    "price": -110,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 56.5; DraftKings has Under 55.5 (-110). Our model projects 50.5 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "why": "Pinnacle's fair total is 56.5; DraftKings has Under 55.5 (-110). Our model projects 50.4 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "flags": [
+    "model total is 6.0 pts off the market; usually missing weather or injury news",
+    "totals backtest: 6+ pt disagreements went 45-54"
+   ]
+  }
+ },
+ "ffaa06af56a7137d4b078c5c46c0b730|Under": {
+  "id": "ffaa06af56a7137d4b078c5c46c0b730",
+  "pick_key": "ffaa06af56a7137d4b078c5c46c0b730|Under",
+  "market": "total",
+  "league": "nfl",
+  "slot": "thu",
+  "tier": "lean",
+  "edges": [
+   "PHI passing vs DAL pass D: -0.08 EPA/play vs average"
+  ],
+  "matchup": "Philadelphia Eagles @ Dallas Cowboys",
+  "kickoff_utc": "2026-11-26T21:30:00Z",
+  "kickoff_pt": "Thu Nov 26, 1:30 PM PST",
+  "side": "Under",
+  "opponent": "",
+  "side_is_home": false,
+  "line": 48.5,
+  "price": -110,
+  "book": "draftkings",
+  "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695555U4850_3",
+  "fair_line": 48.5,
+  "open_line": null,
+  "confidence": 53.7,
+  "ev_pct": 2.47,
+  "units": 0.5,
+  "price_floor": 48.0,
+  "floor_text": "Good to under 48 at -110",
+  "fair_source": "pinnacle",
+  "market_home_margin": 48.4,
+  "model_home_margin": 45.0,
+  "model_weight": 0.21,
+  "hours_to_kick": 85.0,
+  "signals": [],
+  "why": "Pinnacle's fair total is 48.5; DraftKings has Under 48.5 (-110). Our model projects 45.0 points from both offenses' efficiency and pace.",
+  "flags": [],
+  "odds_pulled_at": "2026-11-23T00:30:30.448285+00:00",
+  "published_at": "2026-11-23T08:30:38.939504+00:00",
+  "status": "live",
+  "history": [
+   [
+    "2026-11-23T08:30:38.939504+00:00",
+    48.5,
+    -110,
+    "draftkings"
+   ]
+  ],
+  "current": {
+   "line": 48.5,
+   "price": -110,
+   "book": "draftkings",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695555U4850_3",
+   "ev_pct": 2.47,
+   "confidence": 53.7
+  },
+  "inj_check": null,
+  "scout": null,
+  "latest": {
+   "tier": "lean",
+   "ev_pct": 2.47,
+   "confidence": 53.7,
+   "line": 48.5,
+   "price": -110,
+   "book": "draftkings",
+   "why": "Pinnacle's fair total is 48.5; DraftKings has Under 48.5 (-110). Our model projects 45.0 points from both offenses' efficiency and pace.",
    "flags": []
   }
  }
