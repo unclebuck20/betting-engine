@@ -3,27 +3,11 @@
   "season": 2026,
   "starters_identified": 602,
   "teams_with_qb": 29,
-  "injury_pull": "2026-11-22T23:30:30.644114+00:00",
-  "previous_pull": "2026-11-22T22:00:37.603556+00:00",
-  "matched_absences": 56
+  "injury_pull": "2026-11-23T00:30:30.448285+00:00",
+  "previous_pull": "2026-11-22T23:30:30.644114+00:00",
+  "matched_absences": 55
  },
  "teams": {
-  "ARI": {
-   "adj_points": 0.3,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Andrew Wingard",
-     "pos": "S",
-     "status": "Injured Reserve",
-     "points": 0.3,
-     "updated": "2026-11-18T01:19Z",
-     "note": "Wingard (wrist) was placed on injured reserve by the Cardinals on Tuesday."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "BAL": {
    "adj_points": 0.85,
    "qb_out": false,
@@ -241,7 +225,7 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.35,
+   "adj_points": 0.44,
    "qb_out": false,
    "absences": [
     {
@@ -251,10 +235,27 @@
      "points": 0.35,
      "updated": "2026-11-22T19:58Z",
      "note": "inactive"
+    },
+    {
+     "player": "Walker Little",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-23T00:22Z",
+     "note": "Little is questionable to return to Sunday's game against the Giants due to a knee injury."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Walker Little",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-23T00:22Z",
+     "note": "Little is questionable to return to Sunday's game against the Giants due to a knee injury."
+    }
+   ]
   },
   "KC": {
    "adj_points": 1.02,
@@ -341,17 +342,8 @@
      "note": "Mesidor (ankle) is questionable to return to Sunday's contest against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.06,
-   "new_absences": [
-    {
-     "player": "Akheem Mesidor",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-22T22:23Z",
-     "note": "Mesidor (ankle) is questionable to return to Sunday's contest against the Jets."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LA": {
    "adj_points": 0.87,
@@ -378,8 +370,8 @@
      "pos": "RB",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-21T21:55Z",
-     "note": "Head coach Sean McVay said Saturday that Williams is tending to a sore toe but is expected to play Wednesday against the Packers, Sarah Barshop of ESPN reports."
+     "updated": "2026-11-22T23:44Z",
+     "note": "Williams (toe) was a limited practice participant Sunday, Adam Caplan of SiriusXM NFL Radio reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -410,27 +402,27 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.62,
+   "adj_points": 1.0,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Isaiah Rodgers",
+     "pos": "CB",
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-23T00:09Z",
+     "note": "Rodgers (quadriceps) is inactive for Sunday night's matchup against the 49ers."
+    },
     {
      "player": "Jordan Addison",
      "pos": "WR",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-18T19:25Z",
-     "note": "Head coach Kevin O'Connell said Wednesday that Addison underwent thumb surgery earlier this week and won't be placed on injured reserve, Alec Lewis of The Athle"
-    },
-    {
-     "player": "Isaiah Rodgers",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-20T22:27Z",
-     "note": "Rodgers (quadriceps) is listed as questionable for Sunday's game against the 49ers in Mexico City."
+     "updated": "2026-11-23T00:00Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "NE": {
@@ -514,8 +506,8 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-22T21:51Z",
-     "note": "Newsome (ankle) is questionable to return to Sunday's game against the Jaguars, Jordan Raanan of ESPN.com reports."
+     "updated": "2026-11-22T23:59Z",
+     "note": "Newsome (ankle) has been ruled out for the remainder of Sunday evening's matchup with the Jaguars, Patricia Traina of SI.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -594,27 +586,19 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.18,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
     {
-     "player": "Upton Stout",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-18T23:27Z",
-     "note": "questionable"
-    },
-    {
      "player": "Dre Greenlaw",
      "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-21T00:49Z",
-     "note": "Greenlaw (neck) is listed as questionable for Sunday's game against the Vikings in Mexico City."
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-11-23T00:02Z",
+     "note": "inactive"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.07,
    "new_absences": []
   },
   "SEA": {
@@ -695,6 +679,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "ARI": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.3,
    "new_absences": []
   }
  }
