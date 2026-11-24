@@ -33206,8 +33206,8 @@
    "price": -106,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695496U5450_3",
-   "ev_pct": 7.7,
-   "confidence": 55.4
+   "ev_pct": 8.41,
+   "confidence": 55.8
   },
   "inj_check": null,
   "scout": {
@@ -33222,8 +33222,8 @@
   },
   "latest": {
    "tier": "play",
-   "ev_pct": 7.7,
-   "confidence": 55.4,
+   "ev_pct": 8.41,
+   "confidence": 55.8,
    "line": 54.5,
    "price": -106,
    "book": "draftkings",
@@ -33493,19 +33493,19 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578457169&selectionId=7017917",
-   "ev_pct": -1.27,
-   "confidence": 51.7
+   "ev_pct": -3.23,
+   "confidence": 50.7
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -1.27,
-   "confidence": 51.7,
+   "ev_pct": -3.23,
+   "confidence": 50.7,
    "line": 48.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle's fair total is 48.5; FanDuel has Under 48.5 (-110).",
+   "why": "Pinnacle's fair total is 49.5; FanDuel has Under 48.5 (-110). Our model projects 48.0 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -33575,18 +33575,18 @@
    "price": -108,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627736991&selectionId=550999",
-   "ev_pct": -0.26,
-   "confidence": 51.8
+   "ev_pct": -1.93,
+   "confidence": 50.9
   },
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": -0.26,
-   "confidence": 51.8,
+   "ev_pct": -1.93,
+   "confidence": 50.9,
    "line": -4.5,
    "price": -108,
    "book": "fanduel",
-   "why": "Pinnacle makes South Carolina -6; FanDuel has -4.5 (-108). Our in-season power ratings have South Carolina 3.2 pts better than the market.",
+   "why": "Pinnacle makes South Carolina -6; FanDuel has -4.5 (-108). The line opened +3 and has moved toward South Carolina.",
    "flags": [
     "college injuries not checked yet"
    ]
@@ -33646,8 +33646,8 @@
    "price": -108,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627739871&selectionId=617088",
-   "ev_pct": 0.69,
-   "confidence": 52.3
+   "ev_pct": null,
+   "confidence": null
   },
   "scout": null,
   "latest": {
@@ -33793,7 +33793,7 @@
   ],
   "odds_pulled_at": "2026-11-22T23:30:30.644114+00:00",
   "published_at": "2026-11-22T23:30:36.958488+00:00",
-  "status": "live",
+  "status": "faded",
   "history": [
    [
     "2026-11-22T23:30:36.958488+00:00",
@@ -33807,20 +33807,24 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626289677&selectionId=7017916",
-   "ev_pct": 4.9,
-   "confidence": 54.9
+   "ev_pct": 3.17,
+   "confidence": 54.0
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 4.9,
-   "confidence": 54.9,
+   "tier": "pass",
+   "ev_pct": 3.17,
+   "confidence": 54.0,
    "line": 40.5,
    "price": -110,
    "book": "fanduel",
-   "why": "BetOnline/LowVig's fair total is 40; FanDuel has Over 40.5 (-110). Our model projects 45.9 points from both offenses' efficiency and pace.",
-   "flags": []
+   "why": "The market average's fair total is 39.5; FanDuel has Over 40.5 (-110). Our model projects 45.9 points from both offenses' efficiency and pace.",
+   "flags": [
+    "model total is 6.4 pts off the market; usually missing weather or injury news",
+    "totals backtest: 6+ pt disagreements went 45-54",
+    "no sharp book has this total, so the fair number is a market average"
+   ]
   }
  },
  "c64ceba13ede564e8658693e3171e7f9|Over": {
@@ -33896,21 +33900,21 @@
    "price": -109,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695588O3550_1",
-   "ev_pct": 5.34,
-   "confidence": 54.9
+   "ev_pct": 5.65,
+   "confidence": 55.1
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 5.34,
-   "confidence": 54.9,
+   "ev_pct": 5.65,
+   "confidence": 55.1,
    "line": 35.5,
    "price": -109,
    "book": "draftkings",
    "why": "BetOnline/LowVig's fair total is 34.5; DraftKings has Over 35.5 (-109). Our model projects 42.3 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
    "flags": [
-    "model total is 7.9 pts off the market; usually missing weather or injury news",
+    "model total is 7.8 pts off the market; usually missing weather or injury news",
     "totals backtest: 6+ pt disagreements went 45-54"
    ]
   }
@@ -33973,15 +33977,21 @@
     50.5,
     -105,
     "fanduel"
+   ],
+   [
+    "2026-11-24T00:30:38.839252+00:00",
+    50.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
    "line": 50.5,
-   "price": -105,
+   "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626289586&selectionId=7017917",
-   "ev_pct": -0.65,
-   "confidence": 50.9
+   "ev_pct": null,
+   "confidence": null
   },
   "inj_check": null,
   "scout": null,
@@ -34056,19 +34066,19 @@
    "price": -105,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695691U4750_3",
-   "ev_pct": 0.13,
-   "confidence": 51.3
+   "ev_pct": 0.84,
+   "confidence": 51.7
   },
   "inj_check": null,
   "scout": null,
   "latest": {
    "tier": "pass",
-   "ev_pct": 0.13,
-   "confidence": 51.3,
+   "ev_pct": 0.84,
+   "confidence": 51.7,
    "line": 47.5,
    "price": -105,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 48.5; DraftKings has Under 47.5 (-105). Our model projects 44.6 points from both offenses' efficiency and pace.",
+   "why": "Pinnacle's fair total is 48; DraftKings has Under 47.5 (-105). Our model projects 44.6 points from both offenses' efficiency and pace.",
    "flags": []
   }
  },
@@ -34341,7 +34351,7 @@
   "open_line": null,
   "confidence": 54.9,
   "ev_pct": 4.83,
-  "units": 1.5,
+  "units": 0.5,
   "price_floor": 55.0,
   "floor_text": "Good to under 55 at -110",
   "fair_source": "pinnacle",
@@ -34361,26 +34371,32 @@
     55.5,
     -110,
     "draftkings"
+   ],
+   [
+    "2026-11-24T00:30:38.839252+00:00",
+    55.5,
+    -115,
+    "draftkings"
    ]
   ],
   "current": {
    "line": 55.5,
-   "price": -110,
+   "price": -115,
    "book": "draftkings",
    "link": "https://sportsbook.draftkings.com/?outcomes=0OU84695633U5550_3",
-   "ev_pct": 4.83,
+   "ev_pct": 2.66,
    "confidence": 54.9
   },
   "inj_check": null,
   "scout": null,
   "latest": {
-   "tier": "play",
-   "ev_pct": 4.83,
+   "tier": "lean",
+   "ev_pct": 2.66,
    "confidence": 54.9,
    "line": 55.5,
-   "price": -110,
+   "price": -115,
    "book": "draftkings",
-   "why": "Pinnacle's fair total is 56.5; DraftKings has Under 55.5 (-110). Our model projects 50.5 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
+   "why": "Pinnacle's fair total is 56.5; DraftKings has Under 55.5 (-115). Our model projects 50.5 points from both offenses' efficiency and pace. Indoors, so no weather adjustment.",
    "flags": []
   }
  },
