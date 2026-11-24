@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-24T18:20:26.030368+00:00",
-  "previous_pull": "2026-11-24T15:00:43.804525+00:00",
+  "injury_pull": "2026-11-24T21:30:40.525552+00:00",
+  "previous_pull": "2026-11-24T18:20:26.030368+00:00",
   "matched_absences": 36
  },
  "teams": {
@@ -73,9 +73,17 @@
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.07,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Denzel Boston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-24T18:17Z",
+     "note": "Boston didn't take part in the Browns' unofficial practice Tuesday, Daniel Oyefusi of ESPN.com reports."
+    },
     {
      "player": "Ronnie Hickman",
      "pos": "S",
@@ -85,8 +93,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Denzel Boston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-24T18:17Z",
+     "note": "Boston didn't take part in the Browns' unofficial practice Tuesday, Daniel Oyefusi of ESPN.com reports."
+    }
+   ]
   },
   "DAL": {
    "adj_points": 0.06,
@@ -131,22 +148,6 @@
      "points": 0.07,
      "updated": "2026-11-24T00:38Z",
      "note": "LaPorta (ankle) was limited at Monday's walkthrough, Nolan Bianchi of The Detroit News reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "GB": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Isaiah McDuffie",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-22T21:35Z",
-     "note": "questionable"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -313,8 +314,8 @@
      "pos": "CB",
      "status": "Out",
      "points": 0.5,
-     "updated": "2026-11-23T22:14Z",
-     "note": "Newsome (ankle) is expected to be sidelined for multiple weeks, Dan Salomone of the Giants' official site reports."
+     "updated": "2026-11-24T20:14Z",
+     "note": "Newsome (ankle) is set to undergo surgery in Week 12 and will miss the next four to six weeks, NFL reporter Jordan Schultz reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -386,7 +387,7 @@
      "status": "Out",
      "points": 0.35,
      "updated": "2026-11-24T00:48Z",
-     "note": "McKivitz fractured and dislocated his ankle during the 49ers' blowout win over the Vikings on Sunday Night Football, Ian Rapoport of NFL Network reports."
+     "note": "San Francisco head coach Kyle Shanahan said after Sunday's 35-10 win over the Vikings that McKivitz is believed to have sustained a fractured and dislocated lef"
     },
     {
      "player": "Deommodore Lenoir",
@@ -478,6 +479,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "GB": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
