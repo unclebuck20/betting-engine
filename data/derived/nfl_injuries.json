@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 588,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-24T00:30:31.381971+00:00",
-  "previous_pull": "2026-11-23T23:30:39.357513+00:00",
-  "matched_absences": 33
+  "injury_pull": "2026-11-24T04:00:39.740809+00:00",
+  "previous_pull": "2026-11-24T00:30:31.381971+00:00",
+  "matched_absences": 37
  },
  "teams": {
   "BAL": {
@@ -49,7 +49,7 @@
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.35,
+   "adj_points": 0.44,
    "qb_out": false,
    "absences": [
     {
@@ -59,10 +59,27 @@
      "points": 0.35,
      "updated": "2026-11-23T15:21Z",
      "note": "out"
+    },
+    {
+     "player": "Theo Benedet",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-24T01:27Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Theo Benedet",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-24T01:27Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CIN": {
    "adj_points": 0.3,
@@ -77,7 +94,7 @@
      "note": "inactive"
     }
    ],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CLE": {
@@ -105,12 +122,69 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-22T20:37Z",
-     "note": "Winters (knee) has been ruled out for the remainder of Sunday's clash against the Titans, Joe Hoyt of The Dallas Morning News reports."
+     "updated": "2026-11-24T00:44Z",
+     "note": "Winters (knee) was estimated as DNP on Monday's practice report, Tommy Yarrish of the Cowboys' official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "DET": {
+   "adj_points": 0.26,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "DJ Wonnum",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-24T01:35Z",
+     "note": "Wonnum (back) did not participate at the Lions' walkthrough practice Monday."
+    },
+    {
+     "player": "Chuck Clark",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T01:21Z",
+     "note": "Clark (hamstring) was considered to be a non-participant at the Lions' walkthrough practice Monday."
+    },
+    {
+     "player": "Sam LaPorta",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T00:38Z",
+     "note": "LaPorta (ankle) was limited at Monday's walkthrough, Nolan Bianchi of The Detroit News reports."
+    }
+   ],
+   "delta_since_last_pull": 0.26,
+   "new_absences": [
+    {
+     "player": "DJ Wonnum",
+     "pos": "DE",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-24T01:35Z",
+     "note": "Wonnum (back) did not participate at the Lions' walkthrough practice Monday."
+    },
+    {
+     "player": "Chuck Clark",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T01:21Z",
+     "note": "Clark (hamstring) was considered to be a non-participant at the Lions' walkthrough practice Monday."
+    },
+    {
+     "player": "Sam LaPorta",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T00:38Z",
+     "note": "LaPorta (ankle) was limited at Monday's walkthrough, Nolan Bianchi of The Detroit News reports."
+    }
+   ]
   },
   "GB": {
    "adj_points": 0.06,
@@ -361,8 +435,8 @@
      "pos": "OL",
      "status": "Out",
      "points": 0.35,
-     "updated": "2026-11-23T19:42Z",
-     "note": "McKivitz suffered a season-ending ankle injury in Sunday night's matchup against the Vikings, Nick Wagoner of ESPN.com reports."
+     "updated": "2026-11-24T00:48Z",
+     "note": "McKivitz fractured and dislocated his ankle during the 49ers' blowout win over the Vikings on Sunday Night Football, Ian Rapoport of NFL Network reports."
     },
     {
      "player": "Dre Greenlaw",
@@ -453,7 +527,7 @@
      "note": "Robertson (ankle) is inactive for Monday night's contest against the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.38,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
