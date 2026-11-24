@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-24T22:00:34.186326+00:00",
-  "previous_pull": "2026-11-24T21:30:40.525552+00:00",
-  "matched_absences": 36
+  "injury_pull": "2026-11-24T23:00:40.342453+00:00",
+  "previous_pull": "2026-11-24T22:00:34.186326+00:00",
+  "matched_absences": 32
  },
  "teams": {
   "BAL": {
@@ -25,17 +25,9 @@
    "new_absences": []
   },
   "BUF": {
-   "adj_points": 0.19,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Spencer Brown",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-23T23:12Z",
-     "note": "questionable"
-    },
     {
      "player": "O'Cyrus Torrence",
      "pos": "G",
@@ -45,11 +37,11 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.18,
+   "adj_points": 0.09,
    "qb_out": false,
    "absences": [
     {
@@ -59,17 +51,9 @@
      "points": 0.09,
      "updated": "2026-11-24T12:39Z",
      "note": "questionable"
-    },
-    {
-     "player": "Theo Benedet",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-24T01:27Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.09,
    "new_absences": []
   },
   "CLE": {
@@ -105,15 +89,15 @@
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-24T00:44Z",
-     "note": "Winters (knee) was estimated as DNP on Monday's practice report, Tommy Yarrish of the Cowboys' official site reports."
+     "updated": "2026-11-24T22:40Z",
+     "note": "Winters (knee) was limited in practice Tuesday."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.26,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
     {
@@ -131,17 +115,9 @@
      "points": 0.07,
      "updated": "2026-11-24T01:21Z",
      "note": "Clark (hamstring) was considered to be a non-participant at the Lions' walkthrough practice Monday."
-    },
-    {
-     "player": "Sam LaPorta",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-24T00:38Z",
-     "note": "LaPorta (ankle) was limited at Monday's walkthrough, Nolan Bianchi of The Detroit News reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "HOU": {
@@ -171,22 +147,6 @@
      "points": 0.09,
      "updated": "2026-11-23T00:22Z",
      "note": "Little is questionable to return to Sunday's game against the Giants due to a knee injury."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "KC": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Noah Gray",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-24T00:06Z",
-     "note": "Gray (ribs) was deemed a non-participant in Monday's walkthrough."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -303,7 +263,7 @@
     {
      "player": "Greg Newsome II",
      "pos": "CB",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.5,
      "updated": "2026-11-24T20:14Z",
      "note": "Newsome (ankle) is set to undergo surgery in Week 12 and will miss the next four to six weeks, NFL reporter Jordan Schultz reports."
@@ -470,6 +430,13 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "KC": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
