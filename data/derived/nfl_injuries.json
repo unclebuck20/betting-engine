@@ -1,27 +1,27 @@
 {
  "meta": {
   "season": 2026,
-  "starters_identified": 588,
+  "starters_identified": 586,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-24T11:30:34.405641+00:00",
-  "previous_pull": "2026-11-24T08:00:35.323903+00:00",
+  "injury_pull": "2026-11-24T15:00:43.804525+00:00",
+  "previous_pull": "2026-11-24T11:30:34.405641+00:00",
   "matched_absences": 36
  },
  "teams": {
   "BAL": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Marlon Humphrey",
      "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
+     "status": "Questionable",
+     "points": 0.12,
      "updated": "2026-11-24T00:07Z",
      "note": "Humphrey (coach's decision) has returned to the team's facility, but it remains unclear if he will play Sunday against the Texans, Jamison Hensley of ESPN.com r"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "BUF": {
@@ -49,16 +49,16 @@
    "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.44,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
     {
      "player": "Kyler Gordon",
      "pos": "DB",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-23T15:21Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
     },
     {
      "player": "Theo Benedet",
@@ -69,39 +69,23 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "CIN": {
-   "adj_points": 0.3,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Dalton Risner",
-     "pos": "G",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-23T23:47Z",
-     "note": "inactive"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.26,
    "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.3,
+   "adj_points": 0.07,
    "qb_out": false,
    "absences": [
     {
      "player": "Ronnie Hickman",
      "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-17T12:20Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.23,
    "new_absences": []
   },
   "DAL": {
@@ -217,7 +201,7 @@
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 1.81,
+   "adj_points": 1.24,
    "qb_out": false,
    "absences": [
     {
@@ -231,18 +215,18 @@
     {
      "player": "Tarheeb Still",
      "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-22T19:51Z",
-     "note": "Still is inactive for Sunday's Week 11 matchup against the Jets due to an ankle injury."
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
     },
     {
      "player": "Daiyan Henley",
      "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-23T15:37Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
     },
     {
      "player": "Akheem Mesidor",
@@ -253,7 +237,7 @@
      "note": "Mesidor (ankle) is questionable to return to Sunday's contest against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.57,
    "new_absences": []
   },
   "LA": {
@@ -279,6 +263,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "MIA": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Dante Trader Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Dante Trader Jr.",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NE": {
    "adj_points": 4.06,
@@ -321,19 +330,19 @@
    "new_absences": []
   },
   "NYJ": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Isaiah Williams",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-23T15:45Z",
-     "note": "out"
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   },
   "PHI": {
@@ -377,7 +386,7 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.69,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -389,23 +398,23 @@
      "note": "McKivitz fractured and dislocated his ankle during the 49ers' blowout win over the Vikings on Sunday Night Football, Ian Rapoport of NFL Network reports."
     },
     {
-     "player": "Dre Greenlaw",
-     "pos": "LB",
-     "status": "Out",
-     "points": 0.25,
-     "updated": "2026-11-23T00:25Z",
-     "note": "Greenlaw (neck) is inactive for Sunday night's contest against the Vikings in Mexico City, Brooke Evans of the 49ers' official website reports."
-    },
-    {
      "player": "Deommodore Lenoir",
      "pos": "DB",
      "status": "Questionable",
      "points": 0.09,
      "updated": "2026-11-23T19:29Z",
      "note": "49ers head coach Kyle Shanahan said Monday that Lenoir is still dealing with a foot injury, Nick Wagoner of ESPN.com reports."
+    },
+    {
+     "player": "Dre Greenlaw",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-24T12:39Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   },
   "SEA": {
@@ -465,19 +474,19 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Amik Robertson",
      "pos": "CB",
-     "status": "Out",
-     "points": 0.5,
+     "status": "Questionable",
+     "points": 0.12,
      "updated": "2026-11-24T00:16Z",
      "note": "Robertson (ankle) is inactive for Monday night's contest against the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.38,
    "new_absences": []
   }
  }
