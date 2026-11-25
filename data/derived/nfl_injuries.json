@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-24T23:00:40.342453+00:00",
-  "previous_pull": "2026-11-24T22:00:34.186326+00:00",
+  "injury_pull": "2026-11-25T02:30:38.905621+00:00",
+  "previous_pull": "2026-11-24T23:00:40.342453+00:00",
   "matched_absences": 32
  },
  "teams": {
@@ -37,7 +37,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CHI": {
@@ -53,7 +53,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.09,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CLE": {
@@ -96,6 +96,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "DEN": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Taylor Rapp",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T22:59Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Taylor Rapp",
+     "pos": "S",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-24T22:59Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "DET": {
    "adj_points": 0.19,
    "qb_out": false,
@@ -113,11 +138,11 @@
      "pos": "S",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-24T01:21Z",
-     "note": "Clark (hamstring) was considered to be a non-participant at the Lions' walkthrough practice Monday."
+     "updated": "2026-11-25T00:47Z",
+     "note": "Clark (hamstring) was a limited participant in Tuesday's walkthrough practice."
     }
    ],
-   "delta_since_last_pull": -0.07,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "HOU": {
@@ -265,8 +290,8 @@
      "pos": "CB",
      "status": "Injured Reserve",
      "points": 0.5,
-     "updated": "2026-11-24T20:14Z",
-     "note": "Newsome (ankle) is set to undergo surgery in Week 12 and will miss the next four to six weeks, NFL reporter Jordan Schultz reports."
+     "updated": "2026-11-25T00:42Z",
+     "note": "The Giants placed Newsome (ankle) on injured reserve Tuesday, Dan Salomone of the team's official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -289,7 +314,7 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.19,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
@@ -297,19 +322,11 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-22T20:56Z",
-     "note": "Mitchell (hamstring) has been ruled out for the rest of Sunday's game against the Steelers."
-    },
-    {
-     "player": "Dallas Goedert",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-23T22:07Z",
-     "note": "Goedert was listed as a limited participant on Monday's practice estimate due to a shin injury."
+     "updated": "2026-11-25T01:05Z",
+     "note": "Mitchell (hamstring) was a limited participant in Tuesday's walkthrough practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "PIT": {
@@ -430,13 +447,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "KC": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
