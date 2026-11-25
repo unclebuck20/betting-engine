@@ -3,11 +3,52 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-25T18:30:33.075039+00:00",
-  "previous_pull": "2026-11-25T15:00:37.227668+00:00",
-  "matched_absences": 32
+  "injury_pull": "2026-11-25T22:00:43.542590+00:00",
+  "previous_pull": "2026-11-25T18:30:33.075039+00:00",
+  "matched_absences": 44
  },
  "teams": {
+  "ATL": {
+   "adj_points": 0.21,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Jahan Dotson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T21:37Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Matthew Bergeron",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T21:36Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.21,
+   "new_absences": [
+    {
+     "player": "Jahan Dotson",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T21:37Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Matthew Bergeron",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T21:36Z",
+     "note": "questionable"
+    }
+   ]
+  },
   "BAL": {
    "adj_points": 0.12,
    "qb_out": false,
@@ -40,21 +81,63 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "CAR": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Tetairoa McMillan",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T20:18Z",
+     "note": "Head coach Dave Canales said Wednesday that the Panthers are \"optimistic\" that McMillan (foot) will play Monday in Tampa Bay, Mike Kaye of ESPN.com reports."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Tetairoa McMillan",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T20:18Z",
+     "note": "Head coach Dave Canales said Wednesday that the Panthers are \"optimistic\" that McMillan (foot) will play Monday in Tampa Bay, Mike Kaye of ESPN.com reports."
+    }
+   ]
+  },
   "CHI": {
-   "adj_points": 0.09,
+   "adj_points": 0.44,
    "qb_out": false,
    "absences": [
     {
      "player": "Kyler Gordon",
      "pos": "DB",
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-25T20:28Z",
+     "note": "out"
+    },
+    {
+     "player": "Tyrique Stevenson Sr.",
+     "pos": "DB",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-24T12:39Z",
+     "updated": "2026-11-25T20:29Z",
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.35,
+   "new_absences": [
+    {
+     "player": "Tyrique Stevenson Sr.",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T20:29Z",
+     "note": "questionable"
+    }
+   ]
   },
   "CLE": {
    "adj_points": 0.19,
@@ -75,22 +158,6 @@
      "points": 0.07,
      "updated": "2026-11-24T12:39Z",
      "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "DAL": {
-   "adj_points": 0.06,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Dee Winters",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-24T22:40Z",
-     "note": "Winters (knee) was limited in practice Tuesday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -153,20 +220,45 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.09,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
     {
-     "player": "Walker Little",
+     "player": "Jakobi Meyers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T21:19Z",
+     "note": "Meyers was a limited participant in Wednesday's practice due to an ankle injury."
+    },
+    {
+     "player": "Cole Van Lanen",
      "pos": "OL",
      "status": "Questionable",
      "points": 0.09,
-     "updated": "2026-11-23T00:22Z",
-     "note": "Little is questionable to return to Sunday's game against the Giants due to a knee injury."
+     "updated": "2026-11-25T21:19Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Jakobi Meyers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T21:19Z",
+     "note": "Meyers was a limited participant in Wednesday's practice due to an ankle injury."
+    },
+    {
+     "player": "Cole Van Lanen",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T21:19Z",
+     "note": "questionable"
+    }
+   ]
   },
   "KC": {
    "adj_points": 0.07,
@@ -181,17 +273,8 @@
      "note": "Gray (ribs) is listed as questionable for Thursday night's game against the Bills."
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "Noah Gray",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-25T17:36Z",
-     "note": "Gray (ribs) is listed as questionable for Thursday night's game against the Bills."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "LAC": {
    "adj_points": 1.24,
@@ -202,8 +285,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-23T00:32Z",
-     "note": "Herbert entered the concussion protocol after Sunday's 27-24 loss to the Jets, Noah Furtado of The Athletic reports."
+     "updated": "2026-11-25T20:27Z",
+     "note": "Chargers coach Jim Harbaugh said that Herbert (concussion) won't practice Wednesday, Noah Furtado of The Athletic reports."
     },
     {
      "player": "Tarheeb Still",
@@ -258,9 +341,17 @@
    "new_absences": []
   },
   "MIA": {
-   "adj_points": 0.07,
+   "adj_points": 0.19,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Austin Jackson",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T21:29Z",
+     "note": "questionable"
+    },
     {
      "player": "Dante Trader Jr.",
      "pos": "S",
@@ -270,8 +361,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Austin Jackson",
+     "pos": "T",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T21:29Z",
+     "note": "questionable"
+    }
+   ]
   },
   "NE": {
    "adj_points": 4.06,
@@ -298,7 +398,7 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.5,
+   "adj_points": 0.78,
    "qb_out": false,
    "absences": [
     {
@@ -308,13 +408,78 @@
      "points": 0.5,
      "updated": "2026-11-25T00:42Z",
      "note": "The Giants placed Newsome (ankle) on injured reserve Tuesday, Dan Salomone of the team's official site reports."
+    },
+    {
+     "player": "Shelby Harris",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T21:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Isaiah Likely",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-25T21:14Z",
+     "note": "Likely (groin) was limited in practice Wednesday, Dan Salomone of the Giants' official site reports."
+    },
+    {
+     "player": "Arvell Reese",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T21:15Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Abdul Carter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T02:21Z",
+     "note": "Carter recorded four total tackles (three solo), including 2.0 sacks, during Sunday's 23-18 win over the Jaguars."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.28,
+   "new_absences": [
+    {
+     "player": "Shelby Harris",
+     "pos": "DL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T21:14Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Isaiah Likely",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-25T21:14Z",
+     "note": "Likely (groin) was limited in practice Wednesday, Dan Salomone of the Giants' official site reports."
+    },
+    {
+     "player": "Arvell Reese",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T21:15Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Abdul Carter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T02:21Z",
+     "note": "Carter recorded four total tackles (three solo), including 2.0 sacks, during Sunday's 23-18 win over the Jaguars."
+    }
+   ]
   },
   "NYJ": {
-   "adj_points": 0.12,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
     {
@@ -322,12 +487,29 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-24T12:39Z",
+     "updated": "2026-11-25T21:09Z",
+     "note": "Williams (ribs) was listed as a limited participant on Wednesday's estimated practice report."
+    },
+    {
+     "player": "Dylan Parham",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T21:07Z",
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Dylan Parham",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-25T21:07Z",
+     "note": "questionable"
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.21,
@@ -346,16 +528,24 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 0.5,
+   "adj_points": 1.5,
    "qb_out": false,
    "absences": [
     {
+     "player": "Brock Purdy",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-25T19:57Z",
+     "note": "Purdy didn't practice Wednesday due to an ankle injury, Vic Tafur of The Athletic reports."
+    },
+    {
      "player": "Colton McKivitz",
      "pos": "OL",
-     "status": "Out",
+     "status": "Injured Reserve",
      "points": 0.35,
-     "updated": "2026-11-24T00:48Z",
-     "note": "San Francisco head coach Kyle Shanahan said after Sunday's 35-10 win over the Vikings that McKivitz is believed to have sustained a fractured and dislocated lef"
+     "updated": "2026-11-25T19:24Z",
+     "note": "ir"
     },
     {
      "player": "Deommodore Lenoir",
@@ -374,23 +564,32 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Brock Purdy",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-25T19:57Z",
+     "note": "Purdy didn't practice Wednesday due to an ankle injury, Vic Tafur of The Athletic reports."
+    }
+   ]
   },
   "SEA": {
-   "adj_points": 0.12,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Abraham Lucas",
      "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-15T22:03Z",
-     "note": "Lucas (ankle) is doubtful to return to Sunday's game against the Raiders."
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-25T20:53Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.38,
    "new_absences": []
   },
   "TB": {
@@ -434,9 +633,17 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.12,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Stefon Diggs",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T20:25Z",
+     "note": "Diggs was absent from Wednesday's practice and was excused, Ben Standig of The Team 980 reports."
+    },
     {
      "player": "Amik Robertson",
      "pos": "CB",
@@ -446,14 +653,23 @@
      "note": "Robertson (ankle) is inactive for Monday night's contest against the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Stefon Diggs",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T20:25Z",
+     "note": "Diggs was absent from Wednesday's practice and was excused, Ben Standig of The Team 980 reports."
+    }
+   ]
   },
-  "PHI": {
+  "DAL": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": -0.06,
    "new_absences": []
   }
  }
