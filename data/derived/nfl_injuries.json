@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-25T23:00:36.500105+00:00",
-  "previous_pull": "2026-11-25T22:00:43.542590+00:00",
-  "matched_absences": 50
+  "injury_pull": "2026-11-26T00:00:31.679255+00:00",
+  "previous_pull": "2026-11-25T23:00:36.500105+00:00",
+  "matched_absences": 57
  },
  "teams": {
   "ATL": {
@@ -33,9 +33,25 @@
    "new_absences": []
   },
   "BAL": {
-   "adj_points": 0.12,
+   "adj_points": 0.49,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Rashod Bateman",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T23:42Z",
+     "note": "Bateman (groin) was limited in Wednesday's practice."
+    },
+    {
+     "player": "Zay Flowers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T23:25Z",
+     "note": "Flowers (ankle) was listed as a limited participant in Wednesday's practice."
+    },
     {
      "player": "Marlon Humphrey",
      "pos": "CB",
@@ -43,10 +59,59 @@
      "points": 0.12,
      "updated": "2026-11-24T00:07Z",
      "note": "Ravens head coach Jesse Minter said Monday that Humphrey has returned to the team's facility, but a decision hasn't been made regarding the defensive back's sta"
+    },
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-25T23:20Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Mike Green",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T02:24Z",
+     "note": "Green recorded five tackles (four solo) including 2.0 sacks during Sunday's 35-33 loss at Carolina."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.37,
+   "new_absences": [
+    {
+     "player": "Rashod Bateman",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T23:42Z",
+     "note": "Bateman (groin) was limited in Wednesday's practice."
+    },
+    {
+     "player": "Zay Flowers",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T23:25Z",
+     "note": "Flowers (ankle) was listed as a limited participant in Wednesday's practice."
+    },
+    {
+     "player": "John Simpson",
+     "pos": "G",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-25T23:20Z",
+     "note": "questionable"
+    },
+    {
+     "player": "Mike Green",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T02:24Z",
+     "note": "Green recorded five tackles (four solo) including 2.0 sacks during Sunday's 35-33 loss at Carolina."
+    }
+   ]
   },
   "BUF": {
    "adj_points": 0.07,
@@ -129,8 +194,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-25T22:24Z",
-     "note": "Boston didn't practice Wednesday due to a quadriceps injury, Ryan McFadden of ESPN.com reports."
+     "updated": "2026-11-25T18:16Z",
+     "note": "Boston wasn't spotted at Wednesday's practice, Daniel Oyefusi of ESPN reports."
     },
     {
      "player": "Elgton Jenkins",
@@ -165,49 +230,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.47,
-   "new_absences": [
-    {
-     "player": "Isaiah McGuire",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T22:38Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Austin Barber",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T22:38Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Elgton Jenkins",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-25T22:39Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Harold Fannin Jr.",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-25T22:30Z",
-     "note": "Fannin (groin) was listed as a limited participant in Wednesday's practice, Ryan McFadden of ESPN reports."
-    },
-    {
-     "player": "Quincy Williams",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-25T22:40Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "DEN": {
    "adj_points": 0.3,
@@ -222,7 +246,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "DET": {
@@ -306,7 +330,7 @@
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 1.24,
+   "adj_points": 1.3,
    "qb_out": false,
    "absences": [
     {
@@ -326,6 +350,14 @@
      "note": "questionable"
     },
     {
+     "player": "Tuli Tuipulotu",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T23:54Z",
+     "note": "questionable"
+    },
+    {
      "player": "Daiyan Henley",
      "pos": "LB",
      "status": "Questionable",
@@ -342,8 +374,17 @@
      "note": "Mesidor (ankle) is questionable to return to Sunday's contest against the Jets."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Tuli Tuipulotu",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-25T23:54Z",
+     "note": "questionable"
+    }
+   ]
   },
   "LA": {
    "adj_points": 0.85,
@@ -393,6 +434,31 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
+  "MIN": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Tai Felton",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T22:57Z",
+     "note": "Felton (hip) was limited at Wednesday's walkthrough."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Tai Felton",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T22:57Z",
+     "note": "Felton (hip) was limited at Wednesday's walkthrough."
+    }
+   ]
+  },
   "NE": {
    "adj_points": 4.06,
    "qb_out": true,
@@ -430,17 +496,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
-    {
-     "player": "David Edwards",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-25T22:04Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NYG": {
    "adj_points": 0.78,
@@ -571,7 +628,7 @@
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 0.5,
+   "adj_points": 0.62,
    "qb_out": false,
    "absences": [
     {
@@ -581,10 +638,27 @@
      "points": 0.5,
      "updated": "2026-11-25T20:53Z",
      "note": "out"
+    },
+    {
+     "player": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T23:36Z",
+     "note": "Smith-Njigba was limited at Wednesday's practice due to an ankle injury, John Boyle of the Seahawks' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T23:36Z",
+     "note": "Smith-Njigba was limited at Wednesday's practice due to an ankle injury, John Boyle of the Seahawks' official site reports."
+    }
+   ]
   },
   "TB": {
    "adj_points": 0.12,
@@ -615,7 +689,7 @@
      "note": "Moore (knee) is questionable to return to Sunday's game against the Cowboys."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "WAS": {
@@ -623,20 +697,20 @@
    "qb_out": false,
    "absences": [
     {
+     "player": "Treylon Burks",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-25T22:58Z",
+     "note": "Burks (foot) was listed as a limited participant in Wednesday's practice."
+    },
+    {
      "player": "Stefon Diggs",
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-25T20:25Z",
      "note": "Diggs was absent from Wednesday's practice and was excused, Ben Standig of The Team 980 reports."
-    },
-    {
-     "player": "Treylon Burks",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T00:24Z",
-     "note": "Burks caught two of three passes for 30 yards during the Commanders' 22-20 win over the Bengals on Monday."
     },
     {
      "player": "Amik Robertson",
@@ -647,17 +721,8 @@
      "note": "Robertson (ankle) is inactive for Monday night's contest against the Bengals."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Treylon Burks",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T00:24Z",
-     "note": "Burks caught two of three passes for 30 yards during the Commanders' 22-20 win over the Bengals on Monday."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   }
  }
 }
