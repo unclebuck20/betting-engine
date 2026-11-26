@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-26T22:00:27.400978+00:00",
-  "previous_pull": "2026-11-26T20:30:40.431007+00:00",
-  "matched_absences": 64
+  "injury_pull": "2026-11-26T23:00:41.531582+00:00",
+  "previous_pull": "2026-11-26T22:00:27.400978+00:00",
+  "matched_absences": 67
  },
  "teams": {
   "ATL": {
@@ -61,17 +61,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.3,
-   "new_absences": [
-    {
-     "player": "Olaivavega Ioane",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-26T21:39Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "BUF": {
    "adj_points": 0.07,
@@ -106,8 +97,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-26T21:36Z",
-     "note": "questionable"
+     "updated": "2026-11-26T22:18Z",
+     "note": "Tremble (knee) was listed as a limited participant on Thursday's estimated practice report, Mike Kaye of ESPN.com reports."
     },
     {
      "player": "Jaelan Phillips",
@@ -126,38 +117,21 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.19,
-   "new_absences": [
-    {
-     "player": "Tommy Tremble",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-26T21:36Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jaelan Phillips",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T21:36Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Patrick Jones II",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T21:35Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CHI": {
-   "adj_points": 0.42,
+   "adj_points": 1.42,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Caleb Williams",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-26T21:54Z",
+     "note": "Williams is having an X-ray performed after Thursday's 39-35 win at Detroit, Brad Biggs of the Chicago Tribune reports."
+    },
     {
      "player": "Kyler Gordon",
      "pos": "DB",
@@ -175,13 +149,30 @@
      "note": "Loveland (knee) has been ruled out from returning to Thursday's game in Detroit."
     }
    ],
-   "delta_since_last_pull": -0.23,
-   "new_absences": []
+   "delta_since_last_pull": 1.0,
+   "new_absences": [
+    {
+     "player": "Caleb Williams",
+     "pos": "QB",
+     "status": "Questionable",
+     "points": 1.0,
+     "updated": "2026-11-26T21:54Z",
+     "note": "Williams is having an X-ray performed after Thursday's 39-35 win at Detroit, Brad Biggs of the Chicago Tribune reports."
+    }
+   ]
   },
   "CLE": {
-   "adj_points": 0.66,
+   "adj_points": 0.59,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Denzel Boston",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-26T22:31Z",
+     "note": "Boston (quadriceps) was listed as a non-participant on Thursday's practice estimate, Sam Warren of The Athleticreports."
+    },
     {
      "player": "Isaiah McGuire",
      "pos": "DE",
@@ -197,14 +188,6 @@
      "points": 0.12,
      "updated": "2026-11-25T22:38Z",
      "note": "questionable"
-    },
-    {
-     "player": "Denzel Boston",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T18:16Z",
-     "note": "Boston wasn't spotted at Wednesday's practice, Daniel Oyefusi of ESPN reports."
     },
     {
      "player": "Elgton Jenkins",
@@ -223,14 +206,6 @@
      "note": "Hickman (concussion) logged a full practice Wednesday, Ryan McFadden of ESPN.com reports."
     },
     {
-     "player": "Harold Fannin Jr.",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-25T22:30Z",
-     "note": "Fannin (groin) was listed as a limited participant in Wednesday's practice, Ryan McFadden of ESPN reports."
-    },
-    {
      "player": "Quincy Williams",
      "pos": "LB",
      "status": "Questionable",
@@ -239,7 +214,7 @@
      "note": "Williams (knee) was a limited participant in Wednesday's practice, Ryan McFadden of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.07,
    "new_absences": []
   },
   "DEN": {
@@ -279,7 +254,7 @@
      "note": "Clark (hamstring) is inactive for Thursday's clash against Chicago."
     }
    ],
-   "delta_since_last_pull": -0.06,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "GB": {
@@ -575,8 +550,49 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "PHI": {
+   "adj_points": 0.16,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Cooper DeJean",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-26T22:08Z",
+     "note": "DeJean has entered the league's concussion protocol and has been ruled out for the rest of Thursday's game against the Cowboys."
+    },
+    {
+     "player": "Dallas Goedert",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-26T22:33Z",
+     "note": "Goedert suffered a shoulder injury during Thursday's game against the Cowboys."
+    }
+   ],
+   "delta_since_last_pull": 0.16,
+   "new_absences": [
+    {
+     "player": "Cooper DeJean",
+     "pos": "DB",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-26T22:08Z",
+     "note": "DeJean has entered the league's concussion protocol and has been ruled out for the rest of Thursday's game against the Cowboys."
+    },
+    {
+     "player": "Dallas Goedert",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-26T22:33Z",
+     "note": "Goedert suffered a shoulder injury during Thursday's game against the Cowboys."
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.25,
@@ -587,8 +603,8 @@
      "pos": "LB",
      "status": "Out",
      "points": 0.25,
-     "updated": "2026-11-26T19:38Z",
-     "note": "out"
+     "updated": "2026-11-26T22:46Z",
+     "note": "Highsmith (ankle) has been ruled out for Friday's game against the Broncos, Teresa Varley of the Steelers' official site reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -603,8 +619,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-25T19:57Z",
-     "note": "Purdy didn't practice Wednesday due to an ankle injury, Vic Tafur of The Athletic reports."
+     "updated": "2026-11-26T22:01Z",
+     "note": "Purdy (ankle) was listed as a non-participant on Thursday's injury report, Eric Branch of the San Francisco Chronicle reports."
     },
     {
      "player": "Colton McKivitz",
@@ -619,8 +635,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-26T02:57Z",
-     "note": "Watkins (groin) did not participate in Wednesday's practice."
+     "updated": "2026-11-26T22:29Z",
+     "note": "Watkins (groin) was estimated as a DNP on Thursday's injury report, Matt Maiocco of NBC Sports Bay Area reports."
     },
     {
      "player": "Upton Stout",
@@ -659,8 +675,8 @@
      "pos": "QB",
      "status": "Questionable",
      "points": 1.0,
-     "updated": "2026-11-26T00:28Z",
-     "note": "questionable"
+     "updated": "2026-11-26T22:32Z",
+     "note": "Lock (elbow) was a limited participant in Thursday's practice, Bob Condotta of The Seattle Times reports."
     },
     {
      "player": "Abraham Lucas",
@@ -675,8 +691,8 @@
      "pos": "WR",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-25T23:36Z",
-     "note": "Smith-Njigba was limited at Wednesday's practice due to an ankle injury, John Boyle of the Seahawks' official site reports."
+     "updated": "2026-11-26T22:14Z",
+     "note": "Smith-Njigba (ankle) was listed as limited on Thursday's injury report, Bob Condotta of The Seattle Times reports."
     },
     {
      "player": "Anthony Bradford",
@@ -707,7 +723,7 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 0.12,
+   "adj_points": 0.18,
    "qb_out": false,
    "absences": [
     {
@@ -717,10 +733,27 @@
      "points": 0.12,
      "updated": "2026-11-23T20:54Z",
      "note": "Buccaneers head coach Todd Bowles said that Parrish underwent an MRI on his back Monday, Brianna Dix of the Buccaneers' official site reports."
+    },
+    {
+     "player": "Josiah Trotter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-26T22:17Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Josiah Trotter",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-26T22:17Z",
+     "note": "questionable"
+    }
+   ]
   },
   "TEN": {
    "adj_points": 0.12,
@@ -735,7 +768,7 @@
      "note": "Flott (neck) did not participate in Wednesday's practice, Turron Davenport of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "WAS": {
@@ -759,7 +792,7 @@
      "note": "Robertson (ankle) did not participate in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   }
  }
