@@ -1,11 +1,11 @@
 {
  "meta": {
   "season": 2026,
-  "starters_identified": 586,
+  "starters_identified": 580,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-26T11:30:31.337405+00:00",
-  "previous_pull": "2026-11-26T08:00:36.577406+00:00",
-  "matched_absences": 67
+  "injury_pull": "2026-11-26T15:00:35.216728+00:00",
+  "previous_pull": "2026-11-26T11:30:31.337405+00:00",
+  "matched_absences": 65
  },
  "teams": {
   "ATL": {
@@ -353,24 +353,16 @@
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.99,
+   "adj_points": 0.16,
    "qb_out": false,
    "absences": [
     {
-     "player": "Puka Nacua",
-     "pos": "WR",
-     "status": "Injured Reserve",
-     "points": 0.5,
-     "updated": "2026-11-22T01:25Z",
-     "note": "Nacua (knee/toe) is expected to be sidelined 4-to-5 months after undergoing surgery Tuesday to repair his right MCL, which means he won't be on track to return "
-    },
-    {
-     "player": "Coleman Shelton",
+     "player": "Bill Murray",
      "pos": "OL",
-     "status": "Out",
-     "points": 0.35,
-     "updated": "2026-11-26T00:01Z",
-     "note": "inactive"
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-26T12:31Z",
+     "note": "questionable"
     },
     {
      "player": "Tyler Higbee",
@@ -379,18 +371,19 @@
      "points": 0.07,
      "updated": "2026-11-26T03:47Z",
      "note": "Higbee exited Wednesday's game against the Packers with a chest injury and will not return, Adam Grosbard of The Orange County Register reports."
-    },
-    {
-     "player": "Davis Allen",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-26T03:24Z",
-     "note": "Allen (ankle) has been ruled out for the remainder of Wednesday night's game against the Packers."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.09,
+   "new_absences": [
+    {
+     "player": "Bill Murray",
+     "pos": "OL",
+     "status": "Questionable",
+     "points": 0.09,
+     "updated": "2026-11-26T12:31Z",
+     "note": "questionable"
+    }
+   ]
   },
   "MIA": {
    "adj_points": 0.19,
