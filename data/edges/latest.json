@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built_at": "2026-11-26T23:01:29.096624+00:00",
+  "built_at": "2026-11-26T23:30:50.246604+00:00",
   "nfl_history_games": 5596,
   "cfb_history_games": 3730,
-  "games": 94
+  "games": 92
  },
  "games": [
   {
@@ -12,28 +12,28 @@
    "matchup": "Kansas City Chiefs @ Buffalo Bills",
    "kickoff_pt": "Thu Nov 26 5:20 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": 3.2,
+   "fair_home_margin": 3.4,
    "best": [
-    {
-     "book": "espnbet",
-     "side": "away",
-     "home_line": -3.0,
-     "price": -110,
-     "ev": -0.0117
-    },
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -3.0,
-     "price": -110,
-     "ev": -0.0117
+     "price": -108,
+     "ev": -0.0158
     },
     {
-     "book": "hardrockbet",
+     "book": "pinnacle",
      "side": "away",
      "home_line": -3.0,
-     "price": -110,
-     "ev": -0.0117
+     "price": -108,
+     "ev": -0.0158
+    },
+    {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": -3.0,
+     "price": 100,
+     "ev": -0.0184
     }
    ]
   },
@@ -111,8 +111,8 @@
      "book": "betrivers",
      "side": "away",
      "home_line": -7.0,
-     "price": -107,
-     "ev": 0.0138
+     "price": -110,
+     "ev": 0.0013
     },
     {
      "book": "lowvig",
@@ -153,11 +153,11 @@
      "ev": -0.0095
     },
     {
-     "book": "draftkings",
+     "book": "espnbet",
      "side": "home",
      "home_line": -10.0,
-     "price": -106,
-     "ev": -0.0138
+     "price": -105,
+     "ev": -0.0095
     }
    ]
   },
@@ -322,28 +322,28 @@
    "matchup": "Seattle Seahawks @ San Francisco 49ers",
    "kickoff_pt": "Sun Nov 29 1:25 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": 3.2,
+   "fair_home_margin": 3.0,
    "best": [
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": -3.0,
-     "price": -112,
-     "ev": -0.0193
-    },
     {
      "book": "betmgm",
      "side": "away",
      "home_line": -3.0,
      "price": -112,
-     "ev": -0.0193
+     "ev": -0.008
     },
     {
-     "book": "pinnacle",
+     "book": "lowvig",
      "side": "away",
-     "home_line": -2.5,
-     "price": 108,
-     "ev": -0.0248
+     "home_line": -3.0,
+     "price": -113,
+     "ev": -0.0117
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -3.0,
+     "price": -117,
+     "ev": -0.0261
     }
    ]
   },
@@ -428,8 +428,8 @@
      "book": "draftkings",
      "side": "away",
      "home_line": -1.5,
-     "price": -123,
-     "ev": -0.0147
+     "price": -122,
+     "ev": -0.011
     },
     {
      "book": "fanduel",
@@ -628,37 +628,6 @@
   },
   {
    "league": "nfl",
-   "id": "f4897f48a5351881280f7598bd826408",
-   "matchup": "Philadelphia Eagles @ Arizona Cardinals",
-   "kickoff_pt": "Sun Dec 6 1:05 PM PST",
-   "fair_source": "sharp",
-   "fair_home_margin": -1.6,
-   "best": [
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": 3.0,
-     "price": -110,
-     "ev": 0.0202
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 3.0,
-     "price": -110,
-     "ev": 0.0202
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": 3.0,
-     "price": -112,
-     "ev": 0.0123
-    }
-   ]
-  },
-  {
-   "league": "nfl",
    "id": "4116dbff75ab7957b69c2152f204b74d",
    "matchup": "Buffalo Bills @ New England Patriots",
    "kickoff_pt": "Sun Dec 6 1:25 PM PST",
@@ -747,37 +716,6 @@
      "home_line": 4.5,
      "price": -105,
      "ev": -0.0303
-    }
-   ]
-  },
-  {
-   "league": "nfl",
-   "id": "0db4646c964ecdff19957373fe707546",
-   "matchup": "Dallas Cowboys @ Seattle Seahawks",
-   "kickoff_pt": "Mon Dec 7 5:15 PM PST",
-   "fair_source": "sharp",
-   "fair_home_margin": 6.4,
-   "best": [
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -5.5,
-     "price": -109,
-     "ev": 0.0037
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": -5.5,
-     "price": -110,
-     "ev": -0.0007
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -6.0,
-     "price": -105,
-     "ev": -0.017
     }
    ]
   },
