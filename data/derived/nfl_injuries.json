@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 586,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-26T03:30:39.478971+00:00",
-  "previous_pull": "2026-11-26T00:00:31.679255+00:00",
-  "matched_absences": 66
+  "injury_pull": "2026-11-26T07:00:33.676180+00:00",
+  "previous_pull": "2026-11-26T03:30:39.478971+00:00",
+  "matched_absences": 67
  },
  "teams": {
   "ATL": {
@@ -69,7 +69,7 @@
      "note": "Green (knee) was a limited participant during Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "BUF": {
@@ -201,8 +201,8 @@
      "pos": "S",
      "status": "Out",
      "points": 0.3,
-     "updated": "2026-11-25T22:43Z",
-     "note": "out"
+     "updated": "2026-11-26T03:27Z",
+     "note": "Rapp (quadriceps) has been ruled out for Friday's game against the Steelers, Zac Stevens of TheDNVR.com reports."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -233,29 +233,20 @@
    "new_absences": []
   },
   "GB": {
-   "adj_points": 0.5,
+   "adj_points": 0.12,
    "qb_out": false,
    "absences": [
     {
      "player": "Christian Watson",
      "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
+     "status": "Questionable",
+     "points": 0.12,
      "updated": "2026-11-26T03:09Z",
      "note": "Watson (concussion) has been ruled out for the rest of Wednesday's game against the Rams."
     }
    ],
-   "delta_since_last_pull": 0.5,
-   "new_absences": [
-    {
-     "player": "Christian Watson",
-     "pos": "WR",
-     "status": "Out",
-     "points": 0.5,
-     "updated": "2026-11-26T03:09Z",
-     "note": "Watson (concussion) has been ruled out for the rest of Wednesday's game against the Rams."
-    }
-   ]
+   "delta_since_last_pull": -0.38,
+   "new_absences": []
   },
   "HOU": {
    "adj_points": 0.1,
@@ -334,6 +325,14 @@
      "note": "Still (ankle) did not participate in Wednesday's practice."
     },
     {
+     "player": "Akheem Mesidor",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-26T03:35Z",
+     "note": "Mesidor (ankle) did not participate in Wednesday's practice."
+    },
+    {
      "player": "Tuli Tuipulotu",
      "pos": "LB",
      "status": "Questionable",
@@ -348,21 +347,13 @@
      "points": 0.06,
      "updated": "2026-11-26T02:07Z",
      "note": "Henley (knee) did not participate in Wednesday's practice."
-    },
-    {
-     "player": "Akheem Mesidor",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-22T22:23Z",
-     "note": "Mesidor (ankle) is questionable to return to Sunday's contest against the Jets."
     }
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "LA": {
-   "adj_points": 0.92,
+   "adj_points": 0.99,
    "qb_out": false,
    "absences": [
     {
@@ -382,23 +373,31 @@
      "note": "inactive"
     },
     {
-     "player": "Davis Allen",
+     "player": "Tyler Higbee",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-26T02:24Z",
-     "note": "Allen (ankle) is questionable to return to Wednesday's game against the Packers, Sarah Barshop of ESPN.com reports."
-    }
-   ],
-   "delta_since_last_pull": 0.07,
-   "new_absences": [
+     "updated": "2026-11-26T03:47Z",
+     "note": "Higbee exited Wednesday's game against the Packers with a chest injury and will not return, Adam Grosbard of The Orange County Register reports."
+    },
     {
      "player": "Davis Allen",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-26T02:24Z",
-     "note": "Allen (ankle) is questionable to return to Wednesday's game against the Packers, Sarah Barshop of ESPN.com reports."
+     "updated": "2026-11-26T03:24Z",
+     "note": "Allen (ankle) has been ruled out for the remainder of Wednesday night's game against the Packers."
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Tyler Higbee",
+     "pos": "TE",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-26T03:47Z",
+     "note": "Higbee exited Wednesday's game against the Packers with a chest injury and will not return, Adam Grosbard of The Orange County Register reports."
     }
    ]
   },
@@ -455,25 +454,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.21,
-   "new_absences": [
-    {
-     "player": "Christian Darrisaw",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T00:15Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jalen Redmond",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-26T00:15Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "NE": {
    "adj_points": 4.0,
@@ -488,7 +470,7 @@
      "note": "For now, Maye -- who suffered a fractured right fibula during a Week 10 loss to the Lions -- remains on the Patriots' 53-man roster rather than injured reserve,"
     }
    ],
-   "delta_since_last_pull": -0.06,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NO": {
@@ -648,25 +630,8 @@
      "note": "Greenlaw (neck) was a limited participant in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.24,
-   "new_absences": [
-    {
-     "player": "Jordan Watkins",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T02:57Z",
-     "note": "Watkins (groin) did not participate in Wednesday's practice."
-    },
-    {
-     "player": "Upton Stout",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T02:33Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "SEA": {
    "adj_points": 1.81,
@@ -721,41 +686,8 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 1.19,
-   "new_absences": [
-    {
-     "player": "Drew Lock",
-     "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-26T00:28Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Anthony Bradford",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-26T00:27Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Ernest Jones IV",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T02:38Z",
-     "note": "Jones (knee) was a limited participant in Wednesday's practice, John Boyle of the Seahawks' official site reports."
-    },
-    {
-     "player": "DeMarcus Lawrence",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T00:26Z",
-     "note": "questionable"
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "TB": {
    "adj_points": 0.12,
@@ -794,17 +726,8 @@
      "note": "Moore (knee) is questionable to return to Sunday's game against the Cowboys."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Cor'Dale Flott",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T01:44Z",
-     "note": "Flott (neck) did not participate in Wednesday's practice, Turron Davenport of ESPN.com reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "WAS": {
    "adj_points": 0.36,
