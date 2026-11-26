@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-11-26T19:30:40.175607+00:00",
+  "built_at": "2026-11-26T20:30:44.128079+00:00",
   "nfl_history_games": 5595,
   "cfb_history_games": 3730,
   "games": 95
@@ -18,6 +18,13 @@
      "book": "lowvig",
      "side": "home",
      "home_line": -8.5,
+     "price": -103,
+     "ev": -0.0048
+    },
+    {
+     "book": "betmgm",
+     "side": "home",
+     "home_line": -8.5,
      "price": -105,
      "ev": -0.0141
     },
@@ -27,13 +34,6 @@
      "home_line": -8.5,
      "price": -106,
      "ev": -0.0186
-    },
-    {
-     "book": "betmgm",
-     "side": "away",
-     "home_line": -8.5,
-     "price": -102,
-     "ev": -0.0196
     }
    ]
   },
@@ -74,28 +74,28 @@
    "matchup": "Denver Broncos @ Pittsburgh Steelers",
    "kickoff_pt": "Fri Nov 27 12:00 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -4.7,
+   "fair_home_margin": -4.9,
    "best": [
     {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 4.0,
-     "price": -102,
-     "ev": 0.0114
-    },
-    {
-     "book": "espnbet",
+     "book": "draftkings",
      "side": "home",
      "home_line": 4.5,
-     "price": -105,
-     "ev": -0.0076
+     "price": 101,
+     "ev": 0.0013
     },
     {
      "book": "betrivers",
      "side": "away",
      "home_line": 4.0,
-     "price": -108,
-     "ev": -0.0154
+     "price": -113,
+     "ev": -0.0163
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": 4.5,
+     "price": -103,
+     "ev": -0.0182
     }
    ]
   },
@@ -184,11 +184,11 @@
      "ev": -0.0095
     },
     {
-     "book": "espnbet",
+     "book": "draftkings",
      "side": "home",
      "home_line": -10.0,
-     "price": -105,
-     "ev": -0.0095
+     "price": -106,
+     "ev": -0.0138
     }
    ]
   },
@@ -294,13 +294,6 @@
    "fair_home_margin": -0.5,
    "best": [
     {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": 1.0,
-     "price": -109,
-     "ev": 0.0176
-    },
-    {
      "book": "fanduel",
      "side": "away",
      "home_line": 1.5,
@@ -313,6 +306,13 @@
      "home_line": 2.0,
      "price": -102,
      "ev": -0.0197
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 2.0,
+     "price": -108,
+     "ev": -0.0261
     }
    ]
   },
@@ -669,8 +669,8 @@
      "book": "draftkings",
      "side": "home",
      "home_line": 3.0,
-     "price": -109,
-     "ev": 0.0259
+     "price": -110,
+     "ev": 0.0219
     },
     {
      "book": "fanduel",

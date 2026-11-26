@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-26T19:30:38.713855+00:00",
-  "previous_pull": "2026-11-26T17:00:45.167681+00:00",
-  "matched_absences": 67
+  "injury_pull": "2026-11-26T20:30:40.431007+00:00",
+  "previous_pull": "2026-11-26T19:30:38.713855+00:00",
+  "matched_absences": 68
  },
  "teams": {
   "ATL": {
@@ -45,25 +45,8 @@
      "note": "Daniels (Achilles) was limited during Thursday's practice, Tori McElhaney of the Falcons' official site reports."
     }
    ],
-   "delta_since_last_pull": 0.18,
-   "new_absences": [
-    {
-     "player": "Cameron Thomas",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T18:26Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Kendal Daniels",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T18:46Z",
-     "note": "Daniels (Achilles) was limited during Thursday's practice, Tori McElhaney of the Falcons' official site reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "BAL": {
    "adj_points": 0.37,
@@ -158,17 +141,8 @@
      "note": "Loveland (knee) has been ruled out from returning to Thursday's game in Detroit."
     }
    ],
-   "delta_since_last_pull": 0.3,
-   "new_absences": [
-    {
-     "player": "Colston Loveland",
-     "pos": "TE",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-26T18:45Z",
-     "note": "Loveland (knee) has been ruled out from returning to Thursday's game in Detroit."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CLE": {
    "adj_points": 0.66,
@@ -251,7 +225,7 @@
    "new_absences": []
   },
   "DET": {
-   "adj_points": 0.8,
+   "adj_points": 0.86,
    "qb_out": false,
    "absences": [
     {
@@ -269,10 +243,27 @@
      "points": 0.3,
      "updated": "2026-11-26T16:46Z",
      "note": "Clark (hamstring) is inactive for Thursday's clash against Chicago."
+    },
+    {
+     "player": "Malcolm Rodriguez",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-26T20:26Z",
+     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.06,
+   "new_absences": [
+    {
+     "player": "Malcolm Rodriguez",
+     "pos": "LB",
+     "status": "Questionable",
+     "points": 0.06,
+     "updated": "2026-11-26T20:26Z",
+     "note": "questionable"
+    }
+   ]
   },
   "GB": {
    "adj_points": 0.12,
@@ -307,9 +298,17 @@
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.21,
+   "adj_points": 0.33,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Parker Washington",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-26T20:20Z",
+     "note": "questionable"
+    },
     {
      "player": "Jakobi Meyers",
      "pos": "WR",
@@ -327,8 +326,17 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Parker Washington",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-26T20:20Z",
+     "note": "questionable"
+    }
+   ]
   },
   "KC": {
    "adj_points": 0.07,
@@ -443,7 +451,7 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.33,
+   "adj_points": 0.21,
    "qb_out": false,
    "absences": [
     {
@@ -455,14 +463,6 @@
      "note": "questionable"
     },
     {
-     "player": "Tai Felton",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T22:57Z",
-     "note": "Felton (hip) was limited at Wednesday's walkthrough."
-    },
-    {
      "player": "Jalen Redmond",
      "pos": "DL",
      "status": "Questionable",
@@ -471,7 +471,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "NE": {
@@ -579,19 +579,19 @@
    "new_absences": []
   },
   "PIT": {
-   "adj_points": 0.21,
+   "adj_points": 0.25,
    "qb_out": false,
    "absences": [
     {
      "player": "Alex Highsmith",
      "pos": "LB",
-     "status": "Doubtful",
-     "points": 0.21,
-     "updated": "2026-11-23T20:06Z",
-     "note": "Steelers head coach Mike McCarthy suggested Monday that Highsmith (ankle) is likely to be sidelined for Friday's game against the Broncos, Brooke Pryor of ESPN."
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-11-26T19:38Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.04,
    "new_absences": []
   },
   "SF": {
