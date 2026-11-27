@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-11-27T00:01:19.403234+00:00",
+  "built_at": "2026-11-27T00:30:42.102879+00:00",
   "nfl_history_games": 5596,
   "cfb_history_games": 3730,
   "games": 92
@@ -43,28 +43,28 @@
    "matchup": "Denver Broncos @ Pittsburgh Steelers",
    "kickoff_pt": "Fri Nov 27 12:00 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -4.9,
+   "fair_home_margin": -5.2,
    "best": [
-    {
-     "book": "draftkings",
-     "side": "home",
-     "home_line": 4.5,
-     "price": 101,
-     "ev": 0.0013
-    },
     {
      "book": "betrivers",
      "side": "away",
      "home_line": 4.0,
      "price": -113,
-     "ev": -0.0163
+     "ev": 0.0135
     },
     {
-     "book": "pinnacle",
-     "side": "home",
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 5.5,
+     "price": 101,
+     "ev": -0.0016
+    },
+    {
+     "book": "fanduel",
+     "side": "away",
      "home_line": 4.5,
-     "price": -103,
-     "ev": -0.0182
+     "price": -110,
+     "ev": -0.0119
     }
    ]
   },
@@ -108,13 +108,6 @@
    "fair_home_margin": 7.0,
    "best": [
     {
-     "book": "betrivers",
-     "side": "away",
-     "home_line": -7.0,
-     "price": -110,
-     "ev": 0.0013
-    },
-    {
      "book": "lowvig",
      "side": "away",
      "home_line": -7.0,
@@ -127,6 +120,13 @@
      "home_line": -7.0,
      "price": -115,
      "ev": -0.018
+    },
+    {
+     "book": "pinnacle",
+     "side": "home",
+     "home_line": -6.5,
+     "price": -109,
+     "ev": -0.0215
     }
    ]
   },
@@ -270,18 +270,18 @@
      "ev": -0.0072
     },
     {
+     "book": "betrivers",
+     "side": "away",
+     "home_line": 1.5,
+     "price": -113,
+     "ev": -0.0197
+    },
+    {
      "book": "lowvig",
      "side": "home",
      "home_line": 2.0,
      "price": -102,
      "ev": -0.0211
-    },
-    {
-     "book": "lowvig",
-     "side": "away",
-     "home_line": 2.0,
-     "price": -108,
-     "ev": -0.0247
     }
    ]
   },
@@ -638,8 +638,8 @@
      "book": "draftkings",
      "side": "away",
      "home_line": 12.5,
-     "price": -109,
-     "ev": 0.0758
+     "price": -110,
+     "ev": 0.0711
     },
     {
      "book": "lowvig",

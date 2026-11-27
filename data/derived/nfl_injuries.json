@@ -3,8 +3,8 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-27T00:00:37.113485+00:00",
-  "previous_pull": "2026-11-26T23:30:36.105780+00:00",
+  "injury_pull": "2026-11-27T00:30:38.792647+00:00",
+  "previous_pull": "2026-11-27T00:00:37.113485+00:00",
   "matched_absences": 66
  },
  "teams": {
@@ -296,22 +296,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "KC": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Noah Gray",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-25T17:36Z",
-     "note": "Gray (ribs) is listed as questionable for Thursday night's game against the Bills."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "LAC": {
    "adj_points": 1.3,
    "qb_out": false,
@@ -529,9 +513,17 @@
    "new_absences": []
   },
   "PHI": {
-   "adj_points": 0.39,
+   "adj_points": 0.69,
    "qb_out": false,
    "absences": [
+    {
+     "player": "Marcus Epps",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-27T00:13Z",
+     "note": "Epps (foot) has been ruled out for the remainder of Philadelphia's matchup versus the Cowboys on Thursday, Mike Kaye of ESPN.com reports."
+    },
     {
      "player": "Dallas Goedert",
      "pos": "TE",
@@ -549,8 +541,17 @@
      "note": "DeJean has entered the league's concussion protocol and has been ruled out for the rest of Thursday's game against the Cowboys."
     }
    ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
+   "delta_since_last_pull": 0.3,
+   "new_absences": [
+    {
+     "player": "Marcus Epps",
+     "pos": "S",
+     "status": "Out",
+     "points": 0.3,
+     "updated": "2026-11-27T00:13Z",
+     "note": "Epps (foot) has been ruled out for the remainder of Philadelphia's matchup versus the Cowboys on Thursday, Mike Kaye of ESPN.com reports."
+    }
+   ]
   },
   "PIT": {
    "adj_points": 0.25,
@@ -744,7 +745,7 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "BUF": {
+  "KC": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
