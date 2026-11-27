@@ -34890,7 +34890,7 @@
    "line": 6.5,
    "price": -102,
    "book": "draftkings",
-   "why": "Pinnacle makes Cardinals +6.5; DraftKings has +6.5 (-102). Our NFL model makes Cardinals +0.5, 5.7 pts better than the market.",
+   "why": "Pinnacle makes Cardinals +6.5; DraftKings has +6.5 (-102). Our NFL model makes Cardinals +0.5, 6.0 pts better than the market. WAS is without Amik Robertson (CB, out); injuries are worth ~0.4 pts to them by our injury model.",
    "flags": []
   }
  },
@@ -35330,7 +35330,16 @@
   "flags": [
    "college injuries not checked yet"
   ],
-  "inj_check": null,
+  "inj_check": {
+   "at": "2026-11-27T19:55Z",
+   "text": "WVU QB Hawkins doubtful (Fox likely starts) but line moved 20.5 to 26.5 since his Nov 21 injury; Utah healthy.",
+   "hold": false,
+   "opp_out": false,
+   "sources": [
+    "https://www.heartlandcollegesports.com/2026/11/27/west-virginia-vs-utah-prediction-odds-injury-report-for-week-13/",
+    "https://www.heartlandcollegesports.com/2026/11/27/west-virginia-vs-utah-prediction-odds-injury-report-for-week-13/"
+   ]
+  },
   "held": false,
   "odds_pulled_at": "2026-11-27T15:00:33.700654+00:00",
   "published_at": "2026-11-27T15:01:55.246715+00:00",
@@ -35351,7 +35360,15 @@
    "ev_pct": 2.45,
    "confidence": 53.7
   },
-  "scout": null,
+  "scout": {
+   "verdict": "agree",
+   "reason": "WVU QB Hawkins doubtful (ankle, hurt Nov 21) but line already moved 20.5 to 26.5; Utah healthy, calm weather.",
+   "at": "2026-11-27T19:55Z",
+   "sources": [
+    "https://www.heartlandcollegesports.com/2026/11/27/west-virginia-vs-utah-prediction-odds-injury-report-for-week-13/",
+    "https://thesharpedition.com/cfb/games/CFB2026_13_west-virginia_utah"
+   ]
+  },
   "latest": {
    "tier": "lean",
    "ev_pct": 2.45,
@@ -35360,9 +35377,7 @@
    "price": -110,
    "book": "fanduel",
    "why": "Pinnacle makes West Virginia +26; FanDuel has +26.5 (-110). The line opened +20.5 and has moved toward Utah.",
-   "flags": [
-    "college injuries not checked yet"
-   ]
+   "flags": []
   }
  }
 }
