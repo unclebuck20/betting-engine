@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built_at": "2026-11-27T15:01:51.776418+00:00",
+  "built_at": "2026-11-27T16:00:38.444003+00:00",
   "nfl_history_games": 5598,
   "cfb_history_games": 3730,
   "games": 95
@@ -824,22 +824,22 @@
      "book": "lowvig",
      "side": "home",
      "home_line": -3.5,
-     "price": -106,
-     "ev": -0.015
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": -3.5,
-     "price": -108,
-     "ev": -0.0238
+     "price": -107,
+     "ev": -0.0195
     },
     {
      "book": "pinnacle",
-     "side": "away",
+     "side": "home",
      "home_line": -3.5,
-     "price": -103,
-     "ev": -0.0281
+     "price": -107,
+     "ev": -0.0195
+    },
+    {
+     "book": "draftkings",
+     "side": "home",
+     "home_line": -3.5,
+     "price": -110,
+     "ev": -0.0324
     }
    ]
   },
@@ -851,13 +851,6 @@
    "fair_source": "pinnacle",
    "fair_home_margin": 18.4,
    "best": [
-    {
-     "book": "fanduel",
-     "side": "away",
-     "home_line": -17.5,
-     "price": -104,
-     "ev": -0.0071
-    },
     {
      "book": "betrivers",
      "side": "away",
@@ -871,6 +864,13 @@
      "home_line": -17.5,
      "price": -108,
      "ev": -0.0251
+    },
+    {
+     "book": "hardrockbet",
+     "side": "away",
+     "home_line": -18.5,
+     "price": -115,
+     "ev": -0.0302
     }
    ]
   },
@@ -915,10 +915,10 @@
    "best": [
     {
      "book": "lowvig",
-     "side": "away",
+     "side": "home",
      "home_line": 3.0,
-     "price": -106,
-     "ev": -0.0041
+     "price": 101,
+     "ev": -0.0185
     },
     {
      "book": "betonlineag",
@@ -945,18 +945,18 @@
    "fair_home_margin": -0.7,
    "best": [
     {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": 1.5,
-     "price": -105,
-     "ev": -0.0059
-    },
-    {
      "book": "betrivers",
      "side": "away",
      "home_line": -1.0,
      "price": -113,
      "ev": -0.0083
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 1.0,
+     "price": -104,
+     "ev": -0.0104
     },
     {
      "book": "hardrockbet",
@@ -1007,6 +1007,13 @@
    "fair_home_margin": -6.5,
    "best": [
     {
+     "book": "espnbet",
+     "side": "home",
+     "home_line": 6.5,
+     "price": -105,
+     "ev": -0.0056
+    },
+    {
      "book": "lowvig",
      "side": "home",
      "home_line": 6.5,
@@ -1014,18 +1021,11 @@
      "ev": -0.0102
     },
     {
-     "book": "hardrockbet",
+     "book": "pinnacle",
      "side": "home",
      "home_line": 6.5,
-     "price": -110,
-     "ev": -0.0277
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 6.5,
-     "price": -110,
-     "ev": -0.0277
+     "price": -109,
+     "ev": -0.0234
     }
    ]
   },
@@ -1038,18 +1038,18 @@
    "fair_home_margin": 20.0,
    "best": [
     {
-     "book": "betonlineag",
-     "side": "away",
-     "home_line": -19.5,
-     "price": -104,
-     "ev": -0.0102
-    },
-    {
      "book": "lowvig",
      "side": "away",
-     "home_line": -19.5,
-     "price": -106,
-     "ev": -0.0194
+     "home_line": -20.0,
+     "price": 100,
+     "ev": 0.0168
+    },
+    {
+     "book": "betonlineag",
+     "side": "away",
+     "home_line": -20.0,
+     "price": -104,
+     "ev": -0.0026
     },
     {
      "book": "betmgm",
@@ -1069,6 +1069,13 @@
    "fair_home_margin": -9.2,
    "best": [
     {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": 8.5,
+     "price": -105,
+     "ev": -0.0072
+    },
+    {
      "book": "pinnacle",
      "side": "home",
      "home_line": 7.5,
@@ -1081,13 +1088,6 @@
      "home_line": 8.0,
      "price": -106,
      "ev": -0.0257
-    },
-    {
-     "book": "fanduel",
-     "side": "home",
-     "home_line": 8.5,
-     "price": -110,
-     "ev": -0.0292
     }
    ]
   },
@@ -1100,25 +1100,25 @@
    "fair_home_margin": 6.3,
    "best": [
     {
-     "book": "hardrockbet",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -110,
-     "ev": 0.0103
-    },
-    {
      "book": "betrivers",
-     "side": "home",
-     "home_line": -6.5,
-     "price": -114,
-     "ev": -0.0066
-    },
-    {
-     "book": "fanduel",
      "side": "home",
      "home_line": -6.5,
      "price": -115,
      "ev": -0.0106
+    },
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": -6.5,
+     "price": -115,
+     "ev": -0.0106
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": -6.5,
+     "price": 109,
+     "ev": -0.016
     }
    ]
   },
@@ -1128,28 +1128,28 @@
    "matchup": "Minnesota Golden Gophers @ Wisconsin Badgers",
    "kickoff_pt": "Fri Nov 27 4:30 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": 8.2,
+   "fair_home_margin": 8.5,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
      "home_line": -9.5,
      "price": -106,
-     "ev": 0.0145
+     "ev": -0.0024
     },
     {
      "book": "fanduel",
      "side": "away",
      "home_line": -9.5,
      "price": -110,
-     "ev": -0.0034
+     "ev": -0.02
     },
     {
      "book": "espnbet",
      "side": "away",
      "home_line": -9.5,
      "price": -110,
-     "ev": -0.0034
+     "ev": -0.02
     }
    ]
   },
@@ -1162,6 +1162,13 @@
    "fair_home_margin": -12.9,
    "best": [
     {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": 11.5,
+     "price": -105,
+     "ev": 0.0072
+    },
+    {
      "book": "pinnacle",
      "side": "home",
      "home_line": 10.5,
@@ -1169,18 +1176,11 @@
      "ev": 0.0028
     },
     {
-     "book": "lowvig",
+     "book": "betrivers",
      "side": "home",
-     "home_line": 11.5,
-     "price": -111,
-     "ev": -0.0194
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": 11.0,
-     "price": -108,
-     "ev": -0.0222
+     "home_line": 12.5,
+     "price": -118,
+     "ev": -0.0165
     }
    ]
   },
@@ -1258,15 +1258,8 @@
      "book": "hardrockbet",
      "side": "home",
      "home_line": -24.5,
-     "price": -105,
-     "ev": 0.0307
-    },
-    {
-     "book": "betrivers",
-     "side": "home",
-     "home_line": -24.0,
-     "price": -112,
-     "ev": 0.027
+     "price": -110,
+     "ev": 0.0078
     },
     {
      "book": "lowvig",
@@ -1274,6 +1267,13 @@
      "home_line": -25.0,
      "price": -106,
      "ev": -0.0054
+    },
+    {
+     "book": "fanduel",
+     "side": "home",
+     "home_line": -24.5,
+     "price": -115,
+     "ev": -0.0131
     }
    ]
   },
@@ -1386,18 +1386,18 @@
      "ev": -0.0171
     },
     {
-     "book": "pinnacle",
+     "book": "draftkings",
      "side": "away",
-     "home_line": -10.0,
-     "price": -102,
-     "ev": -0.0281
+     "home_line": -10.5,
+     "price": -110,
+     "ev": -0.0182
     },
     {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -10.0,
+     "book": "betmgm",
+     "side": "away",
+     "home_line": -10.5,
      "price": -112,
-     "ev": -0.0331
+     "ev": -0.0266
     }
    ]
   },
@@ -1417,18 +1417,18 @@
      "ev": -0.0152
     },
     {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": -5.0,
-     "price": -106,
-     "ev": -0.0158
-    },
-    {
      "book": "hardrockbet",
      "side": "away",
      "home_line": -5.5,
      "price": -105,
      "ev": -0.0198
+    },
+    {
+     "book": "pinnacle",
+     "side": "away",
+     "home_line": -5.5,
+     "price": -106,
+     "ev": -0.0243
     }
    ]
   },
@@ -1562,28 +1562,28 @@
    "matchup": "Florida Atlantic Owls @ East Carolina Pirates",
    "kickoff_pt": "Sat Nov 28 10:00 AM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": 0.5,
+   "fair_home_margin": 0.4,
    "best": [
-    {
-     "book": "hardrockbet",
-     "side": "home",
-     "home_line": 1.5,
-     "price": -120,
-     "ev": -0.0154
-    },
     {
      "book": "fanduel",
      "side": "away",
      "home_line": -1.5,
      "price": -106,
-     "ev": -0.0168
+     "ev": -0.0122
     },
     {
-     "book": "lowvig",
+     "book": "espnbet",
      "side": "home",
-     "home_line": -1.0,
-     "price": -107,
-     "ev": -0.0262
+     "home_line": -1.5,
+     "price": 100,
+     "ev": -0.0165
+    },
+    {
+     "book": "hardrockbet",
+     "side": "home",
+     "home_line": 1.5,
+     "price": -120,
+     "ev": -0.0191
     }
    ]
   },
@@ -1627,25 +1627,25 @@
    "fair_home_margin": -6.1,
    "best": [
     {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": 4.5,
+     "price": -105,
+     "ev": 0.0056
+    },
+    {
+     "book": "lowvig",
+     "side": "away",
+     "home_line": 5.5,
+     "price": -101,
+     "ev": -0.0085
+    },
+    {
      "book": "hardrockbet",
      "side": "away",
      "home_line": 4.5,
      "price": -110,
      "ev": -0.0167
-    },
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": 5.5,
-     "price": -105,
-     "ev": -0.0203
-    },
-    {
-     "book": "lowvig",
-     "side": "home",
-     "home_line": 5.5,
-     "price": -106,
-     "ev": -0.0248
     }
    ]
   },
@@ -1720,13 +1720,6 @@
    "fair_home_margin": 18.1,
    "best": [
     {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": -16.5,
-     "price": -115,
-     "ev": -0.0104
-    },
-    {
      "book": "hardrockbet",
      "side": "away",
      "home_line": -17.5,
@@ -1739,6 +1732,13 @@
      "home_line": -17.0,
      "price": -101,
      "ev": -0.0189
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": -17.5,
+     "price": -112,
+     "ev": -0.025
     }
    ]
   },
@@ -1758,18 +1758,18 @@
      "ev": -0.0205
     },
     {
-     "book": "pinnacle",
+     "book": "betmgm",
      "side": "away",
      "home_line": -2.5,
      "price": -108,
      "ev": -0.0293
     },
     {
-     "book": "lowvig",
-     "side": "home",
+     "book": "pinnacle",
+     "side": "away",
      "home_line": -2.5,
-     "price": -106,
-     "ev": -0.0361
+     "price": -108,
+     "ev": -0.0293
     }
    ]
   },
@@ -1844,6 +1844,13 @@
    "fair_home_margin": 4.9,
    "best": [
     {
+     "book": "espnbet",
+     "side": "away",
+     "home_line": -4.5,
+     "price": -110,
+     "ev": -0.0142
+    },
+    {
      "book": "lowvig",
      "side": "away",
      "home_line": -4.0,
@@ -1856,13 +1863,6 @@
      "home_line": -3.5,
      "price": -110,
      "ev": -0.0232
-    },
-    {
-     "book": "betmgm",
-     "side": "home",
-     "home_line": -4.0,
-     "price": -105,
-     "ev": -0.0277
     }
    ]
   },
@@ -2306,28 +2306,28 @@
    "matchup": "USC Trojans @ UCLA Bruins",
    "kickoff_pt": "Sat Nov 28 12:30 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": -7.1,
+   "fair_home_margin": -6.3,
    "best": [
     {
      "book": "lowvig",
      "side": "away",
-     "home_line": 6.5,
-     "price": -103,
-     "ev": -0.0021
-    },
-    {
-     "book": "espnbet",
-     "side": "home",
-     "home_line": 6.5,
-     "price": 100,
-     "ev": -0.0126
+     "home_line": 4.5,
+     "price": -106,
+     "ev": 0.0117
     },
     {
      "book": "betonlineag",
      "side": "away",
-     "home_line": 6.5,
-     "price": -107,
-     "ev": -0.0205
+     "home_line": 4.5,
+     "price": -110,
+     "ev": -0.0062
+    },
+    {
+     "book": "draftkings",
+     "side": "away",
+     "home_line": 4.5,
+     "price": -115,
+     "ev": -0.0268
     }
    ]
   },
@@ -2664,11 +2664,11 @@
      "ev": -0.0227
     },
     {
-     "book": "betrivers",
+     "book": "lowvig",
      "side": "away",
-     "home_line": -14.0,
-     "price": -114,
-     "ev": -0.0249
+     "home_line": -13.0,
+     "price": -101,
+     "ev": -0.0272
     }
    ]
   },
@@ -2680,6 +2680,13 @@
    "fair_source": "pinnacle",
    "fair_home_margin": 7.6,
    "best": [
+    {
+     "book": "espnbet",
+     "side": "home",
+     "home_line": -7.5,
+     "price": 100,
+     "ev": 0.0021
+    },
     {
      "book": "lowvig",
      "side": "home",
@@ -2693,13 +2700,6 @@
      "home_line": -8.5,
      "price": -115,
      "ev": -0.0179
-    },
-    {
-     "book": "betonlineag",
-     "side": "home",
-     "home_line": -7.5,
-     "price": -105,
-     "ev": -0.0218
     }
    ]
   },
@@ -2740,28 +2740,28 @@
    "matchup": "Baylor Bears @ Houston Cougars",
    "kickoff_pt": "Sat Nov 28 6:30 PM PST",
    "fair_source": "pinnacle",
-   "fair_home_margin": 5.3,
+   "fair_home_margin": 4.7,
    "best": [
     {
-     "book": "espnbet",
-     "side": "home",
+     "book": "hardrockbet",
+     "side": "away",
      "home_line": -4.5,
-     "price": -105,
-     "ev": -0.0158
+     "price": -110,
+     "ev": 0.0042
     },
     {
      "book": "lowvig",
      "side": "home",
-     "home_line": -4.5,
-     "price": -106,
-     "ev": -0.0203
+     "home_line": -3.5,
+     "price": -101,
+     "ev": -0.0006
     },
     {
-     "book": "pinnacle",
-     "side": "home",
-     "home_line": -5.0,
-     "price": -103,
-     "ev": -0.0226
+     "book": "betrivers",
+     "side": "away",
+     "home_line": -4.0,
+     "price": -109,
+     "ev": -0.0172
     }
    ]
   },
