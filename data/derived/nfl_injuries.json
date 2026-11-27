@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-27T20:00:42.373265+00:00",
-  "previous_pull": "2026-11-27T19:47:51.163632+00:00",
-  "matched_absences": 64
+  "injury_pull": "2026-11-27T21:00:42.309530+00:00",
+  "previous_pull": "2026-11-27T20:00:42.373265+00:00",
+  "matched_absences": 61
  },
  "teams": {
   "ATL": {
@@ -45,7 +45,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.23,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "CAR": {
@@ -58,15 +58,15 @@
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-27T18:33Z",
-     "note": "Updating a previous report, McMillan (foot) took part in Friday's team stretch but wasn't in uniform, Joe Person of The Athletic reports."
+     "note": "McMillan (foot) was not in uniform for the team stretch portion of Friday's practice, but he did suit up afterward, Joe Person of The Athletic reports."
     },
     {
      "player": "Tommy Tremble",
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-26T22:18Z",
-     "note": "Tremble (knee) was listed as a limited participant on Thursday's estimated practice report, Mike Kaye of ESPN.com reports."
+     "updated": "2026-11-27T20:51Z",
+     "note": "Tremble (knee) remained a limited participant at practice Friday."
     },
     {
      "player": "Jaelan Phillips",
@@ -111,6 +111,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "CIN": {
+   "adj_points": 0.12,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Tee Higgins",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-27T20:21Z",
+     "note": "After not practicing Friday, Higgins (hamstring) is listed as questionable for Sunday's game against the Saints, Katherine Terrell of ESPN reports."
+    }
+   ],
+   "delta_since_last_pull": 0.12,
+   "new_absences": [
+    {
+     "player": "Tee Higgins",
+     "pos": "WR",
+     "status": "Questionable",
+     "points": 0.12,
+     "updated": "2026-11-27T20:21Z",
+     "note": "After not practicing Friday, Higgins (hamstring) is listed as questionable for Sunday's game against the Saints, Katherine Terrell of ESPN reports."
+    }
+   ]
   },
   "CLE": {
    "adj_points": 0.59,
@@ -337,8 +362,8 @@
      "pos": "TE",
      "status": "Questionable",
      "points": 0.07,
-     "updated": "2026-11-26T03:47Z",
-     "note": "Higbee exited Wednesday's game against the Packers with a chest injury and will not return, Adam Grosbard of The Orange County Register reports."
+     "updated": "2026-11-27T19:53Z",
+     "note": "Higbee (chest) is considered week-to-week, though it is too early to tell if he may be available Thursday, Dec. 3 against the Chiefs, Adam Schefter of ESPN repo"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -369,27 +394,19 @@
    "new_absences": []
   },
   "MIN": {
-   "adj_points": 0.21,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
      "player": "Christian Darrisaw",
      "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T00:15Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Jalen Redmond",
-     "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-26T00:15Z",
-     "note": "questionable"
+     "status": "Out",
+     "points": 0.5,
+     "updated": "2026-11-27T20:11Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.29,
    "new_absences": []
   },
   "NE": {
@@ -403,22 +420,6 @@
      "points": 4.0,
      "updated": "2026-11-23T20:26Z",
      "note": "For now, Maye -- who suffered a fractured right fibula during a Week 10 loss to the Lions -- remains on the Patriots' 53-man roster rather than injured reserve,"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "NO": {
-   "adj_points": 0.07,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "David Edwards",
-     "pos": "G",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-25T22:04Z",
-     "note": "questionable"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -467,22 +468,6 @@
      "points": 0.06,
      "updated": "2026-11-26T01:13Z",
      "note": "Reese (back) was a limited participant in Wednesday's practice, Dan Salomone of the Giants' official site reports."
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "NYJ": {
-   "adj_points": 0.09,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Dylan Parham",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-25T21:07Z",
-     "note": "questionable"
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -657,17 +642,9 @@
    "new_absences": []
   },
   "TB": {
-   "adj_points": 0.18,
+   "adj_points": 0.06,
    "qb_out": false,
    "absences": [
-    {
-     "player": "Jacob Parrish",
-     "pos": "CB",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-27T00:59Z",
-     "note": "Parrish (back) was listed a limited participant in Tampa Bay's practice estimate Thursday."
-    },
     {
      "player": "Josiah Trotter",
      "pos": "LB",
@@ -677,7 +654,7 @@
      "note": "Trotter (oblique) was listed as a limited participant in Tampa Bay's practice estimate Thursday."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "TEN": {
@@ -718,6 +695,20 @@
     }
    ],
    "delta_since_last_pull": 0.0,
+   "new_absences": []
+  },
+  "NO": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.07,
+   "new_absences": []
+  },
+  "NYJ": {
+   "adj_points": 0.0,
+   "qb_out": false,
+   "absences": [],
+   "delta_since_last_pull": -0.09,
    "new_absences": []
   }
  }

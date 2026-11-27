@@ -34984,7 +34984,7 @@
    "line": -5.5,
    "price": -106,
    "book": "draftkings",
-   "why": "Pinnacle makes Jets -5.5; DraftKings has -5.5 (-106). Our NFL model makes Jets -3.5, 2.0 pts worse than the market.",
+   "why": "Pinnacle makes Jets -5.5; DraftKings has -5.5 (-106). Our NFL model makes Jets -3.5, 1.9 pts worse than the market.",
    "flags": []
   }
  },
@@ -35343,22 +35343,28 @@
   "held": false,
   "odds_pulled_at": "2026-11-27T15:00:33.700654+00:00",
   "published_at": "2026-11-27T15:01:55.246715+00:00",
-  "status": "live",
+  "status": "moved",
   "history": [
    [
     "2026-11-27T15:01:55.246715+00:00",
     26.5,
     -110,
     "fanduel"
+   ],
+   [
+    "2026-11-27T21:01:29.201929+00:00",
+    25.5,
+    -110,
+    "fanduel"
    ]
   ],
   "current": {
-   "line": 26.5,
+   "line": 25.5,
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626042707&selectionId=558822",
-   "ev_pct": 4.85,
-   "confidence": 54.9
+   "ev_pct": -3.53,
+   "confidence": 50.5
   },
   "scout": {
    "verdict": "agree",
@@ -35370,16 +35376,14 @@
    ]
   },
   "latest": {
-   "tier": "lean",
-   "ev_pct": 4.85,
-   "confidence": 54.9,
-   "line": 26.5,
+   "tier": "pass",
+   "ev_pct": -3.53,
+   "confidence": 50.5,
+   "line": 25.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes West Virginia +25.5; FanDuel has +26.5 (-110). The line opened +20.5 and has moved toward Utah.",
-   "flags": [
-    "price edge only; our ratings favor the other side"
-   ]
+   "why": "Pinnacle makes West Virginia +25.5; FanDuel has +25.5 (-110). The line opened +20.5 and has moved toward Utah.",
+   "flags": []
   }
  }
 }
