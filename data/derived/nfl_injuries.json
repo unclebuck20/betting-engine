@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 582,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-27T21:00:42.309530+00:00",
-  "previous_pull": "2026-11-27T20:00:42.373265+00:00",
-  "matched_absences": 61
+  "injury_pull": "2026-11-27T22:30:40.006593+00:00",
+  "previous_pull": "2026-11-27T21:00:42.309530+00:00",
+  "matched_absences": 48
  },
  "teams": {
   "ATL": {
@@ -125,20 +125,11 @@
      "note": "After not practicing Friday, Higgins (hamstring) is listed as questionable for Sunday's game against the Saints, Katherine Terrell of ESPN reports."
     }
    ],
-   "delta_since_last_pull": 0.12,
-   "new_absences": [
-    {
-     "player": "Tee Higgins",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-27T20:21Z",
-     "note": "After not practicing Friday, Higgins (hamstring) is listed as questionable for Sunday's game against the Saints, Katherine Terrell of ESPN reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "CLE": {
-   "adj_points": 0.59,
+   "adj_points": 0.24,
    "qb_out": false,
    "absences": [
     {
@@ -150,47 +141,15 @@
      "note": "Boston (quadriceps) will be listed as questionable for Sunday's game against the Raiders, Scott Petrak of the Elyria Chronicle-Telegram reports."
     },
     {
-     "player": "Isaiah McGuire",
-     "pos": "DE",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T01:58Z",
-     "note": "McGuire (calf) did not participate in Wednesday's practice, Ryan McFadden of ESPN.com reports."
-    },
-    {
      "player": "Austin Barber",
      "pos": "T",
      "status": "Questionable",
      "points": 0.12,
      "updated": "2026-11-25T22:38Z",
      "note": "questionable"
-    },
-    {
-     "player": "Elgton Jenkins",
-     "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-25T22:39Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Ronnie Hickman",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-26T01:52Z",
-     "note": "Hickman (concussion) logged a full practice Wednesday, Ryan McFadden of ESPN.com reports."
-    },
-    {
-     "player": "Quincy Williams",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T02:05Z",
-     "note": "Williams (knee) was a limited participant in Wednesday's practice, Ryan McFadden of ESPN.com reports."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.35,
    "new_absences": []
   },
   "DEN": {
@@ -250,23 +209,23 @@
    "new_absences": []
   },
   "HOU": {
-   "adj_points": 0.1,
+   "adj_points": 0.4,
    "qb_out": false,
    "absences": [
     {
      "player": "Keylan Rutledge",
      "pos": "C",
-     "status": "Questionable",
-     "points": 0.1,
-     "updated": "2026-11-20T04:23Z",
-     "note": "Rutledge (stinger) was deemed questionable to return near the end of Thursday's 26-3 win against Indianapolis and didn't end up re-entering the game."
+     "status": "Out",
+     "points": 0.4,
+     "updated": "2026-11-27T20:56Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.3,
    "new_absences": []
   },
   "JAX": {
-   "adj_points": 0.71,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -276,38 +235,30 @@
      "points": 0.5,
      "updated": "2026-11-27T15:44Z",
      "note": "Washington (shoulder) will be out for Sunday's game against the Titans and is considered week-to-week moving forward, Demetrius Harvey of the Florida Times-Unio"
-    },
-    {
-     "player": "Jakobi Meyers",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T21:19Z",
-     "note": "Meyers was a limited participant in Wednesday's practice due to an ankle injury."
-    },
-    {
-     "player": "Cole Van Lanen",
-     "pos": "OL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-25T21:19Z",
-     "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.21,
    "new_absences": []
   },
   "LAC": {
-   "adj_points": 1.3,
-   "qb_out": false,
+   "adj_points": 4.49,
+   "qb_out": true,
    "absences": [
     {
      "player": "Justin Herbert",
      "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-26T21:00Z",
-     "note": "Herbert (concussion) was officially deemed a non-participant in Thursday's practice."
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-27T22:19Z",
+     "note": "out"
+    },
+    {
+     "player": "Daiyan Henley",
+     "pos": "LB",
+     "status": "Out",
+     "points": 0.25,
+     "updated": "2026-11-27T22:19Z",
+     "note": "out"
     },
     {
      "player": "Tarheeb Still",
@@ -332,17 +283,9 @@
      "points": 0.06,
      "updated": "2026-11-26T02:30Z",
      "note": "Tuipulotu (ankle) did not participate in Wednesday's practice."
-    },
-    {
-     "player": "Daiyan Henley",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T02:07Z",
-     "note": "Henley (knee) did not participate in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 3.19,
    "new_absences": []
   },
   "LA": {
@@ -369,30 +312,6 @@
    "delta_since_last_pull": 0.0,
    "new_absences": []
   },
-  "MIA": {
-   "adj_points": 0.19,
-   "qb_out": false,
-   "absences": [
-    {
-     "player": "Austin Jackson",
-     "pos": "T",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-25T21:29Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Dante Trader Jr.",
-     "pos": "S",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-24T12:39Z",
-     "note": "questionable"
-    }
-   ],
-   "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
   "MIN": {
    "adj_points": 0.5,
    "qb_out": false,
@@ -406,7 +325,7 @@
      "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.29,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "NE": {
@@ -426,7 +345,7 @@
    "new_absences": []
   },
   "NYG": {
-   "adj_points": 0.78,
+   "adj_points": 0.85,
    "qb_out": false,
    "absences": [
     {
@@ -440,37 +359,13 @@
     {
      "player": "Shelby Harris",
      "pos": "DL",
-     "status": "Questionable",
-     "points": 0.09,
-     "updated": "2026-11-25T21:14Z",
-     "note": "questionable"
-    },
-    {
-     "player": "Isaiah Likely",
-     "pos": "TE",
-     "status": "Questionable",
-     "points": 0.07,
-     "updated": "2026-11-26T21:09Z",
-     "note": "Likely (groin) was listed as limited on Thursday's practice report, Dan Salomone of the Giants' official site reports."
-    },
-    {
-     "player": "Abdul Carter",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T23:09Z",
-     "note": "Carter (calf/illness) did not participate in Thursday's practice, Pat Leonard of the New York Daily News reports."
-    },
-    {
-     "player": "Arvell Reese",
-     "pos": "LB",
-     "status": "Questionable",
-     "points": 0.06,
-     "updated": "2026-11-26T01:13Z",
-     "note": "Reese (back) was a limited participant in Wednesday's practice, Dan Salomone of the Giants' official site reports."
+     "status": "Out",
+     "points": 0.35,
+     "updated": "2026-11-27T21:35Z",
+     "note": "out"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 0.07,
    "new_absences": []
   },
   "PHI": {
@@ -530,16 +425,16 @@
    "new_absences": []
   },
   "SF": {
-   "adj_points": 1.74,
-   "qb_out": false,
+   "adj_points": 4.74,
+   "qb_out": true,
    "absences": [
     {
      "player": "Brock Purdy",
      "pos": "QB",
-     "status": "Questionable",
-     "points": 1.0,
-     "updated": "2026-11-26T22:01Z",
-     "note": "Purdy (ankle) was listed as a non-participant on Thursday's injury report, Eric Branch of the San Francisco Chronicle reports."
+     "status": "Out",
+     "points": 4.0,
+     "updated": "2026-11-27T22:23Z",
+     "note": "out"
     },
     {
      "player": "Colton McKivitz",
@@ -582,11 +477,11 @@
      "note": "Greenlaw (neck) was a limited participant in Wednesday's practice."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": 3.0,
    "new_absences": []
   },
   "SEA": {
-   "adj_points": 1.81,
+   "adj_points": 1.69,
    "qb_out": false,
    "absences": [
     {
@@ -604,14 +499,6 @@
      "points": 0.5,
      "updated": "2026-11-26T00:44Z",
      "note": "Lucas (ankle) has been ruled out for Sunday's game against the 49ers, Brady Henderson of ESPN.com reports."
-    },
-    {
-     "player": "Jaxon Smith-Njigba",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T22:14Z",
-     "note": "Smith-Njigba (ankle) was listed as limited on Thursday's injury report, Bob Condotta of The Seattle Times reports."
     },
     {
      "player": "Anthony Bradford",
@@ -638,7 +525,7 @@
      "note": "questionable"
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
   "TB": {
@@ -654,7 +541,7 @@
      "note": "Trotter (oblique) was listed as a limited participant in Tampa Bay's practice estimate Thursday."
     }
    ],
-   "delta_since_last_pull": -0.12,
+   "delta_since_last_pull": 0.0,
    "new_absences": []
   },
   "TEN": {
@@ -674,7 +561,7 @@
    "new_absences": []
   },
   "WAS": {
-   "adj_points": 0.62,
+   "adj_points": 0.5,
    "qb_out": false,
    "absences": [
     {
@@ -684,31 +571,16 @@
      "points": 0.5,
      "updated": "2026-11-27T19:17Z",
      "note": "out"
-    },
-    {
-     "player": "Treylon Burks",
-     "pos": "WR",
-     "status": "Questionable",
-     "points": 0.12,
-     "updated": "2026-11-26T20:35Z",
-     "note": "Burks (foot) was listed as limited on Thursday's injury report."
     }
    ],
-   "delta_since_last_pull": 0.0,
+   "delta_since_last_pull": -0.12,
    "new_absences": []
   },
-  "NO": {
+  "MIA": {
    "adj_points": 0.0,
    "qb_out": false,
    "absences": [],
-   "delta_since_last_pull": -0.07,
-   "new_absences": []
-  },
-  "NYJ": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.09,
+   "delta_since_last_pull": -0.19,
    "new_absences": []
   }
  }
