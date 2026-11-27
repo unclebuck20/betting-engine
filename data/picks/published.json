@@ -33811,7 +33811,7 @@
   ],
   "odds_pulled_at": "2026-11-22T17:00:30.085548+00:00",
   "published_at": "2026-11-22T17:01:27.293788+00:00",
-  "status": "faded",
+  "status": "started",
   "history": [
    [
     "2026-11-22T17:01:27.293788+00:00",
@@ -35357,8 +35357,8 @@
    "price": -110,
    "book": "fanduel",
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626042707&selectionId=558822",
-   "ev_pct": 2.45,
-   "confidence": 53.7
+   "ev_pct": 4.85,
+   "confidence": 54.9
   },
   "scout": {
    "verdict": "agree",
@@ -35371,13 +35371,15 @@
   },
   "latest": {
    "tier": "lean",
-   "ev_pct": 2.45,
-   "confidence": 53.7,
+   "ev_pct": 4.85,
+   "confidence": 54.9,
    "line": 26.5,
    "price": -110,
    "book": "fanduel",
-   "why": "Pinnacle makes West Virginia +26; FanDuel has +26.5 (-110). The line opened +20.5 and has moved toward Utah.",
-   "flags": []
+   "why": "Pinnacle makes West Virginia +25.5; FanDuel has +26.5 (-110). The line opened +20.5 and has moved toward Utah.",
+   "flags": [
+    "price edge only; our ratings favor the other side"
+   ]
   }
  }
 }
