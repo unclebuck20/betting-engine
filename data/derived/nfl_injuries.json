@@ -3,9 +3,9 @@
   "season": 2026,
   "starters_identified": 580,
   "teams_with_qb": 31,
-  "injury_pull": "2026-11-27T00:30:38.792647+00:00",
-  "previous_pull": "2026-11-27T00:00:37.113485+00:00",
-  "matched_absences": 66
+  "injury_pull": "2026-11-27T01:30:34.617878+00:00",
+  "previous_pull": "2026-11-27T00:30:38.792647+00:00",
+  "matched_absences": 67
  },
  "teams": {
   "ATL": {
@@ -191,6 +191,31 @@
    ],
    "delta_since_last_pull": 0.0,
    "new_absences": []
+  },
+  "DAL": {
+   "adj_points": 0.07,
+   "qb_out": false,
+   "absences": [
+    {
+     "player": "Quinnen Williams",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-27T01:10Z",
+     "note": "questionable"
+    }
+   ],
+   "delta_since_last_pull": 0.07,
+   "new_absences": [
+    {
+     "player": "Quinnen Williams",
+     "pos": "DT",
+     "status": "Questionable",
+     "points": 0.07,
+     "updated": "2026-11-27T01:10Z",
+     "note": "questionable"
+    }
+   ]
   },
   "DEN": {
    "adj_points": 0.3,
@@ -541,17 +566,8 @@
      "note": "DeJean has entered the league's concussion protocol and has been ruled out for the rest of Thursday's game against the Cowboys."
     }
    ],
-   "delta_since_last_pull": 0.3,
-   "new_absences": [
-    {
-     "player": "Marcus Epps",
-     "pos": "S",
-     "status": "Out",
-     "points": 0.3,
-     "updated": "2026-11-27T00:13Z",
-     "note": "Epps (foot) has been ruled out for the remainder of Philadelphia's matchup versus the Cowboys on Thursday, Mike Kaye of ESPN.com reports."
-    }
-   ]
+   "delta_since_last_pull": 0.0,
+   "new_absences": []
   },
   "PIT": {
    "adj_points": 0.25,
@@ -690,16 +706,16 @@
      "pos": "CB",
      "status": "Questionable",
      "points": 0.12,
-     "updated": "2026-11-23T20:54Z",
-     "note": "Buccaneers head coach Todd Bowles said that Parrish underwent an MRI on his back Monday, Brianna Dix of the Buccaneers' official site reports."
+     "updated": "2026-11-27T00:59Z",
+     "note": "Parrish (back) was listed a limited participant in Tampa Bay's practice estimate Thursday."
     },
     {
      "player": "Josiah Trotter",
      "pos": "LB",
      "status": "Questionable",
      "points": 0.06,
-     "updated": "2026-11-26T22:17Z",
-     "note": "questionable"
+     "updated": "2026-11-27T00:43Z",
+     "note": "Trotter (oblique) was listed as a limited participant in Tampa Bay's practice estimate Thursday."
     }
    ],
    "delta_since_last_pull": 0.0,
@@ -743,13 +759,6 @@
     }
    ],
    "delta_since_last_pull": 0.0,
-   "new_absences": []
-  },
-  "KC": {
-   "adj_points": 0.0,
-   "qb_out": false,
-   "absences": [],
-   "delta_since_last_pull": -0.07,
    "new_absences": []
   }
  }
